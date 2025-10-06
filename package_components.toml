@@ -1936,6 +1936,7 @@ findlib = "*"
 [JSON_C_jll]
 "0.15.0+0" = {json-c = "0.15"}
 "0.17.0+0" = {json-c = "0.17"}
+"0.18.0+0" = {json-c = "0.18"}
 
 [Jansson_jll]
 "2.13.1+0" = {jansson = "2.13.1"}
@@ -8158,6 +8159,7 @@ xnnpack = "*"
 "5.13.1+1" = {libblastrampoline = "5.13.1"}
 "5.14.0+0" = {libblastrampoline = "5.14.0"}
 "5.14.0+1" = {libblastrampoline = "5.14.0"}
+"5.15.0+0" = {libblastrampoline = "5.15.0"}
 
 [libcbor_jll]
 "0.12.0+0" = {libcbor = "0.12.0"}
