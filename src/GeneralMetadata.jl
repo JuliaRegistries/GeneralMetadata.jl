@@ -84,8 +84,11 @@ function process_commit!(dates, commit)
             if !haskey(dates, pkg)
                 dates[pkg] = Dict{String, Any}()
             end
-            haskey(dates[pkg], ver) && @warn "commit $commit introduced $pkg $ver, but it's already set"
-            dates[pkg][ver] = Dict{String,Any}("registered" => timestamp)
+            if haskey(dates[pkg], ver)
+                @warn "commit $commit introduced $pkg $ver, but it's already set"
+            else
+                dates[pkg][ver] = Dict{String,Any}("registered" => timestamp)
+            end
         end
     else
         fastpath = false
