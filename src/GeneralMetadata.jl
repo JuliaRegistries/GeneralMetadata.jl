@@ -34,11 +34,12 @@ registration_dates() = isassigned(REGISTRATION_DATES) ? REGISTRATION_DATES[] :
 function extract_registration_dates(dates = registration_dates(); after=maximum(Iterators.flatmap(values, Iterators.flatmap(values, values(dates))), init=DateTime("2018-08-08T17:02:39")), before=Dates.now(Dates.UTC))
     # This uses --first-parent to get the _availability_ date on master
     cd(general_repo()) do
-        commits = split(readchomp(`git rev-list --reverse --after=$(after)Z --before=$(before)Z master`), "\n")
+        commits = split(readchomp(`git rev-list --first-parent --reverse --after=$(after)Z --before=$(before)Z master`), "\n")
         N = length(commits)
         @info "processing $(N) commits from $(commits[begin])..$(commits[end])"
+        t = Dates.now()-Hour(1)
         for (i, commit) in enumerate(commits)
-            println("commit: ", commit, " ($i/$N)")
+            (Dates.now()-t) > Second(60) && (println("commit: ", commit, " ($i/$N)"); t = Dates.now())
             process_commit!(dates, commit)
         end
     end
@@ -46,7 +47,7 @@ function extract_registration_dates(dates = registration_dates(); after=maximum(
 end
 
 function extract_single_tag_from_diff(commit)
-    diff = readchomp(`git show $commit -U0 --no-commit-id --no-notes --pretty=""`)
+    diff = readchomp(`git show --first-parent $commit -U0 --no-commit-id --no-notes --pretty=""`)
     # Rather than using a general Diff/TOML parser, this just very specifically parses a known
     # common diff. If we can't match this, then we fall back to checking out and parsing the entire registry.
     regex = r"""
@@ -68,8 +69,7 @@ end
 function process_commit!(dates, commit)
     # First attempt to direclty extract a new tag from the diff directly
     stamp = readchomp(addenv(`git log $commit -1 --format="%cd" --date=iso-strict-local`, "TZ"=>"UTC"))
-    @show stamp
-    timestamp = parse(DateTime, chopsuffix(stamp, r"(?:Z|\+00:00)"))
+    timestamp = parse(DateTime, chopsuffix(chopsuffix(stamp, "+00:00"), "Z"))
     pkg, ver = extract_single_tag_from_diff(commit)
     if haskey(dates, pkg) && !haskey(dates[pkg], ver)
         dates[pkg][string(ver)] = Dict{String,Any}("registered" => timestamp)
