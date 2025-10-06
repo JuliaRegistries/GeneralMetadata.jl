@@ -29,41 +29,94 @@ end
 const REGISTRATION_DATES = Ref{Dict{String, Any}}()
 registration_dates() = isassigned(REGISTRATION_DATES) ? REGISTRATION_DATES[] :
     (REGISTRATION_DATES[] = isfile(joinpath(@__DIR__, "..", "registration_dates.toml")) ?
-        TOML.parsefile(joinpath(general_repo()), "registration_dates.toml") : Dict{String, Any}())
+        TOML.parsefile(joinpath(@__DIR__, "..", "registration_dates.toml")) : Dict{String, Any}())
 
-function extract_registration_dates(dates = registration_dates(); since=maximum(Iterators.flatten(values.(values(dates))), init=DateTime("2018-08-08T23:59:59.999")), upto=Dates.now(Dates.UTC))
+function extract_registration_dates(dates = registration_dates(); after=maximum(Iterators.flatmap(values, Iterators.flatmap(values, values(dates))), init=DateTime("2018-08-08T17:02:39")), before=after + Dates.Year(1))
+    # This uses --first-parent to get the _availability_ date on master
     cd(general_repo()) do
-        store_missing_dates!(dates, before=since, value=Date(since))
-        for day = (DateTime(Date(since) + Day(1)) - Millisecond(1)):Day(1):(DateTime(Date(upto) + Day(1)) - Millisecond(1))
-            store_missing_dates!(dates, before=day, value=Date(day))
+        commits = split(readchomp(`git rev-list --first-parent --reverse --after=$(after)Z --before=$(before)Z master`), "\n")
+        N = length(commits)
+        @info "processing $(N) commits from $(commits[begin])..$(commits[end])"
+        t = Dates.now()-Dates.Hour(1)
+        fastpaths = 0
+        for (i, commit) in enumerate(commits)
+            fastpaths += process_commit!(dates, commit)
+            (Dates.now()-t) > Dates.Second(60) && (println("commit: ", commit, " ($i/$N; $fastpaths/$i fastpaths)"); t = Dates.now())
         end
     end
     return dates
 end
 
-"""
-    store_missing_dates!(dates; before, value)
+function extract_simple_tags_from_diff(commit)
+    # Rather than using a general Diff/TOML parser, this just very specifically parses the typical one-package diff
+    # to Versions.toml. If we can't match this, then we fall back to checking out and parsing the entire registry (slow!).
+    diff = readchomp(`git show --first-parent $commit -U0 --no-commit-id --no-notes --pretty="" -- '*/Versions.toml'`)
+    newlines = findall(==('\n'), diff)
+    positions = [0; newlines[8:8:end]; length(diff)]
+    regex = r"""
+        ^\Qdiff --git a/\E(.*)\Q/Versions.toml b/\E\1\Q/Versions.toml
+        index \E.*\Q
+        --- a/\E\1\Q/Versions.toml
+        +++ b/\E\1\Q/Versions.toml
+        @@ \E.*\Q
+        +
+        +["\E(.*)\Q"]
+        +git-tree-sha1 = "\E.*\Q"\E$"""
+    pkg_vers = Pair{String,String}[]
+    for i in 1:length(positions)-1
+        chunk = SubString(diff, positions[i]+1, positions[i+1])
+        m = match(regex, chunk)
+        isnothing(m) && return nothing
+        path, ver = m.captures
+        push!(pkg_vers, splitpath(path)[end] => ver)
+    end
+    return pkg_vers
+end
 
-Given a registration date structure and within the context of a git repo (as the pwd),
-consider all versions registered before `before` *and not already in `dates` to have a
-registration date of `value`.
-"""
-function store_missing_dates!(dates; before, value)
-    start = strip(read(`git rev-list -n 1 --before=$(before) master`, String))
-    run(`git checkout $start`)
-    reg = TOML.parsefile("Registry.toml")
-    for (uuid, pkginfo) in reg["packages"]
-        pkg = pkginfo["name"]
-        isfile(joinpath(pkginfo["path"], "Versions.toml")) || continue
-        versions = TOML.parsefile(joinpath(pkginfo["path"], "Versions.toml"))
-        if !haskey(dates, pkg)
-            dates[pkg] = Dict{String, Any}()
+function process_commit!(dates, commit)
+    # First attempt to direclty extract a new tag from the diff directly
+    stamp = readchomp(addenv(`git log $commit -1 --format="%cd" --date=iso-strict-local`, "TZ"=>"UTC"))
+    timestamp = parse(DateTime, chopsuffix(chopsuffix(stamp, "+00:00"), "Z"))
+    pkg_vers = extract_simple_tags_from_diff(commit)
+    if !isnothing(pkg_vers)
+        fastpath = true
+        for (pkg, ver) in pkg_vers
+            if !haskey(dates, pkg)
+                dates[pkg] = Dict{String, Any}()
+            end
+            if haskey(dates[pkg], ver) && dates[pkg][ver] != timestamp
+                @warn "commit $commit introduced $pkg $ver, but it's already set to $(dates[pkg][ver])"
+            else
+                dates[pkg][ver] = Dict{String,Any}("registered" => timestamp)
+            end
         end
-        for ver in keys(versions)
-            haskey(dates[pkg], ver) && continue
-            dates[pkg][string(ver)] = Date(value)
+    else
+        fastpath = false
+        # Checkout the entire state of the repo at this commit
+        run(pipeline(`git checkout $commit`, stdout=Base.devnull, stderr=Base.devnull))
+        reg = TOML.parsefile("Registry.toml")
+        for (uuid, pkginfo) in reg["packages"]
+            pkg = pkginfo["name"]
+            isfile(joinpath(pkginfo["path"], "Versions.toml")) || continue
+            versions = TOML.parsefile(joinpath(pkginfo["path"], "Versions.toml"))
+            if !haskey(dates, pkg)
+                dates[pkg] = Dict{String, Any}()
+            end
+            for (ver, info) in versions
+                isempty(info) && continue # There has been at least one time when a corrupted entry was commited (a60167d6c29b433119d6fbf051a733fa465e6ae7)
+                if !haskey(dates[pkg], ver)
+                    dates[pkg][string(ver)] = Dict{String, Any}()
+                end
+                if !haskey(dates[pkg][string(ver)], "registered")
+                    dates[pkg][string(ver)]["registered"] = timestamp
+                end
+                if get(info, "yanked", false) && !haskey(dates[pkg][string(ver)], "yanked")
+                    dates[pkg][string(ver)]["yanked"] = timestamp
+                end
+            end
         end
     end
+    return fastpath
 end
 
 end
