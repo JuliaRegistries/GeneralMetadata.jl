@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  update-jll-metadata:
+  update-registration-dates:
     runs-on: ubuntu-latest
 
     steps:
