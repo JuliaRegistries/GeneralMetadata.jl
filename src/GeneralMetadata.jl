@@ -67,7 +67,9 @@ end
 
 function process_commit!(dates, commit)
     # First attempt to direclty extract a new tag from the diff directly
-    timestamp = parse(DateTime, chopsuffix(readchomp(addenv(`git log $commit -1 --format="%cd" --date=iso-strict-local`, "TZ"=>"UTC")), "+00:00"))
+    stamp = readchomp(addenv(`git log $commit -1 --format="%cd" --date=iso-strict-local`, "TZ"=>"UTC"))
+    @show stamp
+    timestamp = parse(DateTime, chopsuffix(stamp, r"(?:Z|\+00:00)"))
     pkg, ver = extract_single_tag_from_diff(commit)
     if haskey(dates, pkg) && !haskey(dates[pkg], ver)
         dates[pkg][string(ver)] = Dict{String,Any}("registered" => timestamp)
