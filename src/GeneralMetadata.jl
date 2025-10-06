@@ -84,8 +84,8 @@ function process_commit!(dates, commit)
             if !haskey(dates, pkg)
                 dates[pkg] = Dict{String, Any}()
             end
-            if haskey(dates[pkg], ver) && dates[pkg][ver] != timestamp
-                @warn "commit $commit introduced $pkg $ver, but it's already set to $(dates[pkg][ver])"
+            if haskey(dates[pkg], ver) && dates[pkg][ver]["registered"] != timestamp
+                @warn "commit $commit ($timestamp) introduced $pkg $ver, but it's already set to $(dates[pkg][ver]["registered"])"
             else
                 dates[pkg][ver] = Dict{String,Any}("registered" => timestamp)
             end
