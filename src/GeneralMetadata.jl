@@ -35,7 +35,10 @@ function extract_registration_dates(dates = registration_dates(); after=maximum(
     # This uses --first-parent to get the _availability_ date on master
     cd(general_repo()) do
         commits = split(readchomp(`git rev-list --reverse --after=$(after)Z --before=$(before)Z master`), "\n")
-        for commit in commits
+        N = length(commits)
+        @info "processing $(N) commits from $(commits[begin])..$(commits[end])"
+        for (i, commit) in enumerate(commits)
+            println("commit: ", commit, " ($i/$N)")
             process_commit!(dates, commit)
         end
     end
@@ -70,7 +73,7 @@ function process_commit!(dates, commit)
         dates[pkg][string(ver)] = Dict{String,Any}("registered" => timestamp)
     else
         # Checkout the entire state of the repo at this commit
-        run(`git checkout $commit`)
+        run(pipeline(`git checkout $commit`, stdout=Base.devnull, stderr=Base.devnull))
         reg = TOML.parsefile("Registry.toml")
         for (uuid, pkginfo) in reg["packages"]
             pkg = pkginfo["name"]
