@@ -37,9 +37,9 @@ function extract_registration_dates(dates = registration_dates(); after=maximum(
         commits = split(readchomp(`git rev-list --first-parent --reverse --after=$(after)Z --before=$(before)Z master`), "\n")
         N = length(commits)
         @info "processing $(N) commits from $(commits[begin])..$(commits[end])"
-        t = Dates.now()-Hour(1)
+        t = Dates.now()-Dates.Hour(1)
         for (i, commit) in enumerate(commits)
-            (Dates.now()-t) > Second(60) && (println("commit: ", commit, " ($i/$N)"); t = Dates.now())
+            (Dates.now()-t) > Dates.Second(60) && (println("commit: ", commit, " ($i/$N)"); t = Dates.now())
             process_commit!(dates, commit)
         end
     end
