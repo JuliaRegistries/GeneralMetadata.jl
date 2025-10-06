@@ -61,13 +61,13 @@ function extract_simple_tags_from_diff(commit)
         @@ \E.*\Q
         +
         +["\E(.*)\Q"]
-        +git-tree-sha1 = "\E(.*)\Q"\E$"""
+        +git-tree-sha1 = "\E.*\Q"\E$"""
     pkg_vers = Pair{String,String}[]
     for i in 1:length(positions)-1
-        chunk = diff[positions[i]+1:positions[i+1]]
+        chunk = SubString(diff, positions[i]+1, positions[i+1])
         m = match(regex, chunk)
         isnothing(m) && return nothing
-        path, ver, sha = m.captures
+        path, ver = m.captures
         push!(pkg_vers, splitpath(path)[end] => ver)
     end
     return pkg_vers
@@ -100,6 +100,7 @@ function process_commit!(dates, commit)
                 dates[pkg] = Dict{String, Any}()
             end
             for (ver, info) in versions
+                isempty(info) && continue # There has been at least one time when a corrupted entry was commited (a60167d6c29b433119d6fbf051a733fa465e6ae7)
                 if !haskey(dates[pkg], ver)
                     dates[pkg][string(ver)] = Dict{String, Any}()
                 end
