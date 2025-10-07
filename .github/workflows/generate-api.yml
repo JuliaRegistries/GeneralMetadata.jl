@@ -32,6 +32,10 @@ jobs:
         with:
           version: '1'
 
+      - name: Install Julia dependencies
+        run: |
+            julia --project=. -e 'using Pkg; Pkg.instantiate()'
+
       - name: Run the "generate_redirects.jl" Julia script
         run: julia --project=. scripts/generate_api.jl
 
