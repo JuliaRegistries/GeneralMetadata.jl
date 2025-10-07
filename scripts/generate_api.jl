@@ -1,5 +1,5 @@
 using TOML: TOML
-using JSON3: JSON3
+using JSON: JSON
 
 function main()
     allversions = TOML.parsefile(joinpath(@__DIR__, "..", "registration_dates.toml"))
@@ -7,8 +7,8 @@ function main()
     root = mkpath(joinpath(@__DIR__, "..", "webroot", "api"))
     for (pkg, versions) in allversions
         pkgdir = mkpath(joinpath(root, pkg))
-        JSON3.write(joinpath(pkgdir, "versions.json"), versions)
-        JSON3.write(joinpath(pkgdir, "info.json"), Dict("name"=>pkg, "uuid"=>string(only(Pkg.Registry.uuids_from_name(general, pkg)))))
+        JSON.json(joinpath(pkgdir, "versions.json"), versions)
+        JSON.json(joinpath(pkgdir, "info.json"), (; name=pkg, uuid=string(only(Pkg.Registry.uuids_from_name(general, pkg)))))
     end
 end
 
