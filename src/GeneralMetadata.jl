@@ -110,7 +110,7 @@ function process_commit!(dates, commit)
                 if !haskey(dates[pkg][string(ver)], "registered")
                     dates[pkg][string(ver)]["registered"] = timestamp
                 end
-                if get(info, "yanked", false) && !haskey(dates[pkg][string(ver)], "yanked")
+                if get(info, "yanked", false) == true && !haskey(dates[pkg][string(ver)], "yanked")
                     dates[pkg][string(ver)]["yanked"] = timestamp
                 end
             end
