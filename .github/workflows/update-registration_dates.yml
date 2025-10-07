@@ -1,9 +1,6 @@
 name: Update registration dates
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
   schedule:
     # Run at midnight UTC every day
