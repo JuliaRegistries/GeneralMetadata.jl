@@ -3,14 +3,7 @@ using DataStructures: DefaultOrderedDict, OrderedDict
 using CSV: CSV
 using DataFrames: DataFrames, DataFrame, groupby, combine, transform, combine, eachrow
 
-function all_matches(pattern_project_pairs, needle)
-    result = Tuple{String,String}[]
-    for (pattern, project) in pattern_project_pairs
-        m = match(pattern, needle)
-        !isnothing(m) && push!(result, (project, m.captures[1]))
-    end
-    return result
-end
+using GeneralMetadata: identify_components, merge_components!
 
 function main()
     # Load Repology data and reshape for efficiency
@@ -57,46 +50,10 @@ function main()
     for (jllname, jllinfo) in sort(OrderedDict(jll_metadata))
         for (jllversion, verinfo) in sort(OrderedDict(jllinfo), by=VersionNumber)
             haskey(verinfo, "sources") || continue
-            for s in verinfo["sources"]
-                if haskey(s, "url")
-                    for (upstream_project, upstream_version) in all_matches(url_patterns, s["url"])
-                        haskey(package_components[jllname][jllversion], upstream_project) ?
-                            union!(package_components[jllname][jllversion][upstream_project], [upstream_version]) :
-                            package_components[jllname][jllversion][upstream_project] = [upstream_version]
-                    end
-                end
-                if haskey(s, "repo") && haskey(s, "hash") && haskey(repositories, s["repo"])
-                    upstream_project = repositories[s["repo"]]
-                    commit = s["hash"]
-                    # Now the hard part are versions...
-                    try
-                        dir = get!(git_cache, upstream_project) do
-                            tmp = mktempdir()
-                            run(pipeline(`git clone --bare --filter=blob:none $(s["repo"]) $tmp`, stdout=Base.devnull, stderr=Base.devnull))
-                            tmp
-                        end
-                        tag = cd(dir) do
-                            t = try readchomp(`git tag --points-at $commit`) catch _ "" end
-                            if isempty(t)
-                                t = try readchomp(`git tag --points-at $commit\~`) catch _ "" end
-                                !isempty(t) && @info "$upstream_project: found tag at $commit~"
-                            end
-                            t
-                        end
-                        # It can be challenging to parse a version number out of a tag; some options here include: v1.2.3 and PCRE2-1.2.3
-                        # This strips all non-numeric prefixes with up to one digit as long as the digit is not followed by a period.
-                        # and ignore everything after a newline
-                        ver = strip(split(chopprefix(tag, r"^[^\d]*(?:\d[^\d.]+)?"), "\n", limit=2)[1])
-                        @assert !isempty(ver)
-                        @info "$upstream_project: got version $(ver) from git tag $tag"
-                        haskey(package_components[jllname][jllversion], upstream_project) ?
-                            union!(package_components[jllname][jllversion][upstream_project], [ver]) :
-                            package_components[jllname][jllversion][upstream_project] = [ver]
-                    catch ex
-                        ex isa InterruptException && return package_components
-                        @info "$upstream_project: failed to get tag from repo $(s["repo"])" ex
-                        package_components[jllname][jllversion][upstream_project] = ["*"]
-                    end
+            for source in verinfo["sources"]
+                components = identify_components(source; repositories, url_patterns, git_cache)
+                if !isempty(components)
+                    merge_components!(package_components[jllname][jllversion], components)
                 end
             end
         end
