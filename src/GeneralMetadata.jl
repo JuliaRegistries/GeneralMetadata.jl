@@ -159,9 +159,10 @@ function identify_components(source; repositories, url_patterns, git_cache=Dict{
     component_info = Dict{String, Vector{String}}()
     if haskey(source, "url")
         for (upstream_project, upstream_version) in all_matches(url_patterns, source["url"])
+            v = isempty(upstream_version) ? ["*"] : [upstream_version]
             haskey(component_info, upstream_project) ?
-                union!(component_info[upstream_project], [upstream_version]) :
-                component_info[upstream_project] = [upstream_version]
+                union!(component_info[upstream_project], v) :
+                component_info[upstream_project] = v
         end
     end
     if haskey(source, "repo") && haskey(source, "hash") && haskey(repositories, source["repo"])
