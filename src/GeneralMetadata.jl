@@ -119,6 +119,13 @@ function process_commit!(dates, commit)
     return fastpath
 end
 
+"""
+    normalize_repo(url)
+
+Given a URL to some repository, strip the schema (e.g., https:// or git://) and .git suffix (if they exist)
+"""
+normalize_repo(url) = chopprefix(chopsuffix(url, ".git"), r"[^:/]+://")
+
 function get_version_from_commit(repo, commit; git_cache=Dict{String,String}())
     dir = get!(git_cache, repo) do
         tmp = mktempdir()
@@ -164,8 +171,8 @@ function identify_components(source; repositories, url_patterns, git_cache=Dict{
                 component_info[upstream_project] = [upstream_version]
         end
     end
-    if haskey(source, "repo") && haskey(source, "hash") && haskey(repositories, source["repo"])
-        upstream_project = repositories[source["repo"]] # TODO: Might more than one project use the same repo? Probably.
+    if haskey(source, "repo") && haskey(source, "hash") && haskey(repositories, normalize_repo(source["repo"]))
+        upstream_project = repositories[normalize_repo(source["repo"])]
         commit = source["hash"]
         # Now the hard part are versions...
         ver = get_version_from_commit(source["repo"], commit; git_cache)

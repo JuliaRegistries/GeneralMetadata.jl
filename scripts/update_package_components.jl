@@ -3,7 +3,7 @@ using DataStructures: DefaultOrderedDict, OrderedDict
 using CSV: CSV
 using DataFrames: DataFrames, DataFrame, groupby, combine, transform, combine, eachrow
 
-using GeneralMetadata: identify_components, merge_components!
+using GeneralMetadata: identify_components, merge_components!, normalize_repo
 
 function main()
     # Load Repology data and reshape for efficiency
@@ -14,9 +14,8 @@ function main()
     for (proj, info) in repology_info
         if haskey(info, "repositories")
             for repo in info["repositories"]
-                # Allow repositories both with and without a git suffix
-                repositories[chopsuffix(repo, ".git")] = proj
-                repositories[chopsuffix(repo, ".git")*".git"] = proj
+                haskey(repositories, repo) && proj != repositories[repo] && @warn "$proj and $(repositories[repo]) are dups"
+                repositories[normalize_repo(repo)] = proj
             end
         end
         if haskey(info, "url_patterns")
