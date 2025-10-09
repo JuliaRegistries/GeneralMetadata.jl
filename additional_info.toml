@@ -1,5 +1,7 @@
-[suitesparse]
-repositories = ["https://github.com/DrTimothyAldenDavis/SuiteSparse.git", "https://github.com/Wimmerer/SuiteSparse.git"]
+# Extra information for packages that are in repology, but haven't used the sources we used (or were otherwise skipped from the dump extract)
+
+[ampl-asl]
+url_patterns = ["^\\Qhttp://netlib.org/ampl/solvers.tgz\\E()$"] # No versioning info available
 
 [epoll-shim]
 repositories = ["https://github.com/jiixyj/epoll-shim.git"]
@@ -7,7 +9,7 @@ repositories = ["https://github.com/jiixyj/epoll-shim.git"]
 [fftw]
 url_patterns = ["^\\Qhttp://fftw.org/~stevenj/fftw-\\E(\\d.*)\\Q.tar.gz\\E$"]
 
-[GR]
+[gr]
 repositories = ["https://github.com/sciapp/gr.git"]
 
 [git]
@@ -19,7 +21,6 @@ url_patterns = ["^\\Qhttps://github.com/git-for-windows/git/releases/download/v\
 [glib]
 url_patterns = ["^\\Qhttps://ftp.gnome.org/pub/gnome/sources/glib/\\E[^/]+\\Q/glib-\\E(\\d.*)\\Q.tar.xz\\E$"]
 
-
 [kaleido]
 repositories = ["https://github.com/plotly/Kaleido.git"]
 url_patterns = ["^\\Qhttps://github.com/plotly/Kaleido/releases/download/v\\E(\\d.*)\\Q/kaleido_"]
@@ -27,22 +28,6 @@ url_patterns = ["^\\Qhttps://github.com/plotly/Kaleido/releases/download/v\\E(\\
 [lerc]
 repositories = ["https://github.com/Esri/lerc"]
 url_patterns = ["^\\Qhttps://github.com/Esri/lerc/archive/refs/tags/v\\E(\\d.*)\\Q.tar.gz\\E$"]
-
-[llvm-openmp]
-url_patterns = ["^\\Qhttps://github.com/llvm/llvm-project/releases/download/llvmorg-\\E(\\d.*)\\Q/openmp-\\E\\1\\Q.src.tar.xz\\E$"]
-
-[tracy]
-repositories = ["https://github.com/wolfpld/tracy.git"]
-
-[mbedtls]
-repositories = ["https://github.com/ARMmbed/mbedtls.git"]
-
-[openspecfun]
-repositories = ["https://github.com/JuliaMath/openspecfun.git"]
-url_patterns = ["^\\Qhttps://github.com/JuliaMath/openspecfun/archive/v\\E(\\d.*)\\Q.tar.gz\\E$"]
-
-[spral]
-repositories = ["https://github.com/ralna/spral.git"]
 
 [libblastrampoline]
 repositories = ["https://github.com/JuliaLinearAlgebra/libblastrampoline.git", "https://github.com/staticfloat/libblastrampoline"]
@@ -57,6 +42,25 @@ url_patterns = [
     "^\\Qftp://ftp.simplesystems.org/pub/libpng/png/src/history/libpng\\E\\d+/libpng-(.+)\\Q.tar\\E",
     "^\\Qhttps://vorboss.dl.sourceforge.net/project/libpng/libpng\\E\\d+/([^/]+)/",
 ]
+
+[llvm-openmp]
+url_patterns = ["^\\Qhttps://github.com/llvm/llvm-project/releases/download/llvmorg-\\E(\\d.*)\\Q/openmp-\\E\\1\\Q.src.tar.xz\\E$"]
+
+[mbedtls]
+repositories = ["https://github.com/ARMmbed/mbedtls.git"]
+
+[openspecfun]
+repositories = ["https://github.com/JuliaMath/openspecfun.git"]
+url_patterns = ["^\\Qhttps://github.com/JuliaMath/openspecfun/archive/v\\E(\\d.*)\\Q.tar.gz\\E$"]
+
+[suitesparse]
+repositories = ["https://github.com/DrTimothyAldenDavis/SuiteSparse.git", "https://github.com/Wimmerer/SuiteSparse.git"]
+
+[spral]
+repositories = ["https://github.com/ralna/spral.git"]
+
+[tracy]
+repositories = ["https://github.com/wolfpld/tracy.git"]
 
 # NOT IN REPOLOGY:
 [intel-openmp]
