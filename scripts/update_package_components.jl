@@ -3,7 +3,7 @@ using DataStructures: DefaultOrderedDict, OrderedDict
 using CSV: CSV
 using DataFrames: DataFrames, DataFrame, groupby, combine, transform, combine, eachrow
 
-using GeneralMetadata: add_components!
+using GeneralMetadata: identify_components, merge_components!
 
 function main()
     # Load Repology data and reshape for efficiency
@@ -51,7 +51,10 @@ function main()
         for (jllversion, verinfo) in sort(OrderedDict(jllinfo), by=VersionNumber)
             haskey(verinfo, "sources") || continue
             for source in verinfo["sources"]
-                add_components!(package_components[jllname][jllversion], source; repositories, url_patterns, git_cache)
+                components = identify_components(source; repositories, url_patterns, git_cache)
+                if !isempty(components)
+                    merge_components!(package_components[jllname][jllversion], components)
+                end
             end
         end
     end

@@ -144,7 +144,19 @@ function get_version_from_commit(repo, commit; git_cache=Dict{String,String}())
     return ver
 end
 
-function add_components!(component_info, source; repositories, url_patterns, git_cache=Dict{String,String}())
+function merge_components!(dest, src)
+    for (upstream_project, upstream_versions) in src
+        if haskey(dest, upstream_project)
+            union!(dest[upstream_project], upstream_versions)
+        else
+            dest[upstream_project] = upstream_versions
+        end
+    end
+    return dest
+end
+
+function identify_components(source; repositories, url_patterns, git_cache=Dict{String,String}())
+    component_info = Dict{String, Vector{String}}()
     if haskey(source, "url")
         for (upstream_project, upstream_version) in all_matches(url_patterns, source["url"])
             haskey(component_info, upstream_project) ?
@@ -153,7 +165,7 @@ function add_components!(component_info, source; repositories, url_patterns, git
         end
     end
     if haskey(source, "repo") && haskey(source, "hash") && haskey(repositories, source["repo"])
-        upstream_project = repositories[source["repo"]]
+        upstream_project = repositories[source["repo"]] # TODO: Might more than one project use the same repo? Probably.
         commit = source["hash"]
         # Now the hard part are versions...
         ver = get_version_from_commit(source["repo"], commit; git_cache)
