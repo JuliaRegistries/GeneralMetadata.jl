@@ -2140,6 +2140,7 @@ findlib = "*"
 "0.0.37+0" = {llvm-extra = "*"}
 "0.0.37+1" = {llvm-extra = "*"}
 "0.0.37+2" = {llvm-extra = "*"}
+"0.0.38+0" = {llvm-extra = "*"}
 
 [LLVMLibUnwind_jll."11.0.0+0"]
 libclc = "*"
