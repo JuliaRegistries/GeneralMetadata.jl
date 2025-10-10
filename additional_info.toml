@@ -6,6 +6,9 @@ url_patterns = ["^\\Qhttp://netlib.org/ampl/solvers.tgz\\E()$"] # No versioning 
 [epoll-shim]
 repositories = ["https://github.com/jiixyj/epoll-shim.git"]
 
+[expat]
+url_patterns = ["^\\Qhttps://github.com/libexpat/libexpat/releases/download/R\\E[^/]+\\Q/expat-\\E(\\d.*)\\Q.tar.xz\\E$"]
+
 [fftw]
 url_patterns = ["^\\Qhttp://fftw.org/~stevenj/fftw-\\E(\\d.*)\\Q.tar.gz\\E$"]
 

@@ -1,6 +1,11 @@
 name: Update package components
 
 on:
+  push:
+    paths:
+      - 'additional_info.toml'
+      - '.github/workflows/update-package-components.yml'
+      - 'scripts/update_package_components.jl'
   workflow_dispatch:
   schedule:
     # Run at 3 AM UTC every day
