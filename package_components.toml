@@ -3758,6 +3758,7 @@ pthreadpool = "*"
 "10.0.1+0" = {openssh = "10.0p1"}
 "10.0.2+0" = {openssh = "10.0p2"}
 "10.1.1+0" = {openssh = "10.1p1"}
+"10.2.1+0" = {openssh = "10.2p1"}
 
 [OpenSSL_jll]
 "1.1.1+0" = {openssl = "1.1.1c"}
@@ -6226,6 +6227,13 @@ llvm = "*"
 "wasi-libc++" = "*"
 wasi-runtimes = "*"
 
+[Reactant_jll."0.0.249+0"]
+bazel = "*"
+libclc = "*"
+llvm = "*"
+"wasi-libc++" = "*"
+wasi-runtimes = "*"
+
 [Readline_jll]
 "8.0.0+0" = {readline = "8.0"}
 "8.0.4+0" = {readline = "8.0"}
@@ -6262,9 +6270,23 @@ wasi-runtimes = "*"
 [RocksDB_jll]
 "8.9.1+0" = {rocksdb = "8.9.1"}
 
-[Rusticl_jll]
-"25.2.0+0" = {mesa = "*", mesa-pvr-ddk119 = "*"}
-"25.2.0+1" = {mesa = "*", mesa-pvr-ddk119 = "*"}
+[Rusticl_jll."25.2.0+0"]
+mesa = "*"
+mesa-pvr-ddk119 = "*"
+meson = "*"
+molten-vk = "*"
+
+[Rusticl_jll."25.2.0+1"]
+mesa = "*"
+mesa-pvr-ddk119 = "*"
+meson = "*"
+molten-vk = "*"
+
+[Rusticl_jll."25.2.0+2"]
+mesa = "*"
+mesa-pvr-ddk119 = "*"
+meson = "1.7.2"
+molten-vk = "1.4.0"
 
 [SBML_jll]
 "5.19.0+0" = {libsbml = "*"}
@@ -6778,6 +6800,7 @@ spirv-tools = "2025.1"
 
 [Sundials_GPU_jll]
 "7.4.1+0" = {sundials = "7.4.0"}
+"7.5.0+0" = {sundials = "7.5.0"}
 
 [Sundials_jll]
 "3.1.1+0" = {sundials = "3.1.1"}
@@ -6799,6 +6822,7 @@ spirv-tools = "2025.1"
 "7.4.0+1" = {sundials = "7.4.0"}
 "7.4.1+0" = {sundials = "7.4.0"}
 "7.4.1+1" = {sundials = "7.4.0"}
+"7.5.0+0" = {sundials = "7.5.0"}
 
 [SuperLU_DIST_jll]
 "8.0.0+0" = {superlu-dist = "8.0.0"}
