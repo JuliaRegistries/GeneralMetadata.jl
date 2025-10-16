@@ -6242,6 +6242,13 @@ llvm = "*"
 "wasi-libc++" = "*"
 wasi-runtimes = "*"
 
+[Reactant_jll."0.0.251+0"]
+bazel = "*"
+libclc = "*"
+llvm = "*"
+"wasi-libc++" = "*"
+wasi-runtimes = "*"
+
 [Readline_jll]
 "8.0.0+0" = {readline = "8.0"}
 "8.0.4+0" = {readline = "8.0"}
@@ -7743,6 +7750,8 @@ xnnpack = "*"
 "0.9.0+1" = {blis = "0.9.0"}
 "1.0.0+0" = {blis = "*"}
 "2.0.0+0" = {blis = "2.0"}
+"2.0.0+1" = {blis = "2.0"}
+"2.0.0+2" = {blis = "2.0"}
 
 [blis_jll]
 "0.7.0+0" = {blis = "0.7.0"}
@@ -7759,6 +7768,8 @@ xnnpack = "*"
 "0.9.0+4" = {blis = "0.9.0"}
 "1.0.0+0" = {blis = "*"}
 "2.0.0+0" = {blis = "2.0"}
+"2.0.0+1" = {blis = "2.0"}
+"2.0.0+2" = {blis = "2.0"}
 
 [bliss_jll]
 "0.73.0+0" = {bliss-graphs = "*", bliss-unclassified = "0.73"}
@@ -9449,6 +9460,7 @@ spirv-tools = "2025.1"
 "7.0.0+13" = {pocl = "*"}
 "7.0.0+14" = {pocl = "*"}
 "7.0.0+15" = {pocl = "*"}
+"7.1.0+0" = {pocl = "*"}
 
 [polymake_jll]
 "4.1.0+0" = {polymake = "4.1"}
