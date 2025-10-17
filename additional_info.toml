@@ -65,6 +65,9 @@ repositories = ["https://github.com/ralna/spral.git"]
 [tracy]
 repositories = ["https://github.com/wolfpld/tracy.git"]
 
+[libxml2]
+url_patterns = ["^\\Qhttps://github.com/GNOME/libxml2/archive/v\\E(\\d.*)\\Q.tar.gz\\E$"]
+
 # NOT IN REPOLOGY:
 [intel-openmp]
 url_patterns = [
