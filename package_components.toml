@@ -423,6 +423,7 @@
 "13.0.0+0" = {cuda = "*"}
 "13.0.1+0" = {cuda = "*"}
 "13.0.1+1" = {cuda = "*"}
+"13.0.2+0" = {cuda = "*"}
 
 [CUDA_SDK_static_jll]
 "10.2.89+0" = {cuda = "10.2.89"}
@@ -470,6 +471,7 @@
 "13.0.0+0" = {cuda = "*"}
 "13.0.1+0" = {cuda = "*"}
 "13.0.1+1" = {cuda = "*"}
+"13.0.2+0" = {cuda = "*"}
 
 [CUDD_jll]
 "3.0.0+0" = {cudd = "3.0.0"}
@@ -3307,6 +3309,7 @@ mesa-zink = "20.1.5"
 "25.27.34303+0" = {intel-compute-runtime = "25.27.34303.5", level-zero = "*"}
 "25.27.34303+1" = {intel-compute-runtime = "25.27.34303.5", level-zero = "*"}
 "25.31.34666+0" = {intel-compute-runtime = "25.31.34666.3", level-zero = "*"}
+"25.35.35096+0" = {intel-compute-runtime = "25.35.35096.9", level-zero = "*"}
 
 [NLopt_jll]
 "2.6.2+0" = {nlopt = "2.6.2"}
@@ -6887,6 +6890,7 @@ spirv-tools = "2025.1"
 "8.0.0+1" = {tasmanian = "8.0"}
 "8.0.1+0" = {tasmanian = "8.0"}
 "8.0.2+0" = {tasmanian = "*"}
+"8.1.0+0" = {tasmanian = "8.1"}
 
 [Tcl_jll]
 "8.6.9+0" = {tcl-lang = "8.6.9"}
@@ -8726,6 +8730,13 @@ spirv-headers = "1.4.313.0"
 spirv-llvm-translator = "15.0.15"
 spirv-tools = "2025.1"
 
+[libigc_jll."2.18.5+0"]
+intel-graphics-compiler = "2.18.5"
+opencl-clang = "15.0.2"
+spirv-headers = "*"
+spirv-llvm-translator = "15.0.15"
+spirv-tools = "*"
+
 [libinput_jll]
 "1.18.0+0" = {libinput = "1.18.0"}
 "1.28.1+0" = {libinput = "1.28.1"}
@@ -9294,6 +9305,7 @@ spirv-tools = "2025.1"
 "1.9.2+1" = {level-zero = "1.17.6"}
 "1.9.3+0" = {level-zero = "1.17.42"}
 "1.13.0+0" = {level-zero = "1.22.4"}
+"1.13.0+1" = {level-zero = "1.24.3"}
 
 [oneAPI_Level_Zero_Loader_jll]
 "1.0.0+0" = {level-zero = "1.0"}
@@ -9321,6 +9333,7 @@ spirv-tools = "2025.1"
 "1.17.6+0" = {level-zero = "1.17.6"}
 "1.17.42+0" = {level-zero = "1.17.42"}
 "1.22.4+0" = {level-zero = "1.22.4"}
+"1.24.3+0" = {level-zero = "1.24.3"}
 
 [oneAPI_Level_Zero_jll]
 "0.91.10+0" = {level-zero = "0.91.10"}
@@ -9359,6 +9372,7 @@ spirv-tools = "2025.1"
 "2021.9.0+0" = {onetbb = "2021.9.0"}
 "2021.12.0+0" = {onetbb = "2021.12.0"}
 "2022.0.0+0" = {onetbb = "2022.0.0"}
+"2022.0.0+1" = {onetbb = "2022.0.0"}
 
 [opam_jll]
 "2.3.0+0" = {opam = "2.3.0"}
