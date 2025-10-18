@@ -866,6 +866,7 @@
 "4.3.1+0" = {ffmpeg = "4.3.1"}
 "4.4.4+0" = {ffmpeg = "4.4.4"}
 "7.1.0+0" = {ffmpeg = "7.1"}
+"7.1.1+0" = {ffmpeg = "7.1.1"}
 
 [FLAC_jll]
 "1.3.3+0" = {flac = "1.3.3"}
@@ -1820,6 +1821,7 @@ findlib = "*"
 "2.9.0+0" = {highfive = "2.9.0"}
 "2.10.1+0" = {highfive = "2.10.1"}
 "3.1.1+0" = {highfive = "*"}
+"3.2.0+0" = {highfive = "*"}
 
 [Hjson_jll]
 "4.4.0+0" = {hjson = "4.4.0"}
@@ -3392,6 +3394,7 @@ pthreadpool = "*"
 "10.86.44+0" = {netpbm = "10.86.44"}
 "10.86.45+0" = {netpbm = "10.86.45"}
 "10.86.47+0" = {netpbm = "10.86.47"}
+"10.86.48+0" = {netpbm = "10.86.48"}
 
 [Nettle_jll]
 "3.4.1+0" = {nettle = "3.4.1"}
@@ -6335,6 +6338,7 @@ molten-vk = "1.4.0"
 "2.1.0+0" = {netlib-scalapack = "2.1.0", scalapack = "2.1.0"}
 "2.1.0+1" = {netlib-scalapack = "2.1.0", scalapack = "2.1.0"}
 "2.2.0+0" = {netlib-scalapack = "*", scalapack = "2.2.0"}
+"2.2.2+0" = {netlib-scalapack = "*", scalapack = "2.2.2"}
 
 [SCOTCH_jll]
 "6.1.0+0" = {scotch = "6.1.0"}
@@ -8959,6 +8963,7 @@ spirv-tools = "*"
 "0.10.6+0" = {libssh = "0.10.6"}
 "0.11.0+0" = {libssh = "0.11.0"}
 "0.11.1+0" = {libssh = "0.11.1"}
+"0.11.3+0" = {libssh = "0.11.3"}
 
 [libsvm_jll]
 "3.24.0+0" = {libsvm = "324"}
