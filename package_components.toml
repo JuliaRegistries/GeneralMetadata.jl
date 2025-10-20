@@ -6258,6 +6258,13 @@ llvm = "*"
 "wasi-libc++" = "*"
 wasi-runtimes = "*"
 
+[Reactant_jll."0.0.252+0"]
+bazel = "*"
+libclc = "*"
+llvm = "*"
+"wasi-libc++" = "*"
+wasi-runtimes = "*"
+
 [Readline_jll]
 "8.0.0+0" = {readline = "8.0"}
 "8.0.4+0" = {readline = "8.0"}
@@ -7130,6 +7137,7 @@ spirv-tools = "2025.1"
 "2.14.1+0" = {libxml2 = "2.14.1"}
 "2.14.4+0" = {libxml2 = "2.14.4"}
 "2.15.0+0" = {libxml2 = "2.15.0"}
+"2.15.1+0" = {libxml2 = "2.15.1"}
 
 [XNNPACK_jll."0.0.20200225+0"]
 cpuinfo = "*"
