@@ -20,8 +20,15 @@ function main()
         end
         if haskey(info, "url_patterns")
             for pattern in info["url_patterns"]
-                # And allow both http and https
-                push!(url_patterns, (Regex(replace(pattern, r"https?://" => "http\\Es?\\Q://"), "i") => proj))
+                # Allow both http and https, ignore compression format, and ignore case
+                # The auto-generated patterns we want to fixup most use \Q and \E literal flags
+                push!(url_patterns,
+                    Regex(
+                        replace(pattern,
+                            r"^\^\\Qhttps?://"i => "^https?\\Q://",
+                            r"\.(?:tar\.)?(?:7z|bz2|bzip2|bz|gz|lz|lzma|rar|tar|tbz2|tbz|tgz|xz|z|zip)\\E\$$"i =>
+                            ".\\E(?:tar\\.)?(?:7z|bz2|bzip2|bz|gz|lz|lzma|rar|tar|tbz2|tbz|tgz|xz|z|zip)\$"
+                        ), "i") => proj)
             end
         end
     end
