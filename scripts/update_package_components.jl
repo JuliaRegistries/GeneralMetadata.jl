@@ -26,8 +26,8 @@ function main()
                     Regex(
                         replace(pattern,
                             r"^\^\\Qhttps?://"i => "^https?\\Q://",
-                            r"\.(?:7z|bz2|bzip2|bz|gz|lz|lzma|rar|tar\.[27abgilmprxz]+|tbz2|tbz|tgz|xz|z|zip)\\E\$$"i =>
-                            ".\\E(?:7z|bz2|bzip2|bz|gz|lz|lzma|rar|tar.[27abgilmprxz]+|tbz2|tbz|tgz|xz|z|zip)\$"
+                            r"\.(?:7z|bz2|bzip2|bz|gz|lz|lzma|rar|tar|tbz2|tbz|tgz|xz|z|zip)\\E\$$"i =>
+                            ".\\E(?:7z|bz2|bzip2|bz|gz|lz|lzma|rar|tar|tbz2|tbz|tgz|xz|z|zip)\$"
                         ), "i") => proj)
             end
         end
