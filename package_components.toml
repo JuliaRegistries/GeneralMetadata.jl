@@ -424,6 +424,7 @@
 "13.0.1+0" = {cuda = "*"}
 "13.0.1+1" = {cuda = "*"}
 "13.0.2+0" = {cuda = "*"}
+"13.0.2+1" = {cuda = "*"}
 
 [CUDA_SDK_static_jll]
 "10.2.89+0" = {cuda = "10.2.89"}
@@ -472,6 +473,7 @@
 "13.0.1+0" = {cuda = "*"}
 "13.0.1+1" = {cuda = "*"}
 "13.0.2+0" = {cuda = "*"}
+"13.0.2+1" = {cuda = "*"}
 
 [CUDD_jll]
 "3.0.0+0" = {cudd = "3.0.0"}
@@ -6312,6 +6314,13 @@ llvm = "*"
 "wasi-libc++" = "*"
 wasi-runtimes = "*"
 
+[Reactant_jll."0.0.253+0"]
+bazel = "*"
+libclc = "*"
+llvm = "*"
+"wasi-libc++" = "*"
+wasi-runtimes = "*"
+
 [Readline_jll]
 "8.0.0+0" = {readline = "8.0"}
 "8.0.4+0" = {readline = "8.0"}
@@ -9100,6 +9109,7 @@ spirv-tools = "*"
 "4.3.3+1" = {libwebsockets = "4.3.3"}
 "4.3.4+0" = {libwebsockets = "4.3.4"}
 "4.4.0+0" = {libwebsockets = "4.4.0"}
+"4.4.0+1" = {libwebsockets = "4.4.0"}
 
 [libxcrypt_jll]
 "4.4.28+0" = {libxcrypt = "4.4.28"}
