@@ -6326,6 +6326,13 @@ llvm = "*"
 "wasi-libc++" = "*"
 wasi-runtimes = "*"
 
+[Reactant_jll."0.0.254+0"]
+bazel = "*"
+libclc = "*"
+llvm = "*"
+"wasi-libc++" = "*"
+wasi-runtimes = "*"
+
 [Readline_jll]
 "8.0.0+0" = {readline = "8.0"}
 "8.0.4+0" = {readline = "8.0"}
@@ -6547,6 +6554,13 @@ wasi-runtimes = "*"
 libclc = "*"
 llvm = "20.1.5"
 llvm-core = "20.1.5"
+"wasi-libc++" = "*"
+wasi-runtimes = "*"
+
+[SPIRV_LLVM_Backend_jll."21.1.4+0"]
+libclc = "*"
+llvm = "21.1.4"
+llvm-core = "21.1.4"
 "wasi-libc++" = "*"
 wasi-runtimes = "*"
 
@@ -6793,6 +6807,9 @@ spirv-tools = "2025.1"
 
 [SoftHSM2_jll]
 "2.6.1+0" = {softhsm = "2.6.1"}
+
+[Sollya_jll]
+"8.0.0+0" = {sollya = "8.0"}
 
 [Soup3_jll]
 "3.2.1+0" = {libsoup = "3.2.1"}
@@ -9355,6 +9372,7 @@ spirv-tools = "*"
 "1.67.0+0" = {nghttp2 = "1.67.0", nghttp2-libs = "*"}
 "1.67.1+0" = {nghttp2 = "1.67.1", nghttp2-libs = "*"}
 "1.68.0+0" = {nghttp2 = "1.68.0", nghttp2-libs = "*"}
+"1.68.0+1" = {nghttp2 = "1.68.0", nghttp2-libs = "*"}
 
 [nghttp3_jll]
 "1.8.0+0" = {nghttp3 = "1.8.0"}
