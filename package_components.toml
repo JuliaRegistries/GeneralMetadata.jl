@@ -6652,6 +6652,12 @@ re2 = "2024-07-02"
 spirv-headers = "1.4.309.0"
 spirv-tools = "2025.1"
 
+[SPIRV_Tools_jll."2025.4.0+0"]
+gtest = "*"
+re2 = "2025-08-12"
+spirv-headers = "1.4.328.0"
+spirv-tools = "2025.4"
+
 [SPRAL_jll]
 "0.1.0+0" = {spral = "*"}
 "2023.3.29+0" = {spral = "2023.03.29"}
