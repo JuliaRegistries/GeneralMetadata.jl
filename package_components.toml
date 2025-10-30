@@ -1624,6 +1624,7 @@ zlib = "1.2.11"
 "2.51.0+0" = {git = "2.51.0", git-for-windows = "2.51.0.windows.1"}
 "2.51.1+0" = {git = "2.51.0", git-for-windows = "2.51.0.windows.1"}
 "2.51.2+0" = {git = "2.51.1", git-for-windows = "2.51.1.windows.1"}
+"2.51.3+0" = {git = "2.51.2", git-for-windows = "2.51.2.windows.1"}
 
 [Givaro_jll]
 "4.2.0+0" = {givaro = "4.2.0"}
@@ -6333,6 +6334,13 @@ llvm = "*"
 "wasi-libc++" = "*"
 wasi-runtimes = "*"
 
+[Reactant_jll."0.0.255+0"]
+bazel = "*"
+libclc = "*"
+llvm = "*"
+"wasi-libc++" = "*"
+wasi-runtimes = "*"
+
 [Readline_jll]
 "8.0.0+0" = {readline = "8.0"}
 "8.0.4+0" = {readline = "8.0"}
@@ -8915,6 +8923,7 @@ spirv-tools = "*"
 "1.10.18+0" = {julia = "*"}
 "1.10.19+0" = {julia = "*"}
 "1.10.20+0" = {julia = "*"}
+"1.11.0+0" = {julia = "*"}
 
 [libjwt_jll]
 "1.15.3+0" = {libjwt = "1.15.3"}
@@ -10006,6 +10015,7 @@ spirv-tools = "*"
 [tree_sitter_jll]
 "0.16.9+0" = {tree-sitter = "*"}
 "0.20.6+0" = {tree-sitter = "0.20.6"}
+"0.25.10+0" = {tree-sitter = "*"}
 
 [tree_sitter_json_jll]
 "0.16.0+0" = {tree-sitter-json = "0.16.0"}
