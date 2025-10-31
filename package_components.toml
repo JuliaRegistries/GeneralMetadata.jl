@@ -1510,6 +1510,7 @@ zlib = "1.2.11"
 "0.73.14+0" = {gr = "0.73.14"}
 "0.73.16+0" = {gr = "0.73.16"}
 "0.73.17+0" = {gr = "0.73.17"}
+"0.73.18+0" = {gr = "*"}
 
 [GSL_jll]
 "2.6.0+0" = {gsl = "2.6"}
@@ -9866,6 +9867,7 @@ spirv-tools = "*"
 "1.5.25+0" = {s2n-tls = "1.5.25"}
 "1.5.26+0" = {s2n-tls = "1.5.26"}
 "1.5.27+0" = {s2n-tls = "1.5.27"}
+"1.6.0+0" = {s2n-tls = "1.6.0"}
 
 [s5cmd_jll]
 "2.0.0+0" = {s5cmd = "2.0.0"}
@@ -9988,29 +9990,37 @@ spirv-tools = "*"
 
 [tree_sitter_bash_jll]
 "0.16.1+0" = {tree-sitter-bash = "0.16.1"}
+"0.25.0+0" = {tree-sitter-bash = "*"}
 
 [tree_sitter_c_jll]
 "0.16.0+0" = {tree-sitter-c = "*"}
 "0.16.0+1" = {tree-sitter-c = "*"}
 "0.16.1+0" = {tree-sitter-c = "*"}
+"0.24.1+0" = {tree-sitter-c = "0.24.1"}
 
 [tree_sitter_c_sharp_jll]
 "0.20.0+0" = {tree-sitter-c-sharp = "0.20.0"}
+"0.23.1+0" = {tree-sitter-c-sharp = "*"}
 
 [tree_sitter_cpp_jll]
 "0.16.0+0" = {tree-sitter-cpp = "0.16.0"}
+"0.23.4+0" = {tree-sitter-cpp = "*"}
 
 [tree_sitter_go_jll]
 "0.16.1+0" = {tree-sitter-go = "0.16.1"}
+"0.25.0+0" = {tree-sitter-go = "*"}
 
 [tree_sitter_html_jll]
 "0.16.0+0" = {tree-sitter-html = "0.16.0"}
+"0.23.2+0" = {tree-sitter-html = "*"}
 
 [tree_sitter_java_jll]
 "0.16.0+0" = {tree-sitter-java = "0.16.0"}
+"0.23.5+0" = {tree-sitter-java = "*"}
 
 [tree_sitter_javascript_jll]
 "0.16.0+0" = {tree-sitter-javascript = "0.16.0"}
+"0.25.0+0" = {tree-sitter-javascript = "*"}
 
 [tree_sitter_jll]
 "0.16.9+0" = {tree-sitter = "*"}
@@ -10019,6 +10029,7 @@ spirv-tools = "*"
 
 [tree_sitter_json_jll]
 "0.16.0+0" = {tree-sitter-json = "0.16.0"}
+"0.24.8+0" = {tree-sitter-json = "*"}
 
 [tree_sitter_julia_jll]
 "0.0.4+0" = {tree-sitter-julia = "0.0.4"}
@@ -10026,18 +10037,23 @@ spirv-tools = "*"
 
 [tree_sitter_ocaml_jll]
 "0.20.1+0" = {tree-sitter-ocaml = "0.20.1"}
+"0.24.2+0" = {tree-sitter-ocaml = "*"}
 
 [tree_sitter_php_jll]
 "0.16.2+0" = {tree-sitter-php = "0.16.2"}
+"0.24.2+0" = {tree-sitter-php = "*"}
 
 [tree_sitter_python_jll]
 "0.16.1+0" = {tree-sitter-python = "0.16.1"}
+"0.25.0+0" = {tree-sitter-python = "*"}
 
 [tree_sitter_ruby_jll]
 "0.16.2+0" = {tree-sitter-ruby = "0.16.2"}
+"0.23.1+0" = {tree-sitter-ruby = "*"}
 
 [tree_sitter_rust_jll]
 "0.16.1+0" = {tree-sitter-rust = "0.16.1"}
+"0.24.0+0" = {tree-sitter-rust = "*"}
 
 [unixODBC_jll]
 "2.3.7+0" = {unixodbc = "2.3.7"}
