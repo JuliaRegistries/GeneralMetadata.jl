@@ -97,3 +97,29 @@ registered = 2024-10-21T18:22:50.000Z
         [["2.4.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["2.5.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.1.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.4.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.5.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.9.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.1.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.2.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.3.tar.gz"]
+registered = 2026-09-07T13:11:33.000Z
+
+    [["2.5.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.1.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.4.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.5.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+12.9.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.1.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.2.tar.gz", "https://github.com/JuliaBinaryWrappers/AMGX_jll.jl/releases/download/AMGX-v2.5.0+0/AMGX.v2.5.0.x86_64-linux-gnu-cuda+13.3.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/d29cbfeda50b55a229125b16790f429a780ee9ab/A/AMGX/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/amgx/build_tarballs.jl/d29cbfeda50b55a229125b16790f429a780ee9ab.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.5.0+0".artifact_metadata.sources]]
+        hash = "cc1cebdbb32b14d33762d4ddabcb2e23c1669f47"
+        type = "git"
+        url = "https://github.com/NVIDIA/AMGX.git"
+        [["2.5.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d29cbfeda50b55a229125b16790f429a780ee9ab/A/AMGX/bundled"
+        [["2.5.0+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["2.5.0+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"

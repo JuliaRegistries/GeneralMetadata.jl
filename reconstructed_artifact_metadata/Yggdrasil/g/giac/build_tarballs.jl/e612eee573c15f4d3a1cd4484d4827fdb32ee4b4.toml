@@ -1,0 +1,113 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "GIAC"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd ${WORKSPACE}/srcdir/giac*\n\n# Determine gettext option: FreeBSD doesn't have libintl via Gettext_jll\nGETTEXT_OPT=\"auto\"\nif [[ \"${target}\" == *freebsd* ]]; then\n    GETTEXT_OPT=\"disabled\"\nfi\n\n# Meson's dependency('blas')/dependency('lapack') want blas.pc/lapack.pc, but\n# OpenBLAS_jll only ships openblas.pc. Provide self-contained wrapper .pc\n# files (skip on macOS — Giac will detect the Accelerate framework instead).\nif [[ \"${target}\" != *apple-darwin* ]]; then\n    mkdir -p ${prefix}/lib/pkgconfig\n    cat > ${prefix}/lib/pkgconfig/blas.pc <<EOF\nprefix=${prefix}\nlibdir=\\${prefix}/lib\nincludedir=\\${prefix}/include\n\nName: blas\nDescription: BLAS interface provided by OpenBLAS\nVersion: 0.3\nLibs: -L\\${libdir} -lopenblas\nCflags: -I\\${includedir}\nEOF\n    cat > ${prefix}/lib/pkgconfig/lapack.pc <<EOF\nprefix=${prefix}\nlibdir=\\${prefix}/lib\nincludedir=\\${prefix}/include\n\nName: lapack\nDescription: LAPACK interface provided by OpenBLAS\nVersion: 0.3\nLibs: -L\\${libdir} -lopenblas\nCflags: -I\\${includedir}\nEOF\nfi\n\n# GLPK_jll ships no pkg-config file, so provide one.\nmkdir -p ${prefix}/lib/pkgconfig\ncat > ${prefix}/lib/pkgconfig/glpk.pc <<EOF\nprefix=${prefix}\nlibdir=\\${prefix}/lib\nincludedir=\\${prefix}/include\n\nName: glpk\nDescription: GNU Linear Programming Kit\nVersion: 5.0\nLibs: -L\\${libdir} -lglpk\nCflags: -I\\${includedir}\nEOF\n\n# Configure with Meson. GSL/LAPACK/GLPK/PARI are enabled; the remaining\n# optional dependencies are disabled.\nmeson setup build \\\n    --cross-file=\"${MESON_TARGET_TOOLCHAIN}\" \\\n    --buildtype=release \\\n    -Dgui=disabled \\\n    -Dpari=enabled \\\n    -Dntl=disabled \\\n    -Dcocoa=disabled \\\n    -Dgsl=enabled \\\n    -Dlapack=enabled \\\n    -Decm=disabled \\\n    -Dglpk=enabled \\\n    -Dpng=disabled \\\n    -Dao=disabled \\\n    -Dsamplerate=disabled \\\n    -Dcurl=disabled \\\n    -Dreadline=auto \\\n    -Dmicropython=disabled \\\n    -Dquickjs=disabled \\\n    -Dlibbf=disabled \\\n    -Djni=disabled \\\n    -Dgettext=${GETTEXT_OPT}\n\nmeson compile -C build -j${nproc}\nmeson install -C build\n\n# Install aide_cas help data to share/giac/ so giac's built-in\n# bin/../share/giac/ fallback finds it automatically\nmkdir -p ${prefix}/share/giac\ncp doc/aide_cas ${prefix}/share/giac/aide_cas\n\ninstall_license COPYING\n"""
+toplevel_block = ""
+version = "v2.0.2"
+
+[[dependencies]]
+compat = "0.21.0"
+name = "Gettext_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "6.2.1"
+name = "GMP_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "4.1.1"
+name = "MPFR_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "8.2.13"
+name = "Readline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.8.1"
+name = "GSL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "OpenBLAS32_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "5.0.2"
+name = "GLPK_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.17.3"
+name = "PARI_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libgiac"]
+type = "lib"
+variable_name = "libgiac"
+[[products]]
+binnames = ["icas"]
+type = "exe"
+variable_name = "icas"
+[[products]]
+paths = ["share/giac/aide_cas"]
+type = "file"
+variable_name = "aide_cas"
+
+[[sources]]
+hash = "42d064e3ea3525b9e7a6fa3ffd3caeb99e2bea3a"
+type = "git"
+unpack_target = ""
+url = "https://github.com/JuliaGiac/giac.git"
