@@ -53,3 +53,11 @@ registered = 2026-07-08T15:54:37.000Z
 ["0.6.3"]
 artifact_urls = ["https://github.com/stan-dev/posteriordb/archive/refs/tags/1.0.0.tar.gz"]
 registered = 2026-09-08T14:50:39.000Z
+
+["0.6.4"]
+artifact_urls = ["https://github.com/stan-dev/posteriordb/archive/refs/tags/1.0.0.tar.gz"]
+registered = 2026-09-09T09:56:49.000Z
+
+["0.7.0"]
+artifact_urls = ["https://github.com/stan-dev/posteriordb/archive/refs/tags/1.1.0.tar.gz"]
+registered = 2026-09-09T10:46:43.000Z

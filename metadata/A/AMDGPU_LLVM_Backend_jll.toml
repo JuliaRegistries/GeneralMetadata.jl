@@ -79,3 +79,27 @@ registered = 2026-08-18T09:35:31.000Z
         [["22.1.8+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/085424f5c54748af4f75cfd3cf319291bfb56ddc/A/AMDGPU_LLVM_Backend/bundled"
+
+["23.1.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+0/AMDGPU_LLVM_Backend.v23.1.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+0/AMDGPU_LLVM_Backend.v23.1.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+0/AMDGPU_LLVM_Backend.v23.1.1.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-09-09T18:09:44.000Z
+
+    [["23.1.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+0/AMDGPU_LLVM_Backend.v23.1.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+0/AMDGPU_LLVM_Backend.v23.1.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+0/AMDGPU_LLVM_Backend.v23.1.1.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/eae5a64f9fe0998904e319fc6da86de60bfe7ec9/A/AMDGPU_LLVM_Backend/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/amdgpu_llvm_backend/build_tarballs.jl/eae5a64f9fe0998904e319fc6da86de60bfe7ec9.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["23.1.1+0".artifact_metadata.sources]]
+        hash = "ebe9be46fe8756d58c5b198ffad0fa2a766257add81a4dc52179bfacc7888ee6"
+        type = "archive"
+        url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.1/llvm-project-23.1.1.src.tar.xz"
+        [["23.1.1+0".artifact_metadata.sources]]
+        hash = "46fcb339fb61119b337f973c7ca9e710a319fdd0"
+        type = "git"
+        url = "https://github.com/ROCm/llvm-project"
+        [["23.1.1+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/eae5a64f9fe0998904e319fc6da86de60bfe7ec9/A/AMDGPU_LLVM_Backend/bundled"
