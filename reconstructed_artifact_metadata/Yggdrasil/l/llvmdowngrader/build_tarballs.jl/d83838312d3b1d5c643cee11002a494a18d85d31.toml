@@ -1,0 +1,56 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = true
+name = "LLVMDowngrader"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """macos_sdk_version=10.14\nmacosx_deployment_target=10.14\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir/llvm-downgrade\ninstall_license LICENSE.TXT\n\n# Build out-of-tree against the prebuilt LLVM from LLVM_full_jll, statically\n# linking the LLVM component archives so `libllvm_downgrade` has no runtime\n# libLLVM dependency (and hides every LLVM symbol, see upstream's CMakeLists).\n# Only the library is shipped: the `llvm-downgrade` tool is a thin driver over\n# the same API, and a few lines of Julia (or C, against the installed header)\n# reproduce it. The test suite needs legacy disassemblers we don't ship here,\n# so it is disabled for the package build.\n# On Windows, build with the Clang/LLD toolchain, like LLVM_full_jll and the\n# GPU back-end libraries. A DLL linked by GNU ld gets a 32-bit-range image base\n# without ASLR, and when the loader has to relocate it (its preferred base is\n# occupied, e.g. by Julia 1.10's libLLVMExtra), the first thread-local access\n# inside the library faults on Julia 1.10's mingw runtime\n# (JuliaGPU/GPUCompiler.jl#930). LLD's output (0x180000000 base, dynamic base)\n# is relocated on every load and works.\nif [[ \"${target}\" == *mingw* ]]; then\n    TOOLCHAIN=${CMAKE_TARGET_TOOLCHAIN%.*}_clang.cmake\n    CXX_FLAGS=\"-pthread\"\nelse\n    TOOLCHAIN=${CMAKE_TARGET_TOOLCHAIN}\n    CXX_FLAGS=\"\"\nfi\ncmake -B build -S . -GNinja \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${TOOLCHAIN} \\\n    -DCMAKE_CXX_FLAGS=\"${CXX_FLAGS}\" \\\n    -DCMAKE_CROSSCOMPILING:BOOL=ON \\\n    -DLLVM_DIR=${prefix}/lib/cmake/llvm \\\n    -DLLVM_LINK_LLVM_DYLIB=OFF \\\n    -DLLVMDG_BUILD_TOOL=OFF \\\n    -DLLVMDG_BUILD_TESTS=OFF\nninja -C build -j${nproc} install\n\n# Show what got exported: only the LLVMDG* API, and (on ELF) no STB_GNU_UNIQUE\n# symbols, which would defeat the isolation.\nif [[ \"${target}\" == *-linux-* || \"${target}\" == *-freebsd* ]]; then\n    echo \"exported symbols:\"; nm -D --defined-only ${libdir}/libllvm_downgrade.${dlext} | grep -v ' [wv] '\n    echo \"STB_GNU_UNIQUE symbols: $(readelf -Ws ${libdir}/libllvm_downgrade.${dlext} | grep -c UNIQUE)\"\nelif [[ \"${target}\" == *-apple-* ]]; then\n    echo \"exported symbols:\"; nm -gU ${libdir}/libllvm_downgrade.${dlext}\nfi\n"""
+toplevel_block = ""
+version = "v0.10.0"
+
+[[dependencies]]
+compat = ""
+name = "LLVM_full_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 22
+version-minor = 1
+version-patch = 8
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zstd_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libllvm_downgrade"]
+type = "lib"
+variable_name = "libllvm_downgrade"
+
+[[sources]]
+hash = "07fde16ec0df7cb4bf3602c3479b5478dadd198a"
+type = "git"
+unpack_target = ""
+url = "https://github.com/JuliaLLVM/llvm-downgrade"
+[[sources]]
+filename = "MacOSX10.14.sdk.tar.xz"
+hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.14.sdk.tar.xz"
