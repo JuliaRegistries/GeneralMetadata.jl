@@ -1,0 +1,52 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "SPIRV_LLVM_Translator"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """macos_sdk_version=11.0\nmacosx_deployment_target=11.0\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd SPIRV-LLVM-Translator\natomic_patch -p1 ../phi-duplicate-predecessors.patch\ninstall_license LICENSE.TXT\n\nCMAKE_FLAGS=()\n\n# glibc treats STB_GNU_UNIQUE symbols as process-unique regardless of\n# visibility, which would let two LLVMs in one process share state. The flag is\n# GCC-only (FreeBSD and macOS build with clang, which never emits them).\nif [[ \"${target}\" == *-linux-* ]]; then\n    CMAKE_FLAGS+=(-DCMAKE_CXX_FLAGS=-fno-gnu-unique)\nfi\n\n# Release build for best performance\nCMAKE_FLAGS+=(-DCMAKE_BUILD_TYPE=Release)\n\n# Install things into $prefix\nCMAKE_FLAGS+=(-DCMAKE_INSTALL_PREFIX=${prefix})\n\n# Explicitly use our cmake toolchain file and tell CMake we're cross-compiling\nif [[ \"${target}\" == *mingw* ]]; then\n    # on Windows, we run into \"multiple definition\" errors when linking with gcc\n    CMAKE_FLAGS+=(-DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN%.*}_clang.cmake)\nelse\n    CMAKE_FLAGS+=(-DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN})\nfi\nCMAKE_FLAGS+=(-DCMAKE_CROSSCOMPILING:BOOL=ON)\n\n# More hacks for Windows\nif [[ \"${target}\" == *mingw* ]]; then\n    CMAKE_FLAGS+=(-DCMAKE_EXE_LINKER_FLAGS=\"-pthread\")\nfi\n\n# Tell CMake where LLVM is\nCMAKE_FLAGS+=(-DLLVM_DIR=\"${prefix}/lib/cmake/llvm\")\n\n# Don't link dynamically against libLLVM, but statically against each component\n#CMAKE_FLAGS+=(-DLLVM_LINK_LLVM_DYLIB=OFF)\n# XXX: doesn't seem to work, so patch the CMakeLists.txt instead\nsed -i '/add_llvm_library(/a DISABLE_LLVM_LINK_LLVM_DYLIB' lib/SPIRV/CMakeLists.txt\nsed -i '/add_llvm_tool(/a DISABLE_LLVM_LINK_LLVM_DYLIB' tools/llvm-spirv/CMakeLists.txt\n\n# Use our LLVM version\nCMAKE_FLAGS+=(-DBASE_LLVM_VERSION=23.1.0)\n\nif [[ \"${target}\" == *-apple-darwin* ]]; then\n    cmake -B build -S . -GNinja ${CMAKE_FLAGS[@]} -DCMAKE_CXX_FLAGS=\"-Wno-error=enum-constexpr-conversion -include vector\"\nelse\n    cmake -B build -S . -GNinja ${CMAKE_FLAGS[@]}\nfi\n# Only the static translator library is needed; the tool is not shipped.\nninja -C build -j ${nproc} LLVMSPIRVLib\n\n# Build libllvm_spirv: one translation unit over the static translator library\n# and LLVM_full_jll's static component archives, with every LLVM and translator\n# symbol hidden so only the LLVMSPIRV* API is exported. That isolation is what\n# allows loading the library next to Julia's own LLVM (or a sibling back-end\n# library) in one process. The API TU is compiled with exceptions so that a\n# `report_fatal_error` can be turned into an error return.\ncd ${WORKSPACE}/srcdir\nCOMMON_FLAGS=(-O2 -std=c++17 -fPIC\n    -fvisibility=hidden -fvisibility-inlines-hidden -fno-rtti -fexceptions\n    -ffunction-sections -fdata-sections\n    -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS\n    -I${prefix}/include -ISPIRV-LLVM-Translator/include)\n# LLVM_full_jll's component archives; on Windows the glob would also match the\n# import library of libLLVM.dll, whose symbols duplicate the archives'.\nLLVM_ARCHIVES=($(ls ${prefix}/lib/libLLVM*.a | grep -v '\\.dll\\.a$'))\nif [[ \"${target}\" == *-apple-* ]]; then\n    # ld64 resolves across archives on its own and has no --start-group.\n    LLVM_LIBS=(SPIRV-LLVM-Translator/build/lib/SPIRV/libLLVMSPIRVLib.a ${LLVM_ARCHIVES[@]})\nelse\n    LLVM_LIBS=(-Wl,--start-group SPIRV-LLVM-Translator/build/lib/SPIRV/libLLVMSPIRVLib.a ${LLVM_ARCHIVES[@]} -Wl,--end-group)\nfi\n# LLVM_full_jll is built with zlib, and with zstd on some platforms.\nSYSTEM_LIBS=(-L${prefix}/lib -lz)\nif ls ${prefix}/lib/libzstd.* >/dev/null 2>&1; then\n    SYSTEM_LIBS+=(-lzstd)\nfi\n# The functions declared in the header are exactly what gets exported.\nAPI=$(sed -n 's/.*\\b\\(LLVMSPIRV[A-Za-z0-9]*\\)(.*/\\1/p' libllvm_spirv.h | sort -u)\nif [[ \"${target}\" == *mingw* ]]; then\n    # Clang/LLD like the translator build above. Export only the dllexport'd\n    # API: auto-export would overflow the 64K PE export limit with the static\n    # LLVM.\n    LINKER=${target}-clang++\n    COMMON_FLAGS+=(-pthread)\n    LINK_FLAGS=(-Wl,--exclude-all-symbols -Wl,--gc-sections\n        ${SYSTEM_LIBS[@]} -lole32 -luuid -lpsapi -lshell32 -ladvapi32 -lws2_32 -lntdll)\nelif [[ \"${target}\" == *-apple-* ]]; then\n    LINKER=${CXX}\n    printf '_%s\\n' ${API} > libllvm_spirv.exports\n    LINK_FLAGS=(-Wl,-exported_symbols_list,libllvm_spirv.exports -Wl,-dead_strip\n        ${SYSTEM_LIBS[@]} -lpthread -ldl -lm)\nelse\n    LINKER=${CXX}\n    if [[ \"${target}\" == *-linux-* ]]; then\n        COMMON_FLAGS+=(-fno-gnu-unique)\n    fi\n    echo \"{ global: $(printf '%s; ' ${API}) local: *; };\" > libllvm_spirv.map\n    LINK_FLAGS=(-Wl,--exclude-libs,ALL -Wl,-Bsymbolic -Wl,--gc-sections\n        -Wl,--version-script=libllvm_spirv.map\n        ${SYSTEM_LIBS[@]} -lpthread -lm)\n    if [[ \"${target}\" == *-freebsd* ]]; then\n        # No -z defs: `environ`, which LLVM's process support references, is\n        # defined by the executable's startup code on FreeBSD, not by libc.\n        LINK_FLAGS+=(-lexecinfo)\n    else\n        LINK_FLAGS+=(-Wl,-z,defs -ldl)\n    fi\nfi\nmkdir -p ${libdir} ${includedir}\n${LINKER} -shared -o ${libdir}/libllvm_spirv.${dlext} ${COMMON_FLAGS[@]} libllvm_spirv.cpp \\\n    ${LLVM_LIBS[@]} ${LINK_FLAGS[@]}\ninstall -Dm644 libllvm_spirv.h ${includedir}/libllvm_spirv.h\n\n# Show what got exported: only the LLVMSPIRV* API, and (on ELF) no\n# STB_GNU_UNIQUE symbols, which would defeat the isolation.\nif [[ \"${target}\" == *-linux-* || \"${target}\" == *-freebsd* ]]; then\n    echo \"exported symbols:\"; nm -D --defined-only ${libdir}/libllvm_spirv.${dlext} | grep -v ' [wv] '\n    echo \"STB_GNU_UNIQUE symbols: $(readelf -Ws ${libdir}/libllvm_spirv.${dlext} | grep -c UNIQUE)\"\nelif [[ \"${target}\" == *-apple-* ]]; then\n    echo \"exported symbols:\"; nm -gU ${libdir}/libllvm_spirv.${dlext}\nfi\n"""
+toplevel_block = ""
+version = "v23.1.1"
+
+[[dependencies]]
+compat = ""
+name = "LLVM_full_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 23
+version-minor = 1
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "Zstd_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libllvm_spirv"]
+type = "lib"
+variable_name = "libllvm_spirv"
+
+[[sources]]
+hash = "c808623558686b7b285cabfa71542a93a5390f55"
+type = "git"
+unpack_target = ""
+url = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator.git"
+[[sources]]
+follow_symlinks = false
+path = "bundled"
+target = ""
+type = "directory"
+[[sources]]
+filename = "MacOSX11.0.sdk.tar.xz"
+hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.0.sdk.tar.xz"

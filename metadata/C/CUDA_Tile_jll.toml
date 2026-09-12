@@ -123,3 +123,24 @@ registered = 2026-06-30T14:29:33.000Z
         hash = "57109befac92811d2253109242ca6fa69c961fb2"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+["13.4.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-11T06:58:50.000Z
+
+    [["13.4.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.0+0/CUDA_Tile.v13.4.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/a3892edd52c9d65fbf6406b56c73141ce5c1aee5/C/CUDA/CUDA_Tile/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cuda_tile/build_tarballs.jl/a3892edd52c9d65fbf6406b56c73141ce5c1aee5.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["13.4.0+0".artifact_metadata.sources]]
+        hash = "7e8e2e68fa219716103824c01f7303367cf7df8d"
+        type = "git"
+        url = "https://github.com/NVIDIA/cuda-tile"
+        [["13.4.0+0".artifact_metadata.sources]]
+        hash = "9ebb067a8a2b4b0705f06d59c77d36dfab98333f"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"

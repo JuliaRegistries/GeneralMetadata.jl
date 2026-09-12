@@ -16879,3 +16879,268 @@ registered = 2026-08-07T09:07:27.000Z
         hash = "60af8e619b9232762023a412fcdec5b1f08528bbdceece7207f559719328ea9c"
         type = "archive"
         url = "https://packages.nvidia.com/bin-archive/pool/windows-x86_64/5B515474-7E78-11F1-8656-C51E4F4B317F/cccl-windows-x86_64-13.3.4.1.2-archive.zip"
+
+["13.4.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.1+0/CUDA_SDK.v13.4.1.aarch64-linux-gnu.tar.xz", "https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.1+0/CUDA_SDK.v13.4.1.x86_64-linux-gnu.tar.xz", "https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.1+0/CUDA_SDK.v13.4.1.x86_64-w64-mingw32.tar.xz"]
+registered = 2026-09-11T06:21:04.000Z
+
+    [["13.4.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.1+0/CUDA_SDK.v13.4.1.aarch64-linux-gnu.tar.xz", "https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.1+0/CUDA_SDK.v13.4.1.x86_64-linux-gnu.tar.xz", "https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.1+0/CUDA_SDK.v13.4.1.x86_64-w64-mingw32.tar.xz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/dcc560e478c803e470dc4d069a0d1ab17f05a801/C/CUDA/CUDA_SDK@13.4/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cuda_sdk@13.4/build_tarballs.jl/dcc560e478c803e470dc4d069a0d1ab17f05a801.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "ec3df9f91560db23a064c6b395d4fde17b2893f5bf954c6bd193dd03a44de522"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cudart/linux-x86_64/cuda_cudart-linux-x86_64-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "97375baa5456aba6fd55385d7303acf887bfda0597d8e88c6b5c0db43fb7ee1e"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cuobjdump/linux-x86_64/cuda_cuobjdump-linux-x86_64-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "1e449e94b4201d5fca5499040d1c69c33e938e5151ab151375aeee5ba5679a61"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cupti/linux-x86_64/cuda_cupti-linux-x86_64-13.4.58-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "0c08d1df80b5d0bd081778d392446ab50a6a54b047c0136b39c8dbfdf2cfed3f"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "622619236e0965fdb7a4407d5899afd1560c6f26e9d06a16cdeb2fe58af2e1f8"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvdisasm/linux-x86_64/cuda_nvdisasm-linux-x86_64-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "20cdc2af7ceefed099c287fe8654a9e9092aabe2ac7c443195aede62a23446a1"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvml_dev/linux-x86_64/cuda_nvml_dev-linux-x86_64-13.4.61-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "83c404dcdd859bb51f41da419ef4b0cacec3b2d0d534d27bf25c8cb78dba8617"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvprune/linux-x86_64/cuda_nvprune-linux-x86_64-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "fe5de48fa0eb8aaf3f72cb2a86f913c727bf684f9d59072d359285dde32de783"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvrtc/linux-x86_64/cuda_nvrtc-linux-x86_64-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "443465d4dcb77f45a2eb2c9adf2d1e0d7b4d0966ce84acf6d89b4c555bd55f5b"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_sanitizer_api/linux-x86_64/cuda_sanitizer_api-linux-x86_64-13.4.57-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "cc38b57206f5fbfe1f7f510bffde3059c525c0119ff3af8e40a6f90f147c01c3"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcublas/linux-x86_64/libcublas-linux-x86_64-13.7.0.27-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "8c55942458475fb06f0b8592d3080a0cf3d488aa25273771f4dbb674771c14fd"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcufft/linux-x86_64/libcufft-linux-x86_64-12.4.0.34-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "f08512d67cf25de22026638127a1635280e594b03a92f0592d33acfacad4c7fc"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcurand/linux-x86_64/libcurand-linux-x86_64-10.4.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "436a5a9acd2152a51ca92322f06d9761eb62bb3bf7b93310ee1a59096bea346a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcusolver/linux-x86_64/libcusolver-linux-x86_64-12.3.2.15-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "a6b0e29003dac4aec7507dcfc100383cad53c77164e9cafb0dac7ae42ba9b2bd"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcusparse/linux-x86_64/libcusparse-linux-x86_64-12.8.6.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "94deca82955341613a6f796ccfa8057cf9dc4162203b7c84471407768f655832"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnpp/linux-x86_64/libnpp-linux-x86_64-13.2.0.35-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "2af05b9bc91b3fb372c686a8ebd00c8f8099d7084e8c673092d3e4f83db873b2"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_profiler_api/linux-x86_64/cuda_profiler_api-linux-x86_64-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "564b6f0c17b119e3f37930aec8d30a2373f39cad3ac1d4c4cae57976734c8c25"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvjitlink/linux-x86_64/libnvjitlink-linux-x86_64-13.4.52-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "4118c80899d3cacf653b4d6b6ca38eb52ec155102bf45decfc4c720f8de65a39"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvjpeg/linux-x86_64/libnvjpeg-linux-x86_64-13.2.2.35-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "0a62d47788ffc1ec9d85c248d61a0941b8f0c47c6eeba9a26e27c01955094d3c"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_crt/linux-x86_64/cuda_crt-linux-x86_64-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "8966b24692ef664b77a3d3411a0c82b4960a2d6a179e0281dac0752c5c1518c7"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "7c973e70d8f8d732f801fe2297c9cb5a541f22824fa6ad64ac4f0e183f9c4397"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cccl/linux-x86_64/cccl-linux-x86_64-13.3.4.2.1-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "da5ded04df3c0714c26e4c2167cd5ce56f85e7216ffde753ded9f363818aa659"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cudart/linux-sbsa/cuda_cudart-linux-sbsa-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "21974630c974aabe9573c4f091d39acaef52f8e0cfd6ed599e56883fe2e0d879"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cuobjdump/linux-sbsa/cuda_cuobjdump-linux-sbsa-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "ad6d9a16d83670ca328b6a30fb3f3b2125039d715cf494109ae88a8d7f77018d"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cupti/linux-sbsa/cuda_cupti-linux-sbsa-13.4.58-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "8b98a77f0a4b34bf4eee30154ceb3dc9d4099129f886ed42d7d49c2c969514bc"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-sbsa/cuda_nvcc-linux-sbsa-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "0b50c279dadd8abdaeae1f98d0ceaf3c3bb2ef4a9e314c287468ab828d35b423"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvdisasm/linux-sbsa/cuda_nvdisasm-linux-sbsa-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "40ab275ff8a339614dc06f8b2b2649c4daec13815174e293fe116b3efcae8edc"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvml_dev/linux-sbsa/cuda_nvml_dev-linux-sbsa-13.4.61-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "f604e755328a1eeee90579ea364058d46edace6ba5685e5159fefce404ca614a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvprune/linux-sbsa/cuda_nvprune-linux-sbsa-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "f20e869d3524c7871bea7bab969bfe13084373352efd165216b0bdc771777b9b"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvrtc/linux-sbsa/cuda_nvrtc-linux-sbsa-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "275928dee0c2c61316a61faeb7a2930de60a986e005b7d1c25e861a4ecb9fd13"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_sanitizer_api/linux-sbsa/cuda_sanitizer_api-linux-sbsa-13.4.57-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "30cc7ed94280b0a3e1e4baf0a3ceb9115fd694b39ccdd73dd1a9f0f82aebf4bc"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcublas/linux-sbsa/libcublas-linux-sbsa-13.7.0.27-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "e47734b608f267a5a9d892d12eede9c48c69a47960e859ca23268fc9a86e756e"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcufft/linux-sbsa/libcufft-linux-sbsa-12.4.0.34-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "8f7fade9f74a2b83b674d4f967f49f884ac0d81c9e6b32c472b048653acf00c8"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcurand/linux-sbsa/libcurand-linux-sbsa-10.4.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "5069d84709c8b6d2f18ce259beedb3f45633a53ff4c0a5b3f50c99023e69aac3"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcusolver/linux-sbsa/libcusolver-linux-sbsa-12.3.2.15-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "c74712ed655b2646369983c0a7a244e8000ef4248804a1e4407556353ca2f963"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcusparse/linux-sbsa/libcusparse-linux-sbsa-12.8.6.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "ed2fe3afa54425909db8e24d6171c2e059990e5575071f18f199251147d4bb9e"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnpp/linux-sbsa/libnpp-linux-sbsa-13.2.0.35-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "25ad94ac231cd588ba0c82afa77e687910439f619b97b311176dcc2f32a99ee0"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_profiler_api/linux-sbsa/cuda_profiler_api-linux-sbsa-13.4.49-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "7df6c86848d6c91e7dab374016d8060d18a6f1be65b11639c73eec3f030c82e2"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvjitlink/linux-sbsa/libnvjitlink-linux-sbsa-13.4.52-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "1a995eb33167affd3ef998f619892e94c6c60db07cd91c9c0b8ae7d924d51b53"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvjpeg/linux-sbsa/libnvjpeg-linux-sbsa-13.2.2.35-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "157f1a3ee38d1bd690c7461b5db4981414e39025dcc8a0c7dd2076cc48887ff1"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_crt/linux-sbsa/cuda_crt-linux-sbsa-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "2f7804334b784f75ddd7f47bb4827e82c1e19c7d2123936178e4c5ec85e16940"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-sbsa/libnvvm-linux-sbsa-13.4.59-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "36fe2aa9e58a6c924c609e41b466d4ec5c7f66db2f171a7b0ecdd8482274213e"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cccl/linux-sbsa/cccl-linux-sbsa-13.3.4.2.1-archive.tar.xz"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "e6663f3d3e8949eedc2d5ab92c7c5b9fa3f2a222086d91c42bfc5a38bf2b0225"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cudart/windows-x86_64/cuda_cudart-windows-x86_64-13.4.49-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "9d1aeb5a25ea4be1abb9ae34985ce9734332d686c314ce597b45d79967286a42"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cuobjdump/windows-x86_64/cuda_cuobjdump-windows-x86_64-13.4.49-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "810073c5598bbb9a9edd9ffd4a16ea82f24927588ca30255cff037aa3cf9d0ea"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_cupti/windows-x86_64/cuda_cupti-windows-x86_64-13.4.58-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "06a4fe6ec543030c5e5a7b85493cda90612015d9fff2a54ed0227162c937ea46"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/windows-x86_64/cuda_nvcc-windows-x86_64-13.4.59-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "462f63933a4c60961e5f5fd5d1221d0f3b5a69f63115e12361d207a2927a821d"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvdisasm/windows-x86_64/cuda_nvdisasm-windows-x86_64-13.4.49-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "d84097b7333b6190d2db1e971b7e2b7e6483f6adee82261d8b65e00e636932d0"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvml_dev/windows-x86_64/cuda_nvml_dev-windows-x86_64-13.4.61-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "046ee2cacaba2de6395f3d18e8bc98d3ef5ba277226dc65617b14355e21d49d6"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvprune/windows-x86_64/cuda_nvprune-windows-x86_64-13.4.49-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "cfbc01669d2059b7fdeff242082223d23bd6a7605bc398bdc77fc77de5c310f0"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvrtc/windows-x86_64/cuda_nvrtc-windows-x86_64-13.4.59-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "8a1af222f79e3ee1a6539dc9d59825685e0361f03a752fc50ab62a8e34fd9a77"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_sanitizer_api/windows-x86_64/cuda_sanitizer_api-windows-x86_64-13.4.57-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "fff93984ee8a85dd8568e4b9000f9e3ef7153f0f73b176756bcbad3c6622d1f0"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcublas/windows-x86_64/libcublas-windows-x86_64-13.7.0.27-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "969cc31f4eae4fcb41a14b38c7c095fe925aed5af77ed283d487757e7a5367d9"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcufft/windows-x86_64/libcufft-windows-x86_64-12.4.0.34-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "9adf8616c372a0a63df881f25938d624002f5df2d99e51b43d56219c5894a079"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcurand/windows-x86_64/libcurand-windows-x86_64-10.4.4.49-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "0d57e591a0d447bd78da8def27886b1d286c27575b2d0a2bfa6dd6aa4f2f57c1"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcusolver/windows-x86_64/libcusolver-windows-x86_64-12.3.2.15-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "8a259680f1c4a082d356f1ac9fd1d7f15898b19565411ff2c51bbe8e05b41702"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libcusparse/windows-x86_64/libcusparse-windows-x86_64-12.8.6.49-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "39ed6d59754c654611c0e0527d5ea839d665d50fe4181908269ef26c1741a8f4"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnpp/windows-x86_64/libnpp-windows-x86_64-13.2.0.35-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "34c38ea6ee834a070ee605799f4488d2a3b05246a36e57ff1d429b11a2a9cc03"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_profiler_api/windows-x86_64/cuda_profiler_api-windows-x86_64-13.4.49-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "6888654b437de57775f23fc00fb51456399e22d3f795e30a9b6ce6f6ee787f8e"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvjitlink/windows-x86_64/libnvjitlink-windows-x86_64-13.4.52-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "65a9a4ec073e0a865b8c8642474ccf95e6bdc74676cc3650553c4696f1fdbebf"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvjpeg/windows-x86_64/libnvjpeg-windows-x86_64-13.2.2.35-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "f969a0e3b086a48f940563cd1b965cb5197fd9540c79cc952b1abfa479f9ede7"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_crt/windows-x86_64/cuda_crt-windows-x86_64-13.4.59-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "a7a07bcc21cc05bce83eedebcbcd9b9f5418c58316b0fa28a57cb2c548b29841"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/windows-x86_64/libnvvm-windows-x86_64-13.4.59-archive.zip"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "ea3ebdd98d4d98819cc26b66bc5a0931004ed35ff18eea8b93e0bd2c8bfa5d7c"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cccl/windows-x86_64/cccl-windows-x86_64-13.3.4.2.1-archive.zip"
