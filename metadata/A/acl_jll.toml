@@ -102,3 +102,24 @@ registered = 2025-04-01T17:17:16.000Z
             ["2.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/acl"
             version = "2.3.2"
+
+["2.4.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.x86_64-linux-musl.tar.gz"]
+registered = 2026-09-12T15:10:39.000Z
+
+    [["2.4.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.4.0+0/acl.v2.4.0.x86_64-linux-musl.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/52dfe77563f5b1428d5e0d8c357d3301c580b4ce/A/acl/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/acl/build_tarballs.jl/52dfe77563f5b1428d5e0d8c357d3301c580b4ce.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.4.0+0".artifact_metadata.sources]]
+        hash = "e661131456d2708a01c614a0f400e11d7d1bfaeb6f3e74b75bb980b72f0161a3"
+        type = "archive"
+        url = "http://download.savannah.nongnu.org/releases/acl/acl-2.4.0.tar.xz"
+
+            ["2.4.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/acl"
+            version = "2.4.0"

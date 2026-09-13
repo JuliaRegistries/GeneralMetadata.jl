@@ -81,3 +81,24 @@ registered = 2025-12-16T15:05:21.000Z
             ["2.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/inetutils"
             version = "2.7"
+
+["2.8.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.x86_64-linux-musl.tar.gz"]
+registered = 2026-09-12T15:46:56.000Z
+
+    [["2.8.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/telnet_jll.jl/releases/download/telnet-v2.8.0+0/telnet.v2.8.0.x86_64-linux-musl.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/e070a2e148b5bda71c2d50330ae5f7cab517a40c/T/telnet/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/t/telnet/build_tarballs.jl/e070a2e148b5bda71c2d50330ae5f7cab517a40c.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.8.0+0".artifact_metadata.sources]]
+        hash = "57b3cf4f77555992881e5ba2a09a63b05aa2c56342a60ed4305b5f45938390b5"
+        type = "archive"
+        url = "https://ftp.gnu.org/gnu/inetutils/inetutils-2.8.tar.gz"
+
+            ["2.8.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/inetutils"
+            version = "2.8"

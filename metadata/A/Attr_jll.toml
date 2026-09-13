@@ -80,3 +80,24 @@ registered = 2025-04-01T10:17:18.000Z
             ["2.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/attr"
             version = "2.5.2"
+
+["2.6.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.x86_64-linux-musl.tar.gz"]
+registered = 2026-09-12T15:10:54.000Z
+
+    [["2.6.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Attr_jll.jl/releases/download/Attr-v2.6.0+0/Attr.v2.6.0.x86_64-linux-musl.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/f1ab071a9f05899837fd075971d85bbf59f4fb41/A/Attr/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/attr/build_tarballs.jl/f1ab071a9f05899837fd075971d85bbf59f4fb41.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.6.0+0".artifact_metadata.sources]]
+        hash = "6c8a2148a7b85043b68492bce43316b0e2e214fc4e628c7ede078e76e216330b"
+        type = "archive"
+        url = "https://download.savannah.gnu.org/releases/attr/attr-2.6.0.tar.xz"
+
+            ["2.6.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/attr"
+            version = "2.6.0"
