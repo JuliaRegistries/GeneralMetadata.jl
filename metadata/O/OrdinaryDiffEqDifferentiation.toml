@@ -250,3 +250,11 @@ registered = 2026-08-31T13:19:47.000Z
 ["3.11.5"]
 artifact_urls = []
 registered = 2026-09-07T09:23:16.000Z
+
+["3.11.6"]
+artifact_urls = []
+registered = 2026-09-13T00:54:54.000Z
+
+["3.12.0"]
+artifact_urls = []
+registered = 2026-09-13T10:19:44.000Z

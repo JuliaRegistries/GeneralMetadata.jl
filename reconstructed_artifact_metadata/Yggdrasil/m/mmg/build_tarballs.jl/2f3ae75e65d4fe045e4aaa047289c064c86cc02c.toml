@@ -1,0 +1,80 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "MMG"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/mmg\n\n# MMG builds a small helper program, `genheader`, and runs it at build time to\n# generate the Fortran headers.  That does not work when cross-compiling, so\n# build it for the host first and put it on the PATH: when cross-compiling,\n# CMake does not substitute the `genheader` target name in the custom command\n# with the (unrunnable) target executable, and falls back to searching PATH.\ncmake -B build-host \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_HOST_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DUSE_SCOTCH=OFF \\\n    -DUSE_ELAS=OFF \\\n    -DUSE_VTK=OFF\ncmake --build build-host --parallel ${nproc} --target genheader\ninstall -Dvm 755 build-host/bin/genheader \"${host_bindir}/genheader\"\nrm -rf build-host\n\nif [[ \"${target}\" == *mingw* ]]; then\n    atomic_patch -p1 \"${WORKSPACE}/srcdir/patches/MMG.mingw.patch\"\nfi\n\n# `FindSCOTCH.cmake` wants to run a test program to determine `sizeof(SCOTCH_Num)`,\n# which is impossible when cross-compiling.  SCOTCH_jll is built with 32-bit\n# integers, so pre-seed the result of the `check_c_source_runs` call.\n# Old glibc hides the `PRId32` & co. macros from C++ unless `__STDC_FORMAT_MACROS`\n# is defined.\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DUSE_SCOTCH=ON \\\n    -DSCOTCH_DIR=${prefix} \\\n    -DSCOTCH_Num_4_EXITCODE=0 \\\n    -DSCOTCH_Num_4_EXITCODE__TRYRUN_OUTPUT=\"\" \\\n    -DUSE_ELAS=ON \\\n    -DUSE_VTK=OFF \\\n    -DCMAKE_CXX_FLAGS=\"-D__STDC_FORMAT_MACROS\"\ncmake --build build --parallel ${nproc}\ncmake --install build\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v5.8.0"
+
+[[dependencies]]
+compat = ""
+name = "LinearElasticity_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "~7.0.7"
+name = "SCOTCH_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libmmg"]
+type = "lib"
+variable_name = "libmmg"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libmmg2d"]
+type = "lib"
+variable_name = "libmmg2d"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libmmg3d"]
+type = "lib"
+variable_name = "libmmg3d"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libmmgs"]
+type = "lib"
+variable_name = "libmmgs"
+[[products]]
+binnames = ["mmg2d_O3"]
+type = "exe"
+variable_name = "mmg2d_O3"
+[[products]]
+binnames = ["mmg3d_O3"]
+type = "exe"
+variable_name = "mmg3d_O3"
+[[products]]
+binnames = ["mmgs_O3"]
+type = "exe"
+variable_name = "mmgs_O3"
+
+[[sources]]
+hash = "4d8232c8aebfed877935d75d4d4a67e850962422"
+type = "git"
+unpack_target = ""
+url = "https://github.com/MmgTools/mmg"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
