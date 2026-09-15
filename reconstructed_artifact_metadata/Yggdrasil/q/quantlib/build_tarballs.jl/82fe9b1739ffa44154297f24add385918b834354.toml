@@ -1,0 +1,47 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "QuantLib"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """macos_sdk_version=10.15\nmacosx_deployment_target=10.15\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir/QuantLib\ninstall_license LICENSE.TXT\nmkdir build\ncd build\n\nif [[ \"${target}\" == *86*-linux-gnu ]]; then\n    # clock_gettime needs librt with the old glibc on x86 linux\n    export LDFLAGS=\"-lrt\"\nfi\n\nCMAKE_FLAGS=(\n    -DCMAKE_INSTALL_PREFIX=${prefix}\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN}\n    -DCMAKE_BUILD_TYPE=Release\n    -DCMAKE_CXX_COMPILER_LAUNCHER=ccache\n    -DQL_EXTRA_SAFETY_CHECKS=ON\n    # Only build the library. The examples, test suite and benchmark are ~40\n    # extra executables that we don't ship; building them roughly doubles the\n    # build time and auditing them made some platforms hang until the CI\n    # timeout. The benchmark lives under test-suite/, so it is covered too.\n    -DQL_BUILD_EXAMPLES=OFF\n    -DQL_BUILD_TEST_SUITE=OFF\n    # Force shared library on all platforms. On UNIX this matches the upstream\n    # default (BUILD_SHARED_LIBS=${UNIX}); on MinGW it overrides the static-only\n    # default so we ship a DLL.\n    -DBUILD_SHARED_LIBS=ON\n    # Auto-generate the symbol export list on Windows (no-op elsewhere) so the\n    # MinGW DLL has its symbols visible; QuantLib doesn't use __declspec(dllexport).\n    -DCMAKE_WINDOWS_EXPORT_ALL_SYMBOLS=ON\n)\n\nCXX_EXTRA_FLAGS=\"\"\nif [[ ${target} == *darwin* || ${target} == *freebsd* ]]; then\n    # Boost violates the C++17 enum-to-int constexpr rule; Yggdrasil's\n    # Clang treats this as a hard error.\n    CXX_EXTRA_FLAGS=\"-Wno-enum-constexpr-conversion\"\nfi\nif [[ ${target} == *darwin* ]]; then\n    # Workaround upstream QuantLib bug: ql/termstructures/volatility/\n    # equityfx/blackvoltimeextrapolation.cpp uses std::vector without\n    # an #include <vector>. libc++ on darwin doesn't pull it in\n    # transitively (libstdc++ on Linux does).\n    CXX_EXTRA_FLAGS=\"${CXX_EXTRA_FLAGS} -include vector\"\nfi\nif [[ ${target} == *mingw* ]]; then\n    # boost_jll ships shared Boost on MinGW; tell Boost headers to mark\n    # symbols as dllimport instead of expecting static linkage.\n    CXX_EXTRA_FLAGS=\"${CXX_EXTRA_FLAGS} -DBOOST_ALL_DYN_LINK\"\nfi\nif [ -n \"${CXX_EXTRA_FLAGS}\" ]; then\n    CMAKE_FLAGS+=(-DCMAKE_CXX_FLAGS=\"${CXX_EXTRA_FLAGS}\")\nfi\n\ncmake \"${CMAKE_FLAGS[@]}\" -G Ninja ..\nninja -j${nproc}\nninja install\n\nif [[ ${target} == *mingw* ]]; then\n    # QuantLib's install() for ql_library specifies ARCHIVE+LIBRARY but no\n    # RUNTIME, so the import library (.dll.a) is installed to lib/ but the\n    # actual DLL is left in the build tree. Copy it into bin/ ourselves.\n    install -Dvm 755 ql/libQuantLib.dll -t \"${libdir}\"\nfi\n"""
+toplevel_block = ""
+version = "v1.43.0"
+
+[[dependencies]]
+compat = "=1.87.0"
+name = "boost_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libQuantLib"]
+type = "lib"
+variable_name = "libQuantLib"
+
+[[sources]]
+hash = "6b57206e04598f092efee66e3b367efc84771995"
+type = "git"
+unpack_target = ""
+url = "https://github.com/lballabio/QuantLib.git"
+[[sources]]
+filename = "MacOSX10.15.sdk.tar.xz"
+hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.15.sdk.tar.xz"

@@ -1,0 +1,26 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "tera_renderer"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/tera_renderer\ncargo build --release\ninstall -Dvm 755 \"target/${rust_target}/release/t_renderer${exeext}\" \"${bindir}/t_renderer${exeext}\"\ninstall_license ${WORKSPACE}/srcdir/LICENSE\n"""
+toplevel_block = ""
+version = "v0.2.1"
+
+[[products]]
+binnames = ["t_renderer"]
+type = "exe"
+variable_name = "t_renderer"
+
+[[sources]]
+hash = "a480a64b0a2cc15d4b1e6146e986388709ac0716"
+type = "git"
+unpack_target = ""
+url = "https://github.com/acados/tera_renderer.git"
+[[sources]]
+filename = "LICENSE"
+hash = "43c978e77d8d3721cbd701539724b3460e68f9d0dddfad76902237dc706f7fcc"
+type = "file"
+url = "https://raw.githubusercontent.com/acados/acados/503364817c872d474ab5bed219c26760ac267769/LICENSE"

@@ -25,3 +25,7 @@ registered = 2025-10-28T15:43:17.000Z
 ["0.2.1"]
 artifact_urls = ["https://www.tapas.tnu-zurich.com/Julia/rDCM/data.tar.gz"]
 registered = 2026-01-15T10:02:03.000Z
+
+["0.2.2"]
+artifact_urls = ["https://www.tapas.tnu-zurich.com/Julia/rDCM/data.tar.gz"]
+registered = 2026-09-14T14:21:26.000Z

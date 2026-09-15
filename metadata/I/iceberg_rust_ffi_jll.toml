@@ -609,3 +609,20 @@ registered = 2026-09-02T14:09:12.000Z
         hash = "5c8767f37451c31a43205a9bd93c4255b0e727a1"
         type = "git"
         url = "https://github.com/RelationalAI/RustyIceberg.jl.git"
+
+["0.9.4+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.x86_64-linux-gnu.tar.gz"]
+registered = 2026-09-14T10:31:50.000Z
+
+    [["0.9.4+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/iceberg_rust_ffi_jll.jl/releases/download/iceberg_rust_ffi-v0.9.4+0/iceberg_rust_ffi.v0.9.4.x86_64-linux-gnu.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/4d41af6565fc0af787918fae35d65ee8e41fe837/I/iceberg_rust_ffi/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/i/iceberg_rust_ffi/build_tarballs.jl/4d41af6565fc0af787918fae35d65ee8e41fe837.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.9.4+0".artifact_metadata.sources]]
+        hash = "6ccdd364323dec21beafa6561138f49c78567048"
+        type = "git"
+        url = "https://github.com/RelationalAI/RustyIceberg.jl.git"

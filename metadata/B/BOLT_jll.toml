@@ -39,3 +39,20 @@ registered = 2026-08-15T07:58:38.000Z
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
         url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.0.sdk.tar.xz"
+
+["23.1.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.x86_64-linux-musl-cxx11.tar.gz"]
+registered = 2026-09-14T15:17:36.000Z
+
+    [["23.1.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.1+0/BOLT.v23.1.1.x86_64-linux-musl-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/fad7ee00af18c32fc42b103a05e0c0d20ddaca8e/B/BOLT/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/b/bolt/build_tarballs.jl/fad7ee00af18c32fc42b103a05e0c0d20ddaca8e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["23.1.1+0".artifact_metadata.sources]]
+        hash = "6dfe1677ab8dffbc6ec13d53a1e0215d75147689"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"

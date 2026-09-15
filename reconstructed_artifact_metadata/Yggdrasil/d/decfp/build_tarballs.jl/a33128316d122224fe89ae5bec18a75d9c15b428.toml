@@ -1,0 +1,29 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.7"
+lazy_artifacts = false
+name = "DecFP"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir\natomic_patch -p1 patches/windows.patch\natomic_patch -p1 patches/align.patch\ncd LIBRARY\nif [[ ${nbits} == 64 ]]; then\n    HOST_ARCH=\"x86_64\"\nelse\n    HOST_ARCH=\"x86\"\nfi\n# __QNX__ makes bid_functions.h take fexcept_t from <fenv.h> instead of\n# typedef'ing it, which conflicts with the system definition on non-x86\n# glibc and on mingw.\nCFLAGS_OPT=\"-O2 -fPIC -fsigned-char -D__QNX__\"\nif [[ ${target} == *-w64-* ]]; then\n    HOST_OS=\"Windows_NT\"\n    CC=\"clang\"\n    CFLAGS_OPT+=\" -DBID_SIZE_LONG=4\"\n    objext=\"obj\"\nelif [[ ${target} == *-darwin* ]]; then\n    HOST_OS=\"Darwin\"\n    # Use the default compiler (clang): BinaryBuilder's gcc links libgcc_s with an\n    # absolute /workspace path, so the dylib fails to load on user machines\n    # (https://github.com/JuliaPackaging/BinaryBuilder.jl/issues/1339,\n    # https://github.com/JuliaMath/DecFP.jl/issues/195).\n    CFLAGS_OPT+=\" -DBID_SIZE_LONG=8\"\n    objext=\"o\"\nelif [[ ${target} == *-freebsd* ]]; then\n    HOST_OS=\"FreeBSD\"\n    CC=\"clang\"\n    CFLAGS_OPT+=\" -D__linux -DBID_SIZE_LONG=8\"\n    objext=\"o\"\nelse\n    HOST_OS=\"Linux\"\n    CC=\"gcc\"\n    if [[ ${nbits} == 64 ]]; then\n        CFLAGS_OPT+=\" -DBID_SIZE_LONG=8\"\n    else\n        CFLAGS_OPT+=\" -DBID_SIZE_LONG=4\"\n    fi\n    objext=\"o\"\nfi\nexport CC CFLAGS_OPT\nmake _HOST_ARCH=\"${HOST_ARCH}\" _HOST_OS=\"${HOST_OS}\" CALL_BY_REF=0 GLOBAL_RND=0 GLOBAL_FLAGS=0 UNCHANGED_BINARY_FLAGS=0 NO_BINARY80=1\nmkdir -p \"${libdir}\"\n${CC} -shared -o \"${libdir}/libbid.${dlext}\" *.${objext} -lm\ninstall_license ../eula.txt\n"""
+toplevel_block = ""
+version = "v2.0.400"
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libbid"]
+type = "lib"
+variable_name = "libbid"
+
+[[sources]]
+hash = "1df86132e7a31fd74d784fee1c679b21a088f73a8ec979cfaf784c200392e125"
+type = "archive"
+unpack_target = ""
+url = "https://www.netlib.org/misc/intel/IntelRDFPMathLib20U4.tar.gz"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

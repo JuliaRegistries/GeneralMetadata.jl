@@ -35,3 +35,23 @@ registered = 2024-03-27T15:15:40.000Z
         hash = "bdf117bb71755abcac19f33deb498343f1c8fdda"
         type = "git"
         url = "https://github.com/neperfepx/neper"
+
+["5.0.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.x86_64-linux-gnu-cxx11.tar.gz"]
+registered = 2026-09-14T03:12:45.000Z
+
+    [["5.0.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/neper_jll.jl/releases/download/neper-v5.0.0+0/neper.v5.0.0.x86_64-linux-gnu-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/b5ee15790ef152eb5eaaab9dd1f8a5dad34bd348/N/neper/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/neper/build_tarballs.jl/b5ee15790ef152eb5eaaab9dd1f8a5dad34bd348.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["5.0.0+0".artifact_metadata.sources]]
+        hash = "7f58ac9d4e459b4c0b7403d8a903db41aac240f3"
+        type = "git"
+        url = "https://github.com/neperfepx/neper"
+        [["5.0.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b5ee15790ef152eb5eaaab9dd1f8a5dad34bd348/N/neper/bundled"
