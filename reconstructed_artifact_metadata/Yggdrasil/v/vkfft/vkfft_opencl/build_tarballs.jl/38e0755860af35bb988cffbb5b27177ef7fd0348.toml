@@ -1,0 +1,52 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "VkFFT_OpenCL"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/libvkfft\ngit submodule update --init # VkFFT itself (v1.3.4) is a submodule in lib/VkFFT\n\ninstall_license LICENSE.md lib/VkFFT/LICENSE\n\n# FindOpenCL locates the ICD loader from OpenCL_jll and the headers from\n# OpenCL_Headers_jll under ${prefix}. On macOS the SDK's OpenCL.framework would\n# otherwise be found first, and libvkfft has to call the same loader OpenCL.jl\n# does, so frameworks are excluded from the search.\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_PREFIX_PATH=${prefix} \\\n    -DCMAKE_FIND_FRAMEWORK=NEVER \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DVKFFT_BACKEND=3 \\\n    -DVKFFT_MAX_FFT_DIMENSIONS=12 \\\n    -DVKFFT_WRAPPER_BUILD_TESTS=OFF \\\n    -DVKFFT_OPENCL_FORCE_ICD_LOADER=ON\ncmake --build build --parallel ${nproc}\ncmake --install build\n"""
+toplevel_block = ""
+version = "v0.1.0"
+
+[[dependencies]]
+compat = ""
+name = "OpenCL_Headers_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 2025
+version-minor = 6
+version-patch = 13
+[[dependencies]]
+compat = ""
+name = "OpenCL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libvkfft"]
+type = "lib"
+variable_name = "libvkfft"
+
+[[sources]]
+hash = "8d20a59e32bcacdc8ae09ba71ce4589719cd7257"
+type = "git"
+unpack_target = ""
+url = "https://github.com/PaulVirally/libvkfft.git"

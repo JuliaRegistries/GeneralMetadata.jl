@@ -201,3 +201,20 @@ registered = 2026-07-31T19:43:18.000Z
         hash = "8cf08d257ecf004f71f6c70b49da9793332daef7e556ab062f342071900fe435"
         type = "file"
         url = "https://files.pythonhosted.org/packages/79/70/d64211c4cf78490b273d449a7a4bd62e11a2a61c0b6b8dbef6b7c179c244/onemkl_sycl_include-2025.3.1-py2.py3-none-manylinux_2_28_x86_64.whl"
+
+["2026.1.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Support_Headers_jll.jl/releases/download/oneAPI_Support_Headers-v2026.1.0+0/oneAPI_Support_Headers.v2026.1.0.any.tar.gz"]
+registered = 2026-09-16T21:49:31.000Z
+
+    [["2026.1.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Support_Headers_jll.jl/releases/download/oneAPI_Support_Headers-v2026.1.0+0/oneAPI_Support_Headers.v2026.1.0.any.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/d52c76602895a5787fcecd0726d05f55bbe8fe8e/O/oneAPI_Support_Headers/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/oneapi_support_headers/build_tarballs.jl/d52c76602895a5787fcecd0726d05f55bbe8fe8e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2026.1.0+0".artifact_metadata.sources]]
+        hash = "e2ed8aec7531613c908086d542539548397482afc765528dbdbe913752566298"
+        type = "file"
+        url = "https://files.pythonhosted.org/packages/5e/2b/5ecba7eebf0a14eb394d5d5c36aa3469e1b3dd4eb9e9898a2ed22a9d87b4/onemkl_sycl_include-2026.1.0-py2.py3-none-manylinux_2_28_x86_64.whl"

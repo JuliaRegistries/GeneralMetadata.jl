@@ -117,3 +117,27 @@ registered = 2026-09-02T15:27:22.000Z
         [["3.8.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/f0adca8afd37aed57ba877e40868ef8f3218a84a/C/CasADi/bundled"
+
+["3.8.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-09-16T17:06:45.000Z
+
+    [["3.8.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/CasADi_jll.jl/releases/download/CasADi-v3.8.1+0/CasADi.v3.8.1.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/c942afbdd10e969bf5ddeac99b52a3afe25fbe59/C/CasADi/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/casadi/build_tarballs.jl/c942afbdd10e969bf5ddeac99b52a3afe25fbe59.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.8.1+0".artifact_metadata.sources]]
+        hash = "dafc81035257e0e57db5c65b2ac851a6239fb1c4"
+        type = "git"
+        url = "https://github.com/casadi/casadi.git"
+
+            ["3.8.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/casadi"
+            version = "3.8.1"
+        [["3.8.1+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c942afbdd10e969bf5ddeac99b52a3afe25fbe59/C/CasADi/bundled"

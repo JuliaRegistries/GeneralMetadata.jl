@@ -1,0 +1,33 @@
+augment_platform_block = """using Base.BinaryPlatforms: arch, arch_march_isa_mapping, CPUID, HostPlatform, Platform\n\nfunction augment_microarchitecture!(platform::Platform)\n    haskey(platform, \"march\") && return platform\n\n    host_arch = arch(HostPlatform())\n    host_isas = arch_march_isa_mapping[host_arch]\n    idx = findlast(((name, isa),) -> isa <= CPUID.cpu_isa(), host_isas)\n    platform[\"march\"] = first(host_isas[idx])\n    return platform\nend\n\n\nfunction augment_platform!(platform::Platform)\n    augment_microarchitecture!(platform)\nend\n"""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = true
+name = "hpipm"
+platforms = ["x86_64-linux-gnu-march+x86_64", "x86_64-linux-gnu-march+avx", "x86_64-linux-gnu-march+avx2", "x86_64-linux-gnu-march+avx512", "x86_64-linux-musl-march+x86_64", "x86_64-linux-musl-march+avx", "x86_64-linux-musl-march+avx2", "x86_64-linux-musl-march+avx512", "x86_64-w64-mingw32-march+x86_64", "x86_64-w64-mingw32-march+avx", "x86_64-w64-mingw32-march+avx2", "x86_64-w64-mingw32-march+avx512", "x86_64-apple-darwin-march+x86_64", "x86_64-apple-darwin-march+avx", "x86_64-apple-darwin-march+avx2", "aarch64-apple-darwin-march+apple_m1"]
+script = ["""HPIPM_TARGET=GENERIC\ncd ${WORKSPACE}/srcdir/hpipm\n\nmkdir -p ${WORKSPACE}/srcdir/blasfeo-cmake\ncat > ${WORKSPACE}/srcdir/blasfeo-cmake/blasfeoConfig.cmake <<EOF\nadd_library(blasfeo SHARED IMPORTED GLOBAL)\nset_target_properties(blasfeo PROPERTIES\n    IMPORTED_LOCATION \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    IMPORTED_IMPLIB \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    INTERFACE_INCLUDE_DIRECTORIES \"${prefix}/blasfeo/include\")\nEOF\n\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DTARGET=${HPIPM_TARGET} \\\n    -DHPIPM_FIND_BLASFEO=ON \\\n    -Dblasfeo_DIR=${WORKSPACE}/srcdir/blasfeo-cmake \\\n    -DBLASFEO_PATH=${prefix}/blasfeo \\\n    -DHPIPM_TESTING=OFF \\\n    -DHPIPM_HEADERS_INSTALLATION_DIRECTORY=include/hpipm/include\ncmake --build build --parallel ${nproc}\ncmake --install build\n\ninstall_license LICENSE.txt\n""", """HPIPM_TARGET=AVX\ncd ${WORKSPACE}/srcdir/hpipm\n\nmkdir -p ${WORKSPACE}/srcdir/blasfeo-cmake\ncat > ${WORKSPACE}/srcdir/blasfeo-cmake/blasfeoConfig.cmake <<EOF\nadd_library(blasfeo SHARED IMPORTED GLOBAL)\nset_target_properties(blasfeo PROPERTIES\n    IMPORTED_LOCATION \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    IMPORTED_IMPLIB \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    INTERFACE_INCLUDE_DIRECTORIES \"${prefix}/blasfeo/include\")\nEOF\n\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DTARGET=${HPIPM_TARGET} \\\n    -DHPIPM_FIND_BLASFEO=ON \\\n    -Dblasfeo_DIR=${WORKSPACE}/srcdir/blasfeo-cmake \\\n    -DBLASFEO_PATH=${prefix}/blasfeo \\\n    -DHPIPM_TESTING=OFF \\\n    -DHPIPM_HEADERS_INSTALLATION_DIRECTORY=include/hpipm/include\ncmake --build build --parallel ${nproc}\ncmake --install build\n\ninstall_license LICENSE.txt\n"""]
+toplevel_block = ""
+version = "v0.1.4"
+
+[[dependencies]]
+compat = "0.1.4"
+name = "blasfeo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libhpipm", "hpipm"]
+type = "lib"
+variable_name = "libhpipm"
+
+[[sources]]
+hash = "d4b267ba322aed8343a446d552cf048a2f8cf624"
+type = "git"
+unpack_target = ""
+url = "https://github.com/giaf/hpipm.git"

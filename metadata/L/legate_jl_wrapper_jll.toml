@@ -379,3 +379,29 @@ registered = 2026-07-31T22:27:43.000Z
         [["26.6.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["26.6.0+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.13.0.tar.gz"]
+registered = 2026-09-16T16:45:01.000Z
+
+    [["26.6.0+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jl_wrapper_jll.jl/releases/download/legate_jl_wrapper-v26.6.0+1/legate_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/bf1c6c9b4b4a0528512eb925f806bb97b1182f88/L/legate_jl_wrapper/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/legate_jl_wrapper/build_tarballs.jl/bf1c6c9b4b4a0528512eb925f806bb97b1182f88.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["26.6.0+1".artifact_metadata.sources]]
+        hash = "0140279101cf3b83d9ae2b6a2e6b13a4fb531954"
+        type = "git"
+        url = "https://github.com/JuliaLegate/Legate.jl"
+        [["26.6.0+1".artifact_metadata.sources]]
+        package = "libjulia_jll"
+        type = "builddependency"
+        [["26.6.0+1".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["26.6.0+1".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"
