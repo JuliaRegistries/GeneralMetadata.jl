@@ -1,0 +1,47 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "libcellml"
+platforms = ["x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "x86_64-w64-mingw32-cxx11"]
+script = """macos_sdk_version=10.15\nmacosx_deployment_target=10.15\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\n\n# ZLIB-static.cmake is missing from the following environments. We touch the file to allow the configuration to succeed.\nif [ -d /opt/aarch64-apple-darwin20/aarch64-apple-darwin20/sys-root/usr/local/lib/cmake/zlib/ ]; then\n  touch /opt/aarch64-apple-darwin20/aarch64-apple-darwin20/sys-root/usr/local/lib/cmake/zlib/ZLIB-static.cmake\nfi\nif [ -d /workspace/MacOSX10.15.sdk/usr/local/lib/cmake/zlib/ ]; then\n    touch /workspace/MacOSX10.15.sdk/usr/local/lib/cmake/zlib/ZLIB-static.cmake\nfi\nif [ -d /opt/aarch64-unknown-freebsd14.1/aarch64-unknown-freebsd14.1/sys-root/usr/local/lib/cmake/zlib/ ]; then\n    touch /opt/aarch64-unknown-freebsd14.1/aarch64-unknown-freebsd14.1/sys-root/usr/local/lib/cmake/zlib/ZLIB-static.cmake\nfi\nif [ -d /opt/x86_64-unknown-freebsd13.4/x86_64-unknown-freebsd13.4/sys-root/usr/local/lib/cmake/zlib/ ]; then\n    touch /opt/x86_64-unknown-freebsd13.4/x86_64-unknown-freebsd13.4/sys-root/usr/local/lib/cmake/zlib/ZLIB-static.cmake\nfi\n\ncmake -S libcellml -B build-libcellml-release \\\n    -DINSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DBUILD_TYPE=Release \\\n    -DTWAE=OFF \\\n    -DCOVERAGE=OFF \\\n    -DLLVM_COVERAGE=OFF \\\n    -DUNIT_TESTS=OFF\n\ncmake --build build-libcellml-release\ncmake --build build-libcellml-release --target install\ninstall_license libcellml/LICENSE\n"""
+toplevel_block = ""
+version = "v0.7.1"
+
+[[dependencies]]
+compat = ""
+name = "XML2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libcellml"]
+type = "lib"
+variable_name = "libcellml"
+
+[[sources]]
+hash = "bc71bfa5816cd3e1e1a28430366eb5688fe9e501"
+type = "git"
+unpack_target = ""
+url = "https://github.com/cellml/libcellml"
+[[sources]]
+filename = "MacOSX10.15.sdk.tar.xz"
+hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.15.sdk.tar.xz"

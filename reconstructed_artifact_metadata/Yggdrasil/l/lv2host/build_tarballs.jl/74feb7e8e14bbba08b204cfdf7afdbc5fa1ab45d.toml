@@ -1,0 +1,33 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "LV2Host"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/AudioPlugins.jl\ninstall_license LICENSE csrc/vendor/LV2-ISC-LICENSE\n\nmkdir -p \"${libdir}\" \"${includedir}\"\n# The host includes <lv2/...> through the include path so that it and lilv.h\n# resolve to the same copy; lilv's own headers come from Lilv_jll.\n${CC} -std=gnu99 -O2 -fPIC -shared -Wall -Wextra \\\n    -Icsrc/vendor -I\"${includedir}/lilv-0\" -I\"${includedir}\" \\\n    -o \"${libdir}/liblv2_host.${dlext}\" csrc/lv2_host.c \\\n    -L\"${libdir}\" -llilv-0 -lm\ninstall -Dm644 csrc/lv2_host.h \"${includedir}/lv2_host.h\"\n"""
+toplevel_block = ""
+version = "v1.1.1"
+
+[[dependencies]]
+compat = "0.28.0"
+name = "Lilv_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["liblv2_host"]
+type = "lib"
+variable_name = "liblv2_host"
+
+[[sources]]
+hash = "4513dab988a101d617e730878a0e40598eb02857"
+type = "git"
+unpack_target = ""
+url = "https://github.com/SciML/AudioPlugins.jl.git"

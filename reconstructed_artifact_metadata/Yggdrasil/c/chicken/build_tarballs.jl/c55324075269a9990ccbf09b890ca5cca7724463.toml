@@ -1,0 +1,68 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "CHICKEN"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/chicken*\n\nif [[ ${target} == *-apple-* ]]; then\n    PLATFORM=macosx\nelif [[ ${target} == *-freebsd* ]]; then\n    PLATFORM=bsd\nelif [[ ${target} == *-mingw* ]]; then\n    PLATFORM=mingw\nelse\n    PLATFORM=linux\nfi\n\nOPTS=(\n    ARCH=\n    PLATFORM=${PLATFORM}\n    C_COMPILER=${CC}\n    CXX_COMPILER=${CXX}\n    LIBRARIAN=ar\n    HOSTSYSTEM=${target}\n    PREFIX=\n    DESTDIR=${prefix}\n)\n\n# Translate what we call the target architecture into what Chicken calls it\ntarch=\"$(echo \"${target}\" | cut -d '-' -f 1 | tr _ -)\"\nif [ \"${tarch}\" = \"i686\" ]; then\n    tarch=\"x86\"\nelif [ \"${tarch}\" = \"aarch64\" ]; then\n    tarch=\"arm64\"\nelif [[ ${tarch} == armv* ]]; then\n    tarch=\"arm\"\nelif [ \"${tarch}\" = \"powerpc64le\" ]; then\n    tarch=\"ppc64\"\nfi\n\n# We need `-lrt` on glibc Linux, apparently only on x86-64\nif [[ ${target} == x86_64-linux-gnu ]]; then\n    OPTS+=(LIBRARIES=\"-lm -ldl -lrt\")\nfi\n\n# Only disable the x86-64 if we're compiling for a different architecture. I can't for the\n# life of me get the quoting to work correctly for the target feature specification when\n# putting it into the array, so I'll just admit defeat and separate the `make` calls.\nif [ \"${tarch}\" = \"x86-64\" ]; then\n    make \"${OPTS[@]}\" install\nelse\n    make \"${OPTS[@]}\" TARGET_FEATURES=\"-no-feature x86-64 -feature ${tarch}\" install\nfi\n"""
+toplevel_block = ""
+version = "v6.0.0"
+
+[[products]]
+binnames = ["chicken"]
+type = "exe"
+variable_name = "chicken"
+[[products]]
+binnames = ["chicken-do"]
+type = "exe"
+variable_name = "chicken_do"
+[[products]]
+binnames = ["chicken-install"]
+type = "exe"
+variable_name = "chicken_install"
+[[products]]
+binnames = ["chicken-profile"]
+type = "exe"
+variable_name = "chicken_profile"
+[[products]]
+binnames = ["chicken-status"]
+type = "exe"
+variable_name = "chicken_status"
+[[products]]
+binnames = ["chicken-uninstall"]
+type = "exe"
+variable_name = "chicken_uninstall"
+[[products]]
+binnames = ["csc"]
+type = "exe"
+variable_name = "chicken_csc"
+[[products]]
+binnames = ["csi"]
+type = "exe"
+variable_name = "chicken_csi"
+[[products]]
+paths = ["lib/libchicken-static.a"]
+type = "file"
+variable_name = "libchicken_static"
+[[products]]
+paths = ["include/chicken/chicken.h"]
+type = "file"
+variable_name = "chicken_h"
+[[products]]
+paths = ["include/chicken/chicken-config.h"]
+type = "file"
+variable_name = "chicken_config_h"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libchicken"]
+type = "lib"
+variable_name = "libchicken"
+
+[[sources]]
+hash = "92835552b1b687ad26737e429b5aba36510bf429f8816ec0f6d336c8cb41f443"
+type = "archive"
+unpack_target = ""
+url = "https://code.call-cc.org/releases/6.0.0/chicken-6.0.0.tar.gz"

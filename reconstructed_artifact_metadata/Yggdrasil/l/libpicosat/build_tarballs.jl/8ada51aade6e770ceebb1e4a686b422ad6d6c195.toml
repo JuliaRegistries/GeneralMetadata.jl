@@ -1,0 +1,29 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "libpicosat"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/PicoSAT\ncp ../{Makefile,config.h} .\nmake libpicosat.${dlext}\nmake install\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v965.0.3"
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libpicosat"]
+type = "lib"
+variable_name = "libpicosat"
+
+[[sources]]
+hash = "be39918064860d3887b4175a68752539803142b3"
+type = "git"
+unpack_target = ""
+url = "https://github.com/JuliaLang/PicoSAT.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
