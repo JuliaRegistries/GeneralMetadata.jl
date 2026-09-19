@@ -361,3 +361,29 @@ registered = 2026-09-13T23:17:56.000Z
         [["26.6.2+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["26.6.3+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.13.0.tar.gz"]
+registered = 2026-09-18T14:56:55.000Z
+
+    [["26.6.3+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.3+0/cunumeric_jl_wrapper.v26.6.3.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/518246b8fb3cec127d182b7c87db8d3bbfd88ddd/C/cunumeric_jl_wrapper/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cunumeric_jl_wrapper/build_tarballs.jl/518246b8fb3cec127d182b7c87db8d3bbfd88ddd.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["26.6.3+0".artifact_metadata.sources]]
+        hash = "9f47cce3f9562218e739dcefef2ee9a2e821aed6"
+        type = "git"
+        url = "https://github.com/JuliaLegate/cuNumeric.jl.git"
+        [["26.6.3+0".artifact_metadata.sources]]
+        package = "libjulia_jll"
+        type = "builddependency"
+        [["26.6.3+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["26.6.3+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"
