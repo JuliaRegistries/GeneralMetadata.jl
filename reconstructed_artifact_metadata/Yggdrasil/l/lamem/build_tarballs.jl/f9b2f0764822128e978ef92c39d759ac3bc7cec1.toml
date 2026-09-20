@@ -1,0 +1,124 @@
+augment_platform_block = """    using Base.BinaryPlatforms\n    # Can't use Preferences since we might be running this very early with a non-existing Manifest\nMPIPreferences_UUID = Base.UUID(\"3da0fdf6-3ccc-4f1b-acd9-58baa6c99267\")\nconst preferences = Base.get_preferences(MPIPreferences_UUID)\n\nconst binary_to_abi = Dict(\n    \"MPIABI_jll\" => \"MPIABI\",\n    \"MPICH_jll\" => \"MPICH\",\n    \"MPICH_CUDA_jll\" => \"MPICH\",\n    \"MPItrampoline_jll\" => \"MPItrampoline\",\n    \"MicrosoftMPI_jll\" => \"MicrosoftMPI\",\n    \"OpenMPI_jll\" => \"OpenMPI\",\n)\n\n# Keep logic in sync with MPIPreferences.jl\nfunction augment_mpi!(platform)\n    # Doesn't need to be `const` since we depend on MPIPreferences so we\n    # invalidate the cache when it changes.\n\n    # Determine which jll binary provides our MPI implementation.\n    # Use MPIPreferences if set, otherwise use either MPICH or MicrosoftMPI (on Windows).\n    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.\n    binary = get(preferences, \"binary\", Sys.iswindows(platform) ? \"MicrosoftMPI_jll\" : \"MPICH_jll\")\n\n    # Convert the jll binary to an ABI\n    if binary == \"system\"\n        abi = get(preferences, \"abi\", nothing)\n        abi === nothing && error(\"MPIPreferences: Inconsistent state detected, `binary` is set to system, but `abi` is not set.\")\n    else\n        abi = get(binary_to_abi, binary, nothing)\n        abi == nothing && error(\"Unknown MPI binary: $binary\")\n    end\n\n    # Add an `mpi` entry to the platform if it's missing\n    if !haskey(platform, \"mpi\")\n        platform[\"mpi\"] = abi\n    end\n\n    return platform\nend\n\n    augment_platform!(platform::Platform) = augment_mpi!(platform)\n"""
+init_block = ""
+julia_compat = "1.12"
+lazy_artifacts = false
+name = "LaMEM"
+platforms = ["x86_64-linux-gnu-libgfortran5-mpi+mpiabi", "aarch64-linux-gnu-libgfortran5-mpi+mpiabi", "powerpc64le-linux-gnu-libgfortran5-mpi+mpiabi", "x86_64-linux-musl-libgfortran5-mpi+mpiabi", "x86_64-apple-darwin-libgfortran5-mpi+mpiabi", "aarch64-apple-darwin-libgfortran5-mpi+mpiabi", "x86_64-linux-gnu-libgfortran5-mpi+mpich", "aarch64-linux-gnu-libgfortran5-mpi+mpich", "powerpc64le-linux-gnu-libgfortran5-mpi+mpich", "x86_64-linux-musl-libgfortran5-mpi+mpich", "x86_64-apple-darwin-libgfortran5-mpi+mpich", "aarch64-apple-darwin-libgfortran5-mpi+mpich", "x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline", "aarch64-linux-gnu-libgfortran5-mpi+mpitrampoline", "powerpc64le-linux-gnu-libgfortran5-mpi+mpitrampoline", "x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline", "aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline", "x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi", "x86_64-linux-gnu-libgfortran5-mpi+openmpi", "aarch64-linux-gnu-libgfortran5-mpi+openmpi", "powerpc64le-linux-gnu-libgfortran5-mpi+openmpi", "x86_64-apple-darwin-libgfortran5-mpi+openmpi", "aarch64-apple-darwin-libgfortran5-mpi+openmpi"]
+script = """\n# When MPItrampoline is built, it remembers the compilers that were used to build it, and it then puts \n# these paths into the mpicc scripts. this doesn't work in BinaryBuilder, so you need to manually override this by \n# specifying MPITRAMPOLINE_CC etc. (From Erik Schnetter)\n# These options were also used when building PETSc_jll, which is a key dependency of LaMEM.\nexport MPITRAMPOLINE_CC=${CC}\nexport MPITRAMPOLINE_CXX=${CXX}\nexport MPITRAMPOLINE_FC=${FC}\n\n# Create required directories\nmkdir $WORKSPACE/srcdir/LaMEM/bin\nmkdir $WORKSPACE/srcdir/LaMEM/bin/opt\nmkdir $WORKSPACE/srcdir/LaMEM/dep\nmkdir $WORKSPACE/srcdir/LaMEM/dep/opt\nmkdir $WORKSPACE/srcdir/LaMEM/lib\nmkdir $WORKSPACE/srcdir/LaMEM/lib/opt\n\ncd $WORKSPACE/srcdir/LaMEM\n\natomic_patch -p1 $WORKSPACE/srcdir/patches/stdc-format-macros.patch\n\ncd $WORKSPACE/srcdir/LaMEM/src\n\n# LaMEM 3.0.0 added an explicit `-std=c++17` flag (vs the previous reliance on PETSc's\n# `-std=gnu++17`), which switches MinGW onto strict ISO mode and hides M_PI (a GNU/POSIX\n# extension to <math.h>/<cmath>) unless _USE_MATH_DEFINES is defined before the first\n# include of <math.h>/<cmath>. src/Tensor.cpp and src/scaling.cpp use M_PI directly, so\n# without this the Windows build fails with \"M_PI was not declared in this scope\".\n# Setting CXXFLAGS doesn't reach the compile line (PETSc's conf/variables re-defines it),\n# so patch the define directly into the two files that need it.\nif [[ \"${target}\" == *mingw* ]]; then\n    atomic_patch -p1 $WORKSPACE/srcdir/patches/mingw-use-math-defines.patch\nfi\n\nexport PETSC_OPT=${libdir}/petsc/double_real_Int32/\n\n# LaMEM >= 3.1.0 picks its extra warning flags from the compiler name behind the MPI wrapper\n# and errors out on anything but g++/clang++/icpx; name the family of our toolchain instead.\nif [[ \"${target}\" == *-apple-* || \"${target}\" == *freebsd* ]]; then\n    LAMEM_CXX_COMPILER=clang++\nelse\n    LAMEM_CXX_COMPILER=g++\nfi\nMAKE_ARGS=(mode=opt CXX_COMPILER=${LAMEM_CXX_COMPILER})\n\n# `uname -m` says ppc64le, which LaMEM's platform check does not recognise\nif [[ \"${target}\" == powerpc64le-* ]]; then\n    MAKE_ARGS+=(PLATFORM=powerpc64le)\nfi\n\nmake \"${MAKE_ARGS[@]}\" clean_all\nmake \"${MAKE_ARGS[@]}\" all -j${nproc}\n\n# compile dynamic library\nmake \"${MAKE_ARGS[@]}\" dylib -j${nproc}\n\ncd $WORKSPACE/srcdir/LaMEM/bin/opt\n\n# On some windows versions it automatically puts the .exe extension; on others not. \nif [[ -f LaMEM ]]\nthen\n    mv LaMEM LaMEM${exeext}\nfi\n\ncp LaMEM${exeext} $WORKSPACE/srcdir/LaMEM/\ncd $WORKSPACE/srcdir/LaMEM\n\n# Install binaries\ninstall -Dvm 755 LaMEM* \"${bindir}/LaMEM${exeext}\"\ninstall -vm 644 src/*.h \"${includedir}\"\ninstall -Dvm 755 lib/opt/LaMEMLib.dylib \"${libdir}/LaMEMLib.${dlext}\"\n\n# Install license\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v3.1.0"
+
+[[dependencies]]
+compat = "3.25.4"
+name = "PETSc_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.0.0"
+name = "mpif_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-mpi+mpiabi", "aarch64-linux-gnu-libgfortran5-mpi+mpiabi", "powerpc64le-linux-gnu-libgfortran5-mpi+mpiabi", "x86_64-linux-musl-libgfortran5-mpi+mpiabi", "x86_64-apple-darwin-libgfortran5-mpi+mpiabi", "aarch64-apple-darwin-libgfortran5-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.2.302"
+name = "SCALAPACK32_jll"
+platforms = ["x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-mpi+mpiabi", "aarch64-linux-gnu-libgfortran5-mpi+mpiabi", "powerpc64le-linux-gnu-libgfortran5-mpi+mpiabi", "riscv64-linux-gnu-libgfortran5-mpi+mpiabi", "x86_64-linux-musl-libgfortran5-mpi+mpiabi", "x86_64-apple-darwin-libgfortran5-mpi+mpiabi", "aarch64-apple-darwin-libgfortran5-mpi+mpiabi", "aarch64-unknown-freebsd-libgfortran5-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "5.0.1"
+name = "MPICH_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-mpi+mpich", "aarch64-linux-gnu-libgfortran5-mpi+mpich", "powerpc64le-linux-gnu-libgfortran5-mpi+mpich", "riscv64-linux-gnu-libgfortran5-mpi+mpich", "x86_64-linux-musl-libgfortran5-mpi+mpich", "x86_64-apple-darwin-libgfortran5-mpi+mpich", "aarch64-apple-darwin-libgfortran5-mpi+mpich", "aarch64-unknown-freebsd-libgfortran5-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "5.5.6"
+name = "MPItrampoline_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline", "aarch64-linux-gnu-libgfortran5-mpi+mpitrampoline", "powerpc64le-linux-gnu-libgfortran5-mpi+mpitrampoline", "riscv64-linux-gnu-libgfortran5-mpi+mpitrampoline", "x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline", "aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline", "aarch64-unknown-freebsd-libgfortran5-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "MicrosoftMPI_jll"
+platforms = ["x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "4.1.9, 5.0.11"
+name = "OpenMPI_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-mpi+openmpi", "aarch64-linux-gnu-libgfortran5-mpi+openmpi", "powerpc64le-linux-gnu-libgfortran5-mpi+openmpi", "riscv64-linux-gnu-libgfortran5-mpi+openmpi", "x86_64-linux-musl-libgfortran5-mpi+openmpi", "x86_64-apple-darwin-libgfortran5-mpi+openmpi", "aarch64-apple-darwin-libgfortran5-mpi+openmpi", "aarch64-unknown-freebsd-libgfortran5-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1"
+name = "MPIPreferences"
+platforms = ["any"]
+top_level = true
+type = "dependency"
+uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["LaMEM"]
+type = "exe"
+variable_name = "LaMEM"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["LaMEMLib"]
+type = "lib"
+variable_name = "LaMEMLib"
+
+[[sources]]
+hash = "7e7a012ebbaacf85b5e0ecd963a2ddb83b5cbd1a"
+type = "git"
+unpack_target = ""
+url = "https://github.com/UniMainzGeo/LaMEM"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

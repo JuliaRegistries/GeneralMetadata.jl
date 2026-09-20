@@ -1180,3 +1180,64 @@ registered = 2026-08-13T11:10:09.000Z
             ["2.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
             version = "2.9.5"
+
+["2.9.7+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-19T16:29:44.000Z
+
+    [["2.9.7+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Deno_jll.jl/releases/download/Deno-v2.9.7+0/Deno.v2.9.7.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/38dfa27356fe36d12c1632e988ebef6ff59c4842/D/Deno/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/d/deno/build_tarballs.jl/38dfa27356fe36d12c1632e988ebef6ff59c4842.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.9.7+0".artifact_metadata.sources]]
+        hash = "c6527f24f4b16031d3ae4fa9f658d5f11534c8d84ce7dc8502420280919c3490"
+        type = "archive"
+        url = "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-unknown-linux-gnu.zip"
+
+            ["2.9.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/deno-bin"
+            version = "2.9.7"
+        [["2.9.7+0".artifact_metadata.sources]]
+        hash = "c832298b1ad4422481334855f6003e0f54145762c5a134f20a489511d2f65bbf"
+        type = "archive"
+        url = "https://github.com/denoland/deno/releases/download/v2.9.7/deno-aarch64-unknown-linux-gnu.zip"
+
+            ["2.9.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/deno"
+            version = "2.9.7"
+        [["2.9.7+0".artifact_metadata.sources]]
+        hash = "95daaff11c116a52ad54785e7914c8e9c9cdcaba793c5ed929c74ca2d8e6259a"
+        type = "archive"
+        url = "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-apple-darwin.zip"
+
+            ["2.9.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/deno"
+            version = "2.9.7"
+        [["2.9.7+0".artifact_metadata.sources]]
+        hash = "5cd46d6268f6f78f5d88bdc7159d20bd44cdaa4b3303474839f87ec6fe7ae25c"
+        type = "archive"
+        url = "https://github.com/denoland/deno/releases/download/v2.9.7/deno-aarch64-apple-darwin.zip"
+
+            ["2.9.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/deno"
+            version = "2.9.7"
+        [["2.9.7+0".artifact_metadata.sources]]
+        hash = "a0c3101b4158d1dfb7d6a78a7bf0f3de80c96bb423c152beec8beb22786f2238"
+        type = "archive"
+        url = "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-pc-windows-msvc.zip"
+
+            ["2.9.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/deno"
+            version = "2.9.7"
+        [["2.9.7+0".artifact_metadata.sources]]
+        hash = "21069d2f4dd65b6832e3f5c373c24a43a8d35cb3d68d3841e15d0582bed39ea8"
+        type = "archive"
+        url = "https://github.com/denoland/deno/releases/download/v2.9.7/deno_src.tar.gz"
+
+            ["2.9.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/deno"
+            version = "2.9.7"
