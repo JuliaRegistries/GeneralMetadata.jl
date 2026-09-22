@@ -1,0 +1,26 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "Airwindows"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """AIRWINDOWS_VERSION=1.0.0\nAP=${WORKSPACE}/srcdir/AudioPlugins.jl\nAW=${WORKSPACE}/srcdir/airwin2rack\n\ninstall_license ${AP}/LICENSE ${AP}/csrc/vendor/CLAP-LICENSE ${AW}/LICENSE.md\n\n# The front-end options are passed explicitly, though they already default OFF,\n# so an upstream default flip cannot pull JUCE or the Rack SDK into the build.\ncd ${AW}\ncmake -S . -B build \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_JUCE_PLUGIN=OFF \\\n    -DBUILD_RACK_PLUGIN=OFF\ncmake --build build --parallel ${nproc} --target airwin-registry\n\ncd ${AP}\nmkdir -p \"${libdir}/clap\"\n\n# Written to a header and -include'd rather than passed as -D: a macro whose\n# value is a quoted string does not survive the trip into this script.\nprintf '#define AIRWINDOWS_VERSION \"%s\"\\n' \"${AIRWINDOWS_VERSION}\" > aw_version.h\n\n# A .clap is dlopened into a host carrying its own C++ runtime, so the module\n# must neither need a second copy nor export one. -fvisibility=hidden alone is\n# not enough: libstdc++ marks namespace std explicitly visible, and template\n# instantiations leak without the export list. This is also why no\n# cxxstring_abi expansion is needed -- the only ABI presented is CLAP's, in C.\nif [[ \"${target}\" == *-apple-* ]]; then\n    printf '_clap_entry\\n' > aw_exports.syms\n    LINK_EXTRA=\"-Wl,-exported_symbols_list,aw_exports.syms\"\nelif [[ \"${target}\" == *-mingw* ]]; then\n    # -static, not just -static-libstdc++: mingw's libstdc++ threading pulls\n    # libwinpthread-1.dll, and nothing would ship it.\n    LINK_EXTRA=\"-static -Wl,--exclude-libs,ALL -Wl,--no-undefined\"\nelse\n    printf '{ global: clap_entry; local: *; };\\n' > aw_exports.map\n    LINK_EXTRA=\"-static-libstdc++ -static-libgcc -Wl,--version-script=aw_exports.map -Wl,--exclude-libs,ALL -Wl,--no-undefined\"\nfi\n\n${CXX} -std=c++17 -O2 -fPIC -shared \\\n    -fvisibility=hidden -fvisibility-inlines-hidden \\\n    -include aw_version.h \\\n    -isystem \"${AW}/src\" \\\n    -o \"${libdir}/clap/Airwindows.clap\" \\\n    csrc/airwindows/airwindows_clap.cpp \\\n    -L\"${AW}/build\" -lairwin-registry -lawdoc_resources \\\n    ${LINK_EXTRA}\n"""
+toplevel_block = ""
+version = "v1.0.0"
+
+[[products]]
+paths = ["lib/clap/Airwindows.clap", "bin/clap/Airwindows.clap"]
+type = "file"
+variable_name = "airwindows_clap"
+
+[[sources]]
+hash = "c423763d0d367f3119574eba102714200b4bdb13"
+type = "git"
+unpack_target = ""
+url = "https://github.com/SciML/AudioPlugins.jl.git"
+[[sources]]
+hash = "2a6d1c019e1b54a0376d479edf083694369f78b1"
+type = "git"
+unpack_target = ""
+url = "https://github.com/baconpaul/airwin2rack.git"

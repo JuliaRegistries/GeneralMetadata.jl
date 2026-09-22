@@ -1,0 +1,7 @@
+["0.1.0"]
+artifact_urls = ["https://github.com/trixi-framework/TrixiData.jl/releases/download/data-mesh_tandem_spheres_hex_p2/TandemSpheresHexMesh1P2_fixed.tar.gz"]
+registered = 2026-09-20T20:05:50.000Z
+
+["0.1.1"]
+artifact_urls = ["https://github.com/trixi-framework/TrixiData.jl/releases/download/data-mesh_gingerbread_man/mesh_gingerbread_man.tar.gz", "https://github.com/trixi-framework/TrixiData.jl/releases/download/data-mesh_nasa_crm_hex_p1/mesh_nasa_crm_hex_p1.tar.gz", "https://github.com/trixi-framework/TrixiData.jl/releases/download/data-mesh_onera_m6_wing_fixed/mesh_onera_m6_wing.tar.gz", "https://github.com/trixi-framework/TrixiData.jl/releases/download/data-mesh_tandem_spheres_hex_p2/TandemSpheresHexMesh1P2_fixed.tar.gz"]
+registered = 2026-09-21T09:28:53.000Z

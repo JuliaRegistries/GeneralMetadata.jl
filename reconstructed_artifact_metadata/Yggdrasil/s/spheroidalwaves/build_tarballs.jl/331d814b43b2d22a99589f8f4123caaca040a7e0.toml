@@ -1,0 +1,40 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "SpheroidalWaves"
+platforms = ["i686-linux-gnu-libgfortran5", "x86_64-linux-gnu-libgfortran5", "aarch64-linux-gnu-libgfortran5", "riscv64-linux-gnu-libgfortran5", "i686-linux-musl-libgfortran5", "x86_64-linux-musl-libgfortran5", "aarch64-linux-musl-libgfortran5", "x86_64-apple-darwin-libgfortran5", "aarch64-apple-darwin-libgfortran5", "x86_64-unknown-freebsd-libgfortran5", "aarch64-unknown-freebsd-libgfortran5", "i686-w64-mingw32-libgfortran5", "x86_64-w64-mingw32-libgfortran5"]
+script = """cd ${WORKSPACE}/srcdir/SpheroidalWaves*\ncmake -S . -B build-binarybuilder \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_BUILD_TYPE=Release\ncmake --build build-binarybuilder --parallel ${nproc}\ncmake --install build-binarybuilder\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v0.5.0"
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libspheroidal_batch_double", "spheroidal_batch_double"]
+type = "lib"
+variable_name = "libspheroidal_batch_double"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libspheroidal_batch_quad", "spheroidal_batch_quad"]
+type = "lib"
+variable_name = "libspheroidal_batch_quad"
+
+[[sources]]
+hash = "95e8b565288be1464e61a5f186b4cf3625d00787"
+type = "git"
+unpack_target = ""
+url = "https://github.com/brandynlucca/SpheroidalWaves.jl.git"
