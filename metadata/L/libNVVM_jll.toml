@@ -234,6 +234,31 @@ registered = 2026-03-11T08:58:02.000Z
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/windows-x86_64/libnvvm-windows-x86_64-13.2.51-archive.zip"
 
+["4.0.8+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.8+0/libNVVM.v4.0.8.aarch64-linux-gnu-cuda+13.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.8+0/libNVVM.v4.0.8.x86_64-linux-gnu-cuda+13.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.8+0/libNVVM.v4.0.8.x86_64-w64-mingw32-cuda+13.tar.gz"]
+registered = 2026-09-22T14:55:18.000Z
+
+    [["4.0.8+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.8+0/libNVVM.v4.0.8.aarch64-linux-gnu-cuda+13.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.8+0/libNVVM.v4.0.8.x86_64-linux-gnu-cuda+13.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.8+0/libNVVM.v4.0.8.x86_64-w64-mingw32-cuda+13.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/6d5bc1c1c8400f09da6c228cc57aa60d9f470e4f/C/CUDA/libNVVM/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/libnvvm/build_tarballs.jl/6d5bc1c1c8400f09da6c228cc57aa60d9f470e4f.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["4.0.8+0".artifact_metadata.sources]]
+        hash = "0e619cf3d5b27f7c812665599ca9761fc296e56129b24a85d822a5d8a1a3bd75"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.4.92-archive.tar.xz"
+        [["4.0.8+0".artifact_metadata.sources]]
+        hash = "483085a4f52d272ea2c5a6cb4727b24efc2cecab4c4df99e80dfc6548e5b7929"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-sbsa/libnvvm-linux-sbsa-13.4.92-archive.tar.xz"
+        [["4.0.8+0".artifact_metadata.sources]]
+        hash = "64fa39ad6332d6c40a02115d64827272f6befbc86e50568254f44d37d924e10b"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/windows-x86_64/libnvvm-windows-x86_64-13.4.92-archive.zip"
+
 ["5.0.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2024-04-29T10:46:03.000Z

@@ -1305,3 +1305,35 @@ registered = 2026-09-02T05:06:39.000Z
         hash = "c03fe18b9d23881f068ac97b45001a47778f83d2361728427a3f92b551b1c898"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_compat/linux-aarch64/cuda_compat-linux-aarch64-12.9.40580548-archive.tar.xz"
+
+["13.3.5+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.aarch64-linux-gnu-tegra+35.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.aarch64-linux-gnu-tegra+36.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.aarch64-linux-gnu-tegra+none.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.x86_64-linux-gnu-tegra+none.tar.gz"]
+registered = 2026-09-22T14:55:02.000Z
+
+    [["13.3.5+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.aarch64-linux-gnu-tegra+35.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.aarch64-linux-gnu-tegra+36.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.aarch64-linux-gnu-tegra+none.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.5+0/CUDA_Driver.v13.3.5.x86_64-linux-gnu-tegra+none.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/13d2256e08414c90468b180b1f5e9c50580601ac/C/CUDA/CUDA_Driver/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cuda_driver/build_tarballs.jl/13d2256e08414c90468b180b1f5e9c50580601ac.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["13.3.5+0".artifact_metadata.sources]]
+        hash = "653f664cdb55c2aba50493ac93f43b1fe2fa968eadcdd93ead95c5258a927fea"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/nvidia-driver/redist/cuda_compat/linux-x86_64/cuda_compat-linux-x86_64-610.57.04_cuda13.3-archive.tar.xz"
+        [["13.3.5+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/13d2256e08414c90468b180b1f5e9c50580601ac/C/CUDA/CUDA_Driver/src"
+        [["13.3.5+0".artifact_metadata.sources]]
+        hash = "5edf1a1788dc9deacc7a22a3739314f88ae396cd415f85e0ecacc83012f294f1"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/nvidia-driver/redist/cuda_compat/linux-sbsa/cuda_compat-linux-sbsa-610.57.04_cuda13.3-archive.tar.xz"
+        [["13.3.5+0".artifact_metadata.sources]]
+        hash = "fd59f6c5f6c670a62b7bac75d74db29a26f3e3703f0e5035cf30f7b6cfd5a74d"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_compat/linux-aarch64/cuda_compat-linux-aarch64-12.2.34086590-archive.tar.xz"
+        [["13.3.5+0".artifact_metadata.sources]]
+        hash = "c03fe18b9d23881f068ac97b45001a47778f83d2361728427a3f92b551b1c898"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_compat/linux-aarch64/cuda_compat-linux-aarch64-12.9.40580548-archive.tar.xz"

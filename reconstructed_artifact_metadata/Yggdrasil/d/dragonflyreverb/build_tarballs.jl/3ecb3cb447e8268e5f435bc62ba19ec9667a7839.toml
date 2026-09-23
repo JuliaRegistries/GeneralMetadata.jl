@@ -1,0 +1,42 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "DragonflyReverb"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/dragonfly-reverb-*\ninstall_license LICENSE common/freeverb/COPYING common/kiss_fft/COPYING.txt dpf/LICENSE\n\n# DPF's BASE_OPTS carries `-ffast-math`, which the build environment rejects,\n# plus per-architecture flags that are its business rather than ours.\n# Overriding from the command line displaces the whole definition.\nBASE_OPTS=\"-O3 -fdata-sections -ffunction-sections\"\n\nfor p in dragonfly-hall-reverb dragonfly-room-reverb dragonfly-plate-reverb dragonfly-early-reflections; do\n    # HAVE_OPENGL=false takes DPF to UI_TYPE=none, keeping X11, OpenGL and\n    # cairo out. It must be a command-line variable: DPF assigns\n    # HAVE_OPENGL=true outright on Windows and macOS, and a makefile\n    # assignment beats the environment.\n    make -C \"plugins/${p}\" clap -j${nproc} HAVE_OPENGL=false BASE_OPTS=\"${BASE_OPTS}\"\ndone\n\n# `cp -r` because a `.clap` is a bundle directory on macOS, and `lib/clap`\n# rather than `${libdir}/clap` so the path is the same on every platform.\nmkdir -p \"${prefix}/lib/clap\"\ncp -r bin/*.clap \"${prefix}/lib/clap/\"\n"""
+toplevel_block = ""
+version = "v3.2.10"
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+paths = ["lib/clap/DragonflyHallReverb.clap"]
+type = "file"
+variable_name = "dragonfly_hall_clap"
+[[products]]
+paths = ["lib/clap/DragonflyRoomReverb.clap"]
+type = "file"
+variable_name = "dragonfly_room_clap"
+[[products]]
+paths = ["lib/clap/DragonflyPlateReverb.clap"]
+type = "file"
+variable_name = "dragonfly_plate_clap"
+[[products]]
+paths = ["lib/clap/DragonflyEarlyReflections.clap"]
+type = "file"
+variable_name = "dragonfly_early_clap"
+
+[[sources]]
+hash = "18af55a9592c9f50c4d5f86c9d5159132735d9ba53d49e9cfe7169b3109f7743"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-src.tar.xz"

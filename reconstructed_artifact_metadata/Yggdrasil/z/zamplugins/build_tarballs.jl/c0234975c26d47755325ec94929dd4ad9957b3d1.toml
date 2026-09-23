@@ -1,0 +1,95 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "ZamPlugins"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir\nmv DPF/* zam-plugins/dpf/\ncd zam-plugins\ninstall_license COPYING NOTICE.DPF\n\n# DPF's BASE_OPTS carries `-ffast-math`, which the build environment rejects,\n# plus per-architecture flags that are its business rather than ours.\n# Overriding from the command line displaces the whole definition.\nBASE_OPTS=\"-O3 -fdata-sections -ffunction-sections\"\n\nfor p in ZamAutoSat ZamComp ZamCompX2 ZamDelay ZamDynamicEQ ZamEcho ZamEQ2 \\\n         ZamGate ZamGateX2 ZamGEQ31 ZamGrains ZaMaximX2 ZamPhono ZamTube \\\n         ZaMultiComp ZaMultiCompX2; do\n    # HAVE_OPENGL=false takes DPF to UI_TYPE=none, keeping X11, OpenGL and\n    # cairo out. It must be a command-line variable: DPF assigns\n    # HAVE_OPENGL=true outright on Windows and macOS, and a makefile\n    # assignment beats the environment.\n    make -C \"plugins/${p}\" clap -j${nproc} HAVE_OPENGL=false BASE_OPTS=\"${BASE_OPTS}\"\ndone\n\n# `lib/clap` rather than `${libdir}/clap`, which is `bin` on Windows, so the\n# product paths are the same on every platform.\nmkdir -p \"${prefix}/lib/clap\"\ncp -r bin/*.clap \"${prefix}/lib/clap/\"\n"""
+toplevel_block = ""
+version = "v4.5.0"
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+paths = ["lib/clap/ZamAutoSat.clap"]
+type = "file"
+variable_name = "zam_autosat_clap"
+[[products]]
+paths = ["lib/clap/ZamComp.clap"]
+type = "file"
+variable_name = "zam_comp_clap"
+[[products]]
+paths = ["lib/clap/ZamCompX2.clap"]
+type = "file"
+variable_name = "zam_comp_x2_clap"
+[[products]]
+paths = ["lib/clap/ZamDelay.clap"]
+type = "file"
+variable_name = "zam_delay_clap"
+[[products]]
+paths = ["lib/clap/ZamDynamicEQ.clap"]
+type = "file"
+variable_name = "zam_dynamic_eq_clap"
+[[products]]
+paths = ["lib/clap/ZamEcho.clap"]
+type = "file"
+variable_name = "zam_echo_clap"
+[[products]]
+paths = ["lib/clap/ZamEQ2.clap"]
+type = "file"
+variable_name = "zam_eq2_clap"
+[[products]]
+paths = ["lib/clap/ZamGate.clap"]
+type = "file"
+variable_name = "zam_gate_clap"
+[[products]]
+paths = ["lib/clap/ZamGateX2.clap"]
+type = "file"
+variable_name = "zam_gate_x2_clap"
+[[products]]
+paths = ["lib/clap/ZamGEQ31.clap"]
+type = "file"
+variable_name = "zam_geq31_clap"
+[[products]]
+paths = ["lib/clap/ZamGrains.clap"]
+type = "file"
+variable_name = "zam_grains_clap"
+[[products]]
+paths = ["lib/clap/ZaMaximX2.clap"]
+type = "file"
+variable_name = "zam_maxim_x2_clap"
+[[products]]
+paths = ["lib/clap/ZamPhono.clap"]
+type = "file"
+variable_name = "zam_phono_clap"
+[[products]]
+paths = ["lib/clap/ZamTube.clap"]
+type = "file"
+variable_name = "zam_tube_clap"
+[[products]]
+paths = ["lib/clap/ZaMultiComp.clap"]
+type = "file"
+variable_name = "zam_multi_comp_clap"
+[[products]]
+paths = ["lib/clap/ZaMultiCompX2.clap"]
+type = "file"
+variable_name = "zam_multi_comp_x2_clap"
+
+[[sources]]
+hash = "64cb54aa983a4caf1526060283fd87201c06ec49"
+type = "git"
+unpack_target = ""
+url = "https://github.com/zamaudio/zam-plugins.git"
+[[sources]]
+hash = "461ea6d45d842d273ae4d53ad5490e43459419cc"
+type = "git"
+unpack_target = ""
+url = "https://github.com/DISTRHO/DPF.git"

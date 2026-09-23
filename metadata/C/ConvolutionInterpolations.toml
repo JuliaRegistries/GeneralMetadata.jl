@@ -133,3 +133,11 @@ registered = 2026-08-18T16:00:10.000Z
 ["0.23.0"]
 artifact_urls = []
 registered = 2026-09-15T19:24:41.000Z
+
+["0.23.1"]
+artifact_urls = ["https://github.com/NikoBiele/ConvolutionInterpolations.jl/releases/download/kernel-tables-v1/kernel_tables-v1.tar.gz"]
+registered = 2026-09-22T21:31:29.000Z
+
+["0.23.2"]
+artifact_urls = ["https://github.com/NikoBiele/ConvolutionInterpolations.jl/releases/download/kernel-tables-v1/kernel_tables-v1.tar.gz"]
+registered = 2026-09-22T22:31:04.000Z

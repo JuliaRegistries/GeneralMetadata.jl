@@ -502,3 +502,32 @@ registered = 2026-09-04T13:20:08.000Z
         hash = "d0f6e0eee9a9de2241af051a4c4c2884cbf20d7ad6758ad07757dc12395b5528"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cuquantum/redist/cuquantum/linux-sbsa/cuquantum-linux-sbsa-26.03.0.5_cuda13-archive.tar.xz"
+
+["26.9.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.x86_64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"]
+registered = 2026-09-22T15:54:20.000Z
+
+    [["26.9.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cuQuantum_jll.jl/releases/download/cuQuantum-v26.9.0+0/cuQuantum.v26.9.0.x86_64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/60326f3665fc0ece8537e351e3ed5ab5095b5e53/C/CUDA/cuQuantum/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cuquantum/build_tarballs.jl/60326f3665fc0ece8537e351e3ed5ab5095b5e53.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["26.9.0+0".artifact_metadata.sources]]
+        hash = "b908cc21b032a83cf3c157a00e5fb230efa54035920d20a73c16568e6ee17ad7"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuquantum/redist/cuquantum/linux-x86_64/cuquantum-linux-x86_64-26.09.0.8_cuda12-archive.tar.xz"
+        [["26.9.0+0".artifact_metadata.sources]]
+        hash = "23089657fd50470cdcfbccb48acc36e501ec3b927fa58279b8729a85e99078cb"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuquantum/redist/cuquantum/linux-sbsa/cuquantum-linux-sbsa-26.09.0.8_cuda12-archive.tar.xz"
+        [["26.9.0+0".artifact_metadata.sources]]
+        hash = "92ecbba2b5783db20a966aa67e24206501eef3907ec09dd51cfb4753aea65731"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuquantum/redist/cuquantum/linux-x86_64/cuquantum-linux-x86_64-26.09.0.8_cuda13-archive.tar.xz"
+        [["26.9.0+0".artifact_metadata.sources]]
+        hash = "5698f5a97572e35653d55d87fc15428ea4a10911e711b82e0d5162efc152db67"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuquantum/redist/cuquantum/linux-sbsa/cuquantum-linux-sbsa-26.09.0.8_cuda13-archive.tar.xz"

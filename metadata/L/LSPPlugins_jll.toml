@@ -1,0 +1,20 @@
+["1.2.35+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/LSPPlugins_jll.jl/releases/download/LSPPlugins-v1.2.35+0/LSPPlugins.v1.2.35.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LSPPlugins_jll.jl/releases/download/LSPPlugins-v1.2.35+0/LSPPlugins.v1.2.35.x86_64-linux-gnu.tar.gz"]
+registered = 2026-09-22T11:19:29.000Z
+
+    [["1.2.35+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/LSPPlugins_jll.jl/releases/download/LSPPlugins-v1.2.35+0/LSPPlugins.v1.2.35.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LSPPlugins_jll.jl/releases/download/LSPPlugins-v1.2.35+0/LSPPlugins.v1.2.35.x86_64-linux-gnu.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/ba5f687313c3328310b2669dbdb3b995ddf02097/L/LSPPlugins/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/lspplugins/build_tarballs.jl/ba5f687313c3328310b2669dbdb3b995ddf02097.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.2.35+0".artifact_metadata.sources]]
+        hash = "2c95ec7bb219d561ea3db36051b6c732133bcd76426fb836b1dd850dc4b5bb6c"
+        type = "archive"
+        url = "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-src-1.2.35.tar.gz"
+
+            ["1.2.35+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/lsp-plugins"
+            version = "1.2.35"

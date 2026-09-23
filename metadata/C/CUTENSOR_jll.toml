@@ -746,3 +746,48 @@ registered = 2026-09-04T13:20:24.000Z
         hash = "84549d31acb88cdee1c3f307e662285fafa4e5ab0cbcf2d29bf8587d9f9a301f"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-2.7.0.5_cuda13-archive.zip"
+
+["2.8.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
+registered = 2026-09-22T15:00:11.000Z
+
+    [["2.8.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+0/CUTENSOR.v2.8.1.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/db17154f5ede4475efcca2312eb466b98a578da0/C/CUDA/CUTENSOR/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cutensor/build_tarballs.jl/db17154f5ede4475efcca2312eb466b98a578da0.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.8.1+0".artifact_metadata.sources]]
+        hash = "46dd5562fd7cc27fe89d07fd95ca006891680e835a6a30ea60579fb01f274690"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-x86_64/libcutensor-linux-x86_64-2.8.1.0_cuda12-archive.tar.xz"
+
+            ["2.8.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            version = "2.8.1.0_cuda12"
+        [["2.8.1+0".artifact_metadata.sources]]
+        hash = "d2f2237b8e9db63189de6862b47f93f4ae76954033de81bcc8f67ea80c022e94"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-2.8.1.0_cuda12-archive.tar.xz"
+        [["2.8.1+0".artifact_metadata.sources]]
+        hash = "62473d196a523887804d0e9b1fdc5adf3d31b32dc3d9416e0bb5420f60f3ace6"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-2.8.1.0_cuda12-archive.zip"
+        [["2.8.1+0".artifact_metadata.sources]]
+        hash = "03051950d98911ce21d977fd7ef697b6ff963b885df8844a326e25b9d400ae7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-x86_64/libcutensor-linux-x86_64-2.8.1.0_cuda13-archive.tar.xz"
+
+            ["2.8.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            version = "2.8.1.0_cuda13"
+        [["2.8.1+0".artifact_metadata.sources]]
+        hash = "55e85748c2046e06838a125bd9b311339752afd0dfb73906e34f12397aceb475"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-2.8.1.0_cuda13-archive.tar.xz"
+        [["2.8.1+0".artifact_metadata.sources]]
+        hash = "802f3b5dedc8f1d3e0eaa83e07d5ebdc0b93e8bc4a230a94a3bb124523f8b170"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-2.8.1.0_cuda13-archive.zip"

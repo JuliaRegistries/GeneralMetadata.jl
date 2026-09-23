@@ -131,3 +131,23 @@ registered = 2026-09-14T13:08:26.000Z
         [["23.1.1+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3690ffdf0edf0b535967eb31809a13dd0ac2108a/C/CUDA/NVPTX_LLVM_Backend/bundled"
+
+["23.1.2+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+0/NVPTX_LLVM_Backend.v23.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+0/NVPTX_LLVM_Backend.v23.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+0/NVPTX_LLVM_Backend.v23.1.2.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-09-22T16:02:18.000Z
+
+    [["23.1.2+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+0/NVPTX_LLVM_Backend.v23.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+0/NVPTX_LLVM_Backend.v23.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+0/NVPTX_LLVM_Backend.v23.1.2.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/8b5b5b68d8fbaeb2fcc3febb186b56dc3d7bf06f/C/CUDA/NVPTX_LLVM_Backend/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/nvptx_llvm_backend/build_tarballs.jl/8b5b5b68d8fbaeb2fcc3febb186b56dc3d7bf06f.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["23.1.2+0".artifact_metadata.sources]]
+        hash = "c98bbef08a2b4c2613cd50e9aa9ae7b69b1fe6c16b2c40373bc0ab6116fdf78a"
+        type = "archive"
+        url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.2/llvm-project-23.1.2.src.tar.xz"
+        [["23.1.2+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8b5b5b68d8fbaeb2fcc3febb186b56dc3d7bf06f/C/CUDA/NVPTX_LLVM_Backend/bundled"

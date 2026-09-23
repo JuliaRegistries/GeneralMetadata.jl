@@ -1,0 +1,66 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "LSPPlugins"
+platforms = ["x86_64-linux-gnu", "i686-linux-gnu"]
+script = """cd ${WORKSPACE}/srcdir/lsp-plugins\ninstall_license COPYING.LESSER COPYING\n\n# `clap` alone drops `ui`, and with it X11/cairo/freetype/fontconfig/GL.\nmake config \\\n    FEATURES=\"clap\" \\\n    PREFIX=\"${prefix}\" \\\n    LIBDIR=\"${libdir}\" \\\n    ARCHITECTURE=\"${target%%-*}\"\n\nmake -j${nproc}\nmake install\n"""
+toplevel_block = ""
+version = "v1.2.35"
+
+[[dependencies]]
+compat = "1.2.2"
+name = "libsndfile_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.4.4"
+name = "FLAC_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.3.7"
+name = "libvorbis_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.3.5"
+name = "Ogg_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.3.3"
+name = "Opus_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+paths = ["lib/clap/lsp-plugins.clap"]
+type = "file"
+variable_name = "lsp_plugins_clap"
+
+[[sources]]
+hash = "2c95ec7bb219d561ea3db36051b6c732133bcd76426fb836b1dd850dc4b5bb6c"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-src-1.2.35.tar.gz"
