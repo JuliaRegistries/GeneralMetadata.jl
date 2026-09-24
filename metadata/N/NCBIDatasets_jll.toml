@@ -71,3 +71,40 @@ registered = 2026-08-05T09:42:49.000Z
         hash = "c292d8f58e5cb6e27385385fc5d52f59a3409068"
         type = "git"
         url = "https://github.com/ncbi/datasets.git"
+
+["18.37.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-23T09:43:29.000Z
+
+    [["18.37.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/NCBIDatasets_jll.jl/releases/download/NCBIDatasets-v18.37.0+0/NCBIDatasets.v18.37.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/817abe355344e4a1b80f98b5ae20bb819ea17ef9/N/NCBIDatasets/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/ncbidatasets/build_tarballs.jl/817abe355344e4a1b80f98b5ae20bb819ea17ef9.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["18.37.0+0".artifact_metadata.sources]]
+        hash = "f553860753712e6628e4f0f45a1388f9ad27e6f9d5d07549d1c87cd208955f4b"
+        type = "archive"
+        url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-amd64.cli.package.zip"
+        [["18.37.0+0".artifact_metadata.sources]]
+        hash = "1c8784b02d42d99194f2d82a2636377f934ba8f414d1eb848210b39fb9cc6004"
+        type = "archive"
+        url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-arm64.cli.package.zip"
+        [["18.37.0+0".artifact_metadata.sources]]
+        hash = "4ed2bf905bf8b5d8c9c2d0915c689316fff41ed4cb65b3353924feae59349a31"
+        type = "archive"
+        url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-arm.cli.package.zip"
+        [["18.37.0+0".artifact_metadata.sources]]
+        hash = "910668772af3e899334c01775101ffe71b38bca36461a7cb7798ef840c3a782a"
+        type = "archive"
+        url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/darwin-universal.cli.package.zip"
+        [["18.37.0+0".artifact_metadata.sources]]
+        hash = "e2f93e3378a37bea8dd5b2dfa8274568b86e2dd6497e8d21aced7a4ce6d4d331"
+        type = "archive"
+        url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/windows-amd64.cli.package.zip"
+        [["18.37.0+0".artifact_metadata.sources]]
+        hash = "c292d8f58e5cb6e27385385fc5d52f59a3409068"
+        type = "git"
+        url = "https://github.com/ncbi/datasets.git"

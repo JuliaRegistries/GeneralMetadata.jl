@@ -21,3 +21,7 @@ registered = 2025-11-12T14:33:04.000Z
 ["0.6.0"]
 artifact_urls = ["https://github.com/ASML-Labs/MATFrost.jl/releases/download/v0.6.0/matfrost-mex-v0.6.0.tar.gz"]
 registered = 2026-04-01T19:35:32.000Z
+
+["0.7.0"]
+artifact_urls = ["https://github.com/ASML-Labs/MATFrost.jl/releases/download/v0.7.0/matfrost-mex-v0.7.0.tar.gz"]
+registered = 2026-09-23T06:04:35.000Z

@@ -1,0 +1,168 @@
+augment_platform_block = """using Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\n    # in that case, we just won't select an artifact.\nend\n\n# can't use Preferences for the same reason\nconst CUDA_Runtime_jll_uuid = Base.UUID(\"76a88914-d11a-5bdc-97e0-2f5a05c973a2\")\nconst preferences = Base.get_preferences(CUDA_Runtime_jll_uuid)\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"version\")\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"local\")\n# the `local` preference is a boolean, but CUDA.jl's `set_runtime_version!` writes it\n# as a string, and hand-written LocalPreferences.toml files use either spelling.\nconst local_toolkit = let pref = get(preferences, \"local\", false)\n    pref isa Bool ? pref : something(tryparse(Bool, pref), false)\nend\n\nfunction cuda_comparison_strategy(_a::String, _b::String, a_requested::Bool, b_requested::Bool)\n    # if we're using a local toolkit, we can't use artifacts\n    if local_toolkit\n        return false\n    end\n\n    # if either isn't a version number (e.g. \"none\"), perform a simple equality check\n    a = tryparse(VersionNumber, _a)\n    b = tryparse(VersionNumber, _b)\n    if a === nothing || b === nothing\n        return _a == _b\n    end\n\n    # if both b and a requested, then we fall back to equality\n    if a_requested && b_requested\n        return Base.thisminor(a) == Base.thisminor(b)\n    end\n\n    # otherwise, do the comparison between the the single version cap and the single version:\n    function is_compatible(artifact::VersionNumber, host::VersionNumber)\n        if host >= v\"11.0\"\n            # enhanced compatibility, semver-style\n            artifact.major == host.major &&\n            Base.thisminor(artifact) <= Base.thisminor(host)\n        else\n            Base.thisminor(artifact) == Base.thisminor(host)\n        end\n    end\n    if a_requested\n        is_compatible(b, a)\n    else\n        is_compatible(a, b)\n    end\nend\n\nfunction augment_platform!(platform::Platform)\n    if !@isdefined(CUDA_Runtime_jll)\n        # don't set to nothing or Pkg will download any artifact\n        platform[\"cuda\"] = \"none\"\n    end\n\n    if !haskey(platform, \"cuda\")\n        CUDA_Runtime_jll.augment_platform!(platform)\n    end\n    BinaryPlatforms.set_compare_strategy!(platform, \"cuda\", cuda_comparison_strategy)\n\n    return platform\nend"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = true
+name = "whisper_cpp"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11", "x86_64-linux-gnu-cxx11-cuda+12.2", "aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.2", "aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.2", "x86_64-linux-gnu-cxx11-cuda+12.6", "aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.6", "aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.6", "x86_64-linux-gnu-cxx11-cuda+12.8", "aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.8", "aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.8", "x86_64-linux-gnu-cxx11-cuda+13.0", "aarch64-linux-gnu-cxx11-cuda+13.0"]
+script = """macos_sdk_version=10.15\nmacosx_deployment_target=10.15\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir/whisper.cpp*\n\nfor f in ${WORKSPACE}/srcdir/patches/*.patch; do\n    atomic_patch -p1 ${f}\ndone\n\nEXTRA_CMAKE_ARGS=()\nEXE_LDFLAGS=\"\"\n\nif [[ \"${target}\" == *-linux-* ]]; then\n    EXE_LDFLAGS=\"-lrt\"\nfi\n\nif [[ \"${target}\" == x86_64-* || \"${target}\" == i686-* ]]; then\n    EXTRA_CMAKE_ARGS+=(-DGGML_AVX=ON -DGGML_AVX2=ON -DGGML_FMA=ON -DGGML_F16C=ON)\nfi\n\n# Metal: Apple Silicon only. The Metal shader library is embedded as source and\n# compiled at runtime, so no Metal toolchain is needed at build time.\nif [[ \"${target}\" == aarch64-apple-darwin* ]]; then\n    EXTRA_CMAKE_ARGS+=(-DGGML_METAL=ON -DGGML_METAL_EMBED_LIBRARY=ON)\nelif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    EXTRA_CMAKE_ARGS+=(-DGGML_METAL=OFF)\nfi\n\n# CUDA (only for platforms tagged cuda=<version>)\ncuda_version=none\nif [[ ${bb_full_target} == *-cuda+* ]]; then\n    # ${bb_full_target} looks like aarch64-linux-gnu-cxx11-cuda+12.2-cuda_platform+jetson\n    cuda_version=${bb_full_target##*-cuda+}\n    cuda_version=${cuda_version%%-*}\nfi\nif [[ ${cuda_version} != none ]]; then\n    # nvcc writes to /tmp, which is a small tmpfs in our sandbox\n    export TMPDIR=${WORKSPACE}/tmpdir\n    mkdir -p ${TMPDIR}\n\n    export CUDA_HOME=${prefix}/cuda\n    export PATH=${PATH}:${CUDA_HOME}/bin\n\n    # Require exactly one match so a renamed/absent archive fails here instead\n    # of later in cp with a confusing error.\n    unique_source_dir() {\n        local dirs=(${WORKSPACE}/srcdir/$2)\n        if [[ ${#dirs[@]} -ne 1 || ! -d \"${dirs[0]}\" ]]; then\n            echo \"ERROR: expected exactly one $2 in \\${WORKSPACE}/srcdir, got: ${dirs[*]}\" >&2\n            exit 1\n        fi\n        printf -v \"$1\" '%s' \"${dirs[0]}\"\n    }\n\n    if [[ \"${target}\" == aarch64-linux-* ]]; then\n        # nvcc is not a cross compiler: run the x86_64 host nvcc (from the\n        # cuda_nvcc redist added to the sources for aarch64 builds) against the\n        # aarch64 CUDA SDK that CUDA_SDK_jll put in ${prefix}/cuda.\n        export LD_LIBRARY_PATH=\"/usr/lib/csl-musl-x86_64:/usr/lib/csl-glibc-x86_64:${LD_LIBRARY_PATH}\"\n\n        unique_source_dir NVCC_DIR 'cuda_nvcc-linux-x86_64-*-archive'\n        rm -rf ${CUDA_HOME}/bin\n        cp -a \"${NVCC_DIR}/bin\" ${CUDA_HOME}/bin\n\n        # CUDA <= 12.x ships nvvm inside cuda_nvcc; CUDA >= 13 ships it separately\n        if [[ -d \"${NVCC_DIR}/nvvm/bin\" ]]; then\n            NVVM_DIR=\"${NVCC_DIR}\"\n        else\n            unique_source_dir NVVM_DIR 'libnvvm-linux-x86_64-*-archive'\n        fi\n        mkdir -p ${CUDA_HOME}/nvvm\n        rm -rf ${CUDA_HOME}/nvvm/bin ${CUDA_HOME}/nvvm/lib64\n        cp -a \"${NVVM_DIR}/nvvm/bin\" ${CUDA_HOME}/nvvm/bin\n        [[ -d \"${NVVM_DIR}/nvvm/lib64\" ]] && cp -a \"${NVVM_DIR}/nvvm/lib64\" ${CUDA_HOME}/nvvm/lib64\n    fi\n\n    export CUDACXX=${CUDA_HOME}/bin/nvcc\n    # reduces fatbin size; linking fails past 2GB when targeting many archs\n    export NVCC_PREPEND_FLAGS+=' -Xfatbin=-compress-all'\n\n    # CUDA_SDK_jll keeps libraries in cuda/lib, while nvcc (per its nvcc.profile)\n    # and FindCUDAToolkit look in lib64 first; and it ships the shared cudart only\n    # (libcudart.so, libcudadevrt.a, no libcudart_static.a). So point nvcc at the\n    # right directory and link the shared runtime, which is what we want anyway:\n    # CUDA_Runtime_jll provides libcudart/libcublas at run time.\n    [[ -e ${CUDA_HOME}/lib64 || -L ${CUDA_HOME}/lib64 ]] || ln -s lib ${CUDA_HOME}/lib64\n    export CUDAFLAGS=\"-cudart=shared\"\n    # ggml-cuda links the driver API; libggml-cuda ends up needing libcuda.so.1 (the\n    # real soname, provided by the driver at run time) but the SDK stubs directory\n    # only has libcuda.so, so give ld the soname it will look for.\n    [[ -e ${CUDA_HOME}/lib/stubs/libcuda.so.1 || -L ${CUDA_HOME}/lib/stubs/libcuda.so.1 ]] || ln -s libcuda.so ${CUDA_HOME}/lib/stubs/libcuda.so.1\n\n    # The executables link against libggml-cuda, whose own DT_NEEDED entries\n    # (libcudart, libcublas, libcuda) must be resolvable by ld at link time.\n    # The SDK libraries from CUDA 12.8 on (and the aarch64 13.x ones) reference\n    # glibc symbols newer than our sysroot (log2f@GLIBC_2.27,\n    # __cxa_thread_atexit_impl@GLIBC_2.18) in libcublasLt; that is fine on any\n    # host that can run those CUDA versions, so do not fail the link on it.\n    EXE_LDFLAGS+=\" -Wl,-rpath-link,${CUDA_HOME}/lib -Wl,-rpath-link,${CUDA_HOME}/lib/stubs -Wl,--allow-shlib-undefined\"\n\n    EXTRA_CMAKE_ARGS+=(\n        -DGGML_CUDA=ON\n        -DCMAKE_CUDA_COMPILER=${CUDACXX}\n        -DCMAKE_CUDA_HOST_COMPILER=${CXX}\n        -DCMAKE_CUDA_FLAGS=\"-cudart=shared\"\n        -DCMAKE_CUDA_RUNTIME_LIBRARY=Shared\n        -DCUDAToolkit_ROOT=${CUDA_HOME}\n        # NCCL is optional and not available here\n        -DGGML_CUDA_NCCL=OFF\n    )\n    # With GGML_NATIVE=OFF and CMAKE_CUDA_ARCHITECTURES unset, ggml picks a\n    # portable architecture list appropriate for the toolkit version\n    # (PTX for older archs, SASS for the common ones, Blackwell on >= 12.8).\nfi\n\ncmake -B build -G Ninja \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DCMAKE_SKIP_RPATH=ON \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DGGML_NATIVE=OFF \\\n    -DWHISPER_BUILD_IS_DEV=OFF \\\n    -DWHISPER_BUILD_TESTS=OFF \\\n    -DWHISPER_BUILD_EXAMPLES=ON \\\n    -DWHISPER_BUILD_SERVER=OFF \\\n    -DWHISPER_SDL2=OFF \\\n    -DWHISPER_CURL=OFF \\\n    -DCMAKE_EXE_LINKER_FLAGS=\"${EXE_LDFLAGS}\" \\\n    \"${EXTRA_CMAKE_ARGS[@]}\"\ncmake --build build --parallel ${nproc}\ncmake --install build\n\ninstall_license LICENSE\n\nif [[ ${cuda_version} != none ]]; then\n    # keep the CUDA SDK out of the products\n    rm -rf ${prefix}/cuda\nfi\n"""
+toplevel_block = ""
+version = "v1.9.3"
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 2
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_Runtime_jll"
+platforms = ["any"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 6
+version-patch = 3
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 8
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libwhisper", "whisper"]
+type = "lib"
+variable_name = "libwhisper"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libparakeet", "parakeet"]
+type = "lib"
+variable_name = "libparakeet"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libggml", "ggml"]
+type = "lib"
+variable_name = "libggml"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libggml-base", "ggml-base"]
+type = "lib"
+variable_name = "libggml_base"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libggml-cpu", "ggml-cpu"]
+type = "lib"
+variable_name = "libggml_cpu"
+[[products]]
+binnames = ["whisper-cli"]
+type = "exe"
+variable_name = "whisper_cli"
+[[products]]
+binnames = ["whisper-bench"]
+type = "exe"
+variable_name = "whisper_bench"
+[[products]]
+binnames = ["whisper-quantize"]
+type = "exe"
+variable_name = "whisper_quantize"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libggml-metal", "ggml-metal"]
+type = "lib"
+variable_name = "libggml_metal"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libggml-cuda", "ggml-cuda"]
+type = "lib"
+variable_name = "libggml_cuda"
+
+[[sources]]
+hash = "371b5a7561823ab2bb32142d2751e35e7534727b"
+type = "git"
+unpack_target = ""
+url = "https://github.com/ggml-org/whisper.cpp.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
+[[sources]]
+filename = "MacOSX10.15.sdk.tar.xz"
+hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.15.sdk.tar.xz"
+[[sources]]
+hash = "3feaab191e1ae3fded02c02b0f24453069ada96b2e3a750251293b36079dc2f1"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.2.140-archive.tar.xz"
+[[sources]]
+hash = "840deff234d9bef20d6856439c49881cb4f29423b214f9ecd2fa59b7ac323817"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.6.85-archive.tar.xz"
+[[sources]]
+hash = "9961b3484b6b71314063709a4f9529654f96782ad39e72bf1e00f070db8210d3"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.8.93-archive.tar.xz"
+[[sources]]
+hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+[[sources]]
+hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"

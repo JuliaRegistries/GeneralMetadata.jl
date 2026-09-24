@@ -54,3 +54,54 @@ registered = 2023-02-08T22:38:23.000Z
         [["1.2.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d8d84857cf1a92882c0c21ca798aeeff97e3ca25/W/whisper_cpp/bundled"
+
+["1.9.3+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-09-23T16:23:50.000Z
+
+    [["1.9.3+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/fb167094481eaae2b2e4789dcb7e6dd69ee65e72/W/whisper_cpp/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/w/whisper_cpp/build_tarballs.jl/fb167094481eaae2b2e4789dcb7e6dd69ee65e72.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.9.3+0".artifact_metadata.sources]]
+        hash = "371b5a7561823ab2bb32142d2751e35e7534727b"
+        type = "git"
+        url = "https://github.com/ggml-org/whisper.cpp.git"
+
+            ["1.9.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/whisper-cpp"
+            version = "4938"
+        [["1.9.3+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/fb167094481eaae2b2e4789dcb7e6dd69ee65e72/W/whisper_cpp/bundled"
+        [["1.9.3+0".artifact_metadata.sources]]
+        hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.15.sdk.tar.xz"
+        [["1.9.3+0".artifact_metadata.sources]]
+        hash = "3feaab191e1ae3fded02c02b0f24453069ada96b2e3a750251293b36079dc2f1"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.2.140-archive.tar.xz"
+        [["1.9.3+0".artifact_metadata.sources]]
+        hash = "840deff234d9bef20d6856439c49881cb4f29423b214f9ecd2fa59b7ac323817"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.6.85-archive.tar.xz"
+        [["1.9.3+0".artifact_metadata.sources]]
+        hash = "9961b3484b6b71314063709a4f9529654f96782ad39e72bf1e00f070db8210d3"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.8.93-archive.tar.xz"
+        [["1.9.3+0".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["1.9.3+0".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["1.9.3+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"

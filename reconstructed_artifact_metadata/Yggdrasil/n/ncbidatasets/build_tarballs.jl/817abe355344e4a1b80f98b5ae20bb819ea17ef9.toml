@@ -1,0 +1,61 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "NCBIDatasets"
+platforms = ["x86_64-linux-gnu", "x86_64-linux-musl", "aarch64-linux-gnu", "aarch64-linux-musl", "armv7l-linux-gnueabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-w64-mingw32"]
+script = """install -Dvm 755 \"${WORKSPACE}/srcdir/${target}/datasets${exeext}\" \"${bindir}/datasets${exeext}\"\ninstall_license ${WORKSPACE}/srcdir/datasets/LICENSE.md\n"""
+toplevel_block = ""
+version = "v18.37.0"
+
+[[products]]
+binnames = ["datasets"]
+type = "exe"
+variable_name = "datasets"
+
+[[sources]]
+hash = "f553860753712e6628e4f0f45a1388f9ad27e6f9d5d07549d1c87cd208955f4b"
+type = "archive"
+unpack_target = "x86_64-linux-gnu"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-amd64.cli.package.zip"
+[[sources]]
+hash = "f553860753712e6628e4f0f45a1388f9ad27e6f9d5d07549d1c87cd208955f4b"
+type = "archive"
+unpack_target = "x86_64-linux-musl"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-amd64.cli.package.zip"
+[[sources]]
+hash = "1c8784b02d42d99194f2d82a2636377f934ba8f414d1eb848210b39fb9cc6004"
+type = "archive"
+unpack_target = "aarch64-linux-gnu"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-arm64.cli.package.zip"
+[[sources]]
+hash = "1c8784b02d42d99194f2d82a2636377f934ba8f414d1eb848210b39fb9cc6004"
+type = "archive"
+unpack_target = "aarch64-linux-musl"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-arm64.cli.package.zip"
+[[sources]]
+hash = "4ed2bf905bf8b5d8c9c2d0915c689316fff41ed4cb65b3353924feae59349a31"
+type = "archive"
+unpack_target = "arm-linux-gnueabihf"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/linux-arm.cli.package.zip"
+[[sources]]
+hash = "910668772af3e899334c01775101ffe71b38bca36461a7cb7798ef840c3a782a"
+type = "archive"
+unpack_target = "x86_64-apple-darwin14"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/darwin-universal.cli.package.zip"
+[[sources]]
+hash = "910668772af3e899334c01775101ffe71b38bca36461a7cb7798ef840c3a782a"
+type = "archive"
+unpack_target = "aarch64-apple-darwin20"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/darwin-universal.cli.package.zip"
+[[sources]]
+hash = "e2f93e3378a37bea8dd5b2dfa8274568b86e2dd6497e8d21aced7a4ce6d4d331"
+type = "archive"
+unpack_target = "x86_64-w64-mingw32"
+url = "https://github.com/ncbi/datasets/releases/download/v18.37.0/windows-amd64.cli.package.zip"
+[[sources]]
+hash = "c292d8f58e5cb6e27385385fc5d52f59a3409068"
+type = "git"
+unpack_target = ""
+url = "https://github.com/ncbi/datasets.git"

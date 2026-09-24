@@ -135,9 +135,17 @@ registered = 2026-04-27T17:16:56.000Z
 artifact_urls = []
 registered = 2026-04-28T20:08:44.000Z
 
+["4.0.2"]
+artifact_urls = []
+registered = 2026-09-23T13:33:02.000Z
+
 ["4.1.0"]
 artifact_urls = []
 registered = 2026-05-06T19:26:16.000Z
+
+["4.1.1"]
+artifact_urls = []
+registered = 2026-09-23T13:33:19.000Z
 
 ["4.2.0"]
 artifact_urls = []
@@ -147,9 +155,17 @@ registered = 2026-05-08T23:06:55.000Z
 artifact_urls = []
 registered = 2026-05-12T18:04:55.000Z
 
+["4.2.2"]
+artifact_urls = []
+registered = 2026-09-23T13:33:35.000Z
+
 ["4.3.0"]
 artifact_urls = []
 registered = 2026-06-10T17:51:46.000Z
+
+["4.3.1"]
+artifact_urls = []
+registered = 2026-09-23T13:33:52.000Z
 
 ["4.4.0"]
 artifact_urls = []
@@ -158,3 +174,7 @@ registered = 2026-06-21T17:47:57.000Z
 ["4.4.1"]
 artifact_urls = []
 registered = 2026-08-19T14:15:13.000Z
+
+["4.4.2"]
+artifact_urls = []
+registered = 2026-09-23T12:59:53.000Z
