@@ -1,0 +1,273 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "X42Plugins"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir\n\n# Distinct basenames: every submodule ships a file named COPYING.\nmkdir -p \"${prefix}/share/licenses/X42Plugins\"\nfor d in balance controlfilter matrixmixer mididebug midifilter midigen midimap \\\n         nodelay onsettrigger phaserotate stepseq stereoroute testsignal xfade; do\n    cp \"${d}.lv2/COPYING\" \"${prefix}/share/licenses/X42Plugins/COPYING.${d}\"\ndone\n\n# Upstream OPTIMIZATIONS carry -ffast-math (rejected here) and -msse*; override\n# from the command line so the definition is displaced entirely.\nOPTIMIZATIONS=\"-O3 -fomit-frame-pointer -fno-finite-math-only -DNDEBUG\"\n\n# Install under share/lv2, not lib/lv2: BinaryBuilder's Windows audit moves\n# every .dll under lib/ into bin/ when it sees a \"simple buildsystem\", which\n# breaks LV2 bundles whose manifests name <plugin.dll> beside the ttl.\nMAKE_EXTRA=(OPTIMIZATIONS=\"${OPTIMIZATIONS}\" BUILDOPENGL=no BUILDJACKAPP=no\n            PREFIX=\"${prefix}\" LV2DIR=\"${prefix}/share/lv2\")\nif [[ \"${target}\" == *-apple-* ]]; then\n    # Several Makefiles strip with `-s $(RW)lv2syms` and RW defaults to a\n    # missing robtk checkout; point at a local keep-list instead so the LV2\n    # entry point is retained without fetching the GUI toolkit.\n    MAKE_EXTRA+=(UNAME=Darwin STRIPFLAGS=\"-u -r -arch all -s lv2syms\")\nfi\nif [[ \"${target}\" == aarch64-apple-* ]]; then\n    # onsettrigger's complex bandpass needs `__divdc3` from compiler-rt.\n    # Gate on aarch64 only: LLVMCompilerRT_jll is not a dependency on x86_64.\n    export LDFLAGS=\"-L${libdir}/darwin -lclang_rt.osx ${LDFLAGS}\"\n    MAKE_EXTRA+=(LDFLAGS=\"${LDFLAGS}\")\nelif [[ \"${target}\" == *-mingw* ]]; then\n    MAKE_EXTRA+=(XWIN=\"${target}\")\nelif [[ \"${target}\" == *-freebsd* ]]; then\n    # lv2_jll is built with meson, which installs lv2.pc under libdata/pkgconfig\n    # on FreeBSD; that directory is not on BinaryBuilder's default search path.\n    export PKG_CONFIG_PATH=\"${prefix}/libdata/pkgconfig:${PKG_CONFIG_PATH}\"\nfi\n\nfor d in balance.lv2 controlfilter.lv2 matrixmixer.lv2 mididebug.lv2 \\\n         midifilter.lv2 midigen.lv2 midimap.lv2 nodelay.lv2 onsettrigger.lv2 \\\n         phaserotate.lv2 stepseq.lv2 stereoroute.lv2 testsignal.lv2 xfade.lv2; do\n    # Keep-list only on macOS (STRIPFLAGS); elsewhere it would install as junk.\n    if [[ \"${target}\" == *-apple-* ]]; then\n        echo \"_lv2_descriptor\" > \"${d}/lv2syms\"\n    fi\n    make -C \"${d}\" -j${nproc} \"${MAKE_EXTRA[@]}\"\n    make -C \"${d}\" install \"${MAKE_EXTRA[@]}\"\ndone\n\n# Do not leave a stray lv2syms inside any installed bundle.\nfind \"${prefix}/share/lv2\" -name lv2syms -delete\n"""
+toplevel_block = ""
+version = "v2025.6.6"
+
+[[dependencies]]
+compat = ""
+name = "lv2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "FFTW_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "LLVMCompilerRT_jll"
+platforms = ["aarch64-apple-darwin"]
+top_level = false
+type = "builddependency"
+uuid = "4e17d02c-6bf5-513e-be62-445f41c75a11"
+version-major = 17
+version-minor = 0
+version-patch = 6
+
+[[products]]
+paths = ["share/lv2/balance.lv2/manifest.ttl"]
+type = "file"
+variable_name = "balance_lv2"
+[[products]]
+paths = ["share/lv2/controlfilter.lv2/manifest.ttl"]
+type = "file"
+variable_name = "controlfilter_lv2"
+[[products]]
+paths = ["share/lv2/matrixmixer.lv2/manifest.ttl"]
+type = "file"
+variable_name = "matrixmixer_lv2"
+[[products]]
+paths = ["share/lv2/mididebug.lv2/manifest.ttl"]
+type = "file"
+variable_name = "mididebug_lv2"
+[[products]]
+paths = ["share/lv2/midifilter.lv2/manifest.ttl"]
+type = "file"
+variable_name = "midifilter_lv2"
+[[products]]
+paths = ["share/lv2/midigen.lv2/manifest.ttl"]
+type = "file"
+variable_name = "midigen_lv2"
+[[products]]
+paths = ["share/lv2/midimap.lv2/manifest.ttl"]
+type = "file"
+variable_name = "midimap_lv2"
+[[products]]
+paths = ["share/lv2/nodelay.lv2/manifest.ttl"]
+type = "file"
+variable_name = "nodelay_lv2"
+[[products]]
+paths = ["share/lv2/onsettrigger.lv2/manifest.ttl"]
+type = "file"
+variable_name = "onsettrigger_lv2"
+[[products]]
+paths = ["share/lv2/phaserotate.lv2/manifest.ttl"]
+type = "file"
+variable_name = "phaserotate_lv2"
+[[products]]
+paths = ["share/lv2/stepseq_s8n8.lv2/manifest.ttl"]
+type = "file"
+variable_name = "stepseq_lv2"
+[[products]]
+paths = ["share/lv2/stereoroute.lv2/manifest.ttl"]
+type = "file"
+variable_name = "stereoroute_lv2"
+[[products]]
+paths = ["share/lv2/testsignal.lv2/manifest.ttl"]
+type = "file"
+variable_name = "testsignal_lv2"
+[[products]]
+paths = ["share/lv2/xfade.lv2/manifest.ttl"]
+type = "file"
+variable_name = "xfade_lv2"
+[[products]]
+dir_paths = ["share/lv2/balance.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["balance"]
+type = "lib"
+variable_name = "balance_bin"
+[[products]]
+dir_paths = ["share/lv2/controlfilter.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["controlfilter"]
+type = "lib"
+variable_name = "controlfilter_bin"
+[[products]]
+dir_paths = ["share/lv2/matrixmixer.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["matrixmixer"]
+type = "lib"
+variable_name = "matrixmixer_bin"
+[[products]]
+dir_paths = ["share/lv2/mididebug.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["mididebug"]
+type = "lib"
+variable_name = "mididebug_bin"
+[[products]]
+dir_paths = ["share/lv2/midifilter.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["midifilter"]
+type = "lib"
+variable_name = "midifilter_bin"
+[[products]]
+dir_paths = ["share/lv2/midigen.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["midigen"]
+type = "lib"
+variable_name = "midigen_bin"
+[[products]]
+dir_paths = ["share/lv2/midimap.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["midimap"]
+type = "lib"
+variable_name = "midimap_bin"
+[[products]]
+dir_paths = ["share/lv2/nodelay.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["nodelay"]
+type = "lib"
+variable_name = "nodelay_bin"
+[[products]]
+dir_paths = ["share/lv2/onsettrigger.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["onsettrigger"]
+type = "lib"
+variable_name = "onsettrigger_bin"
+[[products]]
+dir_paths = ["share/lv2/phaserotate.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["phaserotate"]
+type = "lib"
+variable_name = "phaserotate_bin"
+[[products]]
+dir_paths = ["share/lv2/stepseq_s8n8.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["stepseq"]
+type = "lib"
+variable_name = "stepseq_bin"
+[[products]]
+dir_paths = ["share/lv2/stereoroute.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["stereoroute"]
+type = "lib"
+variable_name = "stereoroute_bin"
+[[products]]
+dir_paths = ["share/lv2/testsignal.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["testsignal"]
+type = "lib"
+variable_name = "testsignal_bin"
+[[products]]
+dir_paths = ["share/lv2/xfade.lv2"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["xfade"]
+type = "lib"
+variable_name = "xfade_bin"
+
+[[sources]]
+hash = "432f5550a83af98ee215a1bdb1761959693ace87"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/balance.lv2.git"
+[[sources]]
+hash = "eac52432999429160c2e06e124097a50c37c38b4"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/controlfilter.lv2.git"
+[[sources]]
+hash = "171769871580e64a3b39091305d874848c650c43"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/matrixmixer.lv2.git"
+[[sources]]
+hash = "f23e53a712ba8ec5d4815bbf5eb397bbab578f0a"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/mididebug.lv2.git"
+[[sources]]
+hash = "349a081c53296cacb75e9c19d30bf97c67553435"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/midifilter.lv2.git"
+[[sources]]
+hash = "26afb285bdd2e00859b8717e91fc377f345cfa0a"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/midigen.lv2.git"
+[[sources]]
+hash = "bae60cf667ecd0fe1cea2b07af622318a3141af4"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/midimap.lv2.git"
+[[sources]]
+hash = "95d3fed18df70cb7b37eb6c8b3b9cc8b15d8513c"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/nodelay.lv2.git"
+[[sources]]
+hash = "484ce7f73c6e7230ad8b5f692898320ae694a2a6"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/onsettrigger.lv2.git"
+[[sources]]
+hash = "f093fa7e4d4f159fa7336654d3c514177f6f0c56"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/phaserotate.lv2.git"
+[[sources]]
+hash = "42ab09c93f30edcf555a504c163d5d36c8bd386d"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/stepseq.lv2.git"
+[[sources]]
+hash = "47de3b0562eec34fab86743410df510378f6a851"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/stereoroute.lv2.git"
+[[sources]]
+hash = "b8e4984c0ca91a9c77688f338ea4cd116f11c50c"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/testsignal.lv2.git"
+[[sources]]
+hash = "4023e5231a7a83f74f55ea38442a5261edd4cbfb"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/xfade.lv2.git"

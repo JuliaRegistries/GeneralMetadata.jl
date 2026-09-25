@@ -1338,3 +1338,41 @@ registered = 2026-09-16T23:13:12.000Z
         [["7.2.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
         type = "builddependency"
+
+["7.2.0+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-09-24T08:58:40.000Z
+
+    [["7.2.0+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/pocl_jll.jl/releases/download/pocl-v7.2.0+1/pocl.v7.2.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/e5cb37b709c94acdc323e3adb47d114cbcb518ef/P/pocl/pocl/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pocl/pocl/build_tarballs.jl/e5cb37b709c94acdc323e3adb47d114cbcb518ef.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["7.2.0+1".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e5cb37b709c94acdc323e3adb47d114cbcb518ef/P/pocl/pocl/bundled"
+        [["7.2.0+1".artifact_metadata.sources]]
+        hash = "888c9774b94590fff1afef003154ca2c0ea66605"
+        type = "git"
+        url = "https://github.com/pocl/pocl"
+
+            ["7.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pocl"
+            version = "7.2"
+        [["7.2.0+1".artifact_metadata.sources]]
+        hash = "0e67244861402a51b071414d7cb231a052b1ce03"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator.git"
+
+            ["7.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-llvm-translator"
+        [["7.2.0+1".artifact_metadata.sources]]
+        hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.0.sdk.tar.xz"
+        [["7.2.0+1".artifact_metadata.sources]]
+        package = "LLVM_full_jll"
+        type = "builddependency"

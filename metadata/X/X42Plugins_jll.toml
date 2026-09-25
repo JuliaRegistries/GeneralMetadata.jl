@@ -1,0 +1,71 @@
+["2025.6.6+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-24T11:34:53.000Z
+
+    [["2025.6.6+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/X42Plugins_jll.jl/releases/download/X42Plugins-v2025.6.6+0/X42Plugins.v2025.6.6.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/c18bf09ceb0af5ef35447e5862a4d85100e0ebaa/X/X42Plugins/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/x/x42plugins/build_tarballs.jl/c18bf09ceb0af5ef35447e5862a4d85100e0ebaa.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "432f5550a83af98ee215a1bdb1761959693ace87"
+        type = "git"
+        url = "https://github.com/x42/balance.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "eac52432999429160c2e06e124097a50c37c38b4"
+        type = "git"
+        url = "https://github.com/x42/controlfilter.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "171769871580e64a3b39091305d874848c650c43"
+        type = "git"
+        url = "https://github.com/x42/matrixmixer.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "f23e53a712ba8ec5d4815bbf5eb397bbab578f0a"
+        type = "git"
+        url = "https://github.com/x42/mididebug.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "349a081c53296cacb75e9c19d30bf97c67553435"
+        type = "git"
+        url = "https://github.com/x42/midifilter.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "26afb285bdd2e00859b8717e91fc377f345cfa0a"
+        type = "git"
+        url = "https://github.com/x42/midigen.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "bae60cf667ecd0fe1cea2b07af622318a3141af4"
+        type = "git"
+        url = "https://github.com/x42/midimap.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "95d3fed18df70cb7b37eb6c8b3b9cc8b15d8513c"
+        type = "git"
+        url = "https://github.com/x42/nodelay.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "484ce7f73c6e7230ad8b5f692898320ae694a2a6"
+        type = "git"
+        url = "https://github.com/x42/onsettrigger.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "f093fa7e4d4f159fa7336654d3c514177f6f0c56"
+        type = "git"
+        url = "https://github.com/x42/phaserotate.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "42ab09c93f30edcf555a504c163d5d36c8bd386d"
+        type = "git"
+        url = "https://github.com/x42/stepseq.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "47de3b0562eec34fab86743410df510378f6a851"
+        type = "git"
+        url = "https://github.com/x42/stereoroute.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "b8e4984c0ca91a9c77688f338ea4cd116f11c50c"
+        type = "git"
+        url = "https://github.com/x42/testsignal.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        hash = "4023e5231a7a83f74f55ea38442a5261edd4cbfb"
+        type = "git"
+        url = "https://github.com/x42/xfade.lv2.git"
+        [["2025.6.6+0".artifact_metadata.sources]]
+        package = "LLVMCompilerRT_jll"
+        type = "builddependency"

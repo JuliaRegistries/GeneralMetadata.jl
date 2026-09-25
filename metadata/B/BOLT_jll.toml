@@ -76,3 +76,23 @@ registered = 2026-09-22T20:49:43.000Z
         [["23.1.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a870fc99e552cae93793c14ba06d2357f23819da/B/BOLT/bundled"
+
+["23.1.2+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.x86_64-linux-musl-cxx11.tar.gz"]
+registered = 2026-09-24T09:34:59.000Z
+
+    [["23.1.2+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+1/BOLT.v23.1.2.x86_64-linux-musl-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/840281d4e0d3fec827e4e1ed24a4b1f3faec45b1/B/BOLT/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/b/bolt/build_tarballs.jl/840281d4e0d3fec827e4e1ed24a4b1f3faec45b1.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["23.1.2+1".artifact_metadata.sources]]
+        hash = "85ac560262434c9ccfc0c183ec22d4138ed647fb"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"
+        [["23.1.2+1".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/840281d4e0d3fec827e4e1ed24a4b1f3faec45b1/B/BOLT/bundled"
