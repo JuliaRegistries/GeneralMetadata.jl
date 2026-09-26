@@ -265,3 +265,7 @@ registered = 2026-08-11T14:21:37.000Z
 ["0.6.28"]
 artifact_urls = []
 registered = 2026-09-09T12:27:16.000Z
+
+["0.7.0"]
+artifact_urls = ["https://github.com/thchr/Crystalline.jl/releases/download/data-v0.0.4/bandreps.tar.gz", "https://github.com/thchr/Crystalline.jl/releases/download/data-v0.0.4/bilbao_spinless_irreps.tar.gz", "https://github.com/thchr/Crystalline.jl/releases/download/data-v0.0.4/dsg_crawl.tar.xz", "https://github.com/thchr/Crystalline.jl/releases/download/data-v0.0.4/isotropy.tar.gz"]
+registered = 2026-09-25T20:42:10.000Z

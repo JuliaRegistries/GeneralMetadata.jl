@@ -65,3 +65,142 @@ registered = 2026-09-23T14:09:59.000Z
         hash = "2df2b4e71b5b2f25b201ba5a3d42bdf676b1deaae2fb44c14a1d8a33c9f76a4d"
         type = "archive"
         url = "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.14.tar.xz"
+
+["15.2.0+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-25T11:20:49.000Z
+
+    [["15.2.0+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+1/GCCToolchain.v15.2.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/115bfb20b43a647e0c6ed98d607af200c61d7caf/G/GCCToolchain/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/g/gcctoolchain/build_tarballs.jl/115bfb20b43a647e0c6ed98d607af200c61d7caf.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["15.2.0+1".artifact_metadata.sources]]
+        hash = "438fd996826b0c82485a29da03a72d71d6e3541a83ec702df4271f6fe025d24e"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
+
+            ["15.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gcc"
+            version = "15.2.0"
+        [["15.2.0+1".artifact_metadata.sources]]
+        hash = "fd4829912cddd12f84181c3451cc752be224643e87fac497b69edddadc49b4f2"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+
+            ["15.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gmp"
+            version = "6.2.1"
+        [["15.2.0+1".artifact_metadata.sources]]
+        hash = "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+
+            ["15.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpfr"
+            version = "4.1.0"
+        [["15.2.0+1".artifact_metadata.sources]]
+        hash = "17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+
+            ["15.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gnumpc"
+            version = "1.2.1"
+        [["15.2.0+1".artifact_metadata.sources]]
+        hash = "fcf78dd9656c10eb8cf9fbd5f59a0b6b01386205fe1934b3b287a0a1898145c0"
+        type = "archive"
+        url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+
+            ["15.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/isl"
+            version = "0.24"
+        [["15.2.0+1".artifact_metadata.sources]]
+        hash = "5fe101e6fe9d18fdec95962d81ed670fdee5f37e3f48f0bef87bddf862513aa5"
+        type = "archive"
+        url = "https://ftp.gnu.org/gnu/binutils/binutils-2.45.1.tar.xz"
+
+            ["15.2.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/binutils"
+            version = "2.45.1"
+        [["15.2.0+1".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/115bfb20b43a647e0c6ed98d607af200c61d7caf/0_RootFS/GCCBootstrap@15/bundled"
+        [["15.2.0+1".artifact_metadata.sources]]
+        hash = "2df2b4e71b5b2f25b201ba5a3d42bdf676b1deaae2fb44c14a1d8a33c9f76a4d"
+        type = "archive"
+        url = "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.14.tar.xz"
+
+["15.2.0+2"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-25T21:12:37.000Z
+
+    [["15.2.0+2".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCToolchain_jll.jl/releases/download/GCCToolchain-v15.2.0+2/GCCToolchain.v15.2.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/5ab39e8e311db35218ec0d89945ccd5d9def88d2/G/GCCToolchain/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/g/gcctoolchain/build_tarballs.jl/5ab39e8e311db35218ec0d89945ccd5d9def88d2.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["15.2.0+2".artifact_metadata.sources]]
+        hash = "438fd996826b0c82485a29da03a72d71d6e3541a83ec702df4271f6fe025d24e"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
+
+            ["15.2.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gcc"
+            version = "15.2.0"
+        [["15.2.0+2".artifact_metadata.sources]]
+        hash = "fd4829912cddd12f84181c3451cc752be224643e87fac497b69edddadc49b4f2"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+
+            ["15.2.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gmp"
+            version = "6.2.1"
+        [["15.2.0+2".artifact_metadata.sources]]
+        hash = "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+
+            ["15.2.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpfr"
+            version = "4.1.0"
+        [["15.2.0+2".artifact_metadata.sources]]
+        hash = "17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+
+            ["15.2.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gnumpc"
+            version = "1.2.1"
+        [["15.2.0+2".artifact_metadata.sources]]
+        hash = "fcf78dd9656c10eb8cf9fbd5f59a0b6b01386205fe1934b3b287a0a1898145c0"
+        type = "archive"
+        url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+
+            ["15.2.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/isl"
+            version = "0.24"
+        [["15.2.0+2".artifact_metadata.sources]]
+        hash = "5fe101e6fe9d18fdec95962d81ed670fdee5f37e3f48f0bef87bddf862513aa5"
+        type = "archive"
+        url = "https://ftp.gnu.org/gnu/binutils/binutils-2.45.1.tar.xz"
+
+            ["15.2.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/binutils"
+            version = "2.45.1"
+        [["15.2.0+2".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/5ab39e8e311db35218ec0d89945ccd5d9def88d2/0_RootFS/GCCBootstrap@15/bundled"
+        [["15.2.0+2".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/5ab39e8e311db35218ec0d89945ccd5d9def88d2/G/GCCToolchain/bundled"
+        [["15.2.0+2".artifact_metadata.sources]]
+        hash = "2df2b4e71b5b2f25b201ba5a3d42bdf676b1deaae2fb44c14a1d8a33c9f76a4d"
+        type = "archive"
+        url = "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.14.tar.xz"

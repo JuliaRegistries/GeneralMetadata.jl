@@ -31,3 +31,20 @@ registered = 2026-07-15T09:47:48.000Z
         hash = "745330dc336f4237cac36db79b5c9b6bc15c0232"
         type = "git"
         url = "https://github.com/gbaraldi/framehopunwind.git"
+
+["0.1.3+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-25T14:32:53.000Z
+
+    [["0.1.3+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/LibFramehopUnwind_jll.jl/releases/download/LibFramehopUnwind-v0.1.3+0/LibFramehopUnwind.v0.1.3.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/fafbaa9c4e95dbc2fdf1f5b773a593b49cd3ad4c/L/LibFramehopUnwind/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libframehopunwind/build_tarballs.jl/fafbaa9c4e95dbc2fdf1f5b773a593b49cd3ad4c.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.1.3+0".artifact_metadata.sources]]
+        hash = "9c7fefc911d72f68a579b6ebe4c9eae5c4b84d25"
+        type = "git"
+        url = "https://github.com/gbaraldi/framehopunwind.git"
