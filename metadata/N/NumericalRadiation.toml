@@ -1,0 +1,3 @@
+["0.1.0"]
+artifact_urls = ["https://github.com/NumericalEarth/NumericalRadiation.jl/releases/download/validation-data-v1/ecrad_reference_data.tar.gz", "https://github.com/ecmwf-ifs/ecckd/archive/6115f9b8e29a55cb0f48916857bdc77fec41badd.tar.gz", "https://github.com/ecmwf-ifs/ecrad/archive/131ac980517719b7a859e3ccc117919a1d888a20.tar.gz"]
+registered = 2026-09-26T03:45:20.000Z

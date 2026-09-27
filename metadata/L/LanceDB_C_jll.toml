@@ -1,0 +1,20 @@
+["0.33.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-09-26T12:20:04.000Z
+
+    [["0.33.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/LanceDB_C_jll.jl/releases/download/LanceDB_C-v0.33.0+0/LanceDB_C.v0.33.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/f746bea65fa167a0741daecc6a872d60ac9d137d/L/LanceDB_C/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/lancedb_c/build_tarballs.jl/f746bea65fa167a0741daecc6a872d60ac9d137d.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.33.0+0".artifact_metadata.sources]]
+        hash = "b817cb3dcdd81f8191c161de21632db9d2331129"
+        type = "git"
+        url = "https://github.com/lancedb/lancedb-c.git"
+        [["0.33.0+0".artifact_metadata.sources]]
+        hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.1.sdk.tar.xz"

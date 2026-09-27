@@ -218,3 +218,20 @@ registered = 2026-08-15T03:42:03.000Z
         hash = "e5b872c27f2f8d597b91ef75896e8f02c0550ddc"
         type = "git"
         url = "https://github.com/ralna/GALAHAD.git"
+
+["5.5.2+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.aarch64-apple-darwin-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.aarch64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.powerpc64le-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.riscv64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-apple-darwin-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-unknown-freebsd-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-w64-mingw32-libgfortran5.tar.gz"]
+registered = 2026-09-26T04:44:53.000Z
+
+    [["5.5.2+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.aarch64-apple-darwin-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.aarch64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.powerpc64le-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.riscv64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-apple-darwin-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-unknown-freebsd-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/GALAHAD_jll.jl/releases/download/GALAHAD-v5.5.2+0/GALAHAD.v5.5.2.x86_64-w64-mingw32-libgfortran5.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/328f02751c283c63292e555c840243f045f6131f/G/GALAHAD/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/g/galahad/build_tarballs.jl/328f02751c283c63292e555c840243f045f6131f.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["5.5.2+0".artifact_metadata.sources]]
+        hash = "e5b15008643f85144e940676f278035441a58f13"
+        type = "git"
+        url = "https://github.com/ralna/GALAHAD.git"
