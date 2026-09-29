@@ -291,3 +291,37 @@ registered = 2026-07-25T09:52:46.000Z
         [["10.86.50+0".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
         type = "builddependency"
+
+["10.86.51+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-unknown-freebsd.tar.gz"]
+registered = 2026-09-28T21:18:27.000Z
+
+    [["10.86.51+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Netpbm_jll.jl/releases/download/Netpbm-v10.86.51+0/Netpbm.v10.86.51.x86_64-unknown-freebsd.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/2944f69c994f276772f6fe21fef4671fb450fe71/N/Netpbm/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/netpbm/build_tarballs.jl/2944f69c994f276772f6fe21fef4671fb450fe71.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["10.86.51+0".artifact_metadata.sources]]
+        hash = "17d41387e7343da10925690b813ba91c6bd901b417e51500ba4272556a4e5302"
+        type = "archive"
+        url = "https://sourceforge.net/projects/netpbm/files/super_stable/10.86.51/netpbm-10.86.51.tgz"
+
+            ["10.86.51+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/netpbm"
+            version = "10.86.51"
+        [["10.86.51+0".artifact_metadata.sources]]
+        hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
+        type = "git"
+        url = "https://github.com/win32ports/sys_wait_h"
+        [["10.86.51+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2944f69c994f276772f6fe21fef4671fb450fe71/N/Netpbm/bundled"
+        [["10.86.51+0".artifact_metadata.sources]]
+        package = "Xorg_kbproto_jll"
+        type = "builddependency"
+        [["10.86.51+0".artifact_metadata.sources]]
+        package = "Xorg_xproto_jll"
+        type = "builddependency"

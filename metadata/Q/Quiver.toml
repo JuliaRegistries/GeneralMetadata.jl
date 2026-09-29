@@ -193,3 +193,11 @@ registered = 2026-09-27T15:58:29.000Z
 ["0.12.1"]
 artifact_urls = ["https://julia-artifacts.s3.amazonaws.com/quiver/0.12.1/quiver-linux-x86_64.tgz", "https://julia-artifacts.s3.amazonaws.com/quiver/0.12.1/quiver-macos-aarch64.tgz", "https://julia-artifacts.s3.amazonaws.com/quiver/0.12.1/quiver-windows-x86_64.tgz"]
 registered = 2026-09-27T21:18:51.000Z
+
+["0.12.2"]
+artifact_urls = ["https://julia-artifacts.s3.amazonaws.com/quiver/0.12.2/quiver-linux-x86_64.tgz", "https://julia-artifacts.s3.amazonaws.com/quiver/0.12.2/quiver-macos-aarch64.tgz", "https://julia-artifacts.s3.amazonaws.com/quiver/0.12.2/quiver-windows-x86_64.tgz"]
+registered = 2026-09-28T01:30:19.000Z
+
+["0.12.3"]
+artifact_urls = ["https://julia-artifacts.s3.amazonaws.com/quiver/0.12.3/quiver-linux-x86_64.tgz", "https://julia-artifacts.s3.amazonaws.com/quiver/0.12.3/quiver-macos-aarch64.tgz", "https://julia-artifacts.s3.amazonaws.com/quiver/0.12.3/quiver-windows-x86_64.tgz"]
+registered = 2026-09-28T12:23:39.000Z

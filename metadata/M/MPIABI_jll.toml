@@ -228,3 +228,31 @@ registered = 2026-08-15T17:36:04.000Z
         [["1.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/60ce233d59184fc8c07c5ce346896e99426e667c/M/MPIABI/bundled"
+
+["1.0.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-apple-darwin-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-linux-musl-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-unknown-freebsd-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv6l-linux-gnueabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv6l-linux-musleabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv7l-linux-gnueabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv7l-linux-musleabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.i686-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.i686-linux-musl-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.powerpc64le-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.riscv64-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-apple-darwin-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-linux-musl-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-unknown-freebsd-mpi+mpiabi.tar.gz"]
+registered = 2026-09-28T20:46:32.000Z
+
+    [["1.0.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-apple-darwin-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-linux-musl-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.aarch64-unknown-freebsd-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv6l-linux-gnueabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv6l-linux-musleabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv7l-linux-gnueabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.armv7l-linux-musleabihf-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.i686-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.i686-linux-musl-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.powerpc64le-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.riscv64-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-apple-darwin-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-linux-gnu-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-linux-musl-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/MPIABI_jll.jl/releases/download/MPIABI-v1.0.1+0/MPIABI.v1.0.1.x86_64-unknown-freebsd-mpi+mpiabi.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/bfc7b8786d333ef1798431a2d855dcab717f5cea/M/MPIABI/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/mpiabi/build_tarballs.jl/bfc7b8786d333ef1798431a2d855dcab717f5cea.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.0.1+0".artifact_metadata.sources]]
+        hash = "e3a9e9b16f86099723d287b6ab477626ab4956b8"
+        type = "git"
+        url = "https://github.com/mpi-forum/mpi-abi-stubs"
+        [["1.0.1+0".artifact_metadata.sources]]
+        hash = "928c2f18d350a91443fe8024ad01ce2c6009e9c551e0a73e797fc567f119137d"
+        type = "archive"
+        url = "https://www.mpich.org/static/downloads/5.0.2/mpich-5.0.2.tar.gz"
+
+            ["1.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpich"
+            version = "5.0.2"
+        [["1.0.1+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/bfc7b8786d333ef1798431a2d855dcab717f5cea/M/MPIABI/bundled"

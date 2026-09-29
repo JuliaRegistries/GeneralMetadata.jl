@@ -1,0 +1,49 @@
+["26.2.2+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-09-28T16:29:29.000Z
+
+    [["26.2.2+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Lavapipe_jll.jl/releases/download/Lavapipe-v26.2.2+0/Lavapipe.v26.2.2.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/9934db6ddb8a9bb6be3a36f8678448b049896c0a/L/Lavapipe/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/lavapipe/build_tarballs.jl/9934db6ddb8a9bb6be3a36f8678448b049896c0a.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["26.2.2+0".artifact_metadata.sources]]
+        hash = "eeb29ca7e56cfaa8e8a79538dcf834e3b18e501c31bef5145e959ea437cc4216"
+        type = "archive"
+        url = "https://archive.mesa3d.org/mesa-26.2.2.tar.xz"
+
+            ["26.2.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mesa"
+            version = "26.2.2"
+        [["26.2.2+0".artifact_metadata.sources]]
+        hash = "d7904710b662996425a21627710c4777c45053146942cf8a7aebf757c92b8c27"
+        type = "archive"
+        url = "https://files.pythonhosted.org/packages/2a/12/b5fa2353e2754cd67fb9f83793fa48ff42c213a5da7e719869d2301f6ab8/mako-1.4.1.tar.gz"
+        [["26.2.2+0".artifact_metadata.sources]]
+        hash = "722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698"
+        type = "archive"
+        url = "https://files.pythonhosted.org/packages/7e/99/7690b6d4034fffd95959cbe0c02de8deb3098cc577c67bb6a24fe5d7caa7/markupsafe-3.0.3.tar.gz"
+        [["26.2.2+0".artifact_metadata.sources]]
+        hash = "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
+        type = "archive"
+        url = "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz"
+        [["26.2.2+0".artifact_metadata.sources]]
+        hash = "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
+        type = "archive"
+        url = "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+        [["26.2.2+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9934db6ddb8a9bb6be3a36f8678448b049896c0a/L/Lavapipe/bundled"
+        [["26.2.2+0".artifact_metadata.sources]]
+        hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.0.sdk.tar.xz"
+        [["26.2.2+0".artifact_metadata.sources]]
+        package = "LLVM_full_jll"
+        type = "builddependency"
+        [["26.2.2+0".artifact_metadata.sources]]
+        package = "DirectX_Headers_jll"
+        type = "builddependency"

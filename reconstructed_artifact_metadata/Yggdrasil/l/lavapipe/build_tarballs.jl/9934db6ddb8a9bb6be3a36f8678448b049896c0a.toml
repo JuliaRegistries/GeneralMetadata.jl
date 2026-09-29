@@ -1,0 +1,202 @@
+augment_platform_block = ""
+init_block = """let sep = Sys.iswindows() ? ';' : ':',\n    found = split(get(ENV, \"VK_ADD_DRIVER_FILES\", \"\"), sep; keepempty=false)\n    if !(lvp_icd in found)\n        ENV[\"VK_ADD_DRIVER_FILES\"] = join(vcat(found, lvp_icd), sep)\n    end\nend\n"""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Lavapipe"
+platforms = ["x86_64-w64-mingw32-cxx11", "i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin"]
+script = """macos_sdk_version=11.0\nmacosx_deployment_target=11.0\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\n# Mesa >= 26.1 requires Python >= 3.10 while the rootfs ships 3.9, so hand it the\n# interpreter from Python_jll, wrapped. Both exports have to stay inside the wrapper:\n# LD_LIBRARY_PATH because its pyexpat needs that Python's own libexpat rather than the\n# rootfs' older one, and PYTHONPATH because meson walks python_exec_list and takes the first\n# interpreter that can import mako and yaml -- set it globally and meson picks the bare\n# python3.12 next to the wrapper, which then cannot load pyexpat.\nmkdir -p ${WORKSPACE}/srcdir/pybin\ncat > ${WORKSPACE}/srcdir/pybin/python3 <<EOF\n#!/bin/bash\nexport LD_LIBRARY_PATH=${host_prefix}/lib:\\${LD_LIBRARY_PATH}\nexport PYTHONPATH=$(echo ${WORKSPACE}/srcdir/mako-*):$(echo ${WORKSPACE}/srcdir/markupsafe-*/src):$(echo ${WORKSPACE}/srcdir/packaging-*/src):$(echo ${WORKSPACE}/srcdir/pyyaml-*/lib)\nexec ${host_prefix}/bin/python3 \"\\$@\"\nEOF\nchmod +x ${WORKSPACE}/srcdir/pybin/python3\n# The runner appends host_bindir *after* /usr/bin, so put ours in front explicitly.\nexport PATH=${WORKSPACE}/srcdir/pybin:${PATH}\npython3 --version\npython3 -c \"import mako, yaml; from packaging.version import Version; print('mako', mako.__version__)\"\n\ncd ${WORKSPACE}/srcdir/mesa-*\n\nfor patch in ${WORKSPACE}/srcdir/patches/000[1-4]-*.patch; do\n    atomic_patch -p1 ${patch}\ndone\n\n# Mesa locates LLVM with `llvm-config`. The target LLVM_full_jll ships one, but it is not\n# executable here, so use the HostBuildDependency's binary and rewrite what it reports to\n# the target prefix. bundled/llvm-config is a verbatim copy of the pocl recipe's shim.\nchmod +x ${WORKSPACE}/srcdir/llvm-config\ncat > ${WORKSPACE}/srcdir/llvm.ini <<EOF\n[binaries]\nllvm-config = '${WORKSPACE}/srcdir/llvm-config'\nEOF\n\nEXTRA_CROSS_FILES=()\nif [[ \"${target}\" == *-apple-* ]]; then\n    # Meson probes the linker with `-Wl,--version`; Apple's ld rejects that, so meson falls\n    # into its Apple branch -- which re-runs `clang -Wl,-v` *without* the `-fuse-ld` from\n    # the toolchain file (mesonbuild/linkers/detect.py), inspects clang's default linker\n    # (lld, which prints no `PROJECT:ld` banner) and gives up with \"Unable to detect\n    # linker\". That second probe does keep the link args, so put -fuse-ld there as well.\n    # `-Wl,-x` takes the place of `-D strip=true` below: the linker ad-hoc signs the dylib\n    # (mandatory on Apple Silicon) and cctools strip then refuses to touch it, so drop the\n    # local symbols while linking, before the signature is computed.\n\n    # ld64 has no version scripts, so 0005 points it at an export list instead. Derive the\n    # list from the same vulkan.sym the ELF targets use, so the two cannot drift.\n    awk '/vk_icd/ { gsub(/[;[:space:]]/, \"\"); print \"_\" $0 }' src/vulkan/vulkan.sym \\\n        > src/gallium/targets/lavapipe/lvp_exports.sym\n    if [[ $(wc -l < src/gallium/targets/lavapipe/lvp_exports.sym) -ne 3 ]]; then\n        echo \"expected three vk_icd entry points in src/vulkan/vulkan.sym\" >&2\n        exit 1\n    fi\n    atomic_patch -p1 ${WORKSPACE}/srcdir/patches/0005-*.patch\n\n    python3 - \"${MESON_TARGET_TOOLCHAIN}\" > ${WORKSPACE}/srcdir/darwin-ld.ini <<'PYTHON'\nimport re, sys\n\ntoolchain = open(sys.argv[1]).read()\nld = re.search(r\"^c_ld = '([^']+)'\", toolchain, re.M).group(1)\nadded = [\"-fuse-ld=\" + ld, \"-Wl,-x\"]\nprint(\"[built-in options]\")\nfor key in (\"c_link_args\", \"cpp_link_args\", \"objc_link_args\"):\n    match = re.search(r\"^\" + key + r\" = \\[(.*)\\]$\", toolchain, re.M)\n    if match is None:\n        continue\n    args = match.group(1).strip()\n    extra = \", \".join(\"'{}'\".format(a) for a in added)\n    print(\"{} = [{}{}]\".format(key, args + \", \" if args else \"\", extra))\nPYTHON\n    cat ${WORKSPACE}/srcdir/darwin-ld.ini\n    EXTRA_CROSS_FILES+=(--cross-file=\"${WORKSPACE}/srcdir/darwin-ld.ini\")\nfi\n\nMESA_FLAGS=(\n    -D b_ndebug=true\n    -D buildtype=release\n    -D strip=$([[ \"${target}\" == *-apple-* ]] && echo false || echo true)\n\n    -D gallium-drivers=llvmpipe\n    -D vulkan-drivers=swrast\n    -D llvm=enabled\n    -D shared-llvm=disabled\n    # LLVM_full_jll is built without LLVM_ENABLE_RTTI, so Mesa's C++ has to match.\n    -D cpp_rtti=false\n    # Leave the JIT at Mesa's default, MCJIT, on every cpu family we build for. Its ORCJIT\n    # path dynamic_casts an llvm::orc::SimpleCompiler (lp_bld_init_orc.cpp), so it needs an\n    # RTTI-enabled LLVM, which LLVM_full_jll is not.\n\n    # Build the Vulkan ICD and nothing else: no GL frontend, no GLX/EGL/GBM.\n    -D opengl=false\n    -D gles1=disabled\n    -D gles2=disabled\n    -D glx=disabled\n    -D egl=disabled\n    -D gbm=disabled\n    -D xmlconfig=disabled\n    -D spirv-tools=disabled\n    -D gallium-va=disabled\n    -D video-codecs=[]\n)\n\n# Window-system integration. Without it Mesa builds a headless-only ICD, and then the\n# Vulkan loader does not advertise VK_KHR_surface at all (it only offers its own\n# VK_EXT_headless_surface), which is enough to make ordinary Vulkan applications fail at\n# vkCreateInstance. So give every platform the WSI that Mesa supports there.\nif [[ \"${target}\" == *-mingw* ]]; then\n    MESA_FLAGS+=(-D platforms=windows)\nelif [[ \"${target}\" == *-apple-* ]]; then\n    # Mesa has no macOS WSI; offscreen rendering and VK_EXT_headless_surface only.\n    MESA_FLAGS+=(-D platforms=[])\nelse\n    MESA_FLAGS+=(-D platforms=x11)\nfi\n\n# --wrap-mode=nodownload: Mesa ships .wrap files (expat among them) and meson would\n# happily fetch and vendor an unpinned copy instead of using our dependencies.\nmeson setup build \"${MESA_FLAGS[@]}\" \\\n    --wrap-mode=nodownload \\\n    --cross-file=\"${MESON_TARGET_TOOLCHAIN}\" \\\n    --cross-file=\"${WORKSPACE}/srcdir/llvm.ini\" \\\n    \"${EXTRA_CROSS_FILES[@]}\"\nninja -C build -j${nproc}\nninja -C build install\n\n# The generated ICD manifest hardcodes the build-time library path. The Vulkan loader\n# resolves a *relative* `library_path` against the directory of the manifest itself, which\n# is what makes an artifact relocatable. Also give the manifest a fixed, arch-independent\n# name so the FileProduct path is the same everywhere.\nicd_dir=${prefix}/share/vulkan/icd.d\nmv ${icd_dir}/lvp_icd.*.json ${icd_dir}/lvp_icd.json\nif [[ \"${target}\" == *-mingw* ]]; then\n    lib_path=../../../bin/vulkan_lvp.dll\nelse\n    lib_path=../../../lib/libvulkan_lvp.${dlext}\nfi\npython3 - ${icd_dir}/lvp_icd.json ${lib_path} <<'PYTHON'\nimport json, sys\nmanifest, lib = sys.argv[1], sys.argv[2]\nwith open(manifest) as f:\n    icd = json.load(f)\nicd[\"ICD\"][\"library_path\"] = lib\nwith open(manifest, \"w\") as f:\n    json.dump(icd, f, indent=4)\nPYTHON\ncat ${icd_dir}/lvp_icd.json\n\ninstall_license docs/license.rst\n"""
+toplevel_block = ""
+version = "v26.2.2"
+
+[[dependencies]]
+compat = ""
+name = "LLVM_full_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 22
+version-minor = 1
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "Python_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "LLVM_full_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 22
+version-minor = 1
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "glslang_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 15
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "DirectX_Headers_jll"
+platforms = ["x86_64-w64-mingw32-cxx11"]
+top_level = false
+type = "builddependency"
+version-major = 1
+version-minor = 619
+version-patch = 5
+[[dependencies]]
+compat = "1.2.12"
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.6.5"
+name = "Expat_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.5.7"
+name = "Zstd_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.4.134"
+name = "libdrm_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.8.12"
+name = "Xorg_libX11_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.17.1"
+name = "Xorg_libxcb_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.3.3"
+name = "Xorg_libxshmfence_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.3.8"
+name = "Xorg_libXext_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.5.6"
+name = "Xorg_libXrandr_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2024.1.1"
+name = "Xorg_xorgproto_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libvulkan_lvp", "vulkan_lvp"]
+type = "lib"
+variable_name = "libvulkan_lvp"
+[[products]]
+paths = ["share/vulkan/icd.d/lvp_icd.json"]
+type = "file"
+variable_name = "lvp_icd"
+
+[[sources]]
+hash = "eeb29ca7e56cfaa8e8a79538dcf834e3b18e501c31bef5145e959ea437cc4216"
+type = "archive"
+unpack_target = ""
+url = "https://archive.mesa3d.org/mesa-26.2.2.tar.xz"
+[[sources]]
+hash = "d7904710b662996425a21627710c4777c45053146942cf8a7aebf757c92b8c27"
+type = "archive"
+unpack_target = ""
+url = "https://files.pythonhosted.org/packages/2a/12/b5fa2353e2754cd67fb9f83793fa48ff42c213a5da7e719869d2301f6ab8/mako-1.4.1.tar.gz"
+[[sources]]
+hash = "722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698"
+type = "archive"
+unpack_target = ""
+url = "https://files.pythonhosted.org/packages/7e/99/7690b6d4034fffd95959cbe0c02de8deb3098cc577c67bb6a24fe5d7caa7/markupsafe-3.0.3.tar.gz"
+[[sources]]
+hash = "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
+type = "archive"
+unpack_target = ""
+url = "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz"
+[[sources]]
+hash = "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
+type = "archive"
+unpack_target = ""
+url = "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
+[[sources]]
+filename = "MacOSX11.0.sdk.tar.xz"
+hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.0.sdk.tar.xz"
