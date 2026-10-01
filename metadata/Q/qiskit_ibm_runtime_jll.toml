@@ -57,3 +57,23 @@ registered = 2026-06-26T22:48:55.000Z
         [["0.38.1+0".artifact_metadata.sources]]
         package = "cbindgen_jll"
         type = "builddependency"
+
+["0.39.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.x86_64-linux-musl.tar.gz"]
+registered = 2026-09-30T13:16:25.000Z
+
+    [["0.39.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/qiskit_ibm_runtime_jll.jl/releases/download/qiskit_ibm_runtime-v0.39.0+0/qiskit_ibm_runtime.v0.39.0.x86_64-linux-musl.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/6d95c1a7c2e78d9449ee42deb8f66a977be210fa/Q/qiskit_ibm_runtime/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/q/qiskit_ibm_runtime/build_tarballs.jl/6d95c1a7c2e78d9449ee42deb8f66a977be210fa.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.39.0+0".artifact_metadata.sources]]
+        hash = "a390629a7bbd8fec1a43b3fcab5ae3c202f25ced"
+        type = "git"
+        url = "https://github.com/Qiskit/qiskit-ibm-runtime-c.git"
+        [["0.39.0+0".artifact_metadata.sources]]
+        package = "cbindgen_jll"
+        type = "builddependency"

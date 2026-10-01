@@ -5,3 +5,7 @@ registered = 2021-06-29T23:58:02.000Z
 ["0.1.1"]
 artifact_urls = []
 registered = 2021-06-30T05:13:41.000Z
+
+["0.1.2"]
+artifact_urls = ["https://github.com/wherrera10/RxNav.jl/releases/download/v0.1.2/pddi_interactions.arrow.tar.gz"]
+registered = 2026-09-30T05:09:00.000Z
