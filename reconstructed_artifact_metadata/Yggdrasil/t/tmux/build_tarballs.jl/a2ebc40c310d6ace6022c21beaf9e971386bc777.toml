@@ -1,0 +1,57 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "tmux"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd"]
+script = """cd $WORKSPACE/srcdir/tmux-*\n# jemalloc_jll uses the default `je_` symbol prefix on macOS\nexport CPPFLAGS=\"-DJEMALLOC_MANGLE\"\n./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target} --with-TERM=screen --enable-utf8proc\nmake -j${nproc}\nmake install\n"""
+toplevel_block = ""
+version = "v3.7.3"
+
+[[dependencies]]
+compat = ""
+name = "libevent_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Ncurses_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "utf8proc_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "jemalloc_jll"
+platforms = ["x86_64-apple-darwin", "aarch64-apple-darwin"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["tmux"]
+type = "exe"
+variable_name = "tmux"
+
+[[sources]]
+hash = "7c60cae9a0e25288e2e24750aafc9e8800fc7fd4555e447e1b29ee4201cfb3bf"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/tmux/tmux/releases/download/3.7c/tmux-3.7c.tar.gz"

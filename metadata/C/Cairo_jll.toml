@@ -616,3 +616,30 @@ registered = 2026-05-07T14:35:55.000Z
         [["1.18.7+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
         type = "builddependency"
+
+["1.18.8+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-10-01T16:35:25.000Z
+
+    [["1.18.8+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Cairo_jll.jl/releases/download/Cairo-v1.18.8+0/Cairo.v1.18.8.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/28041b2f09036a3d611d848fd9e60e1fdb03b3a1/C/Cairo/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cairo/build_tarballs.jl/28041b2f09036a3d611d848fd9e60e1fdb03b3a1.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.18.8+0".artifact_metadata.sources]]
+        hash = "1c767308174337a74694da0f3ec069c271452163a1ef4540964c50c301f157d4"
+        type = "archive"
+        url = "https://cairographics.org/releases/cairo-1.18.6.tar.xz"
+
+            ["1.18.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cairo-graphics-library"
+            version = "1.18.6"
+        [["1.18.8+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/28041b2f09036a3d611d848fd9e60e1fdb03b3a1/C/Cairo/bundled"
+        [["1.18.8+0".artifact_metadata.sources]]
+        package = "Xorg_xorgproto_jll"
+        type = "builddependency"
