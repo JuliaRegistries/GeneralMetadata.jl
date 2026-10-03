@@ -57,3 +57,7 @@ registered = 2026-05-10T19:12:58.000Z
 ["0.6.2"]
 artifact_urls = ["https://raw.githubusercontent.com/JuliaDocs/Highlights.jl/752cef4c3bf90e38427947a7448cc5548e6f4b17/gogh-v366.tar.gz"]
 registered = 2026-07-19T19:22:16.000Z
+
+["0.6.3"]
+artifact_urls = ["https://raw.githubusercontent.com/JuliaDocs/Highlights.jl/eac825e13eefc1a23d4980e4111e8f284b0e53bb/gogh-v1247.tar.gz"]
+registered = 2026-10-02T09:20:49.000Z

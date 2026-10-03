@@ -309,3 +309,24 @@ registered = 2026-04-20T15:36:40.000Z
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
         url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.15.sdk.tar.xz"
+
+["1.6.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-10-02T07:36:07.000Z
+
+    [["1.6.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenFHE_jll.jl/releases/download/OpenFHE-v1.6.0+0/OpenFHE.v1.6.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/d1660342f7dcaf535dc9be5acdd9beb6271479f7/O/OpenFHE/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/openfhe/build_tarballs.jl/d1660342f7dcaf535dc9be5acdd9beb6271479f7.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.6.0+0".artifact_metadata.sources]]
+        hash = "6206d24f9eefefc620b524a4f2b9f308feb91e9f"
+        type = "git"
+        url = "https://github.com/openfheorg/openfhe-development.git"
+        [["1.6.0+0".artifact_metadata.sources]]
+        hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.15.sdk.tar.xz"

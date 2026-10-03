@@ -1,0 +1,73 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "X42Zconvo"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd ${WORKSPACE}/srcdir\n\ninstall_license zconvo.lv2/COPYING\n# zconvo COPYING is GPLv2; zeta-convolver is v3-or-later.\ninstall_license /usr/share/licenses/GPL-3.0+\n\n# Upstream OPTIMIZATIONS carry -ffast-math and -msse*; displace them from the command line.\nOPTIMIZATIONS=\"-O3 -fomit-frame-pointer -fno-finite-math-only -DNDEBUG\"\n\n# share/lv2 avoids BinaryBuilder's Windows audit moving lib/*.dll into bin/.\nMAKE_EXTRA=(OPTIMIZATIONS=\"${OPTIMIZATIONS}\" PREFIX=\"${prefix}\" LV2DIR=\"${prefix}/share/lv2\")\nif [[ \"${target}\" == *-apple-* ]]; then\n    # Cross builds do not report Darwin; the Makefile needs UNAME=Darwin for .dylib/strip.\n    MAKE_EXTRA+=(UNAME=Darwin)\nelif [[ \"${target}\" == *-mingw* ]]; then\n    MAKE_EXTRA+=(XWIN=\"${target}\")\nelif [[ \"${target}\" == *-freebsd* ]]; then\n    # meson lv2_jll puts lv2.pc in libdata/pkgconfig on FreeBSD.\n    export PKG_CONFIG_PATH=\"${prefix}/libdata/pkgconfig:${PKG_CONFIG_PATH}\"\nfi\n\nmake -C zconvo.lv2 -j${nproc} \"${MAKE_EXTRA[@]}\"\nmake -C zconvo.lv2 install \"${MAKE_EXTRA[@]}\"\n"""
+toplevel_block = ""
+version = "v2025.6.6"
+
+[[dependencies]]
+compat = "1.18.10"
+name = "lv2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "3.3.11"
+name = "FFTW_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.2.2"
+name = "libsndfile_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1.10"
+name = "libsamplerate_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+paths = ["share/lv2/zeroconvo.lv2/manifest.ttl"]
+type = "file"
+variable_name = "zconvo_lv2"
+[[products]]
+dir_paths = ["share/lv2/zeroconvo.lv2"]
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["zeroconvolv"]
+type = "lib"
+variable_name = "zconvo_bin"
+
+[[sources]]
+hash = "ec2ff40b5f9701fdc2e3944657f3737b89be4b18"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/zconvo.lv2.git"

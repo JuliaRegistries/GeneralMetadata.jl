@@ -1,0 +1,37 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "X42Darc"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir\n\nmkdir -p \"${prefix}/share/licenses/X42Darc\"\ncp darc.lv2/COPYING \"${prefix}/share/licenses/X42Darc/COPYING\"\n\n# Upstream OPTIMIZATIONS carry -ffast-math and -msse*; displace them from the command line.\nOPTIMIZATIONS=\"-O3 -fomit-frame-pointer -fno-finite-math-only -DNDEBUG\"\n\n# share/lv2 avoids BinaryBuilder's Windows audit moving lib/*.dll into bin/.\nMAKE_EXTRA=(OPTIMIZATIONS=\"${OPTIMIZATIONS}\" BUILDOPENGL=no BUILDJACKAPP=no\n            INLINEDISPLAY=no PREFIX=\"${prefix}\" LV2DIR=\"${prefix}/share/lv2\")\nif [[ \"${target}\" == *-apple-* ]]; then\n    # Keep-list for strip: RW defaults to a missing robtk/, so use local lv2syms.\n    MAKE_EXTRA+=(UNAME=Darwin STRIPFLAGS=\"-u -r -arch all -s lv2syms\")\nelif [[ \"${target}\" == *-mingw* ]]; then\n    MAKE_EXTRA+=(XWIN=\"${target}\")\nelif [[ \"${target}\" == *-freebsd* ]]; then\n    # meson lv2_jll puts lv2.pc in libdata/pkgconfig on FreeBSD.\n    export PKG_CONFIG_PATH=\"${prefix}/libdata/pkgconfig:${PKG_CONFIG_PATH}\"\nfi\n\n# Without Makefile.git, `submodule_check` does not clone robtk (GUI only).\nrm -f darc.lv2/Makefile.git\nif [[ \"${target}\" == *-apple-* ]]; then\n    echo \"_lv2_descriptor\" > darc.lv2/lv2syms\nfi\nmake -C darc.lv2 -j${nproc} \"${MAKE_EXTRA[@]}\"\nmake -C darc.lv2 install \"${MAKE_EXTRA[@]}\"\n\nfind \"${prefix}/share/lv2\" -name lv2syms -delete\n"""
+toplevel_block = ""
+version = "v2025.6.6"
+
+[[dependencies]]
+compat = "1.18.10"
+name = "lv2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+paths = ["share/lv2/darc.lv2/manifest.ttl"]
+type = "file"
+variable_name = "darc_lv2"
+[[products]]
+dir_paths = ["share/lv2/darc.lv2"]
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["darc"]
+type = "lib"
+variable_name = "darc_bin"
+
+[[sources]]
+hash = "0a00cdec44e80f282df4ca08bafcebb6c0499612"
+type = "git"
+unpack_target = ""
+url = "https://github.com/x42/darc.lv2.git"

@@ -5,3 +5,7 @@ registered = 2026-06-22T14:19:39.000Z
 ["0.1.1"]
 artifact_urls = ["https://github.com/hetalang/heta-compiler/releases/download/v0.12.1-beta.0/heta-compiler-macos-x64.tar.gz", "https://github.com/hetalang/heta-compiler/releases/download/v0.12.1/heta-compiler-linux-arm64.tar.gz", "https://github.com/hetalang/heta-compiler/releases/download/v0.12.1/heta-compiler-linux-x64.tar.gz", "https://github.com/hetalang/heta-compiler/releases/download/v0.12.1/heta-compiler-macos-arm64.tar.gz", "https://github.com/hetalang/heta-compiler/releases/download/v0.12.1/heta-compiler-windows-x64.tar.gz"]
 registered = 2026-08-20T11:31:17.000Z
+
+["0.2.0"]
+artifact_urls = ["https://github.com/hetalang/heta-compiler/releases/download/v0.12.2/heta-compiler-linux-arm64.tar.gz", "https://github.com/hetalang/heta-compiler/releases/download/v0.12.2/heta-compiler-linux-x64.tar.gz", "https://github.com/hetalang/heta-compiler/releases/download/v0.12.2/heta-compiler-macos-arm64.tar.gz", "https://github.com/hetalang/heta-compiler/releases/download/v0.12.2/heta-compiler-windows-x64.tar.gz"]
+registered = 2026-10-02T19:42:39.000Z

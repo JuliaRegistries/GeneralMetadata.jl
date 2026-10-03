@@ -1,0 +1,50 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "primer3"
+platforms = ["i686-w64-mingw32", "x86_64-w64-mingw32", "i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd"]
+script = """cd ${WORKSPACE}/srcdir/primer3/src\nif [[ \"${target}\" == *-mingw* ]]; then\n    # Selects the `.exe` names and drops primer3_masker, which needs mmap(2)\n    TESTOPTS=\"--windows\"\nfi\nmake -j${nproc} CC=\"${CC}\" CXX=\"${CXX}\" TESTOPTS=\"${TESTOPTS}\"\nfor exe in primer3_core ntdpal ntthal oligotm amplicon3_core; do\n    install -Dvm 755 \"${exe}${exeext}\" \"${bindir}/${exe}${exeext}\"\ndone\nif [[ \"${target}\" != *-mingw* ]]; then\n    install -Dvm 755 primer3_masker \"${bindir}/primer3_masker\"\nfi\ninstall_license LICENSE LICENSE_GPL3_for_Amplicon3\n"""
+toplevel_block = ""
+version = "v2.6.1"
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["primer3_core"]
+type = "exe"
+variable_name = "primer3_core"
+[[products]]
+binnames = ["ntdpal"]
+type = "exe"
+variable_name = "ntdpal"
+[[products]]
+binnames = ["ntthal"]
+type = "exe"
+variable_name = "ntthal"
+[[products]]
+binnames = ["oligotm"]
+type = "exe"
+variable_name = "oligotm"
+[[products]]
+binnames = ["amplicon3_core"]
+type = "exe"
+variable_name = "amplicon3_core"
+[[products]]
+binnames = ["primer3_masker"]
+type = "exe"
+variable_name = "primer3_masker"
+
+[[sources]]
+hash = "7f9f17d6012f404e83bbf0f931a4d06eb4af465b"
+type = "git"
+unpack_target = ""
+url = "https://github.com/primer3-org/primer3.git"
