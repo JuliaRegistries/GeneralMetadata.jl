@@ -9,3 +9,7 @@ registered = 2026-09-30T12:04:35.000Z
 ["1.0.0"]
 artifact_urls = ["https://gitlab.com/api/v4/projects/ase%2Fase/repository/archive.tar.gz?sha=0b6c9b373317db0785a72c6b3fb77c3222b5b5e7&path=ase%2Fcollections"]
 registered = 2026-10-01T19:27:45.000Z
+
+["1.1.0"]
+artifact_urls = ["https://gitlab.com/api/v4/projects/ase%2Fase/repository/archive.tar.gz?sha=0b6c9b373317db0785a72c6b3fb77c3222b5b5e7&path=ase%2Fcollections"]
+registered = 2026-10-03T13:04:23.000Z

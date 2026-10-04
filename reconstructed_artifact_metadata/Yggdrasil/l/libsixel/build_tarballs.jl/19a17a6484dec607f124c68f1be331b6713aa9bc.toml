@@ -1,0 +1,42 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "libsixel"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/libsixel\n\nupdate_configure_scripts\n\n# `AC_FUNC_MALLOC`/`AC_FUNC_REALLOC` guess the `malloc(0)` result from a table of\n# OS names when cross-compiling; it lists neither musl nor Darwin, and the\n# `rpl_*` replacements it selects go undeclared in src/frame.c.  Every platform\n# we build returns non-NULL from `malloc(0)`, so just answer the check.\n./configure --prefix=${prefix} \\\n    --build=${MACHTYPE} \\\n    --host=${target} \\\n    --includedir=$WORKSPACE/destdir/include \\\n    --libdir=$WORKSPACE/destdir/lib \\\n    --enable-python=no \\\n    ac_cv_func_malloc_0_nonnull=yes \\\n    ac_cv_func_realloc_0_nonnull=yes\nmake -j${nproc}\nmake install\n"""
+toplevel_block = ""
+version = "v1.80.702"
+
+[[dependencies]]
+compat = ""
+name = "libpng_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "JpegTurbo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsixel"]
+type = "lib"
+variable_name = "libsixel"
+
+[[sources]]
+hash = "764f4e618c8bbc427fb74622e3227243fe6762fb"
+type = "git"
+unpack_target = ""
+url = "https://github.com/saitoha/libsixel.git"
