@@ -1,0 +1,57 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "BEDTools"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd"]
+script = """cd $WORKSPACE/srcdir/bedtools2/\n\n# Remove git metadata so that the version is taken from `version_release.txt`.\nrm -rf .git\n\n# Only the main binary is built; the legacy wrapper scripts (e.g. `intersectBed`) require Python.\n# Command-line variables propagate to the bundled htslib sub-make.\nmake -j${nproc} bin/bedtools \\\n    CC=\"${CC}\" CXX=\"${CXX}\" AR=ar RANLIB=ranlib \\\n    CPPFLAGS=\"-I${includedir}\" LDFLAGS=\"-L${libdir}\"\n\ninstall -Dvm 755 bin/bedtools \"${bindir}/bedtools${exeext}\"\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v2.31.1"
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.2.12"
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.0.9"
+name = "Bzip2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "5.6.4"
+name = "XZ_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["bedtools"]
+type = "exe"
+variable_name = "bedtools"
+
+[[sources]]
+hash = "705ccfdf2c9a77d71560c8adcece0663c2f5e18e"
+type = "git"
+unpack_target = ""
+url = "https://github.com/arq5x/bedtools2.git"

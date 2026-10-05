@@ -1,0 +1,24 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "lwbgt"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/lwbgt\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_TESTING=OFF\ncmake --build build --parallel ${nproc}\ncmake --install build\ninstall_license LICENSE NOTICE src/LicenseRef-UChicago-Argonne-WBGT-1.1.txt\n"""
+toplevel_block = ""
+version = "v1.1.0"
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["liblwbgt", "lwbgt"]
+type = "lib"
+variable_name = "liblwbgt"
+
+[[sources]]
+hash = "b6c49eff1d34738ae40f1d6b51a62cc3a5d0e83d"
+type = "git"
+unpack_target = ""
+url = "https://github.com/zyf0717/lwbgt.git"
