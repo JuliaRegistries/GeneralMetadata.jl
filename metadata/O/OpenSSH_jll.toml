@@ -593,3 +593,40 @@ registered = 2026-08-13T15:34:07.000Z
             ["10.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/win32-openssh"
             version = "10.0.0.0p2-Preview"
+
+["10.6.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-10-06T16:42:40.000Z
+
+    [["10.6.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.6.1+0/OpenSSH.v10.6.1.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/72b82dba858a5a77b88c72dacd14f79a49eb39ba/O/OpenSSH/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/openssh/build_tarballs.jl/72b82dba858a5a77b88c72dacd14f79a49eb39ba.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["10.6.1+0".artifact_metadata.sources]]
+        hash = "a9dc9565dffe8640f64d863cd29a32bc4a3dbdec0566a7fc44c5d6ee767d5f39"
+        type = "archive"
+        url = "https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-10.6p1.tar.gz"
+
+            ["10.6.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/openssh"
+            version = "10.6p1"
+        [["10.6.1+0".artifact_metadata.sources]]
+        hash = "c61d7fea20ddfe0fc50eb56210a66464557721120f7794ff9cc883b5ba526abd"
+        type = "archive"
+        url = "https://github.com/PowerShell/Win32-OpenSSH/releases/download/10.0.0.0p2-Preview/OpenSSH-Win32.zip"
+
+            ["10.6.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/win32-openssh"
+            version = "10.0.0.0p2-Preview"
+        [["10.6.1+0".artifact_metadata.sources]]
+        hash = "23f50f3458c4c5d0b12217c6a5ddfde0137210a30fa870e98b29827f7b43aba5"
+        type = "archive"
+        url = "https://github.com/PowerShell/Win32-OpenSSH/releases/download/10.0.0.0p2-Preview/OpenSSH-Win64.zip"
+
+            ["10.6.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/win32-openssh"
+            version = "10.0.0.0p2-Preview"

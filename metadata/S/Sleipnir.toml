@@ -241,3 +241,7 @@ registered = 2026-09-03T14:17:16.000Z
 ["0.18.0"]
 artifact_urls = ["https://huggingface.co/datasets/ODINN-SciML/ODINN_prepro/resolve/v0.0.3/ODINN_prepro.tar.gz", "https://huggingface.co/datasets/ODINN-SciML/ODINN_prepro/resolve/v0.0.3/hugonnet21_dataset.tar.gz", "https://huggingface.co/datasets/ODINN-SciML/ODINN_prepro/resolve/v0.0.3/rgi62_stats.tar.gz"]
 registered = 2026-10-02T21:30:48.000Z
+
+["0.18.1"]
+artifact_urls = ["https://huggingface.co/datasets/ODINN-SciML/ODINN_prepro/resolve/v0.0.3/ODINN_prepro.tar.gz", "https://huggingface.co/datasets/ODINN-SciML/ODINN_prepro/resolve/v0.0.3/hugonnet21_dataset.tar.gz", "https://huggingface.co/datasets/ODINN-SciML/ODINN_prepro/resolve/v0.0.3/rgi62_stats.tar.gz"]
+registered = 2026-10-06T10:59:22.000Z
