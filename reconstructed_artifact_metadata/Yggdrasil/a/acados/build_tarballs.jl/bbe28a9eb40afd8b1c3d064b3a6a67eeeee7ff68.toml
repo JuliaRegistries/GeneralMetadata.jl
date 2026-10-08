@@ -1,0 +1,51 @@
+augment_platform_block = """using Base.BinaryPlatforms: arch, arch_march_isa_mapping, CPUID, HostPlatform, Platform\n\nfunction augment_microarchitecture!(platform::Platform)\n    haskey(platform, \"march\") && return platform\n\n    host_arch = arch(HostPlatform())\n    host_isas = arch_march_isa_mapping[host_arch]\n    idx = findlast(((name, isa),) -> isa <= CPUID.cpu_isa(), host_isas)\n    platform[\"march\"] = first(host_isas[idx])\n    return platform\nend\n\n\nfunction augment_platform!(platform::Platform)\n    augment_microarchitecture!(platform)\nend\n"""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = true
+name = "acados"
+platforms = ["x86_64-linux-gnu-march+x86_64", "x86_64-linux-gnu-march+avx", "x86_64-linux-gnu-march+avx2", "x86_64-linux-gnu-march+avx512", "x86_64-linux-musl-march+x86_64", "x86_64-linux-musl-march+avx", "x86_64-linux-musl-march+avx2", "x86_64-linux-musl-march+avx512", "x86_64-w64-mingw32-march+x86_64", "x86_64-w64-mingw32-march+avx", "x86_64-w64-mingw32-march+avx2", "x86_64-w64-mingw32-march+avx512", "x86_64-apple-darwin-march+x86_64", "x86_64-apple-darwin-march+avx", "x86_64-apple-darwin-march+avx2", "aarch64-apple-darwin-march+apple_m1"]
+script = """cd ${WORKSPACE}/srcdir/acados\nfor p in ${WORKSPACE}/srcdir/patches/*.patch; do\n    atomic_patch -p1 ${p}\ndone\n\n# MinGW's header is windows.h (case-sensitive file systems)\nsed -i 's/<Windows.h>/<windows.h>/' acados/utils/timing.h\n\nmkdir -p ${WORKSPACE}/srcdir/blasfeo-cmake\ncat > ${WORKSPACE}/srcdir/blasfeo-cmake/blasfeoConfig.cmake <<EOF\nadd_library(blasfeo SHARED IMPORTED GLOBAL)\nset_target_properties(blasfeo PROPERTIES\n    IMPORTED_LOCATION \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    IMPORTED_IMPLIB \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    INTERFACE_INCLUDE_DIRECTORIES \"${prefix}/blasfeo/include\")\nEOF\n\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DACADOS_INSTALL_DIR=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DACADOS_WITH_SYSTEM_BLASFEO=ON \\\n    -Dblasfeo_DIR=${WORKSPACE}/srcdir/blasfeo-cmake \\\n    -DACADOS_WITH_SYSTEM_HPIPM=ON \\\n    -Dhpipm_DIR=${prefix}/cmake \\\n    -DACADOS_WITH_QPOASES=OFF \\\n    -DACADOS_WITH_DAQP=OFF \\\n    -DACADOS_WITH_OSQP=OFF \\\n    -DACADOS_WITH_QPDUNES=OFF \\\n    -DACADOS_WITH_HPMPC=OFF \\\n    -DACADOS_WITH_CLARABEL=OFF \\\n    -DACADOS_WITH_OPENMP=OFF \\\n    -DACADOS_EXAMPLES=OFF \\\n    -DACADOS_UNIT_TESTS=OFF \\\n    -DACADOS_SILENT=ON\ncmake --build build --parallel ${nproc}\ncmake --install build\n\n# The C templates acados_template renders solvers from (used with tera_renderer_jll)\nmkdir -p ${prefix}/share/acados\ncp -r interfaces/acados_template/acados_template/c_templates_tera ${prefix}/share/acados/\n\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v0.6.0"
+
+[[dependencies]]
+compat = "0.1.4"
+name = "blasfeo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1.4"
+name = "hpipm_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libacados", "acados"]
+type = "lib"
+variable_name = "libacados"
+[[products]]
+paths = ["share/acados/c_templates_tera/acados_solver.in.c"]
+type = "file"
+variable_name = "acados_solver_template"
+
+[[sources]]
+hash = "503364817c872d474ab5bed219c26760ac267769"
+type = "git"
+unpack_target = ""
+url = "https://github.com/acados/acados.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

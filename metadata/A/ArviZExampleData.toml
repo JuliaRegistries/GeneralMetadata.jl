@@ -65,3 +65,7 @@ registered = 2026-01-18T23:04:25.000Z
 ["0.3.1"]
 artifact_urls = ["https://github.com/arviz-devs/arviz_example_data/archive/refs/tags/v0.4.3.tar.gz"]
 registered = 2026-07-07T12:40:42.000Z
+
+["0.3.2"]
+artifact_urls = ["https://github.com/arviz-devs/arviz_example_data/archive/refs/tags/v0.4.3.tar.gz"]
+registered = 2026-10-07T19:11:33.000Z

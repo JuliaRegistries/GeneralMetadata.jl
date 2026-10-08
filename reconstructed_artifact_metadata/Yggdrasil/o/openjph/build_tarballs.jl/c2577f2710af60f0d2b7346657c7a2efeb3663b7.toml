@@ -1,0 +1,46 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "OpenJPH"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/OpenJPH\n\n# We are building with old kernel headers that do not define `HWCAP_SVE2`\natomic_patch -p1 $WORKSPACE/srcdir/patches/sve2.patch\n# We are building with an old glibc that does not define `AT_HWCAP2`\natomic_patch -p1 $WORKSPACE/srcdir/patches/hwcap2.patch\n\ncmake_options=(\n    -DCMAKE_INSTALL_PREFIX=${prefix}\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN}\n    -DCMAKE_BUILD_TYPE=Release\n)\n\ncmake -Bcmake_build -GNinja \"${cmake_options[@]}\"\ncmake --build cmake_build --parallel ${nproc}\ncmake --install cmake_build\n"""
+toplevel_block = ""
+version = "v0.32.0"
+
+[[dependencies]]
+compat = "4.7.3"
+name = "Libtiff_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopenjph"]
+type = "lib"
+variable_name = "libopenjph"
+[[products]]
+binnames = ["ojph_compress"]
+type = "exe"
+variable_name = "ojph_compress"
+[[products]]
+binnames = ["ojph_expand"]
+type = "exe"
+variable_name = "ojph_expand"
+
+[[sources]]
+hash = "23c422895ce6c3a156935222e4715ee0b7be952c"
+type = "git"
+unpack_target = ""
+url = "https://github.com/aous72/OpenJPH"
+[[sources]]
+follow_symlinks = false
+path = "bundled"
+target = ""
+type = "directory"

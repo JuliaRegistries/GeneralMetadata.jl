@@ -1,0 +1,66 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "NonSUSYOrbiFolder"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+script = """cd $WORKSPACE/srcdir/nonSUSYorbifolder\n\n# configure.ac calls AX_PATH_GSL, normally provided by autoconf-archive; ship it directly\ncp \"${WORKSPACE}/srcdir/m4/ax_path_gsl.m4\" m4/\n\nautoreconf -fi\n\nCPPFLAGS=\"-I${prefix}/include\" LDFLAGS=\"-L${prefix}/lib\" \\\n    ./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target}\nmake -j${nproc}\n\n# `nonSUSYorbifolder` is noinst_PROGRAMS; install it and Geometry/ together\n# manually so an executable-relative lookup finds both.\ninstall -Dvm 755 nonSUSYorbifolder \"${prefix}/bin/nonSUSYorbifolder\"\ncp -r Geometry \"${prefix}/bin/Geometry\"\n\ninstall_license COPYING\n"""
+toplevel_block = ""
+version = "v1.0.0"
+
+[[dependencies]]
+compat = ""
+name = "GSL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "1b77fbbe-d8ee-58f0-85f9-836ddc23a7a4"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "boost_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "28df3c45-c428-5900-9ff8-a3135698ca75"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Readline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "05236dd9-4125-5232-aa7c-9ec0c9b2c25a"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["nonSUSYorbifolder"]
+type = "exe"
+variable_name = "nonSUSYorbifolder"
+
+[[sources]]
+hash = "c917adea59b788872ac00bc41239dd791afc4ff1"
+type = "git"
+unpack_target = ""
+url = "https://github.com/StringsIFUNAM/nonSUSYorbifolder.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
