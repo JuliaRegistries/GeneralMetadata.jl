@@ -3063,3 +3063,7 @@ registered = 2026-10-07T20:38:13.000Z
         [["2.34.4+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/718488e978a7dc6d13504bbc60dbbcbdb24df4d8/L/libigc/bundled"
+
+["2.34.4+3"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.34.4+3/libigc.v2.34.4.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.34.4+3/libigc.v2.34.4.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+registered = 2026-10-09T23:00:30.000Z
