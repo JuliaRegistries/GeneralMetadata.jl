@@ -553,3 +553,7 @@ registered = 2026-06-23T12:26:38.000Z
 ["7.0.4"]
 artifact_urls = ["https://raw.githubusercontent.com/JuliaDynamics/JuliaDynamics/master/artifacts/agents/osm_map_gottingen.json.tar.gz"]
 registered = 2026-09-15T15:08:51.000Z
+
+["7.1.0"]
+artifact_urls = ["https://raw.githubusercontent.com/JuliaDynamics/JuliaDynamics/master/artifacts/agents/osm_map_gottingen.json.tar.gz"]
+registered = 2026-10-10T12:49:26.000Z
