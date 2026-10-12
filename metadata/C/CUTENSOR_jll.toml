@@ -791,3 +791,7 @@ registered = 2026-09-22T15:00:11.000Z
         hash = "802f3b5dedc8f1d3e0eaa83e07d5ebdc0b93e8bc4a230a94a3bb124523f8b170"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-2.8.1.0_cuda13-archive.zip"
+
+["2.8.1+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+1/CUTENSOR.v2.8.1.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+1/CUTENSOR.v2.8.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+1/CUTENSOR.v2.8.1.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+1/CUTENSOR.v2.8.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+1/CUTENSOR.v2.8.1.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v2.8.1+1/CUTENSOR.v2.8.1.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
+registered = 2026-10-11T11:39:28.000Z

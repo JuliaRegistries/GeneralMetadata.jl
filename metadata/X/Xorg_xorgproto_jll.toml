@@ -102,3 +102,7 @@ registered = 2025-12-09T17:12:45.000Z
             ["2024.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xorgproto"
             version = "2024.1"
+
+["2026.1.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_xorgproto_jll.jl/releases/download/Xorg_xorgproto-v2026.1.0+0/Xorg_xorgproto.v2026.1.0.any.tar.gz"]
+registered = 2026-10-11T17:36:23.000Z
