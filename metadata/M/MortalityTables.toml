@@ -173,3 +173,7 @@ registered = 2023-07-03T02:17:19.000Z
 ["2.6.0"]
 artifact_urls = ["https://github.com/JuliaActuary/Artifacts/raw/v2020-02-15/mort.soa.org/2020-02-15.tar.gz"]
 registered = 2023-10-28T04:05:40.000Z
+
+["3.0.0"]
+artifact_urls = ["https://github.com/JuliaActuary/Artifacts/raw/v2020-02-15/mort.soa.org/2020-02-15.tar.gz"]
+registered = 2026-10-12T04:34:46.000Z

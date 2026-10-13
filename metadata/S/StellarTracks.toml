@@ -21,3 +21,7 @@ registered = 2026-08-04T19:35:42.000Z
 ["1.1.2"]
 artifact_urls = []
 registered = 2026-09-30T02:40:15.000Z
+
+["1.2.0"]
+artifact_urls = ["https://github.com/cgarling/StellarTracks.jl/releases/download/v0.0.3/basti_v1.tar.gz", "https://github.com/cgarling/StellarTracks.jl/releases/download/v0.0.3/basti_v2.tar.gz"]
+registered = 2026-10-12T01:33:00.000Z
