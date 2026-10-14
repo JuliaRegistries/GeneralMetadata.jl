@@ -249,3 +249,7 @@ registered = 2026-08-13T13:49:39.000Z
 ["0.3.17"]
 artifact_urls = ["https://zenodo.org/record/5541768/files/IPCC-AR6-SPM-plus.tar.gz?download=1"]
 registered = 2026-10-12T23:51:05.000Z
+
+["0.3.18"]
+artifact_urls = ["https://zenodo.org/record/5541768/files/IPCC-AR6-SPM-plus.tar.gz?download=1"]
+registered = 2026-10-13T02:21:38.000Z
