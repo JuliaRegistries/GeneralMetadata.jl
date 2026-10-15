@@ -2265,3 +2265,7 @@ registered = 2026-08-01T03:16:03.000Z
         [["0.10.0+0".artifact_metadata.sources]]
         package = "oneAPI_Support_Headers_jll"
         type = "builddependency"
+
+["0.11.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Support_jll.jl/releases/download/oneAPI_Support-v0.11.0+0/oneAPI_Support.v0.11.0.x86_64-linux-gnu-cxx11.tar.gz"]
+registered = 2026-10-14T10:26:08.000Z

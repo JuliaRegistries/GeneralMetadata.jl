@@ -17409,3 +17409,7 @@ registered = 2026-09-22T17:05:31.000Z
         hash = "17d0ca1592c0dfc974a5fc39f470a6b7bae40da239e3e19bd0752017735acbca"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cuda/redist/cccl/windows-x86_64/cccl-windows-x86_64-13.3.4.3.1-archive.zip"
+
+["13.4.3+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.3+0/CUDA_SDK.v13.4.3.aarch64-linux-gnu.tar.xz", "https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.3+0/CUDA_SDK.v13.4.3.x86_64-linux-gnu.tar.xz", "https://github.com/JuliaBinaryWrappers/CUDA_SDK_jll.jl/releases/download/CUDA_SDK-v13.4.3+0/CUDA_SDK.v13.4.3.x86_64-w64-mingw32.tar.xz"]
+registered = 2026-10-14T11:25:03.000Z

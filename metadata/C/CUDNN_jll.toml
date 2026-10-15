@@ -1657,3 +1657,7 @@ registered = 2026-09-22T15:05:10.000Z
         hash = "f8610d403685c918e690de5b1ec68da0b4b1358a6be62627591362b7eb811644"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/windows-x86_64/cudnn-windows-x86_64-9.26.0.51_cuda13-archive.zip"
+
+["9.27.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.27.0+0/CUDNN.v9.27.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.27.0+0/CUDNN.v9.27.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.27.0+0/CUDNN.v9.27.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.27.0+0/CUDNN.v9.27.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.27.0+0/CUDNN.v9.27.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.27.0+0/CUDNN.v9.27.0.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.27.0+0/CUDNN.v9.27.0.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
+registered = 2026-10-14T09:21:55.000Z
