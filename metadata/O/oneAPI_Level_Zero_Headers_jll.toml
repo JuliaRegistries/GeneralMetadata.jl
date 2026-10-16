@@ -501,3 +501,7 @@ registered = 2026-06-11T08:36:37.000Z
             ["1.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
             version = "1.29.0"
+
+["1.17.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Level_Zero_Headers_jll.jl/releases/download/oneAPI_Level_Zero_Headers-v1.17.0+0/oneAPI_Level_Zero_Headers.v1.17.0.any.tar.gz"]
+registered = 2026-10-15T16:45:51.000Z

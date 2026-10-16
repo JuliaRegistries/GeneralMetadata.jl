@@ -1096,3 +1096,7 @@ registered = 2026-06-16T08:50:39.000Z
         [["26.18.38308+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/139ddf18781173276dc8aa313bd95fe646357995/N/NEO/bundled"
+
+["26.35.39758+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+0/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+0/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+registered = 2026-10-15T20:41:40.000Z
