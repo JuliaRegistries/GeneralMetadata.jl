@@ -649,3 +649,7 @@ registered = 2026-09-03T13:35:34.000Z
 ["1.43.2"]
 artifact_urls = []
 registered = 2026-09-10T18:44:20.000Z
+
+["1.44.0"]
+artifact_urls = ["https://github.com/joa-quim/gs-stalone/releases/download/v10.09.0-11/gs-10.09.0-linux-aarch64.tar.gz", "https://github.com/joa-quim/gs-stalone/releases/download/v10.09.0-11/gs-10.09.0-linux-x86_64.tar.gz", "https://github.com/joa-quim/gs-stalone/releases/download/v10.09.0-11/gs-10.09.0-macos-aarch64.tar.gz", "https://github.com/joa-quim/gs-stalone/releases/download/v10.09.0-11/gs-10.09.0-macos-x86_64.tar.gz", "https://github.com/joa-quim/gs-stalone/releases/download/v10.09.0-11/gs-10.09.0-windows-x86_64.tar.gz"]
+registered = 2026-10-16T00:22:11.000Z

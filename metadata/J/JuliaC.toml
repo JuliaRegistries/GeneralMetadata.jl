@@ -65,3 +65,7 @@ registered = 2026-09-04T12:35:51.000Z
 ["0.3.11"]
 artifact_urls = ["https://github.com/JuliaLang/PackageCompiler.jl/releases/download/v2.1.24/i686-14.2.0-release-posix-dwarf-msvcrt-rt_v12-rev0.tar.gz", "https://github.com/JuliaLang/PackageCompiler.jl/releases/download/v2.1.24/x86_64-14.2.0-release-posix-seh-msvcrt-rt_v12-rev0.tar.gz"]
 registered = 2026-10-12T21:37:03.000Z
+
+["0.3.12"]
+artifact_urls = ["https://github.com/JuliaLang/PackageCompiler.jl/releases/download/v2.1.24/i686-14.2.0-release-posix-dwarf-msvcrt-rt_v12-rev0.tar.gz", "https://github.com/JuliaLang/PackageCompiler.jl/releases/download/v2.1.24/x86_64-14.2.0-release-posix-seh-msvcrt-rt_v12-rev0.tar.gz"]
+registered = 2026-10-16T19:36:38.000Z
