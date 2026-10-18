@@ -1104,3 +1104,7 @@ registered = 2026-10-15T20:41:40.000Z
 ["26.35.39758+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+1/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+1/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-10-16T13:18:02.000Z
+
+["26.35.39758+2"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+2/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+2/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+registered = 2026-10-17T08:15:55.000Z

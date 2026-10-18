@@ -37,3 +37,7 @@ registered = 2026-04-30T21:25:59.000Z
 ["0.3.6"]
 artifact_urls = ["https://github.com/sintefmath/Fimbul.jl/releases/download/v0.3.4/hydrotherm.tar.bz2", "https://github.com/sintefmath/Fimbul.jl/releases/download/v0.3.4/steam_tables_h2o.tar.bz2"]
 registered = 2026-10-08T12:32:25.000Z
+
+["0.4.0"]
+artifact_urls = ["https://github.com/sintefmath/Fimbul.jl/releases/download/v0.3.4/hydrotherm.tar.bz2", "https://github.com/sintefmath/Fimbul.jl/releases/download/v0.3.5/steam_tables_h2o.tar.bz2"]
+registered = 2026-10-17T16:43:33.000Z

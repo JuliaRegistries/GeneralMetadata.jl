@@ -3079,3 +3079,7 @@ registered = 2026-10-14T12:40:24.000Z
 ["2.41.5+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+0/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+0/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-10-15T19:37:44.000Z
+
+["2.41.5+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+1/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+1/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+registered = 2026-10-17T18:55:44.000Z
