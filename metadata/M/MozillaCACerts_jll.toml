@@ -477,3 +477,7 @@ registered = 2026-09-25T14:54:40.000Z
         hash = "a41b5d356aea97a529fe27e0f7316d2f9d946d75927476cf9cf1b90637d00505"
         type = "file"
         url = "https://curl.haxx.se/ca/cacert-2026-09-25.pem"
+
+["2026.10.20+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/MozillaCACerts_jll.jl/releases/download/MozillaCACerts-v2026.10.20+0/MozillaCACerts.v2026.10.20.any.tar.gz"]
+registered = 2026-10-20T19:15:29.000Z
