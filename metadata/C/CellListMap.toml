@@ -529,3 +529,7 @@ registered = 2026-10-22T14:14:30.000Z
 ["0.10.9"]
 artifact_urls = []
 registered = 2026-10-22T21:04:44.000Z
+
+["0.10.10"]
+artifact_urls = ["https://github.com/m3g/MolSimTestFiles/releases/download/celllistmap-v2/celllistmap.tar.gz"]
+registered = 2026-10-23T23:46:21.000Z

@@ -332,3 +332,7 @@ registered = 2026-06-04T15:42:09.000Z
         hash = "66d085917ba2aba0c61dd0cfde0ae284df9813709f60c4cd215c47f8929eb780"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/windows-x86_64/libcudss-windows-x86_64-0.8.0.10_cuda13-archive.zip"
+
+["1.0.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
+registered = 2026-10-23T12:49:19.000Z
