@@ -171,3 +171,7 @@ registered = 2026-10-06T10:29:36.000Z
         [["23.1.2+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8e4835b84c8ef6714217be19b5403a2e5c15ac47/C/CUDA/NVPTX_LLVM_Backend/bundled"
+
+["23.1.2+2"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+2/NVPTX_LLVM_Backend.v23.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+2/NVPTX_LLVM_Backend.v23.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+2/NVPTX_LLVM_Backend.v23.1.2.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-10-24T16:55:57.000Z
