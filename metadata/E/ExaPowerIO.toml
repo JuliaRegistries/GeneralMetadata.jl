@@ -25,3 +25,15 @@ registered = 2025-10-07T02:20:44.000Z
 ["0.3.1"]
 artifact_urls = ["https://github.com/MATPOWER/matpower/archive/refs/tags/8.1.tar.gz", "https://github.com/power-grid-lib/pglib-opf/archive/refs/tags/v23.07.tar.gz"]
 registered = 2026-08-16T13:43:52.000Z
+
+["0.3.2"]
+artifact_urls = ["https://github.com/MATPOWER/matpower/archive/refs/tags/8.1.tar.gz", "https://github.com/power-grid-lib/pglib-opf/archive/refs/tags/v23.07.tar.gz"]
+registered = 2026-10-25T07:09:35.000Z
+
+["0.3.3"]
+artifact_urls = ["https://github.com/MATPOWER/matpower/archive/refs/tags/8.1.tar.gz", "https://github.com/power-grid-lib/pglib-opf/archive/refs/tags/v23.07.tar.gz"]
+registered = 2026-10-25T21:35:17.000Z
+
+["0.3.4"]
+artifact_urls = ["https://github.com/MATPOWER/matpower/archive/refs/tags/8.1.tar.gz", "https://github.com/power-grid-lib/pglib-opf/archive/refs/tags/v23.07.tar.gz"]
+registered = 2026-10-25T22:01:21.000Z
