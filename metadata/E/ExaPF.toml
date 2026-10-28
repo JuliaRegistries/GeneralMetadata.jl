@@ -69,3 +69,7 @@ registered = 2026-01-26T20:00:49.000Z
 ["0.13.0"]
 artifact_urls = ["https://github.com/power-grid-lib/pglib-opf/archive/refs/tags/v21.07.tar.gz", "https://web.cels.anl.gov/~mschanen/ExaData-e1b6123.tar.gz"]
 registered = 2026-06-17T14:38:53.000Z
+
+["0.14.0"]
+artifact_urls = ["https://github.com/power-grid-lib/pglib-opf/archive/refs/tags/v21.07.tar.gz", "https://web.cels.anl.gov/~mschanen/ExaData-e1b6123.tar.gz"]
+registered = 2026-10-27T17:44:30.000Z

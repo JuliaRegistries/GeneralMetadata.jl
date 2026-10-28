@@ -649,3 +649,7 @@ registered = 2026-10-13T23:51:12.000Z
 ["3.0.1"]
 artifact_urls = []
 registered = 2026-10-21T17:58:39.000Z
+
+["3.1.0"]
+artifact_urls = ["https://github.com/m3g/MolSimTestFiles/releases/download/complexmixtures-v1/complexmixtures.tar.gz", "https://github.com/m3g/MolSimTestFiles/releases/download/protein_tmao-v1/protein_tmao.tar.gz"]
+registered = 2026-10-27T13:46:39.000Z
