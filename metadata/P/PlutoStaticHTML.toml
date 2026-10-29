@@ -353,3 +353,7 @@ registered = 2026-08-31T21:16:59.000Z
 ["8.2.0"]
 artifact_urls = ["https://github.com/cormullion/juliamono/archive/v0.045.tar.gz"]
 registered = 2026-09-08T21:27:02.000Z
+
+["8.3.0"]
+artifact_urls = ["https://github.com/cormullion/juliamono/archive/v0.045.tar.gz"]
+registered = 2026-10-28T16:31:42.000Z
