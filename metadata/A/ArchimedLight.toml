@@ -5,3 +5,7 @@ registered = 2026-07-14T19:32:47.000Z
 ["0.2.0"]
 artifact_urls = ["https://github.com/VEZY/ArchimedLight.jl/releases/download/v0.2.0/archimedlight-release-fixtures-v0.2.0.tar.gz", "https://zenodo.org/records/21291758/files/benchmark-scenes.tar.gz?download=1"]
 registered = 2026-10-01T20:17:16.000Z
+
+["0.3.0"]
+artifact_urls = ["https://github.com/VEZY/ArchimedLight.jl/releases/download/v0.2.0/archimedlight-release-fixtures-v0.2.0.tar.gz", "https://zenodo.org/records/21291758/files/benchmark-scenes.tar.gz?download=1", "https://zenodo.org/records/23695138/files/belinga-voxel-scene-v1.0.0.tar.gz?download=1"]
+registered = 2026-10-29T08:52:58.000Z

@@ -302,3 +302,7 @@ registered = 2024-11-20T23:29:59.000Z
         hash = "d2763908c4d69c03f77f5f9ccc546fe635d068cb"
         type = "git"
         url = "https://github.com/eschnett/MPIconstants"
+
+["10.1.5+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/MicrosoftMPI_jll.jl/releases/download/MicrosoftMPI-v10.1.5+0/MicrosoftMPI.v10.1.5.i686-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz", "https://github.com/JuliaBinaryWrappers/MicrosoftMPI_jll.jl/releases/download/MicrosoftMPI-v10.1.5+0/MicrosoftMPI.v10.1.5.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"]
+registered = 2026-10-29T00:42:20.000Z
