@@ -1337,3 +1337,7 @@ registered = 2026-09-22T14:55:02.000Z
         hash = "c03fe18b9d23881f068ac97b45001a47778f83d2361728427a3f92b551b1c898"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_compat/linux-aarch64/cuda_compat-linux-aarch64-12.9.40580548-archive.tar.xz"
+
+["13.3.6+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.6+0/CUDA_Driver.v13.3.6.aarch64-linux-gnu-tegra+35.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.6+0/CUDA_Driver.v13.3.6.aarch64-linux-gnu-tegra+36.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.6+0/CUDA_Driver.v13.3.6.aarch64-linux-gnu-tegra+none.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.3.6+0/CUDA_Driver.v13.3.6.x86_64-linux-gnu-tegra+none.tar.gz"]
+registered = 2026-10-30T17:19:10.000Z

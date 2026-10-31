@@ -57,3 +57,7 @@ registered = 2026-09-22T02:44:45.000Z
 ["1.11.0+2026e"]
 artifact_urls = ["https://github.com/JuliaTime/TZJData.jl/releases/download/v1.11.0+2026e/tzjfile-v1-tzdata2026e.tar.gz"]
 registered = 2026-10-01T13:52:58.000Z
+
+["1.12.0+2026f"]
+artifact_urls = ["https://github.com/JuliaTime/TZJData.jl/releases/download/v1.12.0+2026f/tzjfile-v1-tzdata2026f.tar.gz"]
+registered = 2026-10-30T17:04:14.000Z
