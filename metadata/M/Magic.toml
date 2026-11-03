@@ -57,3 +57,7 @@ registered = 2026-10-27T01:28:03.000Z
 ["0.9.3"]
 artifact_urls = ["https://github.com/nidoro/Magic.jl/releases/download/v0.9.3/artifacts-linux-x86_64.tar.gz", "https://github.com/nidoro/Magic.jl/releases/download/v0.9.3/artifacts-win64.tar.gz"]
 registered = 2026-10-31T01:42:40.000Z
+
+["0.9.4"]
+artifact_urls = ["https://github.com/nidoro/Magic.jl/releases/download/v0.9.4/artifacts-linux-x86_64.tar.gz", "https://github.com/nidoro/Magic.jl/releases/download/v0.9.4/artifacts-win64.tar.gz"]
+registered = 2026-11-02T15:38:21.000Z
