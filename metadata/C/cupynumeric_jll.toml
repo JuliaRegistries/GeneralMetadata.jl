@@ -435,3 +435,7 @@ registered = 2026-09-27T02:57:17.000Z
         [["26.6.1+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["26.6.2+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/cupynumeric_jll.jl/releases/download/cupynumeric-v26.6.2+0/cupynumeric.v26.6.2.x86_64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/cupynumeric_jll.jl/releases/download/cupynumeric-v26.6.2+0/cupynumeric.v26.6.2.x86_64-linux-gnu-cxx11-cuda+none.tar.gz"]
+registered = 2026-11-04T20:14:27.000Z
