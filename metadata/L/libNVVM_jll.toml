@@ -259,6 +259,10 @@ registered = 2026-09-22T14:55:18.000Z
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/windows-x86_64/libnvvm-windows-x86_64-13.4.92-archive.zip"
 
+["4.0.9+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.9+0/libNVVM.v4.0.9.aarch64-linux-gnu-cuda+13.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.9+0/libNVVM.v4.0.9.x86_64-linux-gnu-cuda+13.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v4.0.9+0/libNVVM.v4.0.9.x86_64-w64-mingw32-cuda+13.tar.gz"]
+registered = 2026-11-05T08:29:10.000Z
+
 ["5.0.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libNVVM_jll.jl/releases/download/libNVVM-v5.0.0+0/libNVVM.v5.0.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2024-04-29T10:46:03.000Z

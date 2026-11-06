@@ -481,3 +481,7 @@ registered = 2026-09-25T14:54:40.000Z
 ["2026.10.20+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MozillaCACerts_jll.jl/releases/download/MozillaCACerts-v2026.10.20+0/MozillaCACerts.v2026.10.20.any.tar.gz"]
 registered = 2026-10-20T19:15:29.000Z
+
+["2026.11.5+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/MozillaCACerts_jll.jl/releases/download/MozillaCACerts-v2026.11.5+0/MozillaCACerts.v2026.11.5.any.tar.gz"]
+registered = 2026-11-05T12:59:41.000Z
