@@ -149,3 +149,7 @@ registered = 2026-10-28T12:16:54.000Z
 ["0.11.8"]
 artifact_urls = ["https://github.com/eigenergy/powerio/releases/download/v0.11.8/libpowerio_capi.aarch64-apple-darwin.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.8/libpowerio_capi.aarch64-linux-gnu.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.8/libpowerio_capi.x86_64-apple-darwin.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.8/libpowerio_capi.x86_64-linux-gnu.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.8/libpowerio_capi.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-05T00:46:49.000Z
+
+["0.11.9"]
+artifact_urls = ["https://github.com/eigenergy/powerio/releases/download/v0.11.9/libpowerio_capi.aarch64-apple-darwin.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.9/libpowerio_capi.aarch64-linux-gnu.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.9/libpowerio_capi.x86_64-apple-darwin.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.9/libpowerio_capi.x86_64-linux-gnu.tar.gz", "https://github.com/eigenergy/powerio/releases/download/v0.11.9/libpowerio_capi.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-06T19:00:51.000Z

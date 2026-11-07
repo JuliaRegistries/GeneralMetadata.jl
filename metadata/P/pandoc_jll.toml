@@ -954,3 +954,7 @@ registered = 2026-08-31T22:47:57.000Z
         hash = "3ebfbf9235b049d384cdba5a66a1a3434bb544391e720b76faa8e1b3ee61a4e5"
         type = "file"
         url = "https://raw.githubusercontent.com/jgm/pandoc/3.10.1/COPYING.md"
+
+["3.13.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-06T13:03:13.000Z
