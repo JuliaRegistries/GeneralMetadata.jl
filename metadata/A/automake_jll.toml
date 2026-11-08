@@ -64,3 +64,7 @@ registered = 2026-04-22T21:58:43.000Z
 ["1.19.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/automake_jll.jl/releases/download/automake-v1.19.0+0/automake.v1.19.0.any.tar.gz"]
 registered = 2026-10-19T19:40:05.000Z
+
+["1.20.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/automake_jll.jl/releases/download/automake-v1.20.0+0/automake.v1.20.0.any.tar.gz"]
+registered = 2026-11-07T19:47:43.000Z
