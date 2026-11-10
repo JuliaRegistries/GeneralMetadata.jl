@@ -1,0 +1,7 @@
+["0.2.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.x86_64-linux-gnu.tar.gz"]
+registered = 2026-11-09T15:40:23.000Z
+
+["0.3.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-09T22:16:41.000Z
