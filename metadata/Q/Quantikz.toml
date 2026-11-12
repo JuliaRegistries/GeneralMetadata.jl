@@ -85,3 +85,7 @@ registered = 2024-12-31T01:09:36.000Z
 ["1.4.1"]
 artifact_urls = ["https://github.com/QuantumSavory/Quantikz/raw/e4999f109f26837944c8bf665daacbd6604bff14/artifacts/quantikz-patched.tar.gz"]
 registered = 2025-03-02T06:11:40.000Z
+
+["1.4.2"]
+artifact_urls = ["https://github.com/QuantumSavory/Quantikz/raw/e4999f109f26837944c8bf665daacbd6604bff14/artifacts/quantikz-patched.tar.gz"]
+registered = 2026-11-10T09:42:31.000Z

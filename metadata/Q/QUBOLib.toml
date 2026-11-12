@@ -45,3 +45,7 @@ registered = 2026-10-31T17:22:27.000Z
 ["0.2.7"]
 artifact_urls = ["https://github.com/JuliaQUBO/QUBOLib.jl/releases/download/v0.2.6-data+9/qubolib.tar.gz"]
 registered = 2026-11-05T10:02:48.000Z
+
+["0.2.8"]
+artifact_urls = ["https://github.com/JuliaQUBO/QUBOLib.jl/releases/download/v0.2.7-data+10/qubolib.tar.gz"]
+registered = 2026-11-11T20:10:55.000Z
