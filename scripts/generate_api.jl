@@ -6,6 +6,7 @@ using GeneralMetadata: GeneralMetadata
 
 function main()
     allversions = GeneralMetadata.metadata()
+    registry = GeneralMetadata.general_registry()
     root = mkpath(joinpath(@__DIR__, "..", "webroot", "api"))
     for (pkg, versions) in allversions
         uuid = GeneralMetadata.uuid_from_name(pkg)
@@ -43,7 +44,11 @@ function main()
         end
         versioninfo = sort(versioninfo, by=VersionNumber)
         JSON.json(joinpath(pkgdir, "versions.json"), versioninfo)
-        JSON.json(joinpath(pkgdir, "info.json"), (; name=pkg, uuid=string(uuid)))
+        info = OrderedDict{String,Any}("name" => pkg, "uuid" => string(uuid))
+        info["repo"] = GeneralMetadata.registered_package_repo(uuid; registry)
+        subdir = GeneralMetadata.registered_package_repo_subdir(uuid; registry)
+        isnothing(subdir) || (info["subdir"] = subdir)
+        JSON.json(joinpath(pkgdir, "info.json"), info)
     end
 end
 
