@@ -744,7 +744,7 @@ function identify_upstream!(meta)
             haskey(source, "url") && haskey(source, "hash") || continue
             id = get!(() -> Repology.identify(source["url"]; commit=source["hash"]), cache, (source["url"], source["hash"]))
             old = get(source, "upstream", Dict{String,Any}())
-            if isnothing(id.version) && get(old, "provenance", "") == "git-tag" &&
+            if id.provenance == "repository" && get(old, "provenance", "") == "git-tag" &&
                     old["project"] == string("repology.org/project/", something(id.project, ""))
                 continue
             end
