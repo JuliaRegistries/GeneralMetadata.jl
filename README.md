@@ -25,9 +25,13 @@ versions as its top-level keys. Each version entry has the following fields:
         * `package::String`. Required for `"builddependency"`.
         * `url::String`. Required for all `type`s (including missing) except `"builddependency"`
         * `hash::String`. Required for all `type`s (including missing) except `"builddependency"` and `"directory"`
-        * `upstream::Dict`. Optional. A table describing this resource:
-            * `project::String`. Required. Either a Repology or GitHub project URL
+        * `upstream::Dict`. Optional. A table describing this resource, derived with [Repology.jl](https://github.com/mbauman/Repology.jl)'s `identify`:
+            * `project::String`. Required. A Repology project URL, like `repology.org/project/expat`
             * `version::String`. Optional. The exact upstream version number, if known
+            * `provenance::String`. Required. How `project` and `version` were identified, from most to least trustworthy:
+              `"override"` (hand-verified source), `"url-pattern"` (curated URL pattern), `"repology-url"` (exact match in Repology's data),
+              `"tag-scheme"` (parsed from a forge release/tag URL), `"git-tag"` (the git commit's tag), `"repository"` (project known from
+              the repository, but no version) or `"heuristic"` (a guess from the URL; treat as unknown)
 
 ## The web API
 
@@ -37,7 +41,7 @@ To allow for programmatic access in non-Julia environments, this powers a simple
     * provides the version numbers and each one's `registered` date along with, optionally:
         * `"yanked"` date
         * `"has_artifacts"` boolean
-        * `"artifact_upstreams"` array of tables of upstream project names and versions
+        * `"artifact_upstreams"` array of tables of upstream project names, versions and provenance (see `upstream` above)
         * `"artifacts_tracked"` boolean if all artifacts have upstream information for all their sources
 * GET https://juliaregistries.github.io/GeneralMetadata.jl/api/Example/info.json
      * provides the UUID
@@ -52,15 +56,17 @@ to a dictionary of their versions and data. Modifications to this dictionary can
 ## Updates
 
 The goal is for this information to be automatically and regularly updated. All update scripts are non-destructive and
-preserve any manually-entered information. All recorded data should be correct. If you notice something wrong, please open
-an issue or pull request with the correction.
+preserve any manually-entered information, except for `upstream`: it is recomputed from scratch on every update, so that
+improvements to Repology.jl reach all versions. All recorded data should be correct. If you notice something wrong, please open
+an issue or pull request with the correction; upstream corrections belong in Repology.jl's `additional_info.toml`.
 
 Additional fields may be added to the TOML data files and web API in the future.
 
 ## Contributing
 
-Contributions are very welcome, both to the infrastructure and to the data itself. In particular artifact "upstream" identifaction is
-automatically populated and may be wrong. These are only thorougly reviewed upon publication of a [Security Advisory](https://github.com/JuliaLang/SecurityAdvisories.jl).
+Contributions are very welcome, both to the infrastructure and to the data itself. In particular artifact "upstream" identification is
+automatically populated and may be wrong; fix it in [Repology.jl](https://github.com/mbauman/Repology.jl) (see its `additional_info.toml`)
+rather than here, where it would be overwritten. These are only thoroughly reviewed upon publication of a [Security Advisory](https://github.com/JuliaLang/SecurityAdvisories.jl).
 
 One category of metadata that is outstanding and for which contributions would be very welcome is licensing information, both of the packages
 themselves and their artifacts.

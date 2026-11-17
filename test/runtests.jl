@@ -1,4 +1,5 @@
 using GeneralMetadata
+using Repology: Repology
 using Test
 using Pkg: Pkg, Registry
 using Dates: Dates, DateTime
@@ -109,6 +110,7 @@ end
                             @test src["upstream"] isa Dict
                             @test haskey(src["upstream"], "project")
                             @test src["upstream"]["project"] isa String
+                            @test get(src["upstream"], "provenance", nothing) in Repology.PROVENANCES
                             if haskey(src["upstream"], "version")
                                 @test src["upstream"]["version"] isa String
                             end
