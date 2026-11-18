@@ -579,7 +579,7 @@ function metadata_for_jll_release(org, repo, tag)
         else
             # Prior to https://github.com/JuliaPackaging/Yggdrasil/commit/102b6ec47081ccb932e59bd604b02959ffbbdc16, there was no manifest
             # and Julia lived inside a pre-built docker container... from somewhere...
-            proj = joinpath(@__DIR__, "yggdrasil_env_pre_2020_02_07") # This has BB v0.2.2 (Jan 2020); there are older buildscripts that predate this, but start here
+            proj = joinpath(@__DIR__, "..", "scripts", "yggdrasil_env_pre_2020_02_07") # This has BB v0.2.2 (Jan 2020); there are older buildscripts that predate this, but start here
             julia_version = "1.3.0"
         end
         # Now ask the build script for its meta-json
