@@ -58,7 +58,7 @@ to a dictionary of their versions and data. Modifications to this dictionary can
 The goal is for this information to be automatically and regularly updated. All update scripts are non-destructive and
 preserve any manually-entered information. Updates only add `upstream` to sources that don't have one yet; existing entries are
 never overwritten. A full recomputation of every `upstream` entry is a deliberate step (the `regenerate_upstream` option of the
-"Update metadata" workflow) after significant Repology.jl improvements, and its diff should be reviewed. All recorded data should
+"Update metadata" workflow) after significant Repology.jl improvements; it keeps `"manual"` entries, and its diff should be reviewed. All recorded data should
 be correct. If you notice something wrong, please open an issue or pull request with the correction.
 
 Additional fields may be added to the TOML data files and web API in the future.

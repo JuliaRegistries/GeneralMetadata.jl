@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       regenerate_upstream:
-        description: 'Recompute every existing upstream entry with Repology.jl, overwriting hand corrections'
+        description: 'Recompute every existing upstream entry with Repology.jl, except provenance = "manual" entries'
         type: boolean
         default: false
   schedule:

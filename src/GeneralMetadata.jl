@@ -734,7 +734,7 @@ end
 
 Add an `upstream` table, identified with `Repology.identify`, to every source that doesn't have one. Existing entries
 are left alone, so hand corrections survive. With `regenerate=true`, recompute every source's `upstream` from scratch,
-for a deliberate refresh after Repology.jl improves; the one exception is a version previously found from a commit's
+for a deliberate refresh after Repology.jl improves, except hand-entered `provenance = "manual"` entries; the other exception is a version previously found from a commit's
 git tag: tags don't move, so if the tag lookup fails (usually a network error) the previous version is kept.
 """
 function identify_upstream!(meta; regenerate=false)
@@ -742,9 +742,10 @@ function identify_upstream!(meta; regenerate=false)
     for (pkg, pkgentry) in meta, (ver, verinfo) in pkgentry, artifactmeta in get(verinfo, "artifact_metadata", [])
         for source in get(artifactmeta, "sources", [])
             haskey(source, "url") && haskey(source, "hash") || continue
-            regenerate || !haskey(source, "upstream") || continue
+            old = get(source, "upstream", nothing)
+            isnothing(old) || (regenerate && get(old, "provenance", "") != "manual") || continue
             id = get!(() -> Repology.identify(source["url"]; commit=source["hash"]), cache, (source["url"], source["hash"]))
-            old = get(source, "upstream", Dict{String,Any}())
+            old = something(old, Dict{String,Any}())
             if id.provenance == "repository" && get(old, "provenance", "") == "git-tag" &&
                     old["project"] == string("repology.org/project/", something(id.project, ""))
                 continue
