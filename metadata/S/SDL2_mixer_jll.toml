@@ -16,7 +16,6 @@ registered = 2020-01-24T23:57:13.000Z
 
             ["2.0.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-mixer"
-            provenance = "repology-url"
             version = "2.0.4"
 
 ["2.0.4+1"]
@@ -37,7 +36,6 @@ registered = 2020-01-25T19:21:38.000Z
 
             ["2.0.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-mixer"
-            provenance = "repology-url"
             version = "2.0.4"
 
 ["2.6.0+0"]
@@ -59,7 +57,6 @@ registered = 2022-07-09T20:43:31.000Z
 
             ["2.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-mixer"
-            provenance = "tag-scheme"
             version = "2.6.0"
 
 ["2.6.2+0"]
@@ -81,7 +78,6 @@ registered = 2022-11-07T10:28:06.000Z
 
             ["2.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-mixer"
-            provenance = "git-tag"
             version = "2.6.2"
 
 ["2.8.1+0"]
@@ -103,5 +99,4 @@ registered = 2025-10-24T19:34:03.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-mixer"
-            provenance = "git-tag"
             version = "2.8.1"

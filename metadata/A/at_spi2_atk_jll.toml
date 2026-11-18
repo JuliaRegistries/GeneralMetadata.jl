@@ -21,7 +21,6 @@ registered = 2020-04-07T23:45:18.000Z
 
             ["2.34.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-atk"
-            provenance = "heuristic"
             version = "2.34.1"
         [["2.34.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -46,7 +45,6 @@ registered = 2020-08-14T08:21:44.000Z
 
             ["2.34.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-atk"
-            provenance = "heuristic"
             version = "2.34.1"
         [["2.34.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -71,7 +69,6 @@ registered = 2020-08-26T17:35:08.000Z
 
             ["2.34.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-atk"
-            provenance = "heuristic"
             version = "2.34.1"
         [["2.34.1+3".artifact_metadata.sources]]
         type = "directory"
@@ -96,7 +93,6 @@ registered = 2020-10-16T19:30:39.000Z
 
             ["2.34.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-atk"
-            provenance = "heuristic"
             version = "2.34.1"
         [["2.34.1+4".artifact_metadata.sources]]
         type = "directory"
@@ -121,7 +117,6 @@ registered = 2025-05-26T18:34:55.000Z
 
             ["2.38.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-atk"
-            provenance = "repology-url"
             version = "2.38.0"
         [["2.38.0+0".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"

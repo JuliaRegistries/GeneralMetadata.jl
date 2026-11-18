@@ -14,11 +14,6 @@ registered = 2026-09-02T17:23:52.000Z
         hash = "d05b3499b6934137e917c009a4df0a9dc8cb11c5"
         type = "git"
         url = "https://github.com/lief-project/LIEF.git"
-
-            ["1.0.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/lief"
-            provenance = "git-tag"
-            version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/09052dfd9405aede1afd6fe1b2c5f887874b8ca4/L/LIEF_Patchelf/bundled"
@@ -39,11 +34,6 @@ registered = 2026-09-03T21:23:30.000Z
         hash = "d05b3499b6934137e917c009a4df0a9dc8cb11c5"
         type = "git"
         url = "https://github.com/lief-project/LIEF.git"
-
-            ["1.0.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/lief"
-            provenance = "git-tag"
-            version = "1.0.0"
         [["1.0.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/7c4e2addbb45d300d4fcd5403611d51215f4dd0b/L/LIEF_Patchelf/bundled"

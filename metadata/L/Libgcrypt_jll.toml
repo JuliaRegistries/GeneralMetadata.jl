@@ -16,7 +16,6 @@ registered = 2019-10-03T17:19:34.000Z
 
             ["1.8.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.8.5"
 
 ["1.8.5+1"]
@@ -38,7 +37,6 @@ registered = 2020-04-02T14:22:01.000Z
 
             ["1.8.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.8.5"
 
 ["1.8.5+2"]
@@ -60,7 +58,6 @@ registered = 2020-08-14T08:21:30.000Z
 
             ["1.8.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.8.5"
 
 ["1.8.5+3"]
@@ -82,7 +79,6 @@ registered = 2020-08-26T19:32:07.000Z
 
             ["1.8.5+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.8.5"
 
 ["1.8.5+4"]
@@ -104,7 +100,6 @@ registered = 2020-10-16T19:26:01.000Z
 
             ["1.8.5+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.8.5"
 
 ["1.8.7+0"]
@@ -126,7 +121,6 @@ registered = 2021-05-24T22:39:22.000Z
 
             ["1.8.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "heuristic"
             version = "1.8.7"
 
 ["1.8.11+0"]
@@ -148,7 +142,6 @@ registered = 2024-04-25T18:00:30.000Z
 
             ["1.8.11+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "heuristic"
             version = "1.8.11"
 
 ["1.11.0+0"]
@@ -170,7 +163,6 @@ registered = 2024-10-25T14:49:37.000Z
 
             ["1.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.11.0"
 
 ["1.11.1+0"]
@@ -192,7 +184,6 @@ registered = 2025-04-02T17:56:33.000Z
 
             ["1.11.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.11.0"
 
 ["1.11.2+0"]
@@ -214,7 +205,6 @@ registered = 2025-12-28T22:01:49.000Z
 
             ["1.11.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.11.2"
 
 ["1.12.0+0"]
@@ -236,7 +226,6 @@ registered = 2026-01-29T16:14:05.000Z
 
             ["1.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "heuristic"
             version = "1.12.0"
 
 ["1.12.1+0"]
@@ -258,7 +247,6 @@ registered = 2026-03-26T19:19:39.000Z
 
             ["1.12.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.12.1"
 
 ["1.12.2+0"]
@@ -280,7 +268,6 @@ registered = 2026-04-15T14:36:43.000Z
 
             ["1.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.12.2"
 
 ["1.12.3+0"]
@@ -302,7 +289,6 @@ registered = 2026-09-02T14:42:37.000Z
 
             ["1.12.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.12.3"
 
 ["1.12.4+0"]
@@ -324,5 +310,4 @@ registered = 2026-09-12T02:22:24.000Z
 
             ["1.12.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgcrypt"
-            provenance = "repology-url"
             version = "1.12.4"

@@ -16,7 +16,6 @@ registered = 2019-11-26T23:40:23.000Z
 
             ["1.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.3.1"
         [["1.3.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,7 +40,6 @@ registered = 2020-03-02T20:45:09.000Z
 
             ["1.3.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.3.1"
         [["1.3.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -69,7 +67,6 @@ registered = 2020-11-04T23:24:04.000Z
 
             ["1.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "tag-scheme"
             version = "1.3.2"
         [["1.3.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -97,7 +94,6 @@ registered = 2021-02-08T02:28:00.000Z
 
             ["1.3.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "tag-scheme"
             version = "1.3.2"
         [["1.3.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -125,7 +121,6 @@ registered = 2021-02-08T22:20:52.000Z
 
             ["1.3.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "tag-scheme"
             version = "1.3.2"
         [["1.3.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -153,7 +148,6 @@ registered = 2021-02-09T03:43:10.000Z
 
             ["1.3.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "tag-scheme"
             version = "1.3.2"
         [["1.3.2+3".artifact_metadata.sources]]
         type = "directory"
@@ -181,7 +175,6 @@ registered = 2021-02-17T02:43:01.000Z
 
             ["1.3.2+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "tag-scheme"
             version = "1.3.2"
         [["1.3.2+4".artifact_metadata.sources]]
         type = "directory"
@@ -209,7 +202,6 @@ registered = 2021-08-12T21:27:26.000Z
 
             ["1.3.2+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "tag-scheme"
             version = "1.3.2"
         [["1.3.2+5".artifact_metadata.sources]]
         type = "directory"
@@ -237,7 +229,6 @@ registered = 2021-11-06T19:35:25.000Z
 
             ["1.3.2+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "tag-scheme"
             version = "1.3.2"
         [["1.3.2+6".artifact_metadata.sources]]
         type = "directory"
@@ -265,7 +256,6 @@ registered = 2021-10-24T01:10:04.000Z
 
             ["1.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.5.0"
         [["1.5.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -293,7 +283,6 @@ registered = 2021-11-06T19:26:31.000Z
 
             ["1.5.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.5.0"
         [["1.5.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -321,7 +310,6 @@ registered = 2022-06-18T10:12:04.000Z
 
             ["1.5.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.5.0"
         [["1.5.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -349,7 +337,6 @@ registered = 2022-08-29T20:29:28.000Z
 
             ["1.5.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.5.0"
         [["1.5.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -380,7 +367,6 @@ registered = 2022-10-16T14:26:21.000Z
 
             ["1.5.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.5.0"
         [["1.5.0+4".artifact_metadata.sources]]
         type = "directory"
@@ -411,7 +397,6 @@ registered = 2023-07-29T19:36:28.000Z
 
             ["1.5.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "heuristic"
             version = "1.5.0"
         [["1.5.0+5".artifact_metadata.sources]]
         type = "directory"
@@ -442,7 +427,6 @@ registered = 2023-09-22T12:38:55.000Z
 
             ["1.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.7.2"
         [["1.7.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -473,7 +457,6 @@ registered = 2023-09-27T11:44:26.000Z
 
             ["1.7.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.7.2"
         [["1.7.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -504,7 +487,6 @@ registered = 2023-10-02T13:37:15.000Z
 
             ["1.7.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.7.2"
         [["1.7.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -535,7 +517,6 @@ registered = 2024-06-13T18:16:38.000Z
 
             ["1.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.8.1"
         [["1.8.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -566,7 +547,6 @@ registered = 2024-07-24T15:07:33.000Z
 
             ["1.8.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.8.1"
         [["1.8.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -597,7 +577,6 @@ registered = 2024-09-15T06:21:37.000Z
 
             ["1.8.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.8.1"
         [["1.8.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -628,7 +607,6 @@ registered = 2025-05-27T13:08:09.000Z
 
             ["1.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.8.2"
         [["1.8.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -659,7 +637,6 @@ registered = 2025-08-01T08:37:06.000Z
 
             ["1.8.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.8.2"
         [["1.8.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -690,7 +667,6 @@ registered = 2025-09-05T16:58:29.000Z
 
             ["1.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.8.3"
         [["1.8.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -721,7 +697,6 @@ registered = 2026-07-12T23:05:34.000Z
 
             ["1.8.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind"
-            provenance = "repology-url"
             version = "1.8.3"
         [["1.8.3+1".artifact_metadata.sources]]
         type = "directory"

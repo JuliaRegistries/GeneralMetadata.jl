@@ -17,7 +17,6 @@ registered = 2021-06-21T13:30:26.000Z
 
             ["1.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libinput"
-            provenance = "git-tag"
             version = "1.18.0"
 
 ["1.28.1+0"]
@@ -39,5 +38,4 @@ registered = 2025-06-11T22:08:28.000Z
 
             ["1.28.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libinput"
-            provenance = "git-tag"
             version = "1.28.1"

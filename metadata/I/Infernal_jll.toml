@@ -25,7 +25,6 @@ registered = 2021-11-12T11:56:05.000Z
 
             ["1.1.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hmmer"
-            provenance = "tag-scheme"
             version = "3.3.2"
 
 ["1.1.4+1"]
@@ -55,7 +54,6 @@ registered = 2022-04-01T18:06:58.000Z
 
             ["1.1.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/hmmer"
-            provenance = "tag-scheme"
             version = "3.3.2"
 
 ["1.1.5+0"]
@@ -77,7 +75,6 @@ registered = 2023-11-16T22:24:03.000Z
 
             ["1.1.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/infernal"
-            provenance = "repology-url"
             version = "1.1.5"
         [["1.1.5+0".artifact_metadata.sources]]
         type = "directory"

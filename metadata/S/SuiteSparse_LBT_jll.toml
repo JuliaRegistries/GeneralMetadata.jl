@@ -17,7 +17,6 @@ registered = 2021-02-14T03:13:16.000Z
 
             ["5.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/suitesparse"
-            provenance = "tag-scheme"
             version = "5.4.0"
         [["5.4.1+0".artifact_metadata.sources]]
         type = "directory"

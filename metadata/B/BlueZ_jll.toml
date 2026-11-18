@@ -17,7 +17,6 @@ registered = 2021-05-19T10:37:37.000Z
 
             ["5.54.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bluez"
-            provenance = "heuristic"
             version = "5.54"
 
 ["5.54.0+1"]
@@ -39,5 +38,4 @@ registered = 2021-05-27T16:38:19.000Z
 
             ["5.54.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/bluez"
-            provenance = "heuristic"
             version = "5.54"

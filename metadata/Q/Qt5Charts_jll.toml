@@ -17,5 +17,4 @@ registered = 2021-04-28T22:20:49.000Z
 
             ["5.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt6charts"
-            provenance = "heuristic"
             version = "5.15.2"

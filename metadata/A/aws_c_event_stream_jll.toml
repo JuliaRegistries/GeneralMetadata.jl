@@ -14,11 +14,6 @@ registered = 2023-09-18T00:17:39.000Z
         hash = "08f24e384e5be20bcffa42b49213d24dad7881ae"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.3.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.3.2"
         [["0.3.2+0".artifact_metadata.sources]]
         package = "aws_c_common_jll"
         type = "builddependency"
@@ -57,11 +52,6 @@ registered = 2023-09-22T23:12:43.000Z
         hash = "08f24e384e5be20bcffa42b49213d24dad7881ae"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.3.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.3.2"
         [["0.3.2+1".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -82,11 +72,6 @@ registered = 2024-05-01T21:44:23.000Z
         hash = "1a70c50f78a6e706f1f91a4ed138478271b6d9d3"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.4.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.4.2"
         [["0.4.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -107,11 +92,6 @@ registered = 2024-08-17T00:13:03.000Z
         hash = "1b3825fc9cae2e9c7ed7479ee5d354d52ebdf7a0"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.4.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.4.3"
         [["0.4.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -132,11 +112,6 @@ registered = 2025-03-01T09:30:33.000Z
         hash = "4bd476bd0c629e8fab4ec0ace92830efc6a79e6c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.2"
         [["0.5.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -157,11 +132,6 @@ registered = 2025-03-04T23:30:18.000Z
         hash = "25bc170a770537ccd796fdebe055fd9fe36c3312"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.3"
         [["0.5.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -182,11 +152,6 @@ registered = 2025-03-07T01:24:06.000Z
         hash = "9312b052583183b98526aaeb91e5c72ec3db9627"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.4"
         [["0.5.4+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -207,11 +172,6 @@ registered = 2025-07-15T09:16:11.000Z
         hash = "8f8f599e78864188fe8547dafaa695a1d4855d6a"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.5"
         [["0.5.5+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -232,11 +192,6 @@ registered = 2025-08-06T21:02:18.000Z
         hash = "2a0f7c9fe656c4789fa762a4ff04d06401abd282"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.6"
         [["0.5.6+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -257,11 +212,6 @@ registered = 2025-09-12T00:24:35.000Z
         hash = "31a44ff9108840a8f3fec54006218f4bc6c505e1"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.7"
         [["0.5.7+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -282,11 +232,6 @@ registered = 2025-12-10T19:12:16.000Z
         hash = "acc869ecbafad139f9ef07ded0c74045910edfc8"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.8"
         [["0.5.8+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -307,11 +252,6 @@ registered = 2025-12-11T18:30:12.000Z
         hash = "f43a3d24a7c1f8b50f709ccb4fdf4c7fd2827fff"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.5.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.5.9"
         [["0.5.9+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -332,11 +272,6 @@ registered = 2026-03-06T08:29:37.000Z
         hash = "c741f95e9050a1a4bed4b3aa7543bd3e024f6e56"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.6.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.6.0"
         [["0.6.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -357,11 +292,6 @@ registered = 2026-03-25T22:33:21.000Z
         hash = "66cafb1d8bb1bfeb62a7601ce03d1a6fcd4798ed"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.7.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.6.1"
         [["0.7.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -382,11 +312,6 @@ registered = 2026-08-31T13:43:14.000Z
         hash = "f18e12078b3e53a3f2ac9c5853ddc3502b09938d"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["0.7.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "0.7.2"
         [["0.7.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -407,11 +332,6 @@ registered = 2026-08-31T14:53:48.000Z
         hash = "d32600bfecc6616cab0c478f96ea5a779f03e05e"
         type = "git"
         url = "https://github.com/awslabs/aws-c-event-stream.git"
-
-            ["1.0.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-event-stream"
-            provenance = "git-tag"
-            version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"

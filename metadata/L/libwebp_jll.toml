@@ -25,7 +25,6 @@ registered = 2020-05-02T01:45:18.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "repology-url"
             version = "1.1.0"
 
 ["1.2.0+0"]
@@ -47,7 +46,6 @@ registered = 2021-07-10T18:06:29.000Z
 
             ["1.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "heuristic"
             version = "1.2.0"
 
 ["1.2.4+0"]
@@ -69,7 +67,6 @@ registered = 2023-09-27T16:05:48.000Z
 
             ["1.2.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "repository"
 
 ["1.3.2+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libwebp_jll.jl/releases/download/libwebp-v1.3.2+0/libwebp.v1.3.2.x86_64-w64-mingw32.tar.gz"]
@@ -90,7 +87,6 @@ registered = 2023-09-27T22:08:01.000Z
 
             ["1.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "git-tag"
             version = "1.3.2"
 
 ["1.4.0+0"]
@@ -112,7 +108,6 @@ registered = 2024-04-25T09:34:57.000Z
 
             ["1.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "git-tag"
             version = "1.4.0"
 
 ["1.5.0+0"]
@@ -134,7 +129,6 @@ registered = 2025-01-02T19:36:27.000Z
 
             ["1.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "git-tag"
             version = "1.5.0"
 
 ["1.6.0+0"]
@@ -156,7 +150,6 @@ registered = 2025-07-11T00:09:42.000Z
 
             ["1.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "git-tag"
             version = "1.6.0"
 
 ["1.6.1+0"]
@@ -178,5 +171,4 @@ registered = 2026-09-22T20:15:49.000Z
 
             ["1.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libwebp"
-            provenance = "git-tag"
             version = "1.6.0"

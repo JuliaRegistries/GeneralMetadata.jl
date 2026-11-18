@@ -21,7 +21,6 @@ registered = 2020-04-07T15:57:12.000Z
 
             ["2.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.34.0"
 
 ["2.34.0+2"]
@@ -43,7 +42,6 @@ registered = 2020-08-14T09:18:51.000Z
 
             ["2.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.34.0"
 
 ["2.34.0+3"]
@@ -65,7 +63,6 @@ registered = 2020-08-26T17:58:10.000Z
 
             ["2.34.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.34.0"
 
 ["2.34.0+4"]
@@ -87,7 +84,6 @@ registered = 2020-10-16T19:32:18.000Z
 
             ["2.34.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.34.0"
 
 ["2.56.1+0"]
@@ -109,7 +105,6 @@ registered = 2025-05-24T18:22:33.000Z
 
             ["2.56.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.56.1"
         [["2.56.1+0".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"
@@ -149,7 +144,6 @@ registered = 2025-05-26T18:34:42.000Z
 
             ["2.56.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.56.2"
         [["2.56.2+0".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"
@@ -189,7 +183,6 @@ registered = 2025-08-07T17:02:41.000Z
 
             ["2.57.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.57.1"
         [["2.57.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -232,7 +225,6 @@ registered = 2025-10-23T16:29:06.000Z
 
             ["2.58.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.58.1"
         [["2.58.1+0".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"
@@ -272,7 +264,6 @@ registered = 2025-11-30T19:44:00.000Z
 
             ["2.58.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.58.2"
         [["2.58.2+0".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"
@@ -312,7 +303,6 @@ registered = 2026-05-07T14:47:32.000Z
 
             ["2.60.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.60.3"
         [["2.60.3+0".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"
@@ -352,7 +342,6 @@ registered = 2026-08-15T17:36:19.000Z
 
             ["2.60.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/at-spi2-core"
-            provenance = "heuristic"
             version = "2.60.6"
         [["2.60.6+0".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"

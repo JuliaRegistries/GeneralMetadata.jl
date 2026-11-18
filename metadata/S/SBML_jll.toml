@@ -17,7 +17,6 @@ registered = 2021-01-28T16:01:57.000Z
 
             ["5.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.0"
 
 ["5.19.0+1"]
@@ -39,7 +38,6 @@ registered = 2021-02-06T03:45:42.000Z
 
             ["5.19.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.0"
 
 ["5.19.0+2"]
@@ -61,7 +59,6 @@ registered = 2021-02-23T14:33:07.000Z
 
             ["5.19.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.0"
 
 ["5.19.2+0"]
@@ -84,7 +81,6 @@ yanked = 2021-12-21T17:54:30.000Z
 
             ["5.19.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.2"
 
 ["5.19.2+1"]
@@ -106,7 +102,6 @@ registered = 2021-12-21T17:00:10.000Z
 
             ["5.19.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.2"
         [["5.19.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -131,7 +126,6 @@ registered = 2022-05-02T22:01:59.000Z
 
             ["5.19.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.5"
         [["5.19.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -156,7 +150,6 @@ registered = 2022-06-10T21:10:56.000Z
 
             ["5.19.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.5"
         [["5.19.5+1".artifact_metadata.sources]]
         type = "directory"
@@ -181,7 +174,6 @@ registered = 2022-06-22T10:24:03.000Z
 
             ["5.19.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.5"
         [["5.19.5+2".artifact_metadata.sources]]
         type = "directory"
@@ -206,7 +198,6 @@ registered = 2022-07-14T12:43:31.000Z
 
             ["5.19.5+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.5"
         [["5.19.5+3".artifact_metadata.sources]]
         type = "directory"
@@ -231,7 +222,6 @@ registered = 2022-07-18T15:27:44.000Z
 
             ["5.19.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.6"
 
 ["5.19.6+1"]
@@ -253,7 +243,6 @@ registered = 2022-07-25T09:07:55.000Z
 
             ["5.19.6+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.6"
         [["5.19.6+1".artifact_metadata.sources]]
         type = "directory"
@@ -278,7 +267,6 @@ registered = 2022-09-24T17:13:27.000Z
 
             ["5.19.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "tag-scheme"
             version = "5.19.7"
 
 ["5.20.0+0"]
@@ -300,7 +288,6 @@ registered = 2023-05-03T11:18:07.000Z
 
             ["5.20.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "git-tag"
             version = "5.20.0"
 
 ["5.20.1+0"]
@@ -322,7 +309,6 @@ registered = 2023-05-29T22:37:59.000Z
 
             ["5.20.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "git-tag"
             version = "5.20.1"
 
 ["5.21.0+0"]
@@ -344,5 +330,4 @@ registered = 2026-01-15T13:52:58.000Z
 
             ["5.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsbml"
-            provenance = "git-tag"
             version = "5.21.0"

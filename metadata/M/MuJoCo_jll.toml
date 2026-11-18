@@ -17,7 +17,6 @@ registered = 2023-09-04T10:55:57.000Z
 
             ["2.3.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mujoco"
-            provenance = "manual"
             version = "2.3.7"
         [["2.3.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -65,8 +64,7 @@ registered = 2024-06-21T21:17:15.000Z
         url = "https://github.com/google-deepmind/mujoco"
 
             ["3.1.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mujoco"
-            provenance = "git-tag"
+            project = "repology.org/project/python:mujoco"
             version = "3.1.6"
         [["3.1.6+0".artifact_metadata.sources]]
         type = "directory"

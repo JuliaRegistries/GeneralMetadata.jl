@@ -17,7 +17,6 @@ registered = 2020-06-23T23:44:59.000Z
 
             ["5.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.0"
         [["5.15.0+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -79,7 +78,6 @@ registered = 2020-07-01T15:14:51.000Z
 
             ["5.15.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.0"
         [["5.15.0+1".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -138,7 +136,6 @@ registered = 2020-07-03T19:59:35.000Z
 
             ["5.15.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.0"
         [["5.15.0+2".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -197,7 +194,6 @@ registered = 2020-08-18T09:58:49.000Z
 
             ["5.15.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.0"
         [["5.15.0+3".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -229,11 +225,6 @@ registered = 2020-11-20T14:58:35.000Z
         hash = "44da876057e21e1be42de31facd99be7d5f9f07893e1ea762359bcee0ef64ee9"
         type = "archive"
         url = "https://download.qt.io/official_releases/qt/515/5.15.1/single/qt-everywhere-src-5.15.1.tar.xz"
-
-            ["5.15.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
-            provenance = "url-pattern"
-            version = "5.15.1"
         [["5.15.1+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -267,7 +258,6 @@ registered = 2020-12-06T20:24:40.000Z
 
             ["5.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.2"
         [["5.15.2+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -302,7 +292,6 @@ registered = 2021-01-02T01:42:39.000Z
 
             ["5.15.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.2"
         [["5.15.2+1".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -334,7 +323,6 @@ registered = 2021-03-18T16:42:44.000Z
 
             ["5.15.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.2"
         [["5.15.2+2".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -366,7 +354,6 @@ registered = 2021-03-25T20:18:24.000Z
 
             ["5.15.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "url-pattern"
             version = "5.15.2"
         [["5.15.2+3".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"

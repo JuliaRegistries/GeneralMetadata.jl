@@ -746,7 +746,6 @@ registered = 2023-08-18T08:35:11.000Z
 
             ["8.9.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "8.9.4.25"
         [["8.9.4+0".artifact_metadata.sources]]
         hash = "d5bf263f38e89fae62c4eb579bbc953d97b5bf300f91a3e6d6404df43b2641b6"
@@ -800,7 +799,6 @@ registered = 2025-02-07T19:08:58.000Z
 
             ["8.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "8.9.5.30"
         [["8.9.5+0".artifact_metadata.sources]]
         hash = "38388ec3c99c6646aaf5c707985cd35e25c67f653d780c4081c2df5557ab665f"
@@ -858,7 +856,6 @@ registered = 2025-02-07T22:02:24.000Z
 
             ["8.9.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "8.9.6.50"
         [["8.9.6+0".artifact_metadata.sources]]
         hash = "2023fccc93226b7ef285a75f02c2c1f0704b7309c15c4b6333a56de896d06852"
@@ -912,7 +909,6 @@ registered = 2025-02-07T22:55:16.000Z
 
             ["8.9.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "8.9.7.29"
         [["8.9.7+0".artifact_metadata.sources]]
         hash = "8574d291b299f9cc0134304473c9933bd098cc717e8d0876f4aba9f9eebe1b76"
@@ -966,7 +962,6 @@ registered = 2026-09-04T13:23:57.000Z
 
             ["8.9.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "8.9.7.29"
         [["8.9.7+1".artifact_metadata.sources]]
         hash = "8574d291b299f9cc0134304473c9933bd098cc717e8d0876f4aba9f9eebe1b76"
@@ -1020,7 +1015,6 @@ registered = 2024-02-14T19:16:54.000Z
 
             ["9.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.0.0.312"
         [["9.0.0+0".artifact_metadata.sources]]
         hash = "b8ef6f249128e1985893a8787a21de35cb83ec47c6dc6fd1809061dd9a3ffb20"
@@ -1074,7 +1068,6 @@ registered = 2024-02-15T10:35:50.000Z
 
             ["9.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.0.0.312"
         [["9.0.0+1".artifact_metadata.sources]]
         hash = "b8ef6f249128e1985893a8787a21de35cb83ec47c6dc6fd1809061dd9a3ffb20"
@@ -1124,7 +1117,6 @@ registered = 2024-05-23T11:43:04.000Z
 
             ["9.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.1.1.17"
         [["9.1.1+0".artifact_metadata.sources]]
         hash = "03d3969d2cb0182db7167b75edc362384e6b48b6686c318e05022a4f711c7edf"
@@ -1174,7 +1166,6 @@ registered = 2024-09-25T19:11:32.000Z
 
             ["9.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.4.0.58"
         [["9.4.0+0".artifact_metadata.sources]]
         hash = "5914e8845e5dcf41fd8963483f3d54db1f04f2c0be725ed012dde27b9fca2488"
@@ -1224,7 +1215,6 @@ registered = 2025-02-07T11:27:21.000Z
 
             ["9.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.7.0.66"
         [["9.7.0+0".artifact_metadata.sources]]
         hash = "ec899666c6353520c77a97a7879c933322a483bbc8d5b31964c235febdac6fb6"
@@ -1274,7 +1264,6 @@ registered = 2025-05-09T11:26:37.000Z
 
             ["9.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.10.0.56"
         [["9.10.0+0".artifact_metadata.sources]]
         hash = "ba9aeffef24e18188e7f10206f8ffaff916406ae5ff47e6c27e768633333d2d0"
@@ -1308,7 +1297,6 @@ registered = 2025-08-27T16:24:42.000Z
 
             ["9.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.12.0.46"
         [["9.12.0+0".artifact_metadata.sources]]
         hash = "b4a8bbc760f44985f7f4c16784e61432147fc8d7d6135b1fc737aa45d3adaa31"
@@ -1362,7 +1350,6 @@ registered = 2025-09-10T23:05:41.000Z
 
             ["9.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.13.0.50"
         [["9.13.0+0".artifact_metadata.sources]]
         hash = "c4b47fe8b1f936aa5cbc312f2d0707990fe5f55693fb5640c7141d301aa7db4c"
@@ -1412,7 +1399,6 @@ registered = 2025-12-29T16:17:58.000Z
 
             ["9.17.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.17.1.4"
         [["9.17.1+0".artifact_metadata.sources]]
         hash = "9c4a42feb867c544d1a9a5c79a0ecb067e578a0980fa454f49a564983d279fbd"
@@ -1462,7 +1448,6 @@ registered = 2026-03-11T09:09:33.000Z
 
             ["9.20.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.20.0.48"
         [["9.20.0+0".artifact_metadata.sources]]
         hash = "07fd758fcafbefa078ee845a00b520be1e81c5215088b126a2248929f162dbc6"
@@ -1512,7 +1497,6 @@ registered = 2026-07-09T09:00:42.000Z
 
             ["9.24.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.24.0.43"
         [["9.24.0+0".artifact_metadata.sources]]
         hash = "802f6f1138537f5f845322dc27f67a1055047dcb26d37fc2ad94a5e65ef728ee"
@@ -1558,7 +1542,6 @@ registered = 2026-09-04T13:30:23.000Z
 
             ["9.24.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.24.0.43"
         [["9.24.0+1".artifact_metadata.sources]]
         hash = "802f6f1138537f5f845322dc27f67a1055047dcb26d37fc2ad94a5e65ef728ee"
@@ -1604,7 +1587,6 @@ registered = 2026-09-11T05:23:55.000Z
 
             ["9.24.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.24.0.43"
         [["9.24.0+2".artifact_metadata.sources]]
         hash = "802f6f1138537f5f845322dc27f67a1055047dcb26d37fc2ad94a5e65ef728ee"
@@ -1650,7 +1632,6 @@ registered = 2026-09-22T15:05:10.000Z
 
             ["9.26.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudnn"
-            provenance = "heuristic"
             version = "9.26.0.51"
         [["9.26.0+0".artifact_metadata.sources]]
         hash = "7e30d3014a927f9f06e4d54bc8f8c2c4394b782040265143f356a63f079d7094"

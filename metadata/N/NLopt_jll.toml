@@ -17,7 +17,6 @@ registered = 2020-05-13T16:33:15.000Z
 
             ["2.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nlopt"
-            provenance = "git-tag"
             version = "2.6.2"
 
 ["2.7.0+0"]
@@ -39,7 +38,6 @@ registered = 2020-11-19T19:59:09.000Z
 
             ["2.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nlopt"
-            provenance = "git-tag"
             version = "2.7.0"
 
 ["2.7.1+0"]
@@ -61,7 +59,6 @@ registered = 2021-12-03T19:06:41.000Z
 
             ["2.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nlopt"
-            provenance = "git-tag"
             version = "2.7.1"
 
 ["2.8.0+0"]
@@ -83,7 +80,6 @@ registered = 2024-08-09T21:33:17.000Z
 
             ["2.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nlopt"
-            provenance = "git-tag"
             version = "2.8.0"
 
 ["2.9.0+0"]
@@ -105,7 +101,6 @@ registered = 2025-01-05T23:30:54.000Z
 
             ["2.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nlopt"
-            provenance = "git-tag"
             version = "2.9.0"
 
 ["2.10.0+0"]
@@ -127,7 +122,6 @@ registered = 2025-02-04T22:01:45.000Z
 
             ["2.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nlopt"
-            provenance = "git-tag"
             version = "2.10.0"
 
 ["2.11.0+0"]
@@ -149,5 +143,4 @@ registered = 2026-06-05T20:40:58.000Z
 
             ["2.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nlopt"
-            provenance = "git-tag"
             version = "2.11.0"

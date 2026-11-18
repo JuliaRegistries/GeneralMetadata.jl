@@ -323,7 +323,7 @@ registered = 2025-11-15T16:56:27.000Z
 
             ["900.200.400+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scip-solver"
-            provenance = "repository"
+            version = "924"
         [["900.200.400+0".artifact_metadata.sources]]
         hash = "a3a077385205039a7c6f9e2c98ecdf2a720b2a819da715e03e0630c75782c1e4"
         type = "archive"
@@ -351,7 +351,6 @@ registered = 2026-01-05T14:48:33.000Z
 
             ["1000.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scip-solver"
-            provenance = "tag-scheme"
             version = "10.0.0"
         [["1000.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -380,7 +379,6 @@ registered = 2026-01-07T21:46:34.000Z
 
             ["1000.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scip-solver"
-            provenance = "tag-scheme"
             version = "10.0.0"
         [["1000.0.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -409,7 +407,6 @@ registered = 2026-07-09T16:46:21.000Z
 
             ["1000.0.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scip-solver"
-            provenance = "tag-scheme"
             version = "10.0.3"
         [["1000.0.300+0".artifact_metadata.sources]]
         type = "directory"
@@ -438,7 +435,6 @@ registered = 2026-09-12T01:25:33.000Z
 
             ["1000.0.301+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scip-solver"
-            provenance = "tag-scheme"
             version = "10.0.3"
         [["1000.0.301+0".artifact_metadata.sources]]
         type = "directory"

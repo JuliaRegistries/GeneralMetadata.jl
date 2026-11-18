@@ -17,7 +17,6 @@ registered = 2025-10-27T12:35:32.000Z
 
             ["8.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sollya"
-            provenance = "repology-url"
             version = "8.0"
         [["8.0.0+0".artifact_metadata.sources]]
         type = "directory"

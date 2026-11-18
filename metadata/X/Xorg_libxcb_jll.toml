@@ -22,7 +22,6 @@ registered = 2020-02-09T02:02:52.000Z
 
             ["1.13.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.13"
         [["1.13.0+1".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -50,7 +49,6 @@ registered = 2020-04-17T19:22:03.000Z
 
             ["1.13.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.13"
         [["1.13.0+2".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -78,7 +76,6 @@ registered = 2020-10-16T19:36:38.000Z
 
             ["1.13.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.13"
         [["1.13.0+3".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -106,7 +103,6 @@ registered = 2023-06-30T23:44:19.000Z
 
             ["1.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.15"
         [["1.15.0+0".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -137,7 +133,6 @@ registered = 2024-06-26T08:03:50.000Z
 
             ["1.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+0".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -168,7 +163,6 @@ registered = 2024-12-01T22:46:54.000Z
 
             ["1.17.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+1".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -199,7 +193,6 @@ registered = 2024-12-27T21:54:44.000Z
 
             ["1.17.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+2".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -230,7 +223,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["1.17.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+3".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -261,7 +253,6 @@ registered = 2025-04-12T20:14:16.000Z
 
             ["1.17.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcb"
-            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.1+0".artifact_metadata.sources]]
         package = "Xorg_libpthread_stubs_jll"

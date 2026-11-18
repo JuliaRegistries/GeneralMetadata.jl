@@ -17,7 +17,6 @@ registered = 2023-10-20T15:32:11.000Z
 
             ["4.2.16+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf"
-            provenance = "heuristic"
             version = "4.2.16-2"
 
 ["4.3.0+0"]
@@ -39,7 +38,6 @@ registered = 2024-05-03T17:19:41.000Z
 
             ["4.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf"
-            provenance = "heuristic"
             version = "4.3.0"
 
 ["4.3.1+0"]
@@ -61,7 +59,6 @@ registered = 2025-03-15T20:32:13.000Z
 
             ["4.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf"
-            provenance = "heuristic"
             version = "4.3.0"
 
 ["4.3.2+0"]
@@ -83,7 +80,6 @@ registered = 2025-07-03T21:39:13.000Z
 
             ["4.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf"
-            provenance = "repology-url"
             version = "4.3.1"
 
 ["5.4.0+0"]

@@ -17,7 +17,6 @@ registered = 2025-06-12T18:52:30.000Z
 
             ["7.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mongoose-web-server"
-            provenance = "git-tag"
             version = "7.18"
 
 ["7.19.0+0"]
@@ -39,7 +38,6 @@ registered = 2025-09-03T00:24:58.000Z
 
             ["7.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mongoose-web-server"
-            provenance = "git-tag"
             version = "7.19"
 
 ["7.19.0+1"]
@@ -61,7 +59,6 @@ registered = 2025-11-10T17:24:02.000Z
 
             ["7.19.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mongoose-web-server"
-            provenance = "git-tag"
             version = "7.19"
         [["7.19.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -86,7 +83,6 @@ registered = 2025-11-11T01:16:42.000Z
 
             ["7.19.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mongoose-web-server"
-            provenance = "git-tag"
             version = "7.19"
         [["7.19.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -111,7 +107,6 @@ registered = 2026-04-28T19:53:27.000Z
 
             ["7.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mongoose-web-server"
-            provenance = "git-tag"
             version = "7.21"
         [["7.21.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -136,7 +131,6 @@ registered = 2026-10-01T18:59:04.000Z
 
             ["7.23.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mongoose-web-server"
-            provenance = "git-tag"
             version = "7.23"
         [["7.23.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -161,7 +155,6 @@ registered = 2026-10-07T01:21:56.000Z
 
             ["7.23.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mongoose-web-server"
-            provenance = "git-tag"
             version = "7.23"
         [["7.23.1+0".artifact_metadata.sources]]
         type = "directory"

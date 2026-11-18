@@ -24,7 +24,6 @@ registered = 2019-09-01T05:33:01.000Z
 
             ["6.1.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.1.2"
         [["6.1.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -48,7 +47,6 @@ registered = 2019-10-03T00:06:46.000Z
 
             ["6.1.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.1.2"
         [["6.1.2+3".artifact_metadata.sources]]
         type = "directory"
@@ -72,7 +70,6 @@ registered = 2019-12-13T00:07:07.000Z
 
             ["6.1.2+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.1.2"
         [["6.1.2+4".artifact_metadata.sources]]
         type = "directory"
@@ -97,7 +94,6 @@ registered = 2020-03-21T00:45:12.000Z
 
             ["6.1.2+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.1.2"
         [["6.1.2+5".artifact_metadata.sources]]
         type = "directory"
@@ -127,7 +123,6 @@ yanked = 2020-10-22T21:23:56.000Z
 
             ["6.1.2+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.1.2"
         [["6.1.2+7".artifact_metadata.sources]]
         type = "directory"
@@ -153,7 +148,6 @@ yanked = 2020-10-23T19:49:46.000Z
 
             ["6.1.2+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.1.2"
         [["6.1.2+8".artifact_metadata.sources]]
         type = "directory"
@@ -179,7 +173,6 @@ yanked = 2021-02-21T01:09:41.000Z
 
             ["6.1.2+9".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.1.2"
         [["6.1.2+9".artifact_metadata.sources]]
         type = "directory"
@@ -204,7 +197,6 @@ registered = 2020-06-16T17:13:08.000Z
 
             ["6.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -229,7 +221,6 @@ registered = 2020-07-01T19:29:01.000Z
 
             ["6.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -258,7 +249,6 @@ registered = 2020-10-19T12:36:24.000Z
 
             ["6.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -284,7 +274,6 @@ yanked = 2020-10-22T21:23:56.000Z
 
             ["6.2.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+4".artifact_metadata.sources]]
         type = "directory"
@@ -309,7 +298,6 @@ registered = 2020-11-03T01:38:11.000Z
 
             ["6.2.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+5".artifact_metadata.sources]]
         type = "directory"
@@ -334,7 +322,6 @@ registered = 2021-02-19T23:43:16.000Z
 
             ["6.2.0+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+6".artifact_metadata.sources]]
         type = "directory"
@@ -359,7 +346,6 @@ registered = 2021-02-20T07:05:10.000Z
 
             ["6.2.0+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+7".artifact_metadata.sources]]
         type = "directory"
@@ -384,7 +370,6 @@ registered = 2024-11-04T14:57:32.000Z
 
             ["6.2.0+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.2.0"
         [["6.2.0+8".artifact_metadata.sources]]
         type = "directory"
@@ -412,7 +397,6 @@ registered = 2021-02-20T22:56:46.000Z
 
             ["6.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -437,7 +421,6 @@ registered = 2021-09-19T21:30:33.000Z
 
             ["6.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -462,7 +445,6 @@ registered = 2022-05-19T17:56:57.000Z
 
             ["6.2.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -487,7 +469,6 @@ registered = 2022-08-24T22:32:50.000Z
 
             ["6.2.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+3".artifact_metadata.sources]]
         type = "directory"
@@ -515,7 +496,6 @@ registered = 2022-09-26T14:10:25.000Z
 
             ["6.2.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+4".artifact_metadata.sources]]
         type = "directory"
@@ -543,7 +523,6 @@ registered = 2023-08-01T20:06:46.000Z
 
             ["6.2.1+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+5".artifact_metadata.sources]]
         type = "directory"
@@ -571,7 +550,6 @@ registered = 2023-09-11T08:53:12.000Z
 
             ["6.2.1+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+6".artifact_metadata.sources]]
         type = "directory"
@@ -599,7 +577,6 @@ registered = 2024-09-16T05:54:18.000Z
 
             ["6.2.1+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+7".artifact_metadata.sources]]
         type = "directory"
@@ -627,7 +604,6 @@ registered = 2024-12-24T16:05:09.000Z
 
             ["6.2.1+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "heuristic"
             version = "6.2.1"
         [["6.2.1+8".artifact_metadata.sources]]
         type = "directory"
@@ -655,7 +631,6 @@ registered = 2024-01-27T19:23:02.000Z
 
             ["6.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.3.0"
         [["6.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -683,7 +658,6 @@ registered = 2024-09-15T13:28:58.000Z
 
             ["6.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.3.0"
         [["6.3.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -711,7 +685,6 @@ registered = 2024-12-24T16:14:13.000Z
 
             ["6.3.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.3.0"
         [["6.3.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -739,7 +712,6 @@ registered = 2025-02-27T17:43:11.000Z
 
             ["6.3.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.3.0"
         [["6.3.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -767,7 +739,6 @@ registered = 2026-07-11T09:24:14.000Z
 
             ["6.3.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.3.0"
         [["6.3.0+4".artifact_metadata.sources]]
         type = "directory"
@@ -795,7 +766,6 @@ registered = 2026-07-30T16:02:14.000Z
 
             ["6.3.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmp"
-            provenance = "repology-url"
             version = "6.3.0"
         [["6.3.0+5".artifact_metadata.sources]]
         type = "directory"

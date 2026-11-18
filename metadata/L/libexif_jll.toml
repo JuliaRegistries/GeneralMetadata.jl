@@ -33,7 +33,6 @@ registered = 2023-02-21T11:27:35.000Z
 
             ["0.6.24+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libexif"
-            provenance = "repology-url"
             version = "0.6.24"
 
 ["0.6.26+0"]
@@ -55,5 +54,4 @@ registered = 2026-04-16T16:28:42.000Z
 
             ["0.6.26+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libexif"
-            provenance = "repology-url"
             version = "0.6.26"

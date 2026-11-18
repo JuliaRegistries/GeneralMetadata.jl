@@ -17,7 +17,6 @@ registered = 2021-05-04T17:40:31.000Z
 
             ["16.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs24-bin"
-            provenance = "heuristic"
             version = "16.0.0"
         [["16.0.0+0".artifact_metadata.sources]]
         hash = "22e7d326b21195c4a0df92a7af7cfdf1743cd46fcc50e335e4086a1c1f2a9a13"
@@ -67,7 +66,6 @@ registered = 2022-05-12T21:40:54.000Z
 
             ["16.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs24-bin"
-            provenance = "heuristic"
             version = "16.15.0"
         [["16.15.0+0".artifact_metadata.sources]]
         hash = "2aa387e6a57ade663849efdc4fabf7431a38d975db98dcc79293840e6894d28b"
@@ -117,7 +115,6 @@ registered = 2025-10-20T19:10:51.000Z
 
             ["16.20.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs24-bin"
-            provenance = "heuristic"
             version = "16.20.2"
         [["16.20.2+0".artifact_metadata.sources]]
         hash = "b6945fcc9ad220386bb814bfae7137189fd17297f2959a744105e1bee006035a"

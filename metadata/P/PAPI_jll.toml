@@ -189,8 +189,7 @@ registered = 2023-08-19T22:03:58.000Z
 
             ["7.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/papi"
-            provenance = "git-tag"
-            version = "7.0.1-t"
+            version = "0-1-t"
         [["7.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d72819f7115a84ca122203e1b788d35088d63572/P/PAPI/bundled"
@@ -217,8 +216,7 @@ registered = 2024-05-08T07:52:08.000Z
 
             ["7.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/papi"
-            provenance = "git-tag"
-            version = "7.1.0-t"
+            version = "1-0-t"
         [["7.1.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/062ecaf40753bfb0aead85398abdbde15c1a42ff/P/PAPI/bundled"
@@ -245,8 +243,7 @@ registered = 2024-05-25T20:36:39.000Z
 
             ["7.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/papi"
-            provenance = "git-tag"
-            version = "7.1.0-t"
+            version = "1-0-t"
         [["7.1.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1d5e30d7ed0e9195c42bcb900824094eda7641ee/P/PAPI/bundled"

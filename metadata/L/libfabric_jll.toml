@@ -17,5 +17,4 @@ registered = 2025-03-11T19:00:05.000Z
 
             ["1.22.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libfabric"
-            provenance = "git-tag"
             version = "1.22.0"

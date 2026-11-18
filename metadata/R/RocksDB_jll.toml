@@ -17,7 +17,6 @@ registered = 2024-01-05T21:36:28.000Z
 
             ["8.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocksdb"
-            provenance = "git-tag"
             version = "8.9.1"
         [["8.9.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -46,7 +45,6 @@ registered = 2026-08-09T23:24:14.000Z
 
             ["11.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocksdb"
-            provenance = "git-tag"
             version = "11.1.2"
         [["11.1.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"

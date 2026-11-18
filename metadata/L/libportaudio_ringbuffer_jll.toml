@@ -16,4 +16,4 @@ registered = 2019-12-29T02:40:01.000Z
 
             ["19.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/portaudio"
-            provenance = "repository"
+            version = "190600_20161030"

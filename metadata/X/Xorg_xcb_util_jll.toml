@@ -16,7 +16,6 @@ registered = 2019-11-21T00:34:54.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util"
-            provenance = "repology-url"
             version = "0.4.0"
 
 ["0.4.0+1"]
@@ -38,7 +37,6 @@ registered = 2020-11-28T02:22:31.000Z
 
             ["0.4.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util"
-            provenance = "repology-url"
             version = "0.4.0"
         [["0.4.0+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -63,7 +61,6 @@ registered = 2025-06-09T15:34:19.000Z
 
             ["0.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util"
-            provenance = "repology-url"
             version = "0.4.1"
         [["0.4.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

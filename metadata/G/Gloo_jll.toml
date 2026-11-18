@@ -17,7 +17,6 @@ registered = 2022-03-18T15:59:45.000Z
 
             ["0.0.20200317+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gloo"
-            provenance = "repository"
         [["0.0.20200317+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1c145bf0e7149c4c3ffdfbf109f1493c365af45a/G/Gloo/bundled"
@@ -44,7 +43,6 @@ registered = 2022-08-24T11:39:00.000Z
 
             ["0.0.20200910+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gloo"
-            provenance = "repository"
         [["0.0.20200910+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3e0e28c8757d046e4ace0fd5ff1259f0233d380e/G/Gloo/bundled"
@@ -71,7 +69,6 @@ registered = 2022-09-01T22:41:09.000Z
 
             ["0.0.20210521+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gloo"
-            provenance = "repository"
         [["0.0.20210521+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3f2594736b5f011ca212232284877ba1c10f8fe4/G/Gloo/bundled"

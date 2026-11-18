@@ -16,7 +16,6 @@ registered = 2019-11-30T23:04:16.000Z
 
             ["1.2.1-1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-lib"
-            provenance = "heuristic"
             version = "1.2.1.1"
 
 ["1.2.1-1+1"]
@@ -38,7 +37,6 @@ registered = 2020-04-04T05:33:46.000Z
 
             ["1.2.1-1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-lib"
-            provenance = "heuristic"
             version = "1.2.1.1"
 
 ["1.2.1-1+2"]
@@ -60,7 +58,6 @@ registered = 2020-10-20T18:53:22.000Z
 
             ["1.2.1-1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-lib"
-            provenance = "heuristic"
             version = "1.2.1.1"
 
 ["1.2.4+0"]
@@ -82,7 +79,6 @@ registered = 2021-04-23T00:22:18.000Z
 
             ["1.2.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-lib"
-            provenance = "heuristic"
             version = "1.2.4"
         [["1.2.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -107,7 +103,6 @@ registered = 2021-09-10T23:39:44.000Z
 
             ["1.2.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-lib"
-            provenance = "repology-url"
             version = "1.2.5.1"
 
 ["1.2.12+0"]
@@ -146,7 +141,6 @@ registered = 2025-01-31T23:08:17.000Z
 
             ["1.2.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-lib"
-            provenance = "repology-url"
             version = "1.2.13"
 
 ["1.2.15+0"]
@@ -168,5 +162,4 @@ registered = 2026-03-25T00:28:22.000Z
 
             ["1.2.15+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-lib"
-            provenance = "repology-url"
             version = "1.2.15.3"

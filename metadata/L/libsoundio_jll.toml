@@ -17,7 +17,6 @@ registered = 2026-03-03T18:11:13.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsoundio"
-            provenance = "git-tag"
             version = "2.0.0"
 
 ["2.0.1+0"]
@@ -39,7 +38,7 @@ registered = 2026-03-29T23:12:37.000Z
 
             ["2.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsoundio"
-            provenance = "repository"
+            version = "2.0.1-7"
         [["2.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/00d4cf00fe877f10331e952aff5311d4aec23101/L/libsoundio/bundled"
@@ -63,7 +62,7 @@ registered = 2026-04-01T23:50:55.000Z
 
             ["2.0.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsoundio"
-            provenance = "repository"
+            version = "2.0.1-7"
         [["2.0.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/bc6312fbe6f1cd714295d49ff479ecda1b66cc8b/L/libsoundio/bundled"

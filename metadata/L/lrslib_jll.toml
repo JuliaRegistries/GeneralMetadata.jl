@@ -114,7 +114,6 @@ registered = 2021-05-29T22:12:41.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lrslib"
-            provenance = "repology-url"
             version = "071a"
         [["0.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -139,7 +138,6 @@ registered = 2021-06-07T00:55:27.000Z
 
             ["0.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lrslib"
-            provenance = "repology-url"
             version = "071a"
         [["0.3.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -164,7 +162,6 @@ registered = 2021-07-28T21:23:43.000Z
 
             ["0.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lrslib"
-            provenance = "repology-url"
             version = "071b"
 
 ["0.3.3+0"]
@@ -186,5 +183,4 @@ registered = 2021-10-15T10:46:08.000Z
 
             ["0.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lrslib"
-            provenance = "repology-url"
             version = "071b"

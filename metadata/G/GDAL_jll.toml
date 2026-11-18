@@ -16,7 +16,6 @@ registered = 2020-01-19T11:45:12.000Z
 
             ["3.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.3"
         [["3.0.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -40,7 +39,6 @@ registered = 2020-01-27T20:09:42.000Z
 
             ["3.0.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.3"
         [["3.0.3+1".artifact_metadata.sources]]
         type = "directory"
@@ -64,7 +62,6 @@ registered = 2020-01-31T16:09:29.000Z
 
             ["3.0.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -89,7 +86,6 @@ registered = 2020-06-20T21:12:05.000Z
 
             ["3.0.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+1".artifact_metadata.sources]]
         type = "directory"
@@ -114,7 +110,6 @@ registered = 2020-08-18T09:58:21.000Z
 
             ["3.0.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+2".artifact_metadata.sources]]
         type = "directory"
@@ -139,7 +134,6 @@ registered = 2020-10-19T01:12:28.000Z
 
             ["3.0.4+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+3".artifact_metadata.sources]]
         type = "directory"
@@ -165,7 +159,6 @@ yanked = 2020-10-20T19:46:36.000Z
 
             ["3.0.4+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+4".artifact_metadata.sources]]
         type = "directory"
@@ -190,7 +183,6 @@ registered = 2020-11-19T19:58:39.000Z
 
             ["3.0.4+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+5".artifact_metadata.sources]]
         type = "directory"
@@ -215,7 +207,6 @@ registered = 2020-11-20T15:59:23.000Z
 
             ["3.0.4+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+6".artifact_metadata.sources]]
         type = "directory"
@@ -240,7 +231,6 @@ registered = 2020-11-20T19:18:43.000Z
 
             ["3.0.4+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.0.4"
         [["3.0.4+7".artifact_metadata.sources]]
         type = "directory"
@@ -265,7 +255,6 @@ registered = 2020-12-26T23:05:57.000Z
 
             ["3.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.2.0"
         [["3.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -290,7 +279,6 @@ registered = 2021-01-02T02:37:49.000Z
 
             ["3.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.2.0"
         [["3.2.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -315,7 +303,6 @@ registered = 2021-01-03T01:06:39.000Z
 
             ["3.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.2.0"
         [["3.2.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -340,7 +327,6 @@ registered = 2021-01-15T00:03:43.000Z
 
             ["3.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.2.1"
         [["3.2.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -365,7 +351,6 @@ registered = 2021-02-15T23:54:19.000Z
 
             ["300.201.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.2.1"
         [["300.201.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -390,7 +375,6 @@ registered = 2021-02-18T01:43:12.000Z
 
             ["300.201.100+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.2.1"
         [["300.201.100+1".artifact_metadata.sources]]
         type = "directory"
@@ -415,7 +399,6 @@ registered = 2021-02-18T01:25:48.000Z
 
             ["300.202.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.2.1"
         [["300.202.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -440,7 +423,6 @@ registered = 2022-01-07T19:30:24.000Z
 
             ["300.400.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.4.1"
         [["300.400.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -465,7 +447,6 @@ registered = 2022-06-02T13:05:32.000Z
 
             ["300.500.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.0"
         [["300.500.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -490,7 +471,6 @@ registered = 2022-06-02T16:04:06.000Z
 
             ["300.500.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.0"
         [["300.500.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -515,7 +495,6 @@ registered = 2022-07-22T15:49:39.000Z
 
             ["300.500.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.0"
         [["300.500.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -540,7 +519,6 @@ registered = 2022-09-02T21:20:40.000Z
 
             ["300.500.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.1"
         [["300.500.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -565,7 +543,6 @@ registered = 2022-09-04T20:50:55.000Z
 
             ["300.500.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.1"
 
 ["300.500.102+0"]
@@ -587,7 +564,6 @@ registered = 2022-09-11T22:24:26.000Z
 
             ["300.500.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.1"
 
 ["300.500.103+0"]
@@ -609,7 +585,6 @@ registered = 2022-10-19T13:17:12.000Z
 
             ["300.500.103+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.1"
 
 ["300.500.200+0"]
@@ -631,7 +606,6 @@ registered = 2022-10-21T10:56:46.000Z
 
             ["300.500.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.5.2"
 
 ["301.600.0+0"]
@@ -653,7 +627,6 @@ registered = 2022-11-13T19:49:27.000Z
 
             ["301.600.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.6.0"
         [["301.600.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -679,7 +652,6 @@ registered = 2022-12-20T12:31:35.000Z
 
             ["301.600.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.6.1"
         [["301.600.100+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -705,7 +677,6 @@ registered = 2023-01-07T09:43:59.000Z
 
             ["301.600.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "tag-scheme"
             version = "3.6.2"
         [["301.600.200+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -731,7 +702,6 @@ registered = 2023-09-22T16:19:35.000Z
 
             ["301.700.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.7.2"
         [["301.700.200+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -760,7 +730,6 @@ registered = 2023-12-26T21:01:45.000Z
 
             ["301.800.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.7.2"
         [["301.800.200+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -792,7 +761,6 @@ registered = 2024-01-10T04:05:38.000Z
 
             ["301.800.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.8.3"
         [["301.800.300+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -824,7 +792,6 @@ registered = 2024-02-18T19:24:23.000Z
 
             ["301.800.400+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.8.4"
         [["301.800.400+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -856,7 +823,6 @@ registered = 2024-04-04T08:25:27.000Z
 
             ["301.800.401+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.8.4"
         [["301.800.401+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -888,7 +854,6 @@ registered = 2024-04-04T20:43:15.000Z
 
             ["301.800.500+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.8.5"
         [["301.800.500+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -920,7 +885,6 @@ registered = 2024-05-15T12:10:51.000Z
 
             ["301.900.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.0"
         [["301.900.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -953,7 +917,6 @@ yanked = 2024-05-27T10:52:52.000Z
 
             ["301.901.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.0"
         [["301.901.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -985,7 +948,6 @@ registered = 2024-06-27T15:55:36.000Z
 
             ["301.901.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.1"
         [["301.901.100+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1017,7 +979,6 @@ registered = 2024-07-14T17:05:53.000Z
 
             ["301.901.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.1"
         [["301.901.101+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1049,7 +1010,6 @@ registered = 2024-08-17T00:13:42.000Z
 
             ["301.901.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.2"
         [["301.901.200+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1081,7 +1041,6 @@ registered = 2024-10-10T13:41:44.000Z
 
             ["301.901.201+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.2"
         [["301.901.201+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1113,7 +1072,6 @@ registered = 2024-10-10T20:32:15.000Z
 
             ["301.902.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.2"
         [["301.902.200+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1145,7 +1103,6 @@ registered = 2024-10-16T14:28:02.000Z
 
             ["301.902.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.9.3"
         [["301.902.300+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1178,7 +1135,6 @@ yanked = 2024-12-22T07:03:40.000Z
 
             ["301.1000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.10.0"
         [["301.1000.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1210,7 +1166,6 @@ registered = 2024-12-23T14:40:51.000Z
 
             ["302.1000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.10.0"
         [["302.1000.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1242,7 +1197,6 @@ registered = 2025-01-15T15:11:23.000Z
 
             ["302.1000.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.10.1"
         [["302.1000.100+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1274,7 +1228,6 @@ registered = 2025-03-22T15:53:05.000Z
 
             ["302.1000.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.10.2"
         [["302.1000.200+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1306,7 +1259,6 @@ registered = 2025-04-08T21:55:55.000Z
 
             ["302.1000.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.10.3"
         [["302.1000.300+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1338,7 +1290,6 @@ registered = 2025-05-29T21:33:14.000Z
 
             ["303.1100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.11.0"
         [["303.1100.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1354,7 +1305,6 @@ registered = 2025-05-29T21:33:14.000Z
 
             ["303.1100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "repository"
         [["303.1100.0+0".artifact_metadata.sources]]
         package = "OpenMPI_jll"
         type = "builddependency"
@@ -1381,7 +1331,6 @@ registered = 2025-07-01T21:22:57.000Z
 
             ["303.1100.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.11.1"
         [["303.1100.100+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1416,7 +1365,6 @@ registered = 2025-07-14T10:41:11.000Z
 
             ["303.1100.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.11.3"
         [["303.1100.300+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1451,7 +1399,6 @@ registered = 2025-09-11T23:29:08.000Z
 
             ["303.1100.400+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.11.4"
         [["303.1100.400+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1486,7 +1433,6 @@ registered = 2025-11-04T18:34:00.000Z
 
             ["303.1100.500+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.11.5"
         [["303.1100.500+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -1521,8 +1467,7 @@ registered = 2025-11-10T21:46:15.000Z
 
             ["304.1200.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
-            version = "3.12.0rc1"
+            version = "3.12.0RC1"
         [["304.1200.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -1556,7 +1501,6 @@ registered = 2025-12-18T21:59:05.000Z
 
             ["304.1200.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.12.1"
         [["304.1200.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -1591,7 +1535,6 @@ registered = 2026-02-10T17:08:05.000Z
 
             ["304.1200.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.12.2"
         [["304.1200.200+0".artifact_metadata.sources]]
         type = "directory"
@@ -1626,7 +1569,6 @@ registered = 2026-03-24T06:37:25.000Z
 
             ["304.1200.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.12.3"
         [["304.1200.300+0".artifact_metadata.sources]]
         type = "directory"
@@ -1661,7 +1603,6 @@ registered = 2026-04-27T00:27:27.000Z
 
             ["304.1200.400+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.12.3"
         [["304.1200.400+0".artifact_metadata.sources]]
         type = "directory"
@@ -1696,7 +1637,6 @@ registered = 2026-06-04T15:07:53.000Z
 
             ["305.1300.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.13.0"
         [["305.1300.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1728,7 +1668,6 @@ registered = 2026-06-06T16:04:05.000Z
 
             ["305.1300.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.13.1"
         [["305.1300.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -1760,7 +1699,6 @@ registered = 2026-07-23T09:25:28.000Z
 
             ["305.1300.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.13.2"
         [["305.1300.200+0".artifact_metadata.sources]]
         type = "directory"
@@ -1792,7 +1730,6 @@ registered = 2026-08-17T21:40:58.000Z
 
             ["305.1300.201+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.13.2"
         [["305.1300.201+0".artifact_metadata.sources]]
         type = "directory"
@@ -1824,7 +1761,6 @@ registered = 2026-08-19T23:37:40.000Z
 
             ["305.1300.301+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdal"
-            provenance = "git-tag"
             version = "3.13.3"
         [["305.1300.301+0".artifact_metadata.sources]]
         type = "directory"

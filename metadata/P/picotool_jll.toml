@@ -17,7 +17,6 @@ registered = 2023-10-14T23:10:05.000Z
 
             ["1.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/picotool"
-            provenance = "git-tag"
             version = "1.1.2"
         [["1.1.2+0".artifact_metadata.sources]]
         hash = "6a7db34ff63345a7badec79ebea3aaef1712f374"

@@ -51,7 +51,6 @@ registered = 2024-02-15T18:24:14.000Z
 
             ["2023.11.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/slate"
-            provenance = "git-tag"
             version = "2023.11.05"
 
 ["2025.5.28+0"]
@@ -73,5 +72,4 @@ registered = 2026-08-30T15:00:57.000Z
 
             ["2025.5.28+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/slate"
-            provenance = "git-tag"
             version = "2025.05.28"

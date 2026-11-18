@@ -17,7 +17,6 @@ registered = 2021-03-30T21:49:55.000Z
 
             ["5.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt6svg"
-            provenance = "heuristic"
             version = "5.15.2"
 
 ["5.15.3+0"]
@@ -39,5 +38,4 @@ registered = 2022-04-21T21:16:31.000Z
 
             ["5.15.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt5svg"
-            provenance = "heuristic"
             version = "5.15.3"

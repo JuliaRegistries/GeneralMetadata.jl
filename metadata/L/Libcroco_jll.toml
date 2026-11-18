@@ -21,7 +21,6 @@ registered = 2020-04-04T05:35:40.000Z
 
             ["0.6.13+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libcroco"
-            provenance = "repology-url"
             version = "0.6.13"
 
 ["0.6.13+2"]
@@ -43,5 +42,4 @@ registered = 2020-10-16T20:29:07.000Z
 
             ["0.6.13+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libcroco"
-            provenance = "repology-url"
             version = "0.6.13"

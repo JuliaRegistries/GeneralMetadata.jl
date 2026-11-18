@@ -17,5 +17,4 @@ registered = 2022-05-17T21:34:19.000Z
 
             ["0.30.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cmark"
-            provenance = "git-tag"
             version = "0.30.2"

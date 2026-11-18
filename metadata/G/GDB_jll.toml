@@ -17,7 +17,6 @@ registered = 2021-04-13T21:27:53.000Z
 
             ["10.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdb"
-            provenance = "heuristic"
             version = "10.1"
 
 ["10.1.0+1"]
@@ -39,7 +38,6 @@ registered = 2021-09-28T23:45:52.000Z
 
             ["10.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdb"
-            provenance = "heuristic"
             version = "10.1"
 
 ["12.1.0+0"]
@@ -61,7 +59,6 @@ registered = 2022-07-20T16:52:59.000Z
 
             ["12.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdb"
-            provenance = "heuristic"
             version = "12.1"
         [["12.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -86,7 +83,6 @@ registered = 2022-12-06T12:15:08.000Z
 
             ["12.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdb"
-            provenance = "heuristic"
             version = "12.1"
         [["12.1.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -111,7 +107,6 @@ registered = 2024-04-03T13:43:07.000Z
 
             ["12.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdb"
-            provenance = "heuristic"
             version = "12.1"
         [["12.1.1+0".artifact_metadata.sources]]
         type = "directory"

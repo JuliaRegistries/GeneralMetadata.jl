@@ -17,5 +17,4 @@ registered = 2026-04-14T14:49:10.000Z
 
             ["8.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/strumpack"
-            provenance = "git-tag"
             version = "8.0.0"

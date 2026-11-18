@@ -17,7 +17,6 @@ registered = 2021-03-02T20:22:09.000Z
 
             ["1.18.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gstreamer"
-            provenance = "heuristic"
             version = "1.18.3"
 
 ["1.20.3+0"]
@@ -39,7 +38,6 @@ registered = 2022-10-12T10:02:52.000Z
 
             ["1.20.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gstreamer"
-            provenance = "heuristic"
             version = "1.20.3"
         [["1.20.3+0".artifact_metadata.sources]]
         type = "directory"

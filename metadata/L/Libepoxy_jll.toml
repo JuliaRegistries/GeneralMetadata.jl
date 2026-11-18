@@ -25,7 +25,6 @@ registered = 2020-02-09T03:45:00.000Z
 
             ["1.5.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libepoxy"
-            provenance = "repology-url"
             version = "1.5.4"
 
 ["1.5.4+1"]
@@ -47,7 +46,6 @@ registered = 2020-10-16T19:36:08.000Z
 
             ["1.5.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libepoxy"
-            provenance = "repology-url"
             version = "1.5.4"
 
 ["1.5.8+0"]
@@ -69,7 +67,6 @@ registered = 2021-07-27T22:45:40.000Z
 
             ["1.5.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libepoxy"
-            provenance = "tag-scheme"
             version = "1.5.8"
         [["1.5.8+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -94,7 +91,6 @@ registered = 2021-12-18T19:13:18.000Z
 
             ["1.5.8+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libepoxy"
-            provenance = "tag-scheme"
             version = "1.5.8"
         [["1.5.8+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -119,7 +115,6 @@ registered = 2022-11-27T19:59:26.000Z
 
             ["1.5.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libepoxy"
-            provenance = "repology-url"
             version = "1.5.10"
         [["1.5.10+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -144,7 +139,6 @@ registered = 2025-06-23T14:38:44.000Z
 
             ["1.5.11+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libepoxy"
-            provenance = "git-tag"
             version = "1.5.10"
         [["1.5.11+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

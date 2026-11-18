@@ -17,7 +17,6 @@ registered = 2023-01-23T12:36:22.000Z
 
             ["0.23.92+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zbar"
-            provenance = "git-tag"
             version = "0.23.92"
 
 ["0.23.93+0"]
@@ -39,5 +38,4 @@ registered = 2024-02-26T02:13:41.000Z
 
             ["0.23.93+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zbar"
-            provenance = "git-tag"
             version = "0.23.93"

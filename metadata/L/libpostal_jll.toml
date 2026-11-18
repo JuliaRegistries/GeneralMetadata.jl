@@ -17,4 +17,3 @@ registered = 2024-04-01T16:50:41.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libpostal"
-            provenance = "repository"

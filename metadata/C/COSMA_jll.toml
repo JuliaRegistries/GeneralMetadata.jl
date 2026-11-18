@@ -17,7 +17,6 @@ registered = 2020-05-16T21:45:37.000Z
 
             ["2.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cosma"
-            provenance = "tag-scheme"
             version = "2.2.0"
 
 ["2.5.1+0"]
@@ -39,7 +38,6 @@ registered = 2022-07-13T15:32:48.000Z
 
             ["2.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cosma"
-            provenance = "tag-scheme"
             version = "2.5.1"
 
 ["2.5.2+0"]
@@ -61,5 +59,4 @@ registered = 2022-07-24T22:11:52.000Z
 
             ["2.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cosma"
-            provenance = "tag-scheme"
             version = "2.5.1"

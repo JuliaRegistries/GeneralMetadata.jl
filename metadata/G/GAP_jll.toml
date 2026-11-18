@@ -17,7 +17,6 @@ registered = 2020-10-28T17:29:16.000Z
 
             ["4.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["4.11.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/96c75b43c0dc91ace914c8e4d31507332022eac2/G/GAP/bundled"
@@ -44,7 +43,6 @@ registered = 2020-11-10T15:58:44.000Z
 
             ["4.11.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["4.11.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/843f0e9b1b466247914010181c47b03fa067bc4a/G/GAP/bundled"
@@ -71,7 +69,6 @@ registered = 2020-11-13T15:21:14.000Z
 
             ["4.11.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["4.11.0+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1a1a431bf2556d9a3033780c82a7867870b30b18/G/GAP/bundled"
@@ -98,7 +95,6 @@ registered = 2021-01-20T15:34:00.000Z
 
             ["400.1100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1100.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/12fafe7dbded8520768d72406067e5061fc9908e/G/GAP/bundled"
@@ -125,7 +121,6 @@ registered = 2021-01-22T11:53:54.000Z
 
             ["400.1100.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1100.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3530a67ef93b6ba907c3de47db33b3c63d1be764/G/GAP/bundled"
@@ -152,7 +147,6 @@ registered = 2021-05-17T23:40:36.000Z
 
             ["400.1100.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1100.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -180,7 +174,6 @@ registered = 2021-06-25T23:35:09.000Z
 
             ["400.1190.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/75b883454b7b484dbc15060f172f437c05c5ec21/G/GAP/bundled"
@@ -207,7 +200,6 @@ registered = 2021-06-26T08:52:03.000Z
 
             ["400.1190.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9cc20fa6c4a17d670f6435540d485dca27012d52/G/GAP/bundled"
@@ -234,7 +226,6 @@ registered = 2021-06-28T22:04:04.000Z
 
             ["400.1190.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/248e45cf9e2ae0a6f38819c103463a49b88cc893/G/GAP/bundled"
@@ -261,7 +252,6 @@ registered = 2021-07-01T18:49:04.000Z
 
             ["400.1190.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c97418cb129f058ba7b8a09bdec8f27aa641e1f4/G/GAP/bundled"
@@ -288,7 +278,6 @@ registered = 2021-07-06T12:06:33.000Z
 
             ["400.1190.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/bb692fc90ecc0f41482bb439f24ac56ea90dfdb9/G/GAP/bundled"
@@ -315,7 +304,6 @@ registered = 2021-07-26T14:51:39.000Z
 
             ["400.1190.105+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.105+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c3db246ce88d47ad5dc8efd7f35c54df82dc4ad9/G/GAP/bundled"
@@ -342,7 +330,6 @@ registered = 2021-07-26T20:44:01.000Z
 
             ["400.1190.107+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.107+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d923580c8e5011f12eb2557aa01a14b06a5e08cc/G/GAP/bundled"
@@ -369,7 +356,6 @@ registered = 2021-08-27T12:59:11.000Z
 
             ["400.1190.205+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.205+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/458aa9f9048f1f827bfb28f039508d162e41c7b6/G/GAP/bundled"
@@ -396,7 +382,6 @@ registered = 2021-08-27T14:46:54.000Z
 
             ["400.1190.207+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.207+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1fb6f331cc37a467db7ce8a3f7e7ec96c6d2bec7/G/GAP/bundled"
@@ -423,7 +408,6 @@ registered = 2021-10-15T17:04:29.000Z
 
             ["400.1191.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1191.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6cd9212d9d96ae034920488462da54c2799d598b/G/GAP/bundled"
@@ -450,7 +434,6 @@ registered = 2021-10-16T17:07:04.000Z
 
             ["400.1191.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1191.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1b24c78c7a02651f77f7a19b1ba293d87255a25a/G/GAP/bundled"
@@ -477,7 +460,6 @@ registered = 2021-12-28T13:12:32.000Z
 
             ["400.1191.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1191.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2e8a5e40f6e3ad09197894e22a293169c7747381/G/GAP/bundled"
@@ -504,7 +486,6 @@ registered = 2022-03-01T12:46:03.000Z
 
             ["400.1191.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1191.1+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0a1e5b92771d96539c0d3fbdb9024f1dcadbf0b8/G/GAP/bundled"
@@ -531,7 +512,6 @@ registered = 2022-02-21T12:07:30.000Z
 
             ["400.1192.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/340d7f399bb3155408cc8401838425fd463c93ed/G/GAP/bundled"
@@ -558,7 +538,6 @@ registered = 2022-02-28T12:05:08.000Z
 
             ["400.1192.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8c66d849b333787fa7b9090039b0d48bf6ebec7f/G/GAP/bundled"
@@ -585,7 +564,6 @@ registered = 2022-04-20T08:11:53.000Z
 
             ["400.1192.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3a7e6e96749d0ae8168df0099b0a13660ba9dfb5/G/GAP/bundled"
@@ -612,7 +590,6 @@ registered = 2022-04-28T07:49:33.000Z
 
             ["400.1192.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1eaa802a3b235860313cd8242ea5a457dfed17cf/G/GAP/bundled"
@@ -639,7 +616,6 @@ registered = 2022-04-29T11:03:45.000Z
 
             ["400.1192.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.2+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d760b212f22f6b61e76c5e3be554e83a0c5acd11/G/GAP/bundled"
@@ -666,7 +642,6 @@ registered = 2022-09-13T23:14:03.000Z
 
             ["400.1200.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "git-tag"
             version = "4.12.0"
         [["400.1200.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -694,7 +669,6 @@ registered = 2022-09-14T23:50:00.000Z
 
             ["400.1200.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "git-tag"
             version = "4.12.0"
         [["400.1200.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -722,7 +696,6 @@ registered = 2022-09-19T20:06:54.000Z
 
             ["400.1200.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "git-tag"
             version = "4.12.0"
         [["400.1200.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -750,7 +723,6 @@ registered = 2022-10-25T20:57:32.000Z
 
             ["400.1200.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1200.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -778,7 +750,6 @@ registered = 2022-10-31T16:48:03.000Z
 
             ["400.1200.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1200.101+0".artifact_metadata.sources]]
         type = "directory"
@@ -806,7 +777,6 @@ registered = 2022-11-17T16:00:05.000Z
 
             ["400.1200.101+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1200.101+1".artifact_metadata.sources]]
         type = "directory"
@@ -834,7 +804,6 @@ registered = 2022-11-30T22:31:09.000Z
 
             ["400.1200.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1200.102+0".artifact_metadata.sources]]
         type = "directory"
@@ -862,7 +831,6 @@ registered = 2023-01-04T08:29:19.000Z
 
             ["400.1200.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+0".artifact_metadata.sources]]
         type = "directory"
@@ -890,7 +858,6 @@ registered = 2023-05-09T22:10:32.000Z
 
             ["400.1200.200+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+1".artifact_metadata.sources]]
         type = "directory"
@@ -918,7 +885,6 @@ registered = 2023-06-19T14:44:51.000Z
 
             ["400.1200.200+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+2".artifact_metadata.sources]]
         type = "directory"
@@ -946,7 +912,6 @@ registered = 2023-07-01T15:34:32.000Z
 
             ["400.1200.200+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+3".artifact_metadata.sources]]
         type = "directory"
@@ -974,7 +939,6 @@ registered = 2023-07-05T07:09:52.000Z
 
             ["400.1200.200+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+4".artifact_metadata.sources]]
         type = "directory"
@@ -1002,7 +966,6 @@ registered = 2023-07-06T09:30:21.000Z
 
             ["400.1200.200+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+5".artifact_metadata.sources]]
         type = "directory"
@@ -1030,7 +993,6 @@ registered = 2023-09-11T11:37:33.000Z
 
             ["400.1200.200+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+6".artifact_metadata.sources]]
         type = "directory"
@@ -1058,7 +1020,6 @@ registered = 2023-10-06T00:47:55.000Z
 
             ["400.1200.200+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+7".artifact_metadata.sources]]
         type = "directory"
@@ -1086,7 +1047,6 @@ registered = 2024-02-26T21:23:26.000Z
 
             ["400.1200.200+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+8".artifact_metadata.sources]]
         type = "directory"
@@ -1114,7 +1074,6 @@ registered = 2024-02-26T23:22:54.000Z
 
             ["400.1200.200+9".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1200.200+9".artifact_metadata.sources]]
         type = "directory"
@@ -1142,7 +1101,6 @@ registered = 2024-03-19T08:35:49.000Z
 
             ["400.1300.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.0"
         [["400.1300.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1170,7 +1128,6 @@ registered = 2024-03-19T13:39:57.000Z
 
             ["400.1300.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.0"
         [["400.1300.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -1198,7 +1155,6 @@ registered = 2024-03-19T16:57:35.000Z
 
             ["400.1300.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.0"
         [["400.1300.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -1226,7 +1182,6 @@ registered = 2024-06-13T21:16:48.000Z
 
             ["400.1300.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -1254,7 +1209,6 @@ registered = 2024-09-03T22:33:24.000Z
 
             ["400.1300.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.101+0".artifact_metadata.sources]]
         type = "directory"
@@ -1282,7 +1236,6 @@ registered = 2024-09-09T12:00:14.000Z
 
             ["400.1300.101+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.101+1".artifact_metadata.sources]]
         type = "directory"
@@ -1310,7 +1263,6 @@ registered = 2024-09-09T12:34:36.000Z
 
             ["400.1300.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.102+0".artifact_metadata.sources]]
         type = "directory"
@@ -1338,7 +1290,6 @@ registered = 2024-09-24T21:13:28.000Z
 
             ["400.1300.102+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.102+1".artifact_metadata.sources]]
         type = "directory"
@@ -1366,7 +1317,6 @@ registered = 2024-09-25T10:59:26.000Z
 
             ["400.1300.102+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.102+2".artifact_metadata.sources]]
         type = "directory"
@@ -1394,7 +1344,6 @@ registered = 2024-12-07T20:49:41.000Z
 
             ["400.1400.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1422,7 +1371,6 @@ registered = 2024-12-09T22:49:21.000Z
 
             ["400.1400.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -1450,7 +1398,6 @@ registered = 2025-01-09T13:36:47.000Z
 
             ["400.1400.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -1478,7 +1425,6 @@ registered = 2025-01-09T18:23:46.000Z
 
             ["400.1400.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -1506,7 +1452,6 @@ registered = 2025-02-04T11:11:03.000Z
 
             ["400.1400.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -1534,7 +1479,6 @@ registered = 2025-02-05T16:38:31.000Z
 
             ["400.1400.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -1562,7 +1506,6 @@ registered = 2025-02-06T06:17:04.000Z
 
             ["400.1400.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -1590,7 +1533,6 @@ registered = 2025-06-01T11:43:50.000Z
 
             ["400.1400.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -1618,7 +1560,6 @@ registered = 2025-06-11T13:59:03.000Z
 
             ["400.1400.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -1646,7 +1587,6 @@ registered = 2025-06-17T00:17:22.000Z
 
             ["400.1400.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.5+1".artifact_metadata.sources]]
         type = "directory"
@@ -1674,7 +1614,6 @@ registered = 2025-07-14T14:29:25.000Z
 
             ["400.1400.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1400.5+2".artifact_metadata.sources]]
         type = "directory"
@@ -1702,7 +1641,6 @@ registered = 2025-08-15T11:33:47.000Z
 
             ["400.1401.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.14.0"
         [["400.1401.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -1730,7 +1668,6 @@ registered = 2025-09-29T12:26:30.000Z
 
             ["400.1500.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.15.0"
         [["400.1500.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1758,7 +1695,6 @@ registered = 2025-10-20T11:02:45.000Z
 
             ["400.1500.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.15.1"
         [["400.1500.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -1786,7 +1722,6 @@ registered = 2025-11-03T10:22:11.000Z
 
             ["400.1500.100+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.15.1"
         [["400.1500.100+1".artifact_metadata.sources]]
         type = "directory"
@@ -1814,7 +1749,6 @@ registered = 2026-03-11T14:06:28.000Z
 
             ["400.1500.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.15.1"
         [["400.1500.101+0".artifact_metadata.sources]]
         type = "directory"
@@ -1842,7 +1776,6 @@ registered = 2026-06-02T12:19:43.000Z
 
             ["400.1600.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.16.0"
         [["400.1600.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1870,7 +1803,6 @@ registered = 2026-08-23T21:15:45.000Z
 
             ["400.1600.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.16.1"
         [["400.1600.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -1898,7 +1830,6 @@ registered = 2026-09-14T01:19:05.000Z
 
             ["400.1600.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.16.1"
         [["400.1600.101+0".artifact_metadata.sources]]
         type = "directory"
@@ -1926,7 +1857,6 @@ registered = 2026-09-23T13:05:02.000Z
 
             ["400.1600.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.16.1"
         [["400.1600.102+0".artifact_metadata.sources]]
         type = "directory"
@@ -1954,7 +1884,6 @@ registered = 2026-09-23T21:36:08.000Z
 
             ["400.1600.103+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.16.1"
         [["400.1600.103+0".artifact_metadata.sources]]
         type = "directory"

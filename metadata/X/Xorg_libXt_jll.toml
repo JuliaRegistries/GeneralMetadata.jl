@@ -17,7 +17,6 @@ registered = 2020-03-08T20:54:09.000Z
 
             ["1.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxt"
-            provenance = "heuristic"
             version = "1.2.0"
         [["1.2.0+0".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -45,7 +44,6 @@ registered = 2025-04-18T20:06:50.000Z
 
             ["1.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxt"
-            provenance = "repology-url"
             version = "1.3.1"
         [["1.3.1+0".artifact_metadata.sources]]
         type = "directory"

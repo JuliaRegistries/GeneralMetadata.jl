@@ -17,7 +17,6 @@ registered = 2020-02-29T09:32:09.000Z
 
             ["2.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/dsfmt"
-            provenance = "repology-url"
             version = "2.2.3"
         [["2.2.3+0".artifact_metadata.sources]]
         type = "directory"

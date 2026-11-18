@@ -17,7 +17,6 @@ registered = 2021-02-14T23:27:40.000Z
 
             ["12.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+0".artifact_metadata.sources]]
         hash = "c8c5c4ab9e1ff47e745de70f4af3214078657399fa7a0da0b5f209d780e49978"
@@ -26,7 +25,6 @@ registered = 2021-02-14T23:27:40.000Z
 
             ["12.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+0".artifact_metadata.sources]]
         hash = "331e77046935d655dce8d97ebb943fcc7e9684586dadf3d197f3df5e760cd31b"
@@ -35,7 +33,6 @@ registered = 2021-02-14T23:27:40.000Z
 
             ["12.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+0".artifact_metadata.sources]]
         hash = "b1d6c4b18f5fa238bd2c6e47caa65a7a3e4a1bd0de6df0b7c19c8083c941f57b"
@@ -44,7 +41,6 @@ registered = 2021-02-14T23:27:40.000Z
 
             ["12.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+0".artifact_metadata.sources]]
         hash = "ee1201a73de9b44ad1ef02a2f9f82705b1350b878e2bab3c3fb6282daf038a73"
@@ -74,7 +70,6 @@ registered = 2021-02-16T23:09:06.000Z
 
             ["12.1.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+1".artifact_metadata.sources]]
         hash = "c8c5c4ab9e1ff47e745de70f4af3214078657399fa7a0da0b5f209d780e49978"
@@ -83,7 +78,6 @@ registered = 2021-02-16T23:09:06.000Z
 
             ["12.1.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+1".artifact_metadata.sources]]
         hash = "331e77046935d655dce8d97ebb943fcc7e9684586dadf3d197f3df5e760cd31b"
@@ -92,7 +86,6 @@ registered = 2021-02-16T23:09:06.000Z
 
             ["12.1.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+1".artifact_metadata.sources]]
         hash = "b1d6c4b18f5fa238bd2c6e47caa65a7a3e4a1bd0de6df0b7c19c8083c941f57b"
@@ -101,7 +94,6 @@ registered = 2021-02-16T23:09:06.000Z
 
             ["12.1.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+1".artifact_metadata.sources]]
         hash = "ee1201a73de9b44ad1ef02a2f9f82705b1350b878e2bab3c3fb6282daf038a73"
@@ -131,7 +123,6 @@ registered = 2021-02-22T10:55:16.000Z
 
             ["12.1.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+2".artifact_metadata.sources]]
         hash = "c8c5c4ab9e1ff47e745de70f4af3214078657399fa7a0da0b5f209d780e49978"
@@ -140,7 +131,6 @@ registered = 2021-02-22T10:55:16.000Z
 
             ["12.1.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+2".artifact_metadata.sources]]
         hash = "331e77046935d655dce8d97ebb943fcc7e9684586dadf3d197f3df5e760cd31b"
@@ -149,7 +139,6 @@ registered = 2021-02-22T10:55:16.000Z
 
             ["12.1.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+2".artifact_metadata.sources]]
         hash = "ef514fd12cfc3ee2d1725e5ecb866ee1123163004879ec285b22f3323389ebe2"
@@ -158,7 +147,6 @@ registered = 2021-02-22T10:55:16.000Z
 
             ["12.1.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+2".artifact_metadata.sources]]
         hash = "b1d6c4b18f5fa238bd2c6e47caa65a7a3e4a1bd0de6df0b7c19c8083c941f57b"
@@ -167,7 +155,6 @@ registered = 2021-02-22T10:55:16.000Z
 
             ["12.1.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "tag-scheme"
             version = "12.1.2"
         [["12.1.2+2".artifact_metadata.sources]]
         hash = "ee1201a73de9b44ad1ef02a2f9f82705b1350b878e2bab3c3fb6282daf038a73"
@@ -197,7 +184,6 @@ registered = 2021-12-04T14:39:06.000Z
 
             ["12.1.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "repology-url"
             version = "12.1.2"
 
 ["12.1.200+0"]
@@ -219,5 +205,4 @@ registered = 2022-10-02T18:23:15.000Z
 
             ["12.1.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tokei"
-            provenance = "repology-url"
             version = "12.1.2"

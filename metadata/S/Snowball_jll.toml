@@ -37,7 +37,6 @@ registered = 2022-08-17T00:41:11.000Z
 
             ["2.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/snowballstemmer"
-            provenance = "heuristic"
             version = "2.2.0"
         [["2.2.0+0".artifact_metadata.sources]]
         type = "directory"

@@ -17,7 +17,6 @@ registered = 2026-04-29T14:58:29.000Z
 
             ["1.24.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "1.24.0"
         [["1.24.0+0".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"

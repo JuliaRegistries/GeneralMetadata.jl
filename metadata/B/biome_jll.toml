@@ -17,7 +17,6 @@ registered = 2025-11-18T18:42:55.000Z
 
             ["2.0.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/biome"
-            provenance = "url-pattern"
             version = "2.0.6"
 
 ["2.4.8+0"]
@@ -39,5 +38,4 @@ registered = 2026-03-24T21:24:21.000Z
 
             ["2.4.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/biome"
-            provenance = "git-tag"
             version = "2.4.8"

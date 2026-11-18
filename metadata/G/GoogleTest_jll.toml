@@ -17,7 +17,6 @@ registered = 2021-03-05T01:36:02.000Z
 
             ["1.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
-            provenance = "git-tag"
             version = "1.10.0"
 
 ["1.11.0+0"]
@@ -39,7 +38,6 @@ registered = 2022-01-18T22:42:53.000Z
 
             ["1.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
-            provenance = "git-tag"
             version = "1.11.0"
         [["1.11.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -64,7 +62,6 @@ registered = 2024-12-10T09:15:22.000Z
 
             ["1.11.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
-            provenance = "git-tag"
             version = "1.11.0"
         [["1.11.0+1".artifact_metadata.sources]]
         type = "directory"

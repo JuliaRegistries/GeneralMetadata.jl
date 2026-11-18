@@ -17,7 +17,6 @@ registered = 2023-11-01T16:48:28.000Z
 
             ["0.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "git-tag"
             version = "0.5.3"
         [["0.5.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -45,7 +44,6 @@ registered = 2023-11-01T18:09:39.000Z
 
             ["0.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "git-tag"
             version = "0.6.3"
 
 ["0.7.0+0"]
@@ -67,7 +65,6 @@ registered = 2021-08-18T16:07:42.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "repology-url"
             version = "0.7.0"
 
 ["0.7.0+1"]
@@ -89,7 +86,6 @@ registered = 2021-08-20T15:37:57.000Z
 
             ["0.7.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "repology-url"
             version = "0.7.0"
 
 ["0.7.0+2"]
@@ -111,7 +107,6 @@ registered = 2021-11-29T00:06:39.000Z
 
             ["0.7.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "repology-url"
             version = "0.7.0"
 
 ["0.8.0+0"]
@@ -133,7 +128,6 @@ registered = 2023-11-02T13:10:10.000Z
 
             ["0.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "git-tag"
             version = "0.8.0"
 
 ["0.8.0+1"]
@@ -155,7 +149,6 @@ registered = 2024-12-25T19:12:59.000Z
 
             ["0.8.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "git-tag"
             version = "0.8.0"
 
 ["0.8.0+2"]
@@ -177,7 +170,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["0.8.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "git-tag"
             version = "0.8.0"
 
 ["0.8.1+0"]
@@ -199,7 +191,6 @@ registered = 2025-01-02T15:39:10.000Z
 
             ["0.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "git-tag"
             version = "0.8.0"
 
 ["0.9.0+0"]
@@ -221,5 +212,4 @@ registered = 2026-04-24T21:25:02.000Z
 
             ["0.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yaml-cpp"
-            provenance = "git-tag"
             version = "0.9.0"

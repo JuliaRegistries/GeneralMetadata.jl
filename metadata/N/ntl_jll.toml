@@ -17,7 +17,6 @@ registered = 2020-06-17T10:12:14.000Z
 
             ["11.4.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ntl"
-            provenance = "repology-url"
             version = "11.4.3"
 
 ["11.5.1+0"]
@@ -39,5 +38,4 @@ registered = 2021-08-13T09:50:16.000Z
 
             ["11.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ntl"
-            provenance = "repology-url"
             version = "11.5.1"

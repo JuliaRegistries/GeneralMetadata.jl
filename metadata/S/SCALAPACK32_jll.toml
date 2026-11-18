@@ -17,7 +17,6 @@ registered = 2022-01-11T18:17:00.000Z
 
             ["2.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "repology-url"
             version = "2.1.0"
         [["2.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,7 +41,6 @@ registered = 2022-02-08T01:16:47.000Z
 
             ["2.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "tag-scheme"
             version = "2.2.0"
         [["2.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -67,7 +65,6 @@ registered = 2022-07-26T00:27:08.000Z
 
             ["2.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "tag-scheme"
             version = "2.2.0"
         [["2.2.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -92,7 +89,6 @@ registered = 2023-05-03T21:29:18.000Z
 
             ["2.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.0"
         [["2.2.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -117,7 +113,6 @@ registered = 2025-10-17T04:20:03.000Z
 
             ["2.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.2"
         [["2.2.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -142,7 +137,6 @@ registered = 2026-03-20T15:40:14.000Z
 
             ["2.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.2"
         [["2.2.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -167,7 +161,6 @@ registered = 2026-05-18T22:58:30.000Z
 
             ["2.2.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.3"
 
 ["2.2.300+0"]
@@ -189,7 +182,6 @@ registered = 2026-05-19T02:02:29.000Z
 
             ["2.2.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.3"
 
 ["2.2.301+0"]
@@ -211,7 +203,6 @@ registered = 2026-08-09T23:24:00.000Z
 
             ["2.2.301+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.3"
         [["2.2.301+0".artifact_metadata.sources]]
         type = "directory"
@@ -236,7 +227,6 @@ registered = 2026-08-15T23:26:58.000Z
 
             ["2.2.302+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.3"
         [["2.2.302+0".artifact_metadata.sources]]
         type = "directory"

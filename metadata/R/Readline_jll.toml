@@ -16,7 +16,6 @@ registered = 2019-11-26T23:41:00.000Z
 
             ["8.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "repology-url"
             version = "8.0"
 
 ["8.0.4+0"]
@@ -38,7 +37,6 @@ registered = 2020-04-17T02:45:08.000Z
 
             ["8.0.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "repology-url"
             version = "8.0"
         [["8.0.4+0".artifact_metadata.sources]]
         hash = "d8e5e98933cf5756f862243c0601cb69d3667bb33f2c7b751fe4e40b2c3fd069"
@@ -76,7 +74,6 @@ registered = 2020-10-19T12:52:43.000Z
 
             ["8.0.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "repology-url"
             version = "8.0"
         [["8.0.4+1".artifact_metadata.sources]]
         hash = "d8e5e98933cf5756f862243c0601cb69d3667bb33f2c7b751fe4e40b2c3fd069"
@@ -114,7 +111,6 @@ registered = 2021-06-23T00:28:32.000Z
 
             ["8.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "heuristic"
             version = "8.1"
         [["8.1.1+0".artifact_metadata.sources]]
         hash = "682a465a68633650565c43d59f0b8cdf149c13a874682d3c20cb4af6709b9144"
@@ -143,7 +139,6 @@ registered = 2021-11-20T19:50:19.000Z
 
             ["8.1.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "heuristic"
             version = "8.1"
         [["8.1.1+1".artifact_metadata.sources]]
         hash = "682a465a68633650565c43d59f0b8cdf149c13a874682d3c20cb4af6709b9144"
@@ -172,7 +167,6 @@ registered = 2023-07-04T10:20:57.000Z
 
             ["8.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "heuristic"
             version = "8.2"
         [["8.2.1+0".artifact_metadata.sources]]
         hash = "bbf97f1ec40a929edab5aa81998c1e2ef435436c597754916e6a5868f273aff7"
@@ -201,7 +195,6 @@ registered = 2024-09-24T22:43:34.000Z
 
             ["8.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "heuristic"
             version = "8.2"
         [["8.2.1+1".artifact_metadata.sources]]
         hash = "bbf97f1ec40a929edab5aa81998c1e2ef435436c597754916e6a5868f273aff7"
@@ -230,7 +223,6 @@ registered = 2025-02-14T14:09:35.000Z
 
             ["8.2.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/readline"
-            provenance = "heuristic"
             version = "8.2.13"
         [["8.2.13+0".artifact_metadata.sources]]
         type = "directory"
@@ -252,11 +244,6 @@ registered = 2026-01-04T19:32:40.000Z
         hash = "fe5383204467828cd495ee8d1d3c037a7eba1389c22bc6a041f627976f9061cc"
         type = "archive"
         url = "https://ftpmirror.gnu.org/gnu/readline/readline-8.3.tar.gz"
-
-            ["8.3.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/readline"
-            provenance = "repology-url"
-            version = "8.3"
         [["8.3.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6abb0edc1c4f8fb2b2dd2b0aa7c45e2bf1149cb6/R/Readline/bundled"
@@ -277,11 +264,6 @@ registered = 2026-02-26T22:07:10.000Z
         hash = "fe5383204467828cd495ee8d1d3c037a7eba1389c22bc6a041f627976f9061cc"
         type = "archive"
         url = "https://ftpmirror.gnu.org/gnu/readline/readline-8.3.tar.gz"
-
-            ["8.3.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/readline"
-            provenance = "repology-url"
-            version = "8.3"
         [["8.3.3+0".artifact_metadata.sources]]
         hash = "21f0a03106dbe697337cd25c70eb0edbaa2bdb6d595b45f83285cdd35bac84de"
         type = "file"

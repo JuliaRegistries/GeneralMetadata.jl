@@ -17,7 +17,6 @@ registered = 2022-09-16T01:21:24.000Z
 
             ["5.4.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xrootd"
-            provenance = "tag-scheme"
             version = "5.4.3"
 
 ["5.5.4+0"]
@@ -39,7 +38,6 @@ registered = 2023-04-03T23:28:41.000Z
 
             ["5.5.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xrootd"
-            provenance = "tag-scheme"
             version = "5.5.4"
 
 ["5.6.9+0"]
@@ -61,7 +59,6 @@ registered = 2024-05-21T17:15:49.000Z
 
             ["5.6.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xrootd"
-            provenance = "tag-scheme"
             version = "5.6.9"
 
 ["5.7.1+0"]
@@ -83,7 +80,6 @@ registered = 2024-09-25T15:57:57.000Z
 
             ["5.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xrootd"
-            provenance = "tag-scheme"
             version = "5.7.1"
 
 ["5.7.2+0"]
@@ -105,7 +101,6 @@ registered = 2024-12-13T17:30:15.000Z
 
             ["5.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xrootd"
-            provenance = "tag-scheme"
             version = "5.7.2"
 
 ["5.8.4+0"]
@@ -127,7 +122,6 @@ registered = 2025-09-01T16:43:45.000Z
 
             ["5.8.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xrootd"
-            provenance = "tag-scheme"
             version = "5.8.4"
         [["5.8.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -156,7 +150,6 @@ registered = 2026-02-04T18:02:00.000Z
 
             ["5.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xrootd"
-            provenance = "tag-scheme"
             version = "5.9.1"
         [["5.9.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"

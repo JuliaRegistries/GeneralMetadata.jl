@@ -14,8 +14,3 @@ registered = 2024-06-22T22:00:51.000Z
         hash = "11aaa5cbb60eba080e63dbe49b4506c8308b42b9"
         type = "git"
         url = "https://github.com/ksahlin/strobealign.git"
-
-            ["0.13.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/strobealign"
-            provenance = "git-tag"
-            version = "0.13.0"

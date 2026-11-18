@@ -14,11 +14,6 @@ registered = 2022-12-23T06:01:49.000Z
         hash = "1d716d6e34f3f4ba57bd9706a9258a0bdb008153"
         type = "git"
         url = "https://github.com/ggerganov/whisper.cpp.git"
-
-            ["1.0.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/whisper.cpp"
-            provenance = "git-tag"
-            version = "1.0.4"
         [["1.0.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9068d6e2f77cbbf7d395d58b817b97317fb802b5/W/whisper_cpp/bundled"
@@ -40,11 +35,6 @@ registered = 2023-02-08T03:03:10.000Z
         type = "git"
         url = "https://github.com/ggerganov/whisper.cpp.git"
 
-            ["1.2.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/whisper.cpp"
-            provenance = "git-tag"
-            version = "1.2.0"
-
 ["1.2.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-w64-mingw32-cxx11.tar.gz"]
 registered = 2023-02-08T22:38:23.000Z
@@ -61,11 +51,6 @@ registered = 2023-02-08T22:38:23.000Z
         hash = "b2083c5d02db9a1e6dbb3d58254fd65ebfff4b5d"
         type = "git"
         url = "https://github.com/ggerganov/whisper.cpp.git"
-
-            ["1.2.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/whisper.cpp"
-            provenance = "git-tag"
-            version = "1.2.0"
         [["1.2.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d8d84857cf1a92882c0c21ca798aeeff97e3ca25/W/whisper_cpp/bundled"
@@ -88,9 +73,8 @@ registered = 2026-09-23T16:23:50.000Z
         url = "https://github.com/ggml-org/whisper.cpp.git"
 
             ["1.9.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/whisper.cpp"
-            provenance = "git-tag"
-            version = "1.9.3"
+            project = "repology.org/project/whisper-cpp"
+            version = "4938"
         [["1.9.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/fb167094481eaae2b2e4789dcb7e6dd69ee65e72/W/whisper_cpp/bundled"

@@ -14,11 +14,6 @@ registered = 2025-07-07T23:46:13.000Z
         hash = "482de011c920d85fdbe21a81c45852655df6a809"
         type = "git"
         url = "https://github.com/google/skia.git"
-
-            ["0.40.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/skia"
-            provenance = "git-tag"
-            version = "0.40.0"
         [["0.40.0+0".artifact_metadata.sources]]
         hash = "3438e6efd3a4f27f43457db675ceb33da30c60cf"
         type = "git"
@@ -37,7 +32,6 @@ registered = 2025-07-07T23:46:13.000Z
 
             ["0.40.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libyuv"
-            provenance = "repository"
         [["0.40.0+0".artifact_metadata.sources]]
         hash = "e3f919ccfe3ef542cfc983a82146070258fb57f8"
         type = "git"
@@ -70,11 +64,6 @@ registered = 2025-07-28T20:36:07.000Z
         hash = "482de011c920d85fdbe21a81c45852655df6a809"
         type = "git"
         url = "https://github.com/google/skia.git"
-
-            ["0.40.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/skia"
-            provenance = "git-tag"
-            version = "0.40.0"
         [["0.40.1+0".artifact_metadata.sources]]
         hash = "7790e8f426cec7ad620cd04a04f28f604751e8d1"
         type = "git"
@@ -93,7 +82,6 @@ registered = 2025-07-28T20:36:07.000Z
 
             ["0.40.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libyuv"
-            provenance = "repository"
         [["0.40.1+0".artifact_metadata.sources]]
         hash = "e3f919ccfe3ef542cfc983a82146070258fb57f8"
         type = "git"

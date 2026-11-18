@@ -17,7 +17,6 @@ registered = 2020-04-22T00:45:02.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bloaty"
-            provenance = "tag-scheme"
             version = "1.0"
 
 ["1.1.0+0"]
@@ -39,5 +38,4 @@ registered = 2022-10-30T23:23:13.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bloaty"
-            provenance = "repology-url"
             version = "1.1"

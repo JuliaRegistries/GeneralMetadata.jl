@@ -386,8 +386,7 @@ registered = 2026-07-13T14:46:08.000Z
 
             ["26.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
-            provenance = "url-pattern"
-            version = "2.6.0.4"
+            version = "2.6.0.4_cuda13"
         [["26.6.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_jll"
         type = "builddependency"
@@ -429,8 +428,7 @@ registered = 2026-09-27T02:57:17.000Z
 
             ["26.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
-            provenance = "url-pattern"
-            version = "2.6.0.4"
+            version = "2.6.0.4_cuda13"
         [["26.6.1+0".artifact_metadata.sources]]
         package = "CUDA_SDK_jll"
         type = "builddependency"

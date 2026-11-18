@@ -17,7 +17,6 @@ registered = 2021-07-07T08:02:41.000Z
 
             ["4.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocm-device-libs"
-            provenance = "heuristic"
             version = "4.0.0"
 
 ["4.2.0+0"]
@@ -39,7 +38,6 @@ registered = 2021-10-19T21:43:39.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocm-device-libs"
-            provenance = "heuristic"
             version = "4.2.0"
         [["4.2.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -64,7 +62,6 @@ registered = 2022-08-08T02:21:08.000Z
 
             ["4.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocm-device-libs"
-            provenance = "heuristic"
             version = "4.2.0"
         [["4.2.0+1".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -89,7 +86,6 @@ registered = 2022-08-08T16:22:55.000Z
 
             ["4.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocm-device-libs"
-            provenance = "heuristic"
             version = "4.5.2"
         [["4.5.2+0".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -114,7 +110,6 @@ registered = 2022-09-14T09:31:11.000Z
 
             ["5.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocm-device-libs"
-            provenance = "heuristic"
             version = "5.2.3"
         [["5.2.3+0".artifact_metadata.sources]]
         type = "directory"

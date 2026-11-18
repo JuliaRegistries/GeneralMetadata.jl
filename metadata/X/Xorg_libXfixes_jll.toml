@@ -22,7 +22,6 @@ registered = 2020-02-09T01:36:06.000Z
 
             ["5.0.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxfixes"
-            provenance = "repology-url"
             version = "5.0.3"
         [["5.0.3+1".artifact_metadata.sources]]
         package = "Xorg_fixesproto_jll"
@@ -50,7 +49,6 @@ registered = 2020-04-17T19:34:23.000Z
 
             ["5.0.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxfixes"
-            provenance = "repology-url"
             version = "5.0.3"
         [["5.0.3+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -78,7 +76,6 @@ registered = 2020-08-26T17:58:26.000Z
 
             ["5.0.3+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxfixes"
-            provenance = "repology-url"
             version = "5.0.3"
         [["5.0.3+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -106,7 +103,6 @@ registered = 2020-10-16T19:32:04.000Z
 
             ["5.0.3+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxfixes"
-            provenance = "repology-url"
             version = "5.0.3"
         [["5.0.3+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -134,7 +130,6 @@ registered = 2024-12-17T21:04:28.000Z
 
             ["6.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxfixes"
-            provenance = "heuristic"
             version = "6.0.0"
         [["6.0.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -162,7 +157,6 @@ registered = 2025-04-18T20:06:36.000Z
 
             ["6.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxfixes"
-            provenance = "repology-url"
             version = "6.0.1"
         [["6.0.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -190,7 +184,6 @@ registered = 2025-09-27T09:37:25.000Z
 
             ["6.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxfixes"
-            provenance = "heuristic"
             version = "6.0.2"
         [["6.0.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

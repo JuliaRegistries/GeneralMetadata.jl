@@ -14,8 +14,3 @@ registered = 2026-06-05T21:21:57.000Z
         hash = "7e153ea4dac4cbf3dc9c50b9ef7a5604e09cdd4c5520bcf8017877bbe1422cd5"
         type = "archive"
         url = "https://github.com/LibreDWG/libredwg/releases/download/0.13.4/libredwg-0.13.4.tar.xz"
-
-            ["0.13.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libredwg"
-            provenance = "tag-scheme"
-            version = "0.13.4"

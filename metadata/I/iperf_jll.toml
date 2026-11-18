@@ -16,7 +16,6 @@ registered = 2019-12-20T00:14:06.000Z
 
             ["3.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iperf3"
-            provenance = "tag-scheme"
             version = "3.7"
 
 ["3.21.0+0"]
@@ -38,7 +37,6 @@ registered = 2026-07-15T09:48:02.000Z
 
             ["3.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iperf3"
-            provenance = "tag-scheme"
             version = "3.21"
         [["3.21.0+0".artifact_metadata.sources]]
         type = "directory"

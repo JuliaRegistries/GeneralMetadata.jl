@@ -14,11 +14,6 @@ registered = 2026-09-08T19:29:00.000Z
         hash = "cc1cebdbb32b14d33762d4ddabcb2e23c1669f47"
         type = "git"
         url = "https://github.com/NVIDIA/AMGX.git"
-
-            ["2.5.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/amgx"
-            provenance = "git-tag"
-            version = "2.5.0"
         [["2.5.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/510d866f1ddacb4acec64f1443ad5e55df4ee5ff/A/AMGX/bundled"

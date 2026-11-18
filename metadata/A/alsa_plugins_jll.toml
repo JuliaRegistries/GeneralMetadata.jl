@@ -17,7 +17,6 @@ registered = 2021-03-27T23:59:52.000Z
 
             ["1.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-plugins"
-            provenance = "heuristic"
             version = "1.2.2"
 
 ["1.2.12+0"]
@@ -39,7 +38,6 @@ registered = 2025-02-01T13:31:02.000Z
 
             ["1.2.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-plugins"
-            provenance = "repology-url"
             version = "1.2.12"
 
 ["1.2.13+0"]
@@ -61,7 +59,6 @@ registered = 2026-03-25T03:44:18.000Z
 
             ["1.2.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-plugins"
-            provenance = "repology-url"
             version = "1.2.12"
 
 ["1.2.14+0"]
@@ -83,7 +80,6 @@ registered = 2026-08-07T13:17:11.000Z
 
             ["1.2.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/alsa-plugins"
-            provenance = "repology-url"
             version = "1.2.12"
         [["1.2.14+0".artifact_metadata.sources]]
         type = "directory"

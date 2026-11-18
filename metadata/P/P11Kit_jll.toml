@@ -17,7 +17,6 @@ registered = 2022-10-15T12:30:26.000Z
 
             ["0.24.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/p11-kit"
-            provenance = "tag-scheme"
             version = "0.24.1"
 
 ["0.25.5+0"]
@@ -39,7 +38,6 @@ registered = 2024-12-19T22:46:39.000Z
 
             ["0.25.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/p11-kit"
-            provenance = "repology-url"
             version = "0.25.5"
         [["0.25.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -64,7 +62,6 @@ registered = 2025-12-02T19:33:56.000Z
 
             ["0.25.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/p11-kit"
-            provenance = "repology-url"
             version = "0.25.10"
 
 ["0.26.2+0"]
@@ -86,5 +83,4 @@ registered = 2026-02-09T15:15:49.000Z
 
             ["0.26.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/p11-kit"
-            provenance = "repology-url"
             version = "0.26.2"

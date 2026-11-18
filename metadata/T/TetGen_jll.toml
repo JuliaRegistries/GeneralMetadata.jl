@@ -121,7 +121,6 @@ registered = 2026-05-10T20:19:37.000Z
 
             ["1.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tetgen"
-            provenance = "repology-url"
             version = "1.6.0"
         [["1.6.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -146,7 +145,6 @@ registered = 2026-05-23T23:16:21.000Z
 
             ["1.6.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tetgen"
-            provenance = "repology-url"
             version = "1.6.0"
         [["1.6.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -171,7 +169,6 @@ registered = 2026-09-13T02:23:37.000Z
 
             ["1.6.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/tetgen"
-            provenance = "repology-url"
             version = "1.6.0"
         [["1.6.0+2".artifact_metadata.sources]]
         type = "directory"

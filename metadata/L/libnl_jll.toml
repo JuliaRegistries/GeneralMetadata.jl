@@ -16,7 +16,6 @@ registered = 2019-12-27T12:02:59.000Z
 
             ["3.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libnl"
-            provenance = "repology-url"
             version = "3.5.0"
 
 ["3.5.0+1"]
@@ -38,7 +37,6 @@ registered = 2021-01-31T01:38:22.000Z
 
             ["3.5.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libnl"
-            provenance = "repology-url"
             version = "3.5.0"
 
 ["3.11.0+0"]
@@ -60,5 +58,4 @@ registered = 2025-06-13T06:56:08.000Z
 
             ["3.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libnl"
-            provenance = "repology-url"
             version = "3.11.0"

@@ -17,5 +17,4 @@ registered = 2020-04-04T05:38:06.000Z
 
             ["4.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bmon"
-            provenance = "repology-url"
             version = "4.0"

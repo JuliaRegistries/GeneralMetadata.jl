@@ -20,7 +20,6 @@ registered = 2019-10-24T21:08:36.000Z
 
             ["3.24.11+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "heuristic"
             version = "3.24.11"
         [["3.24.11+1".artifact_metadata.sources]]
         type = "directory"
@@ -45,7 +44,6 @@ registered = 2020-04-27T00:15:14.000Z
 
             ["3.24.11+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "heuristic"
             version = "3.24.11"
         [["3.24.11+2".artifact_metadata.sources]]
         type = "directory"
@@ -73,7 +71,6 @@ registered = 2020-08-26T19:28:21.000Z
 
             ["3.24.11+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "heuristic"
             version = "3.24.11"
         [["3.24.11+3".artifact_metadata.sources]]
         type = "directory"
@@ -101,7 +98,6 @@ registered = 2020-10-16T19:25:03.000Z
 
             ["3.24.11+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "heuristic"
             version = "3.24.11"
         [["3.24.11+4".artifact_metadata.sources]]
         type = "directory"
@@ -129,7 +125,6 @@ registered = 2021-01-05T01:05:53.000Z
 
             ["3.24.11+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "heuristic"
             version = "3.24.11"
         [["3.24.11+5".artifact_metadata.sources]]
         type = "directory"
@@ -157,7 +152,6 @@ registered = 2021-05-07T12:57:13.000Z
 
             ["3.24.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "heuristic"
             version = "3.24.29"
         [["3.24.29+0".artifact_metadata.sources]]
         type = "directory"
@@ -185,7 +179,6 @@ registered = 2021-07-28T19:44:37.000Z
 
             ["3.24.30+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "git-tag"
             version = "3.24.30"
         [["3.24.30+0".artifact_metadata.sources]]
         type = "directory"
@@ -213,7 +206,6 @@ registered = 2021-12-18T18:51:34.000Z
 
             ["3.24.30+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "git-tag"
             version = "3.24.30"
         [["3.24.30+1".artifact_metadata.sources]]
         type = "directory"
@@ -241,7 +233,6 @@ registered = 2022-01-02T14:59:21.000Z
 
             ["3.24.31+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
-            provenance = "git-tag"
             version = "3.24.31"
         [["3.24.31+0".artifact_metadata.sources]]
         type = "directory"

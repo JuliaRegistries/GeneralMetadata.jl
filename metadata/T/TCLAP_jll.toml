@@ -17,5 +17,4 @@ registered = 2025-12-08T03:42:00.000Z
 
             ["1.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tclap"
-            provenance = "heuristic"
             version = "1.2.2"

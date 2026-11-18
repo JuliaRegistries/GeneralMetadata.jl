@@ -16,5 +16,4 @@ registered = 2020-01-14T01:53:19.000Z
 
             ["0.5.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/peco"
-            provenance = "tag-scheme"
             version = "0.5.7"

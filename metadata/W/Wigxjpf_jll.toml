@@ -31,11 +31,6 @@ registered = 2026-01-07T16:16:15.000Z
         hash = "90ab9bfd495978ad1fdcbb436e274d6f4586184ae290b99920e5c978d64b3e6a"
         type = "archive"
         url = "http://fy.chalmers.se/subatom/wigxjpf/wigxjpf-1.13.tar.gz"
-
-            ["1.13.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/wigxjpf"
-            provenance = "repology-url"
-            version = "1.13"
         [["1.13.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9cdaaa70ecbc4de17fa2384d722d96a44a551b24/W/Wigxjpf/bundled"

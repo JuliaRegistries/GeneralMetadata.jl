@@ -14,8 +14,3 @@ registered = 2020-03-25T00:27:39.000Z
         hash = "87c0e6a92bb7d8b49937522cdd5844905d58d8e6"
         type = "git"
         url = "https://github.com/skywind3000/kcp.git"
-
-            ["1.5.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/kcp-arq-protocol"
-            provenance = "git-tag"
-            version = "1.5"

@@ -17,8 +17,3 @@ registered = 2025-06-19T18:15:58.000Z
         hash = "f46b2f7929cdfe2913ed0a7f585b09d6adbf994e"
         type = "git"
         url = "https://gitlab.com/procps-ng/procps.git"
-
-            ["4.0.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/procps"
-            provenance = "git-tag"
-            version = "4.0.5"

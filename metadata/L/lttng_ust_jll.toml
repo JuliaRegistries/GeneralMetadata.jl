@@ -17,5 +17,4 @@ registered = 2021-07-27T19:21:50.000Z
 
             ["2.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lttng-ust"
-            provenance = "heuristic"
             version = "2.12.2"

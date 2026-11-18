@@ -17,7 +17,6 @@ registered = 2025-02-27T19:38:48.000Z
 
             ["20230125.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/abseil-cpp"
-            provenance = "git-tag"
             version = "20230125.0"
         [["20230125.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,7 +41,6 @@ registered = 2025-11-30T17:43:47.000Z
 
             ["20230125.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/abseil-cpp"
-            provenance = "git-tag"
             version = "20230125.0"
         [["20230125.0.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -67,7 +65,6 @@ registered = 2024-05-10T23:53:50.000Z
 
             ["20240116.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/abseil-cpp"
-            provenance = "git-tag"
             version = "20240116.2"
         [["20240116.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -92,7 +89,6 @@ registered = 2026-08-01T18:08:05.000Z
 
             ["20250814.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/abseil-cpp"
-            provenance = "git-tag"
             version = "20250814.1"
         [["20250814.1.0+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"

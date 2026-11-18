@@ -14,8 +14,3 @@ registered = 2026-06-16T13:28:56.000Z
         hash = "9634bedb5b5a2ca38c1ee7108a9358a4e233f14d"
         type = "git"
         url = "https://github.com/mackron/miniaudio.git"
-
-            ["0.11.25+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/miniaudio"
-            provenance = "git-tag"
-            version = "0.11.25"

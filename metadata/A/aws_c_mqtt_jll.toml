@@ -14,11 +14,6 @@ registered = 2023-09-18T00:30:11.000Z
         hash = "b672bff0907603987bc93dae946c4f121c80e14c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.8.12+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.8.12"
         [["0.8.12+0".artifact_metadata.sources]]
         package = "aws_c_http_jll"
         type = "builddependency"
@@ -57,11 +52,6 @@ registered = 2023-09-22T23:43:56.000Z
         hash = "b672bff0907603987bc93dae946c4f121c80e14c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.8.12+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.8.12"
         [["0.8.12+1".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -82,11 +72,6 @@ registered = 2024-04-28T19:14:09.000Z
         hash = "ed7bbd68c03d7022c915a2924740ab7992ad2311"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.10.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.10.4"
         [["0.10.4+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -107,11 +92,6 @@ registered = 2024-09-20T14:38:32.000Z
         hash = "77d6f00e89b10e3263d8a17576ec8e91c45b4606"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.10.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.10.6"
         [["0.10.6+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -132,11 +112,6 @@ registered = 2025-03-01T11:10:31.000Z
         hash = "f0cc34cb6f54e050275e3c859594c62776d46d83"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.12.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.12.2"
         [["0.12.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -157,11 +132,6 @@ registered = 2025-04-10T03:47:56.000Z
         hash = "fb651a4a59f28384fdb4938524192433492dead0"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.12.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.12.3"
         [["0.12.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -182,11 +152,6 @@ registered = 2025-04-30T17:55:37.000Z
         hash = "9fc2f573c0fb608c052230d4f2495725d7252285"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.13.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.13.0"
         [["0.13.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -207,11 +172,6 @@ registered = 2025-06-08T19:30:17.000Z
         hash = "3ac506507679a86677f8875dcc07589b63907863"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.13.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.13.1"
         [["0.13.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -232,11 +192,6 @@ registered = 2025-07-25T13:53:54.000Z
         hash = "1d512d92709f60b74e2cafa018e69a2e647f28e9"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.13.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.13.3"
         [["0.13.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -257,11 +212,6 @@ registered = 2026-02-12T22:06:31.000Z
         hash = "5bf71d3026289c96f1912aa41239d00d740e13e7"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.13.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.13.4"
         [["0.13.4+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -282,11 +232,6 @@ registered = 2026-02-17T19:35:37.000Z
         hash = "41b6a7d6d566a56eff69743df66c077d56a80c9d"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.14.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.14.0"
         [["0.14.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -307,11 +252,6 @@ registered = 2026-03-13T00:20:05.000Z
         hash = "dc2fe7be81070f7c5095ad386d9a23c180a4276b"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.15.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.15.0"
         [["0.15.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -332,11 +272,6 @@ registered = 2026-03-17T20:30:44.000Z
         hash = "e924c6c3031a2c9336fe052399f36048e8b79431"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.15.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.15.1"
         [["0.15.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -357,11 +292,6 @@ registered = 2026-03-19T01:15:06.000Z
         hash = "3c2ceee52b66db42228053a4fb55210c8f8433a0"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.15.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.15.2"
         [["0.15.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -382,11 +312,6 @@ registered = 2026-08-29T20:18:03.000Z
         hash = "7b420e769391cf91e56e70fdec5125735d698a33"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["0.16.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "0.16.2"
         [["0.16.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -407,11 +332,6 @@ registered = 2026-08-31T13:30:36.000Z
         hash = "f510465775dcce35be8a5cea1aec26893b8c975a"
         type = "git"
         url = "https://github.com/awslabs/aws-c-mqtt.git"
-
-            ["1.0.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-mqtt"
-            provenance = "git-tag"
-            version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"

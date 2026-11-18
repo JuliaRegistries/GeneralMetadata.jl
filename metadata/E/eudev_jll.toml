@@ -17,7 +17,6 @@ registered = 2021-02-07T17:22:43.000Z
 
             ["3.2.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eudev"
-            provenance = "url-pattern"
             version = "3.2.9"
 
 ["3.2.14+0"]
@@ -36,11 +35,6 @@ registered = 2025-06-11T19:35:56.000Z
         hash = "9e7c4e744b9e7813af9acee64b5e8549ea1fbaa3"
         type = "git"
         url = "https://github.com/eudev-project/eudev"
-
-            ["3.2.14+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/eudev"
-            provenance = "git-tag"
-            version = "3.2.14"
         [["3.2.14+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b7d975ab96af2b323596ef4a2182730a253114fe//E/eudev/patches"

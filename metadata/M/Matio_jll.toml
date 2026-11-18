@@ -17,7 +17,6 @@ registered = 2022-09-23T18:31:27.000Z
 
             ["1.5.23+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/matio"
-            provenance = "git-tag"
             version = "1.5.23"
 
 ["1.5.24+0"]
@@ -39,5 +38,4 @@ registered = 2023-09-22T23:13:57.000Z
 
             ["1.5.24+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/matio"
-            provenance = "git-tag"
             version = "1.5.23"

@@ -17,7 +17,6 @@ registered = 2020-03-10T23:45:13.000Z
 
             ["5.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/suitesparse"
-            provenance = "tag-scheme"
             version = "5.6.0"
 
 ["5.6.0+1"]
@@ -39,7 +38,6 @@ registered = 2020-04-03T02:34:59.000Z
 
             ["5.6.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/suitesparse"
-            provenance = "tag-scheme"
             version = "5.6.0"
 
 ["5.6.0+2"]
@@ -61,7 +59,6 @@ registered = 2020-08-15T13:34:43.000Z
 
             ["5.6.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/suitesparse"
-            provenance = "tag-scheme"
             version = "5.6.0"
 
 ["5.6.0+3"]
@@ -83,5 +80,4 @@ registered = 2020-08-15T19:17:57.000Z
 
             ["5.6.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/suitesparse"
-            provenance = "tag-scheme"
             version = "5.6.0"

@@ -17,5 +17,4 @@ registered = 2023-05-21T12:06:31.000Z
 
             ["2.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bwa-mem2"
-            provenance = "tag-scheme"
             version = "2.2.1"

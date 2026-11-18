@@ -17,7 +17,6 @@ registered = 2020-11-11T23:46:56.000Z
 
             ["4.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["4.11.0+0".artifact_metadata.sources]]
         hash = "29ab6e2752f39d22e3f0a19e5bcbfec1710993b4cfd52337a0ca10fda6a76537"
         type = "archive"
@@ -25,7 +24,6 @@ registered = 2020-11-11T23:46:56.000Z
 
             ["4.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.0"
         [["4.11.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -53,7 +51,6 @@ registered = 2020-11-20T00:53:45.000Z
 
             ["4.11.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["4.11.0+1".artifact_metadata.sources]]
         hash = "29ab6e2752f39d22e3f0a19e5bcbfec1710993b4cfd52337a0ca10fda6a76537"
         type = "archive"
@@ -61,7 +58,6 @@ registered = 2020-11-20T00:53:45.000Z
 
             ["4.11.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.0"
         [["4.11.0+1".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -89,7 +85,6 @@ registered = 2021-01-20T15:34:15.000Z
 
             ["400.1100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1100.0+0".artifact_metadata.sources]]
         hash = "29ab6e2752f39d22e3f0a19e5bcbfec1710993b4cfd52337a0ca10fda6a76537"
         type = "archive"
@@ -97,7 +92,6 @@ registered = 2021-01-20T15:34:15.000Z
 
             ["400.1100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.0"
         [["400.1100.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -125,7 +119,6 @@ registered = 2021-05-17T23:40:49.000Z
 
             ["400.1100.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1100.100+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
@@ -134,7 +127,6 @@ registered = 2021-05-17T23:40:49.000Z
 
             ["400.1100.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1100.100+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -162,7 +154,6 @@ registered = 2021-06-25T23:35:22.000Z
 
             ["400.1190.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.0+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -170,7 +161,6 @@ registered = 2021-06-25T23:35:22.000Z
 
             ["400.1190.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1190.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -198,7 +188,6 @@ registered = 2021-06-28T22:04:17.000Z
 
             ["400.1190.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.2+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -206,7 +195,6 @@ registered = 2021-06-28T22:04:17.000Z
 
             ["400.1190.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1190.2+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -234,7 +222,6 @@ registered = 2021-07-01T18:49:17.000Z
 
             ["400.1190.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.3+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -242,7 +229,6 @@ registered = 2021-07-01T18:49:17.000Z
 
             ["400.1190.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1190.3+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -270,7 +256,6 @@ registered = 2021-07-06T12:18:10.000Z
 
             ["400.1190.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.4+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -278,7 +263,6 @@ registered = 2021-07-06T12:18:10.000Z
 
             ["400.1190.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1190.4+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -306,7 +290,6 @@ registered = 2021-07-26T14:51:52.000Z
 
             ["400.1190.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.100+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -314,7 +297,6 @@ registered = 2021-07-26T14:51:52.000Z
 
             ["400.1190.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1190.100+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -342,7 +324,6 @@ registered = 2021-08-27T12:59:24.000Z
 
             ["400.1190.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1190.200+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -350,7 +331,6 @@ registered = 2021-08-27T12:59:24.000Z
 
             ["400.1190.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1190.200+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -378,7 +358,6 @@ registered = 2021-10-15T17:04:43.000Z
 
             ["400.1191.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1191.0+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -386,7 +365,6 @@ registered = 2021-10-15T17:04:43.000Z
 
             ["400.1191.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1191.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -414,7 +392,6 @@ registered = 2022-02-21T12:07:43.000Z
 
             ["400.1192.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.0+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -422,7 +399,6 @@ registered = 2022-02-21T12:07:43.000Z
 
             ["400.1192.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1192.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -450,7 +426,6 @@ registered = 2022-04-20T08:12:20.000Z
 
             ["400.1192.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.1+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -458,7 +433,6 @@ registered = 2022-04-20T08:12:20.000Z
 
             ["400.1192.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1192.1+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -486,7 +460,6 @@ registered = 2022-04-20T12:31:35.000Z
 
             ["400.1192.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repository"
         [["400.1192.2+0".artifact_metadata.sources]]
         hash = "5f66ac4053db34e4c0ebca25dd7666b891c812c084082db6cc28c551c57a3792"
         type = "archive"
@@ -494,7 +467,6 @@ registered = 2022-04-20T12:31:35.000Z
 
             ["400.1192.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.11.1"
         [["400.1192.2+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -522,7 +494,6 @@ registered = 2022-09-13T23:14:15.000Z
 
             ["400.1200.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "git-tag"
             version = "4.12.0"
         [["400.1200.0+0".artifact_metadata.sources]]
         hash = "2f2b19406d5926ccdd0957da52ca36824fcd8252193a5a5d2677463516ec8cf1"
@@ -531,7 +502,6 @@ registered = 2022-09-13T23:14:15.000Z
 
             ["400.1200.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.0"
         [["400.1200.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -559,7 +529,6 @@ registered = 2022-09-14T12:55:51.000Z
 
             ["400.1200.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "git-tag"
             version = "4.12.0"
         [["400.1200.0+1".artifact_metadata.sources]]
         hash = "2f2b19406d5926ccdd0957da52ca36824fcd8252193a5a5d2677463516ec8cf1"
@@ -568,7 +537,6 @@ registered = 2022-09-14T12:55:51.000Z
 
             ["400.1200.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.0"
         [["400.1200.0+1".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -596,7 +564,6 @@ registered = 2022-09-16T11:12:49.000Z
 
             ["400.1200.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "git-tag"
             version = "4.12.0"
         [["400.1200.0+2".artifact_metadata.sources]]
         hash = "2f2b19406d5926ccdd0957da52ca36824fcd8252193a5a5d2677463516ec8cf1"
@@ -605,7 +572,6 @@ registered = 2022-09-16T11:12:49.000Z
 
             ["400.1200.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.0"
         [["400.1200.0+2".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -633,7 +599,6 @@ registered = 2022-10-25T21:09:01.000Z
 
             ["400.1201.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1201.100+0".artifact_metadata.sources]]
         hash = "86d24a1a2208d57822b9aed159b2d5c1306e1a800c6440c6a0d4566e65829c57"
@@ -642,7 +607,6 @@ registered = 2022-10-25T21:09:01.000Z
 
             ["400.1201.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1201.100+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -670,7 +634,6 @@ registered = 2022-11-09T15:21:34.000Z
 
             ["400.1201.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1201.101+0".artifact_metadata.sources]]
         hash = "86d24a1a2208d57822b9aed159b2d5c1306e1a800c6440c6a0d4566e65829c57"
@@ -679,7 +642,6 @@ registered = 2022-11-09T15:21:34.000Z
 
             ["400.1201.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1201.101+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -707,7 +669,6 @@ registered = 2022-11-09T18:03:50.000Z
 
             ["400.1201.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1201.102+0".artifact_metadata.sources]]
         hash = "86d24a1a2208d57822b9aed159b2d5c1306e1a800c6440c6a0d4566e65829c57"
@@ -716,7 +677,6 @@ registered = 2022-11-09T18:03:50.000Z
 
             ["400.1201.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.1"
         [["400.1201.102+0".artifact_metadata.sources]]
         type = "directory"
@@ -747,7 +707,6 @@ registered = 2023-01-03T18:23:15.000Z
 
             ["400.1201.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1201.200+0".artifact_metadata.sources]]
         hash = "1fa911d305c458470c1fb555c385402f09cccf1d2d372ab9c416ae7c4a8ebf6d"
@@ -756,7 +715,6 @@ registered = 2023-01-03T18:23:15.000Z
 
             ["400.1201.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.12.2"
         [["400.1201.200+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -784,7 +742,6 @@ registered = 2024-03-19T08:35:36.000Z
 
             ["400.1300.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.0"
         [["400.1300.0+0".artifact_metadata.sources]]
         hash = "b0472bed62875bc80ca9c0ae661fac3183b0eed8bacea5dc462d15c43dc3abd4"
@@ -793,7 +750,6 @@ registered = 2024-03-19T08:35:36.000Z
 
             ["400.1300.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.0"
         [["400.1300.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -821,7 +777,6 @@ registered = 2024-06-13T21:05:22.000Z
 
             ["400.1300.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.100+0".artifact_metadata.sources]]
         hash = "0d412462cfc75c7f2894004439af4863901f1d18c9e98ad326419418fddc3139"
@@ -830,7 +785,6 @@ registered = 2024-06-13T21:05:22.000Z
 
             ["400.1300.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.13.1"
         [["400.1300.100+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -858,7 +812,6 @@ registered = 2024-12-07T14:30:30.000Z
 
             ["400.1400.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.14.0"
         [["400.1400.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -886,7 +839,6 @@ registered = 2025-01-09T18:20:50.000Z
 
             ["400.1400.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.14.0"
         [["400.1400.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -917,7 +869,6 @@ registered = 2025-01-11T12:52:26.000Z
 
             ["400.1400.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.14.0"
         [["400.1400.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -948,7 +899,6 @@ registered = 2025-01-21T14:08:35.000Z
 
             ["400.1400.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.14.0"
         [["400.1400.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -979,7 +929,6 @@ registered = 2025-02-25T16:58:37.000Z
 
             ["400.1400.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.14.0"
         [["400.1400.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -1010,7 +959,6 @@ registered = 2025-08-15T16:30:20.000Z
 
             ["400.1400.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.14.0"
         [["400.1400.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -1041,7 +989,6 @@ registered = 2025-01-21T09:51:59.000Z
 
             ["400.1401.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.14.0"
         [["400.1401.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1072,7 +1019,6 @@ registered = 2025-09-29T11:41:30.000Z
 
             ["400.1500.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "tag-scheme"
             version = "4.15.0"
         [["400.1500.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -1100,7 +1046,6 @@ registered = 2025-10-20T11:02:58.000Z
 
             ["400.1500.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.15.1"
         [["400.1500.100+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -1128,7 +1073,6 @@ registered = 2026-06-02T12:23:18.000Z
 
             ["400.1600.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.16.0"
         [["400.1600.0+0".artifact_metadata.sources]]
         package = "Zlib_jll"
@@ -1156,7 +1100,6 @@ registered = 2026-08-23T20:51:01.000Z
 
             ["400.1600.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
-            provenance = "repology-url"
             version = "4.16.1"
         [["400.1600.100+0".artifact_metadata.sources]]
         package = "Zlib_jll"

@@ -17,16 +17,11 @@ registered = 2024-05-09T14:01:18.000Z
 
             ["10.86.41+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.41"
         [["10.86.41+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.41+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.41+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e5c9658942503178e1a03e9b6b13c4d322bb7e83/N/Netpbm/bundled"
@@ -50,16 +45,11 @@ registered = 2024-07-17T19:27:13.000Z
 
             ["10.86.42+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.42"
         [["10.86.42+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.42+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.42+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/eb7a7bfcb930e2751316e26c4b5ff43752443550/N/Netpbm/bundled"
@@ -83,16 +73,11 @@ registered = 2024-12-19T18:18:43.000Z
 
             ["10.86.43+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.43"
         [["10.86.43+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.43+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.43+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/15dc88854d20ffb153a8f8af82ee0c29e616b5ed/N/Netpbm/bundled"
@@ -122,16 +107,11 @@ registered = 2025-03-20T12:32:18.000Z
 
             ["10.86.44+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.44"
         [["10.86.44+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.44+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.44+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/eb3afa26a3bc80495ec1f6049ffa8ddfcb62369e/N/Netpbm/bundled"
@@ -161,16 +141,11 @@ registered = 2025-04-02T22:24:46.000Z
 
             ["10.86.45+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.45"
         [["10.86.45+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.45+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.45+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/83353643bb988b78b38941364793f1fbd0393b3c/N/Netpbm/bundled"
@@ -200,16 +175,11 @@ registered = 2025-08-14T14:12:40.000Z
 
             ["10.86.47+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.47"
         [["10.86.47+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.47+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.47+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/22ca8820095cc132d243f02af97d8ad46a75f5cb/N/Netpbm/bundled"
@@ -239,16 +209,11 @@ registered = 2025-10-17T23:34:51.000Z
 
             ["10.86.48+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "repology-url"
             version = "10.86.48"
         [["10.86.48+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.48+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.48+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1ca62649af4a35eff10465b519a8b271c3511981/N/Netpbm/bundled"
@@ -278,16 +243,11 @@ registered = 2026-04-12T23:38:35.000Z
 
             ["10.86.49+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.49"
         [["10.86.49+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.49+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.49+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d5ab2ee81ecb0f161bbb20f94a26ca85ee862d16/N/Netpbm/bundled"
@@ -317,16 +277,11 @@ registered = 2026-07-25T09:52:46.000Z
 
             ["10.86.50+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.50"
         [["10.86.50+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.50+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.50+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/302a5ceed1ed24c9ce2e75e3ff6e1c039568e5ef/N/Netpbm/bundled"
@@ -356,16 +311,11 @@ registered = 2026-09-28T21:18:27.000Z
 
             ["10.86.51+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netpbm"
-            provenance = "heuristic"
             version = "10.86.51"
         [["10.86.51+0".artifact_metadata.sources]]
         hash = "229dee8de9cb4c29a3a31115112a4175df84a8eb"
         type = "git"
         url = "https://github.com/win32ports/sys_wait_h"
-
-            ["10.86.51+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/sys-wait-h"
-            provenance = "repository"
         [["10.86.51+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2944f69c994f276772f6fe21fef4671fb450fe71/N/Netpbm/bundled"

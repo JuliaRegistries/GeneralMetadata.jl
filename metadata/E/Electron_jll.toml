@@ -17,7 +17,6 @@ registered = 2025-10-02T14:26:12.000Z
 
             ["38.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+0".artifact_metadata.sources]]
         hash = "76116429b368c883f93eb98cbdb053f98d811c35943133fe3cf9b408018ebe2f"
@@ -26,7 +25,6 @@ registered = 2025-10-02T14:26:12.000Z
 
             ["38.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+0".artifact_metadata.sources]]
         hash = "a4345bb87504b6b2bef29c0dc53b99770b203a7052fd2c5d38fd3e16177d3e68"
@@ -35,7 +33,6 @@ registered = 2025-10-02T14:26:12.000Z
 
             ["38.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+0".artifact_metadata.sources]]
         hash = "232a83cb11b37f67dc0683402463ef30ac0309afb8e96f3bc1ea53e72fafa789"
@@ -44,7 +41,6 @@ registered = 2025-10-02T14:26:12.000Z
 
             ["38.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+0".artifact_metadata.sources]]
         hash = "cff178e2cb9ae0d957d43009ef46d249d5594bc107d7704130bc0ce2e234bbd1"
@@ -53,7 +49,6 @@ registered = 2025-10-02T14:26:12.000Z
 
             ["38.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+0".artifact_metadata.sources]]
         hash = "4382b317dbbbc0bbf8a301304749324b88207218aac240b670f1c1247c2a02b0"
@@ -62,7 +57,6 @@ registered = 2025-10-02T14:26:12.000Z
 
             ["38.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+0".artifact_metadata.sources]]
         hash = "b3bd0de05613ab5312013133de1587c35fdfa22e11e1f76fcaf6ea0248128f0c"
@@ -71,7 +65,6 @@ registered = 2025-10-02T14:26:12.000Z
 
             ["38.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
 
 ["38.2.0+1"]
@@ -93,7 +86,6 @@ registered = 2025-10-02T15:35:59.000Z
 
             ["38.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+1".artifact_metadata.sources]]
         hash = "76116429b368c883f93eb98cbdb053f98d811c35943133fe3cf9b408018ebe2f"
@@ -102,7 +94,6 @@ registered = 2025-10-02T15:35:59.000Z
 
             ["38.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+1".artifact_metadata.sources]]
         hash = "a4345bb87504b6b2bef29c0dc53b99770b203a7052fd2c5d38fd3e16177d3e68"
@@ -111,7 +102,6 @@ registered = 2025-10-02T15:35:59.000Z
 
             ["38.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+1".artifact_metadata.sources]]
         hash = "232a83cb11b37f67dc0683402463ef30ac0309afb8e96f3bc1ea53e72fafa789"
@@ -120,7 +110,6 @@ registered = 2025-10-02T15:35:59.000Z
 
             ["38.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+1".artifact_metadata.sources]]
         hash = "cff178e2cb9ae0d957d43009ef46d249d5594bc107d7704130bc0ce2e234bbd1"
@@ -129,7 +118,6 @@ registered = 2025-10-02T15:35:59.000Z
 
             ["38.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+1".artifact_metadata.sources]]
         hash = "4382b317dbbbc0bbf8a301304749324b88207218aac240b670f1c1247c2a02b0"
@@ -138,7 +126,6 @@ registered = 2025-10-02T15:35:59.000Z
 
             ["38.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+1".artifact_metadata.sources]]
         hash = "b3bd0de05613ab5312013133de1587c35fdfa22e11e1f76fcaf6ea0248128f0c"
@@ -147,7 +134,6 @@ registered = 2025-10-02T15:35:59.000Z
 
             ["38.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
 
 ["38.2.0+2"]
@@ -169,7 +155,6 @@ registered = 2025-10-03T15:43:42.000Z
 
             ["38.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+2".artifact_metadata.sources]]
         hash = "76116429b368c883f93eb98cbdb053f98d811c35943133fe3cf9b408018ebe2f"
@@ -178,7 +163,6 @@ registered = 2025-10-03T15:43:42.000Z
 
             ["38.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+2".artifact_metadata.sources]]
         hash = "a4345bb87504b6b2bef29c0dc53b99770b203a7052fd2c5d38fd3e16177d3e68"
@@ -187,7 +171,6 @@ registered = 2025-10-03T15:43:42.000Z
 
             ["38.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+2".artifact_metadata.sources]]
         hash = "232a83cb11b37f67dc0683402463ef30ac0309afb8e96f3bc1ea53e72fafa789"
@@ -196,7 +179,6 @@ registered = 2025-10-03T15:43:42.000Z
 
             ["38.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+2".artifact_metadata.sources]]
         hash = "cff178e2cb9ae0d957d43009ef46d249d5594bc107d7704130bc0ce2e234bbd1"
@@ -205,7 +187,6 @@ registered = 2025-10-03T15:43:42.000Z
 
             ["38.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+2".artifact_metadata.sources]]
         hash = "4382b317dbbbc0bbf8a301304749324b88207218aac240b670f1c1247c2a02b0"
@@ -214,7 +195,6 @@ registered = 2025-10-03T15:43:42.000Z
 
             ["38.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+2".artifact_metadata.sources]]
         hash = "b3bd0de05613ab5312013133de1587c35fdfa22e11e1f76fcaf6ea0248128f0c"
@@ -223,7 +203,6 @@ registered = 2025-10-03T15:43:42.000Z
 
             ["38.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
 
 ["38.2.0+3"]
@@ -245,7 +224,6 @@ registered = 2025-10-03T16:49:43.000Z
 
             ["38.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+3".artifact_metadata.sources]]
         hash = "76116429b368c883f93eb98cbdb053f98d811c35943133fe3cf9b408018ebe2f"
@@ -254,7 +232,6 @@ registered = 2025-10-03T16:49:43.000Z
 
             ["38.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+3".artifact_metadata.sources]]
         hash = "a4345bb87504b6b2bef29c0dc53b99770b203a7052fd2c5d38fd3e16177d3e68"
@@ -263,7 +240,6 @@ registered = 2025-10-03T16:49:43.000Z
 
             ["38.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+3".artifact_metadata.sources]]
         hash = "232a83cb11b37f67dc0683402463ef30ac0309afb8e96f3bc1ea53e72fafa789"
@@ -272,7 +248,6 @@ registered = 2025-10-03T16:49:43.000Z
 
             ["38.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+3".artifact_metadata.sources]]
         hash = "cff178e2cb9ae0d957d43009ef46d249d5594bc107d7704130bc0ce2e234bbd1"
@@ -281,7 +256,6 @@ registered = 2025-10-03T16:49:43.000Z
 
             ["38.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+3".artifact_metadata.sources]]
         hash = "4382b317dbbbc0bbf8a301304749324b88207218aac240b670f1c1247c2a02b0"
@@ -290,7 +264,6 @@ registered = 2025-10-03T16:49:43.000Z
 
             ["38.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"
         [["38.2.0+3".artifact_metadata.sources]]
         hash = "b3bd0de05613ab5312013133de1587c35fdfa22e11e1f76fcaf6ea0248128f0c"
@@ -299,5 +272,4 @@ registered = 2025-10-03T16:49:43.000Z
 
             ["38.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/electron"
-            provenance = "tag-scheme"
             version = "38.2.0"

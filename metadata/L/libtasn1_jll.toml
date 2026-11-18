@@ -17,7 +17,6 @@ registered = 2023-02-24T02:01:09.000Z
 
             ["4.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libtasn1"
-            provenance = "repology-url"
             version = "4.19.0"
 
 ["4.19.0+1"]
@@ -39,7 +38,6 @@ registered = 2024-11-14T17:09:35.000Z
 
             ["4.19.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libtasn1"
-            provenance = "repology-url"
             version = "4.19.0"
 
 ["4.21.0+0"]
@@ -61,5 +59,4 @@ registered = 2026-01-09T14:59:41.000Z
 
             ["4.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libtasn1"
-            provenance = "repology-url"
             version = "4.21.0"

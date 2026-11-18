@@ -17,7 +17,6 @@ registered = 2022-04-20T11:24:27.000Z
 
             ["3.22.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bullet"
-            provenance = "tag-scheme"
             version = "3.22b"
 
 ["3.22.0+1"]
@@ -39,5 +38,4 @@ registered = 2022-05-02T13:28:53.000Z
 
             ["3.22.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/bullet"
-            provenance = "tag-scheme"
             version = "3.22b"

@@ -17,7 +17,6 @@ registered = 2021-11-12T22:06:49.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/samtools"
-            provenance = "git-tag"
             version = "1.14"
         [["1.14.0+0".artifact_metadata.sources]]
         package = "MbedTLS_jll"
@@ -42,5 +41,4 @@ registered = 2024-03-30T15:38:11.000Z
 
             ["1.19.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/samtools"
-            provenance = "git-tag"
             version = "1.19.2"

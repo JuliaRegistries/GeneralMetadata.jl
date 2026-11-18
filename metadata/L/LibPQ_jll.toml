@@ -17,7 +17,6 @@ registered = 2020-07-03T15:15:30.000Z
 
             ["12.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "heuristic"
             version = "12.3"
         [["12.3.0+0".artifact_metadata.sources]]
         hash = "7d2af7120ee03df71fbca24031ccaf42404752e639196fe93c79a41b38a6d669"
@@ -43,7 +42,6 @@ registered = 2021-11-30T01:22:43.000Z
 
             ["14.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "heuristic"
             version = "14.1"
         [["14.1.0+0".artifact_metadata.sources]]
         hash = "584666393a5424d13d27ec01183da17703273664742e049d4f62f62dab631775"
@@ -69,7 +67,6 @@ registered = 2022-04-15T17:24:03.000Z
 
             ["14.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "heuristic"
             version = "14.1"
         [["14.1.0+1".artifact_metadata.sources]]
         hash = "584666393a5424d13d27ec01183da17703273664742e049d4f62f62dab631775"
@@ -95,7 +92,6 @@ registered = 2022-05-28T23:40:38.000Z
 
             ["14.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "heuristic"
             version = "14.3"
         [["14.3.0+0".artifact_metadata.sources]]
         hash = "584666393a5424d13d27ec01183da17703273664742e049d4f62f62dab631775"
@@ -121,7 +117,6 @@ registered = 2022-10-18T11:24:08.000Z
 
             ["14.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "heuristic"
             version = "14.3"
         [["14.3.0+1".artifact_metadata.sources]]
         hash = "584666393a5424d13d27ec01183da17703273664742e049d4f62f62dab631775"
@@ -147,7 +142,6 @@ registered = 2023-09-19T10:01:59.000Z
 
             ["16.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "git-tag"
             version = "16.0"
         [["16.0.0+0".artifact_metadata.sources]]
         hash = "46d17f2bb19ad73290f03a203006152e0fa0d7b11e5b71467c4a823811b214e7"
@@ -173,7 +167,6 @@ registered = 2025-03-10T00:30:15.000Z
 
             ["16.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "git-tag"
             version = "16.8"
         [["16.8.0+0".artifact_metadata.sources]]
         hash = "119679d59f76481eb5e03d3d2a47d7870d592f3999549af189dbd31f2ebf5061"
@@ -199,7 +192,6 @@ registered = 2026-04-02T14:43:00.000Z
 
             ["16.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "git-tag"
             version = "16.13"
         [["16.13.0+0".artifact_metadata.sources]]
         hash = "f80a17a2eddd2b54041f9c98d75b0aa8038b016d7c5de72892a146d9938740e1"
@@ -225,7 +217,6 @@ registered = 2026-06-05T16:52:10.000Z
 
             ["16.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/postgresql"
-            provenance = "git-tag"
             version = "16.14"
         [["16.14.0+0".artifact_metadata.sources]]
         hash = "37e9ed8427f5d3521c22fc58e293cbfb043d70eedf1003870b33f363f61ca344"

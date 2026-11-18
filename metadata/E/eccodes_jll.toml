@@ -17,7 +17,6 @@ registered = 2020-06-04T22:45:02.000Z
 
             ["2.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.17.0"
         [["2.17.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,7 +41,6 @@ registered = 2020-07-07T22:33:14.000Z
 
             ["2.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.18.0"
         [["2.18.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -67,7 +65,6 @@ registered = 2020-11-25T23:47:00.000Z
 
             ["2.19.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.19.1"
         [["2.19.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -92,7 +89,6 @@ registered = 2021-04-01T19:05:16.000Z
 
             ["2.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.21.0"
         [["2.21.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -117,7 +113,6 @@ registered = 2022-03-06T22:22:32.000Z
 
             ["2.25.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.25.0"
         [["2.25.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -142,7 +137,6 @@ registered = 2023-07-02T22:13:14.000Z
 
             ["2.28.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.28.0"
         [["2.28.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -167,7 +161,6 @@ registered = 2024-06-26T10:24:18.000Z
 
             ["2.36.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.36.0"
         [["2.36.0+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -196,7 +189,6 @@ registered = 2026-02-17T14:34:16.000Z
 
             ["2.45.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eccodes"
-            provenance = "heuristic"
             version = "2.45.0"
         [["2.45.0+0".artifact_metadata.sources]]
         type = "directory"

@@ -16,7 +16,6 @@ registered = 2020-01-24T23:21:34.000Z
 
             ["3.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.3"
     [["3.3.3+0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-apple-darwin14-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-apple-darwin14-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-unknown-freebsd11.1-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-unknown-freebsd11.1-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -32,7 +31,6 @@ registered = 2020-01-24T23:21:34.000Z
 
             ["3.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.3"
 
 ["3.3.3+1"]
@@ -53,7 +51,6 @@ registered = 2020-01-25T00:57:27.000Z
 
             ["3.3.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.3"
     [["3.3.3+1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.arm-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-apple-darwin14-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-apple-darwin14-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-unknown-freebsd11.1-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-unknown-freebsd11.1-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Fastjet_jll.jl/releases/download/Fastjet-v3.3.3+0/Fastjet.v3.3.3.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -69,7 +66,6 @@ registered = 2020-01-25T00:57:27.000Z
 
             ["3.3.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.3"
 
 ["3.3.3+2"]
@@ -90,7 +86,6 @@ registered = 2020-01-30T18:21:38.000Z
 
             ["3.3.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.3"
     [["3.3.3+2".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.arm-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.arm-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.arm-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.arm-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-apple-darwin14-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-apple-darwin14-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-unknown-freebsd11.1-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-unknown-freebsd11.1-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/FastJet_jll.jl/releases/download/FastJet-v3.3.3+2/FastJet.v3.3.3.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -106,7 +101,6 @@ registered = 2020-01-30T18:21:38.000Z
 
             ["3.3.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.3"
 
 ["3.3.4+0"]
@@ -128,7 +122,6 @@ registered = 2020-05-07T15:09:44.000Z
 
             ["3.3.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.4"
         [["3.3.4+0".artifact_metadata.sources]]
         hash = "de3f45c2c1bed6d7567483e4a774575a504de8ddc214678bac7f64e9d2e7e7a7"
@@ -137,7 +130,6 @@ registered = 2020-05-07T15:09:44.000Z
 
             ["3.3.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet-contrib"
-            provenance = "heuristic"
             version = "1.044"
 
 ["3.3.4+1"]
@@ -159,7 +151,6 @@ registered = 2020-05-09T10:45:38.000Z
 
             ["3.3.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.4"
         [["3.3.4+1".artifact_metadata.sources]]
         hash = "de3f45c2c1bed6d7567483e4a774575a504de8ddc214678bac7f64e9d2e7e7a7"
@@ -168,7 +159,6 @@ registered = 2020-05-09T10:45:38.000Z
 
             ["3.3.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet-contrib"
-            provenance = "heuristic"
             version = "1.044"
 
 ["3.3.4+2"]
@@ -190,7 +180,6 @@ registered = 2020-08-31T23:20:18.000Z
 
             ["3.3.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "heuristic"
             version = "3.3.4"
         [["3.3.4+2".artifact_metadata.sources]]
         hash = "de3f45c2c1bed6d7567483e4a774575a504de8ddc214678bac7f64e9d2e7e7a7"
@@ -199,7 +188,6 @@ registered = 2020-08-31T23:20:18.000Z
 
             ["3.3.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet-contrib"
-            provenance = "heuristic"
             version = "1.044"
 
 ["3.4.0+0"]
@@ -221,7 +209,6 @@ registered = 2021-12-09T18:31:58.000Z
 
             ["3.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet"
-            provenance = "repology-url"
             version = "3.4.0"
         [["3.4.0+0".artifact_metadata.sources]]
         hash = "f9989d3b6aeb22848bcf91095c30607f027d3ef277a4f0f704a8f0fc2e766981"
@@ -230,5 +217,4 @@ registered = 2021-12-09T18:31:58.000Z
 
             ["3.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fastjet-contrib"
-            provenance = "heuristic"
             version = "1.048"

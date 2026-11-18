@@ -16,7 +16,6 @@ registered = 2020-01-27T02:09:24.000Z
 
             ["1.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-gfx"
-            provenance = "heuristic"
             version = "1.0.3"
         [["1.0.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,7 +40,6 @@ registered = 2024-07-19T16:11:28.000Z
 
             ["1.0.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-gfx"
-            provenance = "repology-url"
             version = "1.0.4"
         [["1.0.4+0".artifact_metadata.sources]]
         type = "directory"

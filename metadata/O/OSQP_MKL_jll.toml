@@ -17,7 +17,6 @@ registered = 2026-07-15T17:18:42.000Z
 
             ["100.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/osqp"
-            provenance = "git-tag"
             version = "1.0.0"
         [["100.0.0+0".artifact_metadata.sources]]
         package = "MKL_jll"

@@ -17,7 +17,6 @@ registered = 2023-01-05T02:16:56.000Z
 
             ["300.1700.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:guava"
-            provenance = "heuristic"
             version = "3.17"
 
 ["300.1800.0+0"]
@@ -39,7 +38,6 @@ registered = 2024-03-19T23:05:27.000Z
 
             ["300.1800.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:guava"
-            provenance = "heuristic"
             version = "3.18"
 
 ["300.1900.0+0"]
@@ -61,7 +59,6 @@ registered = 2024-12-08T23:31:08.000Z
 
             ["300.1900.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:guava"
-            provenance = "heuristic"
             version = "3.19"
 
 ["300.1900.1+0"]
@@ -83,7 +80,6 @@ registered = 2025-08-15T16:30:07.000Z
 
             ["300.1900.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:guava"
-            provenance = "heuristic"
             version = "3.19"
 
 ["301.200000.0+0"]
@@ -105,7 +101,6 @@ registered = 2025-09-30T17:13:57.000Z
 
             ["301.200000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:guava"
-            provenance = "repology-url"
             version = "3.20"
 
 ["301.210000.0+0"]
@@ -127,5 +122,4 @@ registered = 2026-06-02T18:51:54.000Z
 
             ["301.210000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:guava"
-            provenance = "repology-url"
             version = "3.21"

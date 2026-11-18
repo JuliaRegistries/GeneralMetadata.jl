@@ -17,7 +17,6 @@ registered = 2025-05-31T19:31:39.000Z
 
             ["0.45.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/resvg"
-            provenance = "git-tag"
             version = "0.45.1"
 
 ["0.48.1+0"]

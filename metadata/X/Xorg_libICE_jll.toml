@@ -17,7 +17,6 @@ registered = 2020-03-08T20:16:31.000Z
 
             ["1.0.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libice"
-            provenance = "heuristic"
             version = "1.0.10"
         [["1.0.10+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -48,7 +47,6 @@ registered = 2020-04-02T14:22:29.000Z
 
             ["1.0.10+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libice"
-            provenance = "heuristic"
             version = "1.0.10"
         [["1.0.10+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -79,7 +77,6 @@ registered = 2024-05-03T17:39:05.000Z
 
             ["1.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libice"
-            provenance = "heuristic"
             version = "1.1.1"
         [["1.1.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -110,7 +107,6 @@ registered = 2025-04-02T19:04:10.000Z
 
             ["1.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libice"
-            provenance = "repology-url"
             version = "1.1.2"
         [["1.1.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

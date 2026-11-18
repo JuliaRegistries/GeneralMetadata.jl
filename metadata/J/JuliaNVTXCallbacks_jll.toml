@@ -17,7 +17,6 @@ registered = 2022-11-21T18:41:01.000Z
 
             ["0.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nvtx"
-            provenance = "git-tag"
             version = "3.1.0"
         [["0.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -46,7 +45,6 @@ registered = 2022-11-29T19:39:38.000Z
 
             ["0.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nvtx"
-            provenance = "git-tag"
             version = "3.1.0"
         [["0.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -75,7 +73,6 @@ registered = 2022-11-29T22:18:52.000Z
 
             ["0.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nvtx"
-            provenance = "git-tag"
             version = "3.1.0"
         [["0.2.1+0".artifact_metadata.sources]]
         type = "directory"

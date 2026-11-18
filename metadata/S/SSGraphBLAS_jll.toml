@@ -221,11 +221,6 @@ registered = 2025-01-25T02:12:38.000Z
         hash = "d3c4926d2c47fd6ae558e898bfc072ade210a2a1"
         type = "git"
         url = "https://github.com/DrTimothyAldenDavis/SuiteSparse.git"
-
-            ["9.3.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/suitesparse"
-            provenance = "git-tag"
-            version = "7.8.3"
         [["9.3.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"
@@ -246,11 +241,6 @@ registered = 2025-08-08T21:52:15.000Z
         hash = "b35a1f9318f4bd42085f4b5ea56f29c89d342d4d"
         type = "git"
         url = "https://github.com/DrTimothyAldenDavis/SuiteSparse.git"
-
-            ["10.1.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/suitesparse"
-            provenance = "git-tag"
-            version = "7.11.0"
         [["10.1.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"
@@ -271,11 +261,6 @@ registered = 2026-02-12T17:24:31.000Z
         hash = "901381cd753c004cc2db8e91bdb48f1b51212d3d"
         type = "git"
         url = "https://github.com/DrTimothyAldenDavis/SuiteSparse.git"
-
-            ["10.2.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/suitesparse"
-            provenance = "git-tag"
-            version = "7.12.1"
         [["10.2.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"
@@ -296,11 +281,6 @@ registered = 2026-03-24T06:46:00.000Z
         hash = "42151688813c45846a597edcb601435a0e38f3dd"
         type = "git"
         url = "https://github.com/DrTimothyAldenDavis/SuiteSparse.git"
-
-            ["10.3.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/suitesparse"
-            provenance = "git-tag"
-            version = "7.12.2"
         [["10.3.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"
@@ -324,11 +304,6 @@ registered = 2026-08-21T16:58:39.000Z
         hash = "4d40960f58fada6113b3bcf715ae504a43ec4f5f"
         type = "git"
         url = "https://github.com/DrTimothyAldenDavis/SuiteSparse.git"
-
-            ["10.5.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/suitesparse"
-            provenance = "git-tag"
-            version = "7.14.0"
         [["10.5.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"

@@ -17,7 +17,6 @@ registered = 2022-11-17T23:56:04.000Z
 
             ["3.697.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/phylip"
-            provenance = "heuristic"
             version = "3.697"
         [["3.697.0+0".artifact_metadata.sources]]
         type = "directory"

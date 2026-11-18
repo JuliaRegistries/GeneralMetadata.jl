@@ -14,11 +14,6 @@ registered = 2026-01-06T11:38:13.000Z
         hash = "40e7900ccbd767f1f360e0eb10f0f1a6432e0993"
         type = "git"
         url = "https://github.com/libigl/libigl.git"
-
-            ["2.6.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libigl"
-            provenance = "git-tag"
-            version = "2.6.0"
         [["2.6.0+0".artifact_metadata.sources]]
         package = "Eigen_jll"
         type = "builddependency"

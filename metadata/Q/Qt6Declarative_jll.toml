@@ -16,8 +16,7 @@ registered = 2022-05-04T14:30:21.000Z
         url = "https://download.qt.io/official_releases/qt/6.3/6.3.0/submodules/qtdeclarative-everywhere-src-6.3.0.tar.xz"
 
             ["6.3.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.3.0"
         [["6.3.0+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -30,7 +29,6 @@ registered = 2022-05-04T14:30:21.000Z
 
             ["6.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.3.0+1"]
@@ -51,8 +49,7 @@ registered = 2022-05-04T22:31:04.000Z
         url = "https://download.qt.io/official_releases/qt/6.3/6.3.0/submodules/qtdeclarative-everywhere-src-6.3.0.tar.xz"
 
             ["6.3.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.3.0"
         [["6.3.0+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -65,7 +62,6 @@ registered = 2022-05-04T22:31:04.000Z
 
             ["6.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.4.2+0"]
@@ -86,8 +82,7 @@ registered = 2023-01-28T00:34:13.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtdeclarative-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.4.2"
         [["6.4.2+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -100,7 +95,6 @@ registered = 2023-01-28T00:34:13.000Z
 
             ["6.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.4.2+1"]
@@ -121,8 +115,7 @@ registered = 2023-01-28T11:00:09.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtdeclarative-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.4.2"
         [["6.4.2+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -135,7 +128,6 @@ registered = 2023-01-28T11:00:09.000Z
 
             ["6.4.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.4.2+2"]
@@ -156,8 +148,7 @@ registered = 2023-07-11T14:49:06.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtdeclarative-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.4.2"
         [["6.4.2+2".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -170,7 +161,6 @@ registered = 2023-07-11T14:49:06.000Z
 
             ["6.4.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.5.2+0"]
@@ -191,8 +181,7 @@ registered = 2023-09-17T21:29:41.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.2/submodules/qtdeclarative-everywhere-src-6.5.2.tar.xz"
 
             ["6.5.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.5.2"
         [["6.5.2+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -205,7 +194,6 @@ registered = 2023-09-17T21:29:41.000Z
 
             ["6.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.2+0".artifact_metadata.sources]]
         package = "Vulkan_Headers_jll"
@@ -229,8 +217,7 @@ registered = 2023-09-17T22:42:53.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.2/submodules/qtdeclarative-everywhere-src-6.5.2.tar.xz"
 
             ["6.5.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.5.2"
         [["6.5.2+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -243,7 +230,6 @@ registered = 2023-09-17T22:42:53.000Z
 
             ["6.5.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.2+1".artifact_metadata.sources]]
         package = "Vulkan_Headers_jll"
@@ -267,8 +253,7 @@ registered = 2024-05-29T15:38:50.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qtdeclarative-everywhere-src-6.7.1.tar.xz"
 
             ["6.7.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.7.1"
         [["6.7.1+0".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -281,7 +266,6 @@ registered = 2024-05-29T15:38:50.000Z
 
             ["6.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.1+0".artifact_metadata.sources]]
         package = "Vulkan_Headers_jll"
@@ -305,8 +289,7 @@ registered = 2024-05-29T23:05:35.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qtdeclarative-everywhere-src-6.7.1.tar.xz"
 
             ["6.7.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.7.1"
         [["6.7.1+1".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -319,7 +302,6 @@ registered = 2024-05-29T23:05:35.000Z
 
             ["6.7.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.1+1".artifact_metadata.sources]]
         package = "Vulkan_Headers_jll"
@@ -343,8 +325,7 @@ registered = 2024-06-17T13:19:34.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qtdeclarative-everywhere-src-6.7.1.tar.xz"
 
             ["6.7.1+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.7.1"
         [["6.7.1+2".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -357,7 +338,6 @@ registered = 2024-06-17T13:19:34.000Z
 
             ["6.7.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.1+2".artifact_metadata.sources]]
         package = "Vulkan_Headers_jll"
@@ -381,8 +361,7 @@ registered = 2025-02-07T02:36:10.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtdeclarative-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.8.2"
         [["6.8.2+0".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -395,7 +374,6 @@ registered = 2025-02-07T02:36:10.000Z
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.8.2+0".artifact_metadata.sources]]
         package = "Vulkan_Headers_jll"
@@ -419,8 +397,7 @@ registered = 2025-02-08T10:53:30.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtdeclarative-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "6.8.2"
         [["6.8.2+1".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
@@ -433,7 +410,6 @@ registered = 2025-02-08T10:53:30.000Z
 
             ["6.8.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.1"
         [["6.8.2+1".artifact_metadata.sources]]
         package = "Vulkan_Headers_jll"
@@ -457,8 +433,7 @@ registered = 2026-02-21T12:10:24.000Z
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtdeclarative-everywhere-src-6.10.2.tar.xz"
 
             ["6.10.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt6declarative"
             version = "6.10.2"
         [["6.10.2+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
@@ -486,8 +461,7 @@ registered = 2026-02-22T08:40:29.000Z
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtdeclarative-everywhere-src-6.10.2.tar.xz"
 
             ["6.10.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt6declarative"
             version = "6.10.2"
         [["6.10.2+1".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
@@ -522,8 +496,7 @@ registered = 2026-06-19T07:47:05.000Z
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtdeclarative-everywhere-src-6.10.2.tar.xz"
 
             ["6.10.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt6declarative"
             version = "6.10.2"
         [["6.10.2+2".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"

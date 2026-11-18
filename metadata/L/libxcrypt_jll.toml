@@ -17,7 +17,6 @@ registered = 2022-09-15T22:33:44.000Z
 
             ["4.4.28+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcrypt"
-            provenance = "tag-scheme"
             version = "4.4.28"
 
 ["4.4.38+0"]
@@ -39,7 +38,6 @@ registered = 2025-03-25T17:37:16.000Z
 
             ["4.4.38+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcrypt"
-            provenance = "repology-url"
             version = "4.4.38"
 
 ["4.5.2+0"]
@@ -61,5 +59,4 @@ registered = 2025-12-16T15:10:26.000Z
 
             ["4.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcrypt"
-            provenance = "repology-url"
             version = "4.5.2"

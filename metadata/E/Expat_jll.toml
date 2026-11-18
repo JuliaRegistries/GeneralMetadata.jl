@@ -16,7 +16,6 @@ registered = 2019-08-30T22:35:29.000Z
 
             ["2.2.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.7"
 
 ["2.2.7+1"]
@@ -38,7 +37,6 @@ registered = 2020-04-02T01:21:39.000Z
 
             ["2.2.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.7"
 
 ["2.2.7+2"]
@@ -60,7 +58,6 @@ registered = 2020-06-18T19:58:57.000Z
 
             ["2.2.7+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.7"
 
 ["2.2.7+3"]
@@ -82,7 +79,6 @@ registered = 2020-06-25T20:33:24.000Z
 
             ["2.2.7+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.7"
 
 ["2.2.7+4"]
@@ -104,7 +100,6 @@ registered = 2020-08-14T08:21:02.000Z
 
             ["2.2.7+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.7"
 
 ["2.2.7+5"]
@@ -126,7 +121,6 @@ registered = 2020-08-26T19:26:26.000Z
 
             ["2.2.7+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.7"
 
 ["2.2.7+6"]
@@ -148,7 +142,6 @@ registered = 2020-10-16T19:27:56.000Z
 
             ["2.2.7+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.7"
 
 ["2.2.10+0"]
@@ -170,7 +163,6 @@ registered = 2021-05-16T00:08:20.000Z
 
             ["2.2.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.10"
 
 ["2.2.10+1"]
@@ -192,7 +184,6 @@ registered = 2024-12-17T10:59:19.000Z
 
             ["2.2.10+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.2.10"
 
 ["2.4.4+0"]
@@ -214,7 +205,6 @@ registered = 2022-02-05T00:32:06.000Z
 
             ["2.4.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.4.4"
 
 ["2.4.8+0"]
@@ -236,7 +226,6 @@ registered = 2022-03-28T22:57:42.000Z
 
             ["2.4.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.4.8"
 
 ["2.5.0+0"]
@@ -258,7 +247,6 @@ registered = 2023-06-19T16:07:11.000Z
 
             ["2.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.5.0"
 
 ["2.6.2+0"]
@@ -280,7 +268,6 @@ registered = 2024-05-01T09:00:38.000Z
 
             ["2.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.6.2"
 
 ["2.6.4+0"]
@@ -302,7 +289,6 @@ registered = 2024-11-15T15:24:26.000Z
 
             ["2.6.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.6.4"
 
 ["2.6.4+1"]
@@ -324,7 +310,6 @@ registered = 2024-12-02T07:28:09.000Z
 
             ["2.6.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.6.4"
 
 ["2.6.4+2"]
@@ -346,7 +331,6 @@ registered = 2024-12-25T06:10:23.000Z
 
             ["2.6.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.6.4"
 
 ["2.6.4+3"]
@@ -368,7 +352,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["2.6.4+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.6.4"
 
 ["2.6.5+0"]
@@ -390,7 +373,6 @@ registered = 2025-02-01T13:31:15.000Z
 
             ["2.6.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.6.4"
 
 ["2.7.1+0"]
@@ -412,7 +394,6 @@ registered = 2025-08-19T03:52:11.000Z
 
             ["2.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.7.1"
 
 ["2.7.3+0"]
@@ -434,7 +415,6 @@ registered = 2025-10-20T13:35:18.000Z
 
             ["2.7.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.7.3"
 
 ["2.7.5+0"]
@@ -456,7 +436,6 @@ registered = 2026-04-23T13:44:58.000Z
 
             ["2.7.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.7.5"
 
 ["2.8.0+0"]
@@ -478,7 +457,6 @@ registered = 2026-04-27T23:51:30.000Z
 
             ["2.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.8.0"
 
 ["2.8.1+0"]
@@ -500,7 +478,6 @@ registered = 2026-05-28T01:03:01.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.8.1"
 
 ["2.8.2+0"]
@@ -522,7 +499,6 @@ registered = 2026-07-08T16:35:01.000Z
 
             ["2.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
             version = "2.8.2"
 
 ["2.8.3+0"]
@@ -544,8 +520,7 @@ registered = 2026-08-15T18:16:16.000Z
 
             ["2.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
-            version = "2.8.3"
+            version = "8_3"
 
 ["2.8.4+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.8.4+0/Expat.v2.8.4.x86_64-w64-mingw32.tar.gz"]
@@ -566,8 +541,7 @@ registered = 2026-09-08T02:14:48.000Z
 
             ["2.8.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/expat"
-            provenance = "url-pattern"
-            version = "2.8.4"
+            version = "8_4"
 
 ["2.9.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.9.0+0/Expat.v2.9.0.x86_64-w64-mingw32.tar.gz"]

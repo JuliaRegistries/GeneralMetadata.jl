@@ -14,10 +14,6 @@ registered = 2021-03-05T01:26:11.000Z
         hash = "a4dddf40647c68cd0104eafc31e9c8fb247a6308"
         type = "git"
         url = "https://github.com/google/s2geometry.git"
-
-            ["0.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
-            provenance = "repository"
         [["0.9.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1d0fc156a0197b21790dc5d363292112ab55c003/S/S2Geometry/bundled"
@@ -38,11 +34,6 @@ registered = 2024-09-18T12:17:56.000Z
         hash = "5b5eccd54a08ae03b4467e79ffbb076d0b5f221e"
         type = "git"
         url = "https://github.com/google/s2geometry.git"
-
-            ["0.11.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
-            provenance = "git-tag"
-            version = "0.11.1"
         [["0.11.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2411b178a202a1947683b1f47faf2c1f51455104/S/S2Geometry/bundled"
@@ -63,11 +54,6 @@ registered = 2026-08-03T12:26:07.000Z
         hash = "ed62eeeaa92f19c70aeaa91e8acbd3b5c1171a57"
         type = "git"
         url = "https://github.com/google/s2geometry.git"
-
-            ["0.13.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
-            provenance = "git-tag"
-            version = "0.13.0"
         [["0.13.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e9e9b0126b15e26a4c4f8da7ac91c2583a7ad37d/S/S2Geometry/bundled"
@@ -92,11 +78,6 @@ registered = 2026-08-03T13:05:58.000Z
         hash = "a37aba69f14af676e9605cd9515c8aca6cef8342"
         type = "git"
         url = "https://github.com/google/s2geometry.git"
-
-            ["0.13.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
-            provenance = "git-tag"
-            version = "0.13.1"
         [["0.13.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a42ad78f81f10b6e7f732001e665be6d9080c34f/S/S2Geometry/bundled"
@@ -121,11 +102,6 @@ registered = 2026-08-03T14:12:21.000Z
         hash = "c24b368c67d0b8a2a109c5a75224e73a856bd8b7"
         type = "git"
         url = "https://github.com/google/s2geometry.git"
-
-            ["0.14.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
-            provenance = "git-tag"
-            version = "0.14.0"
         [["0.14.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/452a530d9d90c3ec5c1d785cfc31f31b2dee4ad9/S/S2Geometry/bundled"
@@ -150,11 +126,6 @@ registered = 2026-08-04T10:29:53.000Z
         hash = "c24b368c67d0b8a2a109c5a75224e73a856bd8b7"
         type = "git"
         url = "https://github.com/google/s2geometry.git"
-
-            ["0.14.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
-            provenance = "git-tag"
-            version = "0.14.0"
         [["0.14.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/bf24221f382b4121ed38aa1007254e38d89687c2/S/S2Geometry/bundled"

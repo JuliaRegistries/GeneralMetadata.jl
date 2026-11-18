@@ -16,7 +16,6 @@ registered = 2020-01-27T01:19:13.000Z
 
             ["2.0.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/numactl"
-            provenance = "repology-url"
             version = "2.0.13"
 
 ["2.0.13+1"]
@@ -38,7 +37,6 @@ registered = 2020-04-04T05:46:52.000Z
 
             ["2.0.13+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/numactl"
-            provenance = "repology-url"
             version = "2.0.13"
 
 ["2.0.14+0"]
@@ -60,7 +58,6 @@ registered = 2022-01-05T00:23:37.000Z
 
             ["2.0.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/numactl"
-            provenance = "tag-scheme"
             version = "2.0.14"
 
 ["2.0.18+0"]
@@ -82,7 +79,6 @@ registered = 2024-05-10T22:03:33.000Z
 
             ["2.0.18+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/numactl"
-            provenance = "repology-url"
             version = "2.0.18"
         [["2.0.18+0".artifact_metadata.sources]]
         type = "directory"
@@ -107,7 +103,6 @@ registered = 2026-08-20T03:06:49.000Z
 
             ["2.0.19+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/numactl"
-            provenance = "tag-scheme"
             version = "2.0.19"
         [["2.0.19+0".artifact_metadata.sources]]
         type = "directory"

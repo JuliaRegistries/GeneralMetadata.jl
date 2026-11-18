@@ -17,7 +17,6 @@ registered = 2020-10-28T16:45:27.000Z
 
             ["4.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/squashfs-tools"
-            provenance = "repository"
 
 ["4.5.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/squashfs_tools_jll.jl/releases/download/squashfs_tools-v4.5.1+0/squashfs_tools.v4.5.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/squashfs_tools_jll.jl/releases/download/squashfs_tools-v4.5.1+0/squashfs_tools.v4.5.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/squashfs_tools_jll.jl/releases/download/squashfs_tools-v4.5.1+0/squashfs_tools.v4.5.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/squashfs_tools_jll.jl/releases/download/squashfs_tools-v4.5.1+0/squashfs_tools.v4.5.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/squashfs_tools_jll.jl/releases/download/squashfs_tools-v4.5.1+0/squashfs_tools.v4.5.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/squashfs_tools_jll.jl/releases/download/squashfs_tools-v4.5.1+0/squashfs_tools.v4.5.1.x86_64-linux-gnu.tar.gz"]
@@ -38,7 +37,6 @@ registered = 2022-09-19T20:07:07.000Z
 
             ["4.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/squashfs-tools"
-            provenance = "git-tag"
             version = "4.5.1"
 
 ["4.6.1+0"]
@@ -60,7 +58,6 @@ registered = 2023-09-11T20:04:57.000Z
 
             ["4.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/squashfs-tools"
-            provenance = "git-tag"
             version = "4.6.1"
 
 ["4.6.1+1"]
@@ -82,7 +79,6 @@ registered = 2024-01-13T23:52:37.000Z
 
             ["4.6.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/squashfs-tools"
-            provenance = "git-tag"
             version = "4.6.1"
 
 ["4.7.2+0"]
@@ -104,7 +100,6 @@ registered = 2025-08-19T17:14:06.000Z
 
             ["4.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/squashfs-tools"
-            provenance = "git-tag"
             version = "4.7.2"
         [["4.7.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -129,7 +124,6 @@ registered = 2026-02-08T19:37:42.000Z
 
             ["4.7.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/squashfs-tools"
-            provenance = "git-tag"
             version = "4.7.4"
         [["4.7.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -154,7 +148,6 @@ registered = 2026-03-23T14:45:42.000Z
 
             ["4.7.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/squashfs-tools"
-            provenance = "git-tag"
             version = "4.7.5"
         [["4.7.5+0".artifact_metadata.sources]]
         type = "directory"

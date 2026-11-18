@@ -14,11 +14,6 @@ registered = 2023-09-18T23:53:12.000Z
         hash = "1fe34646f6bb2282491077b1d2407c724c0d5471"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.3.17+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.3.17"
         [["0.3.17+0".artifact_metadata.sources]]
         package = "aws_checksums_jll"
         type = "builddependency"
@@ -66,11 +61,6 @@ registered = 2023-09-23T00:18:21.000Z
         hash = "1fe34646f6bb2282491077b1d2407c724c0d5471"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.3.17+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.3.17"
         [["0.3.17+1".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -91,11 +81,6 @@ registered = 2024-05-01T21:44:36.000Z
         hash = "3334843eb4e0e56c2565e481b2ef853d1cadde78"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.5.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.5.7"
         [["0.5.7+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -116,11 +101,6 @@ registered = 2024-05-28T14:01:20.000Z
         hash = "774999fd89e710084251157c37c34f46e5ac74f8"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.5.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.5.9"
         [["0.5.9+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -141,11 +121,6 @@ registered = 2024-06-03T21:57:26.000Z
         hash = "6588f9a714ee7a8be1bddd63ea5ea1ea224d00b4"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.5.10+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.5.10"
         [["0.5.10+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -166,11 +141,6 @@ registered = 2024-06-28T22:15:15.000Z
         hash = "cb431ba06b5d3db4373cd8fb55d6c16464cbf2ea"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.6.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.6.0"
         [["0.6.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -191,11 +161,6 @@ registered = 2024-07-13T23:19:40.000Z
         hash = "813c418bfc33cdf5bf96d0226f7e2644213c128b"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.6.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.6.3"
         [["0.6.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -216,11 +181,6 @@ registered = 2024-09-05T10:00:13.000Z
         hash = "502cd6249c6523583c19b122c65e02cf74301b3e"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.6.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.6.5"
         [["0.6.5+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -241,11 +201,6 @@ registered = 2025-03-01T12:13:24.000Z
         hash = "6eb8be530b100fed5c6d24ca48a57ee2e6098fbf"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.7.11+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.7.11"
         [["0.7.11+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -266,11 +221,6 @@ registered = 2025-03-04T23:30:05.000Z
         hash = "1d0091c73ab4652924b902a3e855f7ae651fa391"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.7.12+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.7.12"
         [["0.7.12+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -291,11 +241,6 @@ registered = 2025-03-14T22:24:58.000Z
         hash = "169842b7e2f81d71d0719d4a77f9c3e186512f99"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.7.13+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.7.13"
         [["0.7.13+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -316,11 +261,6 @@ registered = 2025-03-31T20:20:48.000Z
         hash = "408e9c90367b27e0a965f22b4661eb9f81f21d3b"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.7.14+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.7.14"
         [["0.7.14+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -341,11 +281,6 @@ registered = 2025-04-03T00:29:58.000Z
         hash = "0770d353ce2d04af0f2b1ee3680a8f827f28263f"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.7.15+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.7.15"
         [["0.7.15+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -366,11 +301,6 @@ registered = 2025-04-29T17:19:52.000Z
         hash = "5eac79fb577b05cc83e39ae3b01412c3d66ab69e"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.7.16+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.7.16"
         [["0.7.16+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -391,11 +321,6 @@ registered = 2025-05-07T04:49:36.000Z
         hash = "7d2d4b3070109c882ff78e8719f60597c7ba0472"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.7.17+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.7.17"
         [["0.7.17+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -416,11 +341,6 @@ registered = 2025-06-08T16:47:24.000Z
         hash = "233c587f29fab457c1874988c19e04a2a8c8c00b"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.8.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.8.1"
         [["0.8.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -441,11 +361,6 @@ registered = 2025-06-27T14:28:19.000Z
         hash = "1762f839fdca78ec4b30dc94fbbd88591d0b5b7c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.8.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.8.3"
         [["0.8.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -466,11 +381,6 @@ registered = 2025-07-14T23:41:24.000Z
         hash = "f8ae82e3a7bd93e986d734b6f088bb1aa632902c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.8.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.8.4"
         [["0.8.4+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -491,11 +401,6 @@ registered = 2025-07-25T13:42:12.000Z
         hash = "36e2c3717a65ada2049602e147553999babdac4d"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.8.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.8.6"
         [["0.8.6+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -516,11 +421,6 @@ registered = 2025-08-12T06:14:09.000Z
         hash = "3afa5d08be95e82199a153e3abbe59bbb42638d7"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.8.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.8.7"
         [["0.8.7+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -541,11 +441,6 @@ registered = 2025-09-18T19:33:34.000Z
         hash = "43d33d681da4fed34b8ae1e6b98700ab08291628"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.8.8"
         [["0.9.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -566,11 +461,6 @@ registered = 2025-10-03T04:06:59.000Z
         hash = "e4ba8f13d7cf418b8c1527cf437726ca31a55623"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.9.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.9.1"
         [["0.9.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -591,11 +481,6 @@ registered = 2025-10-08T13:36:09.000Z
         hash = "332dd22c47a7ed139eee71e7f219b764ef8cdf4c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.9.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.9.2"
         [["0.9.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -616,11 +501,6 @@ registered = 2025-11-03T22:55:39.000Z
         hash = "6b3808846907cada8ab4bb82f07f7018ae85204e"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.9.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.9.3"
         [["0.9.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -641,11 +521,6 @@ registered = 2025-11-21T19:03:31.000Z
         hash = "19a2454c8de8c10d213429ff85b309c684f7066d"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.10.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.10.1"
         [["0.10.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -666,11 +541,6 @@ registered = 2025-11-22T02:16:51.000Z
         hash = "372ffea3db625b764fe81bf8b7afc6cc9582e150"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.11.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.11.0"
         [["0.11.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -691,11 +561,6 @@ registered = 2025-11-25T00:12:35.000Z
         hash = "a109fa6965f8679e532f62fcddf315405bc316bb"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.11.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.11.1"
         [["0.11.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -716,11 +581,6 @@ registered = 2025-11-25T02:32:35.000Z
         hash = "4782ecb44b650a1aa3122c40f03a97cfb8c0ccb5"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.11.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.11.2"
         [["0.11.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -741,11 +601,6 @@ registered = 2025-12-03T18:52:14.000Z
         hash = "3f81fc9e90b11e6b3e434b166e275f65d5c98d39"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.11.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.11.3"
         [["0.11.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -766,11 +621,6 @@ registered = 2026-01-07T19:15:01.000Z
         hash = "3a2d31ac5e2d557a1abbb15216efb5462461a82b"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.11.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.11.4"
         [["0.11.4+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -791,11 +641,6 @@ registered = 2026-01-14T20:35:55.000Z
         hash = "e9d1bde139f88b08aaa3bf0507f443f31ccede93"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.11.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.11.5"
         [["0.11.5+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -816,11 +661,6 @@ registered = 2026-03-23T19:33:40.000Z
         hash = "8eb717a557734b3f1249d45acb2f92124a264f80"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.12.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.12.0"
         [["0.12.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -841,11 +681,6 @@ registered = 2026-04-02T20:08:14.000Z
         hash = "ab764f57ec3cab7866c0f8b7d9e9772b7cc1b9ee"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.12.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.12.2"
         [["0.12.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -866,11 +701,6 @@ registered = 2026-04-25T12:27:03.000Z
         hash = "a31a657840daffbfa7749b63cd0e2a178a6a5d9e"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.12.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.12.3"
         [["0.12.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -891,11 +721,6 @@ registered = 2026-08-29T20:10:20.000Z
         hash = "448ec5e49eb181687f9af39b0d3b83a563b15039"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.12.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.12.8"
         [["0.12.8+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -916,11 +741,6 @@ registered = 2026-08-31T13:39:47.000Z
         hash = "2e74399ae4393f426d462fe56beed8b4a6c90f51"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["0.13.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "0.13.7"
         [["0.13.7+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -941,11 +761,6 @@ registered = 2026-08-31T14:53:33.000Z
         hash = "8d7d4aeab6b9710cda5a6f44904d6ec3faf8861f"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["1.0.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -966,11 +781,6 @@ registered = 2026-09-11T13:53:58.000Z
         hash = "977386498668154d6fe2a4f067cfa8d62d310858"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["1.1.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "1.1.1"
         [["1.1.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -991,11 +801,6 @@ registered = 2026-09-16T16:39:20.000Z
         hash = "ee035a4e617434165d5e4092be0b73e343092733"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["1.1.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "1.1.2"
         [["1.1.2+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -1016,11 +821,6 @@ registered = 2026-09-22T15:15:27.000Z
         hash = "fadfa21c0a68f0c9388a957c3e40b242658330f1"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["1.1.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "1.1.3"
         [["1.1.3+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -1041,11 +841,6 @@ registered = 2026-09-24T07:49:56.000Z
         hash = "353938a692900362606f7b6c195aa8ba7023b097"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["1.2.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "1.2.0"
         [["1.2.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -1066,11 +861,6 @@ registered = 2026-09-29T13:56:48.000Z
         hash = "b61069107cc7ce27646dd8948c6969663b2bd83a"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["1.3.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "1.3.0"
         [["1.3.0+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"
@@ -1091,11 +881,6 @@ registered = 2026-10-06T09:46:03.000Z
         hash = "ff51d5ecea19e439f476a2dc59feeec7bd81de32"
         type = "git"
         url = "https://github.com/awslabs/aws-c-s3.git"
-
-            ["1.3.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/aws-c-s3"
-            provenance = "git-tag"
-            version = "1.3.1"
         [["1.3.1+0".artifact_metadata.sources]]
         package = "aws_lc_jll"
         type = "builddependency"

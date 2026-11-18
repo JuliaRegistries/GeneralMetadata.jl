@@ -50,7 +50,6 @@ registered = 2026-03-20T17:06:36.000Z
 
             ["2.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shared-mime-info"
-            provenance = "repology-url"
             version = "2.4"
         [["2.4.0+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"

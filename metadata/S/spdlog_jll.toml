@@ -17,7 +17,6 @@ registered = 2025-01-06T21:07:17.000Z
 
             ["1.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spdlog"
-            provenance = "git-tag"
             version = "1.14.1"
         [["1.15.0+0".artifact_metadata.sources]]
         type = "directory"

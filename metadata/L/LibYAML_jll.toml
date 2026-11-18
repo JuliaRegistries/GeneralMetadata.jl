@@ -21,7 +21,6 @@ registered = 2022-03-22T21:38:00.000Z
 
             ["0.2.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libyaml"
-            provenance = "repology-url"
             version = "0.2.5"
 
 ["0.2.7+0"]
@@ -43,5 +42,4 @@ registered = 2025-10-21T16:28:05.000Z
 
             ["0.2.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libyaml"
-            provenance = "repology-url"
             version = "0.2.5"

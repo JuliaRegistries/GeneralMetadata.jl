@@ -17,7 +17,6 @@ registered = 2021-01-01T22:39:30.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libcerf"
-            provenance = "heuristic"
             version = "1.14"
 
 ["1.17.0+0"]
@@ -39,7 +38,6 @@ registered = 2022-02-07T16:13:58.000Z
 
             ["1.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libcerf"
-            provenance = "repology-url"
             version = "1.17"
 
 ["2.5.0+0"]
@@ -61,7 +59,6 @@ registered = 2026-01-05T15:32:48.000Z
 
             ["2.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libcerf"
-            provenance = "repology-url"
             version = "2.5"
         [["2.5.0+0".artifact_metadata.sources]]
         type = "directory"

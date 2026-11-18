@@ -17,7 +17,6 @@ registered = 2020-04-14T13:40:08.000Z
 
             ["20.12.16259+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.12.16259"
 
 ["20.15.16524+0"]
@@ -39,7 +38,6 @@ registered = 2020-04-21T14:56:56.000Z
 
             ["20.15.16524+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.15.16524"
         [["20.15.16524+0".artifact_metadata.sources]]
         hash = "ebb363e938a279cf866cb93d28e31aaf0791ea19"
@@ -48,7 +46,6 @@ registered = 2020-04-21T14:56:56.000Z
 
             ["20.15.16524+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
 
 ["20.18.16699+0"]
@@ -70,7 +67,6 @@ registered = 2020-05-08T19:45:05.000Z
 
             ["20.18.16699+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.18.16699"
         [["20.18.16699+0".artifact_metadata.sources]]
         hash = "ebb363e938a279cf866cb93d28e31aaf0791ea19"
@@ -79,7 +75,6 @@ registered = 2020-05-08T19:45:05.000Z
 
             ["20.18.16699+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
 
 ["20.20.16837+0"]
@@ -101,7 +96,6 @@ registered = 2020-05-26T15:46:09.000Z
 
             ["20.20.16837+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.20.16837"
         [["20.20.16837+0".artifact_metadata.sources]]
         hash = "ebb363e938a279cf866cb93d28e31aaf0791ea19"
@@ -110,7 +104,6 @@ registered = 2020-05-26T15:46:09.000Z
 
             ["20.20.16837+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
 
 ["20.22.16952+0"]
@@ -132,7 +125,6 @@ registered = 2020-06-16T12:15:37.000Z
 
             ["20.22.16952+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.22.16952"
         [["20.22.16952+0".artifact_metadata.sources]]
         hash = "ebb363e938a279cf866cb93d28e31aaf0791ea19"
@@ -141,7 +133,6 @@ registered = 2020-06-16T12:15:37.000Z
 
             ["20.22.16952+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
 
 ["20.24.17065+0"]
@@ -163,7 +154,6 @@ registered = 2020-06-26T10:13:22.000Z
 
             ["20.24.17065+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.24.17065"
         [["20.24.17065+0".artifact_metadata.sources]]
         hash = "ebb363e938a279cf866cb93d28e31aaf0791ea19"
@@ -172,7 +162,6 @@ registered = 2020-06-26T10:13:22.000Z
 
             ["20.24.17065+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
 
 ["20.27.17231+0"]
@@ -194,7 +183,6 @@ registered = 2020-07-17T15:45:17.000Z
 
             ["20.27.17231+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.27.17231"
         [["20.27.17231+0".artifact_metadata.sources]]
         hash = "ebb363e938a279cf866cb93d28e31aaf0791ea19"
@@ -203,7 +191,6 @@ registered = 2020-07-17T15:45:17.000Z
 
             ["20.27.17231+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
 
 ["20.32.17625+0"]
@@ -225,7 +212,6 @@ registered = 2020-08-20T18:35:38.000Z
 
             ["20.32.17625+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.32.17625"
 
 ["20.34.17727+0"]
@@ -247,7 +233,6 @@ registered = 2020-09-02T12:27:57.000Z
 
             ["20.34.17727+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.32.17625"
 
 ["20.34.17727+1"]
@@ -269,7 +254,6 @@ registered = 2020-09-02T13:34:37.000Z
 
             ["20.34.17727+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.34.17727"
 
 ["20.39.17972+0"]
@@ -295,7 +279,6 @@ registered = 2020-10-23T16:38:45.000Z
 
             ["20.42.18209+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.42.18209"
 
 ["20.44.18297+0"]
@@ -317,7 +300,6 @@ registered = 2020-11-09T10:48:26.000Z
 
             ["20.44.18297+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.44.18297"
 
 ["20.44.18297+1"]
@@ -339,7 +321,6 @@ registered = 2020-11-12T08:58:42.000Z
 
             ["20.44.18297+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.44.18297"
 
 ["20.48.18558+0"]
@@ -361,7 +342,6 @@ registered = 2020-12-04T15:52:38.000Z
 
             ["20.48.18558+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "20.48.18558"
 
 ["21.12.19358+0"]
@@ -383,7 +363,6 @@ registered = 2021-03-31T08:38:55.000Z
 
             ["21.12.19358+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "21.12.19358"
 
 ["21.22.19967+0"]
@@ -405,7 +384,6 @@ registered = 2021-06-14T06:22:13.000Z
 
             ["21.22.19967+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "21.22.19967"
 
 ["21.30.20482+0"]
@@ -427,7 +405,6 @@ registered = 2021-08-06T15:26:17.000Z
 
             ["21.30.20482+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "21.30.20482"
 
 ["21.31.20514+0"]
@@ -449,7 +426,6 @@ registered = 2021-08-09T11:00:05.000Z
 
             ["21.31.20514+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "21.31.20514"
 
 ["21.39.21127+0"]
@@ -471,7 +447,6 @@ registered = 2021-10-04T13:53:03.000Z
 
             ["21.39.21127+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "21.39.21127"
 
 ["21.41.21220+0"]
@@ -493,7 +468,6 @@ registered = 2021-10-15T15:27:04.000Z
 
             ["21.41.21220+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "21.41.21220"
 
 ["21.44.21506+0"]
@@ -515,7 +489,6 @@ registered = 2021-11-08T10:13:47.000Z
 
             ["21.44.21506+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "21.44.21506"
 
 ["22.8.22549+0"]
@@ -537,7 +510,6 @@ registered = 2022-03-01T13:46:02.000Z
 
             ["22.8.22549+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.08.22549"
 
 ["22.11.22682+0"]
@@ -559,7 +531,6 @@ registered = 2022-03-24T15:37:49.000Z
 
             ["22.11.22682+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.11.22682"
 
 ["22.16.22992+0"]
@@ -581,7 +552,6 @@ registered = 2022-04-25T14:37:03.000Z
 
             ["22.16.22992+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.16.22992"
 
 ["22.17.23034+0"]
@@ -603,7 +573,6 @@ registered = 2022-04-30T08:13:17.000Z
 
             ["22.17.23034+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.17.23034"
 
 ["22.25.23529+0"]
@@ -625,7 +594,6 @@ registered = 2022-06-27T16:03:03.000Z
 
             ["22.25.23529+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.25.23529"
 
 ["22.35.24055+0"]
@@ -647,7 +615,6 @@ registered = 2022-09-09T14:57:54.000Z
 
             ["22.35.24055+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.35.24055"
 
 ["22.43.24595+0"]
@@ -669,7 +636,6 @@ registered = 2023-01-19T08:21:35.000Z
 
             ["22.43.24595+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.43.24595.30"
 
 ["22.53.25242+0"]
@@ -691,7 +657,6 @@ registered = 2023-02-11T07:37:42.000Z
 
             ["22.53.25242+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "22.53.25242.13"
 
 ["22.53.25593+0"]
@@ -713,7 +678,6 @@ registered = 2023-04-18T14:22:39.000Z
 
             ["22.53.25593+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.05.25593.11"
 
 ["22.53.25593+1"]
@@ -735,7 +699,6 @@ registered = 2023-04-21T07:03:05.000Z
 
             ["22.53.25593+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.05.25593.11"
 
 ["23.17.26241+0"]
@@ -757,7 +720,6 @@ registered = 2023-07-03T11:15:54.000Z
 
             ["23.17.26241+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.17.26241.22"
 
 ["23.17.26241+1"]
@@ -779,7 +741,6 @@ registered = 2023-10-17T12:46:04.000Z
 
             ["23.17.26241+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.17.26241.22"
 
 ["23.17.26241+2"]
@@ -801,7 +762,6 @@ registered = 2023-10-18T07:46:08.000Z
 
             ["23.17.26241+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.17.26241.22"
 
 ["23.17.26241+3"]
@@ -823,7 +783,6 @@ registered = 2023-10-27T08:15:59.000Z
 
             ["23.17.26241+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.17.26241.22"
 
 ["23.30.26918+0"]
@@ -845,7 +804,6 @@ registered = 2023-10-17T14:34:35.000Z
 
             ["23.30.26918+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.30.26918.9"
 
 ["23.30.26918+1"]
@@ -867,7 +825,6 @@ registered = 2023-10-17T15:27:58.000Z
 
             ["23.30.26918+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.30.26918.9"
 
 ["23.30.26918+2"]
@@ -889,7 +846,6 @@ registered = 2023-10-27T10:27:18.000Z
 
             ["23.30.26918+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "23.30.26918.9"
 
 ["24.5.28454+0"]
@@ -911,7 +867,6 @@ registered = 2024-02-22T19:45:15.000Z
 
             ["24.5.28454+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "24.05.28454.6"
 
 ["24.9.28717+0"]
@@ -933,7 +888,6 @@ registered = 2024-03-29T12:26:05.000Z
 
             ["24.9.28717+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "24.09.28717.12"
 
 ["24.13.29138+0"]
@@ -955,7 +909,6 @@ registered = 2024-05-15T15:10:51.000Z
 
             ["24.13.29138+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "24.13.29138.7"
 
 ["24.22.29735+0"]
@@ -977,7 +930,6 @@ registered = 2024-07-18T15:00:36.000Z
 
             ["24.22.29735+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "24.13.29138.7"
 
 ["24.26.30049+0"]
@@ -999,7 +951,6 @@ registered = 2024-08-06T19:22:29.000Z
 
             ["24.26.30049+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "24.26.30049.6"
 
 ["25.27.34303+0"]
@@ -1021,7 +972,6 @@ registered = 2025-08-05T20:40:22.000Z
 
             ["25.27.34303+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "25.27.34303.5"
         [["25.27.34303+0".artifact_metadata.sources]]
         type = "directory"
@@ -1046,7 +996,6 @@ registered = 2025-08-15T15:15:13.000Z
 
             ["25.27.34303+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "25.27.34303.5"
         [["25.27.34303+1".artifact_metadata.sources]]
         type = "directory"
@@ -1071,7 +1020,6 @@ registered = 2025-08-29T06:01:03.000Z
 
             ["25.31.34666+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "25.31.34666.3"
         [["25.31.34666+0".artifact_metadata.sources]]
         type = "directory"
@@ -1096,7 +1044,6 @@ registered = 2025-10-16T20:02:27.000Z
 
             ["25.35.35096+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "25.35.35096.9"
         [["25.35.35096+0".artifact_metadata.sources]]
         type = "directory"
@@ -1121,7 +1068,6 @@ registered = 2025-12-01T15:35:15.000Z
 
             ["25.44.36015+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "25.44.36015.5"
         [["25.44.36015+0".artifact_metadata.sources]]
         type = "directory"
@@ -1146,7 +1092,6 @@ registered = 2026-06-16T08:50:39.000Z
 
             ["26.18.38308+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "26.18.38308.1"
         [["26.18.38308+0".artifact_metadata.sources]]
         type = "directory"

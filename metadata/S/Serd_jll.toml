@@ -17,7 +17,6 @@ registered = 2021-04-22T18:15:15.000Z
 
             ["0.30.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/serd"
-            provenance = "repology-url"
             version = "0.30.10"
 
 ["0.30.11+0"]
@@ -39,7 +38,6 @@ registered = 2021-12-16T21:56:24.000Z
 
             ["0.30.11+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/serd"
-            provenance = "repology-url"
             version = "0.30.10"
 
 ["0.32.10+0"]
@@ -61,5 +59,4 @@ registered = 2026-09-04T08:42:11.000Z
 
             ["0.32.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/serd"
-            provenance = "repology-url"
             version = "0.32.10"

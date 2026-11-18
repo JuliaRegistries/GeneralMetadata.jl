@@ -16,7 +16,6 @@ registered = 2019-12-20T04:02:53.000Z
 
             ["4.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.0.2"
 
 ["4.0.2+1"]
@@ -37,7 +36,6 @@ registered = 2019-12-21T03:58:49.000Z
 
             ["4.0.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.0.2"
 
 ["4.0.2+2"]
@@ -58,7 +56,6 @@ registered = 2020-01-16T23:45:44.000Z
 
             ["4.0.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.0.2"
 
 ["4.1.1+0"]
@@ -80,7 +77,6 @@ registered = 2021-05-12T16:52:15.000Z
 
             ["4.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.1"
 
 ["4.1.1+1"]
@@ -102,7 +98,6 @@ registered = 2021-07-02T00:20:31.000Z
 
             ["4.1.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -127,7 +122,6 @@ registered = 2021-07-30T09:34:28.000Z
 
             ["4.1.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -152,7 +146,6 @@ registered = 2021-10-25T22:13:50.000Z
 
             ["4.1.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+3".artifact_metadata.sources]]
         hash = "3437eb7913cf213de80cef4ade7d73f0b3adfe9eadabe993b923dc50a21bd65e"
@@ -181,7 +174,6 @@ registered = 2021-11-27T16:58:54.000Z
 
             ["4.1.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+4".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -210,7 +202,6 @@ registered = 2021-11-29T10:34:35.000Z
 
             ["4.1.1+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+5".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -239,7 +230,6 @@ registered = 2021-12-01T13:24:01.000Z
 
             ["4.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.2"
         [["4.1.2+0".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -268,7 +258,6 @@ registered = 2022-05-13T23:01:48.000Z
 
             ["4.1.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.3"
         [["4.1.3+0".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -297,7 +286,6 @@ registered = 2022-06-21T18:17:11.000Z
 
             ["4.1.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.3"
         [["4.1.3+1".artifact_metadata.sources]]
         hash = "eee6ae92bb746d3c50ea231aa58607fc5bac373680ff5c45c8ebc10e0b6496b4"
@@ -326,7 +314,6 @@ registered = 2022-07-19T03:38:41.000Z
 
             ["4.1.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.3"
         [["4.1.3+2".artifact_metadata.sources]]
         type = "directory"
@@ -351,7 +338,6 @@ registered = 2022-10-03T15:33:05.000Z
 
             ["4.1.3+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "4.1.3"
         [["4.1.3+3".artifact_metadata.sources]]
         type = "directory"
@@ -376,7 +362,6 @@ registered = 2023-03-04T20:13:16.000Z
 
             ["4.1.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "4.1.5"
         [["4.1.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -401,7 +386,6 @@ registered = 2023-10-02T22:37:31.000Z
 
             ["4.1.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "4.1.6"
         [["4.1.6+0".artifact_metadata.sources]]
         type = "directory"
@@ -426,7 +410,6 @@ registered = 2025-03-04T16:44:47.000Z
 
             ["4.1.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "4.1.8"
         [["4.1.8+0".artifact_metadata.sources]]
         type = "directory"
@@ -451,7 +434,6 @@ registered = 2025-04-01T16:09:44.000Z
 
             ["4.1.8+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "4.1.8"
         [["4.1.8+1".artifact_metadata.sources]]
         type = "directory"
@@ -476,7 +458,6 @@ registered = 2026-04-15T14:05:47.000Z
 
             ["4.1.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "4.1.8"
         [["4.1.9+0".artifact_metadata.sources]]
         type = "directory"
@@ -501,7 +482,6 @@ registered = 2026-10-02T22:24:53.000Z
 
             ["4.1.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "4.1.8"
         [["4.1.10+0".artifact_metadata.sources]]
         type = "directory"
@@ -530,7 +510,6 @@ registered = 2023-10-30T22:58:12.000Z
 
             ["5.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.0"
         [["5.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -555,7 +534,6 @@ registered = 2023-12-22T14:54:48.000Z
 
             ["5.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.1"
         [["5.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -580,7 +558,6 @@ registered = 2024-02-08T17:49:17.000Z
 
             ["5.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.2"
         [["5.0.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -605,7 +582,6 @@ registered = 2024-05-27T13:54:49.000Z
 
             ["5.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.3"
         [["5.0.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -630,7 +606,6 @@ registered = 2024-07-19T23:47:09.000Z
 
             ["5.0.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.4"
         [["5.0.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -655,7 +630,6 @@ registered = 2024-08-07T20:38:42.000Z
 
             ["5.0.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.5"
         [["5.0.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -680,7 +654,6 @@ registered = 2024-11-22T11:46:02.000Z
 
             ["5.0.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.6"
         [["5.0.6+0".artifact_metadata.sources]]
         type = "directory"
@@ -705,7 +678,6 @@ registered = 2025-02-19T16:37:30.000Z
 
             ["5.0.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.7"
         [["5.0.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -730,7 +702,6 @@ registered = 2025-03-07T21:22:13.000Z
 
             ["5.0.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.7"
         [["5.0.7+1".artifact_metadata.sources]]
         type = "directory"
@@ -755,7 +726,6 @@ registered = 2025-04-01T16:21:34.000Z
 
             ["5.0.7+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.7"
         [["5.0.7+2".artifact_metadata.sources]]
         type = "directory"
@@ -780,7 +750,6 @@ registered = 2025-06-14T19:37:13.000Z
 
             ["5.0.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "heuristic"
             version = "5.0.8"
         [["5.0.8+0".artifact_metadata.sources]]
         type = "directory"
@@ -805,7 +774,6 @@ registered = 2025-11-15T16:59:11.000Z
 
             ["5.0.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "5.0.9"
         [["5.0.9+0".artifact_metadata.sources]]
         type = "directory"
@@ -830,7 +798,6 @@ registered = 2026-02-25T22:58:46.000Z
 
             ["5.0.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "5.0.10"
         [["5.0.10+0".artifact_metadata.sources]]
         type = "directory"
@@ -855,7 +822,6 @@ registered = 2026-04-15T13:55:08.000Z
 
             ["5.0.11+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "5.0.10"
         [["5.0.11+0".artifact_metadata.sources]]
         type = "directory"
@@ -880,7 +846,6 @@ registered = 2026-09-21T13:36:53.000Z
 
             ["5.0.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "5.0.11"
         [["5.0.12+0".artifact_metadata.sources]]
         type = "directory"
@@ -905,7 +870,6 @@ registered = 2026-10-02T22:14:00.000Z
 
             ["5.0.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmpi"
-            provenance = "repology-url"
             version = "5.0.11"
         [["5.0.13+0".artifact_metadata.sources]]
         type = "directory"

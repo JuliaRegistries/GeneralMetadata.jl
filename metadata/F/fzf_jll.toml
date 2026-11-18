@@ -17,7 +17,6 @@ registered = 2020-07-04T23:14:30.000Z
 
             ["0.21.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.21.1"
 
 ["0.22.0+0"]
@@ -47,7 +46,6 @@ registered = 2020-10-28T17:29:02.000Z
 
             ["0.24.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.24.1"
 
 ["0.24.2+0"]
@@ -69,7 +67,6 @@ registered = 2020-11-03T23:58:24.000Z
 
             ["0.24.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.24.2"
 
 ["0.24.4+0"]
@@ -91,7 +88,6 @@ registered = 2020-12-21T19:50:29.000Z
 
             ["0.24.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.24.4"
 
 ["0.25.0+0"]
@@ -113,7 +109,6 @@ registered = 2021-02-02T16:31:28.000Z
 
             ["0.25.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.25.0"
 
 ["0.27.2+0"]
@@ -135,7 +130,6 @@ registered = 2021-06-29T08:14:10.000Z
 
             ["0.27.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.27.2"
 
 ["0.28.0+0"]
@@ -157,7 +151,6 @@ registered = 2021-11-23T17:17:21.000Z
 
             ["0.28.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.28.0"
 
 ["0.29.0+0"]
@@ -179,7 +172,6 @@ registered = 2022-01-11T11:15:23.000Z
 
             ["0.29.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.29.0"
 
 ["0.30.0+0"]
@@ -201,7 +193,6 @@ registered = 2022-04-12T20:29:06.000Z
 
             ["0.30.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.30.0"
 
 ["0.35.1+0"]
@@ -223,7 +214,6 @@ registered = 2022-12-14T13:20:42.000Z
 
             ["0.35.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.35.1"
 
 ["0.43.0+0"]
@@ -245,7 +235,6 @@ registered = 2023-11-07T11:09:30.000Z
 
             ["0.43.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.43.0"
 
 ["0.49.0+0"]
@@ -267,7 +256,6 @@ registered = 2024-04-04T16:45:30.000Z
 
             ["0.49.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.49.0"
 
 ["0.53.0+0"]
@@ -289,7 +277,6 @@ registered = 2024-07-02T10:32:22.000Z
 
             ["0.53.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.53.0"
 
 ["0.56.3+0"]
@@ -311,7 +298,6 @@ registered = 2024-11-22T13:44:51.000Z
 
             ["0.56.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.56.3"
 
 ["0.61.1+0"]
@@ -333,7 +319,6 @@ registered = 2025-04-17T09:21:21.000Z
 
             ["0.61.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.61.1"
 
 ["0.74.2+0"]
@@ -355,5 +340,4 @@ registered = 2026-08-12T03:53:54.000Z
 
             ["0.74.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fzf"
-            provenance = "git-tag"
             version = "0.74.2"

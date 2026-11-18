@@ -497,11 +497,6 @@ registered = 2026-06-04T03:46:45.000Z
         hash = "1bcc9b285074ded87b88faaedddb88e6b5d6c331dfcfb57d7f3393dd622b3764"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-7.1.0/llvm-7.1.0.src.tar.xz"
-
-            ["0.7.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "7.1.0"
         [["0.7.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e7afadb041f8faab6010cf962fba1b1c003fb248/L/LLVMDowngrader/bundled"
@@ -562,20 +557,10 @@ registered = 2026-06-09T11:07:28.000Z
         hash = "1bcc9b285074ded87b88faaedddb88e6b5d6c331dfcfb57d7f3393dd622b3764"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-7.1.0/llvm-7.1.0.src.tar.xz"
-
-            ["0.8.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "7.1.0"
         [["0.8.0+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-14.0.6.src.tar.xz"
-
-            ["0.8.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "14.0.6"
         [["0.8.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/de4f573ac673280e7c08f5556d43e96ffcf9a4cd/L/LLVMDowngrader/bundled"
@@ -611,20 +596,10 @@ registered = 2026-06-09T13:31:00.000Z
         hash = "1bcc9b285074ded87b88faaedddb88e6b5d6c331dfcfb57d7f3393dd622b3764"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-7.1.0/llvm-7.1.0.src.tar.xz"
-
-            ["0.8.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "7.1.0"
         [["0.8.1+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-14.0.6.src.tar.xz"
-
-            ["0.8.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "14.0.6"
         [["0.8.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6e580ae980e1afbd9730948ba0f9608c55b32495/L/LLVMDowngrader/bundled"
@@ -660,20 +635,10 @@ registered = 2026-07-24T10:48:22.000Z
         hash = "1bcc9b285074ded87b88faaedddb88e6b5d6c331dfcfb57d7f3393dd622b3764"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-7.1.0/llvm-7.1.0.src.tar.xz"
-
-            ["0.8.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "7.1.0"
         [["0.8.2+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-14.0.6.src.tar.xz"
-
-            ["0.8.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "14.0.6"
         [["0.8.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a7094d0b29d57691ac62ed5ee08ba12f6a686ecc/L/LLVMDowngrader/bundled"
@@ -709,20 +674,10 @@ registered = 2026-07-24T13:23:29.000Z
         hash = "1bcc9b285074ded87b88faaedddb88e6b5d6c331dfcfb57d7f3393dd622b3764"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-7.1.0/llvm-7.1.0.src.tar.xz"
-
-            ["0.8.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "7.1.0"
         [["0.8.3+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-14.0.6.src.tar.xz"
-
-            ["0.8.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "14.0.6"
         [["0.8.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/59d266e9c5b863ba8fdb0eec3eb54c4d4dff09d5/L/LLVMDowngrader/bundled"
@@ -758,29 +713,14 @@ registered = 2026-08-15T09:29:57.000Z
         hash = "1bcc9b285074ded87b88faaedddb88e6b5d6c331dfcfb57d7f3393dd622b3764"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-7.1.0/llvm-7.1.0.src.tar.xz"
-
-            ["0.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "7.1.0"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-14.0.6.src.tar.xz"
-
-            ["0.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "14.0.6"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "4ad8b2cc8003c86d0078d15d987d84e3a739f24aae9033865c027abae93ee7a4"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/llvm-15.0.7.src.tar.xz"
-
-            ["0.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "15.0.7"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "8986f29b634fdaa9862eedda78513969fe9788301c9f2d938f4c10a3e7a3e7ea"
         type = "archive"
@@ -792,7 +732,6 @@ registered = 2026-08-15T09:29:57.000Z
 
             ["0.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "repology-url"
             version = "18.1.8"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "59badef592dd34893cd319d42b323aaa990b452d05c7180ff20f23ab1b41e837"
@@ -833,29 +772,14 @@ registered = 2026-08-20T02:43:52.000Z
         hash = "1bcc9b285074ded87b88faaedddb88e6b5d6c331dfcfb57d7f3393dd622b3764"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-7.1.0/llvm-7.1.0.src.tar.xz"
-
-            ["0.9.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "7.1.0"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-14.0.6.src.tar.xz"
-
-            ["0.9.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "14.0.6"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "4ad8b2cc8003c86d0078d15d987d84e3a739f24aae9033865c027abae93ee7a4"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/llvm-15.0.7.src.tar.xz"
-
-            ["0.9.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "15.0.7"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "8986f29b634fdaa9862eedda78513969fe9788301c9f2d938f4c10a3e7a3e7ea"
         type = "archive"
@@ -867,7 +791,6 @@ registered = 2026-08-20T02:43:52.000Z
 
             ["0.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "repology-url"
             version = "18.1.8"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "59badef592dd34893cd319d42b323aaa990b452d05c7180ff20f23ab1b41e837"

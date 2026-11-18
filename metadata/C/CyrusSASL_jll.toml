@@ -21,7 +21,6 @@ registered = 2023-03-30T19:22:33.000Z
 
             ["2.1.28+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cyrus-sasl"
-            provenance = "repology-url"
             version = "2.1.28"
         [["2.1.28+0".artifact_metadata.sources]]
         type = "directory"
@@ -46,7 +45,6 @@ registered = 2023-10-26T21:40:02.000Z
 
             ["2.1.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cyrus-sasl"
-            provenance = "repology-url"
             version = "2.1.28"
         [["2.1.29+0".artifact_metadata.sources]]
         type = "directory"

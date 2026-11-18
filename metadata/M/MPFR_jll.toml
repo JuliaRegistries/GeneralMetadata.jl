@@ -20,7 +20,6 @@ registered = 2019-11-13T00:34:08.000Z
 
             ["4.0.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.0.2"
 
 ["4.0.2+2"]
@@ -41,7 +40,6 @@ registered = 2019-12-13T00:07:18.000Z
 
             ["4.0.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.0.2"
 
 ["4.0.2+3"]
@@ -64,7 +62,6 @@ yanked = 2020-10-19T07:24:59.000Z
 
             ["4.0.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.0"
 
 ["4.0.2+4"]
@@ -85,7 +82,6 @@ registered = 2020-10-21T00:24:59.000Z
 
             ["4.0.2+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.0.2"
 
 ["4.1.0+0"]
@@ -107,7 +103,6 @@ registered = 2020-07-25T11:07:29.000Z
 
             ["4.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.0"
 
 ["4.1.0+1"]
@@ -129,7 +124,6 @@ registered = 2020-07-31T18:05:06.000Z
 
             ["4.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.0"
 
 ["4.1.1+0"]
@@ -151,7 +145,6 @@ registered = 2020-11-03T01:57:48.000Z
 
             ["4.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.0"
 
 ["4.1.1+1"]
@@ -173,7 +166,6 @@ registered = 2021-02-17T21:20:00.000Z
 
             ["4.1.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.0"
 
 ["4.1.1+2"]
@@ -195,7 +187,6 @@ registered = 2021-08-12T22:58:22.000Z
 
             ["4.1.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.0"
 
 ["4.1.1+3"]
@@ -217,7 +208,6 @@ registered = 2022-09-09T23:04:13.000Z
 
             ["4.1.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.0"
         [["4.1.1+3".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -242,7 +232,6 @@ registered = 2022-11-21T18:52:40.000Z
 
             ["4.1.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+4".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -267,7 +256,6 @@ registered = 2024-09-27T19:24:35.000Z
 
             ["4.1.1+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+5".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -292,7 +280,6 @@ registered = 2025-07-08T21:22:32.000Z
 
             ["4.1.1+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.1.1"
         [["4.1.1+6".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -317,7 +304,6 @@ registered = 2023-01-06T23:35:34.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.2.0"
         [["4.2.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -342,7 +328,6 @@ registered = 2023-08-05T18:45:43.000Z
 
             ["4.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.2.0"
         [["4.2.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -367,7 +352,6 @@ registered = 2025-07-09T14:00:43.000Z
 
             ["4.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.2.0"
         [["4.2.0+2".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -392,7 +376,6 @@ registered = 2024-06-30T22:58:46.000Z
 
             ["4.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.2.1"
         [["4.2.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -417,7 +400,6 @@ registered = 2024-09-16T22:05:16.000Z
 
             ["4.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.2.1"
         [["4.2.1+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -442,7 +424,6 @@ registered = 2025-01-13T02:55:00.000Z
 
             ["4.2.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "heuristic"
             version = "4.2.1"
         [["4.2.1+2".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -467,7 +448,6 @@ registered = 2025-03-22T21:55:43.000Z
 
             ["4.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.2.2"
         [["4.2.2+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -492,7 +472,6 @@ registered = 2026-08-04T16:39:10.000Z
 
             ["4.2.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpfr"
-            provenance = "repology-url"
             version = "4.2.2"
         [["4.2.2+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"

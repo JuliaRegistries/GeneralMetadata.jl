@@ -17,7 +17,6 @@ registered = 2021-01-03T23:11:53.000Z
 
             ["1.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/flann"
-            provenance = "repology-url"
             version = "1.9.1"
         [["1.9.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,5 +41,4 @@ registered = 2025-06-15T22:23:01.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/flann"
-            provenance = "git-tag"
             version = "1.9.2"

@@ -16,7 +16,6 @@ registered = 2019-11-26T23:41:15.000Z
 
             ["0.28.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "0.28.2"
         [["0.28.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -40,7 +39,6 @@ registered = 2019-12-13T00:07:56.000Z
 
             ["0.28.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "0.28.2"
         [["0.28.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -65,7 +63,6 @@ registered = 2020-05-28T23:11:03.000Z
 
             ["0.28.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "0.28.5"
         [["0.28.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -90,7 +87,6 @@ registered = 2020-07-14T17:40:15.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -115,7 +111,6 @@ registered = 2020-08-06T17:46:28.000Z
 
             ["1.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.0.1"
         [["1.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -140,7 +135,6 @@ registered = 2020-11-04T02:00:51.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -165,7 +159,6 @@ registered = 2021-01-19T20:48:11.000Z
 
             ["1.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -190,7 +183,6 @@ registered = 2021-01-19T23:32:54.000Z
 
             ["1.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.2.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -215,7 +207,6 @@ registered = 2021-01-22T17:33:40.000Z
 
             ["1.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.2.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -240,7 +231,6 @@ registered = 2021-02-19T23:38:09.000Z
 
             ["1.2.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.2.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -265,7 +255,6 @@ registered = 2021-02-22T23:30:17.000Z
 
             ["1.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.2.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -290,7 +279,6 @@ registered = 2021-08-12T23:19:17.000Z
 
             ["1.2.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.2.3+1".artifact_metadata.sources]]
         type = "directory"
@@ -315,7 +303,6 @@ registered = 2022-02-08T17:27:34.000Z
 
             ["1.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.3.0"
         [["1.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -340,7 +327,6 @@ registered = 2022-05-21T17:41:01.000Z
 
             ["1.4.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.4.3"
         [["1.4.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -365,7 +351,6 @@ registered = 2022-05-22T11:24:42.000Z
 
             ["1.4.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.4.3"
         [["1.4.3+1".artifact_metadata.sources]]
         type = "directory"
@@ -390,7 +375,6 @@ registered = 2022-06-20T19:41:36.000Z
 
             ["1.4.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.4.3"
         [["1.4.3+2".artifact_metadata.sources]]
         type = "directory"
@@ -415,7 +399,6 @@ registered = 2022-08-29T20:29:42.000Z
 
             ["1.4.3+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.4.3"
         [["1.4.3+3".artifact_metadata.sources]]
         type = "directory"
@@ -443,7 +426,6 @@ registered = 2022-10-27T19:33:43.000Z
 
             ["1.4.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.4.4"
         [["1.4.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -471,7 +453,6 @@ registered = 2022-10-27T20:07:52.000Z
 
             ["1.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.5.0"
         [["1.5.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -499,7 +480,6 @@ registered = 2022-11-01T23:07:16.000Z
 
             ["1.5.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.5.0"
         [["1.5.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -527,7 +507,6 @@ registered = 2023-02-25T13:10:24.000Z
 
             ["1.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "repository"
         [["1.6.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"
@@ -551,7 +530,6 @@ registered = 2023-02-25T20:45:10.000Z
 
             ["1.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.6.1"
         [["1.6.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -576,7 +554,6 @@ registered = 2023-08-05T20:47:46.000Z
 
             ["1.6.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.6.4"
         [["1.6.4+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -601,7 +578,6 @@ registered = 2023-09-09T00:58:52.000Z
 
             ["1.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.7.1"
         [["1.7.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -626,7 +602,6 @@ registered = 2024-02-12T16:14:37.000Z
 
             ["1.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.7.2"
         [["1.7.2+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -651,7 +626,6 @@ registered = 2024-03-25T15:32:43.000Z
 
             ["1.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.8.0"
         [["1.8.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -676,7 +650,6 @@ registered = 2024-03-30T16:51:28.000Z
 
             ["1.8.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.8.0"
         [["1.8.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -701,7 +674,6 @@ registered = 2024-04-01T09:58:32.000Z
 
             ["1.8.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.8.0"
         [["1.8.0+2".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -726,7 +698,6 @@ registered = 2024-04-01T17:34:39.000Z
 
             ["1.8.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.8.0"
         [["1.8.0+3".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -751,7 +722,6 @@ registered = 2024-11-22T22:53:30.000Z
 
             ["1.8.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.8.4"
         [["1.8.4+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -776,7 +746,6 @@ registered = 2024-12-26T18:59:56.000Z
 
             ["1.8.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.8.4"
         [["1.8.4+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -801,7 +770,6 @@ registered = 2025-01-04T23:19:42.000Z
 
             ["1.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.9.0"
         [["1.9.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -826,7 +794,6 @@ registered = 2025-06-14T17:36:09.000Z
 
             ["1.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.9.1"
         [["1.9.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -851,7 +818,6 @@ registered = 2025-12-11T18:32:47.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.9.2"
         [["1.9.2+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -876,7 +842,6 @@ registered = 2026-05-05T15:49:28.000Z
 
             ["1.9.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.9.3"
         [["1.9.3+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -901,7 +866,6 @@ registered = 2026-05-23T00:22:30.000Z
 
             ["1.9.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.9.4"
         [["1.9.4+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -926,7 +890,6 @@ registered = 2026-07-21T13:52:27.000Z
 
             ["1.9.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.9.6"
         [["1.9.6+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -951,7 +914,6 @@ registered = 2026-08-15T15:26:58.000Z
 
             ["1.9.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgit2"
-            provenance = "git-tag"
             version = "1.9.7"
         [["1.9.7+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"

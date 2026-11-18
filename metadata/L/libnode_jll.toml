@@ -17,7 +17,6 @@ registered = 2021-07-18T22:31:24.000Z
 
             ["14.17.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs"
-            provenance = "heuristic"
             version = "14.17.3"
 
 ["16.14.0+0"]
@@ -39,7 +38,6 @@ registered = 2022-03-05T02:24:30.000Z
 
             ["16.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs"
-            provenance = "heuristic"
             version = "16.14.0"
         [["16.14.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -64,7 +62,6 @@ registered = 2022-08-24T13:52:31.000Z
 
             ["16.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs"
-            provenance = "heuristic"
             version = "16.17.0"
         [["16.17.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -89,7 +86,6 @@ registered = 2022-11-15T04:40:36.000Z
 
             ["18.12.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs"
-            provenance = "heuristic"
             version = "18.12.1"
         [["18.12.1+0".artifact_metadata.sources]]
         hash = "675d4b4b335db8d1ab047ea55e09488e0b1c51008f42ee09e4ef7cbca978b2ff"

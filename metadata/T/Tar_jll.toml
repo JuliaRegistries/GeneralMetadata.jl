@@ -16,7 +16,6 @@ registered = 2020-01-22T22:46:19.000Z
 
             ["1.32.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tar"
-            provenance = "repology-url"
             version = "1.32"
 
 ["1.34.0+0"]
@@ -39,7 +38,6 @@ yanked = 2022-01-29T00:00:32.000Z
 
             ["1.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tar"
-            provenance = "heuristic"
             version = "1.34"
 
 ["1.34.0+1"]
@@ -61,7 +59,6 @@ registered = 2022-01-29T00:00:32.000Z
 
             ["1.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tar"
-            provenance = "heuristic"
             version = "1.34"
 
 ["1.35.0+0"]
@@ -83,5 +80,4 @@ registered = 2023-09-08T19:17:51.000Z
 
             ["1.35.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tar"
-            provenance = "repology-url"
             version = "1.35"

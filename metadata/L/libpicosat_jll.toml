@@ -17,7 +17,6 @@ registered = 2023-12-29T02:44:43.000Z
 
             ["965.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/picosat"
-            provenance = "repology-url"
             version = "965"
         [["965.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,7 +41,6 @@ registered = 2025-07-29T11:38:02.000Z
 
             ["965.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/picosat"
-            provenance = "repology-url"
             version = "965"
         [["965.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -67,7 +65,6 @@ registered = 2026-08-17T19:06:37.000Z
 
             ["965.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/picosat"
-            provenance = "repology-url"
             version = "965"
         [["965.0.2+0".artifact_metadata.sources]]
         type = "directory"

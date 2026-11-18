@@ -21,7 +21,6 @@ registered = 2020-04-02T05:09:32.000Z
 
             ["1.36.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "heuristic"
             version = "1.36"
         [["1.36.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -46,7 +45,6 @@ registered = 2020-08-26T19:33:59.000Z
 
             ["1.36.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "heuristic"
             version = "1.36"
         [["1.36.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -71,7 +69,6 @@ registered = 2020-10-16T19:31:08.000Z
 
             ["1.36.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "heuristic"
             version = "1.36"
         [["1.36.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -96,7 +93,6 @@ registered = 2021-05-23T00:16:30.000Z
 
             ["1.42.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "heuristic"
             version = "1.42"
         [["1.42.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -121,7 +117,6 @@ registered = 2024-05-03T18:11:59.000Z
 
             ["1.49.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "heuristic"
             version = "1.49"
         [["1.49.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -146,7 +141,6 @@ registered = 2024-10-24T20:04:01.000Z
 
             ["1.50.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.50"
         [["1.50.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -171,7 +165,6 @@ registered = 2024-12-19T18:18:30.000Z
 
             ["1.51.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.51"
         [["1.51.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -196,7 +189,6 @@ registered = 2024-12-27T17:22:05.000Z
 
             ["1.51.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.51"
         [["1.51.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -221,7 +213,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["1.51.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.51"
         [["1.51.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -246,7 +237,6 @@ registered = 2025-01-02T15:49:49.000Z
 
             ["1.51.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.51"
         [["1.51.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -271,7 +261,6 @@ registered = 2025-12-11T20:57:03.000Z
 
             ["1.57.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "heuristic"
             version = "1.57"
         [["1.57.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -296,7 +285,6 @@ registered = 2025-12-28T17:49:03.000Z
 
             ["1.58.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.58"
         [["1.58.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -321,7 +309,6 @@ registered = 2026-03-26T19:20:08.000Z
 
             ["1.59.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.59"
         [["1.59.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -346,7 +333,6 @@ registered = 2026-05-07T15:09:59.000Z
 
             ["1.60.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.60"
         [["1.60.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -371,7 +357,6 @@ registered = 2026-09-12T02:22:39.000Z
 
             ["1.61.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libgpg-error"
-            provenance = "repology-url"
             version = "1.61"
         [["1.61.0+0".artifact_metadata.sources]]
         type = "directory"

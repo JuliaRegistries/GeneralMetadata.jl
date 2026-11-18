@@ -16,8 +16,7 @@ registered = 2021-04-04T10:59:58.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.2/submodules/qtdeclarative-everywhere-src-5.15.2.tar.xz"
 
             ["5.15.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt"
             version = "5.15.2"
 
 ["5.15.3+0"]
@@ -38,6 +37,5 @@ registered = 2022-04-21T21:16:18.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.3/submodules/qtdeclarative-everywhere-opensource-src-5.15.3.tar.xz"
 
             ["5.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtdeclarative"
-            provenance = "url-pattern"
+            project = "repology.org/project/qt5declarative"
             version = "5.15.3"

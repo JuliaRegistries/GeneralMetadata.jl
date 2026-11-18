@@ -17,4 +17,3 @@ registered = 2024-08-26T11:57:38.000Z
 
             ["1.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rapidjson"
-            provenance = "repository"

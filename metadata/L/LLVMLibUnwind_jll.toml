@@ -17,7 +17,6 @@ registered = 2021-01-06T00:24:03.000Z
 
             ["11.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
             version = "11.0.0"
 
 ["11.0.0+1"]
@@ -39,7 +38,6 @@ registered = 2021-02-16T21:38:41.000Z
 
             ["11.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["11.0.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -64,7 +62,6 @@ registered = 2021-02-17T17:34:22.000Z
 
             ["11.0.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["11.0.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -89,7 +86,6 @@ registered = 2021-02-16T22:25:38.000Z
 
             ["11.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
             version = "11.0.1"
         [["11.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -114,7 +110,6 @@ registered = 2021-02-17T16:51:36.000Z
 
             ["11.0.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
             version = "11.0.1"
         [["11.0.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -139,7 +134,6 @@ registered = 2021-08-21T20:47:34.000Z
 
             ["12.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
             version = "12.0.1"
         [["12.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -168,7 +162,6 @@ registered = 2022-12-30T22:18:08.000Z
 
             ["14.0.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "repology-url"
             version = "14.0.6"
         [["14.0.6+0".artifact_metadata.sources]]
         type = "directory"
@@ -190,11 +183,6 @@ registered = 2024-11-24T15:10:45.000Z
         hash = "74446ab6943f686391954cbda0d77ae92e8a60c432eff437b8666e121d748ec4"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.7/llvm-project-18.1.7.src.tar.xz"
-
-            ["18.1.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "18.1.7"
         [["18.1.7+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6ab26bdf8016491c6c48e3795e473c54185a0a1d/L/LLVMLibUnwind/LLVMLibUnwind@18.1.7/bundled"
@@ -215,11 +203,6 @@ registered = 2024-11-24T18:24:42.000Z
         hash = "3aa2d2d2c7553164ad5c6f3b932b31816e422635e18620c9349a7da95b98d811"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.4/llvm-project-19.1.4.src.tar.xz"
-
-            ["19.1.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "heuristic"
-            version = "19.1.4"
         [["19.1.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4e594336301d910321c132437b381e7bcc519167/L/LLVMLibUnwind/LLVMLibUnwind@19.1.4/bundled"

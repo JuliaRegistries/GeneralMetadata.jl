@@ -16,7 +16,6 @@ registered = 2019-10-14T18:35:21.000Z
 
             ["1.14.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/recordproto"
-            provenance = "repology-url"
             version = "1.14.2"
 
 ["1.14.2+1"]
@@ -38,5 +37,4 @@ registered = 2023-05-20T17:01:16.000Z
 
             ["1.14.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/recordproto"
-            provenance = "repology-url"
             version = "1.14.2"

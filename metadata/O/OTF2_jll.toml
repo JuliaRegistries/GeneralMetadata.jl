@@ -17,7 +17,6 @@ registered = 2024-07-13T14:19:53.000Z
 
             ["3.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/otf2"
-            provenance = "heuristic"
             version = "3.0.3"
 
 ["3.0.3+1"]
@@ -39,5 +38,4 @@ registered = 2024-07-13T15:36:21.000Z
 
             ["3.0.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/otf2"
-            provenance = "heuristic"
             version = "3.0.3"

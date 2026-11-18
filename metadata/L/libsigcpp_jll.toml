@@ -17,7 +17,6 @@ registered = 2023-05-03T13:33:41.000Z
 
             ["2.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsigc++"
-            provenance = "heuristic"
             version = "2.12.0"
 
 ["2.12.0+1"]
@@ -39,7 +38,6 @@ registered = 2023-05-03T15:01:13.000Z
 
             ["2.12.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsigc++"
-            provenance = "heuristic"
             version = "2.12.0"
 
 ["3.0.7+0"]
@@ -61,7 +59,6 @@ registered = 2021-08-19T10:20:28.000Z
 
             ["3.0.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsigc++"
-            provenance = "heuristic"
             version = "3.0.7"
 
 ["3.4.0+0"]
@@ -83,7 +80,6 @@ registered = 2023-05-03T13:00:22.000Z
 
             ["3.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsigc++"
-            provenance = "heuristic"
             version = "3.4.0"
 
 ["3.4.0+1"]
@@ -105,7 +101,6 @@ registered = 2023-05-03T14:46:54.000Z
 
             ["3.4.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsigc++"
-            provenance = "heuristic"
             version = "3.4.0"
 
 ["3.6.0+0"]
@@ -127,5 +122,4 @@ registered = 2026-05-04T02:20:17.000Z
 
             ["3.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsigc++"
-            provenance = "repology-url"
             version = "3.6.0"

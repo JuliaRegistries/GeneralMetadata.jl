@@ -17,7 +17,6 @@ registered = 2023-03-06T21:42:52.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "repology-url"
             version = "1.9.2"
 
 ["1.10.1+0"]
@@ -39,7 +38,6 @@ registered = 2024-02-15T17:11:21.000Z
 
             ["1.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "tag-scheme"
             version = "1.10.1"
 
 ["1.11.1+0"]
@@ -61,7 +59,6 @@ registered = 2024-10-16T10:21:09.000Z
 
             ["1.11.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "repository"
 
 ["1.11.2+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libzip_jll.jl/releases/download/libzip-v1.11.2+0/libzip.v1.11.2.x86_64-w64-mingw32.tar.gz"]
@@ -82,7 +79,6 @@ registered = 2024-11-22T11:46:16.000Z
 
             ["1.11.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "git-tag"
             version = "1.11.2"
 
 ["1.11.2+1"]
@@ -104,7 +100,6 @@ registered = 2024-12-26T19:00:09.000Z
 
             ["1.11.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "git-tag"
             version = "1.11.2"
 
 ["1.11.2+2"]
@@ -126,7 +121,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["1.11.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "git-tag"
             version = "1.11.2"
 
 ["1.11.3+0"]
@@ -148,7 +142,6 @@ registered = 2025-02-04T03:29:02.000Z
 
             ["1.11.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "git-tag"
             version = "1.11.3"
 
 ["1.11.4+0"]
@@ -170,7 +163,6 @@ registered = 2026-09-02T14:26:22.000Z
 
             ["1.11.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libzip"
-            provenance = "git-tag"
             version = "1.11.4"
 
 ["1.12.1+0"]

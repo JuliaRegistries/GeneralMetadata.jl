@@ -16,7 +16,6 @@ registered = 2019-10-14T18:14:42.000Z
 
             ["2.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/inputproto"
-            provenance = "repology-url"
             version = "2.3.2"
 
 ["2.3.2+1"]
@@ -38,7 +37,6 @@ registered = 2020-04-02T05:21:56.000Z
 
             ["2.3.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/inputproto"
-            provenance = "repology-url"
             version = "2.3.2"
 
 ["2.3.3+0"]
@@ -60,5 +58,4 @@ registered = 2025-04-23T21:10:45.000Z
 
             ["2.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/inputproto"
-            provenance = "repology-url"
             version = "2.3.2"

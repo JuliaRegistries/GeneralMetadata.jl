@@ -17,7 +17,6 @@ registered = 2022-07-12T00:08:05.000Z
 
             ["0.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "repository"
 
 ["0.2.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/MParT_jll.jl/releases/download/MParT-v0.2.0+0/MParT.v0.2.0.x86_64-unknown-freebsd.tar.gz"]
@@ -38,7 +37,6 @@ registered = 2022-07-28T16:21:41.000Z
 
             ["0.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "0.2-beta"
         [["0.2.0+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -63,7 +61,6 @@ registered = 2022-08-04T20:16:16.000Z
 
             ["0.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "0.2.1-beta"
         [["0.2.1+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -88,7 +85,6 @@ registered = 2022-08-16T21:05:00.000Z
 
             ["0.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "0.3.1-beta"
         [["0.3.1+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -113,7 +109,6 @@ registered = 2022-08-24T13:40:58.000Z
 
             ["0.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "0.3.3-beta"
         [["0.3.3+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -138,7 +133,6 @@ registered = 2022-09-12T21:01:00.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -163,7 +157,6 @@ registered = 2022-09-14T12:56:04.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.1.0+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -188,7 +181,6 @@ registered = 2022-10-31T18:45:36.000Z
 
             ["1.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "1.2.0"
         [["1.2.0+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -213,7 +205,6 @@ registered = 2022-11-18T15:30:29.000Z
 
             ["1.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "1.2.0"
         [["1.2.0+1".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -238,7 +229,6 @@ registered = 2023-04-14T22:42:43.000Z
 
             ["2.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "1.5.0"
         [["2.0.2+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -263,7 +253,6 @@ registered = 2023-08-03T13:59:10.000Z
 
             ["2.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "2.1.0"
         [["2.1.0+0".artifact_metadata.sources]]
         package = "Eigen_jll"
@@ -291,7 +280,6 @@ registered = 2024-01-29T23:10:55.000Z
 
             ["2.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "2.2.1"
         [["2.2.1+0".artifact_metadata.sources]]
         package = "Eigen_jll"
@@ -319,7 +307,6 @@ registered = 2024-01-30T08:04:00.000Z
 
             ["2.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "2.2.1"
         [["2.2.2+0".artifact_metadata.sources]]
         package = "Eigen_jll"
@@ -347,7 +334,6 @@ registered = 2024-02-28T17:56:43.000Z
 
             ["2.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:mpart"
-            provenance = "git-tag"
             version = "2.2.2"
         [["2.2.3+0".artifact_metadata.sources]]
         package = "Eigen_jll"

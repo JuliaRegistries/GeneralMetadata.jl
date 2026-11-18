@@ -135,7 +135,6 @@ registered = 2026-01-29T18:16:53.000Z
 
             ["3.1.22+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mariadb-connector-odbc"
-            provenance = "heuristic"
             version = "3.1.22"
         [["3.1.22+0".artifact_metadata.sources]]
         type = "directory"

@@ -83,7 +83,6 @@ registered = 2023-05-15T13:41:52.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.3.0+0".artifact_metadata.sources]]
         hash = "a14a95a92e1a358e58b1a544f00c413508308b70"
         type = "git"
@@ -91,7 +90,6 @@ registered = 2023-05-15T13:41:52.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.3.0+0".artifact_metadata.sources]]
         hash = "828bdebefa56d34d72a3fe7bb59e53f13953ecaf"
         type = "git"
@@ -99,7 +97,6 @@ registered = 2023-05-15T13:41:52.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.3.0+0".artifact_metadata.sources]]
         hash = "60c0cb0078658e0bc33d93724ffbe70ed4be6c51"
         type = "git"
@@ -107,7 +104,6 @@ registered = 2023-05-15T13:41:52.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.3.0+0".artifact_metadata.sources]]
         hash = "e82ecc2bd7295604fcf1824e47c95fa6a09c6e63"
         type = "git"
@@ -115,7 +111,6 @@ registered = 2023-05-15T13:41:52.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.3.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
         type = "builddependency"
@@ -142,7 +137,6 @@ registered = 2024-02-27T13:13:29.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.4.0+0".artifact_metadata.sources]]
         hash = "e7f5440a40117cc11799b9306c7ea489b8596e55"
         type = "git"
@@ -150,7 +144,6 @@ registered = 2024-02-27T13:13:29.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.4.0+0".artifact_metadata.sources]]
         hash = "6b82481abc6df8de5b67c72ba1da57bcb58b75b0"
         type = "git"
@@ -158,7 +151,6 @@ registered = 2024-02-27T13:13:29.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.4.0+0".artifact_metadata.sources]]
         hash = "d1c69c3365dffed67124eb1692cb941cbae5bb2e"
         type = "git"
@@ -166,7 +158,6 @@ registered = 2024-02-27T13:13:29.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["0.4.0+0".artifact_metadata.sources]]
         hash = "52b3a5f12d23ce0145fc8e0b8882e5d9bb31c664"
         type = "git"
@@ -174,8 +165,6 @@ registered = 2024-02-27T13:13:29.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
-            version = "17.0.0"
         [["0.4.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
         type = "builddependency"
@@ -202,7 +191,6 @@ registered = 2024-06-15T19:57:19.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "13.0.1"
         [["0.5.0+0".artifact_metadata.sources]]
         hash = "62f5b09b11b1da42274371b1f7535f6f2ab11485"
@@ -211,7 +199,6 @@ registered = 2024-06-15T19:57:19.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "14.0.1"
         [["0.5.0+0".artifact_metadata.sources]]
         hash = "0f9ad6622b1bf308facf35073c91c738b34081ba"
@@ -220,7 +207,6 @@ registered = 2024-06-15T19:57:19.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "15.0.1"
         [["0.5.0+0".artifact_metadata.sources]]
         hash = "0b107dbf421593ed6f201ea2b7976e9456bc6bd3"
@@ -229,7 +215,6 @@ registered = 2024-06-15T19:57:19.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "16.0.1"
         [["0.5.0+0".artifact_metadata.sources]]
         hash = "38e0a0dda82ab2807d7064b34bd7e81034ef3837"
@@ -238,7 +223,6 @@ registered = 2024-06-15T19:57:19.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "17.0.1"
         [["0.5.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -266,7 +250,6 @@ registered = 2024-09-10T05:44:32.000Z
 
             ["0.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "15.0.4"
         [["0.6.0+0".artifact_metadata.sources]]
         hash = "1f9e0e36d8917cece7593771304d8db0bcd9f614"
@@ -275,7 +258,6 @@ registered = 2024-09-10T05:44:32.000Z
 
             ["0.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "16.0.4"
         [["0.6.0+0".artifact_metadata.sources]]
         hash = "3aa5bcd0c60a2c05b3a045339b2ef001465961ec"
@@ -284,7 +266,6 @@ registered = 2024-09-10T05:44:32.000Z
 
             ["0.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "17.0.4"
         [["0.6.0+0".artifact_metadata.sources]]
         hash = "242df2cb83e2322b456990fb0ca3e30bd9209ed0"
@@ -293,7 +274,6 @@ registered = 2024-09-10T05:44:32.000Z
 
             ["0.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "18.1.4"
         [["0.6.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -321,7 +301,6 @@ registered = 2024-11-12T17:13:52.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "15.0.6"
         [["0.7.0+0".artifact_metadata.sources]]
         hash = "b786f8c31eead5788ac8ca33ccedf29a4a7faedf"
@@ -330,7 +309,6 @@ registered = 2024-11-12T17:13:52.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "16.0.6"
         [["0.7.0+0".artifact_metadata.sources]]
         hash = "27bbf0fa898b6945dbd097dfd1e87b4f4becb19a"
@@ -339,7 +317,6 @@ registered = 2024-11-12T17:13:52.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "17.0.6"
         [["0.7.0+0".artifact_metadata.sources]]
         hash = "7515735e387c65cbb7821a78f122cfd89115a779"
@@ -348,7 +325,6 @@ registered = 2024-11-12T17:13:52.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "18.1.6"
         [["0.7.0+0".artifact_metadata.sources]]
         hash = "90a976491d3847657396456e0e94d7dc48d35996"
@@ -357,7 +333,6 @@ registered = 2024-11-12T17:13:52.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "19.1.1"
         [["0.7.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -385,7 +360,6 @@ registered = 2025-03-06T18:52:20.000Z
 
             ["0.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "15.0.6"
         [["0.7.1+0".artifact_metadata.sources]]
         hash = "b786f8c31eead5788ac8ca33ccedf29a4a7faedf"
@@ -394,7 +368,6 @@ registered = 2025-03-06T18:52:20.000Z
 
             ["0.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "16.0.6"
         [["0.7.1+0".artifact_metadata.sources]]
         hash = "27bbf0fa898b6945dbd097dfd1e87b4f4becb19a"
@@ -403,7 +376,6 @@ registered = 2025-03-06T18:52:20.000Z
 
             ["0.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "17.0.6"
         [["0.7.1+0".artifact_metadata.sources]]
         hash = "7515735e387c65cbb7821a78f122cfd89115a779"
@@ -412,7 +384,6 @@ registered = 2025-03-06T18:52:20.000Z
 
             ["0.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "18.1.6"
         [["0.7.1+0".artifact_metadata.sources]]
         hash = "90a976491d3847657396456e0e94d7dc48d35996"
@@ -421,7 +392,6 @@ registered = 2025-03-06T18:52:20.000Z
 
             ["0.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "19.1.1"
         [["0.7.1+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"

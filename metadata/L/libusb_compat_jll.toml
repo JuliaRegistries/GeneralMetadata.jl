@@ -14,8 +14,3 @@ registered = 2023-09-12T13:37:43.000Z
         hash = "3e8a88d296b5405902c22d2ada61937bd9a89415"
         type = "git"
         url = "https://github.com/libusb/libusb-compat-0.1.git"
-
-            ["0.18.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libusb-compat"
-            provenance = "git-tag"
-            version = "0.1.8"

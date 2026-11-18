@@ -615,7 +615,6 @@ registered = 2023-05-24T23:53:45.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "heuristic"
             version = "1.14.0"
         [["1.14.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -660,7 +659,6 @@ registered = 2023-07-30T14:38:24.000Z
 
             ["1.14.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "repology-url"
             version = "1.14.1"
         [["1.14.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -705,7 +703,6 @@ registered = 2023-09-01T09:42:36.000Z
 
             ["1.14.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "heuristic"
             version = "1.14.2"
         [["1.14.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -750,7 +747,6 @@ registered = 2023-09-07T09:08:33.000Z
 
             ["1.14.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "heuristic"
             version = "1.14.2"
         [["1.14.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -795,7 +791,6 @@ registered = 2024-01-08T20:32:33.000Z
 
             ["1.14.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "heuristic"
             version = "1.14.3"
         [["1.14.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -820,7 +815,6 @@ registered = 2024-01-24T16:25:58.000Z
 
             ["1.14.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "heuristic"
             version = "1.14.3"
         [["1.14.3+1".artifact_metadata.sources]]
         type = "directory"
@@ -845,7 +839,6 @@ registered = 2024-04-03T20:02:51.000Z
 
             ["1.14.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "heuristic"
             version = "1.14.3"
         [["1.14.3+2".artifact_metadata.sources]]
         type = "directory"
@@ -870,7 +863,6 @@ registered = 2024-04-09T23:09:32.000Z
 
             ["1.14.3+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "heuristic"
             version = "1.14.3"
         [["1.14.3+3".artifact_metadata.sources]]
         type = "directory"
@@ -935,7 +927,6 @@ registered = 2025-11-25T23:50:56.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "tag-scheme"
             version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -964,7 +955,6 @@ registered = 2025-11-26T12:08:14.000Z
 
             ["2.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "tag-scheme"
             version = "2.0.0"
         [["2.0.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -993,7 +983,6 @@ registered = 2025-12-05T22:25:25.000Z
 
             ["2.0.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "tag-scheme"
             version = "2.0.0"
         [["2.0.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -1022,7 +1011,6 @@ registered = 2026-02-23T16:14:28.000Z
 
             ["2.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "tag-scheme"
             version = "2.0.0"
         [["2.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -1051,7 +1039,6 @@ registered = 2026-03-10T20:51:14.000Z
 
             ["2.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "tag-scheme"
             version = "2.1.0"
         [["2.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1080,7 +1067,6 @@ registered = 2026-03-16T15:49:11.000Z
 
             ["2.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "tag-scheme"
             version = "2.1.0"
         [["2.1.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -1109,7 +1095,6 @@ registered = 2026-03-27T18:16:31.000Z
 
             ["2.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "tag-scheme"
             version = "2.1.1"
         [["2.1.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -1138,7 +1123,6 @@ registered = 2026-08-03T13:24:55.000Z
 
             ["2.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "repology-url"
             version = "2.2.0"
         [["2.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1167,7 +1151,6 @@ registered = 2026-08-15T23:39:25.000Z
 
             ["2.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "repology-url"
             version = "2.2.0"
         [["2.2.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -1196,7 +1179,6 @@ registered = 2026-09-14T20:08:10.000Z
 
             ["2.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "repology-url"
             version = "2.2.0"
         [["2.2.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -1225,7 +1207,6 @@ registered = 2026-10-05T17:27:40.000Z
 
             ["2.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hdf5"
-            provenance = "repology-url"
             version = "2.2.0"
         [["2.2.3+0".artifact_metadata.sources]]
         type = "directory"

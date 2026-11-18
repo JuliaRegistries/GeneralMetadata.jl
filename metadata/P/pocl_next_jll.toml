@@ -24,7 +24,6 @@ registered = 2026-06-10T07:59:53.000Z
 
             ["7.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -60,7 +59,6 @@ registered = 2026-06-16T13:07:48.000Z
 
             ["7.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+1".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -96,7 +94,6 @@ registered = 2026-06-26T12:46:17.000Z
 
             ["7.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+2".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -132,7 +129,6 @@ registered = 2026-06-27T21:15:13.000Z
 
             ["7.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+3".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -168,7 +164,6 @@ registered = 2026-06-28T08:41:47.000Z
 
             ["7.2.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+4".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -204,7 +199,6 @@ registered = 2026-06-29T15:21:52.000Z
 
             ["7.2.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+5".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -240,7 +234,6 @@ registered = 2026-06-29T18:23:57.000Z
 
             ["7.2.0+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+6".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -276,7 +269,6 @@ registered = 2026-06-30T08:17:29.000Z
 
             ["7.2.0+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+7".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -312,7 +304,6 @@ registered = 2026-06-30T18:14:20.000Z
 
             ["7.2.0+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+8".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -348,7 +339,6 @@ registered = 2026-07-01T10:16:25.000Z
 
             ["7.2.0+9".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+9".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -384,7 +374,6 @@ registered = 2026-07-01T19:43:00.000Z
 
             ["7.2.0+10".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+10".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -420,7 +409,6 @@ registered = 2026-07-02T10:38:52.000Z
 
             ["7.2.0+11".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+11".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -456,7 +444,6 @@ registered = 2026-07-02T16:52:55.000Z
 
             ["7.2.0+12".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+12".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -492,7 +479,6 @@ registered = 2026-07-02T21:02:33.000Z
 
             ["7.2.0+13".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+13".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -528,7 +514,6 @@ registered = 2026-07-03T16:52:27.000Z
 
             ["7.2.0+14".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+14".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -564,7 +549,6 @@ registered = 2026-07-04T21:17:39.000Z
 
             ["7.2.0+15".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+15".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -600,7 +584,6 @@ registered = 2026-07-05T19:28:32.000Z
 
             ["7.2.0+16".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+16".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -636,7 +619,6 @@ registered = 2026-07-09T11:30:01.000Z
 
             ["7.2.0+17".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "20.1.1"
         [["7.2.0+17".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -672,7 +654,6 @@ registered = 2026-07-11T16:20:23.000Z
 
             ["7.2.0+18".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "22.1.4"
         [["7.2.0+18".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
@@ -708,7 +689,6 @@ registered = 2026-07-15T15:37:57.000Z
 
             ["7.2.0+19".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "22.1.4"
         [["7.2.0+19".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
@@ -744,7 +724,6 @@ registered = 2026-07-16T18:07:38.000Z
 
             ["7.2.0+20".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "22.1.4"
         [["7.2.0+20".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
@@ -780,7 +759,6 @@ registered = 2026-08-06T06:25:34.000Z
 
             ["7.2.0+21".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "22.1.4"
         [["7.2.0+21".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
@@ -816,7 +794,6 @@ registered = 2026-08-18T08:55:44.000Z
 
             ["7.2.0+22".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "22.1.4"
         [["7.2.0+22".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
@@ -848,7 +825,6 @@ registered = 2026-08-27T18:42:17.000Z
 
             ["7.2.0+23".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "repository"
         [["7.2.0+23".artifact_metadata.sources]]
         hash = "c88a2e4a1ec77f7adc8916940afd9754c3a30fab"
         type = "git"
@@ -856,7 +832,6 @@ registered = 2026-08-27T18:42:17.000Z
 
             ["7.2.0+23".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "22.1.4"
         [["7.2.0+23".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
@@ -888,7 +863,6 @@ registered = 2026-09-08T06:10:27.000Z
 
             ["7.2.0+24".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "repository"
         [["7.2.0+24".artifact_metadata.sources]]
         hash = "c88a2e4a1ec77f7adc8916940afd9754c3a30fab"
         type = "git"
@@ -896,7 +870,6 @@ registered = 2026-09-08T06:10:27.000Z
 
             ["7.2.0+24".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "22.1.4"
         [["7.2.0+24".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
@@ -928,7 +901,6 @@ registered = 2026-09-24T08:46:21.000Z
 
             ["7.2.0+25".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.0+25".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -937,7 +909,6 @@ registered = 2026-09-24T08:46:21.000Z
 
             ["7.2.0+25".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.0+25".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -968,7 +939,6 @@ registered = 2026-09-28T13:03:53.000Z
 
             ["7.2.0+26".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.0+26".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -977,7 +947,6 @@ registered = 2026-09-28T13:03:53.000Z
 
             ["7.2.0+26".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.0+26".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -1008,7 +977,6 @@ registered = 2026-09-30T10:23:11.000Z
 
             ["7.2.0+27".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.0+27".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -1017,7 +985,6 @@ registered = 2026-09-30T10:23:11.000Z
 
             ["7.2.0+27".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.0+27".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -1048,7 +1015,6 @@ registered = 2026-10-03T11:07:26.000Z
 
             ["7.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.1+0".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -1057,7 +1023,6 @@ registered = 2026-10-03T11:07:26.000Z
 
             ["7.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.1+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -1088,7 +1053,6 @@ registered = 2026-10-04T11:45:47.000Z
 
             ["7.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.1+1".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -1097,7 +1061,6 @@ registered = 2026-10-04T11:45:47.000Z
 
             ["7.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.1+1".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -1128,7 +1091,6 @@ registered = 2026-10-04T18:52:31.000Z
 
             ["7.2.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.1+2".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -1137,7 +1099,6 @@ registered = 2026-10-04T18:52:31.000Z
 
             ["7.2.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.1+2".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -1168,7 +1129,6 @@ registered = 2026-10-05T11:21:37.000Z
 
             ["7.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.2+0".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -1177,7 +1137,6 @@ registered = 2026-10-05T11:21:37.000Z
 
             ["7.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.2+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -1208,7 +1167,6 @@ registered = 2026-10-07T02:17:00.000Z
 
             ["7.2.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pocl"
-            provenance = "git-tag"
             version = "7.2"
         [["7.2.2+1".artifact_metadata.sources]]
         hash = "0e67244861402a51b071414d7cb231a052b1ce03"
@@ -1217,7 +1175,6 @@ registered = 2026-10-07T02:17:00.000Z
 
             ["7.2.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "repository"
         [["7.2.2+1".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"

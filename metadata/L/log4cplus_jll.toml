@@ -17,5 +17,4 @@ registered = 2022-07-10T23:22:55.000Z
 
             ["2.0.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/log4cplus"
-            provenance = "repology-url"
             version = "2.0.8"

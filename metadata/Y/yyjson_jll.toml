@@ -17,7 +17,6 @@ registered = 2024-09-07T10:05:43.000Z
 
             ["0.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yyjson"
-            provenance = "git-tag"
             version = "0.10.0"
         [["0.10.0+0".artifact_metadata.sources]]
         type = "directory"

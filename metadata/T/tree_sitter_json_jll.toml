@@ -17,7 +17,6 @@ registered = 2020-07-21T20:19:46.000Z
 
             ["0.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tree-sitter-json"
-            provenance = "tag-scheme"
             version = "0.16.0"
         [["0.16.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -39,11 +38,6 @@ registered = 2025-10-31T00:26:31.000Z
         hash = "ee35a6ebefcef0c5c416c0d1ccec7370cfca5a24"
         type = "git"
         url = "https://github.com/tree-sitter/tree-sitter-json.git"
-
-            ["0.24.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/tree-sitter-json"
-            provenance = "git-tag"
-            version = "0.24.8"
         [["0.24.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8556f08fd7a201f92ede5afb08417e73cf706117/T/tree_sitter_json/bundled"

@@ -17,7 +17,6 @@ registered = 2021-04-28T13:31:23.000Z
 
             ["2021.9.1-pre+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "repository"
         [["2021.9.1-pre+0".artifact_metadata.sources]]
         package = "Eigen_jll"
         type = "builddependency"
@@ -41,7 +40,6 @@ registered = 2021-05-06T14:17:55.000Z
 
             ["2021.9.1-pre+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "repository"
         [["2021.9.1-pre+1".artifact_metadata.sources]]
         package = "Eigen_jll"
         type = "builddependency"
@@ -65,7 +63,6 @@ registered = 2021-05-13T15:35:58.000Z
 
             ["2021.9.1-pre+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "repository"
         [["2021.9.1-pre+2".artifact_metadata.sources]]
         package = "Eigen_jll"
         type = "builddependency"
@@ -89,7 +86,6 @@ registered = 2021-05-19T13:15:36.000Z
 
             ["2021.9.1-pre+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "repository"
         [["2021.9.1-pre+3".artifact_metadata.sources]]
         package = "Eigen_jll"
         type = "builddependency"
@@ -113,8 +109,7 @@ registered = 2021-10-22T09:18:52.000Z
 
             ["2021.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2021.09.2"
+            version = "2021_09_2"
         [["2021.9.2+0".artifact_metadata.sources]]
         package = "Eigen_jll"
         type = "builddependency"
@@ -138,8 +133,7 @@ registered = 2022-04-09T15:38:15.000Z
 
             ["2022.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2022.03.1"
+            version = "2022_03_1"
         [["2022.3.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/168e7a3cf2fc5eaa3c32da6eee89b1db0a29d363/R/RDKit/bundled"
@@ -166,8 +160,7 @@ registered = 2022-10-28T22:59:42.000Z
 
             ["2022.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2022.09.1"
+            version = "2022_09_1"
         [["2022.9.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/50255359bbbba66168d04b2ef5b9470c4a4b545a/R/RDKit/bundled"
@@ -194,8 +187,7 @@ registered = 2022-11-24T21:22:17.000Z
 
             ["2022.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2022.09.2"
+            version = "2022_09_2"
         [["2022.9.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8000e3e7e9880c10a265ef37c8ca7f7383d232a4/R/RDKit/bundled"
@@ -222,8 +214,7 @@ registered = 2022-12-09T10:36:57.000Z
 
             ["2022.9.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2022.09.3"
+            version = "2022_09_3"
         [["2022.9.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9c2eb57ec4289cad97be03ea22dad7808e781efb/R/RDKit/bundled"
@@ -250,8 +241,7 @@ registered = 2023-01-18T22:26:20.000Z
 
             ["2022.9.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2022.09.4"
+            version = "2022_09_4"
         [["2022.9.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/5cbce9edcd16e600698915721e60d1bb44bf5c96/R/RDKit/bundled"
@@ -278,8 +268,7 @@ registered = 2023-03-04T20:04:52.000Z
 
             ["2022.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2022.09.5"
+            version = "2022_09_5"
         [["2022.9.5+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1f757dbdb3183dbef2ded1a96d871312e56e1bdc/R/RDKit/bundled"
@@ -306,8 +295,7 @@ registered = 2026-06-05T20:48:16.000Z
 
             ["2026.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rdkit"
-            provenance = "git-tag"
-            version = "2026.03.1"
+            version = "2026_03_1"
         [["2026.3.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/cfc081ab0aac2ae46dbfa84248715de3327adff3/R/RDKit/bundled"

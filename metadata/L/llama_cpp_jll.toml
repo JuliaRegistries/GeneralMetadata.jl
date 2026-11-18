@@ -17,7 +17,6 @@ registered = 2023-03-22T15:46:29.000Z
 
             ["0.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
             version = "5850c5"
         [["0.0.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,7 +41,6 @@ registered = 2023-03-26T20:47:58.000Z
 
             ["0.0.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
             version = "1972616"
         [["0.0.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -67,7 +65,7 @@ registered = 2023-03-30T19:14:09.000Z
 
             ["0.0.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "repository"
+            version = "129"
         [["0.0.5+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c18546bb42b2c68922cf1b21c20179e663314f98/L/llama_cpp/bundled"
@@ -91,7 +89,7 @@ registered = 2023-04-03T18:23:35.000Z
 
             ["0.0.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "repository"
+            version = "437e778"
         [["0.0.6+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d843ee1b80226b2e5eabe9335e08eae2b03d842b/L/llama_cpp/bundled"
@@ -115,7 +113,7 @@ registered = 2023-04-16T21:09:11.000Z
 
             ["0.0.6+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "repository"
+            version = "47f61aa"
         [["0.0.6+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6d2efe26d63564d34a864d0535d7bb6e046cb26a/L/llama_cpp/bundled"
@@ -139,7 +137,6 @@ registered = 2023-04-24T09:13:44.000Z
 
             ["0.0.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
             version = "84f"
         [["0.0.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -164,7 +161,6 @@ registered = 2023-05-03T21:29:04.000Z
 
             ["0.0.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
             version = "216aa0"
         [["0.0.8+0".artifact_metadata.sources]]
         type = "directory"
@@ -189,7 +185,7 @@ registered = 2023-05-19T21:45:45.000Z
 
             ["0.0.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "repository"
+            version = "6986c78"
         [["0.0.9+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c38f9d4f8a9ad393bf4b62d40e2dde25bc48ddfc/L/llama_cpp/bundled"
@@ -213,7 +209,7 @@ registered = 2023-06-14T00:41:23.000Z
 
             ["0.0.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "repository"
+            version = "5db48"
         [["0.0.10+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/87581b41201c1ad0093f43156fa42b0a25602a6b/L/llama_cpp/bundled"
@@ -237,7 +233,6 @@ registered = 2023-06-14T17:32:42.000Z
 
             ["0.0.11+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
             version = "9254920"
         [["0.0.11+0".artifact_metadata.sources]]
         type = "directory"
@@ -262,7 +257,7 @@ registered = 2023-07-24T17:27:28.000Z
 
             ["0.0.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "repository"
+            version = "41c6741"
 
 ["0.0.13+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.13+0/llama_cpp.v0.0.13.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -283,7 +278,7 @@ registered = 2023-07-30T14:23:56.000Z
 
             ["0.0.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "repository"
+            version = "11f3ca0"
 
 ["0.0.14+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.14+0/llama_cpp.v0.0.14.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -304,8 +299,7 @@ registered = 2024-01-05T12:34:21.000Z
 
             ["0.0.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
-            version = "b1767"
+            version = "1767"
 
 ["0.0.15+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.15+0/llama_cpp.v0.0.15.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -326,8 +320,7 @@ registered = 2024-01-09T10:22:28.000Z
 
             ["0.0.15+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
-            version = "b1796"
+            version = "1796"
 
 ["0.0.16+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.16+0/llama_cpp.v0.0.16.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -348,8 +341,7 @@ registered = 2024-03-10T10:43:01.000Z
 
             ["0.0.16+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
-            version = "b2382"
+            version = "2382"
 
 ["0.0.17+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/llama_cpp_jll.jl/releases/download/llama_cpp-v0.0.17+0/llama_cpp.v0.0.17.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -370,8 +362,7 @@ registered = 2024-12-21T20:05:00.000Z
 
             ["0.0.17+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
-            version = "b4371"
+            version = "4371"
         [["0.0.17+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -393,11 +384,6 @@ registered = 2026-01-24T13:53:42.000Z
         hash = "51fa458a92d6a3f305f8fd76fc8f702e3e87ddb5"
         type = "git"
         url = "https://github.com/ggml-org/llama.cpp.git"
-
-            ["0.0.19+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
-            version = "b7813"
         [["0.0.19+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -419,11 +405,6 @@ registered = 2026-01-24T14:16:18.000Z
         hash = "81ab64f3c858c0db8c7c3a6bccd4cbbe624f52a3"
         type = "git"
         url = "https://github.com/ggml-org/llama.cpp.git"
-
-            ["0.0.20+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llama.cpp"
-            provenance = "git-tag"
-            version = "b7821"
         [["0.0.20+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"

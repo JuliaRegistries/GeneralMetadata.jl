@@ -48,11 +48,6 @@ registered = 2021-09-02T15:45:11.000Z
         hash = "b28acde132cdb8e0ef536a96ca7ada8a651f9169"
         type = "git"
         url = "https://github.com/mapbox/earcut.hpp.git"
-
-            ["2.2.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mapbox-earcut"
-            provenance = "git-tag"
-            version = "2.2.3"
         [["2.2.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/7e9ec714d786c4c841a80bdf75b84570c5bda7a1/E/EarCut/bundled"
@@ -73,11 +68,6 @@ registered = 2022-09-16T11:12:11.000Z
         hash = "4811a2b69b91f6127a75e780de6e2113609ddabb"
         type = "git"
         url = "https://github.com/mapbox/earcut.hpp.git"
-
-            ["2.2.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mapbox-earcut"
-            provenance = "git-tag"
-            version = "2.2.4"
         [["2.2.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/53ca769ed8f434e3b32b09b722a38ee1367c589e/E/EarCut/bundled"
@@ -98,11 +88,6 @@ registered = 2026-08-17T13:05:56.000Z
         hash = "c68c8835ccff2b7532d31d8fa8dfcf398f629498"
         type = "git"
         url = "https://github.com/mapbox/earcut.hpp.git"
-
-            ["3.2.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mapbox-earcut"
-            provenance = "git-tag"
-            version = "3.2.3"
         [["3.2.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/f2bc87ad20414379036a67ab9f0d613eb279a48b/E/EarCut/bundled"

@@ -17,7 +17,6 @@ registered = 2020-04-03T10:57:39.000Z
 
             ["0.91.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
         [["0.91.10+0".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -42,7 +41,6 @@ registered = 2020-04-16T20:33:23.000Z
 
             ["0.91.10+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
         [["0.91.10+1".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -67,7 +65,6 @@ registered = 2020-04-19T13:36:22.000Z
 
             ["0.91.10+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
-            provenance = "git-tag"
             version = "0.91.10"
         [["0.91.10+2".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"

@@ -17,7 +17,6 @@ registered = 2021-05-27T00:07:49.000Z
 
             ["0.13.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openpmd-api"
-            provenance = "tag-scheme"
             version = "0.13.4"
         [["0.13.4+0".artifact_metadata.sources]]
         type = "directory"

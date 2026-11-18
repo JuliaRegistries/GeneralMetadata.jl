@@ -17,7 +17,6 @@ registered = 2022-11-23T14:08:33.000Z
 
             ["0.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rust:coverm"
-            provenance = "git-tag"
             version = "0.6.1"
 
 ["0.7.0+0"]
@@ -39,5 +38,4 @@ registered = 2024-04-04T09:33:19.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rust:coverm"
-            provenance = "git-tag"
             version = "0.7.0"

@@ -17,4 +17,3 @@ registered = 2022-04-15T16:35:11.000Z
 
             ["2.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gflags"
-            provenance = "repository"

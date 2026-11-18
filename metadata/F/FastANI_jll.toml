@@ -14,8 +14,3 @@ registered = 2022-05-24T23:19:42.000Z
         hash = "6531da0957344d2a56e3eeb9bb83fea02cc4abe0"
         type = "git"
         url = "https://github.com/ParBLiSS/FastANI.git"
-
-            ["1.33.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/fastani"
-            provenance = "git-tag"
-            version = "1.33"

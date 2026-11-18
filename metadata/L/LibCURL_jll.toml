@@ -20,7 +20,6 @@ registered = 2019-12-13T00:07:43.000Z
 
             ["7.66.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.66.0"
 
 ["7.68.0+0"]
@@ -41,7 +40,6 @@ registered = 2020-01-31T20:09:04.000Z
 
             ["7.68.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.68.0"
 
 ["7.70.0+0"]
@@ -63,7 +61,6 @@ registered = 2020-05-01T11:08:55.000Z
 
             ["7.70.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.70.0"
         [["7.70.0+0".artifact_metadata.sources]]
         hash = "adf770dfd574a0d6026bfaa270cb6879b063957177a991d453ff1d302c02081f"
@@ -89,7 +86,6 @@ registered = 2020-06-18T19:58:29.000Z
 
             ["7.70.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.70.0"
         [["7.70.0+1".artifact_metadata.sources]]
         hash = "adf770dfd574a0d6026bfaa270cb6879b063957177a991d453ff1d302c02081f"
@@ -115,7 +111,6 @@ registered = 2020-06-25T20:33:52.000Z
 
             ["7.70.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.70.0"
         [["7.70.0+2".artifact_metadata.sources]]
         hash = "adf770dfd574a0d6026bfaa270cb6879b063957177a991d453ff1d302c02081f"
@@ -141,7 +136,6 @@ registered = 2020-07-17T14:23:30.000Z
 
             ["7.71.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.71.1"
 
 ["7.73.0+0"]
@@ -163,7 +157,6 @@ registered = 2020-11-03T01:28:12.000Z
 
             ["7.73.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+1"]
@@ -185,7 +178,6 @@ registered = 2020-11-04T20:34:40.000Z
 
             ["7.73.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+2"]
@@ -211,7 +203,6 @@ registered = 2020-11-13T22:44:26.000Z
 
             ["7.73.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+4"]
@@ -233,7 +224,6 @@ registered = 2021-02-11T20:11:42.000Z
 
             ["7.73.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+5"]
@@ -255,7 +245,6 @@ registered = 2021-06-27T23:28:49.000Z
 
             ["7.73.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+6"]
@@ -277,7 +266,6 @@ registered = 2021-08-13T16:22:10.000Z
 
             ["7.73.0+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+7"]
@@ -299,7 +287,6 @@ registered = 2023-10-19T00:53:23.000Z
 
             ["7.73.0+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+8"]
@@ -321,7 +308,6 @@ registered = 2024-04-01T22:12:16.000Z
 
             ["7.73.0+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.73.0+9"]
@@ -343,7 +329,6 @@ registered = 2024-12-27T16:25:10.000Z
 
             ["7.73.0+9".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.73.0"
 
 ["7.81.0+0"]
@@ -365,7 +350,6 @@ registered = 2022-02-11T11:40:32.000Z
 
             ["7.81.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.81.0"
 
 ["7.81.0+1"]
@@ -388,7 +372,6 @@ yanked = 2022-05-28T17:46:02.000Z
 
             ["7.81.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.81.0"
 
 ["7.81.0+2"]
@@ -410,7 +393,6 @@ registered = 2025-10-20T13:44:19.000Z
 
             ["7.81.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.81.0"
         [["7.81.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -439,7 +421,6 @@ yanked = 2022-05-28T17:46:02.000Z
 
             ["7.83.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.83.1"
 
 ["7.83.1+1"]
@@ -461,7 +442,6 @@ registered = 2022-05-28T17:58:59.000Z
 
             ["7.83.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.83.1"
 
 ["7.84.0+0"]
@@ -483,7 +463,6 @@ registered = 2022-07-06T22:36:20.000Z
 
             ["7.84.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.84.0"
 
 ["7.84.0+1"]
@@ -505,7 +484,6 @@ registered = 2022-08-24T22:32:36.000Z
 
             ["7.84.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.84.0"
         [["7.84.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -530,7 +508,6 @@ registered = 2022-12-30T20:00:40.000Z
 
             ["7.87.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.87.0"
         [["7.87.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -555,7 +532,6 @@ registered = 2023-02-26T13:28:30.000Z
 
             ["7.88.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.88.1"
         [["7.88.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -580,7 +556,6 @@ registered = 2025-10-20T15:36:36.000Z
 
             ["7.88.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "7.88.1"
         [["7.88.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -608,7 +583,6 @@ registered = 2023-03-20T15:45:40.000Z
 
             ["8.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.0.1"
         [["8.0.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -633,7 +607,6 @@ registered = 2023-08-01T20:08:52.000Z
 
             ["8.0.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.0.1"
         [["8.0.1+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -658,7 +631,6 @@ registered = 2023-08-22T00:21:06.000Z
 
             ["8.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.2.1"
         [["8.2.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -683,7 +655,6 @@ registered = 2023-10-11T08:06:48.000Z
 
             ["8.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.4.0"
         [["8.4.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -708,7 +679,6 @@ registered = 2023-12-21T21:12:05.000Z
 
             ["8.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.5.0"
         [["8.5.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -733,7 +703,6 @@ registered = 2024-02-02T17:20:53.000Z
 
             ["8.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.6.0"
         [["8.6.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -761,7 +730,6 @@ registered = 2024-03-28T22:32:27.000Z
 
             ["8.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.7.1"
         [["8.7.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -789,7 +757,6 @@ registered = 2024-03-30T16:51:41.000Z
 
             ["8.7.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.7.1"
         [["8.7.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -817,7 +784,6 @@ registered = 2024-06-21T20:33:44.000Z
 
             ["8.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.8.0"
         [["8.8.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -845,7 +811,6 @@ registered = 2024-07-24T17:39:27.000Z
 
             ["8.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.9.0"
         [["8.9.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -873,7 +838,6 @@ registered = 2024-08-04T20:15:47.000Z
 
             ["8.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.9.1"
         [["8.9.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -901,7 +865,6 @@ registered = 2024-11-26T16:06:30.000Z
 
             ["8.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.11.0"
         [["8.11.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -929,7 +892,6 @@ registered = 2024-12-13T23:23:57.000Z
 
             ["8.11.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.11.1"
         [["8.11.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -957,7 +919,6 @@ registered = 2024-12-26T18:59:42.000Z
 
             ["8.11.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.11.1"
         [["8.11.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -985,7 +946,6 @@ registered = 2025-02-06T00:15:11.000Z
 
             ["8.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.12.0"
         [["8.12.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1013,7 +973,6 @@ registered = 2025-02-15T14:26:44.000Z
 
             ["8.12.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.12.1"
         [["8.12.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -1041,7 +1000,6 @@ registered = 2025-02-26T23:19:31.000Z
 
             ["8.12.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.12.1"
         [["8.12.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -1069,7 +1027,6 @@ registered = 2025-04-12T18:42:18.000Z
 
             ["8.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.13.0"
         [["8.13.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1101,7 +1058,6 @@ registered = 2025-06-08T16:28:03.000Z
 
             ["8.14.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.14.1"
         [["8.14.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -1133,7 +1089,6 @@ registered = 2025-06-13T16:31:42.000Z
 
             ["8.14.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.14.1"
         [["8.14.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -1161,7 +1116,6 @@ registered = 2025-07-22T13:33:01.000Z
 
             ["8.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.15.0"
         [["8.15.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1189,7 +1143,6 @@ registered = 2025-08-02T21:56:39.000Z
 
             ["8.15.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.15.0"
         [["8.15.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -1217,7 +1170,6 @@ registered = 2025-09-10T15:09:05.000Z
 
             ["8.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.16.0"
         [["8.16.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1245,7 +1197,6 @@ registered = 2025-11-15T16:56:36.000Z
 
             ["8.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.17.0"
         [["8.17.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1273,7 +1224,6 @@ registered = 2026-01-10T23:55:26.000Z
 
             ["8.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.18.0"
         [["8.18.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1301,7 +1251,6 @@ registered = 2026-03-09T14:18:21.000Z
 
             ["8.18.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.18.0"
         [["8.18.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -1329,7 +1278,6 @@ registered = 2026-03-13T00:09:44.000Z
 
             ["8.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "heuristic"
             version = "8.19.0"
         [["8.19.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1357,7 +1305,6 @@ registered = 2026-04-30T12:25:33.000Z
 
             ["8.20.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.20.0"
         [["8.20.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1385,7 +1332,6 @@ registered = 2026-05-05T16:01:28.000Z
 
             ["8.20.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.20.0"
         [["8.20.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -1413,7 +1359,6 @@ registered = 2026-07-01T22:28:52.000Z
 
             ["8.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.21.0"
         [["8.21.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -1441,7 +1386,6 @@ registered = 2026-09-05T23:50:27.000Z
 
             ["8.22.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/curl"
-            provenance = "repology-url"
             version = "8.22.0"
         [["8.22.0+0".artifact_metadata.sources]]
         type = "directory"

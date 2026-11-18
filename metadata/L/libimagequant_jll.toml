@@ -17,7 +17,6 @@ registered = 2025-11-29T17:28:01.000Z
 
             ["4.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libimagequant"
-            provenance = "git-tag"
             version = "4.4.1"
         [["4.4.1+0".artifact_metadata.sources]]
         type = "directory"

@@ -17,5 +17,4 @@ registered = 2021-11-27T01:48:26.000Z
 
             ["1.23.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/leveldb"
-            provenance = "git-tag"
             version = "1.23"

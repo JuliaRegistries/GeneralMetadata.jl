@@ -17,7 +17,6 @@ registered = 2020-08-01T23:15:49.000Z
 
             ["4.31.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gstreamer-orc"
-            provenance = "heuristic"
             version = "0.4.31"
 
 ["4.42.0+0"]
@@ -39,5 +38,4 @@ registered = 2026-01-22T17:30:12.000Z
 
             ["4.42.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gstreamer-orc"
-            provenance = "repology-url"
             version = "0.4.42"

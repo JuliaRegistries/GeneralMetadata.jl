@@ -16,7 +16,6 @@ registered = 2019-10-14T20:49:57.000Z
 
             ["7.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xextproto"
-            provenance = "repology-url"
             version = "7.3.0"
 
 ["7.3.0+1"]
@@ -38,7 +37,6 @@ registered = 2020-04-02T05:23:31.000Z
 
             ["7.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xextproto"
-            provenance = "repology-url"
             version = "7.3.0"
 
 ["7.3.1+0"]
@@ -60,7 +58,6 @@ registered = 2025-04-22T20:45:08.000Z
 
             ["7.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xextproto"
-            provenance = "repology-url"
             version = "7.3.0"
 
 ["7.3.1+1"]
@@ -82,5 +79,4 @@ registered = 2025-04-23T21:10:31.000Z
 
             ["7.3.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xextproto"
-            provenance = "repology-url"
             version = "7.3.0"

@@ -18,11 +18,6 @@ registered = 2019-10-03T23:11:12.000Z
         hash = "6b539f915d02c957c45fce8133670811f1c36a1f1535d5af3dd95dc519d3c386"
         url = "https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-4.3/iso-codes-iso-codes-4.3.tar.bz2"
 
-            ["4.3.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
-            version = "4.3"
-
 ["4.3.0+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/iso_codes_jll.jl/releases/download/iso_codes-v4.3.0+2/iso_codes.v4.3.0.any.tar.gz"]
 registered = 2020-08-14T10:28:54.000Z
@@ -39,11 +34,6 @@ registered = 2020-08-14T10:28:54.000Z
         hash = "6b539f915d02c957c45fce8133670811f1c36a1f1535d5af3dd95dc519d3c386"
         type = "archive"
         url = "https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-4.3/iso-codes-iso-codes-4.3.tar.bz2"
-
-            ["4.3.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
-            version = "4.3"
 
 ["4.3.0+3"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/iso_codes_jll.jl/releases/download/iso_codes-v4.3.0+3/iso_codes.v4.3.0.any.tar.gz"]
@@ -62,11 +52,6 @@ registered = 2020-08-26T17:34:40.000Z
         type = "archive"
         url = "https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-4.3/iso-codes-iso-codes-4.3.tar.bz2"
 
-            ["4.3.0+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
-            version = "4.3"
-
 ["4.3.0+4"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/iso_codes_jll.jl/releases/download/iso_codes-v4.3.0+3/iso_codes.v4.3.0.any.tar.gz"]
 registered = 2020-10-17T01:57:35.000Z
@@ -83,11 +68,6 @@ registered = 2020-10-17T01:57:35.000Z
         hash = "6b539f915d02c957c45fce8133670811f1c36a1f1535d5af3dd95dc519d3c386"
         type = "archive"
         url = "https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-4.3/iso-codes-iso-codes-4.3.tar.bz2"
-
-            ["4.3.0+4".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
-            version = "4.3"
 
 ["4.10.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/iso_codes_jll.jl/releases/download/iso_codes-v4.10.0+0/iso_codes.v4.10.0.any.tar.gz"]
@@ -108,7 +88,6 @@ registered = 2022-07-25T14:34:01.000Z
 
             ["4.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
             version = "4.10.0"
 
 ["4.11.0+0"]
@@ -130,7 +109,6 @@ registered = 2022-08-04T20:03:36.000Z
 
             ["4.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
             version = "4.11.0"
 
 ["4.15.0+0"]
@@ -152,7 +130,6 @@ registered = 2024-01-05T17:26:12.000Z
 
             ["4.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
             version = "4.15.0"
 
 ["4.15.1+0"]
@@ -174,7 +151,6 @@ registered = 2024-01-12T00:21:48.000Z
 
             ["4.15.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "tag-scheme"
             version = "4.15.0"
 
 ["4.17.0+0"]
@@ -196,7 +172,6 @@ registered = 2025-04-02T16:51:51.000Z
 
             ["4.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "repology-url"
             version = "4.17.0"
 
 ["4.18.0+0"]
@@ -218,7 +193,6 @@ registered = 2025-10-17T23:34:38.000Z
 
             ["4.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "repology-url"
             version = "4.18.0"
 
 ["4.20.1+0"]
@@ -240,7 +214,6 @@ registered = 2026-04-07T20:06:33.000Z
 
             ["4.20.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "repology-url"
             version = "4.20.1"
 
 ["4.20.1+1"]
@@ -262,5 +235,4 @@ registered = 2026-07-10T06:18:33.000Z
 
             ["4.20.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/iso-codes"
-            provenance = "repology-url"
             version = "4.20.1"

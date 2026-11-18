@@ -17,7 +17,6 @@ registered = 2024-06-19T20:38:15.000Z
 
             ["0.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/patchutils"
-            provenance = "git-tag"
             version = "0.4.2"
 
 ["0.4.2+1"]
@@ -39,5 +38,4 @@ registered = 2024-06-19T21:20:31.000Z
 
             ["0.4.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/patchutils"
-            provenance = "git-tag"
             version = "0.4.2"

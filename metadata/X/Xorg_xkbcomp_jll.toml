@@ -16,8 +16,7 @@ yanked = 2020-05-08T14:52:59.000Z
         url = "https://www.x.org/archive/individual/app/xkbcomp-1.4.2.tar.bz2"
 
             ["1.4.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
+            project = "repology.org/project/xorg-xkbcomp"
             version = "1.4.2"
 
 ["1.4.2+1"]
@@ -38,8 +37,7 @@ registered = 2020-02-09T02:08:05.000Z
         url = "https://www.x.org/archive/individual/app/xkbcomp-1.4.2.tar.bz2"
 
             ["1.4.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
+            project = "repology.org/project/xorg-xkbcomp"
             version = "1.4.2"
         [["1.4.2+1".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -63,8 +61,7 @@ registered = 2020-04-17T19:46:19.000Z
         url = "https://www.x.org/archive/individual/app/xkbcomp-1.4.2.tar.bz2"
 
             ["1.4.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
+            project = "repology.org/project/xorg-xkbcomp"
             version = "1.4.2"
         [["1.4.2+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -91,8 +88,7 @@ registered = 2020-08-26T19:32:48.000Z
         url = "https://www.x.org/archive/individual/app/xkbcomp-1.4.2.tar.bz2"
 
             ["1.4.2+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
+            project = "repology.org/project/xorg-xkbcomp"
             version = "1.4.2"
         [["1.4.2+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -119,8 +115,7 @@ registered = 2020-10-16T19:47:51.000Z
         url = "https://www.x.org/archive/individual/app/xkbcomp-1.4.2.tar.bz2"
 
             ["1.4.2+4".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
+            project = "repology.org/project/xorg-xkbcomp"
             version = "1.4.2"
         [["1.4.2+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -147,8 +142,7 @@ registered = 2023-07-01T11:33:39.000Z
         url = "https://www.x.org/archive/individual/app/xkbcomp-1.4.6.tar.xz"
 
             ["1.4.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
+            project = "repology.org/project/xorg-xkbcomp"
             version = "1.4.6"
         [["1.4.6+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -175,8 +169,7 @@ registered = 2024-12-13T19:09:36.000Z
         url = "https://www.x.org/archive/individual/app/xkbcomp-1.4.6.tar.xz"
 
             ["1.4.6+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
+            project = "repology.org/project/xorg-xkbcomp"
             version = "1.4.6"
         [["1.4.6+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -204,7 +197,6 @@ registered = 2025-04-19T09:12:25.000Z
 
             ["1.4.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkbcomp"
-            provenance = "heuristic"
             version = "1.4.7"
         [["1.4.7+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

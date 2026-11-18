@@ -16,7 +16,6 @@ registered = 2019-09-10T03:29:20.000Z
 
             ["4.0.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.0.10"
 
 ["4.0.10+1"]
@@ -38,7 +37,6 @@ registered = 2020-04-09T11:21:38.000Z
 
             ["4.0.10+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.0.10"
 
 ["4.1.0+0"]
@@ -60,7 +58,6 @@ registered = 2020-05-02T12:43:03.000Z
 
             ["4.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.1.0"
 
 ["4.1.0+1"]
@@ -82,7 +79,6 @@ registered = 2020-08-26T19:28:40.000Z
 
             ["4.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.1.0"
 
 ["4.1.0+2"]
@@ -104,7 +100,6 @@ registered = 2020-10-16T19:48:05.000Z
 
             ["4.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.1.0"
 
 ["4.3.0+0"]
@@ -126,7 +121,6 @@ registered = 2021-05-30T00:44:54.000Z
 
             ["4.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.3.0"
 
 ["4.3.0+1"]
@@ -148,7 +142,6 @@ registered = 2022-03-03T14:46:54.000Z
 
             ["4.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.3.0"
 
 ["4.4.0+0"]
@@ -170,7 +163,6 @@ registered = 2022-06-01T20:04:51.000Z
 
             ["4.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.4.0"
 
 ["4.5.1+0"]
@@ -193,7 +185,6 @@ yanked = 2023-06-22T15:54:55.000Z
 
             ["4.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.5.1"
 
 ["4.5.1+1"]
@@ -215,7 +206,6 @@ registered = 2023-06-22T16:09:27.000Z
 
             ["4.5.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.5.1"
 
 ["4.6.0+0"]
@@ -237,7 +227,6 @@ registered = 2023-12-11T11:14:36.000Z
 
             ["4.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.6.0"
 
 ["4.7.0+0"]
@@ -259,7 +248,6 @@ registered = 2024-10-07T18:04:23.000Z
 
             ["4.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.7.0"
 
 ["4.7.1+0"]
@@ -281,7 +269,6 @@ registered = 2024-12-31T10:10:34.000Z
 
             ["4.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.7.0"
 
 ["4.7.2+0"]
@@ -303,7 +290,6 @@ registered = 2025-09-24T16:43:19.000Z
 
             ["4.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.7.1"
 
 ["4.7.3+0"]
@@ -325,5 +311,4 @@ registered = 2026-07-07T23:35:40.000Z
 
             ["4.7.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tiff"
-            provenance = "url-pattern"
             version = "4.7.2"

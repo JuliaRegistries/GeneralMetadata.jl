@@ -17,7 +17,6 @@ registered = 2021-09-30T18:25:53.000Z
 
             ["0.21.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libpsl"
-            provenance = "repology-url"
             version = "0.21.1"
 
 ["0.21.5+0"]
@@ -39,7 +38,6 @@ registered = 2024-11-22T11:46:30.000Z
 
             ["0.21.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libpsl"
-            provenance = "repology-url"
             version = "0.21.5"
 
 ["0.23.1+0"]
@@ -61,7 +59,6 @@ registered = 2026-08-02T13:45:26.000Z
 
             ["0.23.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libpsl"
-            provenance = "tag-scheme"
             version = "0.23.1"
 
 ["0.23.2+0"]
@@ -83,7 +80,6 @@ registered = 2026-08-12T14:35:19.000Z
 
             ["0.23.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libpsl"
-            provenance = "repology-url"
             version = "0.23.2"
 
 ["0.23.3+0"]
@@ -105,5 +101,4 @@ registered = 2026-08-15T15:23:16.000Z
 
             ["0.23.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libpsl"
-            provenance = "repology-url"
             version = "0.23.3"

@@ -21,7 +21,6 @@ registered = 2022-01-22T22:41:17.000Z
 
             ["1.29.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
             version = "1.29.3"
 
 ["1.33.0+0"]
@@ -43,7 +42,6 @@ registered = 2025-06-20T22:24:43.000Z
 
             ["1.33.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
             version = "1.33.0"
 
 ["1.33.2+0"]
@@ -65,7 +63,6 @@ registered = 2025-08-21T19:40:38.000Z
 
             ["1.33.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
             version = "1.33.2"
 
 ["1.33.4+0"]
@@ -87,7 +84,6 @@ registered = 2025-12-21T17:12:05.000Z
 
             ["1.33.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
             version = "1.33.4"
 
 ["1.33.7+0"]
@@ -109,5 +105,4 @@ registered = 2026-08-15T15:34:30.000Z
 
             ["1.33.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
             version = "1.33.7"

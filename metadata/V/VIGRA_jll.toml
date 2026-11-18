@@ -17,8 +17,7 @@ registered = 2022-01-10T15:14:55.000Z
 
             ["1.11.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vigra"
-            provenance = "tag-scheme"
-            version = "1.11.1"
+            version = "11-1"
         [["1.11.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0205222ee4a9cfe54ba11706458fd1fb1679bb1f/V/VIGRA/bundled"

@@ -16,7 +16,6 @@ registered = 2019-12-29T16:33:30.000Z
 
             ["4.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtksourceview"
-            provenance = "heuristic"
             version = "4.4.0"
         [["4.4.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,7 +40,6 @@ registered = 2024-03-11T11:57:18.000Z
 
             ["5.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtksourceview"
-            provenance = "heuristic"
             version = "5.10.0"
         [["5.10.0+0".artifact_metadata.sources]]
         type = "directory"

@@ -17,7 +17,6 @@ registered = 2021-05-17T01:05:54.000Z
 
             ["2.6.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/flex"
-            provenance = "repology-url"
             version = "2.6.4"
 
 ["2.6.5+0"]
@@ -39,7 +38,6 @@ registered = 2025-12-26T16:56:44.000Z
 
             ["2.6.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/flex"
-            provenance = "git-tag"
             version = "2.6.4"
         [["2.6.5+0".artifact_metadata.sources]]
         type = "directory"

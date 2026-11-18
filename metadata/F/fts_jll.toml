@@ -17,7 +17,6 @@ registered = 2021-02-28T17:25:37.000Z
 
             ["1.2.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fts-standalone"
-            provenance = "repology-url"
             version = "1.2.7"
 
 ["1.2.7+1"]

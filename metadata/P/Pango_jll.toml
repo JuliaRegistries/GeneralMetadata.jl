@@ -49,7 +49,6 @@ registered = 2020-04-07T23:21:45.000Z
 
             ["1.42.4+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "repology-url"
             version = "1.42.4"
         [["1.42.4+8".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -74,7 +73,6 @@ registered = 2020-08-26T18:22:49.000Z
 
             ["1.42.4+9".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "repology-url"
             version = "1.42.4"
         [["1.42.4+9".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -99,7 +97,6 @@ registered = 2020-10-17T01:15:40.000Z
 
             ["1.42.4+10".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "repology-url"
             version = "1.42.4"
         [["1.42.4+10".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -124,7 +121,6 @@ registered = 2021-05-27T18:24:38.000Z
 
             ["1.47.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.47.0"
         [["1.47.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -149,7 +145,6 @@ registered = 2022-02-06T01:55:36.000Z
 
             ["1.50.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.50.3"
         [["1.50.3+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -174,7 +169,6 @@ registered = 2022-09-24T12:55:06.000Z
 
             ["1.50.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.50.9"
         [["1.50.9+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -199,7 +193,6 @@ registered = 2023-09-11T21:26:08.000Z
 
             ["1.50.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.50.14"
         [["1.50.14+0".artifact_metadata.sources]]
         type = "directory"
@@ -211,7 +204,6 @@ registered = 2023-09-11T21:26:08.000Z
 
             ["1.50.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.50.14+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -236,7 +228,6 @@ registered = 2024-03-10T14:26:48.000Z
 
             ["1.52.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.52.1"
         [["1.52.1+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -245,7 +236,6 @@ registered = 2024-03-10T14:26:48.000Z
 
             ["1.52.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.52.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -270,7 +260,6 @@ registered = 2024-04-18T22:10:05.000Z
 
             ["1.52.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "repology-url"
             version = "1.52.2"
         [["1.52.2+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -279,7 +268,6 @@ registered = 2024-04-18T22:10:05.000Z
 
             ["1.52.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.52.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -304,7 +292,6 @@ registered = 2024-08-22T17:37:29.000Z
 
             ["1.54.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "repology-url"
             version = "1.54.0"
         [["1.54.0+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -313,7 +300,6 @@ registered = 2024-08-22T17:37:29.000Z
 
             ["1.54.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.54.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -338,7 +324,6 @@ registered = 2024-08-23T22:33:33.000Z
 
             ["1.54.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "repology-url"
             version = "1.54.0"
         [["1.54.1+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -347,7 +332,6 @@ registered = 2024-08-23T22:33:33.000Z
 
             ["1.54.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.54.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -372,7 +356,6 @@ registered = 2024-12-19T15:03:31.000Z
 
             ["1.55.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.55.5"
         [["1.55.5+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -381,7 +364,6 @@ registered = 2024-12-19T15:03:31.000Z
 
             ["1.55.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.55.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -409,7 +391,6 @@ registered = 2025-02-13T01:30:43.000Z
 
             ["1.56.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.56.1"
         [["1.56.1+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -418,7 +399,6 @@ registered = 2025-02-13T01:30:43.000Z
 
             ["1.56.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.56.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -443,7 +423,6 @@ registered = 2025-05-29T11:04:58.000Z
 
             ["1.56.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.56.3"
         [["1.56.3+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -452,7 +431,6 @@ registered = 2025-05-29T11:04:58.000Z
 
             ["1.56.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.56.3+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -477,7 +455,6 @@ registered = 2025-09-14T17:41:49.000Z
 
             ["1.56.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.56.4"
         [["1.56.4+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -486,7 +463,6 @@ registered = 2025-09-14T17:41:49.000Z
 
             ["1.56.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.56.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -511,7 +487,6 @@ registered = 2025-11-11T14:57:39.000Z
 
             ["1.57.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.57.0"
         [["1.57.0+0".artifact_metadata.sources]]
         hash = "bd0ea1633bd830204cc23a696889335e9d4a32b8619439ee17f22188695fcc5f"
@@ -520,7 +495,6 @@ registered = 2025-11-11T14:57:39.000Z
 
             ["1.57.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.0"
         [["1.57.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -545,7 +519,6 @@ registered = 2026-04-17T13:23:03.000Z
 
             ["1.57.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.57.1"
         [["1.57.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -570,7 +543,6 @@ registered = 2026-08-04T17:51:04.000Z
 
             ["1.58.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "heuristic"
             version = "1.58.0"
         [["1.58.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -595,7 +567,6 @@ registered = 2026-08-27T13:29:34.000Z
 
             ["1.58.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pango"
-            provenance = "repology-url"
             version = "1.58.2"
         [["1.58.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

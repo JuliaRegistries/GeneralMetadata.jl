@@ -17,7 +17,6 @@ yanked = 2020-05-08T14:52:59.000Z
 
             ["0.4.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcomposite"
-            provenance = "heuristic"
             version = "0.4.5"
 
 ["0.4.5+1"]
@@ -39,7 +38,6 @@ registered = 2020-02-09T01:05:23.000Z
 
             ["0.4.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcomposite"
-            provenance = "heuristic"
             version = "0.4.5"
         [["0.4.5+1".artifact_metadata.sources]]
         package = "Xorg_compositeproto_jll"
@@ -67,7 +65,6 @@ registered = 2020-04-17T19:22:17.000Z
 
             ["0.4.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcomposite"
-            provenance = "heuristic"
             version = "0.4.5"
         [["0.4.5+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -95,7 +92,6 @@ registered = 2020-08-26T18:21:53.000Z
 
             ["0.4.5+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcomposite"
-            provenance = "heuristic"
             version = "0.4.5"
         [["0.4.5+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -123,7 +119,6 @@ registered = 2020-10-16T19:26:20.000Z
 
             ["0.4.5+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcomposite"
-            provenance = "heuristic"
             version = "0.4.5"
         [["0.4.5+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -151,7 +146,6 @@ registered = 2025-04-19T09:11:58.000Z
 
             ["0.4.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcomposite"
-            provenance = "repology-url"
             version = "0.4.6"
         [["0.4.6+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -179,7 +173,6 @@ registered = 2026-02-14T19:54:09.000Z
 
             ["0.4.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcomposite"
-            provenance = "heuristic"
             version = "0.4.7"
         [["0.4.7+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

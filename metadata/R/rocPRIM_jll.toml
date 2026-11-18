@@ -17,7 +17,6 @@ registered = 2022-02-15T17:55:56.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocprim"
-            provenance = "heuristic"
             version = "4.2.0"
         [["4.2.0+0".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -42,7 +41,6 @@ registered = 2022-09-09T22:40:38.000Z
 
             ["4.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocprim"
-            provenance = "heuristic"
             version = "4.2.0"
         [["4.2.0+1".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -70,7 +68,6 @@ registered = 2022-09-10T17:08:50.000Z
 
             ["4.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocprim"
-            provenance = "heuristic"
             version = "4.5.2"
         [["4.5.2+0".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -98,7 +95,6 @@ registered = 2022-10-03T15:24:47.000Z
 
             ["5.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocprim"
-            provenance = "heuristic"
             version = "5.2.3"
         [["5.2.3+0".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -126,7 +122,6 @@ registered = 2022-11-08T08:47:22.000Z
 
             ["5.2.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocprim"
-            provenance = "heuristic"
             version = "5.2.3"
         [["5.2.3+1".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"

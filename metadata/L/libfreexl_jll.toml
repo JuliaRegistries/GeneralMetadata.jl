@@ -17,5 +17,4 @@ registered = 2025-11-10T14:47:16.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/freexl"
-            provenance = "repology-url"
             version = "2.0.0"

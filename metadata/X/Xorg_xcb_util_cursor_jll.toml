@@ -17,7 +17,6 @@ registered = 2023-09-19T21:20:03.000Z
 
             ["0.1.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util-cursor"
-            provenance = "repology-url"
             version = "0.1.4"
         [["0.1.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -45,7 +44,6 @@ registered = 2025-06-26T14:43:07.000Z
 
             ["0.1.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util-cursor"
-            provenance = "repology-url"
             version = "0.1.5"
         [["0.1.5+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -73,7 +71,6 @@ registered = 2025-09-27T09:37:12.000Z
 
             ["0.1.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util-cursor"
-            provenance = "repology-url"
             version = "0.1.6"
         [["0.1.6+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

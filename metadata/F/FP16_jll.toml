@@ -17,4 +17,3 @@ registered = 2022-09-03T17:21:55.000Z
 
             ["0.0.20210320+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fp16"
-            provenance = "repository"

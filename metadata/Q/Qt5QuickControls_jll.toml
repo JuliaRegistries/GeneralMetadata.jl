@@ -34,5 +34,4 @@ registered = 2022-04-21T22:16:14.000Z
 
             ["5.15.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt5quickcontrols"
-            provenance = "heuristic"
             version = "5.15.3"

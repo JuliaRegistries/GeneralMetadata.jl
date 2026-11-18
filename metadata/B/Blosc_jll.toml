@@ -17,7 +17,6 @@ registered = 2020-04-05T09:33:15.000Z
 
             ["1.14.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "tag-scheme"
             version = "1.14.3"
 
 ["1.14.3+1"]
@@ -39,7 +38,6 @@ registered = 2020-05-02T12:43:20.000Z
 
             ["1.14.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "tag-scheme"
             version = "1.14.3"
 
 ["1.21.0+0"]
@@ -61,7 +59,6 @@ registered = 2021-05-27T15:52:51.000Z
 
             ["1.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "repology-url"
             version = "1.21.0"
         [["1.21.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -86,7 +83,6 @@ registered = 2021-12-10T15:14:41.000Z
 
             ["1.21.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "repology-url"
             version = "1.21.1"
         [["1.21.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -111,7 +107,6 @@ registered = 2023-01-21T14:59:34.000Z
 
             ["1.21.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "tag-scheme"
             version = "1.21.2"
         [["1.21.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -136,7 +131,6 @@ registered = 2023-06-06T15:24:52.000Z
 
             ["1.21.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "git-tag"
             version = "1.21.4"
         [["1.21.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -161,7 +155,6 @@ registered = 2023-11-01T16:48:01.000Z
 
             ["1.21.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "git-tag"
             version = "1.21.5"
         [["1.21.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -186,7 +179,6 @@ registered = 2024-10-18T20:04:49.000Z
 
             ["1.21.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "git-tag"
             version = "1.21.6"
         [["1.21.6+0".artifact_metadata.sources]]
         type = "directory"
@@ -211,7 +203,6 @@ registered = 2024-12-26T18:59:21.000Z
 
             ["1.21.6+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "git-tag"
             version = "1.21.6"
         [["1.21.6+1".artifact_metadata.sources]]
         type = "directory"
@@ -236,7 +227,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["1.21.6+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "git-tag"
             version = "1.21.6"
         [["1.21.6+2".artifact_metadata.sources]]
         type = "directory"
@@ -261,7 +251,6 @@ registered = 2025-03-12T20:48:13.000Z
 
             ["1.21.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/c-blosc"
-            provenance = "git-tag"
             version = "1.21.6"
         [["1.21.7+0".artifact_metadata.sources]]
         type = "directory"

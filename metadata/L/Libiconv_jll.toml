@@ -16,7 +16,6 @@ registered = 2019-09-01T09:30:55.000Z
 
             ["1.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+1"]
@@ -37,7 +36,6 @@ registered = 2020-01-29T01:09:51.000Z
 
             ["1.16.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+2"]
@@ -59,7 +57,6 @@ registered = 2020-04-02T05:09:46.000Z
 
             ["1.16.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+3"]
@@ -81,7 +78,6 @@ registered = 2020-06-18T19:59:25.000Z
 
             ["1.16.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+4"]
@@ -103,7 +99,6 @@ registered = 2020-06-22T19:52:53.000Z
 
             ["1.16.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+5"]
@@ -125,7 +120,6 @@ registered = 2020-06-25T20:14:12.000Z
 
             ["1.16.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+6"]
@@ -147,7 +141,6 @@ registered = 2020-08-26T19:53:27.000Z
 
             ["1.16.0+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+7"]
@@ -169,7 +162,6 @@ registered = 2020-10-16T19:32:32.000Z
 
             ["1.16.0+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.0+8"]
@@ -191,7 +183,6 @@ registered = 2021-06-20T18:23:41.000Z
 
             ["1.16.0+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.1+0"]
@@ -213,7 +204,6 @@ registered = 2021-05-16T23:42:42.000Z
 
             ["1.16.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.1+1"]
@@ -235,7 +225,6 @@ registered = 2021-06-14T22:02:44.000Z
 
             ["1.16.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.16.1+2"]
@@ -257,7 +246,6 @@ registered = 2022-12-11T17:33:28.000Z
 
             ["1.16.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/iconv"
-            provenance = "repology-url"
             version = "1.16"
 
 ["1.17.0+0"]
@@ -279,7 +267,6 @@ registered = 2023-08-31T20:42:31.000Z
 
             ["1.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libiconv"
-            provenance = "repology-url"
             version = "1.17"
 
 ["1.17.0+1"]
@@ -301,7 +288,6 @@ registered = 2024-10-25T09:38:46.000Z
 
             ["1.17.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libiconv"
-            provenance = "repology-url"
             version = "1.17"
 
 ["1.18.0+0"]
@@ -323,5 +309,4 @@ registered = 2025-01-13T13:30:48.000Z
 
             ["1.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libiconv"
-            provenance = "repology-url"
             version = "1.18"

@@ -17,7 +17,6 @@ registered = 2026-05-24T15:06:03.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vroom"
-            provenance = "git-tag"
             version = "1.14.0"
         [["1.14.0+0".artifact_metadata.sources]]
         package = "asio_jll"
@@ -42,7 +41,6 @@ registered = 2026-08-13T11:10:25.000Z
 
             ["1.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vroom"
-            provenance = "git-tag"
             version = "1.15.0"
         [["1.15.0+0".artifact_metadata.sources]]
         type = "directory"

@@ -17,7 +17,6 @@ registered = 2024-09-09T15:59:04.000Z
 
             ["3.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/onednn"
-            provenance = "git-tag"
             version = "3.5.3"
         [["3.5.3+0".artifact_metadata.sources]]
         type = "directory"

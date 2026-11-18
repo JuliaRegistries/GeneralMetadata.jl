@@ -17,5 +17,4 @@ registered = 2023-04-04T00:03:56.000Z
 
             ["7.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/avrdude"
-            provenance = "git-tag"
             version = "7.1"

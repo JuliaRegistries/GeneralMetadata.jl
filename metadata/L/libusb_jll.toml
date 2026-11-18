@@ -16,7 +16,6 @@ registered = 2019-12-31T03:30:12.000Z
 
             ["1.0.23+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.23"
 
 ["1.0.24+0"]
@@ -38,7 +37,6 @@ registered = 2021-08-24T18:00:25.000Z
 
             ["1.0.24+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.24"
 
 ["1.0.26+0"]
@@ -60,7 +58,6 @@ registered = 2022-11-07T00:16:46.000Z
 
             ["1.0.26+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.26"
 
 ["1.0.27+0"]
@@ -82,7 +79,6 @@ registered = 2024-07-06T17:16:25.000Z
 
             ["1.0.27+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.27"
 
 ["1.0.27+1"]
@@ -104,7 +100,6 @@ registered = 2024-12-27T17:22:18.000Z
 
             ["1.0.27+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.27"
 
 ["1.0.27+2"]
@@ -126,7 +121,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["1.0.27+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.27"
 
 ["1.0.29+0"]
@@ -148,7 +142,6 @@ registered = 2025-06-22T09:24:47.000Z
 
             ["1.0.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.29"
 
 ["1.0.30+0"]
@@ -170,5 +163,4 @@ registered = 2026-07-13T17:15:01.000Z
 
             ["1.0.30+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libusb"
-            provenance = "git-tag"
             version = "1.0.30"

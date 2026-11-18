@@ -18,11 +18,6 @@ registered = 2019-12-12T09:18:35.000Z
         hash = "fb1972db23da39bd11d4f9c9ea6266eee665605b"
         url = "https://github.com/ARMmbed/mbedtls.git"
 
-            ["2.16.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.16.0"
-
 ["2.16.0+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.arm-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.arm-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.0+1/MbedTLS.v2.16.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-04-19T17:05:13.000Z
@@ -38,11 +33,6 @@ registered = 2020-04-19T17:05:13.000Z
         [["2.16.0+2".artifact_metadata.sources]]
         hash = "fb1972db23da39bd11d4f9c9ea6266eee665605b"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.16.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.16.0"
 
 ["2.16.6+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+0/MbedTLS.v2.16.6.x86_64-w64-mingw32.tar.gz"]
@@ -61,11 +51,6 @@ registered = 2020-06-25T21:05:38.000Z
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
 
-            ["2.16.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.16.6"
-
 ["2.16.6+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.6+1/MbedTLS.v2.16.6.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-07-03T22:21:43.000Z
@@ -82,11 +67,6 @@ registered = 2020-07-03T22:21:43.000Z
         hash = "2a1d9332d55d1270084232e42df08fdb08129f1b"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.16.6+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.16.6"
 
 ["2.16.8+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-w64-mingw32.tar.gz"]
@@ -105,11 +85,6 @@ registered = 2020-09-03T08:34:12.000Z
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
 
-            ["2.16.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.16.8"
-
 ["2.16.8+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.16.8+0/MbedTLS.v2.16.8.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-10-30T00:46:02.000Z
@@ -127,11 +102,6 @@ registered = 2020-10-30T00:46:02.000Z
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
 
-            ["2.16.8+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.16.8"
-
 ["2.24.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/MbedTLS_jll.jl/releases/download/MbedTLS-v2.24.0+0/MbedTLS.v2.24.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-11-03T01:58:06.000Z
@@ -148,11 +118,6 @@ registered = 2020-11-03T01:58:06.000Z
         hash = "523f0554b6cdc7ace5d360885c3f5bbcc73ec0e8"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.24.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.24.0"
         [["2.24.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/546d9806090ec5071733de63eff17fdf90b3c21f/M/MbedTLS/bundled"
@@ -173,11 +138,6 @@ registered = 2020-11-13T19:20:11.000Z
         hash = "523f0554b6cdc7ace5d360885c3f5bbcc73ec0e8"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.24.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.24.0"
         [["2.24.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/ab88c17356ad473b9d5b6202f6109963bcb5569b/M/MbedTLS/bundled"
@@ -198,11 +158,6 @@ registered = 2021-02-19T23:43:02.000Z
         hash = "523f0554b6cdc7ace5d360885c3f5bbcc73ec0e8"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.24.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.24.0"
         [["2.24.0+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8c56a8b36b7e95005a42ade76d075bff1445f74a/M/MbedTLS/MbedTLS@2.24.0/bundled"
@@ -223,11 +178,6 @@ registered = 2021-08-12T22:11:44.000Z
         hash = "523f0554b6cdc7ace5d360885c3f5bbcc73ec0e8"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.24.0+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.24.0"
         [["2.24.0+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e4ab55465de15a4645cedb6447662d65db3110a1/M/MbedTLS/MbedTLS@2.24.0/bundled"
@@ -248,11 +198,6 @@ registered = 2022-06-29T00:35:18.000Z
         hash = "523f0554b6cdc7ace5d360885c3f5bbcc73ec0e8"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.24.0+4".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.24.0"
         [["2.24.0+4".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3172f049ac3c5ff68436589e90ebdd20b7a77ea6/M/MbedTLS/MbedTLS@2.24.0/bundled"
@@ -276,7 +221,6 @@ registered = 2024-12-26T20:50:37.000Z
 
             ["2.24.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.24.0"
         [["2.24.0+5".artifact_metadata.sources]]
         type = "directory"
@@ -301,11 +245,6 @@ registered = 2020-12-13T00:37:25.000Z
         hash = "1c54b5410fd48d6bcada97e30cac417c5c7eea67"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.25.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.25.0"
         [["2.25.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/01bb13ae856660291f01e39ad76f05cc73c65826/M/MbedTLS/bundled"
@@ -326,11 +265,6 @@ registered = 2021-02-19T23:52:05.000Z
         hash = "1c54b5410fd48d6bcada97e30cac417c5c7eea67"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.25.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.25.0"
         [["2.25.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8c56a8b36b7e95005a42ade76d075bff1445f74a/M/MbedTLS/MbedTLS@2.25.0/bundled"
@@ -351,11 +285,6 @@ registered = 2021-08-12T22:36:00.000Z
         hash = "1c54b5410fd48d6bcada97e30cac417c5c7eea67"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.25.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.25.0"
         [["2.25.0+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e4ab55465de15a4645cedb6447662d65db3110a1/M/MbedTLS/MbedTLS@2.25.0/bundled"
@@ -376,11 +305,6 @@ registered = 2022-06-29T00:46:33.000Z
         hash = "1c54b5410fd48d6bcada97e30cac417c5c7eea67"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.25.0+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.25.0"
         [["2.25.0+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3172f049ac3c5ff68436589e90ebdd20b7a77ea6/M/MbedTLS/MbedTLS@2.25.0/bundled"
@@ -401,11 +325,6 @@ registered = 2021-03-14T19:55:16.000Z
         hash = "e483a77c85e1f9c1dd2eb1c5a8f552d2617fe400"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.26.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.26.0"
         [["2.26.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/31d17874618e2595bb6909ab84521ff0d89a902f/M/MbedTLS/MbedTLS@2.26.0/bundled"
@@ -426,11 +345,6 @@ registered = 2021-08-12T22:36:13.000Z
         hash = "e483a77c85e1f9c1dd2eb1c5a8f552d2617fe400"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.26.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.26.0"
         [["2.26.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e4ab55465de15a4645cedb6447662d65db3110a1/M/MbedTLS/MbedTLS@2.26.0/bundled"
@@ -451,11 +365,6 @@ registered = 2022-06-29T00:46:54.000Z
         hash = "e483a77c85e1f9c1dd2eb1c5a8f552d2617fe400"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.26.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.26.0"
         [["2.26.0+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3172f049ac3c5ff68436589e90ebdd20b7a77ea6/M/MbedTLS/MbedTLS@2.26.0/bundled"
@@ -476,11 +385,6 @@ registered = 2021-10-17T11:48:05.000Z
         hash = "f71e2878084126737cc39083e1e15afc459bd93d"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.27.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.27.0"
         [["2.27.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/49d5ab2ac4b2a4f049c6265bf59b82e01cf5089e/M/MbedTLS/MbedTLS@2.27.0/bundled"
@@ -501,11 +405,6 @@ registered = 2022-06-29T00:47:08.000Z
         hash = "f71e2878084126737cc39083e1e15afc459bd93d"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.27.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.27.0"
         [["2.27.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3172f049ac3c5ff68436589e90ebdd20b7a77ea6/M/MbedTLS/MbedTLS@2.27.0/bundled"
@@ -526,11 +425,6 @@ registered = 2022-01-06T23:19:46.000Z
         hash = "8b3f26a5ac38d4fdccbc5c5366229f3e01dafcc0"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.28.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.28.0"
         [["2.28.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1e66c6f8ddea9885382efb393b2cd33db2ce42dc/M/MbedTLS/MbedTLS@2.28.0/bundled"
@@ -551,11 +445,6 @@ registered = 2022-06-29T00:48:09.000Z
         hash = "8b3f26a5ac38d4fdccbc5c5366229f3e01dafcc0"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.28.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.28.0"
         [["2.28.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3172f049ac3c5ff68436589e90ebdd20b7a77ea6/M/MbedTLS/MbedTLS@2.28.0/bundled"
@@ -576,11 +465,6 @@ registered = 2022-08-25T00:57:31.000Z
         hash = "8b3f26a5ac38d4fdccbc5c5366229f3e01dafcc0"
         type = "git"
         url = "https://github.com/ARMmbed/mbedtls.git"
-
-            ["2.28.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
-            version = "2.28.0"
         [["2.28.0+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d80355ebb13639e04d7f0998eecc75caded728f6/M/MbedTLS/MbedTLS@2.28.0/bundled"
@@ -607,7 +491,6 @@ registered = 2023-02-27T10:21:39.000Z
 
             ["2.28.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.2"
         [["2.28.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -635,7 +518,6 @@ registered = 2023-07-28T22:32:32.000Z
 
             ["2.28.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.2"
         [["2.28.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -663,7 +545,6 @@ registered = 2025-03-01T07:41:49.000Z
 
             ["2.28.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.2"
         [["2.28.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -691,7 +572,6 @@ registered = 2023-12-22T14:54:35.000Z
 
             ["2.28.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.6"
         [["2.28.6+0".artifact_metadata.sources]]
         type = "directory"
@@ -719,7 +599,6 @@ registered = 2024-09-21T22:13:01.000Z
 
             ["2.28.6+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.6"
         [["2.28.6+1".artifact_metadata.sources]]
         type = "directory"
@@ -747,7 +626,6 @@ registered = 2025-03-01T07:41:35.000Z
 
             ["2.28.6+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.6"
         [["2.28.6+2".artifact_metadata.sources]]
         type = "directory"
@@ -775,7 +653,6 @@ registered = 2025-10-11T23:20:45.000Z
 
             ["2.28.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.10"
         [["2.28.10+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -800,7 +677,6 @@ registered = 2025-11-20T20:35:31.000Z
 
             ["2.28.1010+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mbedtls"
-            provenance = "git-tag"
             version = "2.28.10"
         [["2.28.1010+0".artifact_metadata.sources]]
         type = "directory"

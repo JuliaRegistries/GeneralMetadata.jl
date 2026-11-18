@@ -17,7 +17,6 @@ registered = 2021-06-17T16:13:58.000Z
 
             ["4.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.5.2"
         [["4.5.2+0".artifact_metadata.sources]]
         hash = "f5d7f6712d4ff229ba4f45cf79dfd11c557d56fd"
@@ -49,7 +48,6 @@ registered = 2022-10-09T22:34:35.000Z
 
             ["4.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.6.0"
         [["4.6.0+0".artifact_metadata.sources]]
         hash = "db16caf6ceee76b43b94c846be276e92a43e9700"
@@ -81,7 +79,6 @@ registered = 2022-11-17T16:01:51.000Z
 
             ["4.6.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.6.0"
         [["4.6.0+1".artifact_metadata.sources]]
         hash = "db16caf6ceee76b43b94c846be276e92a43e9700"
@@ -113,7 +110,6 @@ registered = 2023-08-10T14:42:25.000Z
 
             ["4.6.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.6.0"
         [["4.6.0+2".artifact_metadata.sources]]
         hash = "db16caf6ceee76b43b94c846be276e92a43e9700"
@@ -145,7 +141,6 @@ registered = 2024-10-24T10:12:09.000Z
 
             ["4.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.10.0"
         [["4.10.0+0".artifact_metadata.sources]]
         hash = "1ed3dd2c53888e3289afdb22ec4e9ebbff3dba87"
@@ -181,7 +176,6 @@ registered = 2026-06-01T16:49:12.000Z
 
             ["4.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.13.0"
         [["4.13.0+0".artifact_metadata.sources]]
         hash = "d99ad2a188210cc35067c2e60076eed7c2442bc3"
@@ -214,7 +208,6 @@ yanked = 2026-06-04T14:17:01.000Z
 
             ["4.13.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.13.0"
         [["4.13.0+1".artifact_metadata.sources]]
         hash = "d99ad2a188210cc35067c2e60076eed7c2442bc3"
@@ -255,7 +248,6 @@ yanked = 2026-06-05T22:43:44.000Z
 
             ["4.13.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.13.0"
         [["4.13.0+2".artifact_metadata.sources]]
         hash = "d99ad2a188210cc35067c2e60076eed7c2442bc3"
@@ -296,7 +288,6 @@ yanked = 2026-06-05T22:43:44.000Z
 
             ["4.13.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.13.0"
         [["4.13.0+3".artifact_metadata.sources]]
         hash = "d99ad2a188210cc35067c2e60076eed7c2442bc3"
@@ -336,7 +327,6 @@ registered = 2026-06-05T20:05:42.000Z
 
             ["4.13.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencv"
-            provenance = "git-tag"
             version = "4.13.0"
         [["4.13.0+4".artifact_metadata.sources]]
         hash = "d99ad2a188210cc35067c2e60076eed7c2442bc3"

@@ -17,4 +17,4 @@ registered = 2025-09-02T16:27:27.000Z
 
             ["1.7.18+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cjson"
-            provenance = "repository"
+            version = "1.7.18+midrelease"

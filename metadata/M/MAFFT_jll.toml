@@ -17,7 +17,6 @@ registered = 2021-11-08T12:32:37.000Z
 
             ["7.490.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mafft"
-            provenance = "heuristic"
             version = "7.490"
 
 ["7.505.0+0"]
@@ -39,7 +38,6 @@ registered = 2022-12-23T05:49:58.000Z
 
             ["7.505.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mafft"
-            provenance = "heuristic"
             version = "7.505"
 
 ["7.525.0+0"]
@@ -61,5 +59,4 @@ registered = 2025-06-19T07:25:09.000Z
 
             ["7.525.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mafft"
-            provenance = "repology-url"
             version = "7.525"

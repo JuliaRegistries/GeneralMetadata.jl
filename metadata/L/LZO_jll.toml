@@ -21,7 +21,6 @@ registered = 2020-04-02T05:10:27.000Z
 
             ["2.10.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.0+2"]
@@ -43,7 +42,6 @@ registered = 2020-08-26T19:26:45.000Z
 
             ["2.10.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.0+3"]
@@ -65,7 +63,6 @@ registered = 2020-10-16T19:47:23.000Z
 
             ["2.10.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.1+0"]
@@ -87,7 +84,6 @@ registered = 2021-05-22T14:09:40.000Z
 
             ["2.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.2+0"]
@@ -109,7 +105,6 @@ registered = 2024-05-03T17:27:36.000Z
 
             ["2.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.2+1"]
@@ -131,7 +126,6 @@ registered = 2024-09-24T22:43:09.000Z
 
             ["2.10.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.2+2"]
@@ -153,7 +147,6 @@ registered = 2024-12-25T16:12:31.000Z
 
             ["2.10.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.2+3"]
@@ -175,7 +168,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["2.10.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"
 
 ["2.10.3+0"]
@@ -197,5 +189,4 @@ registered = 2025-01-11T14:52:38.000Z
 
             ["2.10.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzo"
-            provenance = "repology-url"
             version = "2.10"

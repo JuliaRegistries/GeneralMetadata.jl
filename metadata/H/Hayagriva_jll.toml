@@ -17,7 +17,6 @@ registered = 2023-05-03T14:46:41.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hayagriva"
-            provenance = "git-tag"
             version = "0.3.0"
 
 ["0.4.0+0"]
@@ -39,5 +38,4 @@ registered = 2023-11-06T08:52:49.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hayagriva"
-            provenance = "git-tag"
             version = "0.4.0"

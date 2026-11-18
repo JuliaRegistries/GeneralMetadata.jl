@@ -17,7 +17,6 @@ registered = 2026-05-18T16:01:58.000Z
 
             ["2.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.3"
 
 ["2.2.300+0"]
@@ -39,7 +38,6 @@ registered = 2026-05-19T02:11:11.000Z
 
             ["2.2.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.3"
 
 ["2.2.301+0"]
@@ -61,5 +59,4 @@ registered = 2026-08-16T00:08:02.000Z
 
             ["2.2.301+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/scalapack"
-            provenance = "git-tag"
             version = "2.2.3"

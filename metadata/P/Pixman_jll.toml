@@ -25,7 +25,6 @@ registered = 2020-04-03T01:33:36.000Z
 
             ["0.38.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.38.4"
 
 ["0.38.4+3"]
@@ -47,7 +46,6 @@ registered = 2020-08-14T08:21:16.000Z
 
             ["0.38.4+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.38.4"
 
 ["0.38.4+4"]
@@ -69,7 +67,6 @@ registered = 2020-08-26T19:30:28.000Z
 
             ["0.38.4+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.38.4"
 
 ["0.38.4+5"]
@@ -91,7 +88,6 @@ registered = 2020-10-16T19:59:31.000Z
 
             ["0.38.4+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.38.4"
 
 ["0.40.0+0"]
@@ -113,7 +109,6 @@ registered = 2020-11-29T17:47:07.000Z
 
             ["0.40.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.40.0"
 
 ["0.40.1+0"]
@@ -135,7 +130,6 @@ registered = 2021-05-22T14:21:14.000Z
 
             ["0.40.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.40.0"
 
 ["0.42.2+0"]
@@ -157,7 +151,6 @@ registered = 2023-06-11T18:14:24.000Z
 
             ["0.42.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.42.2"
         [["0.42.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -182,7 +175,6 @@ registered = 2024-05-11T15:33:50.000Z
 
             ["0.43.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.43.4"
         [["0.43.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -207,7 +199,6 @@ registered = 2024-11-22T10:19:08.000Z
 
             ["0.44.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.44.0"
         [["0.44.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -232,7 +223,6 @@ registered = 2024-12-25T16:12:44.000Z
 
             ["0.44.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.44.0"
         [["0.44.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -257,7 +247,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["0.44.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.44.0"
         [["0.44.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -282,7 +271,6 @@ registered = 2024-12-30T23:06:34.000Z
 
             ["0.44.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.44.2"
         [["0.44.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -307,7 +295,6 @@ registered = 2025-05-14T23:19:18.000Z
 
             ["0.46.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.46.0"
         [["0.46.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -332,7 +319,6 @@ registered = 2025-06-22T23:13:20.000Z
 
             ["0.46.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "heuristic"
             version = "0.46.2"
         [["0.46.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -357,7 +343,6 @@ registered = 2025-09-04T23:05:54.000Z
 
             ["0.46.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pixman"
-            provenance = "repology-url"
             version = "0.46.4"
         [["0.46.4+0".artifact_metadata.sources]]
         type = "directory"

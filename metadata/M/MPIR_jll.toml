@@ -34,7 +34,6 @@ registered = 2025-08-31T00:45:18.000Z
 
             ["3.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpir"
-            provenance = "git-tag"
             version = "3.0.0"
 
 ["3.0.2+1"]
@@ -56,5 +55,4 @@ registered = 2026-08-10T16:27:56.000Z
 
             ["3.0.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpir"
-            provenance = "git-tag"
             version = "3.0.0"

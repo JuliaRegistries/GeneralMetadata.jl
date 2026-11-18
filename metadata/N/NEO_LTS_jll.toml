@@ -17,7 +17,6 @@ registered = 2026-05-04T21:18:22.000Z
 
             ["25.18.33578+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
             version = "25.18.33578.42"
         [["25.18.33578+0".artifact_metadata.sources]]
         type = "directory"

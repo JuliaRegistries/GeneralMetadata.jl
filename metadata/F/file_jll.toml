@@ -17,5 +17,4 @@ registered = 2023-04-14T15:46:51.000Z
 
             ["5.41.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/file"
-            provenance = "git-tag"
-            version = "5.41"
+            version = "41"

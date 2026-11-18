@@ -17,7 +17,6 @@ registered = 2021-11-04T11:51:26.000Z
 
             ["200.500.500+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "heuristic"
             version = "2.5.5"
         [["200.500.500+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,7 +41,6 @@ registered = 2022-03-01T00:58:41.000Z
 
             ["200.500.501+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "heuristic"
             version = "2.5.5"
         [["200.500.501+0".artifact_metadata.sources]]
         type = "directory"
@@ -67,7 +65,6 @@ registered = 2022-09-19T22:43:20.000Z
 
             ["200.500.800+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "heuristic"
             version = "2.5.8"
 
 ["200.500.800+1"]
@@ -89,7 +86,6 @@ registered = 2022-10-01T02:02:04.000Z
 
             ["200.500.800+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "heuristic"
             version = "2.5.8"
 
 ["200.500.900+0"]
@@ -111,7 +107,6 @@ registered = 2023-01-04T15:51:24.000Z
 
             ["200.500.900+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "heuristic"
             version = "2.5.9"
 
 ["200.500.1100+0"]
@@ -133,7 +128,6 @@ registered = 2024-03-19T23:13:14.000Z
 
             ["200.500.1100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "repology-url"
             version = "2.5.11"
 
 ["200.500.1101+0"]
@@ -155,7 +149,6 @@ registered = 2025-08-15T16:21:19.000Z
 
             ["200.500.1101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "repology-url"
             version = "2.5.11"
 
 ["201.51100.0+0"]
@@ -177,5 +170,4 @@ registered = 2025-09-30T15:57:30.000Z
 
             ["201.51100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:nq"
-            provenance = "repology-url"
             version = "2.5.11"

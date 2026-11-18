@@ -17,7 +17,6 @@ registered = 2020-04-22T18:32:57.000Z
 
             ["0.87.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "0.87.0"
         [["0.87.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -43,7 +42,6 @@ yanked = 2020-10-25T16:11:24.000Z
 
             ["0.87.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "0.87.0"
         [["0.87.0+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -68,7 +66,6 @@ registered = 2020-10-26T11:27:15.000Z
 
             ["0.87.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "0.87.0"
         [["0.87.0+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -93,7 +90,6 @@ registered = 2021-10-12T21:31:42.000Z
 
             ["21.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "21.09.0"
         [["21.9.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -118,7 +114,6 @@ registered = 2023-12-14T18:53:34.000Z
 
             ["23.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "23.12.0"
         [["23.12.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -143,7 +138,6 @@ registered = 2024-04-03T19:54:36.000Z
 
             ["23.12.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "23.12.0"
         [["23.12.0+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -168,7 +162,6 @@ registered = 2024-05-12T21:55:23.000Z
 
             ["24.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "24.05.0"
         [["24.5.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -197,7 +190,6 @@ registered = 2024-06-10T13:05:54.000Z
 
             ["24.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "24.06.0"
         [["24.6.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -226,7 +218,6 @@ registered = 2026-01-07T23:56:50.000Z
 
             ["25.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/poppler"
-            provenance = "heuristic"
             version = "25.10.0"
         [["25.10.0+0".artifact_metadata.sources]]
         hash = "d2b7784a8b63cfcc686059aef6f1065dc8d2aaeddc39245738f4c0cd9ca6165a"

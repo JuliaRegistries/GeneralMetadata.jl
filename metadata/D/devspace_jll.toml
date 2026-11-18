@@ -14,8 +14,3 @@ registered = 2023-07-31T10:25:22.000Z
         hash = "294a386008d52a6ed58448f3c73e5f3ef3caeb00"
         type = "git"
         url = "https://github.com/devspace-sh/devspace.git"
-
-            ["6.3.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/devspace"
-            provenance = "git-tag"
-            version = "6.3.2"

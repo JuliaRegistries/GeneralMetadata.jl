@@ -17,7 +17,6 @@ registered = 2020-06-18T11:11:52.000Z
 
             ["0.1.92+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sentencepiece"
-            provenance = "tag-scheme"
             version = "0.1.92"
 
 ["0.1.96+0"]
@@ -39,7 +38,6 @@ registered = 2022-02-08T02:00:22.000Z
 
             ["0.1.96+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sentencepiece"
-            provenance = "tag-scheme"
             version = "0.1.96"
         [["0.1.96+0".artifact_metadata.sources]]
         type = "directory"
@@ -64,7 +62,6 @@ registered = 2023-10-10T00:04:35.000Z
 
             ["0.1.99+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sentencepiece"
-            provenance = "git-tag"
             version = "0.1.99"
         [["0.1.99+0".artifact_metadata.sources]]
         type = "directory"

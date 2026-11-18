@@ -16,7 +16,6 @@ registered = 2019-12-03T07:53:42.000Z
 
             ["1.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxls"
-            provenance = "repology-url"
             version = "1.5.2"
 
 ["1.6.2+0"]
@@ -38,7 +37,6 @@ registered = 2023-07-28T21:02:45.000Z
 
             ["1.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxls"
-            provenance = "repology-url"
             version = "1.6.2"
 
 ["1.6.3+0"]
@@ -60,7 +58,6 @@ registered = 2026-08-29T10:57:21.000Z
 
             ["1.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxls"
-            provenance = "repology-url"
             version = "1.6.3"
 
 ["1.6.4+0"]

@@ -14,11 +14,6 @@ registered = 2025-01-30T12:37:58.000Z
         hash = "d243e628880676332263347817b3fe7f474b8b5b"
         type = "git"
         url = "https://github.com/facebookresearch/faiss.git"
-
-            ["1.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/faiss"
-            provenance = "git-tag"
-            version = "1.9.0"
         [["1.9.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/334df79335424690bdbb9bdc432bc65affa92c8e//F/Faiss/bundled"

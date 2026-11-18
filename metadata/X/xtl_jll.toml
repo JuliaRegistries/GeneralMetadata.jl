@@ -14,8 +14,3 @@ registered = 2024-05-16T16:38:56.000Z
         hash = "a7c1c5444dfc57f76620391af4c94785ff82c8d6"
         type = "git"
         url = "https://github.com/xtensor-stack/xtl"
-
-            ["0.7.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xtl-quant-stack"
-            provenance = "git-tag"
-            version = "0.7.7"

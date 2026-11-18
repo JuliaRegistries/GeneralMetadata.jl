@@ -17,7 +17,6 @@ registered = 2022-01-15T15:48:24.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spectra"
-            provenance = "repology-url"
             version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         package = "Eigen_jll"
@@ -42,7 +41,6 @@ registered = 2025-07-02T14:40:58.000Z
 
             ["1.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spectra"
-            provenance = "git-tag"
             version = "1.2.0"
         [["1.2.0+0".artifact_metadata.sources]]
         package = "Eigen_jll"

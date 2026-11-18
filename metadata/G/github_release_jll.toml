@@ -17,7 +17,6 @@ registered = 2021-04-29T23:42:13.000Z
 
             ["0.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/github-release"
-            provenance = "tag-scheme"
             version = "0.10.0"
 
 ["0.11.0+0"]
@@ -39,5 +38,4 @@ registered = 2026-06-21T15:50:16.000Z
 
             ["0.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/github-release"
-            provenance = "git-tag"
             version = "0.11.0"

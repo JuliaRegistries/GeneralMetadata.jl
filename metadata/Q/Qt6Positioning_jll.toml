@@ -25,7 +25,6 @@ registered = 2024-02-23T08:16:48.000Z
 
             ["6.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.2+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -61,7 +60,6 @@ registered = 2024-06-04T21:57:03.000Z
 
             ["6.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.1+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"

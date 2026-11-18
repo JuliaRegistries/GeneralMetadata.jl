@@ -14,11 +14,6 @@ registered = 2024-05-16T19:59:54.000Z
         hash = "5ac7edf30d0f519e0b7344b933382e4fc02fdee7"
         type = "git"
         url = "https://github.com/xtensor-stack/xsimd"
-
-            ["13.0.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xsimd"
-            provenance = "git-tag"
-            version = "13.0.0"
         [["13.0.0+0".artifact_metadata.sources]]
         package = "xtl_jll"
         type = "builddependency"
@@ -39,8 +34,3 @@ registered = 2024-05-27T12:37:36.000Z
         hash = "5ac7edf30d0f519e0b7344b933382e4fc02fdee7"
         type = "git"
         url = "https://github.com/xtensor-stack/xsimd"
-
-            ["13.0.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xsimd"
-            provenance = "git-tag"
-            version = "13.0.0"

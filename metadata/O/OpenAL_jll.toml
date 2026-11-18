@@ -21,5 +21,4 @@ registered = 2021-05-08T17:27:02.000Z
 
             ["1.21.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openal-soft"
-            provenance = "git-tag"
             version = "1.21.1"

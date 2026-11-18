@@ -17,5 +17,3 @@ registered = 2024-02-26T19:07:37.000Z
 
             ["2.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/costa"
-            provenance = "git-tag"
-            version = "2.2.2"

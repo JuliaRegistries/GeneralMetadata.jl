@@ -18,7 +18,6 @@ yanked = 2022-07-11T22:17:59.000Z
 
             ["1.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yasm"
-            provenance = "repology-url"
             version = "1.3.0"
 
 ["1.3.0+1"]
@@ -40,5 +39,4 @@ registered = 2022-07-11T22:17:59.000Z
 
             ["1.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/yasm"
-            provenance = "repology-url"
             version = "1.3.0"

@@ -17,7 +17,6 @@ registered = 2023-01-22T01:59:10.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hiredis"
-            provenance = "git-tag"
             version = "1.1.0"
         [["1.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,7 +41,6 @@ registered = 2026-09-02T15:57:00.000Z
 
             ["1.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hiredis"
-            provenance = "git-tag"
             version = "1.4.1"
         [["1.4.1+0".artifact_metadata.sources]]
         type = "directory"

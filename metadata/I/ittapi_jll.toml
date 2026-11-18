@@ -17,7 +17,6 @@ registered = 2022-11-18T18:54:26.000Z
 
             ["3.23.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ittapi"
-            provenance = "git-tag"
             version = "3.23.0"
 
 ["3.24.2+0"]
@@ -39,7 +38,6 @@ registered = 2023-07-10T19:09:42.000Z
 
             ["3.24.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ittapi"
-            provenance = "git-tag"
             version = "3.24.2"
 
 ["3.24.4+0"]
@@ -61,7 +59,6 @@ registered = 2023-12-29T21:38:53.000Z
 
             ["3.24.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ittapi"
-            provenance = "git-tag"
             version = "3.24.4"
 
 ["3.25.5+0"]
@@ -83,7 +80,6 @@ registered = 2025-02-27T14:51:55.000Z
 
             ["3.25.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ittapi"
-            provenance = "git-tag"
             version = "3.25.5"
         [["3.25.5+0".artifact_metadata.sources]]
         type = "directory"

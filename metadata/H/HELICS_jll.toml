@@ -17,7 +17,6 @@ registered = 2020-02-09T17:10:29.000Z
 
             ["2.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.4.0"
         [["2.4.0+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -42,7 +41,6 @@ registered = 2020-03-08T00:33:08.000Z
 
             ["2.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.4.1"
         [["2.4.1+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -67,7 +65,6 @@ registered = 2020-03-11T12:57:20.000Z
 
             ["2.4.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.4.1"
         [["2.4.1+1".artifact_metadata.sources]]
         package = "boost_jll"
@@ -92,7 +89,6 @@ registered = 2020-03-30T03:09:51.000Z
 
             ["2.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.4.2"
         [["2.4.2+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -117,7 +113,6 @@ registered = 2020-04-27T16:08:51.000Z
 
             ["2.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.5.0"
         [["2.5.0+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -142,7 +137,6 @@ registered = 2020-06-06T22:12:05.000Z
 
             ["2.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.5.1"
         [["2.5.1+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -167,7 +161,6 @@ registered = 2020-06-16T15:21:12.000Z
 
             ["2.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.5.2"
         [["2.5.2+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -192,7 +185,6 @@ registered = 2020-08-21T13:58:30.000Z
 
             ["2.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.6.0"
         [["2.6.0+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -221,7 +213,6 @@ registered = 2021-05-05T17:36:54.000Z
 
             ["2.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.6.0"
         [["2.7.0+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -246,7 +237,6 @@ registered = 2021-06-07T19:15:42.000Z
 
             ["2.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.7.1"
         [["2.7.1+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -271,7 +261,6 @@ registered = 2021-09-29T22:38:50.000Z
 
             ["2.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.8.0"
         [["2.8.0+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -296,7 +285,6 @@ registered = 2022-06-20T17:05:50.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "2.8.1"
         [["2.8.1+0".artifact_metadata.sources]]
         package = "boost_jll"
@@ -321,7 +309,6 @@ registered = 2022-12-09T23:20:35.000Z
 
             ["3.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "3.3.2"
         [["3.3.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -350,7 +337,6 @@ registered = 2023-01-24T01:26:33.000Z
 
             ["3.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "3.4.0"
         [["3.4.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -379,7 +365,6 @@ registered = 2024-02-08T00:08:50.000Z
 
             ["3.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "3.5.0"
         [["3.5.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -408,7 +393,6 @@ registered = 2024-03-21T22:08:29.000Z
 
             ["3.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "3.5.1"
         [["3.5.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -437,7 +421,6 @@ registered = 2024-04-08T22:37:13.000Z
 
             ["3.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "3.5.2"
         [["3.5.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -466,7 +449,6 @@ registered = 2024-07-09T20:13:48.000Z
 
             ["3.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "3.5.3"
         [["3.5.3+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -498,7 +480,6 @@ registered = 2024-12-27T20:50:55.000Z
 
             ["3.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "tag-scheme"
             version = "3.6.0"
         [["3.6.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -530,7 +511,6 @@ registered = 2025-03-20T12:31:50.000Z
 
             ["3.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/helics"
-            provenance = "repology-url"
             version = "3.6.1"
         [["3.6.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"

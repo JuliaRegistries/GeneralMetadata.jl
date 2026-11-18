@@ -341,7 +341,6 @@ registered = 2024-08-25T19:03:25.000Z
 
             ["3.19.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/petsc"
-            provenance = "heuristic"
             version = "3.19.6"
         [["3.19.6+0".artifact_metadata.sources]]
         type = "directory"
@@ -369,7 +368,6 @@ registered = 2024-08-30T17:35:43.000Z
 
             ["3.20.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/petsc"
-            provenance = "heuristic"
             version = "3.20.5"
         [["3.20.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -397,7 +395,6 @@ registered = 2024-10-03T06:32:01.000Z
 
             ["3.21.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/petsc"
-            provenance = "heuristic"
             version = "3.21.5"
         [["3.21.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -425,7 +422,6 @@ registered = 2024-10-18T19:20:29.000Z
 
             ["3.22.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/petsc"
-            provenance = "heuristic"
             version = "3.22.0"
         [["3.22.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -453,7 +449,6 @@ registered = 2026-03-27T15:23:53.000Z
 
             ["3.22.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/petsc"
-            provenance = "heuristic"
             version = "3.22.0"
         [["3.22.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -481,7 +476,6 @@ registered = 2026-08-19T16:23:40.000Z
 
             ["3.22.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/petsc"
-            provenance = "heuristic"
             version = "3.22.0"
         [["3.22.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -509,7 +503,6 @@ registered = 2026-09-15T13:18:32.000Z
 
             ["3.25.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/petsc"
-            provenance = "repology-url"
             version = "3.25.4"
         [["3.25.4+0".artifact_metadata.sources]]
         type = "directory"

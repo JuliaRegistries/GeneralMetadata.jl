@@ -25,7 +25,6 @@ registered = 2023-03-05T20:26:37.000Z
 
             ["6.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.4.2+1"]
@@ -55,7 +54,6 @@ registered = 2023-07-11T14:48:52.000Z
 
             ["6.4.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.5.2+0"]
@@ -85,7 +83,6 @@ registered = 2023-09-18T11:23:40.000Z
 
             ["6.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.7.1+0"]
@@ -115,7 +112,6 @@ registered = 2024-06-04T21:01:08.000Z
 
             ["6.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["6.8.2+0"]
@@ -145,7 +141,6 @@ registered = 2025-02-09T18:06:58.000Z
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "11.0.1"
 
 ["6.10.2+0"]
@@ -167,7 +162,6 @@ registered = 2026-02-23T13:43:46.000Z
 
             ["6.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt"
-            provenance = "heuristic"
             version = "6.10.2"
         [["6.10.2+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"

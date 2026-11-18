@@ -17,5 +17,4 @@ registered = 2024-09-19T20:50:33.000Z
 
             ["3.2.15+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmime"
-            provenance = "repology-url"
             version = "3.2.15"

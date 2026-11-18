@@ -17,7 +17,6 @@ registered = 2025-05-13T14:36:14.000Z
 
             ["22.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nodejs24-bin"
-            provenance = "heuristic"
             version = "22.15.0"
         [["22.15.0+0".artifact_metadata.sources]]
         hash = "c3582722db988ed1eaefd590b877b86aaace65f68746726c1f8c79d26e5cc7de"

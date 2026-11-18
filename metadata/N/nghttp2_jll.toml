@@ -17,7 +17,6 @@ registered = 2020-04-28T18:08:45.000Z
 
             ["1.40.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.40.0"
 
 ["1.40.0+1"]
@@ -39,7 +38,6 @@ registered = 2020-06-18T19:57:33.000Z
 
             ["1.40.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.40.0"
 
 ["1.40.0+2"]
@@ -61,7 +59,6 @@ registered = 2020-06-25T20:14:40.000Z
 
             ["1.40.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.40.0"
 
 ["1.41.0+0"]
@@ -83,7 +80,6 @@ registered = 2020-11-04T20:01:15.000Z
 
             ["1.41.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.41.0"
 
 ["1.41.0+1"]
@@ -105,7 +101,6 @@ registered = 2021-02-17T21:09:10.000Z
 
             ["1.41.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.41.0"
 
 ["1.41.0+2"]
@@ -127,7 +122,6 @@ registered = 2021-08-12T23:19:30.000Z
 
             ["1.41.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.41.0"
 
 ["1.41.0+3"]
@@ -149,7 +143,6 @@ registered = 2024-12-27T14:55:38.000Z
 
             ["1.41.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.41.0"
         [["1.41.0+3".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -174,7 +167,6 @@ registered = 2022-05-20T21:48:45.000Z
 
             ["1.47.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.47.0"
 
 ["1.48.0+0"]
@@ -196,7 +188,6 @@ registered = 2022-07-09T22:04:54.000Z
 
             ["1.48.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.48.0"
 
 ["1.48.0+1"]
@@ -218,7 +209,6 @@ registered = 2022-08-25T01:30:44.000Z
 
             ["1.48.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.48.0"
         [["1.48.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -243,7 +233,6 @@ registered = 2023-02-26T11:53:39.000Z
 
             ["1.52.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.52.0"
         [["1.52.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -268,7 +257,6 @@ registered = 2023-07-29T18:17:00.000Z
 
             ["1.52.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.52.0"
         [["1.52.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -293,7 +281,6 @@ registered = 2023-11-18T01:09:26.000Z
 
             ["1.58.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "repology-url"
             version = "1.58.0"
         [["1.58.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -318,7 +305,6 @@ registered = 2024-01-22T22:42:25.000Z
 
             ["1.59.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "tag-scheme"
             version = "1.59.0"
         [["1.59.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -343,7 +329,6 @@ registered = 2024-03-02T01:16:16.000Z
 
             ["1.60.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.60.0"
         [["1.60.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -368,7 +353,6 @@ registered = 2024-04-04T10:23:36.000Z
 
             ["1.61.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.61.0"
         [["1.61.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -393,7 +377,6 @@ registered = 2024-05-13T14:26:48.000Z
 
             ["1.62.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.62.0"
         [["1.62.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -418,7 +401,6 @@ registered = 2024-05-20T17:00:43.000Z
 
             ["1.62.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.62.1"
         [["1.62.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -443,7 +425,6 @@ registered = 2024-08-27T20:27:50.000Z
 
             ["1.63.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.63.0"
         [["1.63.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -468,7 +449,6 @@ registered = 2024-09-12T23:00:57.000Z
 
             ["1.63.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.63.0"
         [["1.63.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -493,7 +473,6 @@ registered = 2024-10-22T18:41:01.000Z
 
             ["1.64.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.64.0"
         [["1.64.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -518,7 +497,6 @@ registered = 2024-12-24T15:56:58.000Z
 
             ["1.64.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.64.0"
         [["1.64.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -543,7 +521,6 @@ registered = 2025-03-11T17:37:14.000Z
 
             ["1.65.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.65.0"
         [["1.65.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -568,7 +545,6 @@ registered = 2025-08-17T09:29:45.000Z
 
             ["1.66.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.66.0"
         [["1.66.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -593,7 +569,6 @@ registered = 2025-09-03T14:45:53.000Z
 
             ["1.67.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.67.0"
         [["1.67.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -618,7 +593,6 @@ registered = 2025-09-17T00:57:54.000Z
 
             ["1.67.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.67.1"
         [["1.67.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -643,7 +617,6 @@ registered = 2025-10-25T17:30:45.000Z
 
             ["1.68.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.68.0"
         [["1.68.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -668,7 +641,6 @@ registered = 2025-10-27T17:25:38.000Z
 
             ["1.68.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.68.0"
         [["1.68.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -693,7 +665,6 @@ registered = 2026-03-19T17:45:21.000Z
 
             ["1.68.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.68.1"
         [["1.68.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -718,7 +689,6 @@ registered = 2026-04-19T17:18:28.000Z
 
             ["1.69.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.69.0"
         [["1.69.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -743,7 +713,6 @@ registered = 2026-07-30T13:07:52.000Z
 
             ["1.70.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp2"
-            provenance = "git-tag"
             version = "1.70.0"
         [["1.70.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"

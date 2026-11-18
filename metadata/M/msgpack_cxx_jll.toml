@@ -17,5 +17,4 @@ registered = 2024-05-21T17:24:48.000Z
 
             ["6.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/msgpack-cxx"
-            provenance = "repology-url"
             version = "6.1.1"

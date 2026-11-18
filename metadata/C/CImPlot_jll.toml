@@ -18,10 +18,6 @@ registered = 2020-05-22T14:33:14.000Z
         hash = "1353014bce7d330e612529cb6193d811281eabac"
         type = "git"
         url = "https://github.com/epezent/implot.git"
-
-            ["0.0.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/implot"
-            provenance = "repository"
         [["0.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/68153f1cdf58de5032230cb7e66643c5c74707df/C/CImPlot/bundled"
@@ -46,11 +42,6 @@ registered = 2020-06-30T19:33:02.000Z
         hash = "b95b23fec80dfe547da8905b570a9db30becf904"
         type = "git"
         url = "https://github.com/epezent/implot.git"
-
-            ["0.3.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/implot"
-            provenance = "git-tag"
-            version = "0.3"
         [["0.3.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4912025f5eafb35428e4afe04e53f31ab16ef43e/C/CImPlot/bundled"
@@ -75,11 +66,6 @@ registered = 2020-08-20T14:21:03.000Z
         hash = "5c9679c2abf77825c5c7a2b228a773a506754c50"
         type = "git"
         url = "https://github.com/epezent/implot.git"
-
-            ["0.4.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/implot"
-            provenance = "git-tag"
-            version = "0.4"
         [["0.4.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6d38f5870f19ddb384570597e35e05546e906278/C/CImPlot/bundled"
@@ -104,11 +90,6 @@ registered = 2021-01-08T01:16:18.000Z
         hash = "5c9679c2abf77825c5c7a2b228a773a506754c50"
         type = "git"
         url = "https://github.com/epezent/implot.git"
-
-            ["0.8.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/implot"
-            provenance = "git-tag"
-            version = "0.4"
         [["0.8.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/f7eace55f992138e045cc71f4a271347252d876e/C/CImPlot/bundled"
@@ -133,11 +114,6 @@ registered = 2021-04-09T22:03:46.000Z
         hash = "95a530f05c267513d044b5ae41bce14883f8a407"
         type = "git"
         url = "https://github.com/epezent/implot.git"
-
-            ["0.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/implot"
-            provenance = "git-tag"
-            version = "0.9"
         [["0.9.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/45438212101191fee6a8e7b528beb06b112a9984/C/CImPlot/bundled"

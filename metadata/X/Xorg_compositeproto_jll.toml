@@ -21,7 +21,6 @@ registered = 2023-05-20T17:24:56.000Z
 
             ["0.4.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/compositeproto"
-            provenance = "heuristic"
             version = "0.4"
 
 ["0.4.2+0"]
@@ -43,5 +42,4 @@ registered = 2025-06-27T16:47:22.000Z
 
             ["0.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/compositeproto"
-            provenance = "repology-url"
             version = "0.4.2"

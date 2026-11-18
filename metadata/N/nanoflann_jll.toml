@@ -17,5 +17,4 @@ registered = 2021-11-26T17:49:04.000Z
 
             ["1.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nanoflann"
-            provenance = "tag-scheme"
             version = "1.3.2"

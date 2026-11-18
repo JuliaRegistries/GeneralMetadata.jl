@@ -15,11 +15,6 @@ registered = 2021-04-22T11:29:14.000Z
         type = "git"
         url = "https://github.com/AcademySoftwareFoundation/Imath.git"
 
-            ["3.0.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/imath"
-            provenance = "git-tag"
-            version = "3.0.1"
-
 ["3.0.1+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.0.1+1/Imath.v3.0.1.x86_64-w64-mingw32.tar.gz"]
 registered = 2021-04-23T19:54:32.000Z
@@ -39,7 +34,6 @@ registered = 2021-04-23T19:54:32.000Z
 
             ["3.0.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/imath"
-            provenance = "tag-scheme"
             version = "3.0.1"
 
 ["3.1.2+0"]
@@ -61,7 +55,6 @@ registered = 2021-08-04T10:30:59.000Z
 
             ["3.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/imath"
-            provenance = "tag-scheme"
             version = "3.1.2"
 
 ["3.1.7+0"]
@@ -81,11 +74,6 @@ registered = 2023-03-11T15:48:32.000Z
         type = "git"
         url = "https://github.com/AcademySoftwareFoundation/Imath.git"
 
-            ["3.1.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/imath"
-            provenance = "git-tag"
-            version = "3.1.7"
-
 ["3.1.11+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.1.11+0/Imath.v3.1.11.x86_64-w64-mingw32.tar.gz"]
 registered = 2024-04-25T17:59:17.000Z
@@ -103,11 +91,6 @@ registered = 2024-04-25T17:59:17.000Z
         type = "git"
         url = "https://github.com/AcademySoftwareFoundation/Imath.git"
 
-            ["3.1.11+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/imath"
-            provenance = "git-tag"
-            version = "3.1.11"
-
 ["3.2.2+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Imath_jll.jl/releases/download/Imath-v3.2.2+0/Imath.v3.2.2.x86_64-w64-mingw32.tar.gz"]
 registered = 2025-12-29T19:12:12.000Z
@@ -124,8 +107,3 @@ registered = 2025-12-29T19:12:12.000Z
         hash = "1e480d11cb98b032a2dece9b9a8730512effc7f6"
         type = "git"
         url = "https://github.com/AcademySoftwareFoundation/Imath.git"
-
-            ["3.2.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/imath"
-            provenance = "git-tag"
-            version = "3.2.2"

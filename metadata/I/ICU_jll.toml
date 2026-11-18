@@ -17,7 +17,6 @@ registered = 2020-06-24T20:57:07.000Z
 
             ["65.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/icu"
-            provenance = "tag-scheme"
             version = "65.1"
         [["65.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -54,7 +53,6 @@ registered = 2020-12-11T06:30:57.000Z
 
             ["67.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/icu"
-            provenance = "tag-scheme"
             version = "67.1"
         [["67.1.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -79,7 +77,6 @@ registered = 2021-02-10T22:34:51.000Z
 
             ["68.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/icu"
-            provenance = "tag-scheme"
             version = "68.2"
         [["68.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -104,7 +101,6 @@ registered = 2021-05-25T18:35:43.000Z
 
             ["69.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/icu"
-            provenance = "tag-scheme"
             version = "69.1"
         [["69.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -129,7 +125,6 @@ registered = 2023-11-13T14:30:32.000Z
 
             ["74.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/icu"
-            provenance = "tag-scheme"
             version = "74.1"
         [["74.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -154,7 +149,6 @@ registered = 2025-02-16T00:39:35.000Z
 
             ["76.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/icu"
-            provenance = "git-tag"
             version = "76.1"
         [["76.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -179,7 +173,6 @@ registered = 2025-04-02T03:44:03.000Z
 
             ["76.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/icu"
-            provenance = "git-tag"
             version = "76.1"
         [["76.2.0+0".artifact_metadata.sources]]
         type = "directory"

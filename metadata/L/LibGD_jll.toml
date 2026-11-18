@@ -17,7 +17,6 @@ registered = 2021-01-02T14:24:54.000Z
 
             ["2.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gd"
-            provenance = "tag-scheme"
             version = "2.3.0"
         [["2.3.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -42,7 +41,6 @@ registered = 2023-10-02T00:11:44.000Z
 
             ["2.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gd"
-            provenance = "git-tag"
             version = "2.3.3"
         [["2.3.3+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -67,7 +65,6 @@ registered = 2025-07-06T14:09:43.000Z
 
             ["20.300.3000+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gd"
-            provenance = "repology-url"
             version = "2.3.3"
         [["20.300.3000+0".artifact_metadata.sources]]
         type = "directory"

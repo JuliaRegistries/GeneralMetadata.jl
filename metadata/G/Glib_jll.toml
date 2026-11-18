@@ -25,7 +25,6 @@ registered = 2020-04-03T17:33:11.000Z
 
             ["2.59.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.59.0"
 
 ["2.59.0+3"]
@@ -47,7 +46,6 @@ registered = 2020-08-26T20:18:22.000Z
 
             ["2.59.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.59.0"
 
 ["2.59.0+4"]
@@ -69,7 +67,6 @@ registered = 2020-10-16T19:47:37.000Z
 
             ["2.59.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.59.0"
 
 ["2.68.1+0"]
@@ -91,7 +88,6 @@ registered = 2021-05-21T10:23:54.000Z
 
             ["2.68.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.68.1"
         [["2.68.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -116,7 +112,6 @@ registered = 2021-07-27T23:20:22.000Z
 
             ["2.68.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.68.3"
         [["2.68.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -141,7 +136,6 @@ registered = 2021-12-01T18:11:20.000Z
 
             ["2.68.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.68.3"
         [["2.68.3+1".artifact_metadata.sources]]
         type = "directory"
@@ -166,7 +160,6 @@ registered = 2021-12-18T18:20:31.000Z
 
             ["2.68.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.68.3"
         [["2.68.3+2".artifact_metadata.sources]]
         type = "directory"
@@ -191,7 +184,6 @@ registered = 2022-09-28T01:09:20.000Z
 
             ["2.74.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.74.0"
         [["2.74.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -216,7 +208,6 @@ registered = 2022-09-28T20:42:53.000Z
 
             ["2.74.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.74.0"
         [["2.74.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -241,7 +232,6 @@ registered = 2022-12-11T16:17:11.000Z
 
             ["2.74.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.74.0"
         [["2.74.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -266,7 +256,6 @@ registered = 2023-09-08T19:40:15.000Z
 
             ["2.76.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.76.5"
         [["2.76.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -291,7 +280,6 @@ registered = 2024-03-10T21:09:22.000Z
 
             ["2.78.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.78.3"
         [["2.78.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -303,7 +291,6 @@ registered = 2024-03-10T21:09:22.000Z
 
             ["2.78.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
 
 ["2.80.0+0"]
@@ -325,7 +312,6 @@ registered = 2024-03-11T11:35:31.000Z
 
             ["2.80.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.80.0"
         [["2.80.0+0".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
@@ -334,7 +320,6 @@ registered = 2024-03-11T11:35:31.000Z
 
             ["2.80.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.80.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -359,7 +344,6 @@ registered = 2024-05-12T19:40:34.000Z
 
             ["2.80.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.80.2"
         [["2.80.2+0".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
@@ -368,7 +352,6 @@ registered = 2024-05-12T19:40:34.000Z
 
             ["2.80.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.80.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -393,7 +376,6 @@ registered = 2024-10-01T18:02:37.000Z
 
             ["2.80.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.80.5"
         [["2.80.5+0".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
@@ -402,7 +384,6 @@ registered = 2024-10-01T18:02:37.000Z
 
             ["2.80.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.80.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -427,7 +408,6 @@ registered = 2024-11-23T18:34:16.000Z
 
             ["2.82.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.82.2"
         [["2.82.2+0".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
@@ -436,7 +416,6 @@ registered = 2024-11-23T18:34:16.000Z
 
             ["2.82.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.82.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -461,7 +440,6 @@ registered = 2024-12-04T00:04:25.000Z
 
             ["2.82.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.82.2"
         [["2.82.2+1".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
@@ -470,7 +448,6 @@ registered = 2024-12-04T00:04:25.000Z
 
             ["2.82.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.82.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -495,7 +472,6 @@ registered = 2024-12-19T14:54:29.000Z
 
             ["2.82.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.82.4"
         [["2.82.4+0".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
@@ -504,7 +480,6 @@ registered = 2024-12-19T14:54:29.000Z
 
             ["2.82.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.82.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -529,7 +504,6 @@ registered = 2025-03-23T19:22:24.000Z
 
             ["2.84.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.84.0"
         [["2.84.0+0".artifact_metadata.sources]]
         hash = "a3a077385205039a7c6f9e2c98ecdf2a720b2a819da715e03e0630c75782c1e4"
@@ -542,7 +516,6 @@ registered = 2025-03-23T19:22:24.000Z
 
             ["2.84.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.84.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -567,7 +540,6 @@ registered = 2025-06-24T16:56:03.000Z
 
             ["2.84.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.84.3"
         [["2.84.3+0".artifact_metadata.sources]]
         hash = "a3a077385205039a7c6f9e2c98ecdf2a720b2a819da715e03e0630c75782c1e4"
@@ -580,7 +552,6 @@ registered = 2025-06-24T16:56:03.000Z
 
             ["2.84.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.84.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -605,7 +576,6 @@ registered = 2025-09-10T23:17:37.000Z
 
             ["2.86.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.86.0"
         [["2.86.0+0".artifact_metadata.sources]]
         hash = "a3a077385205039a7c6f9e2c98ecdf2a720b2a819da715e03e0630c75782c1e4"
@@ -618,7 +588,6 @@ registered = 2025-09-10T23:17:37.000Z
 
             ["2.86.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
             version = "10.0.0"
         [["2.86.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -643,7 +612,6 @@ registered = 2025-12-01T17:37:45.000Z
 
             ["2.86.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.86.2"
         [["2.86.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -672,7 +640,6 @@ registered = 2026-02-06T15:15:17.000Z
 
             ["2.86.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.86.3"
         [["2.86.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -701,7 +668,6 @@ registered = 2026-07-30T16:11:04.000Z
 
             ["2.88.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib"
-            provenance = "url-pattern"
             version = "2.88.3"
         [["2.88.3+0".artifact_metadata.sources]]
         type = "directory"

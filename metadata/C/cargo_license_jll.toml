@@ -16,6 +16,5 @@ registered = 2021-12-19T22:37:52.000Z
         url = "https://github.com/onur/cargo-license.git"
 
             ["0.4.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/cargo-license"
-            provenance = "git-tag"
+            project = "repology.org/project/rust:cargo-license"
             version = "0.4.2"

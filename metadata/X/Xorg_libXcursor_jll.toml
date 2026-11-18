@@ -22,7 +22,6 @@ registered = 2020-02-09T01:05:12.000Z
 
             ["1.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcursor"
-            provenance = "heuristic"
             version = "1.2.0"
         [["1.2.0+1".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -47,7 +46,6 @@ registered = 2020-04-17T19:33:41.000Z
 
             ["1.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcursor"
-            provenance = "heuristic"
             version = "1.2.0"
         [["1.2.0+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -75,7 +73,6 @@ registered = 2020-08-26T18:21:09.000Z
 
             ["1.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcursor"
-            provenance = "heuristic"
             version = "1.2.0"
         [["1.2.0+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -103,7 +100,6 @@ registered = 2020-10-16T19:25:22.000Z
 
             ["1.2.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcursor"
-            provenance = "heuristic"
             version = "1.2.0"
         [["1.2.0+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -131,7 +127,6 @@ registered = 2024-12-17T21:35:27.000Z
 
             ["1.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcursor"
-            provenance = "repology-url"
             version = "1.2.3"
         [["1.2.3+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -159,7 +154,6 @@ registered = 2025-04-22T20:36:39.000Z
 
             ["1.2.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxcursor"
-            provenance = "repology-url"
             version = "1.2.3"
         [["1.2.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

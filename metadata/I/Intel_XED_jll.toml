@@ -17,7 +17,6 @@ registered = 2023-09-30T21:09:01.000Z
 
             ["2023.8.21+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xed-intel-x86-decoder-encoder"
-            provenance = "git-tag"
             version = "2023.08.21"
         [["2023.8.21+0".artifact_metadata.sources]]
         hash = "75cb46e6536758f1a3cdb3d6bd83a4a9fd0338bb"

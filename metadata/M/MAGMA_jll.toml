@@ -17,7 +17,6 @@ registered = 2023-01-24T20:37:06.000Z
 
             ["2.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/magma"
-            provenance = "heuristic"
             version = "2.7.0"
         [["2.7.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -45,7 +44,6 @@ registered = 2023-01-25T22:28:49.000Z
 
             ["2.7.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/magma"
-            provenance = "heuristic"
             version = "2.7.0"
         [["2.7.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -73,7 +71,6 @@ registered = 2025-05-23T11:37:17.000Z
 
             ["2.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/magma"
-            provenance = "heuristic"
             version = "2.9.0"
         [["2.9.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -137,7 +134,6 @@ registered = 2026-04-21T00:10:46.000Z
 
             ["2.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/magma"
-            provenance = "repology-url"
             version = "2.10.0"
         [["2.10.0+0".artifact_metadata.sources]]
         type = "directory"

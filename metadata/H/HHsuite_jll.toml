@@ -17,7 +17,6 @@ registered = 2021-11-27T00:08:28.000Z
 
             ["3.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hh-suite"
-            provenance = "repology-url"
             version = "3.3.0"
         [["3.3.0+0".artifact_metadata.sources]]
         type = "directory"

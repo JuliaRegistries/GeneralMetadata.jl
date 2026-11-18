@@ -17,7 +17,6 @@ registered = 2021-08-18T21:54:52.000Z
 
             ["2.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/muparser"
-            provenance = "tag-scheme"
             version = "2.3.2"
 
 ["2.3.5+0"]
@@ -39,5 +38,4 @@ registered = 2025-05-27T10:54:53.000Z
 
             ["2.3.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/muparser"
-            provenance = "git-tag"
             version = "2.3.5"

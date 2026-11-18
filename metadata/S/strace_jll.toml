@@ -17,7 +17,6 @@ registered = 2024-01-30T22:18:02.000Z
 
             ["6.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/strace"
-            provenance = "git-tag"
             version = "6.7"
 
 ["6.7.0+1"]
@@ -39,5 +38,4 @@ registered = 2024-01-30T23:25:01.000Z
 
             ["6.7.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/strace"
-            provenance = "git-tag"
             version = "6.7"

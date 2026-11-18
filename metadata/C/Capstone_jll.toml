@@ -21,5 +21,4 @@ registered = 2022-10-30T22:34:13.000Z
 
             ["4.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/capstone"
-            provenance = "repology-url"
             version = "4.0.2"

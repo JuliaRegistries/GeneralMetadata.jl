@@ -17,5 +17,4 @@ registered = 2020-07-29T00:42:21.000Z
 
             ["2.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ruby"
-            provenance = "repology-url"
             version = "2.7.1"

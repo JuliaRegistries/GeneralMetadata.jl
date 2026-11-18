@@ -17,7 +17,6 @@ registered = 2020-06-14T01:21:11.000Z
 
             ["0.32.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpv"
-            provenance = "tag-scheme"
             version = "0.32.0"
         [["0.32.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -46,7 +45,6 @@ registered = 2026-03-25T14:10:41.000Z
 
             ["0.41.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpv"
-            provenance = "git-tag"
             version = "0.41.0"
         [["0.41.0+0".artifact_metadata.sources]]
         hash = "cd4f08a75577145b8f05245a2975f7c81401d75e9535dcffbb879ee1deefcbf4"
@@ -75,7 +73,6 @@ registered = 2026-03-29T14:15:25.000Z
 
             ["0.41.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpv"
-            provenance = "git-tag"
             version = "0.41.0"
         [["0.41.0+1".artifact_metadata.sources]]
         hash = "cd4f08a75577145b8f05245a2975f7c81401d75e9535dcffbb879ee1deefcbf4"
@@ -104,7 +101,6 @@ registered = 2026-04-01T23:50:41.000Z
 
             ["0.41.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpv"
-            provenance = "git-tag"
             version = "0.41.0"
         [["0.41.0+2".artifact_metadata.sources]]
         hash = "cd4f08a75577145b8f05245a2975f7c81401d75e9535dcffbb879ee1deefcbf4"

@@ -16,7 +16,6 @@ registered = 2019-10-14T22:13:20.000Z
 
             ["1.6.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.6.8"
 
 ["1.6.9+0"]
@@ -38,7 +37,6 @@ registered = 2020-02-09T01:39:35.000Z
 
             ["1.6.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.6.9"
         [["1.6.9+0".artifact_metadata.sources]]
         package = "Xorg_kbproto_jll"
@@ -75,7 +73,6 @@ registered = 2020-02-17T17:04:14.000Z
 
             ["1.6.9+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.6.9"
         [["1.6.9+1".artifact_metadata.sources]]
         package = "Xorg_kbproto_jll"
@@ -112,7 +109,6 @@ registered = 2020-04-17T19:21:49.000Z
 
             ["1.6.9+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.6.9"
         [["1.6.9+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -140,7 +136,6 @@ registered = 2020-08-26T19:33:02.000Z
 
             ["1.6.9+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.6.9"
         [["1.6.9+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -168,7 +163,6 @@ registered = 2020-10-16T19:29:32.000Z
 
             ["1.6.9+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.6.9"
         [["1.6.9+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -196,7 +190,6 @@ registered = 2023-07-01T09:38:58.000Z
 
             ["1.8.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.8.6"
         [["1.8.6+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -224,7 +217,6 @@ registered = 2024-12-01T23:43:33.000Z
 
             ["1.8.6+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.8.6"
         [["1.8.6+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -252,7 +244,6 @@ registered = 2024-12-27T23:03:14.000Z
 
             ["1.8.6+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.8.6"
         [["1.8.6+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -280,7 +271,6 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["1.8.6+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.8.6"
         [["1.8.6+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -308,7 +298,6 @@ registered = 2025-04-15T14:43:01.000Z
 
             ["1.8.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "heuristic"
             version = "1.8.12"
         [["1.8.12+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -336,7 +325,6 @@ registered = 2026-02-14T19:53:56.000Z
 
             ["1.8.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libx11"
-            provenance = "repology-url"
             version = "1.8.13"
         [["1.8.13+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

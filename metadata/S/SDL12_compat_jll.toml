@@ -17,7 +17,6 @@ registered = 2022-12-19T21:14:56.000Z
 
             ["1.2.60+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl12-compat"
-            provenance = "git-tag"
             version = "1.2.60"
         [["1.2.60+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

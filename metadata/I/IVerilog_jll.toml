@@ -34,4 +34,3 @@ registered = 2022-06-08T19:31:57.000Z
 
             ["12.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/iverilog"
-            provenance = "repository"

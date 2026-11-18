@@ -16,7 +16,6 @@ registered = 2020-01-26T02:59:54.000Z
 
             ["0.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opusfile"
-            provenance = "repology-url"
             version = "0.11"
         [["0.11.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,7 +40,6 @@ registered = 2022-01-23T01:18:37.000Z
 
             ["0.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opusfile"
-            provenance = "repology-url"
             version = "0.12"
         [["0.12.0+0".artifact_metadata.sources]]
         type = "directory"

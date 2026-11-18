@@ -17,5 +17,4 @@ registered = 2022-09-18T13:14:08.000Z
 
             ["3.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cudd"
-            provenance = "repology-url"
             version = "3.0.0"

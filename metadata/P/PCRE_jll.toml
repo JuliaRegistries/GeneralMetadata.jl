@@ -20,7 +20,6 @@ registered = 2019-10-03T00:57:56.000Z
 
             ["8.42.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
-            provenance = "heuristic"
             version = "8.42"
 
 ["8.42.0+2"]
@@ -42,7 +41,6 @@ registered = 2020-04-02T05:10:41.000Z
 
             ["8.42.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
-            provenance = "heuristic"
             version = "8.42"
 
 ["8.42.0+3"]
@@ -64,7 +62,6 @@ registered = 2020-08-26T19:42:49.000Z
 
             ["8.42.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
-            provenance = "heuristic"
             version = "8.42"
 
 ["8.42.0+4"]
@@ -86,7 +83,6 @@ registered = 2020-10-16T19:30:25.000Z
 
             ["8.42.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
-            provenance = "heuristic"
             version = "8.42"
 
 ["8.44.0+0"]
@@ -108,7 +104,6 @@ registered = 2021-05-17T01:26:37.000Z
 
             ["8.44.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
-            provenance = "repology-url"
             version = "8.44"
 
 ["8.45.0+0"]
@@ -130,7 +125,6 @@ registered = 2024-05-12T22:50:27.000Z
 
             ["8.45.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
-            provenance = "repology-url"
             version = "8.45"
 
 ["8.45.1+0"]
@@ -152,5 +146,4 @@ registered = 2026-06-09T10:56:15.000Z
 
             ["8.45.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
-            provenance = "repology-url"
             version = "8.45"

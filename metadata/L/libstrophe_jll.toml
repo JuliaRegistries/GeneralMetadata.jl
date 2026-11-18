@@ -17,5 +17,4 @@ registered = 2025-12-09T22:47:17.000Z
 
             ["0.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libstrophe"
-            provenance = "git-tag"
             version = "0.14.0"

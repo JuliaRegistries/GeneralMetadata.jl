@@ -17,7 +17,6 @@ registered = 2025-05-24T18:22:20.000Z
 
             ["0.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpifileutils"
-            provenance = "git-tag"
             version = "0.12"
         [["0.12.0+0".artifact_metadata.sources]]
         type = "directory"

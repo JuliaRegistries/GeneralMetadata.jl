@@ -14,11 +14,6 @@ registered = 2020-08-27T19:21:33.000Z
         hash = "ad3fe53dbc5396cba47ad75364da69ad6a1f405f"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.51.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.51.2"
         [["0.51.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -42,11 +37,6 @@ registered = 2020-09-03T20:46:43.000Z
         hash = "90ee73c741271d964f241f098b0dd3ba18eae271"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.52.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.52.0"
         [["0.52.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -70,20 +60,10 @@ registered = 2020-12-04T21:49:29.000Z
         hash = "b490cbfacc6f4dc08c2a2de52c6f6594e8c7c5f9"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.53.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.53.0"
         [["0.53.0+0".artifact_metadata.sources]]
         hash = "60b856b8bb834d30612653da42eebef56e4e329d3a73d52c303684ee42b027f1"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.53.0/gr-0.53.0.js"
-
-            ["0.53.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.53.0"
         [["0.53.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -107,20 +87,10 @@ registered = 2021-03-26T15:08:16.000Z
         hash = "c5fbc6613de1437a3dd598680de02af8dbe1098f"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.56.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.56.1"
         [["0.56.1+0".artifact_metadata.sources]]
         hash = "1e372730b864b105a4091cb2fd0814156aea8992ef0db308b9695956a292acc8"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.56.1/gr-0.56.1.js"
-
-            ["0.56.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.56.1"
         [["0.56.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -144,20 +114,10 @@ registered = 2021-03-31T11:43:15.000Z
         hash = "6e18065920d2b5d9f03aec552a9bc8e85df33262"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.57.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.57.0"
         [["0.57.0+0".artifact_metadata.sources]]
         hash = "e5933b240a4caa9eeeb41f0945de4fac38a860d9b03d409ba6f8b4bcfbffa5c7"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.57.0/gr-0.57.0.js"
-
-            ["0.57.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.57.0"
         [["0.57.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -181,20 +141,10 @@ registered = 2021-04-02T18:18:38.000Z
         hash = "95600ad51830588f2a8ad5d600b1490a5847c10a"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.57.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.57.1"
         [["0.57.1+0".artifact_metadata.sources]]
         hash = "e5933b240a4caa9eeeb41f0945de4fac38a860d9b03d409ba6f8b4bcfbffa5c7"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.57.1/gr-0.57.1.js"
-
-            ["0.57.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.57.1"
         [["0.57.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -218,20 +168,10 @@ registered = 2021-04-08T10:05:39.000Z
         hash = "7db0571d13ca8dea38a08ad56df4330d67fbb6e0"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.57.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.57.2"
         [["0.57.2+0".artifact_metadata.sources]]
         hash = "e5933b240a4caa9eeeb41f0945de4fac38a860d9b03d409ba6f8b4bcfbffa5c7"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.57.2/gr-0.57.2.js"
-
-            ["0.57.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.57.2"
         [["0.57.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -255,20 +195,10 @@ registered = 2021-05-28T13:57:18.000Z
         hash = "b95f9774605456d6bb94f469adc15ff01de11f8e"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.57.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.57.3"
         [["0.57.3+0".artifact_metadata.sources]]
         hash = "7a135443118725ca944ea3fdf01bd805f6ac65529b98c0463884bfce8a66f274"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.57.3/gr-0.57.3.js"
-
-            ["0.57.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.57.3"
         [["0.57.3+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -292,20 +222,10 @@ registered = 2021-07-16T08:26:39.000Z
         hash = "a487f8d7453062e4a10bae546dc470bb66fbeac3"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.58.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.58.0"
         [["0.58.0+0".artifact_metadata.sources]]
         hash = "ed0ebbf824a11c629bbc659b1e583c47712a86b32f50ec502208d2498c3b8fbc"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.58.0/gr-0.58.0.js"
-
-            ["0.58.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.58.0"
         [["0.58.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -329,20 +249,10 @@ registered = 2021-08-03T09:44:06.000Z
         hash = "e6afd3efb7cf7f69064399dc481b589c30e8e3d3"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.58.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.58.1"
         [["0.58.1+0".artifact_metadata.sources]]
         hash = "9e568fe10d6adac4bde7258a9bc4cc217ff0c1dc00149dbab38fab5cc0886985"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.58.1/gr-0.58.1.js"
-
-            ["0.58.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.58.1"
         [["0.58.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -366,20 +276,10 @@ registered = 2021-09-02T16:14:42.000Z
         hash = "d736a32e280c23633af1d8ca2a9bbcc15acd8403"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.59.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.59.0"
         [["0.59.0+0".artifact_metadata.sources]]
         hash = "3efd291f8800ea439fc40af885c8d0645e6f43954f19ab61863ebd3dd69cd4e7"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.59.0/gr-0.59.0.js"
-
-            ["0.59.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.59.0"
         [["0.59.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -403,20 +303,10 @@ registered = 2021-10-06T16:49:37.000Z
         hash = "0d345546902fb7157796d2eb74a012702be8be74"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.60.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.60.0"
         [["0.60.0+0".artifact_metadata.sources]]
         hash = "da2c91fc1e93349f829f23cbecf51d9e14ecb1af20d452f74dd497657367324d"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.60.0/gr-0.60.0.js"
-
-            ["0.60.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.60.0"
         [["0.60.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -440,20 +330,10 @@ registered = 2021-10-08T15:08:39.000Z
         hash = "c1a183066bb7101d6805f2cb06ff950cbef6bab9"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.61.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.61.0"
         [["0.61.0+0".artifact_metadata.sources]]
         hash = "f0b0d7dc53077a07fa028125ad935caba0e1228ffd4c1503687af39681c8d7a0"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.61.0/gr-0.61.0.js"
-
-            ["0.61.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.61.0"
         [["0.61.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -477,20 +357,10 @@ registered = 2021-10-29T13:31:33.000Z
         hash = "194684a5f28b99acb86e05c456d3bb9891d0b88d"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.62.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.62.0"
         [["0.62.0+0".artifact_metadata.sources]]
         hash = "5160c227f5a31e4644c06c1163f08f6526cbf4c31f4b3bd8975c52fc170e1139"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.62.0/gr-0.62.0.js"
-
-            ["0.62.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.62.0"
         [["0.62.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -514,20 +384,10 @@ registered = 2021-12-22T10:44:02.000Z
         hash = "c7c171a326b37163f114a74bcce737d33f193588"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.63.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.63.0"
         [["0.63.0+0".artifact_metadata.sources]]
         hash = "4cacc3099e9ceaf95dbfb76bdd733d41026030cc5430dbc8b12977790ace6d85"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.63.0/gr-0.63.0.js"
-
-            ["0.63.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.63.0"
         [["0.63.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -551,20 +411,10 @@ registered = 2022-01-12T14:54:52.000Z
         hash = "986e9204bc201e21bdd1f6e45edcc135b4d4342f"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.63.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.63.1"
         [["0.63.1+0".artifact_metadata.sources]]
         hash = "4cacc3099e9ceaf95dbfb76bdd733d41026030cc5430dbc8b12977790ace6d85"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.63.1/gr-0.63.1.js"
-
-            ["0.63.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.63.1"
         [["0.63.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -588,20 +438,10 @@ registered = 2022-02-15T14:13:58.000Z
         hash = "08c185a6ee3fc0ceaebb9b92017def13131bff22"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.64.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.64.0"
         [["0.64.0+0".artifact_metadata.sources]]
         hash = "5d5f80104639a51e40b8fc35b741f5a12291f90c33cfd4d90075ecbd393352e2"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.64.0/gr-0.64.0.js"
-
-            ["0.64.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.64.0"
         [["0.64.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -625,20 +465,10 @@ registered = 2022-03-28T12:14:44.000Z
         hash = "41ed7a59d79ded65e603084a021e27049c251dae"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.64.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.64.1"
         [["0.64.1+0".artifact_metadata.sources]]
         hash = "3b4105772ac0b41a4cb2fb926afd37c9b1c1eabdadb77aa332da642361aeeeb8"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.64.1/gr-0.64.1.js"
-
-            ["0.64.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.64.1"
         [["0.64.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -662,20 +492,10 @@ registered = 2022-03-31T08:14:34.000Z
         hash = "1d02f45e8cb10faafd9f32f38c676190df702478"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.64.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.64.2"
         [["0.64.2+0".artifact_metadata.sources]]
         hash = "3b4105772ac0b41a4cb2fb926afd37c9b1c1eabdadb77aa332da642361aeeeb8"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.64.2/gr-0.64.2.js"
-
-            ["0.64.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.64.2"
         [["0.64.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -699,20 +519,10 @@ registered = 2022-05-19T09:12:51.000Z
         hash = "da1f9819aec3fea4af30f98b383657999fee4f20"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.64.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.64.3"
         [["0.64.3+0".artifact_metadata.sources]]
         hash = "7ce3027da0a39ae9ebc9822db0a748a6a8faca9877589a230e6fc780053f8592"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.64.3/gr-0.64.3.js"
-
-            ["0.64.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.64.3"
         [["0.64.3+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -736,20 +546,10 @@ registered = 2022-06-07T12:26:20.000Z
         hash = "edc9897a3ba3b13a0a457793f9044d33470b9e5e"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.64.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.64.4"
         [["0.64.4+0".artifact_metadata.sources]]
         hash = "63fa20d2ecb6df6ae23fa13a650b3aecbff6684dd459a380f24fc77b2e15c257"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.64.4/gr-0.64.4.js"
-
-            ["0.64.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.64.4"
         [["0.64.4+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -773,20 +573,10 @@ registered = 2022-07-08T12:42:00.000Z
         hash = "ec9f80ce3baa217f442fb4b070f3675663ba7fb9"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.65.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.65.1"
         [["0.65.1+0".artifact_metadata.sources]]
         hash = "17e3cc74ecad4a5ebbd35c7e3223bcf8cb4b475152a28581b857f4b4850b12aa"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.65.1/gr-0.65.1.js"
-
-            ["0.65.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.65.1"
         [["0.65.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -810,20 +600,10 @@ registered = 2022-07-09T09:21:54.000Z
         hash = "6f8e2fb2fef06d5037f6247da5fcaf9c29fee2c6"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.66.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.66.0"
         [["0.66.0+0".artifact_metadata.sources]]
         hash = "17e3cc74ecad4a5ebbd35c7e3223bcf8cb4b475152a28581b857f4b4850b12aa"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.66.0/gr-0.66.0.js"
-
-            ["0.66.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.66.0"
         [["0.66.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -847,20 +627,10 @@ registered = 2022-08-16T21:04:47.000Z
         hash = "327c3074be8daee7caff3733bb1ef019081a693a"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.66.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.66.2"
         [["0.66.2+0".artifact_metadata.sources]]
         hash = "a25a68660033bcc80658e443f15018fa9ddfbb813cb257828857fd2ac142f874"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.66.2/gr-0.66.2.js"
-
-            ["0.66.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.66.2"
         [["0.66.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -884,20 +654,10 @@ registered = 2022-09-15T10:04:18.000Z
         hash = "c5bd9e3ab82260267ad0c5be4a54084f7b7522e7"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.67.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.67.0"
         [["0.67.0+0".artifact_metadata.sources]]
         hash = "e66e80ce942aa70dcd7e42b8a8e8c5d53599bffbd2a58bce15345c0450462be3"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.67.0/gr-0.67.0.js"
-
-            ["0.67.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.67.0"
         [["0.67.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -921,20 +681,10 @@ registered = 2022-09-20T12:04:36.000Z
         hash = "ab157a8789fe6c2db886e6ede19b8d2c61dd632b"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.68.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.68.0"
         [["0.68.0+0".artifact_metadata.sources]]
         hash = "3001e2d12b368f7bda444b73112d26e59bdda459cf9ab395d7ad9679b8eee745"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.68.0/gr-0.68.0.js"
-
-            ["0.68.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.68.0"
         [["0.68.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -958,20 +708,10 @@ registered = 2022-09-26T12:06:58.000Z
         hash = "6e00675c1cc8f50e65707cfe59e0b37ab1fe2c97"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.69.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.69.0"
         [["0.69.0+0".artifact_metadata.sources]]
         hash = "3001e2d12b368f7bda444b73112d26e59bdda459cf9ab395d7ad9679b8eee745"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.69.0/gr-0.69.0.js"
-
-            ["0.69.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.69.0"
         [["0.69.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -995,20 +735,10 @@ registered = 2022-09-27T09:06:03.000Z
         hash = "5d7f4fd40a3c36d839d08fdc45864a8382a1facd"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.69.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.69.1"
         [["0.69.1+0".artifact_metadata.sources]]
         hash = "b5a36d7bf6cdc36eb190eb230feed08ed3c10527155d9c52dc6c15b2e062ebca"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.69.1/gr-0.69.1.js"
-
-            ["0.69.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.69.1"
         [["0.69.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1033,20 +763,10 @@ yanked = 2022-11-03T11:51:42.000Z
         hash = "5d7f4fd40a3c36d839d08fdc45864a8382a1facd"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.69.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.69.1"
         [["0.69.1+1".artifact_metadata.sources]]
         hash = "b5a36d7bf6cdc36eb190eb230feed08ed3c10527155d9c52dc6c15b2e062ebca"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.69.1/gr-0.69.1.js"
-
-            ["0.69.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.69.1"
         [["0.69.1+1".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1070,19 +790,10 @@ registered = 2022-11-10T16:50:58.000Z
         hash = "25cf336838e06b5df0a7d74df2095a5ac7ce9e56"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.70.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "repository"
         [["0.70.0+0".artifact_metadata.sources]]
         hash = "9a086916c3a6f331db5b7a5344989f825fd7db1c0b10c236cbb9b9cccf3c006c"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.70.0/gr-0.70.0.js"
-
-            ["0.70.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.70.0"
         [["0.70.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1106,20 +817,10 @@ registered = 2022-11-11T09:29:17.000Z
         hash = "2ffade8fe088bb8bf4c81c214037aeb0ca4063e2"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.70.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.70.0"
         [["0.70.0+1".artifact_metadata.sources]]
         hash = "9a086916c3a6f331db5b7a5344989f825fd7db1c0b10c236cbb9b9cccf3c006c"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.70.0/gr-0.70.0.js"
-
-            ["0.70.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.70.0"
         [["0.70.0+1".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1143,20 +844,10 @@ registered = 2022-11-23T11:07:10.000Z
         hash = "129ec060419ef2a911e6c87c32e0406da5526a18"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.0"
         [["0.71.0+0".artifact_metadata.sources]]
         hash = "c7acadedabaeeedebe249c0e022ec2827b710b3cb11fd64d43719ae235577846"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.0/gr-0.71.0.js"
-
-            ["0.71.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.0"
         [["0.71.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1180,20 +871,10 @@ registered = 2022-11-24T17:48:47.000Z
         hash = "72b1b0b3a6cb9d81c846ef082abad008c6766a45"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.1"
         [["0.71.1+0".artifact_metadata.sources]]
         hash = "e93596df95690565ab9caea2014bc9b36bcadc987d69b1514c79db762f05b12a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.1/gr-0.71.1.js"
-
-            ["0.71.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.1"
         [["0.71.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1217,20 +898,10 @@ registered = 2022-12-20T12:43:48.000Z
         hash = "416e83b4d39c756f45301d1f79639d1e3357b957"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.2"
         [["0.71.2+0".artifact_metadata.sources]]
         hash = "a1563352befe820c210122ce82537cccabbf36337de7b0590e638d37d661c5da"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.2/gr-0.71.2.js"
-
-            ["0.71.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.2"
         [["0.71.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1254,20 +925,10 @@ registered = 2023-01-04T13:19:24.000Z
         hash = "40284e97452b4612cc6b12d504a843b7da28d0b8"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.3"
         [["0.71.3+0".artifact_metadata.sources]]
         hash = "4a4fbba02ab48b0607c764ac4f9ece78ee11ca40eb150cc04fab4eab3b92a602"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.3/gr-0.71.3.js"
-
-            ["0.71.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.3"
         [["0.71.3+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1291,20 +952,10 @@ registered = 2023-01-24T15:05:18.000Z
         hash = "8a02b5bc66301c1d31726f1bf946063435934911"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.5"
         [["0.71.5+0".artifact_metadata.sources]]
         hash = "98995772c2b25b3157e13c142ac43f8eb86e3ab53e073f0f1f7ada69eba4751a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.5/gr-0.71.5.js"
-
-            ["0.71.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.5"
         [["0.71.5+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1328,20 +979,10 @@ registered = 2023-02-10T15:11:09.000Z
         hash = "0d96cdcafaeeeac86901764f6b1844d30aeee5a4"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.6"
         [["0.71.6+0".artifact_metadata.sources]]
         hash = "143d39cc9656a862e059bd9385e48cc8069931000e2909b4548feb935d915048"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.6/gr-0.71.6.js"
-
-            ["0.71.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.6"
         [["0.71.6+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1365,20 +1006,10 @@ registered = 2023-02-13T11:42:24.000Z
         hash = "23d597898028a3366838271d6720276e1b0c4aa9"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.7"
         [["0.71.7+0".artifact_metadata.sources]]
         hash = "143d39cc9656a862e059bd9385e48cc8069931000e2909b4548feb935d915048"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.7/gr-0.71.7.js"
-
-            ["0.71.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.7"
         [["0.71.7+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1402,20 +1033,10 @@ registered = 2023-03-17T13:55:18.000Z
         hash = "933ff9c1c098dd21adc19d2b9cc680ae0d303071"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.71.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.71.8"
         [["0.71.8+0".artifact_metadata.sources]]
         hash = "7d664808838b1cec39a2107ef758d91c22cc8d4ff020e932cdc0754d6fc108f4"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.71.8/gr-0.71.8.js"
-
-            ["0.71.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.71.8"
         [["0.71.8+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1439,20 +1060,10 @@ registered = 2023-04-04T07:38:18.000Z
         hash = "eff7161c08df40e298cb16ac429bbaeae13cb3b1"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.0"
         [["0.72.0+0".artifact_metadata.sources]]
         hash = "30bd4eb18107b7e80360d7f25e65a0f21e2eeba2a52d1921da9b61b21c918038"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.0/gr-0.72.0.js"
-
-            ["0.72.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.0"
         [["0.72.0+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1476,20 +1087,10 @@ registered = 2023-04-20T15:54:29.000Z
         hash = "986504220079e352249c6e9f3be7f6142f114307"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.1"
         [["0.72.1+0".artifact_metadata.sources]]
         hash = "30bd4eb18107b7e80360d7f25e65a0f21e2eeba2a52d1921da9b61b21c918038"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.1/gr-0.72.1.js"
-
-            ["0.72.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.1"
         [["0.72.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1513,20 +1114,10 @@ registered = 2023-04-20T20:02:06.000Z
         hash = "986504220079e352249c6e9f3be7f6142f114307"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.1"
         [["0.72.1+1".artifact_metadata.sources]]
         hash = "30bd4eb18107b7e80360d7f25e65a0f21e2eeba2a52d1921da9b61b21c918038"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.1/gr-0.72.1.js"
-
-            ["0.72.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.1"
         [["0.72.1+1".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1550,20 +1141,10 @@ registered = 2023-04-24T08:18:14.000Z
         hash = "cbce9bb9d6b42154cdb57725bd3050bb17336809"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.2"
         [["0.72.2+0".artifact_metadata.sources]]
         hash = "30bd4eb18107b7e80360d7f25e65a0f21e2eeba2a52d1921da9b61b21c918038"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.2/gr-0.72.2.js"
-
-            ["0.72.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.2"
         [["0.72.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1587,20 +1168,10 @@ registered = 2023-04-28T12:22:47.000Z
         hash = "45c2c98c7e1f116a6c15748decbe9654b7db3649"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.3"
         [["0.72.3+0".artifact_metadata.sources]]
         hash = "20e1633681598e86c8b9983bef9628cb20d912b312f4024edec5dd3fa153414a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.3/gr-0.72.3.js"
-
-            ["0.72.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.3"
         [["0.72.3+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1624,20 +1195,10 @@ registered = 2023-04-28T20:25:33.000Z
         hash = "34385d25b9dca50b1a775d4ac1e669732b6bf5e1"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.4"
         [["0.72.4+0".artifact_metadata.sources]]
         hash = "20e1633681598e86c8b9983bef9628cb20d912b312f4024edec5dd3fa153414a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.4/gr-0.72.4.js"
-
-            ["0.72.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.4"
         [["0.72.4+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
         type = "builddependency"
@@ -1661,20 +1222,10 @@ registered = 2023-05-18T06:06:15.000Z
         hash = "0082c330d02fa5597acdf5c8145f1ea1424588f2"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.5"
         [["0.72.5+0".artifact_metadata.sources]]
         hash = "52faa767e80e50b58834d7c51059e8f937a2c56038f9bfc7cc67c3db753df18e"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.5/gr-0.72.5.js"
-
-            ["0.72.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.5"
         [["0.72.5+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1702,20 +1253,10 @@ registered = 2023-05-23T08:41:03.000Z
         hash = "630000edb97d77049cb51603aa77ac6000b773e7"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.6"
         [["0.72.6+0".artifact_metadata.sources]]
         hash = "203269cc2dbce49536e54e7f0ece3542a8bd5bec4931b0937846a1e260e00312"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.6/gr-0.72.6.js"
-
-            ["0.72.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.6"
         [["0.72.6+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1743,20 +1284,10 @@ registered = 2023-05-25T14:33:07.000Z
         hash = "d0758e25475bcbe3da796ef0290be9e2a942e87c"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.7"
         [["0.72.7+0".artifact_metadata.sources]]
         hash = "203269cc2dbce49536e54e7f0ece3542a8bd5bec4931b0937846a1e260e00312"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.7/gr-0.72.7.js"
-
-            ["0.72.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.7"
         [["0.72.7+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1784,20 +1315,10 @@ registered = 2023-07-14T10:39:16.000Z
         hash = "2e9d75e3e062ac2dc3e520456e4769901e24cd86"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.8"
         [["0.72.8+0".artifact_metadata.sources]]
         hash = "55b6d9144b251124c85c8e72627496543e7f83a5d9fb543011331eaf0c41ff2a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.8/gr-0.72.8.js"
-
-            ["0.72.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.8"
         [["0.72.8+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1825,20 +1346,10 @@ registered = 2023-07-19T06:34:21.000Z
         hash = "623b90911a3fc68b253ae26fb0f259ca97d8df7d"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.9"
         [["0.72.9+0".artifact_metadata.sources]]
         hash = "55b6d9144b251124c85c8e72627496543e7f83a5d9fb543011331eaf0c41ff2a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.9/gr-0.72.9.js"
-
-            ["0.72.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.9"
         [["0.72.9+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1866,20 +1377,10 @@ registered = 2023-08-05T14:55:58.000Z
         hash = "623b90911a3fc68b253ae26fb0f259ca97d8df7d"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.9+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.9"
         [["0.72.9+1".artifact_metadata.sources]]
         hash = "55b6d9144b251124c85c8e72627496543e7f83a5d9fb543011331eaf0c41ff2a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.9/gr-0.72.9.js"
-
-            ["0.72.9+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.9"
         [["0.72.9+1".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1907,20 +1408,10 @@ registered = 2023-09-21T11:46:15.000Z
         hash = "ffedfe702fdc3872cb3172fddb1dfb8f0d8986c5"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.72.10+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.72.10"
         [["0.72.10+0".artifact_metadata.sources]]
         hash = "cef858178dac122a16406dfadf73b58142cfad95b0f61b1429a913e49cf972db"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.72.10/gr-0.72.10.js"
-
-            ["0.72.10+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.72.10"
         [["0.72.10+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1948,20 +1439,10 @@ registered = 2023-12-13T13:10:28.000Z
         hash = "a57a9dad9af3df12a5f55bb244920f7c50b0c27b"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.0"
         [["0.73.0+0".artifact_metadata.sources]]
         hash = "fc5318e045c032d13135c1aa918cf94713773e28b7c1a0f8fcc8b7a5407d8683"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.0/gr-0.73.0.js"
-
-            ["0.73.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.0"
         [["0.73.0+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -1989,19 +1470,10 @@ registered = 2024-01-25T11:44:48.000Z
         hash = "1ee389e52745013f8e6159056e6358c782f47d50"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "repository"
         [["0.73.1+0".artifact_metadata.sources]]
         hash = "0a5fa325c37780fb9c77e116cae6b6c96b89482482ee7dd13078b993abf7af4d"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.1/gr-0.73.1.js"
-
-            ["0.73.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.1"
         [["0.73.1+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2029,20 +1501,10 @@ registered = 2024-01-31T15:03:08.000Z
         hash = "eb444397b006c02e91201fcfe48c79b00c7009e7"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.2"
         [["0.73.2+0".artifact_metadata.sources]]
         hash = "56e34e09194f8d168853206bd737fa34439b88edea49a0e675d52536bba5ae7a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.2/gr-0.73.2.js"
-
-            ["0.73.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.2"
         [["0.73.2+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2070,20 +1532,10 @@ registered = 2024-03-09T21:00:20.000Z
         hash = "9a2d15ddf0946274f9d662aaff857a7373b5ecd7"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.3"
         [["0.73.3+0".artifact_metadata.sources]]
         hash = "f572f7f21733a3ba2c9b442c1a835b704bfca1dcfc1faee59832d0fc3766b4ef"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.3/gr-0.73.3.js"
-
-            ["0.73.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.3"
         [["0.73.3+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2111,20 +1563,10 @@ registered = 2024-05-03T18:00:54.000Z
         hash = "bdd3f65bd994eb146129565f035abe03edb92d3f"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.5"
         [["0.73.5+0".artifact_metadata.sources]]
         hash = "186e9f15c4eb410b42b9ca19d87a548d3de7d81d21a11d3f7eb4783440117376"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.5/gr-0.73.5.js"
-
-            ["0.73.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.5"
         [["0.73.5+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2152,20 +1594,10 @@ registered = 2024-06-18T17:25:31.000Z
         hash = "3b7a729650cc663c98b8066e93fa4799feef1537"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.6"
         [["0.73.6+0".artifact_metadata.sources]]
         hash = "024c3600cf6d28f1888158862c237dcae39d5635b05c524d98f652cfa4308e29"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.6/gr-0.73.6.js"
-
-            ["0.73.6+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.6"
         [["0.73.6+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2193,20 +1625,10 @@ registered = 2024-07-22T10:40:21.000Z
         hash = "a8f4f0b867ad8e40e9a927d72e4ada571fdca461"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.7"
         [["0.73.7+0".artifact_metadata.sources]]
         hash = "89a114eac7e96f0a32441da01e1929068aeaa286ad2ea22f923420cff8d4e2a4"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.7/gr-0.73.7.js"
-
-            ["0.73.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.7"
         [["0.73.7+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2234,20 +1656,10 @@ registered = 2024-10-14T12:46:12.000Z
         hash = "23937754fa7c8e943cda49ff493f464dfa98f976"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.8"
         [["0.73.8+0".artifact_metadata.sources]]
         hash = "55c2bad5787304548a819de220cb32eeffed69466d3f3b1be69cb0ef35c4b6a5"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.8/gr-0.73.8.js"
-
-            ["0.73.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.8"
         [["0.73.8+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2275,20 +1687,10 @@ registered = 2024-12-04T12:08:06.000Z
         hash = "8a4e4bc339bf18e5ca1184d67ce63c76d9c30dea"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.9"
         [["0.73.9+0".artifact_metadata.sources]]
         hash = "41ee77c5872b5273487b02a1ec2d2012a48808ff1f5b9ddcf4aa5958660fb257"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.9/gr-0.73.9.js"
-
-            ["0.73.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.9"
         [["0.73.9+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2316,20 +1718,10 @@ registered = 2024-12-17T13:44:28.000Z
         hash = "9e61244b6ee7f64ea724de0b7d10685feecf5109"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.10+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.10"
         [["0.73.10+0".artifact_metadata.sources]]
         hash = "41ee77c5872b5273487b02a1ec2d2012a48808ff1f5b9ddcf4aa5958660fb257"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.10/gr-0.73.10.js"
-
-            ["0.73.10+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.10"
         [["0.73.10+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2357,20 +1749,10 @@ registered = 2025-01-20T14:55:06.000Z
         hash = "d78011216825093afc9c12f532632535857eb40b"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.11+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.11"
         [["0.73.11+0".artifact_metadata.sources]]
         hash = "4d9777dd19c602848870259296a5fa929a11a92adead23940f33f02f39825dce"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.11/gr-0.73.11.js"
-
-            ["0.73.11+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.11"
         [["0.73.11+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2398,20 +1780,10 @@ registered = 2025-01-20T19:50:04.000Z
         hash = "bbb16e529aa014a550f36b695e4d1141d3011f62"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.12+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.12"
         [["0.73.12+0".artifact_metadata.sources]]
         hash = "630295fe8fadcf1eeda697bfc245f1c6a6b6419bdc9bb4a3e2e19aac1ded0f0e"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.12/gr-0.73.12.js"
-
-            ["0.73.12+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.12"
         [["0.73.12+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2439,20 +1811,10 @@ registered = 2025-02-13T13:48:24.000Z
         hash = "3b4560c9ac913cb40a480c1feacb8947c2d2650f"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.13+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.13"
         [["0.73.13+0".artifact_metadata.sources]]
         hash = "e41747b73c9215cb22420d5d30a496fe9c75a5c1990755fd1998fb7847aafd52"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.13/gr-0.73.13.js"
-
-            ["0.73.13+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.13"
         [["0.73.13+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2480,20 +1842,10 @@ registered = 2025-04-16T10:43:45.000Z
         hash = "9a62289c2e4e36c28e045c3a34f02d0d01c4231c"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.14+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.14"
         [["0.73.14+0".artifact_metadata.sources]]
         hash = "7f94982b410c686d67be956f1e0317b6e2644702b3f3d69328ee8217e7be5217"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.14/gr-0.73.14.js"
-
-            ["0.73.14+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.14"
         [["0.73.14+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -2521,20 +1873,10 @@ registered = 2025-05-23T11:37:30.000Z
         hash = "a31792ee21340a137bba477c6149d87be8b508ad"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.16+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.16"
         [["0.73.16+0".artifact_metadata.sources]]
         hash = "4b330a80b1c24f579f9800430ea85efe66c11f28d046378435ff30f8299d1d6b"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.16/gr-0.73.16.js"
-
-            ["0.73.16+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.16"
         [["0.73.16+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2562,20 +1904,10 @@ registered = 2025-06-23T12:08:08.000Z
         hash = "c8a8395aa194deec8c87575ba4238972bbdf6c40"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.17+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.17"
         [["0.73.17+0".artifact_metadata.sources]]
         hash = "a449b886d4ea28445ff3d1b345b35edd91d1d807ca65fa9f82805bd6e0f448c0"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.17/gr-0.73.17.js"
-
-            ["0.73.17+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.17"
         [["0.73.17+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2603,20 +1935,10 @@ registered = 2025-10-31T01:10:26.000Z
         hash = "e495bada9e993664a8e680e574a1db1f49aef64f"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.18+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.18"
         [["0.73.18+0".artifact_metadata.sources]]
         hash = "bb027f21ba968ceea8b0c70a5259223d8c9572918e80deb3e047370c04bd91c4"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.18/gr-0.73.18.js"
-
-            ["0.73.18+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.18"
         [["0.73.18+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2644,19 +1966,10 @@ registered = 2025-11-18T17:03:34.000Z
         hash = "0709a84ad918ce687e80664bc7ab34b6217fda85"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.19+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "repository"
         [["0.73.19+0".artifact_metadata.sources]]
         hash = "c430aff7cd19d01754530a57378c3fa583a1d23168677f802ccae00de8d654c5"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.19/gr-0.73.19.js"
-
-            ["0.73.19+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.19"
         [["0.73.19+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2684,20 +1997,10 @@ registered = 2025-11-19T07:02:36.000Z
         hash = "b6d2030c0ee661bcead1b8c6c3b3ea26fdfdc2fa"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.19+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.19"
         [["0.73.19+1".artifact_metadata.sources]]
         hash = "c430aff7cd19d01754530a57378c3fa583a1d23168677f802ccae00de8d654c5"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.19/gr-0.73.19.js"
-
-            ["0.73.19+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.19"
         [["0.73.19+1".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2725,20 +2028,10 @@ registered = 2026-01-19T19:32:48.000Z
         hash = "8996fa47ff760c44417d3273d8b42b9c4f65459e"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.20+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.20"
         [["0.73.20+0".artifact_metadata.sources]]
         hash = "d950b7cbbffc18d8f2264333252cabedb9891589e5ca5ee463f7dbf6f908200a"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.20/gr-0.73.20.js"
-
-            ["0.73.20+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.20"
         [["0.73.20+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2766,20 +2059,10 @@ registered = 2026-01-24T09:40:32.000Z
         hash = "faafd404516bf28d237d5fb913799a7e07ab67ac"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.21+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.21"
         [["0.73.21+0".artifact_metadata.sources]]
         hash = "a33da3ce2879467dcdef023881982106e2fa57100aa4b5dec362926a06a34278"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.21/gr-0.73.21.js"
-
-            ["0.73.21+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.21"
         [["0.73.21+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2807,20 +2090,10 @@ registered = 2026-01-27T12:44:48.000Z
         hash = "30e6b712d2915275388cf552f57480e73f5224ad"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.22+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.22"
         [["0.73.22+0".artifact_metadata.sources]]
         hash = "a33da3ce2879467dcdef023881982106e2fa57100aa4b5dec362926a06a34278"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.22/gr-0.73.22.js"
-
-            ["0.73.22+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.22"
         [["0.73.22+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2848,20 +2121,10 @@ registered = 2026-03-04T12:27:19.000Z
         hash = "30a598f87747c909e061d954c33527e6f75595e6"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.23+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.23"
         [["0.73.23+0".artifact_metadata.sources]]
         hash = "0d316bcf4c5b580faf7166cd97b031d10ba76270042fc418c7dfbbdc6d27679f"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.23/gr-0.73.23.js"
-
-            ["0.73.23+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.23"
         [["0.73.23+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2889,20 +2152,10 @@ registered = 2026-03-04T17:55:10.000Z
         hash = "53ed71e0f464868e1e1cba668895bb4b2d4e2228"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.24+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.24"
         [["0.73.24+0".artifact_metadata.sources]]
         hash = "0d316bcf4c5b580faf7166cd97b031d10ba76270042fc418c7dfbbdc6d27679f"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.24/gr-0.73.24.js"
-
-            ["0.73.24+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.24"
         [["0.73.24+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2930,20 +2183,10 @@ registered = 2026-06-04T06:05:49.000Z
         hash = "1cfac451f898bc9b31509c434f571bfff99d8017"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.25+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.25"
         [["0.73.25+0".artifact_metadata.sources]]
         hash = "42e5174076070861bd096a5515fd87a098a9665718acd0af990beb34decfb725"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.25/gr-0.73.25.js"
-
-            ["0.73.25+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.25"
         [["0.73.25+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -2971,20 +2214,10 @@ registered = 2026-06-08T03:00:31.000Z
         hash = "741632c5cfc56d1fa869ddd54e537cc963c9fd26"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.26+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.26"
         [["0.73.26+0".artifact_metadata.sources]]
         hash = "2c796733b59cb6ce0176dfb07327b27bebba5b08b314769593c96f02e5f2a7b9"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.26/gr-0.73.26.js"
-
-            ["0.73.26+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.26"
         [["0.73.26+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -3012,20 +2245,10 @@ registered = 2026-08-24T20:48:18.000Z
         hash = "85efc4994e9f96eedfda255db199d4fb9d33a418"
         type = "git"
         url = "https://github.com/sciapp/gr.git"
-
-            ["0.73.27+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "git-tag"
-            version = "0.73.27"
         [["0.73.27+0".artifact_metadata.sources]]
         hash = "0b27c9e265d6cf84ad3ca299a9a1c27068074c0274fffd1a7af4997e942c4578"
         type = "file"
         url = "https://github.com/sciapp/gr/releases/download/v0.73.27/gr-0.73.27.js"
-
-            ["0.73.27+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/gr"
-            provenance = "tag-scheme"
-            version = "0.73.27"
         [["0.73.27+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"

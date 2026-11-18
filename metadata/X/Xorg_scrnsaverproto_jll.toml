@@ -21,5 +21,4 @@ registered = 2023-05-20T17:25:09.000Z
 
             ["1.2.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/scrnsaverproto"
-            provenance = "repology-url"
             version = "1.2.2"

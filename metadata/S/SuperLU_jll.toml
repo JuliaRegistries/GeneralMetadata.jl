@@ -17,7 +17,6 @@ registered = 2020-12-02T21:19:41.000Z
 
             ["5.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/superlu"
-            provenance = "tag-scheme"
             version = "5.2.2"
 
 ["5.3.0+0"]
@@ -39,7 +38,6 @@ registered = 2022-11-14T14:03:51.000Z
 
             ["5.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/superlu"
-            provenance = "tag-scheme"
             version = "5.3.0"
 
 ["7.0.1+0"]

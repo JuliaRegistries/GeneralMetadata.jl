@@ -17,7 +17,6 @@ registered = 2026-03-12T18:18:35.000Z
 
             ["2.23.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libva"
-            provenance = "git-tag"
             version = "2.23.0"
         [["2.23.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

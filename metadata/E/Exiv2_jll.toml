@@ -17,7 +17,6 @@ registered = 2021-08-17T23:30:10.000Z
 
             ["0.27.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/exiv2"
-            provenance = "tag-scheme"
             version = "0.27.4"
         [["0.27.4+0".artifact_metadata.sources]]
         type = "directory"

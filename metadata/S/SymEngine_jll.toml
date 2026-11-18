@@ -16,7 +16,6 @@ registered = 2019-12-12T03:20:46.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "tag-scheme"
             version = "0.5.0"
 
 ["0.5.0+1"]
@@ -37,7 +36,6 @@ registered = 2019-12-17T02:12:19.000Z
 
             ["0.5.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "tag-scheme"
             version = "0.5.0"
     [["0.5.0+1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.arm-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.arm-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.arm-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.arm-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-apple-darwin14-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-apple-darwin14-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SymEngine_jll.jl/releases/download/SymEngine-v0.5.0+1/SymEngine.v0.5.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -53,7 +51,6 @@ registered = 2019-12-17T02:12:19.000Z
 
             ["0.5.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "tag-scheme"
             version = "0.5.0"
 
 ["0.6.0+0"]
@@ -75,7 +72,6 @@ registered = 2020-02-12T00:17:21.000Z
 
             ["0.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "tag-scheme"
             version = "0.6.0"
 
 ["0.6.0+1"]
@@ -97,7 +93,6 @@ registered = 2020-04-04T05:47:20.000Z
 
             ["0.6.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "tag-scheme"
             version = "0.6.0"
 
 ["0.7.0+0"]
@@ -119,7 +114,6 @@ registered = 2021-08-29T22:31:43.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "tag-scheme"
             version = "0.7.0"
 
 ["0.8.0+0"]
@@ -141,7 +135,6 @@ registered = 2021-09-29T22:39:30.000Z
 
             ["0.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "tag-scheme"
             version = "0.8.0"
 
 ["0.8.1+0"]
@@ -163,7 +156,6 @@ registered = 2021-11-04T11:39:16.000Z
 
             ["0.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "repology-url"
             version = "0.8.1"
 
 ["0.9.0+0"]
@@ -185,7 +177,6 @@ registered = 2022-06-01T19:42:45.000Z
 
             ["0.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "repology-url"
             version = "0.9.0"
 
 ["0.9.0+1"]
@@ -207,7 +198,6 @@ registered = 2022-11-18T20:32:08.000Z
 
             ["0.9.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "repology-url"
             version = "0.9.0"
         [["0.9.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -232,7 +222,6 @@ registered = 2023-09-11T21:25:55.000Z
 
             ["0.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "git-tag"
             version = "0.10.1"
 
 ["0.11.1+0"]
@@ -254,7 +243,6 @@ registered = 2023-09-27T22:15:51.000Z
 
             ["0.11.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "git-tag"
             version = "0.11.1"
 
 ["0.11.2+0"]
@@ -276,7 +264,6 @@ registered = 2024-02-22T10:53:37.000Z
 
             ["0.11.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "git-tag"
             version = "0.11.2"
 
 ["0.12.0+0"]
@@ -298,7 +285,6 @@ registered = 2024-05-25T19:33:39.000Z
 
             ["0.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/symengine"
-            provenance = "git-tag"
             version = "0.12.0"
 
 ["0.15.0+0"]

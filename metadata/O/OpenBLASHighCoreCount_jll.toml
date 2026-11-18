@@ -21,7 +21,6 @@ registered = 2020-04-06T15:09:19.000Z
 
             ["0.3.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.7"
         [["0.3.5+1".artifact_metadata.sources]]
         type = "directory"
@@ -46,7 +45,6 @@ registered = 2020-04-06T22:10:22.000Z
 
             ["0.3.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.5"
         [["0.3.5+2".artifact_metadata.sources]]
         type = "directory"
@@ -75,7 +73,6 @@ registered = 2020-03-28T19:33:52.000Z
 
             ["0.3.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.7"
         [["0.3.7+1".artifact_metadata.sources]]
         type = "directory"
@@ -100,7 +97,6 @@ registered = 2020-04-04T05:22:46.000Z
 
             ["0.3.7+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.7"
         [["0.3.7+2".artifact_metadata.sources]]
         type = "directory"
@@ -125,7 +121,6 @@ registered = 2020-04-07T00:21:48.000Z
 
             ["0.3.7+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.5"
         [["0.3.7+3".artifact_metadata.sources]]
         type = "directory"
@@ -154,7 +149,6 @@ registered = 2020-11-23T22:37:57.000Z
 
             ["0.3.10+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.10"
         [["0.3.10+1".artifact_metadata.sources]]
         type = "directory"
@@ -179,7 +173,6 @@ registered = 2021-08-13T18:28:08.000Z
 
             ["0.3.10+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.10"
         [["0.3.10+2".artifact_metadata.sources]]
         type = "directory"
@@ -204,7 +197,6 @@ registered = 2021-10-01T02:36:05.000Z
 
             ["0.3.10+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.10"
         [["0.3.10+3".artifact_metadata.sources]]
         type = "directory"
@@ -229,7 +221,6 @@ registered = 2020-11-20T20:52:36.000Z
 
             ["0.3.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.12"
         [["0.3.12+0".artifact_metadata.sources]]
         type = "directory"
@@ -254,7 +245,6 @@ registered = 2020-11-21T01:58:47.000Z
 
             ["0.3.12+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.12"
         [["0.3.12+1".artifact_metadata.sources]]
         type = "directory"
@@ -279,7 +269,6 @@ registered = 2021-01-21T10:13:59.000Z
 
             ["0.3.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+0".artifact_metadata.sources]]
         type = "directory"
@@ -304,7 +293,6 @@ registered = 2021-01-27T18:46:02.000Z
 
             ["0.3.13+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+1".artifact_metadata.sources]]
         type = "directory"
@@ -329,7 +317,6 @@ registered = 2021-02-17T02:08:27.000Z
 
             ["0.3.13+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+2".artifact_metadata.sources]]
         type = "directory"
@@ -354,7 +341,6 @@ registered = 2021-02-19T23:38:40.000Z
 
             ["0.3.13+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+3".artifact_metadata.sources]]
         type = "directory"
@@ -379,7 +365,6 @@ registered = 2021-04-04T13:16:50.000Z
 
             ["0.3.13+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+4".artifact_metadata.sources]]
         type = "directory"
@@ -404,7 +389,6 @@ registered = 2021-06-22T16:56:11.000Z
 
             ["0.3.13+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+5".artifact_metadata.sources]]
         type = "directory"
@@ -429,7 +413,6 @@ registered = 2021-08-09T14:55:10.000Z
 
             ["0.3.13+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+6".artifact_metadata.sources]]
         type = "directory"
@@ -454,7 +437,6 @@ registered = 2021-08-13T16:33:23.000Z
 
             ["0.3.13+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.13"
         [["0.3.13+7".artifact_metadata.sources]]
         type = "directory"
@@ -479,7 +461,6 @@ registered = 2021-08-23T18:43:10.000Z
 
             ["0.3.17+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
-            provenance = "tag-scheme"
             version = "0.3.17"
         [["0.3.17+0".artifact_metadata.sources]]
         type = "directory"

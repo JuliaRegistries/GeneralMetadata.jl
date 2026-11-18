@@ -17,7 +17,6 @@ registered = 2026-05-04T15:32:39.000Z
 
             ["2.11.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/intel-graphics-compiler"
-            provenance = "git-tag"
             version = "2.11.29"
         [["2.11.29+0".artifact_metadata.sources]]
         hash = "58242977b4092cf5eb94a10dd144691c12c87001"
@@ -26,7 +25,6 @@ registered = 2026-05-04T15:32:39.000Z
 
             ["2.11.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-clang"
-            provenance = "git-tag"
             version = "15.0.1"
         [["2.11.29+0".artifact_metadata.sources]]
         hash = "2d4f2e7a7968392de017fcd3e4b503a75f0c12d2"
@@ -35,7 +33,6 @@ registered = 2026-05-04T15:32:39.000Z
 
             ["2.11.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-llvm-translator"
-            provenance = "git-tag"
             version = "15.0.11"
         [["2.11.29+0".artifact_metadata.sources]]
         hash = "f289d047f49fb60488301ec62bafab85573668cc"
@@ -44,7 +41,6 @@ registered = 2026-05-04T15:32:39.000Z
 
             ["2.11.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
-            provenance = "git-tag"
             version = "2025.1"
         [["2.11.29+0".artifact_metadata.sources]]
         hash = "0e710677989b4326ac974fd80c5308191ed80965"
@@ -53,7 +49,6 @@ registered = 2026-05-04T15:32:39.000Z
 
             ["2.11.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
-            provenance = "repository"
         [["2.11.29+0".artifact_metadata.sources]]
         hash = "9d255266e1df8f1dc5d11e1fbb03213acfaa4fc7"
         type = "git"

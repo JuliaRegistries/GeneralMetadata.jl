@@ -16,7 +16,6 @@ registered = 2020-01-13T04:45:55.000Z
 
             ["4.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tesseract-ocr"
-            provenance = "tag-scheme"
             version = "4.1.0"
         [["4.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,7 +40,6 @@ registered = 2020-05-11T23:44:55.000Z
 
             ["4.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tesseract-ocr"
-            provenance = "tag-scheme"
             version = "4.1.1"
         [["4.1.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -66,7 +64,6 @@ registered = 2021-07-12T23:34:12.000Z
 
             ["4.1.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tesseract-ocr"
-            provenance = "tag-scheme"
             version = "4.1.1"
         [["4.1.100+0".artifact_metadata.sources]]
         type = "directory"
@@ -91,7 +88,6 @@ registered = 2022-04-09T23:30:50.000Z
 
             ["5.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tesseract-ocr"
-            provenance = "tag-scheme"
             version = "5.1.0"
         [["5.1.0+0".artifact_metadata.sources]]
         type = "directory"
