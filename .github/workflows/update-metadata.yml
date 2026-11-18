@@ -28,7 +28,8 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
-        ref: ${{ github.head_ref || github.ref_name }}
+        repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+        ref: ${{ github.event.pull_request.head.sha || github.ref_name }}
 
     - name: Setup Juliaup
       uses: julia-actions/install-juliaup@v3
@@ -61,7 +62,7 @@ jobs:
         [[ $(git ls-files --others --modified --exclude-standard) ]] && echo "changes=true" >> $GITHUB_OUTPUT || echo "no changes"
 
     - name: Commit and push changes
-      if: steps.git-check.outputs.changes == 'true'
+      if: steps.git-check.outputs.changes == 'true' && github.event_name != 'pull_request'
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
