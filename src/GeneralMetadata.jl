@@ -729,38 +729,33 @@ function parse_artifact_metadata_sources(contents, artifactmeta)
     end
 end
 
-function identify_upstream!(meta)
-    for (pkg, pkgentry) in meta
-        for (ver, verinfo) in pkgentry
-            for artifactmeta in get(verinfo, "artifact_metadata", [])
-                for source in get(artifactmeta, "sources", [])
-                    if haskey(source, "url") && haskey(source, "hash") && !haskey(source, "upstream")
-                        # We could theoretically detangle file/archive and repo sources here, but old metadata
-                        # didn't know at all and sometimes Repology itself is confused between the two, so this
-                        # just tries both ways.
-                        (proj, ver) = Repology.identify_upstream(source["url"], source["hash"])
-                        if isnothing(proj) && contains(source["url"], "github.com") && !contains(source["url"], "JuliaPackaging/Yggdrasil")
-                            # We can try a bit harder for GitHub URLs; they are very common and we know a lot about how they are structured
-                            (repo, ver) = GitHub.identify_upstream(source["url"])
-                            # Now go back and see if the repo matches a known Repology project, but trust GitHub's version information (if there)
-                            if !isnothing(repo)
-                                (proj, _) = Repology.identify_upstream(repo, "")
-                            end
-                            # TODO: If no Repology project matches, we could use the GitHub repo as the project name. GitHub is special among git forges
-                            # in that there could be GHSAs there, which probably makes it worthy of being used as a first-class project identifier
-                        elseif isnothing(ver) && contains(source["url"], "github.com") && !contains(source["url"], "JuliaPackaging/Yggdrasil")
-                            (_, ver) = GitHub.identify_upstream(source["url"])
-                        end
-                        if !isnothing(proj)
-                            source["upstream"] = Dict{String,Any}()
-                            source["upstream"]["project"] = string("repology.org/project/", proj)
-                            if !isnothing(ver)
-                                source["upstream"]["version"] = ver
-                            end
-                        end
-                    end
-                end
+"""
+    identify_upstream!(meta; regenerate=false)
+
+Add an `upstream` table, identified with `Repology.identify`, to every source that doesn't have one. Existing entries
+are left alone, so hand corrections survive. With `regenerate=true`, recompute every source's `upstream` from scratch,
+for a deliberate refresh after Repology.jl improves, except hand-entered `provenance = "manual"` entries; the other exception is a version previously found from a commit's
+git tag: tags don't move, so if the tag lookup fails (usually a network error) the previous version is kept.
+"""
+function identify_upstream!(meta; regenerate=false)
+    cache = Dict{Tuple{String,String},Repology.Identification}()
+    for (pkg, pkgentry) in meta, (ver, verinfo) in pkgentry, artifactmeta in get(verinfo, "artifact_metadata", [])
+        for source in get(artifactmeta, "sources", [])
+            haskey(source, "url") && haskey(source, "hash") || continue
+            old = get(source, "upstream", nothing)
+            isnothing(old) || (regenerate && get(old, "provenance", "") != "manual") || continue
+            id = get!(() -> Repology.identify(source["url"]; commit=source["hash"]), cache, (source["url"], source["hash"]))
+            old = something(old, Dict{String,Any}())
+            if id.provenance == "repository" && get(old, "provenance", "") == "git-tag" &&
+                    old["project"] == string("repology.org/project/", something(id.project, ""))
+                continue
             end
+            if isnothing(id.project)
+                delete!(source, "upstream")
+                continue
+            end
+            source["upstream"] = Dict{String,Any}("project" => string("repology.org/project/", id.project), "provenance" => id.provenance)
+            isnothing(id.version) || (source["upstream"]["version"] = id.version)
         end
     end
 end
