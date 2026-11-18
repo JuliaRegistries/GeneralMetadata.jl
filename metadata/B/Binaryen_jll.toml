@@ -17,6 +17,7 @@ registered = 2023-08-10T14:42:12.000Z
 
             ["0.114.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/binaryen"
+            provenance = "git-tag"
             version = "114"
         [["0.114.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -45,6 +46,7 @@ registered = 2023-09-17T04:49:50.000Z
 
             ["0.116.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/binaryen"
+            provenance = "git-tag"
             version = "116"
         [["0.116.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -73,6 +75,7 @@ registered = 2026-07-04T00:13:45.000Z
 
             ["0.130.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/binaryen"
+            provenance = "git-tag"
             version = "130"
         [["0.130.0+0".artifact_metadata.sources]]
         type = "directory"

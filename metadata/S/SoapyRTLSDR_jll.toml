@@ -17,6 +17,7 @@ registered = 2021-08-25T18:58:42.000Z
 
             ["0.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/soapyrtlsdr"
+            provenance = "git-tag"
             version = "0.3.2"
 
 ["0.3.3+0"]
@@ -38,6 +39,7 @@ registered = 2022-06-09T22:13:22.000Z
 
             ["0.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/soapyrtlsdr"
+            provenance = "git-tag"
             version = "0.3.3"
 
 ["0.3.301+0"]
@@ -59,4 +61,5 @@ registered = 2026-05-04T15:58:36.000Z
 
             ["0.3.301+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/soapyrtlsdr"
+            provenance = "git-tag"
             version = "0.3.3"

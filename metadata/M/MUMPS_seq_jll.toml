@@ -385,6 +385,7 @@ registered = 2023-10-22T18:44:24.000Z
 
             ["500.600.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "repology-url"
             version = "5.6.2"
 
 ["500.600.201+0"]
@@ -406,6 +407,7 @@ registered = 2024-02-01T21:54:58.000Z
 
             ["500.600.201+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "repology-url"
             version = "5.6.2"
 
 ["500.700.200+0"]
@@ -427,6 +429,7 @@ registered = 2024-06-22T04:16:07.000Z
 
             ["500.700.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "heuristic"
             version = "5.7.2"
 
 ["500.700.300+0"]
@@ -448,6 +451,7 @@ registered = 2024-07-24T03:40:21.000Z
 
             ["500.700.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "repology-url"
             version = "5.7.3"
 
 ["500.700.301+0"]
@@ -469,6 +473,7 @@ registered = 2024-09-01T03:31:15.000Z
 
             ["500.700.301+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "repology-url"
             version = "5.7.3"
 
 ["500.800.0+0"]
@@ -490,6 +495,7 @@ registered = 2025-05-07T22:06:01.000Z
 
             ["500.800.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "repology-url"
             version = "5.8.0"
 
 ["500.800.100+0"]
@@ -511,6 +517,7 @@ registered = 2025-08-03T19:38:22.000Z
 
             ["500.800.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "heuristic"
             version = "5.8.1"
 
 ["500.800.200+0"]
@@ -532,6 +539,7 @@ registered = 2026-01-15T13:52:44.000Z
 
             ["500.800.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "repology-url"
             version = "5.8.2"
 
 ["500.900.0+0"]
@@ -553,6 +561,7 @@ registered = 2026-04-29T08:05:38.000Z
 
             ["500.900.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "heuristic"
             version = "5.9.0"
 
 ["500.900.100+0"]
@@ -574,4 +583,5 @@ registered = 2026-08-02T20:07:05.000Z
 
             ["500.900.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mumps-solver"
+            provenance = "repology-url"
             version = "5.9.1"

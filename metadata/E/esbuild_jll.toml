@@ -17,6 +17,7 @@ registered = 2025-02-19T09:32:16.000Z
 
             ["0.25.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/esbuild"
+            provenance = "git-tag"
             version = "0.25.0"
 
 ["0.25.5+0"]
@@ -38,4 +39,5 @@ registered = 2026-06-15T18:52:12.000Z
 
             ["0.25.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/esbuild"
+            provenance = "git-tag"
             version = "0.25.5"

@@ -17,6 +17,7 @@ registered = 2021-02-09T03:55:23.000Z
 
             ["4.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/czmq"
+            provenance = "git-tag"
             version = "4.2.1"
         [["4.2.1+0".artifact_metadata.sources]]
         type = "directory"

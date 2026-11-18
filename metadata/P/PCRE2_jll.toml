@@ -186,6 +186,7 @@ registered = 2022-05-20T14:15:37.000Z
 
             ["10.40.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "tag-scheme"
             version = "10.40"
 
 ["10.40.0+1"]
@@ -207,6 +208,7 @@ registered = 2022-08-25T01:30:30.000Z
 
             ["10.40.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "tag-scheme"
             version = "10.40"
         [["10.40.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -231,6 +233,7 @@ registered = 2022-12-11T17:33:15.000Z
 
             ["10.40.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "tag-scheme"
             version = "10.40"
         [["10.40.0+2".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -255,6 +258,7 @@ registered = 2022-12-12T17:54:32.000Z
 
             ["10.41.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "tag-scheme"
             version = "10.41"
         [["10.41.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -279,6 +283,7 @@ registered = 2022-12-12T18:43:01.000Z
 
             ["10.42.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "repology-url"
             version = "10.42"
         [["10.42.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -303,6 +308,7 @@ registered = 2023-07-29T19:36:40.000Z
 
             ["10.42.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "git-tag"
             version = "10.42"
         [["10.42.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -327,6 +333,7 @@ registered = 2025-06-23T14:38:31.000Z
 
             ["10.42.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "repology-url"
             version = "10.42"
         [["10.42.0+2".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -351,6 +358,7 @@ registered = 2024-02-27T17:20:21.000Z
 
             ["10.43.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "git-tag"
             version = "10.43"
         [["10.43.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -375,6 +383,7 @@ registered = 2024-09-15T13:58:49.000Z
 
             ["10.43.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "git-tag"
             version = "10.43"
         [["10.43.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -399,6 +408,7 @@ registered = 2024-11-22T11:02:53.000Z
 
             ["10.44.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "git-tag"
             version = "10.44"
         [["10.44.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -423,6 +433,7 @@ registered = 2024-12-24T16:06:38.000Z
 
             ["10.44.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "git-tag"
             version = "10.44"
         [["10.44.0+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -447,6 +458,7 @@ registered = 2025-02-18T20:03:47.000Z
 
             ["10.45.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "tag-scheme"
             version = "10.45"
         [["10.45.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -471,6 +483,7 @@ registered = 2025-08-27T18:43:19.000Z
 
             ["10.46.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "repology-url"
             version = "10.46"
         [["10.46.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -495,6 +508,7 @@ registered = 2025-10-25T17:30:59.000Z
 
             ["10.47.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "repology-url"
             version = "10.47"
         [["10.47.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -519,6 +533,7 @@ registered = 2026-09-02T09:30:41.000Z
 
             ["10.48.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "repology-url"
             version = "10.48"
         [["10.48.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -543,6 +558,7 @@ registered = 2026-09-28T19:46:16.000Z
 
             ["10.49.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "repology-url"
             version = "10.49"
         [["10.49.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"

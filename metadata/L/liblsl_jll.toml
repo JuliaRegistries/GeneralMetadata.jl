@@ -14,6 +14,11 @@ registered = 2020-02-12T01:27:11.000Z
         hash = "5b304a5365eba33852da96badfbd9d66556caf4a00c87947a59df2942680a617"
         type = "file"
         url = "https://github.com/sccn/liblsl/archive/1.13.0.tar.gz"
+
+            ["1.13.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/liblsl"
+            provenance = "tag-scheme"
+            version = "1.13.0"
         [["1.13.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/bb189563d1f5668e163eb0bbf3f75689a9301be5/L/liblsl/bundled/patches"
@@ -34,6 +39,11 @@ registered = 2020-04-03T17:21:18.000Z
         hash = "5b304a5365eba33852da96badfbd9d66556caf4a00c87947a59df2942680a617"
         type = "archive"
         url = "https://github.com/sccn/liblsl/archive/1.13.0.tar.gz"
+
+            ["1.13.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/liblsl"
+            provenance = "tag-scheme"
+            version = "1.13.0"
         [["1.13.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/86fc693f9038a5106da6895e7e606fa7a9c69e00/L/liblsl/bundled/patches"
@@ -54,3 +64,8 @@ registered = 2025-05-27T23:40:33.000Z
         hash = "6ca188c266c21f7228dc67077303fa6abaf2e8be"
         type = "git"
         url = "https://github.com/sccn/liblsl"
+
+            ["1.16.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/liblsl"
+            provenance = "git-tag"
+            version = "1.16.2"

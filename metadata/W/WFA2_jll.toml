@@ -17,6 +17,7 @@ registered = 2023-08-01T05:42:23.000Z
 
             ["2.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wfa2-lib"
+            provenance = "git-tag"
             version = "2.3.3"
         [["2.3.3+0".artifact_metadata.sources]]
         type = "directory"

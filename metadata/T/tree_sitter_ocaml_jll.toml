@@ -17,6 +17,7 @@ registered = 2023-01-19T10:28:18.000Z
 
             ["0.20.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tree-sitter-ocaml"
+            provenance = "heuristic"
             version = "0.20.1"
         [["0.20.1+0".artifact_metadata.sources]]
         type = "directory"

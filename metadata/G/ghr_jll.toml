@@ -21,6 +21,7 @@ registered = 2020-10-18T23:25:40.000Z
 
             ["0.13.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghr"
+            provenance = "git-tag"
             version = "0.13.0"
 
 ["0.14.0+0"]
@@ -42,6 +43,7 @@ registered = 2022-02-06T22:50:49.000Z
 
             ["0.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghr"
+            provenance = "git-tag"
             version = "0.14.0"
 
 ["0.16.2+0"]
@@ -63,6 +65,7 @@ registered = 2024-06-29T13:23:16.000Z
 
             ["0.16.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghr"
+            provenance = "git-tag"
             version = "0.16.2"
 
 ["0.17.0+0"]
@@ -84,6 +87,7 @@ registered = 2024-12-19T19:02:39.000Z
 
             ["0.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghr"
+            provenance = "git-tag"
             version = "0.17.0"
 
 ["0.18.3+0"]
@@ -105,6 +109,7 @@ registered = 2026-05-29T23:18:49.000Z
 
             ["0.18.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghr"
+            provenance = "git-tag"
             version = "0.18.3"
 
 ["0.18.5+0"]

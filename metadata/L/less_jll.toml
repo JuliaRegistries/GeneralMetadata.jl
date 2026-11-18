@@ -20,4 +20,5 @@ registered = 2025-06-19T18:16:11.000Z
 
             ["679.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/less"
+            provenance = "git-tag"
             version = "679"

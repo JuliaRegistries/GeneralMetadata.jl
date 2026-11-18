@@ -16,6 +16,7 @@ registered = 2019-11-26T23:41:47.000Z
 
             ["0.2.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.2.12"
 
 ["0.2.13+0"]
@@ -36,6 +37,7 @@ registered = 2020-01-14T23:21:51.000Z
 
             ["0.2.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.2.13"
 
 ["0.2.13+1"]
@@ -57,6 +59,7 @@ registered = 2020-03-25T14:20:54.000Z
 
             ["0.2.13+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.2.13"
 
 ["0.3.0+0"]
@@ -78,6 +81,7 @@ registered = 2020-04-26T18:21:30.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.3.0"
 
 ["0.3.1+0"]
@@ -99,6 +103,7 @@ registered = 2020-05-05T02:32:45.000Z
 
             ["0.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.3.1"
 
 ["0.3.2+0"]
@@ -120,6 +125,7 @@ registered = 2020-05-15T10:33:26.000Z
 
             ["0.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.3.2"
 
 ["0.3.3+0"]
@@ -141,6 +147,7 @@ registered = 2020-07-29T15:56:49.000Z
 
             ["0.3.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.3.3"
 
 ["0.4.0+0"]
@@ -162,6 +169,7 @@ registered = 2020-11-25T17:58:33.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.4.0"
 
 ["0.4.1+0"]
@@ -183,6 +191,7 @@ registered = 2020-12-02T19:59:01.000Z
 
             ["0.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.4.1"
 
 ["0.5.0+0"]
@@ -204,6 +213,7 @@ registered = 2021-02-10T22:13:56.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.5.0"
 
 ["0.5.1+0"]
@@ -225,6 +235,7 @@ registered = 2021-03-17T19:03:32.000Z
 
             ["0.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.5.1"
 
 ["0.5.2+0"]
@@ -246,6 +257,7 @@ registered = 2022-01-05T23:34:59.000Z
 
             ["0.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.5.2"
 
 ["0.5.3+0"]
@@ -267,6 +279,7 @@ registered = 2022-02-02T18:05:45.000Z
 
             ["0.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.5.3"
 
 ["0.5.4+0"]
@@ -288,6 +301,7 @@ registered = 2022-02-02T19:47:06.000Z
 
             ["0.5.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.5.4"
 
 ["0.5.4+1"]
@@ -309,6 +323,7 @@ registered = 2022-03-21T18:52:07.000Z
 
             ["0.5.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.5.4"
 
 ["0.6.0+0"]
@@ -330,6 +345,7 @@ registered = 2022-05-09T21:30:29.000Z
 
             ["0.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.6.0"
 
 ["0.6.1+0"]
@@ -351,6 +367,7 @@ registered = 2022-11-15T03:40:05.000Z
 
             ["0.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "heuristic"
             version = "0.6.1"
 
 ["0.6.2+0"]
@@ -372,6 +389,7 @@ registered = 2022-11-15T15:05:10.000Z
 
             ["0.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttransforms"
+            provenance = "repology-url"
             version = "0.6.2"
 
 ["0.6.3+0"]

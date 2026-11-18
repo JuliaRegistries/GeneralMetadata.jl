@@ -17,6 +17,7 @@ yanked = 2020-05-07T22:19:13.000Z
 
             ["2.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/glew"
+            provenance = "repology-url"
             version = "2.1.0"
 
 ["2.1.0+2"]
@@ -37,6 +38,7 @@ registered = 2019-10-23T00:26:46.000Z
 
             ["2.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/glew"
+            provenance = "repology-url"
             version = "2.1.0"
 
 ["2.1.0+3"]
@@ -58,6 +60,7 @@ registered = 2020-04-04T05:34:30.000Z
 
             ["2.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/glew"
+            provenance = "repology-url"
             version = "2.1.0"
 
 ["2.1.0+4"]
@@ -79,6 +82,7 @@ registered = 2021-11-14T16:40:12.000Z
 
             ["2.1.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/glew"
+            provenance = "repology-url"
             version = "2.1.0"
         [["2.1.0+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -103,6 +107,7 @@ registered = 2023-05-16T21:30:32.000Z
 
             ["2.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glew"
+            provenance = "repology-url"
             version = "2.2.0"
         [["2.2.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

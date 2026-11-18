@@ -22,6 +22,7 @@ registered = 2020-02-09T01:36:22.000Z
 
             ["1.2.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxtst"
+            provenance = "heuristic"
             version = "1.2.3"
         [["1.2.3+1".artifact_metadata.sources]]
         package = "Xorg_inputproto_jll"
@@ -52,6 +53,7 @@ registered = 2020-04-17T19:45:51.000Z
 
             ["1.2.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxtst"
+            provenance = "heuristic"
             version = "1.2.3"
         [["1.2.3+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -79,6 +81,7 @@ registered = 2020-08-26T16:59:17.000Z
 
             ["1.2.3+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxtst"
+            provenance = "heuristic"
             version = "1.2.3"
         [["1.2.3+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -106,6 +109,7 @@ registered = 2020-10-16T20:28:39.000Z
 
             ["1.2.3+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxtst"
+            provenance = "heuristic"
             version = "1.2.3"
         [["1.2.3+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -133,6 +137,7 @@ registered = 2025-04-23T18:50:35.000Z
 
             ["1.2.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxtst"
+            provenance = "repology-url"
             version = "1.2.5"
         [["1.2.5+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

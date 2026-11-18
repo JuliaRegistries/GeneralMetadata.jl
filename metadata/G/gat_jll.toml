@@ -17,6 +17,7 @@ registered = 2024-11-29T12:23:58.000Z
 
             ["0.19.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gat"
+            provenance = "git-tag"
             version = "0.19.1"
 
 ["0.31.0+0"]

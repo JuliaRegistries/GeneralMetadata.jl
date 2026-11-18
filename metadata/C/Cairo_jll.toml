@@ -20,6 +20,7 @@ registered = 2019-09-03T21:38:56.000Z
 
             ["1.14.12+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "heuristic"
             version = "1.14.12"
         [["1.14.12+1".artifact_metadata.sources]]
         type = "directory"
@@ -43,6 +44,7 @@ registered = 2019-09-03T23:08:31.000Z
 
             ["1.14.12+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "heuristic"
             version = "1.14.12"
         [["1.14.12+2".artifact_metadata.sources]]
         type = "directory"
@@ -66,6 +68,7 @@ registered = 2019-09-05T01:18:33.000Z
 
             ["1.14.12+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "heuristic"
             version = "1.14.12"
         [["1.14.12+3".artifact_metadata.sources]]
         type = "directory"
@@ -89,6 +92,7 @@ registered = 2019-09-05T16:34:57.000Z
 
             ["1.14.12+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "heuristic"
             version = "1.14.12"
         [["1.14.12+4".artifact_metadata.sources]]
         type = "directory"
@@ -112,6 +116,7 @@ registered = 2019-09-18T19:33:01.000Z
 
             ["1.14.12+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "heuristic"
             version = "1.14.12"
         [["1.14.12+5".artifact_metadata.sources]]
         type = "directory"
@@ -135,6 +140,7 @@ registered = 2019-09-20T15:30:52.000Z
 
             ["1.14.12+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "heuristic"
             version = "1.14.12"
 
 ["1.16.0+0"]
@@ -156,6 +162,7 @@ yanked = 2020-05-07T22:19:13.000Z
 
             ["1.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
 
 ["1.16.0+1"]
@@ -177,6 +184,7 @@ yanked = 2020-05-07T22:19:13.000Z
 
             ["1.16.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
 
 ["1.16.0+2"]
@@ -197,6 +205,7 @@ registered = 2019-10-28T16:58:40.000Z
 
             ["1.16.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
 
 ["1.16.0+3"]
@@ -218,6 +227,7 @@ registered = 2020-04-04T05:21:07.000Z
 
             ["1.16.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
         [["1.16.0+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -242,6 +252,7 @@ registered = 2020-05-03T23:08:39.000Z
 
             ["1.16.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
         [["1.16.0+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -266,6 +277,7 @@ registered = 2020-08-26T19:30:14.000Z
 
             ["1.16.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
         [["1.16.0+5".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -290,6 +302,7 @@ registered = 2020-10-16T19:31:50.000Z
 
             ["1.16.0+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
         [["1.16.0+6".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -314,6 +327,7 @@ registered = 2021-05-25T20:53:00.000Z
 
             ["1.16.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
         [["1.16.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -341,6 +355,7 @@ registered = 2021-12-18T18:20:06.000Z
 
             ["1.16.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
         [["1.16.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -369,6 +384,7 @@ yanked = 2022-12-28T16:07:46.000Z
 
             ["1.16.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.16.0"
         [["1.16.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -397,6 +413,7 @@ yanked = 2023-10-09T13:44:17.000Z
 
             ["1.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "git-tag"
             version = "1.18.0"
         [["1.18.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -421,6 +438,7 @@ registered = 2024-03-10T08:55:00.000Z
 
             ["1.18.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "git-tag"
             version = "1.18.0"
         [["1.18.0+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -445,6 +463,7 @@ registered = 2024-05-15T12:06:43.000Z
 
             ["1.18.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "git-tag"
             version = "1.18.0"
         [["1.18.0+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -469,6 +488,7 @@ registered = 2024-10-06T12:49:47.000Z
 
             ["1.18.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "git-tag"
             version = "1.18.2"
         [["1.18.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -493,6 +513,7 @@ registered = 2024-10-06T14:06:52.000Z
 
             ["1.18.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repository"
         [["1.18.2+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
         type = "builddependency"
@@ -516,6 +537,7 @@ registered = 2025-03-18T13:15:04.000Z
 
             ["1.18.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.18.4"
         [["1.18.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -540,6 +562,7 @@ registered = 2025-04-18T21:49:14.000Z
 
             ["1.18.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.18.4"
         [["1.18.5+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -564,6 +587,7 @@ registered = 2026-02-17T15:51:36.000Z
 
             ["1.18.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.18.4"
         [["1.18.5+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -588,6 +612,7 @@ registered = 2026-04-02T17:05:04.000Z
 
             ["1.18.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.18.4"
         [["1.18.6+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -612,6 +637,7 @@ registered = 2026-05-07T14:35:55.000Z
 
             ["1.18.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.18.4"
         [["1.18.7+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -636,6 +662,7 @@ registered = 2026-10-01T16:35:25.000Z
 
             ["1.18.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairo-graphics-library"
+            provenance = "repology-url"
             version = "1.18.6"
         [["1.18.8+0".artifact_metadata.sources]]
         type = "directory"

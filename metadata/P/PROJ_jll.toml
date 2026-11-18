@@ -16,6 +16,7 @@ registered = 2019-12-02T22:48:18.000Z
 
             ["6.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "6.2.1"
 
 ["6.2.1+1"]
@@ -36,6 +37,7 @@ registered = 2019-12-11T20:56:38.000Z
 
             ["6.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "6.2.1"
     [["6.2.1+1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.arm-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.arm-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-w64-mingw32.tar.gz"]
@@ -51,6 +53,7 @@ registered = 2019-12-11T20:56:38.000Z
 
             ["6.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "6.2.1"
 
 ["6.3.0+0"]
@@ -71,6 +74,7 @@ registered = 2020-01-18T03:19:57.000Z
 
             ["6.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "6.2.1"
     [["6.3.0+0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.arm-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.arm-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.arm-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.arm-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-apple-darwin14-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-apple-darwin14-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.0+0/PROJ.v6.3.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -86,6 +90,7 @@ registered = 2020-01-18T03:19:57.000Z
 
             ["6.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "6.3.0"
 
 ["6.3.2+0"]
@@ -107,6 +112,7 @@ registered = 2020-05-01T13:57:12.000Z
 
             ["6.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "6.3.2"
 
 ["6.3.2+1"]
@@ -128,6 +134,7 @@ registered = 2020-05-01T17:57:27.000Z
 
             ["6.3.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "6.3.2"
 
 ["7.0.1+0"]
@@ -149,6 +156,7 @@ registered = 2020-05-01T21:21:48.000Z
 
             ["7.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "repology-url"
             version = "7.0.1"
 
 ["7.2.0+0"]
@@ -170,6 +178,7 @@ registered = 2020-11-15T01:48:38.000Z
 
             ["7.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "7.2.0"
 
 ["7.2.1+0"]
@@ -191,6 +200,7 @@ registered = 2021-01-14T10:22:48.000Z
 
             ["7.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "repology-url"
             version = "7.2.1"
 
 ["700.201.100+0"]
@@ -212,6 +222,7 @@ registered = 2021-02-15T23:15:07.000Z
 
             ["700.201.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "repology-url"
             version = "7.2.1"
 
 ["700.202.100+0"]
@@ -233,6 +244,7 @@ registered = 2021-02-15T12:14:58.000Z
 
             ["700.202.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "repology-url"
             version = "7.2.1"
 
 ["800.200.0+0"]
@@ -254,6 +266,7 @@ registered = 2021-12-27T16:04:06.000Z
 
             ["800.200.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "8.2.0"
 
 ["800.200.100+0"]
@@ -275,6 +288,7 @@ registered = 2022-01-06T22:27:34.000Z
 
             ["800.200.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "8.2.1"
 
 ["900.0.0+0"]
@@ -296,6 +310,7 @@ registered = 2022-04-22T21:28:44.000Z
 
             ["900.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.0.0"
 
 ["900.0.100+0"]
@@ -317,6 +332,7 @@ registered = 2022-07-22T16:06:03.000Z
 
             ["900.0.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.0.1"
 
 ["900.0.100+1"]
@@ -338,6 +354,7 @@ registered = 2022-08-12T14:04:40.000Z
 
             ["900.0.100+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.0.1"
 
 ["900.100.0+0"]
@@ -359,6 +376,7 @@ registered = 2022-09-02T14:57:56.000Z
 
             ["900.100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.1.0"
 
 ["900.200.100+0"]
@@ -380,6 +398,7 @@ registered = 2023-06-23T08:58:24.000Z
 
             ["900.200.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.2.1"
 
 ["901.300.0+0"]
@@ -401,6 +420,7 @@ registered = 2023-09-18T22:39:09.000Z
 
             ["901.300.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.3.0"
 
 ["901.300.0+1"]
@@ -422,6 +442,7 @@ registered = 2024-04-03T20:02:38.000Z
 
             ["901.300.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.3.0"
 
 ["901.400.0+0"]
@@ -444,6 +465,7 @@ yanked = 2024-05-27T10:52:52.000Z
 
             ["901.400.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.4.0"
 
 ["902.500.0+0"]
@@ -465,6 +487,7 @@ registered = 2024-10-01T18:02:50.000Z
 
             ["902.500.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.5.0"
 
 ["902.500.100+0"]
@@ -486,6 +509,7 @@ registered = 2025-02-07T02:26:46.000Z
 
             ["902.500.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.5.1"
 
 ["902.500.100+1"]
@@ -507,6 +531,7 @@ registered = 2025-02-07T18:59:34.000Z
 
             ["902.500.100+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.5.1"
 
 ["902.600.0+0"]
@@ -528,6 +553,7 @@ registered = 2025-04-12T00:48:55.000Z
 
             ["902.600.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.6.0"
 
 ["902.600.200+0"]
@@ -549,6 +575,7 @@ registered = 2025-06-22T23:13:33.000Z
 
             ["902.600.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "heuristic"
             version = "9.6.2"
 
 ["902.700.0+0"]
@@ -570,6 +597,7 @@ registered = 2025-10-10T10:40:17.000Z
 
             ["902.700.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "repology-url"
             version = "9.7.0"
 
 ["902.700.100+0"]
@@ -591,6 +619,7 @@ registered = 2026-02-03T15:50:47.000Z
 
             ["902.700.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "repology-url"
             version = "9.7.1"
 
 ["902.800.100+0"]
@@ -612,6 +641,7 @@ registered = 2026-04-23T14:43:50.000Z
 
             ["902.800.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/proj"
+            provenance = "repology-url"
             version = "9.8.1"
         [["902.800.100+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"

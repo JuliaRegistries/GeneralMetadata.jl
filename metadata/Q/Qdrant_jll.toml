@@ -16,7 +16,8 @@ registered = 2025-08-21T22:01:22.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.15.3/qdrant-x86_64-unknown-linux-musl.tar.gz"
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "26d7b7fa397a8f936721038b99f6c6557ea7540768e902db97dfc6f83f72eb69"
@@ -24,7 +25,8 @@ registered = 2025-08-21T22:01:22.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.15.3/qdrant-x86_64-unknown-linux-gnu.tar.gz"
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "b9ac8d2989904c2b9d44ac396c64241d5b97733a32f23c5f52667cf4ef67b072"
@@ -32,7 +34,8 @@ registered = 2025-08-21T22:01:22.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.15.3/qdrant-aarch64-unknown-linux-musl.tar.gz"
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "9ddaa9dd670431b15a42f868582fffd1291f3898d28c9c7185c357e62f393e1b"
@@ -40,7 +43,8 @@ registered = 2025-08-21T22:01:22.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.15.3/qdrant-x86_64-apple-darwin.tar.gz"
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "c8404af1727aab1ccb0a7dd4c644091954d056ec4e4ec898987fc0647f5128c6"
@@ -48,7 +52,8 @@ registered = 2025-08-21T22:01:22.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.15.3/qdrant-aarch64-apple-darwin.tar.gz"
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "5049d33ed8f0640b3f80feea08c55fcb5cd155f75ed91c5e5e40b2e90570a62b"
@@ -56,7 +61,8 @@ registered = 2025-08-21T22:01:22.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.15.3/qdrant-x86_64-pc-windows-msvc.zip"
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
@@ -81,7 +87,8 @@ registered = 2026-04-27T23:41:23.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.17.1/qdrant-x86_64-unknown-linux-musl.tar.gz"
 
             ["1.17.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.17.1"
         [["1.17.1+0".artifact_metadata.sources]]
         hash = "318a3b1c548161ad476f9ff70b654787a20fc46685e3e1c2b7dd88b363ef3d58"
@@ -89,7 +96,8 @@ registered = 2026-04-27T23:41:23.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.17.1/qdrant-x86_64-unknown-linux-gnu.tar.gz"
 
             ["1.17.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.17.1"
         [["1.17.1+0".artifact_metadata.sources]]
         hash = "9347a4db839f53fe123cc775bd87e4dd02f6c2750783bea02ea4fcae9c923164"
@@ -97,7 +105,8 @@ registered = 2026-04-27T23:41:23.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.17.1/qdrant-aarch64-unknown-linux-musl.tar.gz"
 
             ["1.17.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.17.1"
         [["1.17.1+0".artifact_metadata.sources]]
         hash = "d7308c504afa58eb4aa2bd0c655252c324aea04891ac079b6b8764b33fa7dc15"
@@ -105,7 +114,8 @@ registered = 2026-04-27T23:41:23.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.17.1/qdrant-x86_64-apple-darwin.tar.gz"
 
             ["1.17.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.17.1"
         [["1.17.1+0".artifact_metadata.sources]]
         hash = "adf795d7c2ac9d93677517fd58b119e9bb5bc8fc5143ac9b581a6f8264def8da"
@@ -113,7 +123,8 @@ registered = 2026-04-27T23:41:23.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.17.1/qdrant-aarch64-apple-darwin.tar.gz"
 
             ["1.17.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.17.1"
         [["1.17.1+0".artifact_metadata.sources]]
         hash = "fe28df5993a9f9830b1e7290e2e341becf3c91366941b73b4322a05e4f91585c"
@@ -121,7 +132,8 @@ registered = 2026-04-27T23:41:23.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.17.1/qdrant-x86_64-pc-windows-msvc.zip"
 
             ["1.17.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.17.1"
         [["1.17.1+0".artifact_metadata.sources]]
         hash = "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
@@ -146,7 +158,8 @@ registered = 2026-07-18T08:20:19.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.18.3/qdrant-x86_64-unknown-linux-musl.tar.gz"
 
             ["1.18.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.18.3"
         [["1.18.3+0".artifact_metadata.sources]]
         hash = "60663a254cf421dba4db45710872895cd3a714fe1e6978f7927923b5cfae4718"
@@ -154,7 +167,8 @@ registered = 2026-07-18T08:20:19.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.18.3/qdrant-x86_64-unknown-linux-gnu.tar.gz"
 
             ["1.18.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.18.3"
         [["1.18.3+0".artifact_metadata.sources]]
         hash = "1e738b45f90935c383b4076c30f377f390964cb5962b5bff24439812d157dc24"
@@ -162,7 +176,8 @@ registered = 2026-07-18T08:20:19.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.18.3/qdrant-aarch64-unknown-linux-musl.tar.gz"
 
             ["1.18.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.18.3"
         [["1.18.3+0".artifact_metadata.sources]]
         hash = "45bdd4642e7f25611e9cd74f9f91482b27c5376840cd8dc476da67b87abe25a6"
@@ -170,7 +185,8 @@ registered = 2026-07-18T08:20:19.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.18.3/qdrant-x86_64-apple-darwin.tar.gz"
 
             ["1.18.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.18.3"
         [["1.18.3+0".artifact_metadata.sources]]
         hash = "0cb040a261035c316779bd7b4cca2e6ab39faf62640d6918bbbe320e2a9a6547"
@@ -178,7 +194,8 @@ registered = 2026-07-18T08:20:19.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.18.3/qdrant-aarch64-apple-darwin.tar.gz"
 
             ["1.18.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.18.3"
         [["1.18.3+0".artifact_metadata.sources]]
         hash = "984619bbd4032ace578656174c465c5d6b71d1267ecad5b7b4c21cc6549ca833"
@@ -186,7 +203,8 @@ registered = 2026-07-18T08:20:19.000Z
         url = "https://github.com/qdrant/qdrant/releases/download/v1.18.3/qdrant-x86_64-pc-windows-msvc.zip"
 
             ["1.18.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/rust:qdrant"
+            project = "repology.org/project/qdrant"
+            provenance = "url-pattern"
             version = "1.18.3"
         [["1.18.3+0".artifact_metadata.sources]]
         hash = "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"

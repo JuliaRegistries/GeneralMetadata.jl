@@ -17,6 +17,7 @@ registered = 2020-03-08T20:32:14.000Z
 
             ["1.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsm"
+            provenance = "heuristic"
             version = "1.2.3"
         [["1.2.3+0".artifact_metadata.sources]]
         package = "Xorg_xtrans_jll"
@@ -47,6 +48,7 @@ registered = 2024-05-03T18:01:07.000Z
 
             ["1.2.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsm"
+            provenance = "heuristic"
             version = "1.2.4"
         [["1.2.4+0".artifact_metadata.sources]]
         package = "Xorg_xtrans_jll"
@@ -77,6 +79,7 @@ registered = 2025-04-12T00:39:12.000Z
 
             ["1.2.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsm"
+            provenance = "repology-url"
             version = "1.2.6"
         [["1.2.6+0".artifact_metadata.sources]]
         package = "Xorg_xtrans_jll"

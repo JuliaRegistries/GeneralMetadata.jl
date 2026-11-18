@@ -17,6 +17,7 @@ registered = 2021-07-15T19:51:58.000Z
 
             ["7.8.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/grass-gis"
+            provenance = "url-pattern"
             version = "7.8.5"
         [["7.8.5+0".artifact_metadata.sources]]
         type = "directory"

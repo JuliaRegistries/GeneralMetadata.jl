@@ -21,4 +21,5 @@ registered = 2023-05-20T17:14:25.000Z
 
             ["1.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/damageproto"
+            provenance = "repology-url"
             version = "1.2.1"

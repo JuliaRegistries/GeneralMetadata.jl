@@ -14,6 +14,11 @@ registered = 2025-01-26T13:53:46.000Z
         hash = "d243e628880676332263347817b3fe7f474b8b5b"
         type = "git"
         url = "https://github.com/facebookresearch/faiss.git"
+
+            ["1.9.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/faiss"
+            provenance = "git-tag"
+            version = "1.9.0"
         [["1.9.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/836792ac00a7165d565a7f4e78234257ac9a32c7//F/Faiss/bundled"
@@ -43,6 +48,11 @@ registered = 2025-01-30T12:50:24.000Z
         hash = "d243e628880676332263347817b3fe7f474b8b5b"
         type = "git"
         url = "https://github.com/facebookresearch/faiss.git"
+
+            ["1.9.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/faiss"
+            provenance = "git-tag"
+            version = "1.9.0"
         [["1.9.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/334df79335424690bdbb9bdc432bc65affa92c8e//F/Faiss/bundled"
@@ -69,6 +79,11 @@ registered = 2025-12-10T08:16:37.000Z
         hash = "d243e628880676332263347817b3fe7f474b8b5b"
         type = "git"
         url = "https://github.com/facebookresearch/faiss.git"
+
+            ["1.9.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/faiss"
+            provenance = "git-tag"
+            version = "1.9.0"
         [["1.9.0+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/270071d1fa1410c15cb14849dc39cf70d4252bcc//F/Faiss/bundled"

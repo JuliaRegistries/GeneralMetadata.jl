@@ -17,4 +17,5 @@ registered = 2024-09-20T16:54:22.000Z
 
             ["4.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hjson"
+            provenance = "git-tag"
             version = "4.4.0"

@@ -17,6 +17,7 @@ registered = 2023-11-03T12:19:47.000Z
 
             ["8.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tasmanian"
+            provenance = "git-tag"
             version = "8.0"
 
 ["8.0.0+1"]
@@ -38,6 +39,7 @@ registered = 2024-01-11T13:47:18.000Z
 
             ["8.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/tasmanian"
+            provenance = "git-tag"
             version = "8.0"
 
 ["8.0.1+0"]
@@ -59,6 +61,7 @@ registered = 2024-06-17T18:16:35.000Z
 
             ["8.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tasmanian"
+            provenance = "git-tag"
             version = "8.0"
 
 ["8.0.2+0"]
@@ -80,6 +83,7 @@ registered = 2024-09-27T10:31:31.000Z
 
             ["8.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tasmanian"
+            provenance = "repository"
         [["8.0.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4077d9d5c43880fc3adf367ff60076dd7f6adc4e/T/Tasmanian/bundled"
@@ -103,6 +107,7 @@ registered = 2025-10-16T14:23:27.000Z
 
             ["8.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tasmanian"
+            provenance = "git-tag"
             version = "8.1"
         [["8.1.0+0".artifact_metadata.sources]]
         type = "directory"

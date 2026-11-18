@@ -57,6 +57,7 @@ registered = 2021-11-18T10:27:36.000Z
 
             ["2.49.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphviz"
+            provenance = "heuristic"
             version = "2.49.3"
         [["2.49.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -84,6 +85,7 @@ registered = 2021-11-18T16:43:35.000Z
 
             ["2.49.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphviz"
+            provenance = "heuristic"
             version = "2.49.3"
         [["2.49.3+1".artifact_metadata.sources]]
         type = "directory"
@@ -112,6 +114,7 @@ yanked = 2022-05-31T10:02:20.000Z
 
             ["2.50.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphviz"
+            provenance = "heuristic"
             version = "2.50.0"
         [["2.50.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -139,6 +142,7 @@ registered = 2022-05-31T10:02:20.000Z
 
             ["2.50.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphviz"
+            provenance = "heuristic"
             version = "2.50.0"
         [["2.50.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -166,6 +170,7 @@ registered = 2026-07-20T20:32:34.000Z
 
             ["15.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphviz"
+            provenance = "repology-url"
             version = "15.1.0"
         [["15.1.0+0".artifact_metadata.sources]]
         type = "directory"

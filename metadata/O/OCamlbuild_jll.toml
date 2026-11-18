@@ -17,6 +17,7 @@ registered = 2025-02-06T01:20:27.000Z
 
             ["0.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocamlbuild"
+            provenance = "git-tag"
             version = "0.15.0"
         [["0.15.0+0".artifact_metadata.sources]]
         package = "OCaml_jll"

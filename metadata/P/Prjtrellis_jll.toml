@@ -17,3 +17,4 @@ registered = 2021-08-06T23:56:49.000Z
 
             ["0.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/prjtrellis"
+            provenance = "repository"

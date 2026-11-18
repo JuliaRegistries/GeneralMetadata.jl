@@ -14,3 +14,7 @@ registered = 2024-09-24T23:02:17.000Z
         hash = "dcb52a058dc14530ba9ae05e4339bd3ddfae0e0e"
         type = "git"
         url = "https://github.com/gpakosz/whereami"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/whereami-gpakosz"
+            provenance = "repository"

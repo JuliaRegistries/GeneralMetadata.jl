@@ -20,7 +20,8 @@ registered = 2020-04-02T05:23:45.000Z
         url = "https://www.x.org/archive/individual/proto/xproto-7.0.31.tar.bz2"
 
             ["7.0.31+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xorg-xproto"
+            project = "repology.org/project/xproto"
+            provenance = "repology-url"
             version = "7.0.31"
 
 ["7.0.31+2"]
@@ -41,7 +42,8 @@ registered = 2020-08-14T10:48:41.000Z
         url = "https://www.x.org/archive/individual/proto/xproto-7.0.31.tar.bz2"
 
             ["7.0.31+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xorg-xproto"
+            project = "repology.org/project/xproto"
+            provenance = "repology-url"
             version = "7.0.31"
 
 ["7.0.31+3"]
@@ -62,5 +64,6 @@ registered = 2020-08-26T19:31:53.000Z
         url = "https://www.x.org/archive/individual/proto/xproto-7.0.31.tar.bz2"
 
             ["7.0.31+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/xorg-xproto"
+            project = "repology.org/project/xproto"
+            provenance = "repology-url"
             version = "7.0.31"

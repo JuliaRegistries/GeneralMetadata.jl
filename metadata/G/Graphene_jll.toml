@@ -25,6 +25,7 @@ registered = 2020-04-04T05:34:58.000Z
 
             ["1.10.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphene"
+            provenance = "tag-scheme"
             version = "1.10.0"
 
 ["1.10.6+0"]
@@ -46,6 +47,7 @@ registered = 2021-07-28T00:27:40.000Z
 
             ["1.10.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphene"
+            provenance = "repology-url"
             version = "1.10.6"
 
 ["1.10.8+0"]
@@ -67,4 +69,5 @@ registered = 2025-04-02T18:17:35.000Z
 
             ["1.10.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/graphene"
+            provenance = "git-tag"
             version = "1.10.8"

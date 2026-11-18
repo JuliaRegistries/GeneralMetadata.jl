@@ -16,6 +16,7 @@ registered = 2019-10-22T23:56:33.000Z
 
             ["0.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.14.0"
 
 ["0.14.0+1"]
@@ -37,6 +38,7 @@ registered = 2020-04-04T05:35:26.000Z
 
             ["0.14.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.14.0"
 
 ["0.14.0+2"]
@@ -58,6 +60,7 @@ registered = 2020-05-07T19:51:50.000Z
 
             ["0.14.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.14.0"
 
 ["0.14.0+3"]
@@ -79,6 +82,7 @@ registered = 2020-08-03T20:22:11.000Z
 
             ["0.14.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.14.0"
 
 ["0.14.0+4"]
@@ -100,6 +104,7 @@ registered = 2020-10-10T01:46:25.000Z
 
             ["0.14.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.14.0"
 
 ["0.15.1+0"]
@@ -121,6 +126,7 @@ registered = 2021-05-29T18:53:16.000Z
 
             ["0.15.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.15.1"
 
 ["0.15.2+0"]
@@ -142,6 +148,7 @@ registered = 2024-08-23T22:22:02.000Z
 
             ["0.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "tag-scheme"
             version = "0.15.2"
 
 ["0.17.4+0"]
@@ -163,6 +170,7 @@ registered = 2025-07-02T23:23:07.000Z
 
             ["0.17.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.17.4"
 
 ["0.17.5+0"]
@@ -184,4 +192,5 @@ registered = 2026-08-27T13:33:57.000Z
 
             ["0.17.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libass"
+            provenance = "repology-url"
             version = "0.17.5"

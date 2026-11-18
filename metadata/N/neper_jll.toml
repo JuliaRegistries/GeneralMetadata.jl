@@ -17,6 +17,7 @@ registered = 2022-10-14T18:58:33.000Z
 
             ["4.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/neper"
+            provenance = "heuristic"
             version = "4.5.0"
 
 ["4.8.2+0"]

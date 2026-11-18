@@ -14,6 +14,11 @@ registered = 2022-09-24T13:29:53.000Z
         hash = "be8da632c1d3273f766b69244d80669fe4f5e27798654681d77c992f17c237d7"
         type = "archive"
         url = "https://ziglang.org/download/0.9.1/zig-linux-x86_64-0.9.1.tar.xz"
+
+            ["0.9.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zig"
+            provenance = "repology-url"
+            version = "0.9.1"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "e776844fecd2e62fc40d94718891057a1dbca1816ff6013369e9a38c874374ca"
         type = "archive"
@@ -59,6 +64,11 @@ registered = 2023-07-10T17:43:04.000Z
         hash = "be8da632c1d3273f766b69244d80669fe4f5e27798654681d77c992f17c237d7"
         type = "archive"
         url = "https://ziglang.org/download/0.9.1/zig-linux-x86_64-0.9.1.tar.xz"
+
+            ["0.9.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zig"
+            provenance = "repology-url"
+            version = "0.9.1"
         [["0.9.1+1".artifact_metadata.sources]]
         hash = "e776844fecd2e62fc40d94718891057a1dbca1816ff6013369e9a38c874374ca"
         type = "archive"
@@ -104,6 +114,11 @@ registered = 2024-03-29T11:29:56.000Z
         hash = "2d00e789fec4f71790a6e7bf83ff91d564943c5ee843c5fd966efc474b423047"
         type = "archive"
         url = "https://ziglang.org/download/0.11.0/zig-linux-x86_64-0.11.0.tar.xz"
+
+            ["0.11.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zig"
+            provenance = "heuristic"
+            version = "0.11.0"
         [["0.11.0+0".artifact_metadata.sources]]
         hash = "7b0dc3e0e070ae0e0d2240b1892af6a1f9faac3516cae24e57f7a0e7b04662a8"
         type = "archive"
@@ -152,6 +167,7 @@ registered = 2026-04-30T12:40:16.000Z
 
             ["0.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zig"
+            provenance = "heuristic"
             version = "0.15.2"
         [["0.15.2+0".artifact_metadata.sources]]
         hash = "4c6e23f39daa305e274197bfdff0d56ffd1750fc1de226ae10505c0eff52d7a5"
@@ -205,6 +221,7 @@ registered = 2026-05-04T09:58:39.000Z
 
             ["0.15.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/zig"
+            provenance = "heuristic"
             version = "0.15.2"
         [["0.15.2+1".artifact_metadata.sources]]
         hash = "4c6e23f39daa305e274197bfdff0d56ffd1750fc1de226ae10505c0eff52d7a5"

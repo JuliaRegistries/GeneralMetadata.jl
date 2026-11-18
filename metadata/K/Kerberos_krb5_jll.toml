@@ -17,6 +17,7 @@ registered = 2022-04-12T14:51:10.000Z
 
             ["1.19.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/krb5"
+            provenance = "heuristic"
             version = "1.19.3"
 
 ["1.21.3+0"]
@@ -38,4 +39,5 @@ registered = 2025-02-16T00:25:59.000Z
 
             ["1.21.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/krb5"
+            provenance = "repology-url"
             version = "1.21.3"

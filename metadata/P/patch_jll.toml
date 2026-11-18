@@ -17,6 +17,7 @@ registered = 2023-04-13T23:50:32.000Z
 
             ["2.7.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/patch"
+            provenance = "repology-url"
             version = "2.7.6"
 
 ["2.8.0+0"]
@@ -38,6 +39,7 @@ registered = 2025-08-19T17:14:19.000Z
 
             ["2.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/patch"
+            provenance = "repology-url"
             version = "2.8"
 
 ["2.8.1+0"]

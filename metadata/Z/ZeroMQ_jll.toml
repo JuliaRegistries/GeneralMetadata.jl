@@ -20,6 +20,7 @@ registered = 2020-02-11T23:45:15.000Z
 
             ["4.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.2"
         [["4.3.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -44,6 +45,7 @@ registered = 2020-03-02T09:32:23.000Z
 
             ["4.3.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.2"
         [["4.3.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -68,6 +70,7 @@ registered = 2020-04-08T13:44:27.000Z
 
             ["4.3.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.2"
         [["4.3.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -92,6 +95,7 @@ registered = 2020-05-19T21:21:52.000Z
 
             ["4.3.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.2"
         [["4.3.2+3".artifact_metadata.sources]]
         type = "directory"
@@ -116,6 +120,7 @@ registered = 2020-06-07T13:32:54.000Z
 
             ["4.3.2+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.2"
         [["4.3.2+4".artifact_metadata.sources]]
         type = "directory"
@@ -140,6 +145,7 @@ registered = 2020-10-18T22:47:00.000Z
 
             ["4.3.2+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.2"
         [["4.3.2+5".artifact_metadata.sources]]
         type = "directory"
@@ -164,6 +170,7 @@ registered = 2021-02-09T04:54:59.000Z
 
             ["4.3.2+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.2"
         [["4.3.2+6".artifact_metadata.sources]]
         type = "directory"
@@ -188,6 +195,7 @@ registered = 2021-06-20T16:18:54.000Z
 
             ["4.3.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.4"
         [["4.3.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -212,6 +220,7 @@ registered = 2024-02-27T18:16:27.000Z
 
             ["4.3.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.5"
         [["4.3.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -236,6 +245,7 @@ registered = 2024-10-18T22:43:58.000Z
 
             ["4.3.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.5"
         [["4.3.5+1".artifact_metadata.sources]]
         type = "directory"
@@ -260,6 +270,7 @@ registered = 2024-12-27T00:01:25.000Z
 
             ["4.3.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.5"
         [["4.3.5+2".artifact_metadata.sources]]
         type = "directory"
@@ -284,6 +295,7 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["4.3.5+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.5"
         [["4.3.5+3".artifact_metadata.sources]]
         type = "directory"
@@ -308,6 +320,7 @@ registered = 2025-03-11T04:57:23.000Z
 
             ["4.3.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zeromq"
+            provenance = "git-tag"
             version = "4.3.5"
         [["4.3.6+0".artifact_metadata.sources]]
         type = "directory"

@@ -17,6 +17,7 @@ registered = 2020-07-21T20:20:28.000Z
 
             ["0.16.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tree-sitter-python"
+            provenance = "heuristic"
             version = "0.16.1"
         [["0.16.1+0".artifact_metadata.sources]]
         type = "directory"

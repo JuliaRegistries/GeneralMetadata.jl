@@ -20,6 +20,7 @@ registered = 2019-12-13T00:07:33.000Z
 
             ["1.9.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.0+2"]
@@ -40,6 +41,7 @@ registered = 2020-06-18T19:57:18.000Z
 
             ["1.9.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.0+3"]
@@ -61,6 +63,7 @@ registered = 2020-06-25T20:14:26.000Z
 
             ["1.9.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.1+0"]
@@ -82,6 +85,7 @@ registered = 2020-11-03T03:51:17.000Z
 
             ["1.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.1+1"]
@@ -103,6 +107,7 @@ registered = 2021-02-17T19:04:18.000Z
 
             ["1.9.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.1+2"]
@@ -124,6 +129,7 @@ registered = 2021-02-18T01:12:44.000Z
 
             ["1.9.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.1+3"]
@@ -145,6 +151,7 @@ registered = 2021-08-12T23:07:57.000Z
 
             ["1.9.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.1+4"]
@@ -166,6 +173,7 @@ registered = 2024-12-27T15:52:45.000Z
 
             ["1.9.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.9.0"
         [["1.9.1+4".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -190,6 +198,7 @@ registered = 2021-09-01T15:21:55.000Z
 
             ["1.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.10.0"
 
 ["1.10.2+0"]
@@ -211,6 +220,7 @@ registered = 2022-02-08T01:46:19.000Z
 
             ["1.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.10.0"
         [["1.10.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -235,6 +245,7 @@ registered = 2022-07-15T23:50:27.000Z
 
             ["1.10.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.10.0"
         [["1.10.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -259,6 +270,7 @@ registered = 2022-08-25T00:57:18.000Z
 
             ["1.10.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.10.0"
         [["1.10.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -286,6 +298,7 @@ registered = 2023-05-30T22:47:21.000Z
 
             ["1.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -313,6 +326,7 @@ registered = 2023-07-29T18:17:27.000Z
 
             ["1.11.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -340,6 +354,7 @@ registered = 2024-02-25T19:34:26.000Z
 
             ["1.11.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -367,6 +382,7 @@ registered = 2024-03-30T16:51:53.000Z
 
             ["1.11.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.0+3".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -391,6 +407,7 @@ registered = 2024-04-01T15:51:53.000Z
 
             ["1.11.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.0+4".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -418,6 +435,7 @@ registered = 2024-04-23T14:56:54.000Z
 
             ["1.11.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.0+5".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -445,6 +463,7 @@ registered = 2024-06-15T15:03:59.000Z
 
             ["1.11.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -472,6 +491,7 @@ registered = 2024-09-27T19:23:54.000Z
 
             ["1.11.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "tag-scheme"
             version = "1.11.0"
         [["1.11.2+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -496,6 +516,7 @@ registered = 2024-11-22T11:25:37.000Z
 
             ["1.11.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "repology-url"
             version = "1.11.1"
         [["1.11.3+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -520,6 +541,7 @@ registered = 2024-12-25T16:23:21.000Z
 
             ["1.11.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "repology-url"
             version = "1.11.1"
         [["1.11.3+1".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
@@ -544,6 +566,7 @@ registered = 2026-05-08T00:02:56.000Z
 
             ["1.11.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "repology-url"
             version = "1.11.1"
         [["1.11.101+0".artifact_metadata.sources]]
         type = "directory"
@@ -571,6 +594,7 @@ registered = 2026-07-09T10:47:29.000Z
 
             ["1.11.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "repology-url"
             version = "1.11.1"
         [["1.11.102+0".artifact_metadata.sources]]
         type = "directory"
@@ -598,6 +622,7 @@ registered = 2026-07-11T00:02:23.000Z
 
             ["1.11.103+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "repology-url"
             version = "1.11.1"
         [["1.11.103+0".artifact_metadata.sources]]
         type = "directory"
@@ -625,6 +650,7 @@ registered = 2026-07-31T10:47:13.000Z
 
             ["1.11.104+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libssh2"
+            provenance = "repology-url"
             version = "1.11.1"
         [["1.11.104+0".artifact_metadata.sources]]
         type = "directory"

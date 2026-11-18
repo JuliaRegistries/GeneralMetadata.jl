@@ -16,6 +16,7 @@ registered = 2019-09-18T21:18:25.000Z
 
             ["3.33.92+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/adwaita-icon-theme"
+            provenance = "heuristic"
             version = "3.33.92"
 
 ["3.33.92+1"]
@@ -36,6 +37,7 @@ registered = 2019-10-03T22:45:02.000Z
 
             ["3.33.92+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/adwaita-icon-theme"
+            provenance = "heuristic"
             version = "3.33.92"
 
 ["3.33.92+2"]
@@ -56,6 +58,7 @@ registered = 2019-10-17T09:47:34.000Z
 
             ["3.33.92+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/adwaita-icon-theme"
+            provenance = "heuristic"
             version = "3.33.92"
 
 ["3.33.92+3"]
@@ -76,6 +79,7 @@ registered = 2019-10-17T17:12:52.000Z
 
             ["3.33.92+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/adwaita-icon-theme"
+            provenance = "heuristic"
             version = "3.33.92"
 
 ["3.33.92+4"]
@@ -97,6 +101,7 @@ registered = 2020-08-14T17:53:50.000Z
 
             ["3.33.92+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/adwaita-icon-theme"
+            provenance = "heuristic"
             version = "3.33.92"
 
 ["3.33.92+5"]
@@ -118,6 +123,7 @@ registered = 2020-10-17T01:54:58.000Z
 
             ["3.33.92+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/adwaita-icon-theme"
+            provenance = "heuristic"
             version = "3.33.92"
 
 ["3.33.93+0"]
@@ -139,6 +145,7 @@ registered = 2024-01-27T17:27:39.000Z
 
             ["3.33.93+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/adwaita-icon-theme"
+            provenance = "heuristic"
             version = "3.33.92"
 
 ["43.0.0+0"]

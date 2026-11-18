@@ -20,6 +20,7 @@ registered = 2025-07-16T13:26:54.000Z
 
             ["25.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mesa"
+            provenance = "repository"
         [["25.2.0+0".artifact_metadata.sources]]
         package = "libclc_jll"
         type = "builddependency"
@@ -46,6 +47,7 @@ registered = 2025-07-16T18:43:09.000Z
 
             ["25.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mesa"
+            provenance = "repository"
         [["25.2.0+1".artifact_metadata.sources]]
         package = "libclc_jll"
         type = "builddependency"
@@ -72,6 +74,7 @@ registered = 2025-10-12T19:08:41.000Z
 
             ["25.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mesa"
+            provenance = "repository"
         [["25.2.0+2".artifact_metadata.sources]]
         hash = "082917b40c8416bde925c64d22a2e60b2c059120"
         type = "git"
@@ -79,6 +82,7 @@ registered = 2025-10-12T19:08:41.000Z
 
             ["25.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/meson"
+            provenance = "git-tag"
             version = "1.7.2"
         [["25.2.0+2".artifact_metadata.sources]]
         hash = "458870543b9bcf6b0edd6f90aaa776707b310d96"
@@ -87,6 +91,7 @@ registered = 2025-10-12T19:08:41.000Z
 
             ["25.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/molten-vk"
+            provenance = "git-tag"
             version = "1.4.0"
         [["25.2.0+2".artifact_metadata.sources]]
         package = "libclc_jll"
@@ -114,6 +119,7 @@ registered = 2025-11-04T18:42:43.000Z
 
             ["25.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/mesa"
+            provenance = "repository"
         [["25.2.0+3".artifact_metadata.sources]]
         hash = "082917b40c8416bde925c64d22a2e60b2c059120"
         type = "git"
@@ -121,6 +127,7 @@ registered = 2025-11-04T18:42:43.000Z
 
             ["25.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/meson"
+            provenance = "git-tag"
             version = "1.7.2"
         [["25.2.0+3".artifact_metadata.sources]]
         hash = "458870543b9bcf6b0edd6f90aaa776707b310d96"
@@ -129,6 +136,7 @@ registered = 2025-11-04T18:42:43.000Z
 
             ["25.2.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/molten-vk"
+            provenance = "git-tag"
             version = "1.4.0"
         [["25.2.0+3".artifact_metadata.sources]]
         package = "libclc_jll"

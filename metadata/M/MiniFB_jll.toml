@@ -14,6 +14,10 @@ registered = 2020-08-27T22:02:45.000Z
         hash = "2110dc18ac93a531bd832b323ea92a1622430e1c"
         type = "git"
         url = "https://github.com/emoon/minifb.git"
+
+            ["0.1.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/minifb"
+            provenance = "repository"
         [["0.1.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
         type = "builddependency"
@@ -46,6 +50,10 @@ registered = 2022-03-04T20:48:13.000Z
         hash = "5066489cd81b23b0c79952f7d6f464b20c54867c"
         type = "git"
         url = "https://github.com/emoon/minifb.git"
+
+            ["0.2.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/minifb"
+            provenance = "repository"
         [["0.2.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
         type = "builddependency"
@@ -66,6 +74,10 @@ registered = 2022-09-21T20:58:52.000Z
         hash = "19b1a867762f92ea9f28c0195ef51f60d329aaa7"
         type = "git"
         url = "https://github.com/emoon/minifb.git"
+
+            ["0.2.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/minifb"
+            provenance = "repository"
         [["0.2.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
         type = "builddependency"

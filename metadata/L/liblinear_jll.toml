@@ -17,6 +17,7 @@ registered = 2020-06-02T17:45:12.000Z
 
             ["2.30.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/liblinear"
+            provenance = "tag-scheme"
             version = "230"
         [["2.30.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2023-11-20T00:34:02.000Z
 
             ["2.47.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/liblinear"
+            provenance = "git-tag"
             version = "247"
         [["2.47.0+0".artifact_metadata.sources]]
         type = "directory"

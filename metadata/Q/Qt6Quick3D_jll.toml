@@ -65,6 +65,7 @@ registered = 2026-02-27T07:46:11.000Z
 
             ["6.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt6quick3d"
+            provenance = "heuristic"
             version = "6.10.2"
         [["6.10.2+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
@@ -99,6 +100,7 @@ registered = 2026-02-28T08:41:02.000Z
 
             ["6.10.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt6quick3d"
+            provenance = "heuristic"
             version = "6.10.2"
         [["6.10.2+1".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"

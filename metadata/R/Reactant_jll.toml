@@ -40,6 +40,11 @@ registered = 2024-04-28T21:34:50.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.3+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.3+0/Reactant.v0.0.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.3+0/Reactant.v0.0.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.3+0/Reactant.v0.0.3.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.3+0/Reactant.v0.0.3.x86_64-linux-gnu-cxx11.tar.gz"]
 registered = 2024-04-29T18:18:33.000Z
@@ -65,6 +70,11 @@ registered = 2024-04-29T18:18:33.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.4+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.4+0/Reactant.v0.0.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.4+0/Reactant.v0.0.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.4+0/Reactant.v0.0.4.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.4+0/Reactant.v0.0.4.x86_64-linux-gnu-cxx11.tar.gz"]
 registered = 2024-05-04T06:29:51.000Z
@@ -89,6 +99,11 @@ registered = 2024-05-04T06:29:51.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.4+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -123,6 +138,11 @@ registered = 2024-05-05T21:58:41.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.5+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -157,6 +177,11 @@ registered = 2024-05-16T03:25:12.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.6+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -191,6 +216,11 @@ registered = 2024-05-17T09:00:37.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.7+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -225,6 +255,11 @@ registered = 2024-06-17T16:42:19.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.8+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -259,6 +294,11 @@ registered = 2024-06-18T01:50:14.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.8+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.8+1".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -293,6 +333,11 @@ registered = 2024-06-18T11:54:00.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.9+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.9+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -327,6 +372,11 @@ registered = 2024-06-22T13:46:31.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.10+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.10+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -361,6 +411,11 @@ registered = 2024-06-22T22:23:36.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.10+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.10+1".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -395,6 +450,11 @@ registered = 2024-06-23T03:11:00.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.11+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.11+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -429,6 +489,11 @@ registered = 2024-07-13T20:08:40.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.12+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.12+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -463,6 +528,11 @@ registered = 2024-07-18T23:19:14.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.12+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.12+1".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -497,6 +567,11 @@ registered = 2024-07-22T11:58:42.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.12+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.12+2".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -531,6 +606,11 @@ registered = 2024-08-01T21:27:52.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.13+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.13+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -565,6 +645,11 @@ registered = 2024-08-04T21:11:54.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.14+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.14+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -599,6 +684,11 @@ registered = 2024-08-13T01:42:34.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.15+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
         [["0.0.15+0".artifact_metadata.sources]]
         package = "CUDNN_jll"
         type = "builddependency"
@@ -632,6 +722,7 @@ registered = 2024-09-01T17:50:14.000Z
 
             ["0.0.16+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "6.5.0"
         [["0.0.16+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -641,6 +732,11 @@ registered = 2024-09-01T17:50:14.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.16+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.18+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.18+0/Reactant.v0.0.18.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -665,6 +761,7 @@ registered = 2024-09-03T02:31:36.000Z
 
             ["0.0.18+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "6.5.0"
         [["0.0.18+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -674,6 +771,11 @@ registered = 2024-09-03T02:31:36.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.18+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.19+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+0/Reactant.v0.0.19.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -698,6 +800,7 @@ registered = 2024-09-03T06:40:36.000Z
 
             ["0.0.19+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "6.5.0"
         [["0.0.19+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -707,6 +810,11 @@ registered = 2024-09-03T06:40:36.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.19+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.19+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.19+1/Reactant.v0.0.19.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -731,6 +839,7 @@ registered = 2024-10-03T13:30:06.000Z
 
             ["0.0.19+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "6.5.0"
         [["0.0.19+1".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -740,6 +849,11 @@ registered = 2024-10-03T13:30:06.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.19+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.20+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.20+0/Reactant.v0.0.20.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -764,6 +878,7 @@ registered = 2024-10-03T22:53:06.000Z
 
             ["0.0.20+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "6.5.0"
         [["0.0.20+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -773,6 +888,11 @@ registered = 2024-10-03T22:53:06.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.20+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.21+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.21+0/Reactant.v0.0.21.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -803,6 +923,11 @@ registered = 2024-10-04T23:26:16.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.21+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.22+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.22+0/Reactant.v0.0.22.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2024-10-15T17:54:24.000Z
@@ -831,6 +956,11 @@ registered = 2024-10-15T17:54:24.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.22+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.23+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.23+0/Reactant.v0.0.23.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -861,6 +991,11 @@ registered = 2024-11-04T11:14:47.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.23+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.24+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.24+0/Reactant.v0.0.24.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2024-11-05T19:27:55.000Z
@@ -889,6 +1024,11 @@ registered = 2024-11-05T19:27:55.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.24+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.25+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.25+0/Reactant.v0.0.25.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -919,6 +1059,11 @@ registered = 2024-11-15T12:16:00.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.25+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.26+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.26+0/Reactant.v0.0.26.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2024-12-05T18:55:58.000Z
@@ -947,6 +1092,11 @@ registered = 2024-12-05T18:55:58.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.26+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.27+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.27+0/Reactant.v0.0.27.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -977,6 +1127,11 @@ registered = 2024-12-19T01:11:16.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.27+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.28+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.28+0/Reactant.v0.0.28.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2024-12-19T22:35:04.000Z
@@ -1005,6 +1160,11 @@ registered = 2024-12-19T22:35:04.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.28+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.29+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.29+0/Reactant.v0.0.29.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1035,6 +1195,11 @@ registered = 2024-12-21T22:09:39.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.29+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.30+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.30+0/Reactant.v0.0.30.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2024-12-23T03:42:55.000Z
@@ -1063,6 +1228,11 @@ registered = 2024-12-23T03:42:55.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.30+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.31+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.31+0/Reactant.v0.0.31.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1093,6 +1263,11 @@ registered = 2024-12-23T10:31:26.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.31+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.32+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.32+0/Reactant.v0.0.32.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2024-12-24T09:11:21.000Z
@@ -1121,6 +1296,11 @@ registered = 2024-12-24T09:11:21.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.32+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.33+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.33+0/Reactant.v0.0.33.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1151,6 +1331,11 @@ registered = 2024-12-28T15:49:46.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.33+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.34+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.34+0/Reactant.v0.0.34.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2024-12-30T19:51:31.000Z
@@ -1179,6 +1364,11 @@ registered = 2024-12-30T19:51:31.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.34+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.35+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.35+0/Reactant.v0.0.35.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1209,6 +1399,11 @@ registered = 2025-01-02T01:22:49.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.35+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.36+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.36+0/Reactant.v0.0.36.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-02T04:38:12.000Z
@@ -1237,6 +1432,11 @@ registered = 2025-01-02T04:38:12.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.36+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.37+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.37+0/Reactant.v0.0.37.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1267,6 +1467,11 @@ registered = 2025-01-08T07:35:03.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.37+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.38+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.38+0/Reactant.v0.0.38.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-10T02:56:11.000Z
@@ -1295,6 +1500,11 @@ registered = 2025-01-10T02:56:11.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.38+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.39+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1325,6 +1535,11 @@ registered = 2025-01-10T08:46:07.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.39+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.40+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.39+0/Reactant.v0.0.39.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-15T18:19:19.000Z
@@ -1353,6 +1568,11 @@ registered = 2025-01-15T18:19:19.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.40+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.41+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1383,6 +1603,11 @@ registered = 2025-01-15T21:56:18.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.41+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.41+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-16T00:51:42.000Z
@@ -1411,6 +1636,11 @@ registered = 2025-01-16T00:51:42.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.41+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.41+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.41+0/Reactant.v0.0.41.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1441,6 +1671,11 @@ registered = 2025-01-16T17:02:23.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.41+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.42+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.42+0/Reactant.v0.0.42.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-18T00:13:49.000Z
@@ -1469,6 +1704,11 @@ registered = 2025-01-18T00:13:49.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.42+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.43+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.43+0/Reactant.v0.0.43.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
@@ -1499,6 +1739,11 @@ registered = 2025-01-19T10:23:38.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.43+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.44+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.aarch64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.aarch64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.aarch64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.aarch64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.x86_64-apple-darwin-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.x86_64-apple-darwin-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.x86_64-linux-gnu-cxx03-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.x86_64-linux-gnu-cxx03-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.x86_64-linux-gnu-cxx11-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.44+0/Reactant.v0.0.44.x86_64-linux-gnu-cxx11-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-19T19:48:32.000Z
@@ -1527,6 +1772,11 @@ registered = 2025-01-19T19:48:32.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.44+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.45+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.45+0/Reactant.v0.0.45.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
@@ -1557,6 +1807,11 @@ registered = 2025-01-20T02:43:13.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.45+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.46+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.46+0/Reactant.v0.0.46.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-20T20:14:58.000Z
@@ -1585,6 +1840,11 @@ registered = 2025-01-20T20:14:58.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.46+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.47+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.47+0/Reactant.v0.0.47.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
@@ -1615,6 +1875,11 @@ registered = 2025-01-21T17:52:56.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.47+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.48+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.x86_64-linux-gnu-cxx11-cuda_version+12.3-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.48+0/Reactant.v0.0.48.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-22T17:45:36.000Z
@@ -1643,6 +1908,11 @@ registered = 2025-01-22T17:45:36.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.48+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.49+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.x86_64-linux-gnu-cxx11-cuda_version+12.3-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.49+0/Reactant.v0.0.49.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
@@ -1673,6 +1943,11 @@ registered = 2025-01-24T18:43:45.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.49+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.50+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.x86_64-linux-gnu-cxx11-cuda_version+12.3-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.50+0/Reactant.v0.0.50.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-25T06:57:06.000Z
@@ -1701,6 +1976,11 @@ registered = 2025-01-25T06:57:06.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.50+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.51+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.x86_64-linux-gnu-cxx11-cuda_version+12.3-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.51+0/Reactant.v0.0.51.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
@@ -1731,6 +2011,11 @@ registered = 2025-01-25T19:10:34.000Z
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
 
+            ["0.0.51+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
+
 ["0.0.52+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.x86_64-linux-gnu-cxx11-cuda_version+12.3-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.52+0/Reactant.v0.0.52.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]
 registered = 2025-01-26T03:16:28.000Z
@@ -1759,6 +2044,11 @@ registered = 2025-01-26T03:16:28.000Z
         hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
+
+            ["0.0.52+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "heuristic"
+            version = "18.1.4"
 
 ["0.0.53+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.aarch64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.aarch64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.x86_64-apple-darwin-cuda_version+none-gpu+none-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.x86_64-linux-gnu-cxx11-cuda_version+12.1-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.x86_64-linux-gnu-cxx11-cuda_version+12.3-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.x86_64-linux-gnu-cxx11-cuda_version+12.6-gpu+cuda-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.53+0/Reactant.v0.0.53.x86_64-linux-gnu-cxx11-cuda_version+none-gpu+none-mode+opt.tar.gz"]

@@ -18,6 +18,11 @@ registered = 2026-07-07T17:55:57.000Z
         hash = "1261b231939fc210032f30c4ee8a8f0440372237"
         type = "git"
         url = "https://github.com/cimgui/cimgui.git"
+
+            ["0.9.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cimgui"
+            provenance = "git-tag"
+            version = "1.92.8dock"
         [["0.9.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6ae61b868dc461205a891e46e9192cef86899a12/C/cimnodes_editor/bundled"
@@ -42,6 +47,10 @@ registered = 2026-08-22T16:06:16.000Z
         hash = "700140771a12e61f4bb851fb4e2d885f04b32dd9"
         type = "git"
         url = "https://github.com/cimgui/cimgui.git"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cimgui"
+            provenance = "repository"
         [["1.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/eecef9fe0f37a79c5d7a892c28a937b8fa10a733/C/cimnodes_editor/bundled"

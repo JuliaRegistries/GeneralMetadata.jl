@@ -17,4 +17,5 @@ registered = 2025-04-12T18:42:04.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lzfse"
+            provenance = "git-tag"
             version = "1.0"

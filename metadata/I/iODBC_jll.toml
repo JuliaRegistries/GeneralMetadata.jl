@@ -17,6 +17,7 @@ registered = 2020-05-15T10:33:40.000Z
 
             ["3.52.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iodbc"
+            provenance = "git-tag"
             version = "3.52.13"
 
 ["3.52.13+1"]
@@ -55,6 +56,7 @@ registered = 2022-04-22T08:49:44.000Z
 
             ["3.52.15+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iodbc"
+            provenance = "git-tag"
             version = "3.52.15"
         [["3.52.15+0".artifact_metadata.sources]]
         type = "directory"
@@ -79,6 +81,7 @@ registered = 2024-11-11T17:58:39.000Z
 
             ["3.52.16+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/iodbc"
+            provenance = "git-tag"
             version = "3.52.15"
         [["3.52.16+0".artifact_metadata.sources]]
         type = "directory"

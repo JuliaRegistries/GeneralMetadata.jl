@@ -17,6 +17,7 @@ registered = 2020-10-29T09:29:56.000Z
 
             ["0.23.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lazygit"
+            provenance = "git-tag"
             version = "0.23.6"
 
 ["0.61.1+0"]
@@ -38,6 +39,7 @@ registered = 2026-05-26T16:25:35.000Z
 
             ["0.61.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lazygit"
+            provenance = "git-tag"
             version = "0.61.1"
 
 ["0.65.0+0"]
@@ -59,4 +61,5 @@ registered = 2026-09-08T13:00:50.000Z
 
             ["0.65.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lazygit"
+            provenance = "git-tag"
             version = "0.65.0"

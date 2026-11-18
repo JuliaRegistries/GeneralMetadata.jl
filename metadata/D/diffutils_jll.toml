@@ -21,6 +21,7 @@ registered = 2022-09-26T11:22:58.000Z
 
             ["3.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/diffutils"
+            provenance = "heuristic"
             version = "3.8"
         [["3.8.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -45,6 +46,7 @@ registered = 2024-02-01T03:03:28.000Z
 
             ["3.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/diffutils"
+            provenance = "heuristic"
             version = "3.10"
         [["3.10.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -69,4 +71,5 @@ registered = 2025-05-15T15:18:25.000Z
 
             ["3.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/diffutils"
+            provenance = "repology-url"
             version = "3.12"

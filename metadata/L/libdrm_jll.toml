@@ -17,6 +17,7 @@ registered = 2020-11-17T20:36:00.000Z
 
             ["2.4.103+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libdrm"
+            provenance = "heuristic"
             version = "2.4.103"
         [["2.4.103+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2021-06-19T14:08:17.000Z
 
             ["2.4.106+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libdrm"
+            provenance = "heuristic"
             version = "2.4.106"
         [["2.4.106+0".artifact_metadata.sources]]
         type = "directory"
@@ -65,6 +67,7 @@ registered = 2022-02-23T11:44:27.000Z
 
             ["2.4.110+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libdrm"
+            provenance = "heuristic"
             version = "2.4.110"
         [["2.4.110+0".artifact_metadata.sources]]
         type = "directory"
@@ -89,6 +92,7 @@ registered = 2025-06-25T00:21:53.000Z
 
             ["2.4.125+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libdrm"
+            provenance = "repology-url"
             version = "2.4.125"
         [["2.4.125+0".artifact_metadata.sources]]
         type = "directory"
@@ -113,6 +117,7 @@ registered = 2025-08-26T19:43:42.000Z
 
             ["2.4.125+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libdrm"
+            provenance = "repology-url"
             version = "2.4.125"
         [["2.4.125+1".artifact_metadata.sources]]
         type = "directory"
@@ -137,6 +142,7 @@ registered = 2026-07-22T00:31:08.000Z
 
             ["2.4.134+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libdrm"
+            provenance = "repology-url"
             version = "2.4.134"
         [["2.4.134+0".artifact_metadata.sources]]
         type = "directory"

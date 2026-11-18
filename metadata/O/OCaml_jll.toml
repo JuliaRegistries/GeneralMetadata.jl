@@ -17,6 +17,7 @@ registered = 2020-06-20T13:56:51.000Z
 
             ["4.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "tag-scheme"
             version = "4.10.0"
 
 ["4.14.2+0"]
@@ -38,6 +39,7 @@ registered = 2025-01-30T23:37:57.000Z
 
             ["4.14.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "git-tag"
             version = "4.14.2"
         [["4.14.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -62,6 +64,7 @@ registered = 2025-02-04T02:54:44.000Z
 
             ["4.14.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "git-tag"
             version = "4.14.2"
         [["4.14.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -86,6 +89,7 @@ registered = 2025-01-30T19:21:50.000Z
 
             ["5.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "git-tag"
             version = "5.3.0"
 
 ["5.3.0+1"]
@@ -107,6 +111,7 @@ registered = 2025-01-30T23:49:46.000Z
 
             ["5.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "git-tag"
             version = "5.3.0"
 
 ["5.3.0+2"]
@@ -128,6 +133,7 @@ registered = 2025-02-04T02:54:57.000Z
 
             ["5.3.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "git-tag"
             version = "5.3.0"
         [["5.3.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -152,6 +158,7 @@ registered = 2025-05-07T01:09:15.000Z
 
             ["5.3.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "git-tag"
             version = "5.3.0"
         [["5.3.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -188,6 +195,7 @@ registered = 2025-05-07T07:49:59.000Z
 
             ["5.3.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/ocaml"
+            provenance = "git-tag"
             version = "5.3.0"
         [["5.3.0+4".artifact_metadata.sources]]
         type = "directory"

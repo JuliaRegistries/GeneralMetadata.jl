@@ -40,6 +40,7 @@ registered = 2023-03-20T17:24:30.000Z
 
             ["4.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/extrae"
+            provenance = "heuristic"
             version = "4.0.3"
         [["4.0.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -67,6 +68,7 @@ registered = 2024-05-07T16:04:31.000Z
 
             ["4.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/extrae"
+            provenance = "heuristic"
             version = "4.1.2"
         [["4.1.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -97,6 +99,7 @@ registered = 2024-05-08T12:11:24.000Z
 
             ["4.1.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/extrae"
+            provenance = "heuristic"
             version = "4.1.2"
         [["4.1.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -127,6 +130,7 @@ registered = 2024-06-30T23:49:25.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/extrae"
+            provenance = "heuristic"
             version = "4.2.0"
         [["4.2.0+0".artifact_metadata.sources]]
         type = "directory"

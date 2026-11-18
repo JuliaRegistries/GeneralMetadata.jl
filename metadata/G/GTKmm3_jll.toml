@@ -17,6 +17,7 @@ registered = 2023-05-04T22:26:22.000Z
 
             ["3.24.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtkmm"
+            provenance = "heuristic"
             version = "3.24.7"
         [["3.24.7+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -41,6 +42,7 @@ registered = 2024-01-18T00:36:30.000Z
 
             ["3.24.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtkmm"
+            provenance = "heuristic"
             version = "3.24.7"
         [["3.24.7+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

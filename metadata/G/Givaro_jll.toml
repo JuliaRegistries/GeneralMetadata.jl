@@ -17,6 +17,7 @@ registered = 2024-10-20T23:11:17.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/givaro"
+            provenance = "tag-scheme"
             version = "4.2.0"
         [["4.2.0+0".artifact_metadata.sources]]
         type = "directory"

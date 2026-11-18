@@ -16,6 +16,7 @@ registered = 2019-12-29T03:09:39.000Z
 
             ["2.0.15+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-ttf"
+            provenance = "heuristic"
             version = "2.0.15"
         [["2.0.15+0".artifact_metadata.sources]]
         type = "directory"
@@ -40,6 +41,7 @@ registered = 2020-08-01T22:16:35.000Z
 
             ["2.0.15+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-ttf"
+            provenance = "heuristic"
             version = "2.0.15"
         [["2.0.15+1".artifact_metadata.sources]]
         type = "directory"
@@ -64,6 +66,7 @@ registered = 2021-07-22T15:45:52.000Z
 
             ["2.0.16+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-ttf"
+            provenance = "heuristic"
             version = "2.0.15"
         [["2.0.16+0".artifact_metadata.sources]]
         type = "directory"
@@ -88,6 +91,7 @@ registered = 2022-09-13T23:13:50.000Z
 
             ["2.0.16+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-ttf"
+            provenance = "heuristic"
             version = "2.0.15"
         [["2.0.16+1".artifact_metadata.sources]]
         type = "directory"
@@ -112,4 +116,5 @@ registered = 2026-03-24T21:59:28.000Z
 
             ["2.24.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-ttf"
+            provenance = "git-tag"
             version = "2.24.0"

@@ -20,6 +20,7 @@ registered = 2020-01-25T15:45:26.000Z
 
             ["2.0.10+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "heuristic"
             version = "2.0.10"
         [["2.0.10+1".artifact_metadata.sources]]
         type = "directory"
@@ -44,6 +45,7 @@ registered = 2020-05-06T19:44:46.000Z
 
             ["2.0.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "repology-url"
             version = "2.0.12"
         [["2.0.12+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -68,6 +70,7 @@ registered = 2020-08-25T21:18:56.000Z
 
             ["2.0.12+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "repology-url"
             version = "2.0.12"
         [["2.0.12+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -92,6 +95,7 @@ registered = 2020-10-16T22:29:38.000Z
 
             ["2.0.12+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "repology-url"
             version = "2.0.12"
         [["2.0.12+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -116,6 +120,7 @@ registered = 2022-01-23T11:04:54.000Z
 
             ["2.0.20+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "heuristic"
             version = "2.0.20"
         [["2.0.20+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -140,6 +145,7 @@ registered = 2022-09-24T23:22:32.000Z
 
             ["2.0.20+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "heuristic"
             version = "2.0.20"
         [["2.0.20+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -164,6 +170,7 @@ registered = 2022-11-07T00:28:53.000Z
 
             ["2.24.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "git-tag"
             version = "2.24.2"
         [["2.24.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -191,6 +198,7 @@ registered = 2022-11-07T21:55:42.000Z
 
             ["2.24.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "git-tag"
             version = "2.24.2"
         [["2.24.2+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -218,6 +226,7 @@ registered = 2025-10-04T03:51:09.000Z
 
             ["2.32.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2"
+            provenance = "git-tag"
             version = "2.32.10"
         [["2.32.10+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

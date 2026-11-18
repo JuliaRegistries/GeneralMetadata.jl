@@ -14,6 +14,11 @@ registered = 2019-09-10T01:02:03.000Z
         hash = "d673f0284cec867ee00872a8152e0c3c09852f17fd9aa93f07579a37534f0bfe"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.9.tar.gz"
 
+            ["2.9.9+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.9"
+
 ["2.9.9+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.arm-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.arm-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+1/XML2.v2.9.9.x86_64-w64-mingw32.tar.gz"]
 registered = 2019-12-30T21:34:12.000Z
@@ -29,6 +34,11 @@ registered = 2019-12-30T21:34:12.000Z
         [["2.9.9+1".artifact_metadata.sources]]
         hash = "d673f0284cec867ee00872a8152e0c3c09852f17fd9aa93f07579a37534f0bfe"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.9.tar.gz"
+
+            ["2.9.9+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.9"
 
 ["2.9.9+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+2/XML2.v2.9.9.x86_64-w64-mingw32.tar.gz"]
@@ -47,6 +57,11 @@ registered = 2020-04-02T14:22:15.000Z
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.9.tar.gz"
 
+            ["2.9.9+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.9"
+
 ["2.9.9+3"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+3/XML2.v2.9.9.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-04-12T15:57:45.000Z
@@ -63,6 +78,11 @@ registered = 2020-04-12T15:57:45.000Z
         hash = "d673f0284cec867ee00872a8152e0c3c09852f17fd9aa93f07579a37534f0bfe"
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.9.tar.gz"
+
+            ["2.9.9+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.9"
 
 ["2.9.9+4"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-w64-mingw32.tar.gz"]
@@ -81,6 +101,11 @@ registered = 2020-04-14T17:09:07.000Z
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.9.tar.gz"
 
+            ["2.9.9+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.9"
+
 ["2.9.9+5"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.9+4/XML2.v2.9.9.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-06-18T19:57:47.000Z
@@ -97,6 +122,11 @@ registered = 2020-06-18T19:57:47.000Z
         hash = "d673f0284cec867ee00872a8152e0c3c09852f17fd9aa93f07579a37534f0bfe"
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.9.tar.gz"
+
+            ["2.9.9+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.9"
 
 ["2.9.10+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-w64-mingw32.tar.gz"]
@@ -115,6 +145,11 @@ registered = 2020-06-24T17:20:53.000Z
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.10.tar.gz"
 
+            ["2.9.10+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.10"
+
 ["2.9.10+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-06-25T20:34:22.000Z
@@ -131,6 +166,11 @@ registered = 2020-06-25T20:34:22.000Z
         hash = "3bdffb4d728e4dc135b3210bf2a2cebb76548b820a5617c68abb7b83654066dd"
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.10.tar.gz"
+
+            ["2.9.10+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.10"
 
 ["2.9.10+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-w64-mingw32.tar.gz"]
@@ -149,6 +189,11 @@ registered = 2020-08-26T19:58:29.000Z
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.10.tar.gz"
 
+            ["2.9.10+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.10"
+
 ["2.9.10+3"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.10+0/XML2.v2.9.10.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-10-16T19:28:54.000Z
@@ -165,6 +210,11 @@ registered = 2020-10-16T19:28:54.000Z
         hash = "3bdffb4d728e4dc135b3210bf2a2cebb76548b820a5617c68abb7b83654066dd"
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.10.tar.gz"
+
+            ["2.9.10+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.10"
 
 ["2.9.11+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.11+0/XML2.v2.9.11.x86_64-w64-mingw32.tar.gz"]
@@ -183,6 +233,11 @@ registered = 2021-02-01T15:21:06.000Z
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.10.tar.gz"
 
+            ["2.9.11+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.10"
+
 ["2.9.12+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.12+0/XML2.v2.9.12.x86_64-w64-mingw32.tar.gz"]
 registered = 2021-05-17T00:55:49.000Z
@@ -199,6 +254,11 @@ registered = 2021-05-17T00:55:49.000Z
         hash = "8a4ddd706419c210b30b8978a51388937fd9362c34fc9a3d69e4fcc6f8055ee0"
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.12.tar.gz"
+
+            ["2.9.12+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.12"
 
 ["2.9.14+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.9.14+0/XML2.v2.9.14.x86_64-w64-mingw32.tar.gz"]
@@ -217,6 +277,11 @@ registered = 2022-05-28T23:40:25.000Z
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.9.14.tar.gz"
 
+            ["2.9.14+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.9.14"
+
 ["2.10.3+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.3+0/XML2.v2.10.3.x86_64-w64-mingw32.tar.gz"]
 registered = 2022-12-23T11:57:52.000Z
@@ -233,6 +298,11 @@ registered = 2022-12-23T11:57:52.000Z
         hash = "3f9fb74bb02049f3454892c88d3e57a23e30a88a7d444a80064625af2f543898"
         type = "archive"
         url = "https://github.com/GNOME/libxml2/archive/v2.10.3.tar.gz"
+
+            ["2.10.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxml2"
+            provenance = "url-pattern"
+            version = "2.10.3"
 
 ["2.10.4+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/XML2_jll.jl/releases/download/XML2-v2.10.4+0/XML2.v2.10.4.x86_64-w64-mingw32.tar.gz"]
@@ -253,6 +323,7 @@ registered = 2023-08-31T07:27:59.000Z
 
             ["2.10.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "tag-scheme"
             version = "2.10.4"
 
 ["2.11.5+0"]
@@ -274,6 +345,7 @@ registered = 2023-09-29T23:57:24.000Z
 
             ["2.11.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.11.5"
 
 ["2.12.0+0"]
@@ -295,6 +367,7 @@ registered = 2023-11-21T18:14:14.000Z
 
             ["2.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.12.0"
         [["2.12.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -319,6 +392,7 @@ registered = 2023-12-06T08:28:57.000Z
 
             ["2.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.12.2"
 
 ["2.12.5+0"]
@@ -340,6 +414,7 @@ registered = 2024-02-25T23:05:00.000Z
 
             ["2.12.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.12.5"
 
 ["2.12.6+0"]
@@ -361,6 +436,7 @@ registered = 2024-03-28T22:32:40.000Z
 
             ["2.12.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.12.6"
 
 ["2.12.7+0"]
@@ -382,6 +458,7 @@ registered = 2024-05-19T12:25:39.000Z
 
             ["2.12.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.12.7"
 
 ["2.13.1+0"]
@@ -403,6 +480,7 @@ registered = 2024-06-28T16:04:39.000Z
 
             ["2.13.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.13.1"
 
 ["2.13.3+0"]
@@ -424,6 +502,7 @@ registered = 2024-08-20T20:14:03.000Z
 
             ["2.13.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.13.3"
 
 ["2.13.4+0"]
@@ -445,6 +524,7 @@ registered = 2024-10-25T10:45:48.000Z
 
             ["2.13.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "repology-url"
             version = "2.13.4"
 
 ["2.13.5+0"]
@@ -466,6 +546,7 @@ registered = 2024-11-15T14:50:17.000Z
 
             ["2.13.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.13.5"
 
 ["2.13.6+0"]
@@ -487,6 +568,7 @@ registered = 2025-02-07T02:26:59.000Z
 
             ["2.13.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.13.5"
 
 ["2.13.6+1"]
@@ -508,6 +590,7 @@ registered = 2025-02-23T09:34:43.000Z
 
             ["2.13.6+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.13.6"
 
 ["2.13.8+0"]
@@ -529,6 +612,7 @@ registered = 2025-09-05T18:07:43.000Z
 
             ["2.13.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "repology-url"
             version = "2.13.8"
 
 ["2.13.9+0"]
@@ -550,6 +634,7 @@ registered = 2025-09-27T09:21:23.000Z
 
             ["2.13.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.13.9"
 
 ["2.14.1+0"]
@@ -571,6 +656,7 @@ registered = 2025-04-11T23:02:00.000Z
 
             ["2.14.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.14.1"
 
 ["2.14.4+0"]
@@ -592,6 +678,7 @@ registered = 2025-07-15T00:02:01.000Z
 
             ["2.14.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.14.4"
 
 ["2.15.0+0"]
@@ -613,6 +700,7 @@ registered = 2025-10-10T22:47:10.000Z
 
             ["2.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.15.0"
 
 ["2.15.1+0"]
@@ -634,6 +722,7 @@ registered = 2025-10-19T16:05:16.000Z
 
             ["2.15.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "repology-url"
             version = "2.15.1"
 
 ["2.15.3+0"]
@@ -655,6 +744,7 @@ registered = 2026-06-02T09:21:23.000Z
 
             ["2.15.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "repology-url"
             version = "2.15.3"
 
 ["2.15.4+0"]
@@ -676,4 +766,5 @@ registered = 2026-09-21T13:12:33.000Z
 
             ["2.15.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
+            provenance = "heuristic"
             version = "2.15.4"

@@ -17,6 +17,7 @@ registered = 2020-08-03T10:45:04.000Z
 
             ["10.0.26+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nv-codec-headers"
+            provenance = "tag-scheme"
             version = "10.0.26.0"
 
 ["10.0.26+1"]
@@ -38,4 +39,5 @@ registered = 2020-08-03T12:10:25.000Z
 
             ["10.0.26+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nv-codec-headers"
+            provenance = "tag-scheme"
             version = "10.0.26.0"

@@ -17,6 +17,7 @@ registered = 2023-07-07T18:07:57.000Z
 
             ["2.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/argtable2"
+            provenance = "repology-url"
             version = "2.13"
 
 ["3.2.2+0"]
@@ -38,3 +39,4 @@ registered = 2023-07-05T19:41:56.000Z
 
             ["3.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/argtable3"
+            provenance = "repository"

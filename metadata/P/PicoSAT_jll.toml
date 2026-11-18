@@ -17,6 +17,7 @@ registered = 2021-12-23T18:51:38.000Z
 
             ["965.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/picosat"
+            provenance = "repology-url"
             version = "965"
         [["965.0.0+0".artifact_metadata.sources]]
         type = "directory"

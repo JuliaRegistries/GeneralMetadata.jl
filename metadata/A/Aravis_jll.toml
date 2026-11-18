@@ -17,6 +17,7 @@ registered = 2023-03-09T02:17:39.000Z
 
             ["0.8.26+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/aravis"
+            provenance = "git-tag"
             version = "0.8.26"
 
 ["0.8.33+0"]
@@ -38,6 +39,7 @@ registered = 2024-11-24T16:17:25.000Z
 
             ["0.8.33+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/aravis"
+            provenance = "git-tag"
             version = "0.8.33"
 
 ["0.8.35+0"]
@@ -59,4 +61,5 @@ registered = 2025-09-14T17:42:03.000Z
 
             ["0.8.35+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/aravis"
+            provenance = "git-tag"
             version = "0.8.35"

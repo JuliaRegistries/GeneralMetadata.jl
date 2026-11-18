@@ -17,6 +17,7 @@ registered = 2022-10-01T13:25:21.000Z
 
             ["2022.9.23+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2022.09.23"
         [["2022.9.23+0".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -41,6 +42,7 @@ registered = 2022-10-04T11:08:05.000Z
 
             ["2022.9.23+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2022.09.23"
         [["2022.9.23+1".artifact_metadata.sources]]
         hash = "82725e3ec4e9fe333aeb53f75e13b74cef22c7cb662ee2af51108f0d764e1985"
@@ -69,6 +71,7 @@ registered = 2024-04-12T11:17:26.000Z
 
             ["2023.12.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2023.12.14"
         [["2023.12.14+0".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -93,6 +96,7 @@ registered = 2024-07-31T11:36:24.000Z
 
             ["2023.12.14+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2023.12.14"
         [["2023.12.14+1".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -117,6 +121,7 @@ registered = 2024-07-31T11:51:51.000Z
 
             ["2024.5.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2024.05.08"
         [["2024.5.8+0".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -141,6 +146,7 @@ registered = 2024-08-09T15:09:00.000Z
 
             ["2024.5.8+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2024.05.08"
         [["2024.5.8+1".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -165,6 +171,7 @@ registered = 2024-11-07T09:27:35.000Z
 
             ["2024.10.24+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2024.10.24"
         [["2024.10.24+0".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -189,6 +196,7 @@ registered = 2025-04-18T07:45:00.000Z
 
             ["2024.10.24+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencl-icd-loader"
+            provenance = "git-tag"
             version = "2024.10.24"
         [["2024.10.24+1".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"

@@ -17,6 +17,7 @@ registered = 2020-05-29T19:56:55.000Z
 
             ["4.7.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "tag-scheme"
             version = "4.7.4"
 
 ["4.7.4+1"]
@@ -38,6 +39,7 @@ registered = 2020-11-22T20:20:37.000Z
 
             ["4.7.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "tag-scheme"
             version = "4.7.4"
 
 ["400.701.400+0"]
@@ -59,6 +61,7 @@ registered = 2021-01-26T22:19:36.000Z
 
             ["400.701.400+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "tag-scheme"
             version = "4.7.4"
 
 ["400.702.400+0"]
@@ -80,6 +83,7 @@ registered = 2021-01-26T23:03:17.000Z
 
             ["400.702.400+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "tag-scheme"
             version = "4.7.4"
 
 ["400.702.402+0"]
@@ -101,6 +105,7 @@ registered = 2022-02-22T14:16:49.000Z
 
             ["400.702.402+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "tag-scheme"
             version = "4.7.4"
 
 ["400.802.100+0"]
@@ -123,6 +128,7 @@ yanked = 2021-10-13T06:37:37.000Z
 
             ["400.802.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.8.1"
 
 ["400.802.101+0"]
@@ -145,6 +151,7 @@ yanked = 2022-01-31T21:03:50.000Z
 
             ["400.802.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.8.1"
 
 ["400.802.102+0"]
@@ -166,6 +173,7 @@ registered = 2022-04-25T23:48:32.000Z
 
             ["400.802.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.8.1"
         [["400.802.102+0".artifact_metadata.sources]]
         type = "directory"
@@ -190,6 +198,7 @@ registered = 2022-05-25T07:09:59.000Z
 
             ["400.802.103+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.8.1"
         [["400.802.103+0".artifact_metadata.sources]]
         type = "directory"
@@ -214,6 +223,7 @@ registered = 2022-08-18T18:43:49.000Z
 
             ["400.902.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "tag-scheme"
             version = "4.9.0"
         [["400.902.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -238,6 +248,7 @@ registered = 2022-08-24T14:54:00.000Z
 
             ["400.902.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "tag-scheme"
             version = "4.9.0"
         [["400.902.5+1".artifact_metadata.sources]]
         type = "directory"
@@ -262,6 +273,7 @@ registered = 2023-05-09T21:56:00.000Z
 
             ["400.902.206+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "git-tag"
             version = "4.9.2"
 
 ["400.902.207+0"]
@@ -283,6 +295,7 @@ registered = 2023-05-25T17:03:34.000Z
 
             ["400.902.207+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.9.2"
 
 ["400.902.208+0"]
@@ -304,6 +317,7 @@ registered = 2023-05-31T19:44:40.000Z
 
             ["400.902.208+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.9.2"
         [["400.902.208+0".artifact_metadata.sources]]
         type = "directory"
@@ -328,6 +342,7 @@ registered = 2024-01-29T17:29:34.000Z
 
             ["400.902.209+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.9.2"
         [["400.902.209+0".artifact_metadata.sources]]
         type = "directory"
@@ -352,6 +367,7 @@ registered = 2024-04-03T21:00:33.000Z
 
             ["400.902.210+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.9.2"
         [["400.902.210+0".artifact_metadata.sources]]
         type = "directory"
@@ -376,6 +392,7 @@ registered = 2024-04-06T16:20:23.000Z
 
             ["400.902.211+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.9.2"
         [["400.902.211+0".artifact_metadata.sources]]
         type = "directory"
@@ -400,6 +417,7 @@ registered = 2024-05-25T19:02:12.000Z
 
             ["400.902.211+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.9.2"
         [["400.902.211+1".artifact_metadata.sources]]
         type = "directory"
@@ -424,6 +442,7 @@ registered = 2025-03-09T17:04:47.000Z
 
             ["401.900.300+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.9.3"
 
 ["401.1000.0+0"]
@@ -445,6 +464,7 @@ registered = 2026-03-18T08:37:19.000Z
 
             ["401.1000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "heuristic"
             version = "4.10.0"
 
 ["401.1000.100+0"]
@@ -466,6 +486,7 @@ registered = 2026-07-25T07:20:30.000Z
 
             ["401.1000.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.10.1"
 
 ["401.1000.101+0"]
@@ -487,6 +508,7 @@ registered = 2026-08-17T01:44:06.000Z
 
             ["401.1000.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf"
+            provenance = "repology-url"
             version = "4.10.1"
 
 ["401.1000.102+0"]

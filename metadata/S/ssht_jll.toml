@@ -17,6 +17,7 @@ registered = 2022-01-20T02:18:49.000Z
 
             ["1.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:pyssht"
+            provenance = "tag-scheme"
             version = "1.5.1"
 
 ["1.5.2+0"]
@@ -38,6 +39,7 @@ registered = 2023-05-09T22:43:39.000Z
 
             ["1.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:pyssht"
+            provenance = "git-tag"
             version = "1.5.2"
 
 ["1.5.3+0"]
@@ -59,6 +61,7 @@ registered = 2025-08-15T16:41:36.000Z
 
             ["1.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:pyssht"
+            provenance = "git-tag"
             version = "1.5.3"
         [["1.5.3+0".artifact_metadata.sources]]
         type = "directory"

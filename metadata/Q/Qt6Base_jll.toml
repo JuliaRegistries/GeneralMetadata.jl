@@ -16,7 +16,8 @@ registered = 2021-04-15T23:10:32.000Z
         url = "https://download.qt.io/official_releases/qt/6.0/6.0.3/submodules/qtbase-everywhere-src-6.0.3.tar.xz"
 
             ["6.0.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.0.3"
         [["6.0.3+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -56,7 +57,8 @@ registered = 2021-05-02T23:31:45.000Z
         url = "https://download.qt.io/official_releases/qt/6.0/6.0.3/submodules/qtbase-everywhere-src-6.0.3.tar.xz"
 
             ["6.0.3+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.0.3"
         [["6.0.3+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -99,7 +101,8 @@ registered = 2022-04-24T21:19:04.000Z
         url = "https://download.qt.io/official_releases/qt/6.3/6.3.0/submodules/qtbase-everywhere-src-6.3.0.tar.xz"
 
             ["6.3.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.3.0"
         [["6.3.0+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -142,7 +145,8 @@ registered = 2022-05-03T18:50:03.000Z
         url = "https://download.qt.io/official_releases/qt/6.3/6.3.0/submodules/qtbase-everywhere-src-6.3.0.tar.xz"
 
             ["6.3.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.3.0"
         [["6.3.0+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -155,6 +159,7 @@ registered = 2022-05-03T18:50:03.000Z
 
             ["6.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.3.0+1".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -193,7 +198,8 @@ registered = 2022-12-29T17:13:48.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.1/submodules/qtbase-everywhere-src-6.4.1.tar.xz"
 
             ["6.4.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.4.1"
         [["6.4.1+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -206,6 +212,7 @@ registered = 2022-12-29T17:13:48.000Z
 
             ["6.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.4.1+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -244,7 +251,8 @@ registered = 2023-01-02T14:26:17.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.1/submodules/qtbase-everywhere-src-6.4.1.tar.xz"
 
             ["6.4.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.4.1"
         [["6.4.1+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -257,6 +265,7 @@ registered = 2023-01-02T14:26:17.000Z
 
             ["6.4.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.4.1+1".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -298,7 +307,8 @@ registered = 2023-01-21T00:11:20.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtbase-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.4.2"
         [["6.4.2+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -311,6 +321,7 @@ registered = 2023-01-21T00:11:20.000Z
 
             ["6.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.4.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -352,7 +363,8 @@ registered = 2023-01-23T12:23:35.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtbase-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.4.2"
         [["6.4.2+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -365,6 +377,7 @@ registered = 2023-01-23T12:23:35.000Z
 
             ["6.4.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.4.2+1".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -406,7 +419,8 @@ registered = 2023-01-26T23:28:15.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtbase-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.4.2"
         [["6.4.2+2".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -419,6 +433,7 @@ registered = 2023-01-26T23:28:15.000Z
 
             ["6.4.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.4.2+2".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -460,7 +475,8 @@ registered = 2023-01-27T13:47:43.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtbase-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.4.2"
         [["6.4.2+3".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -473,6 +489,7 @@ registered = 2023-01-27T13:47:43.000Z
 
             ["6.4.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.4.2+3".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -514,7 +531,8 @@ registered = 2023-09-17T13:03:19.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.2/submodules/qtbase-everywhere-src-6.5.2.tar.xz"
 
             ["6.5.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.5.2"
         [["6.5.2+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -527,6 +545,7 @@ registered = 2023-09-17T13:03:19.000Z
 
             ["6.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.2+0".artifact_metadata.sources]]
         package = "Xorg_libX11_jll"
@@ -571,7 +590,8 @@ registered = 2023-09-17T18:59:46.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.2/submodules/qtbase-everywhere-src-6.5.2.tar.xz"
 
             ["6.5.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.5.2"
         [["6.5.2+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -584,6 +604,7 @@ registered = 2023-09-17T18:59:46.000Z
 
             ["6.5.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -631,7 +652,8 @@ registered = 2023-09-20T21:54:54.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.2/submodules/qtbase-everywhere-src-6.5.2.tar.xz"
 
             ["6.5.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.5.2"
         [["6.5.2+2".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -644,6 +666,7 @@ registered = 2023-09-20T21:54:54.000Z
 
             ["6.5.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -691,7 +714,8 @@ registered = 2023-11-05T18:08:10.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.3/submodules/qtbase-everywhere-src-6.5.3.tar.xz"
 
             ["6.5.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.5.3"
         [["6.5.3+0".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -704,6 +728,7 @@ registered = 2023-11-05T18:08:10.000Z
 
             ["6.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -751,7 +776,8 @@ registered = 2023-11-06T01:05:02.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.3/submodules/qtbase-everywhere-src-6.5.3.tar.xz"
 
             ["6.5.3+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.5.3"
         [["6.5.3+1".artifact_metadata.sources]]
         hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
@@ -764,6 +790,7 @@ registered = 2023-11-06T01:05:02.000Z
 
             ["6.5.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.5.3+1".artifact_metadata.sources]]
         type = "directory"
@@ -811,7 +838,8 @@ registered = 2024-05-10T23:42:45.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.0/submodules/qtbase-everywhere-src-6.7.0.tar.xz"
 
             ["6.7.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.7.0"
         [["6.7.0+0".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -824,6 +852,7 @@ registered = 2024-05-10T23:42:45.000Z
 
             ["6.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -871,7 +900,8 @@ registered = 2024-05-23T06:41:47.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.0/submodules/qtbase-everywhere-src-6.7.0.tar.xz"
 
             ["6.7.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.7.0"
         [["6.7.0+1".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -884,6 +914,7 @@ registered = 2024-05-23T06:41:47.000Z
 
             ["6.7.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -931,7 +962,8 @@ registered = 2024-05-25T09:21:09.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qtbase-everywhere-src-6.7.1.tar.xz"
 
             ["6.7.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.7.1"
         [["6.7.1+0".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -944,6 +976,7 @@ registered = 2024-05-25T09:21:09.000Z
 
             ["6.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -991,7 +1024,8 @@ registered = 2024-05-25T18:09:33.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qtbase-everywhere-src-6.7.1.tar.xz"
 
             ["6.7.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.7.1"
         [["6.7.1+1".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -1004,6 +1038,7 @@ registered = 2024-05-25T18:09:33.000Z
 
             ["6.7.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.7.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -1051,7 +1086,8 @@ registered = 2025-01-03T15:41:39.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.1/submodules/qtbase-everywhere-src-6.8.1.tar.xz"
 
             ["6.8.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.8.1"
         [["6.8.1+0".artifact_metadata.sources]]
         hash = "e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c"
@@ -1064,6 +1100,7 @@ registered = 2025-01-03T15:41:39.000Z
 
             ["6.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.8.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -1111,7 +1148,8 @@ registered = 2025-02-01T22:44:44.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtbase-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.8.2"
         [["6.8.2+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
@@ -1124,6 +1162,7 @@ registered = 2025-02-01T22:44:44.000Z
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["6.8.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -1171,7 +1210,8 @@ registered = 2025-02-06T06:46:47.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtbase-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.8.2"
         [["6.8.2+1".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
@@ -1184,6 +1224,7 @@ registered = 2025-02-06T06:46:47.000Z
 
             ["6.8.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "11.0.1"
         [["6.8.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -1231,7 +1272,8 @@ registered = 2025-10-09T22:04:59.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtbase-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
             version = "6.8.2"
         [["6.8.2+2".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
@@ -1244,6 +1286,7 @@ registered = 2025-10-09T22:04:59.000Z
 
             ["6.8.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "11.0.1"
         [["6.8.2+2".artifact_metadata.sources]]
         type = "directory"
@@ -1290,6 +1333,11 @@ yanked = 2026-05-10T23:27:39.000Z
         hash = "aeb78d29291a2b5fd53cb55950f8f5065b4978c25fb1d77f627d695ab9adf21e"
         type = "archive"
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtbase-everywhere-src-6.10.2.tar.xz"
+
+            ["6.10.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
+            version = "6.10.2"
         [["6.10.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/f58aeced2c28bcd7242aa1be7e2f1061435e12ea/Q/Qt6Base/bundled"
@@ -1335,6 +1383,11 @@ yanked = 2026-05-10T23:27:39.000Z
         hash = "aeb78d29291a2b5fd53cb55950f8f5065b4978c25fb1d77f627d695ab9adf21e"
         type = "archive"
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtbase-everywhere-src-6.10.2.tar.xz"
+
+            ["6.10.2+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
+            version = "6.10.2"
         [["6.10.2+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4b1fa01f603383b526975e4674d0c3571a07a2ba/Q/Qt6Base/bundled"
@@ -1383,6 +1436,11 @@ registered = 2026-05-10T23:27:39.000Z
         hash = "aeb78d29291a2b5fd53cb55950f8f5065b4978c25fb1d77f627d695ab9adf21e"
         type = "archive"
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtbase-everywhere-src-6.10.2.tar.xz"
+
+            ["6.10.2+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/qtbase"
+            provenance = "url-pattern"
+            version = "6.10.2"
         [["6.10.2+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/85fe487aefa25b43929991fe695cdf2f046a3f6d/Q/Qt6Base/bundled"

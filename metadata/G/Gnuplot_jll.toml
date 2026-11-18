@@ -17,6 +17,7 @@ registered = 2022-12-12T09:17:34.000Z
 
             ["5.4.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gnuplot"
+            provenance = "heuristic"
             version = "5.4.5"
         [["5.4.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -47,6 +48,7 @@ registered = 2025-06-30T19:16:01.000Z
 
             ["5.4.5000+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gnuplot"
+            provenance = "heuristic"
             version = "5.4.5"
         [["5.4.5000+0".artifact_metadata.sources]]
         type = "directory"
@@ -77,6 +79,7 @@ registered = 2025-07-01T08:12:46.000Z
 
             ["6.0.3000+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gnuplot"
+            provenance = "heuristic"
             version = "6.0.3"
         [["6.0.3000+0".artifact_metadata.sources]]
         type = "directory"
@@ -110,6 +113,7 @@ registered = 2025-07-04T11:30:31.000Z
 
             ["6.0.3001+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gnuplot"
+            provenance = "heuristic"
             version = "6.0.3"
         [["6.0.3001+0".artifact_metadata.sources]]
         type = "directory"
@@ -143,6 +147,7 @@ registered = 2025-07-06T14:09:56.000Z
 
             ["60.0.3002+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gnuplot"
+            provenance = "heuristic"
             version = "6.0.3"
         [["60.0.3002+0".artifact_metadata.sources]]
         type = "directory"
@@ -176,6 +181,7 @@ registered = 2025-07-11T00:09:55.000Z
 
             ["60.0.3003+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gnuplot"
+            provenance = "heuristic"
             version = "6.0.3"
         [["60.0.3003+0".artifact_metadata.sources]]
         type = "directory"
@@ -209,6 +215,7 @@ registered = 2026-01-20T08:37:01.000Z
 
             ["60.0.4000+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gnuplot"
+            provenance = "repology-url"
             version = "6.0.4"
         [["60.0.4000+0".artifact_metadata.sources]]
         type = "directory"

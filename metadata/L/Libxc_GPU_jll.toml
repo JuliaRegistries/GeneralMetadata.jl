@@ -17,6 +17,7 @@ registered = 2023-01-24T00:54:26.000Z
 
             ["6.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "6.0.0"
         [["6.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -44,6 +45,7 @@ registered = 2023-01-26T18:54:37.000Z
 
             ["6.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "6.1.0"
         [["6.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -71,6 +73,7 @@ registered = 2023-01-27T22:09:42.000Z
 
             ["6.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "6.1.0"
         [["6.1.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -98,6 +101,7 @@ registered = 2023-01-28T11:00:23.000Z
 
             ["6.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "6.1.0"
         [["6.1.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -125,6 +129,7 @@ registered = 2025-03-31T11:27:19.000Z
 
             ["7.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "7.0.0"
         [["7.0.0+0".artifact_metadata.sources]]
         hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"
@@ -188,6 +193,7 @@ registered = 2025-06-24T17:04:28.000Z
 
             ["7.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "7.0.0"
         [["7.0.0+1".artifact_metadata.sources]]
         hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"
@@ -252,6 +258,7 @@ registered = 2025-06-25T21:48:06.000Z
 
             ["7.0.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "7.0.0"
         [["7.0.0+2".artifact_metadata.sources]]
         hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"
@@ -316,6 +323,7 @@ registered = 2026-02-04T11:38:51.000Z
 
             ["7.0.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "7.0.0"
         [["7.0.0+3".artifact_metadata.sources]]
         hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"
@@ -396,6 +404,7 @@ registered = 2026-06-24T17:22:05.000Z
 
             ["7.0.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxc"
+            provenance = "heuristic"
             version = "7.0.0"
         [["7.0.0+4".artifact_metadata.sources]]
         hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"

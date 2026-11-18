@@ -17,6 +17,7 @@ registered = 2023-10-05T23:16:15.000Z
 
             ["6.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pastix"
+            provenance = "git-tag"
             version = "6.3.0"
         [["6.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -44,6 +45,7 @@ registered = 2024-02-22T18:49:23.000Z
 
             ["6.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pastix"
+            provenance = "git-tag"
             version = "6.3.2"
         [["6.3.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -71,6 +73,7 @@ registered = 2025-01-27T03:58:07.000Z
 
             ["6.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pastix"
+            provenance = "git-tag"
             version = "6.4.0"
         [["6.4.0+0".artifact_metadata.sources]]
         type = "directory"

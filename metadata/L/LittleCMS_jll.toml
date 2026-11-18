@@ -17,6 +17,7 @@ registered = 2020-04-19T00:21:22.000Z
 
             ["2.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lcms"
+            provenance = "heuristic"
             version = "2.9"
 
 ["2.12.0+0"]
@@ -38,6 +39,7 @@ registered = 2021-07-10T19:25:51.000Z
 
             ["2.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lcms"
+            provenance = "tag-scheme"
             version = "2.12"
 
 ["2.15.0+0"]
@@ -59,6 +61,7 @@ registered = 2023-09-20T09:27:24.000Z
 
             ["2.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lcms"
+            provenance = "git-tag"
             version = "2.15"
 
 ["2.16.0+0"]
@@ -80,6 +83,7 @@ registered = 2024-05-10T21:18:54.000Z
 
             ["2.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lcms"
+            provenance = "git-tag"
             version = "2.16"
 
 ["2.17.0+0"]
@@ -101,6 +105,7 @@ registered = 2025-08-14T16:08:52.000Z
 
             ["2.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lcms"
+            provenance = "git-tag"
             version = "2.17"
 
 ["2.19.0+0"]
@@ -122,6 +127,7 @@ registered = 2026-05-07T14:17:35.000Z
 
             ["2.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lcms"
+            provenance = "git-tag"
             version = "2.19"
 
 ["2.19.1+0"]
@@ -143,4 +149,5 @@ registered = 2026-06-10T22:23:10.000Z
 
             ["2.19.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lcms"
+            provenance = "git-tag"
             version = "2.19.1"

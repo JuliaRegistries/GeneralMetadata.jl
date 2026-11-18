@@ -17,6 +17,7 @@ registered = 2020-07-21T23:57:16.000Z
 
             ["0.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:scipy"
+            provenance = "tag-scheme"
             version = "1.5.1"
 
 ["0.1.0+0"]
@@ -38,6 +39,7 @@ registered = 2021-11-07T21:46:51.000Z
 
             ["0.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:scipy"
+            provenance = "tag-scheme"
             version = "1.7.2"
 
 ["0.1.1+0"]
@@ -59,6 +61,7 @@ registered = 2025-01-11T14:09:38.000Z
 
             ["0.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:scipy"
+            provenance = "tag-scheme"
             version = "1.15.1"
 
 ["0.1.2+0"]
@@ -80,6 +83,7 @@ registered = 2025-01-14T18:38:45.000Z
 
             ["0.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:scipy"
+            provenance = "tag-scheme"
             version = "1.7.2"
 
 ["0.2.0+0"]
@@ -101,4 +105,5 @@ registered = 2025-01-14T19:56:52.000Z
 
             ["0.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:scipy"
+            provenance = "tag-scheme"
             version = "1.15.1"

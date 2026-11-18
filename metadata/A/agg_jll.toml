@@ -17,4 +17,5 @@ registered = 2023-12-10T16:13:08.000Z
 
             ["1.4.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/agg-asciinema"
+            provenance = "git-tag"
             version = "1.4.3"

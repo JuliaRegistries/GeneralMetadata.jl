@@ -25,6 +25,7 @@ registered = 2023-05-20T18:09:30.000Z
 
             ["1.6.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/keyutils"
+            provenance = "repology-url"
             version = "1.6.1"
 
 ["1.6.3+0"]
@@ -46,4 +47,5 @@ registered = 2024-05-10T21:41:32.000Z
 
             ["1.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/keyutils"
+            provenance = "repology-url"
             version = "1.6.3"

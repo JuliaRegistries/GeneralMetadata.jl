@@ -17,6 +17,7 @@ registered = 2021-02-17T03:14:39.000Z
 
             ["4.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "tag-scheme"
             version = "4.8"
 
 ["4.8.0+1"]
@@ -38,6 +39,7 @@ registered = 2021-02-20T00:49:32.000Z
 
             ["4.8.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "tag-scheme"
             version = "4.8"
         [["4.8.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -62,6 +64,7 @@ registered = 2022-01-11T16:52:16.000Z
 
             ["4.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "tag-scheme"
             version = "4.9.1"
         [["4.9.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -86,6 +89,7 @@ registered = 2023-02-12T11:32:39.000Z
 
             ["4.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "tag-scheme"
             version = "4.10.1"
         [["4.10.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -110,6 +114,7 @@ registered = 2023-05-09T22:43:26.000Z
 
             ["4.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "tag-scheme"
             version = "4.10.2"
 
 ["4.10.4+0"]
@@ -131,6 +136,7 @@ registered = 2023-10-16T21:32:41.000Z
 
             ["4.10.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "tag-scheme"
             version = "4.10.4"
         [["4.10.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -155,6 +161,7 @@ registered = 2024-03-17T21:41:34.000Z
 
             ["4.11.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "git-tag"
             version = "4.11.10"
 
 ["4.12.2+0"]
@@ -176,6 +183,7 @@ registered = 2024-04-29T09:36:06.000Z
 
             ["4.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "git-tag"
             version = "4.12.2"
 
 ["4.13.1+0"]
@@ -197,6 +205,7 @@ registered = 2024-09-24T21:13:41.000Z
 
             ["4.13.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "git-tag"
             version = "4.13.1"
 
 ["4.13.2+0"]
@@ -218,6 +227,7 @@ registered = 2025-04-07T19:26:51.000Z
 
             ["4.13.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "git-tag"
             version = "4.13.1"
 
 ["4.14.1+0"]
@@ -239,4 +249,5 @@ registered = 2026-04-20T01:16:52.000Z
 
             ["4.14.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shtools"
+            provenance = "git-tag"
             version = "4.14.1"

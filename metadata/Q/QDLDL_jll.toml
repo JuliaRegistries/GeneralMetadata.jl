@@ -14,3 +14,8 @@ registered = 2022-01-26T21:13:18.000Z
         hash = "2868b0e61b7424174e9adef3cb87478329f8ab2075211ef28fe477f29e0e5c99"
         type = "archive"
         url = "https://github.com/osqp/qdldl/archive/refs/tags/v0.1.5.tar.gz"
+
+            ["0.1.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/qdldl"
+            provenance = "tag-scheme"
+            version = "0.1.5"

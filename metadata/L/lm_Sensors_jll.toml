@@ -16,7 +16,8 @@ registered = 2019-09-18T00:04:04.000Z
 
             ["3.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lm-sensors"
-            version = "5-0"
+            provenance = "tag-scheme"
+            version = "3.5.0"
 
 ["3.5.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/lm_Sensors_jll.jl/releases/download/lm_Sensors-v3.5.0+1/lm_Sensors.v3.5.0.x86_64-linux-musl.tar.gz"]
@@ -37,4 +38,5 @@ registered = 2023-05-20T18:09:44.000Z
 
             ["3.5.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/lm-sensors"
-            version = "5-0"
+            provenance = "git-tag"
+            version = "3.5.0"

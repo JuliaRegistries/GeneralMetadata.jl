@@ -17,6 +17,7 @@ registered = 2026-07-08T16:51:45.000Z
 
             ["0.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cusolvermp"
+            provenance = "heuristic"
             version = "0.8.0.3126"
         [["0.8.0+0".artifact_metadata.sources]]
         hash = "9cc471e19cd1593bc5dd95dca3cd0b444c1bb206293550f15e3b3a202d3441f5"

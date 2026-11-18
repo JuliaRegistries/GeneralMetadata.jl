@@ -17,6 +17,7 @@ registered = 2021-07-16T15:59:30.000Z
 
             ["4.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocrand"
+            provenance = "heuristic"
             version = "4.0.0"
         [["4.0.0+0".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -41,6 +42,7 @@ registered = 2022-01-15T16:34:50.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocrand"
+            provenance = "heuristic"
             version = "4.2.0"
         [["4.2.0+0".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -68,6 +70,7 @@ registered = 2022-09-10T17:09:03.000Z
 
             ["4.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocrand"
+            provenance = "heuristic"
             version = "4.5.2"
         [["4.5.2+0".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -95,6 +98,7 @@ registered = 2022-09-22T10:42:22.000Z
 
             ["5.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocrand"
+            provenance = "heuristic"
             version = "5.2.3"
         [["5.2.3+0".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"
@@ -122,6 +126,7 @@ registered = 2022-11-07T15:34:19.000Z
 
             ["5.2.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/rocrand"
+            provenance = "heuristic"
             version = "5.2.3"
         [["5.2.3+1".artifact_metadata.sources]]
         package = "ROCmLLVM_jll"

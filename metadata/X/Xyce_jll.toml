@@ -17,6 +17,7 @@ registered = 2021-03-31T20:52:42.000Z
 
             ["7.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "git-tag"
             version = "7.2.0"
         [["7.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2021-04-29T21:44:52.000Z
 
             ["7.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "git-tag"
             version = "7.2.0"
         [["7.2.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -65,6 +67,7 @@ registered = 2021-05-18T20:07:53.000Z
 
             ["7.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "repository"
         [["7.3.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2d09027bc8519de718a1b8fc6b595bcda388943c/X/Xyce/bundled"
@@ -88,6 +91,7 @@ registered = 2021-09-01T08:59:01.000Z
 
             ["7.3.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "repository"
         [["7.3.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3bb7ca9e8618aa308b033a08d0e69f4f9288c387/X/Xyce/bundled"
@@ -111,6 +115,7 @@ registered = 2021-11-16T19:11:42.000Z
 
             ["7.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "git-tag"
             version = "7.4.0"
         [["7.4.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -135,6 +140,7 @@ registered = 2021-11-17T16:36:52.000Z
 
             ["7.4.99+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "repository"
         [["7.4.99+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9b5911df60b30c9bc1704cdea892e069abae7d40/X/Xyce/bundled"
@@ -158,6 +164,7 @@ registered = 2022-12-02T04:12:20.000Z
 
             ["7.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "git-tag"
             version = "7.6.0"
 
 ["7.6.0+1"]
@@ -179,4 +186,5 @@ registered = 2023-02-03T11:49:04.000Z
 
             ["7.6.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xyce"
+            provenance = "git-tag"
             version = "7.6.0"

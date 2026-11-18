@@ -21,6 +21,7 @@ registered = 2020-05-02T00:15:01.000Z
 
             ["4.8.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "git-tag"
             version = "4.8.7"
         [["4.8.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -45,6 +46,7 @@ registered = 2020-05-11T18:33:12.000Z
 
             ["4.8.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "git-tag"
             version = "4.8.8"
         [["4.8.8+0".artifact_metadata.sources]]
         hash = "965c8fab2214f8ce1b3d449d088561a6de61be42543b48c3bbadaed5b02bf824"
@@ -82,6 +84,7 @@ registered = 2022-03-22T00:20:36.000Z
 
             ["4.8.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "git-tag"
             version = "4.8.14"
         [["4.8.14+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -110,6 +113,7 @@ registered = 2022-11-06T20:37:17.000Z
 
             ["4.11.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.11.2"
         [["4.11.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -138,6 +142,7 @@ registered = 2022-11-18T15:41:21.000Z
 
             ["4.11.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.11.2"
         [["4.11.2+1".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -166,6 +171,7 @@ registered = 2023-02-20T23:11:40.000Z
 
             ["4.12.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.12.1"
         [["4.12.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -194,6 +200,7 @@ registered = 2023-12-13T15:36:47.000Z
 
             ["4.12.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.12.4"
         [["4.12.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -222,6 +229,7 @@ registered = 2024-02-26T00:22:27.000Z
 
             ["4.12.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.12.6"
         [["4.12.6+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -250,6 +258,7 @@ registered = 2024-04-01T22:46:07.000Z
 
             ["4.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.13.0"
         [["4.13.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -278,6 +287,7 @@ registered = 2024-04-06T17:04:12.000Z
 
             ["4.13.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.13.0"
         [["4.13.0+1".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -306,6 +316,7 @@ registered = 2024-06-13T21:50:56.000Z
 
             ["4.13.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.13.0"
         [["4.13.0+2".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -334,6 +345,7 @@ registered = 2024-10-01T18:03:17.000Z
 
             ["4.13.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.13.2"
         [["4.13.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -362,6 +374,7 @@ registered = 2024-10-29T23:40:54.000Z
 
             ["4.13.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.13.3"
         [["4.13.3+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -390,6 +403,7 @@ registered = 2024-12-20T01:12:11.000Z
 
             ["4.13.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.13.4"
         [["4.13.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -418,6 +432,7 @@ registered = 2025-02-23T09:25:51.000Z
 
             ["4.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.14.0"
         [["4.14.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -446,6 +461,7 @@ registered = 2025-03-18T13:04:44.000Z
 
             ["4.14.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.14.1"
         [["4.14.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -474,6 +490,7 @@ registered = 2025-05-14T23:50:20.000Z
 
             ["4.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.15.0"
         [["4.15.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -502,6 +519,7 @@ registered = 2025-06-17T19:55:10.000Z
 
             ["4.15.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.15.1"
         [["4.15.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -530,6 +548,7 @@ registered = 2025-06-27T16:47:08.000Z
 
             ["4.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.15.2"
         [["4.15.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -558,6 +577,7 @@ registered = 2025-11-04T19:13:10.000Z
 
             ["4.15.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "repology-url"
             version = "4.15.4"
         [["4.15.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -586,6 +606,7 @@ registered = 2026-02-09T15:25:23.000Z
 
             ["4.15.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.15.5"
         [["4.15.5+0".artifact_metadata.sources]]
         hash = "d2b7784a8b63cfcc686059aef6f1065dc8d2aaeddc39245738f4c0cd9ca6165a"
@@ -614,6 +635,7 @@ registered = 2026-02-14T19:46:58.000Z
 
             ["4.15.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "4.15.8"
         [["4.15.8+0".artifact_metadata.sources]]
         hash = "d2b7784a8b63cfcc686059aef6f1065dc8d2aaeddc39245738f4c0cd9ca6165a"
@@ -642,6 +664,7 @@ registered = 2026-02-24T15:28:23.000Z
 
             ["4.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "repology-url"
             version = "4.16.0"
         [["4.16.0+0".artifact_metadata.sources]]
         hash = "d2b7784a8b63cfcc686059aef6f1065dc8d2aaeddc39245738f4c0cd9ca6165a"
@@ -670,6 +693,7 @@ registered = 2026-08-03T21:42:50.000Z
 
             ["5.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "5.0.0"
         [["5.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -701,6 +725,7 @@ registered = 2026-08-20T04:25:38.000Z
 
             ["5.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/z3"
+            provenance = "tag-scheme"
             version = "5.1.0"
         [["5.1.0+0".artifact_metadata.sources]]
         type = "directory"

@@ -17,6 +17,7 @@ registered = 2020-04-18T14:21:19.000Z
 
             ["2020.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2020.2"
         [["2020.2.0+0".artifact_metadata.sources]]
         hash = "2ad0492fb00919d99500f1da74abf5ad3c870e4e"
@@ -25,6 +26,7 @@ registered = 2020-04-18T14:21:19.000Z
 
             ["2020.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "repository"
         [["2020.2.0+0".artifact_metadata.sources]]
         hash = "6fa2a03cebb4fb18fbad086d53d1054928bef54e"
         type = "git"
@@ -36,7 +38,8 @@ registered = 2020-04-18T14:21:19.000Z
 
             ["2020.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2020-04-01"
+            provenance = "git-tag"
+            version = "2020.04.01"
 
 ["2020.2.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-apple-darwin14-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-apple-darwin14-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2020.2.0+1/SPIRV_Tools.v2020.2.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -57,6 +60,7 @@ registered = 2020-05-08T15:09:20.000Z
 
             ["2020.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2020.2"
         [["2020.2.0+1".artifact_metadata.sources]]
         hash = "6fa2a03cebb4fb18fbad086d53d1054928bef54e"
@@ -69,7 +73,8 @@ registered = 2020-05-08T15:09:20.000Z
 
             ["2020.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2020-04-01"
+            provenance = "git-tag"
+            version = "2020.04.01"
         [["2020.2.0+1".artifact_metadata.sources]]
         package = "SPIRV_Headers_jll"
         type = "builddependency"
@@ -93,6 +98,7 @@ registered = 2020-12-04T17:59:01.000Z
 
             ["2020.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "repository"
         [["2020.6.0+0".artifact_metadata.sources]]
         hash = "33d438fb1939e94e5507d38dee9d999f60a03d96"
         type = "git"
@@ -104,7 +110,8 @@ registered = 2020-12-04T17:59:01.000Z
 
             ["2020.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2020-11-01"
+            provenance = "git-tag"
+            version = "2020.11.01"
         [["2020.6.0+0".artifact_metadata.sources]]
         package = "SPIRV_Headers_jll"
         type = "builddependency"
@@ -128,6 +135,7 @@ registered = 2021-08-06T08:46:52.000Z
 
             ["2021.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2021.2"
         [["2021.2.0+0".artifact_metadata.sources]]
         hash = "2ec8f8738118cc483b67c04a759fee53496c5659"
@@ -140,6 +148,7 @@ registered = 2021-08-06T08:46:52.000Z
 
             ["2021.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
+            provenance = "repository"
         [["2021.2.0+0".artifact_metadata.sources]]
         hash = "07f259e68af3a540038fa32df522554e74f53ed5"
         type = "git"
@@ -147,6 +156,7 @@ registered = 2021-08-06T08:46:52.000Z
 
             ["2021.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "repository"
 
 ["2022.1.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2022.1.0+0/SPIRV_Tools.v2022.1.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -167,6 +177,7 @@ registered = 2022-03-07T09:40:05.000Z
 
             ["2022.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2022.1"
         [["2022.1.0+0".artifact_metadata.sources]]
         hash = "ddf5e2bb92957dc8a12c5392f8495333d6844133"
@@ -179,6 +190,7 @@ registered = 2022-03-07T09:40:05.000Z
 
             ["2022.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
+            provenance = "repository"
         [["2022.1.0+0".artifact_metadata.sources]]
         hash = "6a55fade62dec6a406a5a721148f88a2211cbefa"
         type = "git"
@@ -186,6 +198,8 @@ registered = 2022-03-07T09:40:05.000Z
 
             ["2022.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
+            version = "1.3.204.0"
 
 ["2023.2.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/SPIRV_Tools_jll.jl/releases/download/SPIRV_Tools-v2023.2.0+0/SPIRV_Tools.v2023.2.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -206,6 +220,7 @@ registered = 2023-05-05T16:18:14.000Z
 
             ["2023.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "1.3.243.0"
         [["2023.2.0+0".artifact_metadata.sources]]
         hash = "66edefd2bb641de8a2f46b476de21f227fc03a28"
@@ -218,6 +233,7 @@ registered = 2023-05-05T16:18:14.000Z
 
             ["2023.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2023.2.0+0".artifact_metadata.sources]]
         hash = "c9cba76063cf4235c1a15dd14a24a4ef8d623761"
         type = "git"
@@ -225,6 +241,7 @@ registered = 2023-05-05T16:18:14.000Z
 
             ["2023.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
+            provenance = "repository"
         [["2023.2.0+0".artifact_metadata.sources]]
         hash = "268a061764ee69f09a477a695bf6a11ffe311b8d"
         type = "git"
@@ -232,6 +249,7 @@ registered = 2023-05-05T16:18:14.000Z
 
             ["2023.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.3.250.0"
 
 ["2024.2.0+0"]
@@ -253,6 +271,7 @@ registered = 2024-06-17T08:56:01.000Z
 
             ["2024.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2024.2"
         [["2024.2.0+0".artifact_metadata.sources]]
         hash = "19b4aa87af25cb4ee779a071409732f34bfc305c"
@@ -265,6 +284,7 @@ registered = 2024-06-17T08:56:01.000Z
 
             ["2024.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2024.2.0+0".artifact_metadata.sources]]
         hash = "917047f3606d3ba9e2de0d383c3cd80c94ed732c"
         type = "git"
@@ -272,6 +292,7 @@ registered = 2024-06-17T08:56:01.000Z
 
             ["2024.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
+            provenance = "repository"
         [["2024.2.0+0".artifact_metadata.sources]]
         hash = "4f7b471f1a66b6d06462cd4ba57628cc0cd087d7"
         type = "git"
@@ -279,6 +300,7 @@ registered = 2024-06-17T08:56:01.000Z
 
             ["2024.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.3.283.0"
 
 ["2024.3.0+0"]
@@ -300,6 +322,7 @@ registered = 2024-11-07T09:50:31.000Z
 
             ["2024.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2024.3"
         [["2024.3.0+0".artifact_metadata.sources]]
         hash = "d74d33d93043952a99ae7cd7458baf6bc8df1da0"
@@ -312,6 +335,7 @@ registered = 2024-11-07T09:50:31.000Z
 
             ["2024.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2024.3.0+0".artifact_metadata.sources]]
         hash = "4a8cee3dd3c3d81b6fe8b867811e193d5819df07"
         type = "git"
@@ -319,6 +343,7 @@ registered = 2024-11-07T09:50:31.000Z
 
             ["2024.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
+            provenance = "repository"
         [["2024.3.0+0".artifact_metadata.sources]]
         hash = "2acb319af38d43be3ea76bfabf3998e5281d8d12"
         type = "git"
@@ -326,6 +351,7 @@ registered = 2024-11-07T09:50:31.000Z
 
             ["2024.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.3.290.0"
 
 ["2024.4.0+0"]
@@ -347,6 +373,7 @@ registered = 2025-02-14T12:45:47.000Z
 
             ["2024.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2024.4"
         [["2024.4.0+0".artifact_metadata.sources]]
         hash = "2c97e5689ed8d7ab6ae5820f884f03a601ae124b"
@@ -359,6 +386,7 @@ registered = 2025-02-14T12:45:47.000Z
 
             ["2024.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2024.4.0+0".artifact_metadata.sources]]
         hash = "6dcd83d60f7944926bfd308cc13979fc53dd69ca"
         type = "git"
@@ -366,7 +394,8 @@ registered = 2025-02-14T12:45:47.000Z
 
             ["2024.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2024-07-02"
+            provenance = "git-tag"
+            version = "2024.07.02"
         [["2024.4.0+0".artifact_metadata.sources]]
         hash = "3f17b2af6784bfa2c5aa5dbb8e0e74a607dd8b3b"
         type = "git"
@@ -374,6 +403,7 @@ registered = 2025-02-14T12:45:47.000Z
 
             ["2024.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.4.304.0"
         [["2024.4.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -399,6 +429,7 @@ registered = 2025-04-18T10:08:54.000Z
 
             ["2025.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2025.1"
         [["2025.1.0+0".artifact_metadata.sources]]
         hash = "12241cbc30f20730b656db7fd5a3fa36cd420843"
@@ -411,6 +442,7 @@ registered = 2025-04-18T10:08:54.000Z
 
             ["2025.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2025.1.0+0".artifact_metadata.sources]]
         hash = "6dcd83d60f7944926bfd308cc13979fc53dd69ca"
         type = "git"
@@ -418,7 +450,8 @@ registered = 2025-04-18T10:08:54.000Z
 
             ["2025.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2024-07-02"
+            provenance = "git-tag"
+            version = "2024.07.02"
         [["2025.1.0+0".artifact_metadata.sources]]
         hash = "09913f088a1197aba4aefd300a876b2ebbaa3391"
         type = "git"
@@ -426,6 +459,7 @@ registered = 2025-04-18T10:08:54.000Z
 
             ["2025.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.4.309.0"
         [["2025.1.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -451,6 +485,7 @@ registered = 2025-04-18T11:17:05.000Z
 
             ["2025.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2025.1"
         [["2025.1.0+1".artifact_metadata.sources]]
         hash = "12241cbc30f20730b656db7fd5a3fa36cd420843"
@@ -463,6 +498,7 @@ registered = 2025-04-18T11:17:05.000Z
 
             ["2025.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2025.1.0+1".artifact_metadata.sources]]
         hash = "6dcd83d60f7944926bfd308cc13979fc53dd69ca"
         type = "git"
@@ -470,7 +506,8 @@ registered = 2025-04-18T11:17:05.000Z
 
             ["2025.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2024-07-02"
+            provenance = "git-tag"
+            version = "2024.07.02"
         [["2025.1.0+1".artifact_metadata.sources]]
         hash = "09913f088a1197aba4aefd300a876b2ebbaa3391"
         type = "git"
@@ -478,6 +515,7 @@ registered = 2025-04-18T11:17:05.000Z
 
             ["2025.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.4.309.0"
         [["2025.1.0+1".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -503,6 +541,7 @@ registered = 2025-07-16T13:13:52.000Z
 
             ["2025.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2025.1"
         [["2025.1.0+2".artifact_metadata.sources]]
         hash = "12241cbc30f20730b656db7fd5a3fa36cd420843"
@@ -515,6 +554,7 @@ registered = 2025-07-16T13:13:52.000Z
 
             ["2025.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2025.1.0+2".artifact_metadata.sources]]
         hash = "6dcd83d60f7944926bfd308cc13979fc53dd69ca"
         type = "git"
@@ -522,7 +562,8 @@ registered = 2025-07-16T13:13:52.000Z
 
             ["2025.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2024-07-02"
+            provenance = "git-tag"
+            version = "2024.07.02"
         [["2025.1.0+2".artifact_metadata.sources]]
         hash = "09913f088a1197aba4aefd300a876b2ebbaa3391"
         type = "git"
@@ -530,6 +571,7 @@ registered = 2025-07-16T13:13:52.000Z
 
             ["2025.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.4.309.0"
         [["2025.1.0+2".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -555,6 +597,7 @@ registered = 2025-09-17T01:19:30.000Z
 
             ["2025.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2025.1"
         [["2025.1.0+3".artifact_metadata.sources]]
         hash = "12241cbc30f20730b656db7fd5a3fa36cd420843"
@@ -567,6 +610,7 @@ registered = 2025-09-17T01:19:30.000Z
 
             ["2025.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2025.1.0+3".artifact_metadata.sources]]
         hash = "6dcd83d60f7944926bfd308cc13979fc53dd69ca"
         type = "git"
@@ -574,7 +618,8 @@ registered = 2025-09-17T01:19:30.000Z
 
             ["2025.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
-            version = "2024-07-02"
+            provenance = "git-tag"
+            version = "2024.07.02"
         [["2025.1.0+3".artifact_metadata.sources]]
         hash = "09913f088a1197aba4aefd300a876b2ebbaa3391"
         type = "git"
@@ -582,6 +627,7 @@ registered = 2025-09-17T01:19:30.000Z
 
             ["2025.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.4.309.0"
         [["2025.1.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -610,6 +656,7 @@ registered = 2025-10-28T15:54:58.000Z
 
             ["2025.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-tools"
+            provenance = "git-tag"
             version = "2025.4"
         [["2025.4.0+0".artifact_metadata.sources]]
         hash = "514b52ec61609744d7e587d93a7ef9b60407ab45"
@@ -622,6 +669,7 @@ registered = 2025-10-28T15:54:58.000Z
 
             ["2025.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtest"
+            provenance = "repository"
         [["2025.4.0+0".artifact_metadata.sources]]
         hash = "6569a9a3df256f4c0c3813cb8ee2f8eef6e2c1fb"
         type = "git"
@@ -629,6 +677,8 @@ registered = 2025-10-28T15:54:58.000Z
 
             ["2025.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/re2"
+            provenance = "git-tag"
+            version = "2025.08.12"
         [["2025.4.0+0".artifact_metadata.sources]]
         hash = "01e0577914a75a2569c846778c2f93aa8e6feddd"
         type = "git"
@@ -636,6 +686,7 @@ registered = 2025-10-28T15:54:58.000Z
 
             ["2025.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/spirv-headers"
+            provenance = "git-tag"
             version = "1.4.328.0"
         [["2025.4.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"

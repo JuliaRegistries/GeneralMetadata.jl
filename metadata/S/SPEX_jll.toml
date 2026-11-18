@@ -34,6 +34,11 @@ registered = 2025-01-25T02:12:52.000Z
         hash = "d3c4926d2c47fd6ae558e898bfc072ade210a2a1"
         type = "git"
         url = "https://github.com/DrTimothyAldenDavis/SuiteSparse.git"
+
+            ["3.2.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/suitesparse"
+            provenance = "git-tag"
+            version = "7.8.3"
         [["3.2.1+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"
@@ -54,6 +59,11 @@ registered = 2025-08-08T21:51:23.000Z
         hash = "b35a1f9318f4bd42085f4b5ea56f29c89d342d4d"
         type = "git"
         url = "https://github.com/DrTimothyAldenDavis/SuiteSparse.git"
+
+            ["3.2.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/suitesparse"
+            provenance = "git-tag"
+            version = "7.11.0"
         [["3.2.4+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"
         type = "builddependency"

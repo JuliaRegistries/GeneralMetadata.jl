@@ -17,6 +17,7 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl"
+            provenance = "heuristic"
             version = "5.30.3"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "444a88755a89ffa2a5424ab4ed1d11dca61808ebef57e81243424619a9e8627c"
@@ -25,6 +26,7 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:json"
+            provenance = "heuristic"
             version = "4.02"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "e080522c6ce050397af482665f3965a93c5d16f5e81d93f6e2fe98084ed15fbe"
@@ -33,6 +35,7 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-writer"
+            provenance = "repology-url"
             version = "0.625"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "5a645878dc570ac33661581fbb090ff24ebce17d43ea53fd22e105a856a47290"
@@ -41,6 +44,7 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readkey"
+            provenance = "repology-url"
             version = "2.38"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "9a08f7a4013c9b865541c10dbba1210779eb9128b961250b746d26702bab6925"
@@ -49,6 +53,7 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readline-gnu"
+            provenance = "heuristic"
             version = "1.36"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "4506c387043aa6a77b455f00f57409f3720aa7e553495ab2535263b4ed1ea12a"
@@ -57,6 +62,7 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-sax"
+            provenance = "repology-url"
             version = "1.02"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
@@ -65,6 +71,7 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
+            provenance = "heuristic"
             version = "1.12"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
@@ -97,6 +104,7 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl"
+            provenance = "heuristic"
             version = "5.30.3"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "444a88755a89ffa2a5424ab4ed1d11dca61808ebef57e81243424619a9e8627c"
@@ -105,6 +113,7 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:json"
+            provenance = "heuristic"
             version = "4.02"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "e080522c6ce050397af482665f3965a93c5d16f5e81d93f6e2fe98084ed15fbe"
@@ -113,6 +122,7 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-writer"
+            provenance = "repology-url"
             version = "0.625"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "5a645878dc570ac33661581fbb090ff24ebce17d43ea53fd22e105a856a47290"
@@ -121,6 +131,7 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readkey"
+            provenance = "repology-url"
             version = "2.38"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "9a08f7a4013c9b865541c10dbba1210779eb9128b961250b746d26702bab6925"
@@ -129,6 +140,7 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readline-gnu"
+            provenance = "heuristic"
             version = "1.36"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "4506c387043aa6a77b455f00f57409f3720aa7e553495ab2535263b4ed1ea12a"
@@ -137,6 +149,7 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-sax"
+            provenance = "repology-url"
             version = "1.02"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
@@ -145,6 +158,7 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
+            provenance = "heuristic"
             version = "1.12"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
@@ -177,6 +191,7 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl"
+            provenance = "heuristic"
             version = "5.30.3"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "444a88755a89ffa2a5424ab4ed1d11dca61808ebef57e81243424619a9e8627c"
@@ -185,6 +200,7 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:json"
+            provenance = "heuristic"
             version = "4.02"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "e080522c6ce050397af482665f3965a93c5d16f5e81d93f6e2fe98084ed15fbe"
@@ -193,6 +209,7 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-writer"
+            provenance = "repology-url"
             version = "0.625"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "5a645878dc570ac33661581fbb090ff24ebce17d43ea53fd22e105a856a47290"
@@ -201,6 +218,7 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readkey"
+            provenance = "repology-url"
             version = "2.38"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "9a08f7a4013c9b865541c10dbba1210779eb9128b961250b746d26702bab6925"
@@ -209,6 +227,7 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readline-gnu"
+            provenance = "heuristic"
             version = "1.36"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "4506c387043aa6a77b455f00f57409f3720aa7e553495ab2535263b4ed1ea12a"
@@ -217,6 +236,7 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-sax"
+            provenance = "repology-url"
             version = "1.02"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
@@ -225,6 +245,7 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
+            provenance = "heuristic"
             version = "1.12"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
@@ -257,6 +278,7 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl"
+            provenance = "heuristic"
             version = "5.34.0"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "e41f8761a5e7b9b27af26fe5780d44550d7a6a66bf3078e337d676d07a699941"
@@ -265,6 +287,7 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:json"
+            provenance = "heuristic"
             version = "4.03"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "73c8f5bd3ecf2b350f4adae6d6676d52e08ecc2d7df4a9f089fa68360d400d1f"
@@ -273,6 +296,7 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-writer"
+            provenance = "repology-url"
             version = "0.900"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "5a645878dc570ac33661581fbb090ff24ebce17d43ea53fd22e105a856a47290"
@@ -281,6 +305,7 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readkey"
+            provenance = "repology-url"
             version = "2.38"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "3c5f1281da2666777af0f34de0289564e6faa823aea54f3945c74c98e95a5e73"
@@ -289,6 +314,7 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readline-gnu"
+            provenance = "heuristic"
             version = "1.42"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "4506c387043aa6a77b455f00f57409f3720aa7e553495ab2535263b4ed1ea12a"
@@ -297,6 +323,7 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-sax"
+            provenance = "repology-url"
             version = "1.02"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
@@ -305,6 +332,7 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
+            provenance = "heuristic"
             version = "1.12"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
@@ -337,6 +365,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl"
+            provenance = "heuristic"
             version = "5.34.0"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "e41f8761a5e7b9b27af26fe5780d44550d7a6a66bf3078e337d676d07a699941"
@@ -345,6 +374,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:json"
+            provenance = "heuristic"
             version = "4.03"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "73c8f5bd3ecf2b350f4adae6d6676d52e08ecc2d7df4a9f089fa68360d400d1f"
@@ -353,6 +383,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-writer"
+            provenance = "repology-url"
             version = "0.900"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "5a645878dc570ac33661581fbb090ff24ebce17d43ea53fd22e105a856a47290"
@@ -361,6 +392,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readkey"
+            provenance = "repology-url"
             version = "2.38"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "3c5f1281da2666777af0f34de0289564e6faa823aea54f3945c74c98e95a5e73"
@@ -369,6 +401,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readline-gnu"
+            provenance = "heuristic"
             version = "1.42"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "4506c387043aa6a77b455f00f57409f3720aa7e553495ab2535263b4ed1ea12a"
@@ -377,6 +410,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-sax"
+            provenance = "repology-url"
             version = "1.02"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
@@ -385,6 +419,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
+            provenance = "heuristic"
             version = "1.12"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
@@ -401,6 +436,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:exporter-lite"
+            provenance = "heuristic"
             version = "0.08"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "3201f1a60e3f16484082e6045c896842261fc345de9fb2e620fd2a2c7af3a93a"
@@ -409,6 +445,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:file-which"
+            provenance = "heuristic"
             version = "1.27"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377"
@@ -417,6 +454,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:getopt-tabular"
+            provenance = "repology-url"
             version = "0.3"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "ee07853aee06f310e040b6bf1a0199a18d81896d3219b9b35c9630d0eb69089b"
@@ -425,6 +463,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:regexp-common"
+            provenance = "repology-url"
             version = "2017060201"
         [["5.34.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -449,6 +488,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl"
+            provenance = "heuristic"
             version = "5.34.0"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "e41f8761a5e7b9b27af26fe5780d44550d7a6a66bf3078e337d676d07a699941"
@@ -457,6 +497,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:json"
+            provenance = "heuristic"
             version = "4.03"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "73c8f5bd3ecf2b350f4adae6d6676d52e08ecc2d7df4a9f089fa68360d400d1f"
@@ -465,6 +506,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-writer"
+            provenance = "repology-url"
             version = "0.900"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "5a645878dc570ac33661581fbb090ff24ebce17d43ea53fd22e105a856a47290"
@@ -473,6 +515,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readkey"
+            provenance = "repology-url"
             version = "2.38"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "3c5f1281da2666777af0f34de0289564e6faa823aea54f3945c74c98e95a5e73"
@@ -481,6 +524,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readline-gnu"
+            provenance = "heuristic"
             version = "1.42"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "4506c387043aa6a77b455f00f57409f3720aa7e553495ab2535263b4ed1ea12a"
@@ -489,6 +533,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-sax"
+            provenance = "repology-url"
             version = "1.02"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
@@ -497,6 +542,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
+            provenance = "heuristic"
             version = "1.12"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
@@ -513,6 +559,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:exporter-lite"
+            provenance = "heuristic"
             version = "0.08"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "3201f1a60e3f16484082e6045c896842261fc345de9fb2e620fd2a2c7af3a93a"
@@ -521,6 +568,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:file-which"
+            provenance = "heuristic"
             version = "1.27"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377"
@@ -529,6 +577,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:getopt-tabular"
+            provenance = "repology-url"
             version = "0.3"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "ee07853aee06f310e040b6bf1a0199a18d81896d3219b9b35c9630d0eb69089b"
@@ -537,6 +586,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:regexp-common"
+            provenance = "repology-url"
             version = "2017060201"
         [["5.34.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -561,6 +611,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl"
+            provenance = "heuristic"
             version = "5.34.1"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "e41f8761a5e7b9b27af26fe5780d44550d7a6a66bf3078e337d676d07a699941"
@@ -569,6 +620,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:json"
+            provenance = "heuristic"
             version = "4.03"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "73c8f5bd3ecf2b350f4adae6d6676d52e08ecc2d7df4a9f089fa68360d400d1f"
@@ -577,6 +629,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-writer"
+            provenance = "repology-url"
             version = "0.900"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "5a645878dc570ac33661581fbb090ff24ebce17d43ea53fd22e105a856a47290"
@@ -585,6 +638,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readkey"
+            provenance = "repology-url"
             version = "2.38"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "3c5f1281da2666777af0f34de0289564e6faa823aea54f3945c74c98e95a5e73"
@@ -593,6 +647,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:term-readline-gnu"
+            provenance = "heuristic"
             version = "1.42"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "4506c387043aa6a77b455f00f57409f3720aa7e553495ab2535263b4ed1ea12a"
@@ -601,6 +656,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-sax"
+            provenance = "repology-url"
             version = "1.02"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
@@ -609,6 +665,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
+            provenance = "heuristic"
             version = "1.12"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
@@ -625,6 +682,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:exporter-lite"
+            provenance = "heuristic"
             version = "0.08"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "3201f1a60e3f16484082e6045c896842261fc345de9fb2e620fd2a2c7af3a93a"
@@ -633,6 +691,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:file-which"
+            provenance = "heuristic"
             version = "1.27"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377"
@@ -641,6 +700,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:getopt-tabular"
+            provenance = "repology-url"
             version = "0.3"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "ee07853aee06f310e040b6bf1a0199a18d81896d3219b9b35c9630d0eb69089b"
@@ -649,6 +709,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:regexp-common"
+            provenance = "repology-url"
             version = "2017060201"
         [["5.34.1+0".artifact_metadata.sources]]
         type = "directory"

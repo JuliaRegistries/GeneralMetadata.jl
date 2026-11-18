@@ -17,6 +17,7 @@ registered = 2021-07-15T19:07:39.000Z
 
             ["2.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pdal"
+            provenance = "tag-scheme"
             version = "2.3.0"
         [["2.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2024-02-14T18:29:08.000Z
 
             ["2.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pdal"
+            provenance = "git-tag"
             version = "2.6.3"
         [["2.6.3+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -69,6 +71,7 @@ registered = 2024-12-25T21:59:51.000Z
 
             ["2.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pdal"
+            provenance = "git-tag"
             version = "2.8.2"
         [["2.8.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -97,6 +100,7 @@ registered = 2025-04-04T23:56:15.000Z
 
             ["2.8.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pdal"
+            provenance = "git-tag"
             version = "2.8.4"
         [["2.8.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -125,6 +129,7 @@ registered = 2025-08-25T22:12:46.000Z
 
             ["2.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pdal"
+            provenance = "git-tag"
             version = "2.9.0"
         [["2.9.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"

@@ -17,6 +17,7 @@ registered = 2023-04-26T09:27:48.000Z
 
             ["3.3.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:kalign-python"
+            provenance = "git-tag"
             version = "3.3.5"
 
 ["3.4.0+0"]
@@ -38,4 +39,5 @@ registered = 2023-12-13T13:50:19.000Z
 
             ["3.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:kalign-python"
+            provenance = "git-tag"
             version = "3.4.0"

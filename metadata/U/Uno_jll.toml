@@ -17,6 +17,7 @@ registered = 2024-10-16T22:44:04.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
 
 ["1.1.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+1/Uno.v1.1.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -37,6 +38,7 @@ registered = 2024-10-17T23:30:56.000Z
 
             ["1.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
 
 ["1.1.0+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+2/Uno.v1.1.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -57,6 +59,7 @@ registered = 2024-10-20T21:58:11.000Z
 
             ["1.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
 
 ["1.1.0+3"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.0+3/Uno.v1.1.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -77,6 +80,7 @@ registered = 2024-10-24T01:11:29.000Z
 
             ["1.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
 
 ["1.1.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+0/Uno.v1.1.1.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -97,6 +101,7 @@ registered = 2024-10-24T05:55:04.000Z
 
             ["1.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
 
 ["1.1.1+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+1/Uno.v1.1.1.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -117,6 +122,7 @@ registered = 2024-10-25T22:02:14.000Z
 
             ["1.1.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
 
 ["1.1.1+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.1.1+2/Uno.v1.1.1.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -137,6 +143,7 @@ registered = 2024-10-27T21:28:26.000Z
 
             ["1.1.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
 
 ["1.2.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Uno_jll.jl/releases/download/Uno-v1.2.0+0/Uno.v1.2.0.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -157,6 +164,7 @@ registered = 2024-11-02T23:11:02.000Z
 
             ["1.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "1.2.0"
 
 ["1.3.0+0"]
@@ -178,6 +186,7 @@ registered = 2024-11-18T01:19:37.000Z
 
             ["1.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "1.3.0"
 
 ["2.0.0+0"]
@@ -199,6 +208,8 @@ registered = 2025-07-06T19:29:01.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
+            version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
         type = "builddependency"
@@ -222,6 +233,7 @@ registered = 2025-08-02T21:45:06.000Z
 
             ["2.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.0.1"
         [["2.0.1+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -246,6 +258,7 @@ registered = 2025-08-21T18:12:17.000Z
 
             ["2.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.0.2"
         [["2.0.2+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -270,6 +283,7 @@ registered = 2025-08-27T17:01:33.000Z
 
             ["2.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.0.3"
         [["2.0.3+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -294,6 +308,7 @@ registered = 2025-09-26T15:44:17.000Z
 
             ["2.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "repository"
         [["2.1.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
         type = "builddependency"
@@ -317,6 +332,7 @@ registered = 2025-09-29T23:51:06.000Z
 
             ["2.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.2.0"
         [["2.2.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -341,6 +357,7 @@ registered = 2025-10-08T17:45:13.000Z
 
             ["2.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.2.1"
         [["2.2.1+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -365,6 +382,7 @@ registered = 2025-10-15T12:17:19.000Z
 
             ["2.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.2.2"
         [["2.2.2+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -389,6 +407,7 @@ registered = 2025-10-24T06:50:29.000Z
 
             ["2.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.3.0"
         [["2.3.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -413,6 +432,7 @@ registered = 2025-11-17T22:06:41.000Z
 
             ["2.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.3.1"
         [["2.3.1+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -437,6 +457,7 @@ registered = 2026-02-27T04:06:24.000Z
 
             ["2.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.4.0"
         [["2.4.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -461,6 +482,7 @@ registered = 2026-03-09T14:06:27.000Z
 
             ["2.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.4.1"
         [["2.4.1+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -485,6 +507,7 @@ registered = 2026-03-12T22:44:24.000Z
 
             ["2.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.4.2"
         [["2.4.2+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -509,6 +532,7 @@ registered = 2026-03-16T14:23:29.000Z
 
             ["2.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.5.0"
         [["2.5.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -533,6 +557,7 @@ registered = 2026-03-17T18:03:44.000Z
 
             ["2.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.5.1"
         [["2.5.1+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -557,6 +582,7 @@ registered = 2026-03-24T18:51:07.000Z
 
             ["2.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.6.0"
         [["2.6.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -581,6 +607,7 @@ registered = 2026-04-01T14:15:00.000Z
 
             ["2.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.7.0"
         [["2.7.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -605,6 +632,7 @@ registered = 2026-04-30T05:40:30.000Z
 
             ["2.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.7.2"
         [["2.7.2+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -629,6 +657,7 @@ registered = 2026-05-22T15:28:32.000Z
 
             ["2.7.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.7.3"
         [["2.7.3+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -653,6 +682,7 @@ registered = 2026-06-03T13:46:19.000Z
 
             ["2.7.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.7.4"
         [["2.7.4+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -677,6 +707,7 @@ registered = 2026-06-24T16:43:37.000Z
 
             ["2.7.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.7.5"
         [["2.7.5+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -701,6 +732,7 @@ registered = 2026-07-01T11:57:16.000Z
 
             ["2.7.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.7.6"
         [["2.7.6+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -725,6 +757,7 @@ registered = 2026-07-11T13:33:08.000Z
 
             ["2.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.8.0"
         [["2.8.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"
@@ -749,6 +782,7 @@ registered = 2026-09-08T18:58:25.000Z
 
             ["2.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:unopy"
+            provenance = "git-tag"
             version = "2.9.0"
         [["2.9.0+0".artifact_metadata.sources]]
         package = "BQPD_jll"

@@ -20,6 +20,7 @@ registered = 2019-11-20T07:19:58.000Z
 
             ["0.9.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "heuristic"
             version = "0.9.1"
         [["0.9.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -44,6 +45,7 @@ registered = 2020-08-14T08:20:52.000Z
 
             ["0.9.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "heuristic"
             version = "0.9.1"
         [["0.9.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -71,6 +73,7 @@ registered = 2020-08-26T18:34:58.000Z
 
             ["0.9.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "heuristic"
             version = "0.9.1"
         [["0.9.1+3".artifact_metadata.sources]]
         type = "directory"
@@ -98,6 +101,7 @@ registered = 2020-10-16T19:24:42.000Z
 
             ["0.9.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "heuristic"
             version = "0.9.1"
         [["0.9.1+4".artifact_metadata.sources]]
         type = "directory"
@@ -125,6 +129,7 @@ registered = 2020-10-26T18:31:43.000Z
 
             ["0.9.1+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "heuristic"
             version = "0.9.1"
         [["0.9.1+5".artifact_metadata.sources]]
         type = "directory"
@@ -152,6 +157,7 @@ registered = 2022-08-08T15:20:30.000Z
 
             ["1.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "repology-url"
             version = "1.4.1"
         [["1.4.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -176,6 +182,7 @@ registered = 2023-09-20T19:33:52.000Z
 
             ["1.4.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "repology-url"
             version = "1.4.1"
         [["1.4.1+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -203,6 +210,7 @@ registered = 2024-12-19T14:58:48.000Z
 
             ["1.4.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "repology-url"
             version = "1.4.1"
         [["1.4.1+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -230,6 +238,7 @@ registered = 2025-04-29T00:37:54.000Z
 
             ["1.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "git-tag"
             version = "1.8.1"
         [["1.8.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -254,6 +263,7 @@ registered = 2025-06-27T16:47:30.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "git-tag"
             version = "1.9.2"
         [["1.9.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -278,6 +288,7 @@ registered = 2025-11-26T20:50:23.000Z
 
             ["1.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxkbcommon"
+            provenance = "git-tag"
             version = "1.13.0"
         [["1.13.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

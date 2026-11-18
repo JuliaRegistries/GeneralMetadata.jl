@@ -17,6 +17,7 @@ registered = 2020-04-22T23:21:41.000Z
 
             ["6.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/unpaper"
+            provenance = "heuristic"
             version = "6.1"
 
 ["6.1.100+0"]
@@ -38,6 +39,7 @@ registered = 2021-05-29T22:24:35.000Z
 
             ["6.1.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/unpaper"
+            provenance = "heuristic"
             version = "6.1"
 
 ["7.0.0+0"]
@@ -59,4 +61,5 @@ registered = 2026-01-19T15:32:59.000Z
 
             ["7.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/unpaper"
+            provenance = "repology-url"
             version = "7.0.0"

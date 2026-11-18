@@ -17,4 +17,5 @@ registered = 2025-09-01T16:55:32.000Z
 
             ["4.0.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mxml"
+            provenance = "git-tag"
             version = "4.0.4"

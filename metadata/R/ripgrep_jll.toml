@@ -17,6 +17,7 @@ registered = 2021-12-04T00:50:22.000Z
 
             ["13.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ripgrep"
+            provenance = "repology-url"
             version = "13.0.0"
 
 ["15.2.0+0"]
@@ -38,4 +39,5 @@ registered = 2026-09-18T15:44:49.000Z
 
             ["15.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ripgrep"
+            provenance = "git-tag"
             version = "15.2.0"

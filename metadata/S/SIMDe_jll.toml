@@ -17,6 +17,7 @@ registered = 2023-07-13T00:41:54.000Z
 
             ["0.7.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/simde"
+            provenance = "git-tag"
             version = "0.7.6"
 
 ["0.8.2+0"]
@@ -38,4 +39,5 @@ registered = 2024-09-24T18:00:42.000Z
 
             ["0.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/simde"
+            provenance = "git-tag"
             version = "0.8.2"

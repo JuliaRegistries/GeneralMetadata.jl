@@ -16,6 +16,7 @@ registered = 2019-12-22T12:48:10.000Z
 
             ["1.78.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/leptonica"
+            provenance = "heuristic"
             version = "1.78.0"
 
 ["1.78.0+1"]
@@ -36,6 +37,7 @@ registered = 2020-01-13T03:21:53.000Z
 
             ["1.78.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/leptonica"
+            provenance = "heuristic"
             version = "1.78.0"
 
 ["1.78.0+2"]
@@ -57,6 +59,7 @@ registered = 2020-04-04T05:35:53.000Z
 
             ["1.78.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/leptonica"
+            provenance = "heuristic"
             version = "1.78.0"
 
 ["1.79.0+0"]
@@ -78,6 +81,7 @@ registered = 2020-05-02T01:21:30.000Z
 
             ["1.79.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/leptonica"
+            provenance = "heuristic"
             version = "1.79.0"
 
 ["1.79.0+1"]
@@ -99,6 +103,7 @@ registered = 2020-05-03T00:15:36.000Z
 
             ["1.79.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/leptonica"
+            provenance = "heuristic"
             version = "1.79.0"
 
 ["1.81.1+0"]
@@ -120,6 +125,7 @@ registered = 2021-07-10T22:44:16.000Z
 
             ["1.81.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/leptonica"
+            provenance = "tag-scheme"
             version = "1.81.1"
 
 ["1.82.0+0"]
@@ -141,6 +147,7 @@ registered = 2022-04-09T21:48:08.000Z
 
             ["1.82.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/leptonica"
+            provenance = "tag-scheme"
             version = "1.82.0"
 
 ["1.83.1+0"]
@@ -160,6 +167,11 @@ registered = 2023-10-02T00:11:31.000Z
         type = "git"
         url = "https://github.com/DanBloomberg/leptonica.git"
 
+            ["1.83.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/leptonica"
+            provenance = "git-tag"
+            version = "1.83.1"
+
 ["1.85.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.85.0+0/Leptonica.v1.85.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2025-02-02T20:04:41.000Z
@@ -177,6 +189,11 @@ registered = 2025-02-02T20:04:41.000Z
         type = "git"
         url = "https://github.com/DanBloomberg/leptonica.git"
 
+            ["1.85.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/leptonica"
+            provenance = "git-tag"
+            version = "1.85.0"
+
 ["1.87.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Leptonica_jll.jl/releases/download/Leptonica-v1.87.0+0/Leptonica.v1.87.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-04-26T18:15:28.000Z
@@ -193,3 +210,8 @@ registered = 2026-04-26T18:15:28.000Z
         hash = "13275a278eb55b5746e33f95fbf5a2c8f604b3ab"
         type = "git"
         url = "https://github.com/DanBloomberg/leptonica.git"
+
+            ["1.87.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/leptonica"
+            provenance = "git-tag"
+            version = "1.87.0"

@@ -21,6 +21,7 @@ registered = 2020-04-04T05:22:05.000Z
 
             ["3.4.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "heuristic"
             version = "3.4.1"
 
 ["3.4.1+2"]
@@ -42,6 +43,7 @@ registered = 2020-11-10T15:58:28.000Z
 
             ["3.4.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "heuristic"
             version = "3.4.1"
         [["3.4.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -66,6 +68,7 @@ registered = 2021-03-20T05:37:35.000Z
 
             ["3.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "repology-url"
             version = "3.5.1"
         [["3.5.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -90,6 +93,7 @@ registered = 2021-05-11T23:31:06.000Z
 
             ["3.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "heuristic"
             version = "3.7.2"
         [["3.7.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -114,6 +118,7 @@ registered = 2024-03-28T22:22:48.000Z
 
             ["3.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "repology-url"
             version = "3.9.1"
         [["3.9.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -138,6 +143,7 @@ registered = 2024-11-14T17:17:49.000Z
 
             ["3.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "repology-url"
             version = "3.10"
         [["3.10.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -162,6 +168,7 @@ registered = 2024-12-27T17:31:33.000Z
 
             ["3.10.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "repology-url"
             version = "3.10"
         [["3.10.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -186,6 +193,7 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["3.10.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "repology-url"
             version = "3.10"
         [["3.10.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -210,6 +218,7 @@ registered = 2025-01-11T14:29:33.000Z
 
             ["3.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "repology-url"
             version = "3.10.1"
         [["3.10.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -234,6 +243,7 @@ registered = 2026-01-30T20:19:08.000Z
 
             ["3.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nettle"
+            provenance = "repology-url"
             version = "3.10.2"
         [["3.10.2+0".artifact_metadata.sources]]
         type = "directory"

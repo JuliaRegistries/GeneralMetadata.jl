@@ -16,4 +16,5 @@ registered = 2019-11-08T09:25:40.000Z
 
             ["0.8.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libmodplug"
+            provenance = "repology-url"
             version = "0.8.9.0"

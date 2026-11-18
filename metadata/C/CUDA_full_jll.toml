@@ -25,6 +25,7 @@ registered = 2020-04-09T11:41:59.000Z
 
             ["9.0.176+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.0.176"
 
 ["9.0.176+1"]
@@ -54,6 +55,7 @@ registered = 2020-04-09T12:09:15.000Z
 
             ["9.0.176+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.0.176"
 
 ["9.0.176+2"]
@@ -83,6 +85,7 @@ registered = 2020-04-14T22:33:28.000Z
 
             ["9.0.176+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.0.176"
 
 ["9.0.176+3"]
@@ -112,6 +115,7 @@ registered = 2021-01-08T15:34:06.000Z
 
             ["9.0.176+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.0.176"
 
 ["9.2.148+0"]
@@ -141,6 +145,7 @@ registered = 2020-04-03T16:13:20.000Z
 
             ["9.2.148+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.2.148"
 
 ["9.2.148+1"]
@@ -170,6 +175,7 @@ registered = 2020-04-09T10:57:23.000Z
 
             ["9.2.148+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.2.148"
 
 ["9.2.148+2"]
@@ -199,6 +205,7 @@ registered = 2020-04-14T22:45:15.000Z
 
             ["9.2.148+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.2.148"
 
 ["9.2.148+3"]
@@ -228,6 +235,7 @@ registered = 2021-01-08T15:43:45.000Z
 
             ["9.2.148+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "9.2.148"
 
 ["10.0.130+0"]
@@ -257,6 +265,7 @@ registered = 2020-04-03T00:57:32.000Z
 
             ["10.0.130+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.0.130"
 
 ["10.0.130+1"]
@@ -286,6 +295,7 @@ registered = 2020-04-09T10:33:14.000Z
 
             ["10.0.130+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.0.130"
 
 ["10.0.130+2"]
@@ -315,6 +325,7 @@ registered = 2020-04-14T22:21:09.000Z
 
             ["10.0.130+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.0.130"
 
 ["10.0.130+3"]
@@ -344,6 +355,7 @@ registered = 2021-01-08T14:42:27.000Z
 
             ["10.0.130+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.0.130"
 
 ["10.1.243+0"]
@@ -373,6 +385,7 @@ registered = 2020-04-03T16:21:09.000Z
 
             ["10.1.243+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.1.243"
 
 ["10.1.243+1"]
@@ -402,6 +415,7 @@ registered = 2020-04-09T10:33:44.000Z
 
             ["10.1.243+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.1.243"
 
 ["10.1.243+2"]
@@ -431,6 +445,7 @@ registered = 2020-04-14T22:21:26.000Z
 
             ["10.1.243+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.1.243"
 
 ["10.1.243+3"]
@@ -460,6 +475,7 @@ registered = 2021-01-08T15:27:16.000Z
 
             ["10.1.243+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.1.243"
 
 ["10.2.89+0"]
@@ -481,6 +497,7 @@ registered = 2020-04-03T01:33:50.000Z
 
             ["10.2.89+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+0".artifact_metadata.sources]]
         hash = "51193fff427aad0a3a15223b1a202a6c6f0964fcc6fb0e6c77ca7cd5b6944d20"
@@ -493,6 +510,7 @@ registered = 2020-04-03T01:33:50.000Z
 
             ["10.2.89+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
 
 ["10.2.89+1"]
@@ -514,6 +532,7 @@ registered = 2020-04-09T10:46:06.000Z
 
             ["10.2.89+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+1".artifact_metadata.sources]]
         hash = "51193fff427aad0a3a15223b1a202a6c6f0964fcc6fb0e6c77ca7cd5b6944d20"
@@ -526,6 +545,7 @@ registered = 2020-04-09T10:46:06.000Z
 
             ["10.2.89+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
 
 ["10.2.89+2"]
@@ -547,6 +567,7 @@ registered = 2020-04-14T22:33:12.000Z
 
             ["10.2.89+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+2".artifact_metadata.sources]]
         hash = "51193fff427aad0a3a15223b1a202a6c6f0964fcc6fb0e6c77ca7cd5b6944d20"
@@ -559,6 +580,7 @@ registered = 2020-04-14T22:33:12.000Z
 
             ["10.2.89+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
 
 ["10.2.89+3"]
@@ -580,6 +602,7 @@ registered = 2021-01-08T15:02:09.000Z
 
             ["10.2.89+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+3".artifact_metadata.sources]]
         hash = "51193fff427aad0a3a15223b1a202a6c6f0964fcc6fb0e6c77ca7cd5b6944d20"
@@ -592,6 +615,7 @@ registered = 2021-01-08T15:02:09.000Z
 
             ["10.2.89+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
 
 ["10.2.89+4"]
@@ -613,6 +637,7 @@ registered = 2022-02-14T19:27:39.000Z
 
             ["10.2.89+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+4".artifact_metadata.sources]]
         hash = "51193fff427aad0a3a15223b1a202a6c6f0964fcc6fb0e6c77ca7cd5b6944d20"
@@ -625,6 +650,7 @@ registered = 2022-02-14T19:27:39.000Z
 
             ["10.2.89+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+4".artifact_metadata.sources]]
         hash = "8a862acbff5b33904bfe7ec3e92a553a8312da1db9f651b6cfe14db137a139ce"
@@ -798,6 +824,7 @@ registered = 2022-02-22T10:36:51.000Z
 
             ["10.2.89+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+5".artifact_metadata.sources]]
         hash = "51193fff427aad0a3a15223b1a202a6c6f0964fcc6fb0e6c77ca7cd5b6944d20"
@@ -810,6 +837,7 @@ registered = 2022-02-22T10:36:51.000Z
 
             ["10.2.89+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+5".artifact_metadata.sources]]
         hash = "8a862acbff5b33904bfe7ec3e92a553a8312da1db9f651b6cfe14db137a139ce"
@@ -983,6 +1011,7 @@ registered = 2022-05-02T21:51:16.000Z
 
             ["10.2.89+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+6".artifact_metadata.sources]]
         hash = "51193fff427aad0a3a15223b1a202a6c6f0964fcc6fb0e6c77ca7cd5b6944d20"
@@ -995,6 +1024,7 @@ registered = 2022-05-02T21:51:16.000Z
 
             ["10.2.89+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "10.2.89"
         [["10.2.89+6".artifact_metadata.sources]]
         hash = "8a862acbff5b33904bfe7ec3e92a553a8312da1db9f651b6cfe14db137a139ce"
@@ -1226,6 +1256,7 @@ registered = 2020-08-18T08:22:22.000Z
 
             ["11.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.0.3"
 
 ["11.0.3+1"]
@@ -1255,6 +1286,7 @@ registered = 2021-01-08T15:43:04.000Z
 
             ["11.0.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.0.3"
 
 ["11.0.3+2"]
@@ -1284,6 +1316,7 @@ registered = 2023-02-07T10:12:59.000Z
 
             ["11.0.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.0.3"
 
 ["11.0.3+3"]
@@ -1313,6 +1346,7 @@ registered = 2023-02-08T15:06:51.000Z
 
             ["11.0.3+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.0.3"
 
 ["11.0.3+4"]
@@ -1346,6 +1380,7 @@ registered = 2023-03-19T22:32:17.000Z
 
             ["11.0.3+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.0.3"
 
 ["11.1.0+0"]
@@ -1379,6 +1414,7 @@ registered = 2020-11-09T08:24:51.000Z
 
             ["11.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.1.1"
 
 ["11.1.1+1"]
@@ -1408,6 +1444,7 @@ registered = 2021-01-08T15:22:56.000Z
 
             ["11.1.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.1.1"
 
 ["11.1.1+2"]
@@ -1437,6 +1474,7 @@ registered = 2023-02-07T10:12:45.000Z
 
             ["11.1.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.1.1"
 
 ["11.1.1+3"]
@@ -1466,6 +1504,7 @@ registered = 2023-02-08T15:06:37.000Z
 
             ["11.1.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.1.1"
 
 ["11.1.1+4"]
@@ -1499,6 +1538,7 @@ registered = 2023-03-19T22:32:03.000Z
 
             ["11.1.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.1.1"
 
 ["11.2.0+0"]
@@ -1603,6 +1643,7 @@ registered = 2021-03-15T16:22:43.000Z
 
             ["11.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.2.2"
 
 ["11.2.2+1"]
@@ -1632,6 +1673,7 @@ registered = 2023-02-07T10:12:30.000Z
 
             ["11.2.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.2.2"
 
 ["11.2.2+2"]
@@ -1661,6 +1703,7 @@ registered = 2023-02-08T14:57:11.000Z
 
             ["11.2.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.2.2"
 
 ["11.2.2+3"]
@@ -1694,6 +1737,7 @@ registered = 2023-03-19T22:20:13.000Z
 
             ["11.2.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.2.2"
 
 ["11.3.0+0"]
@@ -1723,6 +1767,7 @@ registered = 2021-04-21T18:14:12.000Z
 
             ["11.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "heuristic"
             version = "11.3.0"
 
 ["11.3.1+0"]
@@ -1752,6 +1797,7 @@ registered = 2021-05-27T11:54:43.000Z
 
             ["11.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.3.1"
 
 ["11.3.1+1"]
@@ -1781,6 +1827,7 @@ registered = 2022-05-02T22:01:45.000Z
 
             ["11.3.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.3.1"
 
 ["11.3.1+2"]
@@ -1810,6 +1857,7 @@ registered = 2023-02-07T10:00:24.000Z
 
             ["11.3.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.3.1"
 
 ["11.3.1+3"]
@@ -1839,6 +1887,7 @@ registered = 2023-02-08T14:56:57.000Z
 
             ["11.3.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.3.1"
 
 ["11.4.0+0"]
@@ -1988,6 +2037,7 @@ registered = 2022-05-13T08:59:01.000Z
 
             ["11.4.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.4.4"
 
 ["11.4.4+1"]
@@ -2021,6 +2071,7 @@ registered = 2023-02-07T10:00:10.000Z
 
             ["11.4.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.4.4"
 
 ["11.4.4+2"]
@@ -2054,6 +2105,7 @@ registered = 2023-02-08T14:56:41.000Z
 
             ["11.4.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.4.4"
 
 ["11.5.0+0"]
@@ -2116,6 +2168,7 @@ registered = 2021-11-30T09:22:57.000Z
 
             ["11.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "heuristic"
             version = "11.5.1"
 
 ["11.5.1+1"]
@@ -2149,6 +2202,7 @@ registered = 2022-05-02T22:24:58.000Z
 
             ["11.5.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "heuristic"
             version = "11.5.1"
 
 ["11.5.2+0"]
@@ -2182,6 +2236,7 @@ registered = 2022-05-13T09:20:05.000Z
 
             ["11.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.5.2"
 
 ["11.5.2+1"]
@@ -2215,6 +2270,7 @@ registered = 2023-02-07T09:48:17.000Z
 
             ["11.5.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.5.2"
 
 ["11.5.2+2"]
@@ -2248,6 +2304,7 @@ registered = 2023-02-08T14:46:58.000Z
 
             ["11.5.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.5.2"
 
 ["11.6.0+0"]
@@ -2339,6 +2396,7 @@ registered = 2022-05-13T09:39:00.000Z
 
             ["11.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.6.2"
 
 ["11.6.2+1"]
@@ -2372,6 +2430,7 @@ registered = 2023-02-07T09:48:08.000Z
 
             ["11.6.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.6.2"
 
 ["11.6.2+2"]
@@ -2405,6 +2464,7 @@ registered = 2023-02-08T14:46:43.000Z
 
             ["11.6.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.6.2"
 
 ["11.7.0+0"]
@@ -2467,6 +2527,7 @@ registered = 2022-10-10T10:33:50.000Z
 
             ["11.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.7.1"
 
 ["11.7.1+1"]
@@ -2500,6 +2561,7 @@ registered = 2023-02-07T09:35:42.000Z
 
             ["11.7.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.7.1"
 
 ["11.7.1+2"]
@@ -2533,6 +2595,7 @@ registered = 2023-02-08T14:35:30.000Z
 
             ["11.7.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.7.1"
 
 ["11.8.0+0"]
@@ -2554,6 +2617,7 @@ registered = 2022-10-10T10:57:11.000Z
 
             ["11.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
         [["11.8.0+0".artifact_metadata.sources]]
         hash = "f917fb7617033223938543ad3ae923190d99507acc08a399d752a2868e87349d"
@@ -2570,6 +2634,7 @@ registered = 2022-10-10T10:57:11.000Z
 
             ["11.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
 
 ["11.8.0+1"]
@@ -2591,6 +2656,7 @@ registered = 2022-10-24T08:18:31.000Z
 
             ["11.8.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
         [["11.8.0+1".artifact_metadata.sources]]
         hash = "f917fb7617033223938543ad3ae923190d99507acc08a399d752a2868e87349d"
@@ -2607,6 +2673,7 @@ registered = 2022-10-24T08:18:31.000Z
 
             ["11.8.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
 
 ["11.8.0+2"]
@@ -2628,6 +2695,7 @@ registered = 2023-02-07T09:28:41.000Z
 
             ["11.8.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
         [["11.8.0+2".artifact_metadata.sources]]
         hash = "f917fb7617033223938543ad3ae923190d99507acc08a399d752a2868e87349d"
@@ -2644,6 +2712,7 @@ registered = 2023-02-07T09:28:41.000Z
 
             ["11.8.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
 
 ["11.8.0+3"]
@@ -2665,6 +2734,7 @@ registered = 2023-02-08T14:35:16.000Z
 
             ["11.8.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
         [["11.8.0+3".artifact_metadata.sources]]
         hash = "f917fb7617033223938543ad3ae923190d99507acc08a399d752a2868e87349d"
@@ -2681,6 +2751,7 @@ registered = 2023-02-08T14:35:16.000Z
 
             ["11.8.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
 
 ["12.0.0+0"]
@@ -2702,6 +2773,7 @@ registered = 2023-01-19T15:10:57.000Z
 
             ["12.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
         [["12.0.0+0".artifact_metadata.sources]]
         hash = "f917fb7617033223938543ad3ae923190d99507acc08a399d752a2868e87349d"
@@ -2718,6 +2790,7 @@ registered = 2023-01-19T15:10:57.000Z
 
             ["12.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cuda"
+            provenance = "repology-url"
             version = "11.8.0"
 
 ["12.0.0+1"]

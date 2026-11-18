@@ -17,6 +17,7 @@ registered = 2021-10-13T21:14:04.000Z
 
             ["2.23.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "tag-scheme"
             version = "2.23.0"
 
 ["2.23.0+1"]
@@ -38,6 +39,7 @@ registered = 2022-07-13T15:33:01.000Z
 
             ["2.23.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "tag-scheme"
             version = "2.23.0"
 
 ["2.23.1+0"]
@@ -59,6 +61,7 @@ registered = 2022-07-25T02:08:05.000Z
 
             ["2.23.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "tag-scheme"
             version = "2.23.0"
 
 ["2.23.1+1"]
@@ -80,6 +83,7 @@ registered = 2022-07-26T23:55:05.000Z
 
             ["2.23.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "tag-scheme"
             version = "2.23.0"
 
 ["3.0.0+0"]
@@ -101,6 +105,7 @@ registered = 2025-10-11T23:20:31.000Z
 
             ["3.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "git-tag"
             version = "3.0.0"
 
 ["3.0.1+0"]
@@ -122,6 +127,7 @@ registered = 2026-03-20T16:14:10.000Z
 
             ["3.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "git-tag"
             version = "3.0.0"
 
 ["3.1.0+0"]
@@ -143,6 +149,7 @@ registered = 2026-03-25T14:03:08.000Z
 
             ["3.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "git-tag"
             version = "3.1.0"
 
 ["3.1.1+0"]
@@ -164,6 +171,7 @@ registered = 2026-05-23T23:11:10.000Z
 
             ["3.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "git-tag"
             version = "3.1.0"
 
 ["3.1.2+0"]
@@ -185,6 +193,7 @@ registered = 2026-08-17T00:52:31.000Z
 
             ["3.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hypre"
+            provenance = "git-tag"
             version = "3.1.0"
 
 ["3.2.100+0"]

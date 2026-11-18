@@ -17,6 +17,7 @@ registered = 2025-09-10T14:30:21.000Z
 
             ["9.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vtk"
+            provenance = "repology-url"
             version = "9.5.1"
         [["9.5.1+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -96,6 +97,7 @@ registered = 2025-09-26T14:08:15.000Z
 
             ["9.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vtk"
+            provenance = "repology-url"
             version = "9.5.2"
         [["9.5.2+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -175,6 +177,7 @@ registered = 2026-04-08T14:53:32.000Z
 
             ["9.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vtk"
+            provenance = "heuristic"
             version = "9.6.1"
         [["9.6.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -257,6 +260,7 @@ registered = 2026-06-21T20:25:43.000Z
 
             ["9.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vtk"
+            provenance = "repology-url"
             version = "9.6.2"
         [["9.6.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -339,6 +343,7 @@ registered = 2026-08-17T21:28:01.000Z
 
             ["9.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vtk"
+            provenance = "repology-url"
             version = "9.6.2"
         [["9.6.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -421,6 +426,7 @@ registered = 2026-09-18T01:13:14.000Z
 
             ["9.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vtk"
+            provenance = "repology-url"
             version = "9.7.0"
         [["9.7.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -503,6 +509,7 @@ registered = 2026-09-28T22:24:21.000Z
 
             ["9.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/vtk"
+            provenance = "heuristic"
             version = "9.7.1"
         [["9.7.1+0".artifact_metadata.sources]]
         type = "directory"

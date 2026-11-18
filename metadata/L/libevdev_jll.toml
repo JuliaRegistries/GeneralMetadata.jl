@@ -14,6 +14,11 @@ registered = 2021-06-21T11:58:04.000Z
         hash = "8855f1ac59a69d5bdff51e3f8980697f0127c270"
         type = "git"
         url = "https://gitlab.freedesktop.org/libevdev/libevdev"
+
+            ["1.11.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libevdev"
+            provenance = "git-tag"
+            version = "1.11.0"
         [["1.11.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8238bdb64b5ae771d55d742657e9fb35722b385b/L/libevdev/bundled"
@@ -34,3 +39,8 @@ registered = 2025-06-09T18:53:31.000Z
         hash = "ac0056961c3332a260db063ab4fccc7747638a1d"
         type = "git"
         url = "https://gitlab.freedesktop.org/libevdev/libevdev"
+
+            ["1.13.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libevdev"
+            provenance = "git-tag"
+            version = "1.13.4"

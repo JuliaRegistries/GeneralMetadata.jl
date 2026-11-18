@@ -17,6 +17,7 @@ registered = 2021-04-28T20:05:42.000Z
 
             ["18.1.40+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/db"
+            provenance = "repology-url"
             version = "18.1.40"
 
 ["18.1.41+0"]
@@ -38,4 +39,5 @@ registered = 2024-02-25T18:37:15.000Z
 
             ["18.1.41+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/db"
+            provenance = "repology-url"
             version = "18.1.40"

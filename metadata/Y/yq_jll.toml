@@ -17,6 +17,7 @@ registered = 2021-08-01T15:22:36.000Z
 
             ["4.11.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yq-mikefarah"
+            provenance = "git-tag"
             version = "4.11.2"
 
 ["4.19.1+0"]
@@ -38,6 +39,7 @@ registered = 2022-02-07T12:59:25.000Z
 
             ["4.19.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yq-mikefarah"
+            provenance = "git-tag"
             version = "4.19.1"
 
 ["4.42.1+0"]
@@ -59,6 +61,7 @@ registered = 2024-02-28T19:21:32.000Z
 
             ["4.42.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yq-mikefarah"
+            provenance = "git-tag"
             version = "4.42.1"
 
 ["4.44.3+0"]
@@ -80,6 +83,7 @@ registered = 2024-09-24T14:28:26.000Z
 
             ["4.44.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yq-mikefarah"
+            provenance = "git-tag"
             version = "4.44.3"
 
 ["4.45.1+0"]
@@ -101,4 +105,5 @@ registered = 2025-02-23T09:26:04.000Z
 
             ["4.45.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/yq-mikefarah"
+            provenance = "git-tag"
             version = "4.45.1"

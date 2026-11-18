@@ -17,4 +17,5 @@ registered = 2024-06-20T00:30:16.000Z
 
             ["2.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lastools"
+            provenance = "git-tag"
             version = "2.0.3"

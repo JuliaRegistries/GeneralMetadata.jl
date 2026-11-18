@@ -17,4 +17,5 @@ registered = 2026-09-04T08:44:51.000Z
 
             ["0.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zix"
+            provenance = "repology-url"
             version = "0.8.2"

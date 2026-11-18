@@ -17,4 +17,5 @@ registered = 2022-09-02T23:28:55.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sccache"
+            provenance = "tag-scheme"
             version = "0.3.0"

@@ -17,6 +17,7 @@ registered = 2022-01-17T22:29:16.000Z
 
             ["4.9.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/antlr4-cppruntime"
+            provenance = "repology-url"
             version = "4.9.3"
         [["4.9.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2022-01-18T09:28:10.000Z
 
             ["4.9.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/antlr4-cppruntime"
+            provenance = "repology-url"
             version = "4.9.3"
         [["4.9.3+1".artifact_metadata.sources]]
         type = "directory"

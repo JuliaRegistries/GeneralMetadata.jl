@@ -50,7 +50,8 @@ registered = 2021-11-29T02:25:54.000Z
         url = "https://github.com/openpmix/openpmix/releases/download/v4.1.0/pmix-4.1.0.tar.bz2"
 
             ["4.1.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pmix"
+            project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "4.1.0"
 
 ["4.1.0+2"]
@@ -71,7 +72,8 @@ registered = 2021-11-29T04:33:05.000Z
         url = "https://github.com/openpmix/openpmix/releases/download/v4.1.0/pmix-4.1.0.tar.bz2"
 
             ["4.1.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pmix"
+            project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "4.1.0"
 
 ["4.1.0+3"]
@@ -92,7 +94,8 @@ registered = 2021-11-30T18:11:49.000Z
         url = "https://github.com/openpmix/openpmix/releases/download/v4.1.0/pmix-4.1.0.tar.bz2"
 
             ["4.1.0+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pmix"
+            project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "4.1.0"
 
 ["4.2.7+0"]
@@ -113,7 +116,8 @@ registered = 2023-10-27T23:18:50.000Z
         url = "https://github.com/openpmix/openpmix/releases/download/v4.2.7/pmix-4.2.7.tar.bz2"
 
             ["4.2.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pmix"
+            project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "4.2.7"
 
 ["4.2.9+0"]
@@ -134,7 +138,8 @@ registered = 2024-04-07T08:31:33.000Z
         url = "https://github.com/openpmix/openpmix/releases/download/v4.2.9/pmix-4.2.9.tar.bz2"
 
             ["4.2.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pmix"
+            project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "4.2.9"
 
 ["5.0.3+0"]
@@ -155,7 +160,8 @@ registered = 2024-09-25T19:23:06.000Z
         url = "https://github.com/openpmix/openpmix/releases/download/v5.0.3/pmix-5.0.3.tar.bz2"
 
             ["5.0.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pmix"
+            project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "5.0.3"
 
 ["6.0.0+0"]
@@ -177,6 +183,7 @@ registered = 2025-05-24T17:40:51.000Z
 
             ["6.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "6.0.0"
         [["6.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -200,5 +207,6 @@ registered = 2026-03-04T23:20:21.000Z
         url = "https://github.com/openpmix/openpmix/releases/download/v6.1.0/pmix-6.1.0.tar.bz2"
 
             ["6.1.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pmix"
+            project = "repology.org/project/openpmix"
+            provenance = "url-pattern"
             version = "6.1.0"
