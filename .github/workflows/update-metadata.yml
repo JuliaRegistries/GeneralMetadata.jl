@@ -29,7 +29,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
         repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
-        ref: ${{ github.head_ref || github.ref_name }}
+        ref: ${{ github.event.pull_request.head.sha || github.ref_name }}
 
     - name: Setup Juliaup
       uses: julia-actions/install-juliaup@v3
