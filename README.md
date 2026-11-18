@@ -25,13 +25,13 @@ versions as its top-level keys. Each version entry has the following fields:
         * `package::String`. Required for `"builddependency"`.
         * `url::String`. Required for all `type`s (including missing) except `"builddependency"`
         * `hash::String`. Required for all `type`s (including missing) except `"builddependency"` and `"directory"`
-        * `upstream::Dict`. Optional. A table describing this resource, derived with [Repology.jl](https://github.com/mbauman/Repology.jl)'s `identify`:
+        * `upstream::Dict`. Optional. A table describing this resource, first identified with [Repology.jl](https://github.com/mbauman/Repology.jl)'s `identify`:
             * `project::String`. Required. A Repology project URL, like `repology.org/project/expat`
             * `version::String`. Optional. The exact upstream version number, if known
             * `provenance::String`. Required. How `project` and `version` were identified, from most to least trustworthy:
               `"override"` (hand-verified source), `"url-pattern"` (curated URL pattern), `"repology-url"` (exact match in Repology's data),
               `"tag-scheme"` (parsed from a forge release/tag URL), `"git-tag"` (the git commit's tag), `"repository"` (project known from
-              the repository, but no version) or `"heuristic"` (a guess from the URL; treat as unknown)
+              the repository, but no version), `"heuristic"` (a guess from the URL) or `"manual"` (entered or corrected by hand)
 
 ## The web API
 
@@ -56,17 +56,18 @@ to a dictionary of their versions and data. Modifications to this dictionary can
 ## Updates
 
 The goal is for this information to be automatically and regularly updated. All update scripts are non-destructive and
-preserve any manually-entered information, except for `upstream`: it is recomputed from scratch on every update, so that
-improvements to Repology.jl reach all versions. All recorded data should be correct. If you notice something wrong, please open
-an issue or pull request with the correction; upstream corrections belong in Repology.jl's `additional_info.toml`.
+preserve any manually-entered information. Updates only add `upstream` to sources that don't have one yet; existing entries are
+never overwritten. A full recomputation of every `upstream` entry is a deliberate step (the `regenerate_upstream` option of the
+"Update metadata" workflow) after significant Repology.jl improvements, and its diff should be reviewed. All recorded data should
+be correct. If you notice something wrong, please open an issue or pull request with the correction.
 
 Additional fields may be added to the TOML data files and web API in the future.
 
 ## Contributing
 
 Contributions are very welcome, both to the infrastructure and to the data itself. In particular artifact "upstream" identification is
-automatically populated and may be wrong; fix it in [Repology.jl](https://github.com/mbauman/Repology.jl) (see its `additional_info.toml`)
-rather than here, where it would be overwritten. These are only thoroughly reviewed upon publication of a [Security Advisory](https://github.com/JuliaLang/SecurityAdvisories.jl).
+automatically populated and may be wrong. Correct an entry here directly (setting `provenance = "manual"`), and if the mistake
+comes from a pattern that will recur, also fix it in [Repology.jl](https://github.com/mbauman/Repology.jl) (see its `additional_info.toml`). These are only thoroughly reviewed upon publication of a [Security Advisory](https://github.com/JuliaLang/SecurityAdvisories.jl).
 
 One category of metadata that is outstanding and for which contributions would be very welcome is licensing information, both of the packages
 themselves and their artifacts.

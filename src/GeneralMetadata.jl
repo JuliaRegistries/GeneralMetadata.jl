@@ -730,18 +730,19 @@ function parse_artifact_metadata_sources(contents, artifactmeta)
 end
 
 """
-    identify_upstream!(meta)
+    identify_upstream!(meta; regenerate=false)
 
-Recompute the `upstream` table of every source with `Repology.identify`. Upstream information is derived, not
-recorded: every run regenerates it, so corrections belong in Repology.jl's `additional_info.toml`. The one exception
-is a version previously found from a commit's git tag: tags don't move, so if the tag lookup fails (usually a network
-error) the previous version is kept.
+Add an `upstream` table, identified with `Repology.identify`, to every source that doesn't have one. Existing entries
+are left alone, so hand corrections survive. With `regenerate=true`, recompute every source's `upstream` from scratch,
+for a deliberate refresh after Repology.jl improves; the one exception is a version previously found from a commit's
+git tag: tags don't move, so if the tag lookup fails (usually a network error) the previous version is kept.
 """
-function identify_upstream!(meta)
+function identify_upstream!(meta; regenerate=false)
     cache = Dict{Tuple{String,String},Repology.Identification}()
     for (pkg, pkgentry) in meta, (ver, verinfo) in pkgentry, artifactmeta in get(verinfo, "artifact_metadata", [])
         for source in get(artifactmeta, "sources", [])
             haskey(source, "url") && haskey(source, "hash") || continue
+            regenerate || !haskey(source, "upstream") || continue
             id = get!(() -> Repology.identify(source["url"]; commit=source["hash"]), cache, (source["url"], source["hash"]))
             old = get(source, "upstream", Dict{String,Any}())
             if id.provenance == "repository" && get(old, "provenance", "") == "git-tag" &&

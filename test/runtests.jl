@@ -110,8 +110,7 @@ end
                             @test src["upstream"] isa Dict
                             @test haskey(src["upstream"], "project")
                             @test src["upstream"]["project"] isa String
-                            # Entries written before provenance was recorded gain it on the next metadata update
-                            haskey(src["upstream"], "provenance") && @test src["upstream"]["provenance"] in Repology.PROVENANCES
+                            @test get(src["upstream"], "provenance", nothing) in (Repology.PROVENANCES..., "manual")
                             if haskey(src["upstream"], "version")
                                 @test src["upstream"]["version"] isa String
                             end
