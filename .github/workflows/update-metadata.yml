@@ -38,6 +38,7 @@ jobs:
 
     - name: Add additional release channels
       run: |
+        juliaup add 1.13
         juliaup add 1.7
         juliaup add 1.6.0
         juliaup add 1.6.0-beta1
