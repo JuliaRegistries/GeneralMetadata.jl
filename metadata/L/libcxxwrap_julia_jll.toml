@@ -1460,7 +1460,8 @@ registered = 2026-05-28T11:53:49.000Z
 
             ["0.14.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libcxxwrap-julia"
-            provenance = "repository"
+            provenance = "manual"
+            version = "0.14.10"
         [["0.14.10+0".artifact_metadata.sources]]
         package = "libjulia_jll"
         type = "builddependency"
