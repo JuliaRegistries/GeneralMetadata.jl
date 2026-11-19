@@ -17,4 +17,5 @@ registered = 2021-03-31T21:35:24.000Z
 
             ["5.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qt6tools"
+            provenance = "heuristic"
             version = "5.15.2"

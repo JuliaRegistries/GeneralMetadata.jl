@@ -14,6 +14,11 @@ registered = 2023-09-15T01:02:28.000Z
         hash = "c4b661f44497b18201b56ffd200cc478441f6434"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.13.32+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.13.32"
         [["0.13.32+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/eae649d661df34042e77a1e4bb6c8308b23bf862/A/aws_c_io/bundled"
@@ -46,6 +51,11 @@ registered = 2023-09-22T22:48:49.000Z
         hash = "c4b661f44497b18201b56ffd200cc478441f6434"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.13.32+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.13.32"
         [["0.13.32+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/df455c4618481d2700940405c64ca9e6492891fe/A/aws_c_io/bundled"
@@ -69,6 +79,11 @@ registered = 2024-03-12T00:32:44.000Z
         hash = "5afc94435cc0c0b3dc33279dd62552ea15bbea0c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.6"
         [["0.14.6+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/88a204042cb387e33fd5b2f1e653776418b4c411/A/aws_c_io/bundled"
@@ -92,6 +107,11 @@ registered = 2024-04-06T17:57:56.000Z
         hash = "bf2d72230727f02eddb5b16c4e6c5ac5a3f203a7"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.7"
         [["0.14.7+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e9ea84d1ae404d96b0c38186ba53949dabc64d71/A/aws_c_io/bundled"
@@ -115,6 +135,11 @@ registered = 2024-05-06T23:15:34.000Z
         hash = "47be63c809e32c6923fd7fd80f67d86cef458d5d"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.8"
         [["0.14.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/16b1b28ce74baa87467bf8e08df13425a6d95c9e/A/aws_c_io/bundled"
@@ -138,6 +163,11 @@ registered = 2024-06-04T17:46:17.000Z
         hash = "878b4fa027bda4041493f06e0562d5e98bb3deb8"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.8+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.9"
         [["0.14.8+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/df80831deebba78d084dc49419db6fac052c997c/A/aws_c_io/bundled"
@@ -161,6 +191,11 @@ registered = 2024-06-04T20:27:00.000Z
         hash = "878b4fa027bda4041493f06e0562d5e98bb3deb8"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.9+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.9"
         [["0.14.9+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b700c41702cf4048837858c498e06e15210f1664/A/aws_c_io/bundled"
@@ -184,6 +219,11 @@ registered = 2024-07-12T16:07:51.000Z
         hash = "d04508d113851f1bc15630d93490b2aa09676137"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.11+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.11"
         [["0.14.11+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0ae8ba27a5c3584642b45a7742e317763708a36b/A/aws_c_io/bundled"
@@ -207,6 +247,11 @@ registered = 2024-07-12T23:31:34.000Z
         hash = "f8a9eed2076ae190fd193a2edd04df94e9cdf2cd"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.12+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.12"
         [["0.14.12+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9381a54a6742ca6c367c0f31c19c2d7836ebae74/A/aws_c_io/bundled"
@@ -230,6 +275,11 @@ registered = 2024-07-15T10:57:34.000Z
         hash = "f8a9eed2076ae190fd193a2edd04df94e9cdf2cd"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.12+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.12"
         [["0.14.12+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/083b8efeca60423fcf739204637949779e2925ef/A/aws_c_io/bundled"
@@ -253,6 +303,11 @@ registered = 2024-07-15T17:55:52.000Z
         hash = "7116bd81adbf63f0a36c301113aa7c539e9dd92a"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.13+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.13"
         [["0.14.13+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b8bdc0cbc6ebe32b14e8015abc827c626e34d531/A/aws_c_io/bundled"
@@ -276,6 +331,11 @@ registered = 2024-07-31T00:01:34.000Z
         hash = "e455d90320c569300f0ba50535d7a1a5f9aff399"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.15+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.15"
         [["0.14.15+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/84c080304d62ffed91f8888c3ac9d3a6519b65d8/A/aws_c_io/bundled"
@@ -299,6 +359,11 @@ registered = 2024-08-02T11:08:15.000Z
         hash = "e5fe40e11d97221c25b3b40ad2949822b3422993"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.16+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.16"
         [["0.14.16+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8a8f230f09c2c84aa462ffe95e5cfb6a4d398d45/A/aws_c_io/bundled"
@@ -322,6 +387,11 @@ registered = 2024-08-02T19:22:53.000Z
         hash = "b561534fd08af5dd19dcffbc84fddc065c3cecb2"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.17+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.17"
         [["0.14.17+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/7e1c829d63a658708d93dbdba2d66ce942ba7552/A/aws_c_io/bundled"
@@ -345,6 +415,11 @@ registered = 2024-08-28T16:24:30.000Z
         hash = "c345d77274db83c0c2e30331814093e7c84c45e2"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.14.18+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.14.18"
         [["0.14.18+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/14d5872eef8a958027dd1514db4b2d5020205f76/A/aws_c_io/bundled"
@@ -368,6 +443,11 @@ registered = 2025-03-01T08:47:46.000Z
         hash = "318f7e57e7871e5b0d48a281cc5dcb7f79ccecdd"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.17.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.17.0"
         [["0.17.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/ec29605242e9da7297d8eacad7a2e20c7227ad7c/A/aws_c_io/bundled"
@@ -391,6 +471,11 @@ registered = 2025-03-28T20:34:15.000Z
         hash = "46974e960ab571c86e0711d4d9445e2e684b53bf"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.17.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.17.1"
         [["0.17.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/5149af71608b156e376744379ab8d0054f4642c0/A/aws_c_io/bundled"
@@ -414,6 +499,11 @@ registered = 2025-04-09T22:13:53.000Z
         hash = "6c90e4911ae1985c72efb4f22bfe4d173b26107b"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.18.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.18.0"
         [["0.18.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d2af1e8536bd0c0ca0d5bddbc447c2734968a120/A/aws_c_io/bundled"
@@ -441,6 +531,11 @@ registered = 2025-04-10T01:37:03.000Z
         hash = "31d7361dd7517c54e697316fec6ded2ebe89fee9"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.18.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.18.1"
         [["0.18.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/070b0e7d23a01d665af8c3c9091c2537fc334f68/A/aws_c_io/bundled"
@@ -468,6 +563,11 @@ registered = 2025-04-30T23:00:29.000Z
         hash = "8286c781b95b426ca2f0783b6c1fe49ff519c4e7"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.19.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.19.0"
         [["0.19.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/dd9ad3cdef171944723a7869bacdc8bb76644c65/A/aws_c_io/bundled"
@@ -495,6 +595,11 @@ registered = 2025-05-14T14:18:10.000Z
         hash = "8286c781b95b426ca2f0783b6c1fe49ff519c4e7"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.19.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.19.0"
         [["0.19.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/84438978df4396311365560d325db0021145161c/A/aws_c_io/bundled"
@@ -522,6 +627,11 @@ registered = 2025-06-08T17:39:20.000Z
         hash = "689dee3cb8dbd8a6906431d154a3695f7688c056"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.19.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.19.1"
         [["0.19.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/7c0c66e7002ed1c4045f835f6b27a59daf685155/A/aws_c_io/bundled"
@@ -549,6 +659,11 @@ registered = 2025-06-13T23:52:53.000Z
         hash = "ee7925a345c336b9a9c2f6843422297c5f2a7b0f"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.20.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.20.1"
         [["0.20.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a47c63915783ac2e62e876a9101c4ebb03d022ad/A/aws_c_io/bundled"
@@ -576,6 +691,11 @@ registered = 2025-07-11T00:01:31.000Z
         hash = "25faa8d6df108b0214345549c44ab6b75ad31e65"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.21.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.21.0"
         [["0.21.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/ba75b0cd31677f7beeee410cd40a4e2bd7a72042/A/aws_c_io/bundled"
@@ -603,6 +723,11 @@ registered = 2025-07-18T12:01:13.000Z
         hash = "12cb9f9c2702a5c864d6cefe19aa12e89924a3ac"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.21.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.21.1"
         [["0.21.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/866bd4c5ad685e3230917e0040c4ad243527f353/A/aws_c_io/bundled"
@@ -630,6 +755,11 @@ registered = 2025-07-22T14:51:21.000Z
         hash = "9c7f98dcb083bd705eeb323e77868b1e2c9d4e73"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.21.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.21.2"
         [["0.21.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9cd0f0ed78ea063ae5f907509b5691ee65636355/A/aws_c_io/bundled"
@@ -657,6 +787,11 @@ registered = 2025-09-01T18:12:45.000Z
         hash = "eab7c64a5485b3f2a30877ad854d0c48726c64ec"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.21.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.21.3"
         [["0.21.3+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -681,6 +816,11 @@ registered = 2025-09-01T18:46:28.000Z
         hash = "ba5cb6de2cf12bfb154f302f6dedddf81c0ce4cd"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.21.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.21.4"
         [["0.21.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -705,6 +845,11 @@ registered = 2025-09-08T22:52:35.000Z
         hash = "300e8b46aab672172f8d9303e1b9eeeffcb77713"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.21.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.21.5"
         [["0.21.5+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -729,6 +874,11 @@ registered = 2025-09-10T23:55:27.000Z
         hash = "db7a1bddc9a29eca18734d0af189c3924775dcf1"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.22.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.22.0"
         [["0.22.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -753,6 +903,11 @@ registered = 2025-09-30T09:33:53.000Z
         hash = "9b8d716b3b12de435fbabed834ef435fd3f153c2"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.22.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.22.1"
         [["0.22.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -777,6 +932,11 @@ registered = 2025-10-07T13:21:08.000Z
         hash = "8906a02cb204b0b01cd38c2c2d62d7312dbee50f"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.23.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.23.1"
         [["0.23.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -801,6 +961,11 @@ registered = 2025-10-16T07:03:44.000Z
         hash = "1af325b54bba2e95a640a5be5ffe0b27e4ead79c"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.23.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.23.2"
         [["0.23.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -825,6 +990,11 @@ registered = 2025-11-03T21:28:02.000Z
         hash = "9cf142c08c28d5b1195aae09d2c05a6d17502e09"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.23.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.23.3"
         [["0.23.3+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -849,6 +1019,11 @@ registered = 2025-12-10T21:59:28.000Z
         hash = "4c48e60df22214cdf8f2ed50214ea0a58cadabc3"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.23.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.23.4"
         [["0.23.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -873,6 +1048,11 @@ registered = 2025-12-11T00:19:03.000Z
         hash = "996d42e484a3749c4dd05e4e9fed1d38de95eb81"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.24.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.24.0"
         [["0.24.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -897,6 +1077,11 @@ registered = 2025-12-23T00:00:25.000Z
         hash = "102e7767f04cfa441241ee02d65a0cb1360de2d5"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.24.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.24.1"
         [["0.24.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -921,6 +1106,11 @@ registered = 2025-12-24T07:00:55.000Z
         hash = "e9fa33228e7417e1af22a9cee0361abc00d8c426"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.24.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.24.2"
         [["0.24.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -945,6 +1135,11 @@ registered = 2026-01-07T00:08:05.000Z
         hash = "93e934387cb5788acb234478a49d6d9e6c75650d"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.25.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.25.0"
         [["0.25.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -969,6 +1164,11 @@ registered = 2026-01-14T06:41:21.000Z
         hash = "d5ad01cef5d027f65c6f5b460972bae0a469779d"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.26.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.26.0"
         [["0.26.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -993,6 +1193,11 @@ registered = 2026-01-28T22:40:42.000Z
         hash = "bfb0819d3906502483611ce832a5ec6b897c8421"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.26.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.26.1"
         [["0.26.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -1017,6 +1222,11 @@ registered = 2026-03-17T17:49:59.000Z
         hash = "33509a46e90bbb7557381b7341834f0dc193f6c8"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.26.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.26.2"
         [["0.26.2+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -1041,6 +1251,11 @@ registered = 2026-03-18T22:10:09.000Z
         hash = "1ec8081f208ef8d51381889eda3bda9756fd5bb5"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.26.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.26.3"
         [["0.26.3+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -1065,6 +1280,11 @@ registered = 2026-08-28T17:49:29.000Z
         hash = "28e4eb351a536daf1627bf69279e50671f7729b5"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.27.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.27.6"
         [["0.27.6+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -1089,6 +1309,11 @@ registered = 2026-08-28T17:07:54.000Z
         hash = "94b6a898c80f859f30876ca3c7b305c510500301"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["0.27.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "0.27.7"
         [["0.27.7+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"
@@ -1113,6 +1338,11 @@ registered = 2026-08-28T19:03:16.000Z
         hash = "1685abcd331dcced3da63b8d4cd3ced38a8bb14a"
         type = "git"
         url = "https://github.com/awslabs/aws-c-io.git"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/aws-c-io"
+            provenance = "git-tag"
+            version = "1.0.0"
         [["1.0.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "file"

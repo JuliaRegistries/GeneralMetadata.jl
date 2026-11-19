@@ -17,6 +17,7 @@ registered = 2025-06-14T19:26:19.000Z
 
             ["1.17.19+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/juliaup"
+            provenance = "git-tag"
             version = "1.17.19"
 
 ["1.18.0+0"]
@@ -38,6 +39,7 @@ registered = 2025-09-29T02:32:13.000Z
 
             ["1.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/juliaup"
+            provenance = "git-tag"
             version = "1.18.0"
 
 ["1.18.9+0"]
@@ -59,6 +61,7 @@ registered = 2025-12-07T21:31:13.000Z
 
             ["1.18.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/juliaup"
+            provenance = "git-tag"
             version = "1.18.9"
 
 ["1.19.9+0"]
@@ -80,4 +83,5 @@ registered = 2026-03-30T23:34:42.000Z
 
             ["1.19.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/juliaup"
+            provenance = "git-tag"
             version = "1.19.9"

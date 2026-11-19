@@ -25,6 +25,7 @@ registered = 2022-02-28T00:48:32.000Z
 
             ["6.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qemu"
+            provenance = "heuristic"
             version = "6.2.0"
         [["6.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -52,6 +53,7 @@ registered = 2022-12-10T20:15:04.000Z
 
             ["7.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qemu"
+            provenance = "heuristic"
             version = "7.1.0"
         [["7.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -82,6 +84,7 @@ registered = 2024-05-13T14:48:52.000Z
 
             ["7.2.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/qemu"
+            provenance = "heuristic"
             version = "7.2.9"
         [["7.2.9+0".artifact_metadata.sources]]
         type = "directory"

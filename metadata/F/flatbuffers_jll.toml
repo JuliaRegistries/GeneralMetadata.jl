@@ -17,6 +17,7 @@ registered = 2026-06-08T10:08:09.000Z
 
             ["25.2.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/flatbuffers"
+            provenance = "git-tag"
             version = "25.2.10"
         [["25.2.10+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"

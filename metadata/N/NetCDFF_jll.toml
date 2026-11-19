@@ -17,6 +17,7 @@ registered = 2021-04-07T23:34:23.000Z
 
             ["4.5.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf-fortran"
+            provenance = "heuristic"
             version = "4.5.3"
 
 ["4.6.0+0"]
@@ -38,6 +39,7 @@ registered = 2022-10-15T00:56:52.000Z
 
             ["4.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf-fortran"
+            provenance = "heuristic"
             version = "4.6.0"
         [["4.6.0+0".artifact_metadata.sources]]
         package = "MbedTLS_jll"
@@ -62,6 +64,7 @@ registered = 2024-03-30T15:37:32.000Z
 
             ["4.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf-fortran"
+            provenance = "repology-url"
             version = "4.6.1"
 
 ["4.6.2+0"]
@@ -83,6 +86,7 @@ registered = 2025-04-05T16:57:09.000Z
 
             ["4.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf-fortran"
+            provenance = "repology-url"
             version = "4.6.2"
         [["4.6.2+0".artifact_metadata.sources]]
         package = "OpenMPI_jll"
@@ -107,6 +111,7 @@ registered = 2026-08-20T14:52:10.000Z
 
             ["4.6.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/netcdf-fortran"
+            provenance = "repology-url"
             version = "4.6.4"
         [["4.6.4+0".artifact_metadata.sources]]
         package = "OpenMPI_jll"

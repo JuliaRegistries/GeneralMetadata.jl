@@ -16,6 +16,7 @@ registered = 2019-10-19T23:52:45.000Z
 
             ["2.27.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.27"
 
 ["2.27.0+1"]
@@ -36,6 +37,7 @@ registered = 2019-12-18T01:14:41.000Z
 
             ["2.27.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.27"
 
 ["2.27.0+2"]
@@ -57,6 +59,7 @@ registered = 2020-08-14T10:12:21.000Z
 
             ["2.27.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.27"
         [["2.27.0+2".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -84,6 +87,7 @@ registered = 2020-08-26T19:33:30.000Z
 
             ["2.27.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.27"
         [["2.27.0+3".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -111,6 +115,7 @@ registered = 2020-10-16T19:30:11.000Z
 
             ["2.27.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.27"
         [["2.27.0+4".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -138,6 +143,7 @@ registered = 2023-07-01T14:49:58.000Z
 
             ["2.39.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.39"
         [["2.39.0+0".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -165,6 +171,7 @@ registered = 2025-04-22T19:58:20.000Z
 
             ["2.44.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.44"
         [["2.44.0+0".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -192,6 +199,7 @@ registered = 2026-04-27T14:26:46.000Z
 
             ["2.47.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.47"
         [["2.47.0+0".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -219,6 +227,7 @@ registered = 2026-05-18T11:03:18.000Z
 
             ["2.47.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.47"
         [["2.47.0+1".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -246,6 +255,7 @@ registered = 2026-07-10T06:23:42.000Z
 
             ["2.47.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/xkeyboard-config"
+            provenance = "heuristic"
             version = "2.47"
         [["2.47.0+2".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"

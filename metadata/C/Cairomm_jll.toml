@@ -17,6 +17,7 @@ registered = 2023-05-04T17:57:25.000Z
 
             ["1.14.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairomm"
+            provenance = "repology-url"
             version = "1.14.4"
         [["1.14.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -44,6 +45,7 @@ registered = 2021-08-19T22:18:02.000Z
 
             ["1.16.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairomm"
+            provenance = "heuristic"
             version = "1.16.1"
         [["1.16.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -68,6 +70,7 @@ registered = 2023-05-04T18:35:19.000Z
 
             ["1.16.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cairomm"
+            provenance = "repology-url"
             version = "1.16.2"
         [["1.16.2+0".artifact_metadata.sources]]
         type = "directory"

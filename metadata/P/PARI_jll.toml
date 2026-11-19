@@ -17,4 +17,5 @@ registered = 2026-06-03T21:10:49.000Z
 
             ["2.17.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pari"
+            provenance = "repology-url"
             version = "2.17.3"

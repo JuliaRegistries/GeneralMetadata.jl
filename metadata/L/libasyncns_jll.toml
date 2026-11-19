@@ -17,4 +17,5 @@ registered = 2020-07-29T10:57:34.000Z
 
             ["0.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libasyncns"
+            provenance = "repology-url"
             version = "0.8"

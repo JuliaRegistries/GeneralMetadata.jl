@@ -17,6 +17,7 @@ registered = 2024-10-04T15:17:15.000Z
 
             ["7.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sirius"
+            provenance = "git-tag"
             version = "7.6.1"
 
 ["7.9.0+0"]
@@ -38,4 +39,5 @@ registered = 2025-11-06T17:42:31.000Z
 
             ["7.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sirius"
+            provenance = "git-tag"
             version = "7.9.0"

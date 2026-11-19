@@ -17,3 +17,4 @@ registered = 2020-02-24T14:33:14.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/terminal-image-viewer"
+            provenance = "repository"

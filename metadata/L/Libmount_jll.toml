@@ -21,6 +21,7 @@ registered = 2020-04-02T05:09:59.000Z
 
             ["2.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.34"
 
 ["2.34.0+2"]
@@ -42,6 +43,7 @@ registered = 2020-08-26T20:19:11.000Z
 
             ["2.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.34"
 
 ["2.34.0+3"]
@@ -63,6 +65,7 @@ registered = 2020-10-16T19:59:04.000Z
 
             ["2.34.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.34"
 
 ["2.35.0+0"]
@@ -84,6 +87,7 @@ registered = 2021-05-16T23:42:55.000Z
 
             ["2.35.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.35"
 
 ["2.39.3+0"]
@@ -105,6 +109,7 @@ registered = 2024-03-11T11:35:05.000Z
 
             ["2.39.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.39.3"
 
 ["2.40.0+0"]
@@ -126,6 +131,7 @@ registered = 2024-04-29T09:28:08.000Z
 
             ["2.40.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.40"
 
 ["2.40.1+0"]
@@ -147,6 +153,7 @@ registered = 2024-05-10T13:41:18.000Z
 
             ["2.40.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.40.1"
 
 ["2.40.2+0"]
@@ -168,6 +175,7 @@ registered = 2024-11-22T10:42:17.000Z
 
             ["2.40.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.40.2"
 
 ["2.40.2+1"]
@@ -189,6 +197,7 @@ registered = 2024-12-25T16:04:06.000Z
 
             ["2.40.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.40.2"
 
 ["2.40.2+2"]
@@ -210,6 +219,7 @@ registered = 2024-12-30T15:13:08.000Z
 
             ["2.40.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.40.2"
 
 ["2.40.3+0"]
@@ -231,6 +241,7 @@ registered = 2025-01-11T13:58:36.000Z
 
             ["2.40.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.40.3"
 
 ["2.41.0+0"]
@@ -252,6 +263,7 @@ registered = 2025-04-01T00:18:29.000Z
 
             ["2.41.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.41"
 
 ["2.41.1+0"]
@@ -273,6 +285,7 @@ registered = 2025-08-19T17:03:27.000Z
 
             ["2.41.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.41.1"
 
 ["2.41.2+0"]
@@ -294,6 +307,7 @@ registered = 2025-09-25T14:12:54.000Z
 
             ["2.41.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.41.2"
 
 ["2.41.3+0"]
@@ -315,6 +329,7 @@ registered = 2026-02-05T19:39:19.000Z
 
             ["2.41.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.41.3"
 
 ["2.42.0+0"]
@@ -336,6 +351,7 @@ registered = 2026-04-11T15:57:18.000Z
 
             ["2.42.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/util-linux"
+            provenance = "url-pattern"
             version = "2.42"
 
 ["2.42.2+0"]

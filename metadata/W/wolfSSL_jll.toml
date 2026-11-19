@@ -17,6 +17,7 @@ registered = 2021-09-30T16:37:23.000Z
 
             ["4.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wolfssl"
+            provenance = "tag-scheme"
             version = "4.8.1"
 
 ["5.7.2+0"]
@@ -38,6 +39,7 @@ registered = 2024-10-16T15:03:09.000Z
 
             ["5.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wolfssl"
+            provenance = "git-tag"
             version = "5.7.2"
         [["5.7.2+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -66,6 +68,7 @@ registered = 2025-12-18T09:08:05.000Z
 
             ["5.8.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wolfssl"
+            provenance = "git-tag"
             version = "5.8.4"
         [["5.8.4+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -91,6 +94,7 @@ registered = 2026-02-19T17:40:51.000Z
 
             ["5.8.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/wolfssl"
+            provenance = "git-tag"
             version = "5.8.4"
         [["5.8.4+1".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
@@ -116,6 +120,7 @@ registered = 2026-07-13T17:04:52.000Z
 
             ["5.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wolfssl"
+            provenance = "git-tag"
             version = "5.9.2"
         [["5.9.2+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"

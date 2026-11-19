@@ -17,6 +17,7 @@ registered = 2025-03-02T14:01:31.000Z
 
             ["0.10.15+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/igraph"
+            provenance = "repology-url"
             version = "0.10.15"
 
 ["1.0.0+0"]
@@ -38,4 +39,5 @@ registered = 2025-09-24T14:24:30.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/igraph"
+            provenance = "tag-scheme"
             version = "1.0.0"

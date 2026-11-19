@@ -17,6 +17,7 @@ registered = 2020-02-19T01:53:09.000Z
 
             ["1.9.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/aiger"
+            provenance = "repology-url"
             version = "1.9.9"
         [["1.9.9+0".artifact_metadata.sources]]
         type = "directory"

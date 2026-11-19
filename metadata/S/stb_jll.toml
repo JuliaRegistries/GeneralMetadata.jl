@@ -14,3 +14,7 @@ registered = 2022-10-25T20:00:38.000Z
         hash = "93a16ee3e866e719feec459f6f132cce932c5ec751eb38e3ec1975f911353d2e"
         type = "archive"
         url = "https://github.com/nothings/stb/archive/8b5f1f37b5b75829fc72d38e7b5d4bcbf8a26d55.zip"
+
+            ["0.0.20221025+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/stb"
+            provenance = "repository"

@@ -17,6 +17,7 @@ registered = 2023-04-14T19:47:46.000Z
 
             ["1.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/automake"
+            provenance = "heuristic"
             version = "1.16"
 
 ["1.16.5+0"]
@@ -38,6 +39,7 @@ registered = 2023-04-15T01:43:12.000Z
 
             ["1.16.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/automake"
+            provenance = "heuristic"
             version = "1.16.5"
 
 ["1.18.1+0"]
@@ -59,6 +61,7 @@ registered = 2026-04-22T21:58:43.000Z
 
             ["1.18.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/automake"
+            provenance = "repology-url"
             version = "1.18.1"
 
 ["1.19.0+0"]

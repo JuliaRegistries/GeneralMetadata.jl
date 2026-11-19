@@ -17,6 +17,7 @@ registered = 2021-12-14T16:17:07.000Z
 
             ["5.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/jemalloc"
+            provenance = "git-tag"
             version = "5.2.1"
 
 ["5.2.1+1"]
@@ -38,6 +39,7 @@ registered = 2022-02-06T23:02:32.000Z
 
             ["5.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/jemalloc"
+            provenance = "git-tag"
             version = "5.2.1"
 
 ["5.3.0+0"]
@@ -59,6 +61,7 @@ registered = 2022-05-06T19:37:32.000Z
 
             ["5.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/jemalloc"
+            provenance = "git-tag"
             version = "5.3.0"
 
 ["5.3.1+0"]
@@ -80,4 +83,5 @@ registered = 2026-07-25T10:15:24.000Z
 
             ["5.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/jemalloc"
+            provenance = "git-tag"
             version = "5.3.1"

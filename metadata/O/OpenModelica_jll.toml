@@ -17,6 +17,7 @@ registered = 2025-02-22T02:10:50.000Z
 
             ["1.24.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmodelica"
+            provenance = "git-tag"
             version = "1.24.3"
         [["1.24.3+0".artifact_metadata.sources]]
         package = "OpenCL_Headers_jll"
@@ -41,6 +42,7 @@ registered = 2025-02-24T15:35:47.000Z
 
             ["1.24.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmodelica"
+            provenance = "git-tag"
             version = "1.24.4"
         [["1.24.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -68,6 +70,7 @@ registered = 2025-05-14T23:11:01.000Z
 
             ["1.25.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmodelica"
+            provenance = "git-tag"
             version = "1.25.0"
         [["1.25.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -95,6 +98,7 @@ registered = 2025-08-23T15:13:33.000Z
 
             ["1.25.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmodelica"
+            provenance = "git-tag"
             version = "1.25.1"
         [["1.25.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -122,6 +126,7 @@ registered = 2025-11-21T10:47:07.000Z
 
             ["1.25.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openmodelica"
+            provenance = "git-tag"
             version = "1.25.5"
         [["1.25.5+0".artifact_metadata.sources]]
         type = "directory"

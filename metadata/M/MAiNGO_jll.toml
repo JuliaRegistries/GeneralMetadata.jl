@@ -17,4 +17,5 @@ registered = 2024-01-24T18:52:52.000Z
 
             ["0.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:maingopy"
+            provenance = "git-tag"
             version = "0.7.2"

@@ -17,6 +17,7 @@ registered = 2020-03-08T19:54:05.000Z
 
             ["2019.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xorgproto"
+            provenance = "heuristic"
             version = "2019.2"
 
 ["2019.2.0+1"]
@@ -38,6 +39,7 @@ registered = 2020-08-14T10:37:19.000Z
 
             ["2019.2.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xorgproto"
+            provenance = "heuristic"
             version = "2019.2"
 
 ["2019.2.0+2"]
@@ -59,6 +61,7 @@ registered = 2020-08-26T19:33:16.000Z
 
             ["2019.2.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/xorgproto"
+            provenance = "heuristic"
             version = "2019.2"
 
 ["2024.1.0+0"]
@@ -80,6 +83,7 @@ registered = 2024-12-13T23:13:37.000Z
 
             ["2024.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xorgproto"
+            provenance = "repology-url"
             version = "2024.1"
 
 ["2024.1.1+0"]
@@ -101,6 +105,7 @@ registered = 2025-12-09T17:12:45.000Z
 
             ["2024.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xorgproto"
+            provenance = "repology-url"
             version = "2024.1"
 
 ["2026.1.0+0"]

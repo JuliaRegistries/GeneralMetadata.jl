@@ -17,6 +17,7 @@ registered = 2020-06-08T21:18:19.000Z
 
             ["1.18.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdbm"
+            provenance = "repology-url"
             version = "1.18.1"
         [["1.18.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2020-10-20T19:25:19.000Z
 
             ["1.18.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdbm"
+            provenance = "repology-url"
             version = "1.18.1"
         [["1.18.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -65,6 +67,7 @@ registered = 2022-09-03T21:27:25.000Z
 
             ["1.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdbm"
+            provenance = "heuristic"
             version = "1.19"
         [["1.19.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -89,6 +92,7 @@ registered = 2026-01-28T16:01:37.000Z
 
             ["1.26.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gdbm"
+            provenance = "repology-url"
             version = "1.26"
         [["1.26.0+0".artifact_metadata.sources]]
         type = "directory"

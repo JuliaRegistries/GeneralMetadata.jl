@@ -17,4 +17,5 @@ registered = 2025-03-23T20:03:20.000Z
 
             ["13.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bat-cat"
+            provenance = "git-tag"
             version = "0.25.0"

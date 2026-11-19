@@ -17,6 +17,7 @@ registered = 2022-04-20T17:47:34.000Z
 
             ["2.1.11+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttree"
+            provenance = "repology-url"
             version = "2.1.11"
 
 ["2.1.11+1"]
@@ -38,4 +39,5 @@ registered = 2023-06-18T15:44:59.000Z
 
             ["2.1.11+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/fasttree"
+            provenance = "repology-url"
             version = "2.1.11"

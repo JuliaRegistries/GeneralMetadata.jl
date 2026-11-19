@@ -17,7 +17,8 @@ registered = 2022-05-12T17:49:19.000Z
 
             ["7.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencascade-occt"
-            version = "6_2"
+            provenance = "git-tag"
+            version = "7.6.2"
         [["7.6.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/cb088c7858dfb5698d4e0bfb6ab2180c92bbd351/O/OCCT/bundled"
@@ -44,7 +45,8 @@ registered = 2022-05-13T21:40:35.000Z
 
             ["7.6.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencascade-occt"
-            version = "6_2"
+            provenance = "git-tag"
+            version = "7.6.2"
         [["7.6.2+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/ced94d1538ab99551f9902b3d07759eae8888efa/O/OCCT/bundled"
@@ -71,7 +73,8 @@ registered = 2022-05-14T15:07:44.000Z
 
             ["7.6.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencascade-occt"
-            version = "6_2"
+            provenance = "git-tag"
+            version = "7.6.2"
         [["7.6.2+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e78f6ab09bfd166e82b8224c693c833e445fc30a/O/OCCT/bundled"
@@ -98,7 +101,8 @@ registered = 2024-09-05T09:22:10.000Z
 
             ["7.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencascade-occt"
-            version = "7_2"
+            provenance = "git-tag"
+            version = "7.7.2"
         [["7.7.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/60235b3f4b943dfd830a9c9385f5983a89fd9094/O/OCCT/bundled"
@@ -125,7 +129,8 @@ registered = 2025-11-20T00:19:52.000Z
 
             ["7.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencascade-occt"
-            version = "9_2"
+            provenance = "git-tag"
+            version = "7.9.2"
         [["7.9.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/60d0841f599f8d83118621d2952b3fdb2e4d5a14/O/OCCT/bundled"
@@ -152,7 +157,8 @@ registered = 2026-05-29T12:57:16.000Z
 
             ["7.9.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opencascade-occt"
-            version = "9_3"
+            provenance = "git-tag"
+            version = "7.9.3"
         [["7.9.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c197d870c5ae1a7e86694cb274128c3d435e17ae/O/OCCT/bundled"

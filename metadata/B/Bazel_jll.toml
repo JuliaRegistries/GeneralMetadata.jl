@@ -21,6 +21,7 @@ registered = 2025-04-29T01:35:48.000Z
 
             ["7.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "7.6.1"
 
 ["7.7.0+0"]
@@ -46,6 +47,7 @@ registered = 2025-11-06T03:27:34.000Z
 
             ["7.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "7.7.0"
 
 ["8.3.1+0"]
@@ -71,6 +73,7 @@ registered = 2025-08-12T20:32:43.000Z
 
             ["8.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "tag-scheme"
             version = "8.3.1"
 
 ["8.7.0+0"]
@@ -96,4 +99,5 @@ registered = 2026-06-29T16:54:44.000Z
 
             ["8.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bazel"
+            provenance = "repology-url"
             version = "8.7.0"

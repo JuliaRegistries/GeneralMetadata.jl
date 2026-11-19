@@ -16,6 +16,7 @@ registered = 2020-01-24T22:46:00.000Z
 
             ["2.0.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-image"
+            provenance = "heuristic"
             version = "2.0.5"
 
 ["2.0.5+1"]
@@ -36,6 +37,7 @@ registered = 2020-01-25T19:09:20.000Z
 
             ["2.0.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-image"
+            provenance = "heuristic"
             version = "2.0.5"
 
 ["2.6.2+0"]
@@ -57,6 +59,7 @@ registered = 2022-09-17T19:45:28.000Z
 
             ["2.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/sdl2-image"
+            provenance = "heuristic"
             version = "2.6.2"
 
 ["2.6.2+1"]
@@ -75,3 +78,8 @@ registered = 2022-11-07T10:28:19.000Z
         hash = "a861543ab78f5d5e18e6af43964ce8df60cb30b3"
         type = "git"
         url = "https://github.com/libsdl-org/SDL_image.git"
+
+            ["2.6.2+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/sdl2-image"
+            provenance = "git-tag"
+            version = "2.6.2"

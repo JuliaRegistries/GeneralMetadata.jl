@@ -17,6 +17,7 @@ registered = 2023-12-22T15:06:24.000Z
 
             ["0.118.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hugo-sitegen"
+            provenance = "git-tag"
             version = "0.118.2"
 
 ["0.163.3+0"]
@@ -38,4 +39,5 @@ registered = 2026-07-22T01:35:54.000Z
 
             ["0.163.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hugo-sitegen"
+            provenance = "git-tag"
             version = "0.163.3"

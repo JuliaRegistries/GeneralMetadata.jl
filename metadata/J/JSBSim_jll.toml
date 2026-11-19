@@ -14,6 +14,10 @@ registered = 2021-02-19T20:35:21.000Z
         hash = "9bc866713431d3296441697a91517b32c9c017d3"
         type = "git"
         url = "https://github.com/JSBSim-Team/jsbsim.git"
+
+            ["1.1.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/jsbsim"
+            provenance = "repository"
         [["1.1.5+0".artifact_metadata.sources]]
         package = "libjulia_jll"
         type = "builddependency"
@@ -34,6 +38,11 @@ registered = 2022-09-25T15:56:07.000Z
         hash = "133fcff53ae15abcbbbd4d06390e1b59ab76e5c6"
         type = "git"
         url = "https://github.com/JSBSim-Team/jsbsim.git"
+
+            ["1.1.12+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/jsbsim"
+            provenance = "git-tag"
+            version = "1.1.12"
         [["1.1.12+0".artifact_metadata.sources]]
         package = "libjulia_jll"
         type = "builddependency"
@@ -54,6 +63,11 @@ registered = 2022-11-18T15:31:10.000Z
         hash = "133fcff53ae15abcbbbd4d06390e1b59ab76e5c6"
         type = "git"
         url = "https://github.com/JSBSim-Team/jsbsim.git"
+
+            ["1.1.12+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/jsbsim"
+            provenance = "git-tag"
+            version = "1.1.12"
         [["1.1.12+1".artifact_metadata.sources]]
         package = "libjulia_jll"
         type = "builddependency"

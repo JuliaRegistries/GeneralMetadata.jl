@@ -17,6 +17,7 @@ registered = 2020-10-29T11:43:20.000Z
 
             ["1.15.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openresty"
+            provenance = "heuristic"
             version = "1.15.8.3"
         [["1.15.8+0".artifact_metadata.sources]]
         hash = "0b8e7465dc5e98c757cc3650a20a7843ee4c3edf50aaf60bb33fd879690d2c73"
@@ -25,6 +26,7 @@ registered = 2020-10-29T11:43:20.000Z
 
             ["1.15.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
+            provenance = "heuristic"
             version = "8.43"
         [["1.15.8+0".artifact_metadata.sources]]
         hash = "14cb464efe7ac6b54799b34456bd69558a749a4931ecfd9cf9f71d7881cac7bc"
@@ -33,6 +35,7 @@ registered = 2020-10-29T11:43:20.000Z
 
             ["1.15.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openssl"
+            provenance = "heuristic"
             version = "1.0.2t"
         [["1.15.8+0".artifact_metadata.sources]]
         hash = "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1"
@@ -41,6 +44,7 @@ registered = 2020-10-29T11:43:20.000Z
 
             ["1.15.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zlib"
+            provenance = "repology-url"
             version = "1.2.11"
 
 ["1.19.3+0"]
@@ -62,6 +66,7 @@ registered = 2021-05-15T18:08:33.000Z
 
             ["1.19.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openresty"
+            provenance = "heuristic"
             version = "1.19.3.1"
         [["1.19.3+0".artifact_metadata.sources]]
         hash = "0b8e7465dc5e98c757cc3650a20a7843ee4c3edf50aaf60bb33fd879690d2c73"
@@ -70,6 +75,7 @@ registered = 2021-05-15T18:08:33.000Z
 
             ["1.19.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
+            provenance = "heuristic"
             version = "8.43"
         [["1.19.3+0".artifact_metadata.sources]]
         hash = "14cb464efe7ac6b54799b34456bd69558a749a4931ecfd9cf9f71d7881cac7bc"
@@ -78,6 +84,7 @@ registered = 2021-05-15T18:08:33.000Z
 
             ["1.19.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openssl"
+            provenance = "heuristic"
             version = "1.0.2t"
         [["1.19.3+0".artifact_metadata.sources]]
         hash = "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1"
@@ -86,6 +93,7 @@ registered = 2021-05-15T18:08:33.000Z
 
             ["1.19.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zlib"
+            provenance = "repology-url"
             version = "1.2.11"
 
 ["1.19.9+0"]
@@ -107,6 +115,7 @@ registered = 2021-10-05T23:09:53.000Z
 
             ["1.19.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openresty"
+            provenance = "heuristic"
             version = "1.19.9.1"
         [["1.19.9+0".artifact_metadata.sources]]
         hash = "0b8e7465dc5e98c757cc3650a20a7843ee4c3edf50aaf60bb33fd879690d2c73"
@@ -115,6 +124,7 @@ registered = 2021-10-05T23:09:53.000Z
 
             ["1.19.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
+            provenance = "heuristic"
             version = "8.43"
         [["1.19.9+0".artifact_metadata.sources]]
         hash = "0b7a3e5e59c34827fe0c3a74b7ec8baef302b98fa80088d7f9153aa16fa76bd1"
@@ -123,6 +133,7 @@ registered = 2021-10-05T23:09:53.000Z
 
             ["1.19.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openssl"
+            provenance = "heuristic"
             version = "1.1.1l"
         [["1.19.9+0".artifact_metadata.sources]]
         hash = "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1"
@@ -131,6 +142,7 @@ registered = 2021-10-05T23:09:53.000Z
 
             ["1.19.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zlib"
+            provenance = "repology-url"
             version = "1.2.11"
 
 ["1.21.4+0"]
@@ -152,6 +164,7 @@ registered = 2022-07-05T18:31:59.000Z
 
             ["1.21.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openresty"
+            provenance = "heuristic"
             version = "1.21.4.1"
         [["1.21.4+0".artifact_metadata.sources]]
         hash = "4dae6fdcd2bb0bb6c37b5f97c33c2be954da743985369cddac3546e3218bffb8"
@@ -160,6 +173,7 @@ registered = 2022-07-05T18:31:59.000Z
 
             ["1.21.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
+            provenance = "repology-url"
             version = "8.45"
         [["1.21.4+0".artifact_metadata.sources]]
         hash = "bf61b62aaa66c7c7639942a94de4c9ae8280c08f17d4eac2e44644d9fc8ace6f"
@@ -168,6 +182,7 @@ registered = 2022-07-05T18:31:59.000Z
 
             ["1.21.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openssl"
+            provenance = "heuristic"
             version = "1.1.1p"
         [["1.21.4+0".artifact_metadata.sources]]
         hash = "91844808532e5ce316b3c010929493c0244f3d37593afd6de04f71821d5136d9"
@@ -176,6 +191,7 @@ registered = 2022-07-05T18:31:59.000Z
 
             ["1.21.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zlib"
+            provenance = "heuristic"
             version = "1.2.12"
 
 ["1.27.1+0"]
@@ -197,6 +213,7 @@ registered = 2024-10-28T18:43:00.000Z
 
             ["1.27.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openresty"
+            provenance = "heuristic"
             version = "1.27.1.1"
         [["1.27.1+0".artifact_metadata.sources]]
         hash = "4dae6fdcd2bb0bb6c37b5f97c33c2be954da743985369cddac3546e3218bffb8"
@@ -205,6 +222,7 @@ registered = 2024-10-28T18:43:00.000Z
 
             ["1.27.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre"
+            provenance = "repology-url"
             version = "8.45"
         [["1.27.1+0".artifact_metadata.sources]]
         hash = "23c666d0edf20f14249b3d8f0368acaee9ab585b09e1de82107c66e1f3ec9533"
@@ -213,6 +231,7 @@ registered = 2024-10-28T18:43:00.000Z
 
             ["1.27.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openssl"
+            provenance = "tag-scheme"
             version = "3.0.15"
         [["1.27.1+0".artifact_metadata.sources]]
         hash = "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23"
@@ -221,6 +240,7 @@ registered = 2024-10-28T18:43:00.000Z
 
             ["1.27.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zlib"
+            provenance = "repology-url"
             version = "1.3.1"
 
 ["1.29.203+0"]
@@ -242,6 +262,7 @@ registered = 2026-04-26T22:23:53.000Z
 
             ["1.29.203+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openresty"
+            provenance = "heuristic"
             version = "1.29.2.3"
         [["1.29.203+0".artifact_metadata.sources]]
         hash = "47fe8c99461250d42f89e6e8fdaeba9da057855d06eb7fc08d9ca03fd08d7bc7"
@@ -250,6 +271,7 @@ registered = 2026-04-26T22:23:53.000Z
 
             ["1.29.203+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/pcre2"
+            provenance = "repology-url"
             version = "10.47"
         [["1.29.203+0".artifact_metadata.sources]]
         hash = "b28c91532a8b65a1f983b4c28b7488174e4a01008e29ce8e69bd789f28bc2a89"
@@ -258,6 +280,7 @@ registered = 2026-04-26T22:23:53.000Z
 
             ["1.29.203+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openssl"
+            provenance = "tag-scheme"
             version = "3.5.5"
         [["1.29.203+0".artifact_metadata.sources]]
         hash = "bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16"
@@ -266,4 +289,5 @@ registered = 2026-04-26T22:23:53.000Z
 
             ["1.29.203+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zlib"
+            provenance = "repology-url"
             version = "1.3.2"

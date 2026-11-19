@@ -29,6 +29,7 @@ registered = 2020-05-07T19:52:03.000Z
 
             ["1.0.5+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "repository"
 
 ["1.0.5+4"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+3/FriBidi.v1.0.5.x86_64-w64-mingw32.tar.gz"]
@@ -49,6 +50,7 @@ registered = 2020-08-03T20:21:44.000Z
 
             ["1.0.5+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "repository"
 
 ["1.0.5+5"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-w64-mingw32.tar.gz"]
@@ -69,6 +71,7 @@ registered = 2020-08-26T18:22:21.000Z
 
             ["1.0.5+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "repository"
 
 ["1.0.5+6"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.5+5/FriBidi.v1.0.5.x86_64-w64-mingw32.tar.gz"]
@@ -89,6 +92,7 @@ registered = 2020-10-10T01:36:49.000Z
 
             ["1.0.5+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "repository"
 
 ["1.0.10+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/FriBidi_jll.jl/releases/download/FriBidi-v1.0.10+0/FriBidi.v1.0.10.x86_64-w64-mingw32.tar.gz"]
@@ -109,6 +113,7 @@ registered = 2021-05-25T21:11:35.000Z
 
             ["1.0.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "git-tag"
             version = "1.0.10"
 
 ["1.0.14+0"]
@@ -130,6 +135,7 @@ registered = 2024-05-03T17:50:03.000Z
 
             ["1.0.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "git-tag"
             version = "1.0.14"
 
 ["1.0.16+0"]
@@ -151,6 +157,7 @@ registered = 2024-12-17T21:03:59.000Z
 
             ["1.0.16+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "git-tag"
             version = "1.0.16"
 
 ["1.0.17+0"]
@@ -172,6 +179,7 @@ registered = 2025-04-04T23:11:21.000Z
 
             ["1.0.17+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fribidi"
+            provenance = "git-tag"
             version = "1.0.16"
 
 ["1.0.18+0"]

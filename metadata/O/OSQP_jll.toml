@@ -51,6 +51,7 @@ registered = 2021-12-05T11:29:13.000Z
 
             ["0.600.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/osqp"
+            provenance = "git-tag"
             version = "0.6.2"
 
 ["100.0.0+0"]
@@ -72,4 +73,5 @@ registered = 2026-07-15T17:11:18.000Z
 
             ["100.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/osqp"
+            provenance = "git-tag"
             version = "1.0.0"

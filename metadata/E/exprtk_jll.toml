@@ -14,3 +14,8 @@ registered = 2025-05-27T14:03:43.000Z
         hash = "a4b17d543f072d2e3ba564e4bc5c3a0d2b05c338"
         type = "git"
         url = "https://github.com/ArashPartow/exprtk"
+
+            ["0.0.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/exprtk"
+            provenance = "git-tag"
+            version = "0.0.3"

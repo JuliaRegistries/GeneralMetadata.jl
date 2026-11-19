@@ -17,6 +17,7 @@ registered = 2022-01-05T00:44:52.000Z
 
             ["0.7.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tracy"
+            provenance = "tag-scheme"
             version = "0.7.8"
         [["0.7.8+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -45,6 +46,11 @@ registered = 2023-04-10T19:57:27.000Z
         hash = "897aec5b062664d2485f4f9a213715d2e527e0ca"
         type = "git"
         url = "https://github.com/wolfpld/tracy.git"
+
+            ["0.9.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tracy"
+            provenance = "git-tag"
+            version = "0.9.1"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "d3feee3ef9c6016b526e1901013f264467bb927865a03422a9cb925991cc9783"
         type = "archive"
@@ -69,6 +75,11 @@ registered = 2023-05-03T14:27:10.000Z
         hash = "897aec5b062664d2485f4f9a213715d2e527e0ca"
         type = "git"
         url = "https://github.com/wolfpld/tracy.git"
+
+            ["0.9.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tracy"
+            provenance = "git-tag"
+            version = "0.9.1"
         [["0.9.1+1".artifact_metadata.sources]]
         hash = "d3feee3ef9c6016b526e1901013f264467bb927865a03422a9cb925991cc9783"
         type = "archive"
@@ -93,6 +104,11 @@ registered = 2023-05-17T13:11:56.000Z
         hash = "897aec5b062664d2485f4f9a213715d2e527e0ca"
         type = "git"
         url = "https://github.com/wolfpld/tracy.git"
+
+            ["0.9.1+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tracy"
+            provenance = "git-tag"
+            version = "0.9.1"
         [["0.9.1+2".artifact_metadata.sources]]
         hash = "d3feee3ef9c6016b526e1901013f264467bb927865a03422a9cb925991cc9783"
         type = "archive"
@@ -117,6 +133,11 @@ registered = 2023-08-20T04:32:22.000Z
         hash = "897aec5b062664d2485f4f9a213715d2e527e0ca"
         type = "git"
         url = "https://github.com/wolfpld/tracy.git"
+
+            ["0.9.1+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tracy"
+            provenance = "git-tag"
+            version = "0.9.1"
         [["0.9.1+3".artifact_metadata.sources]]
         hash = "d3feee3ef9c6016b526e1901013f264467bb927865a03422a9cb925991cc9783"
         type = "archive"
@@ -141,6 +162,10 @@ registered = 2025-12-19T22:43:55.000Z
         hash = "6cd7751479d4efd5c35f39e856891570a89dd060"
         type = "git"
         url = "https://github.com/wolfpld/tracy.git"
+
+            ["0.13.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tracy"
+            provenance = "repository"
         [["0.13.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0c7709a682422fc16f96fbf273823dc611add4ed/T/TracyProfiler/bundled"
@@ -168,6 +193,10 @@ registered = 2025-12-20T14:09:48.000Z
         hash = "6cd7751479d4efd5c35f39e856891570a89dd060"
         type = "git"
         url = "https://github.com/wolfpld/tracy.git"
+
+            ["0.13.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tracy"
+            provenance = "repository"
         [["0.13.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d6183dbfc45a1336eb4a7b10c66e5de03b401dd7/T/TracyProfiler/bundled"

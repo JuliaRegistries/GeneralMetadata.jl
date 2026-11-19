@@ -17,4 +17,5 @@ registered = 2021-04-25T16:16:02.000Z
 
             ["1.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libudfread"
+            provenance = "repology-url"
             version = "1.1.2"

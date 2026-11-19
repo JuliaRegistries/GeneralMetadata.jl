@@ -17,6 +17,7 @@ registered = 2020-08-18T19:36:14.000Z
 
             ["1.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/librdkafka"
+            provenance = "heuristic"
             version = "1.5.0"
 
 ["1.8.2+0"]
@@ -38,6 +39,7 @@ registered = 2022-04-22T08:29:58.000Z
 
             ["1.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/librdkafka"
+            provenance = "heuristic"
             version = "1.8.2"
 
 ["2.0.2+0"]
@@ -59,6 +61,7 @@ registered = 2023-03-19T15:29:20.000Z
 
             ["2.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/librdkafka"
+            provenance = "git-tag"
             version = "2.0.2"
 
 ["2.0.3+0"]
@@ -80,6 +83,7 @@ registered = 2023-03-31T00:45:28.000Z
 
             ["2.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/librdkafka"
+            provenance = "git-tag"
             version = "2.0.2"
 
 ["2.3.0+0"]
@@ -101,6 +105,7 @@ registered = 2023-10-27T22:18:19.000Z
 
             ["2.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/librdkafka"
+            provenance = "git-tag"
             version = "2.3.0"
 
 ["2.3.0+1"]
@@ -122,6 +127,7 @@ registered = 2023-10-29T16:06:27.000Z
 
             ["2.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/librdkafka"
+            provenance = "git-tag"
             version = "2.3.0"
         [["2.3.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -146,6 +152,7 @@ registered = 2026-02-21T01:28:51.000Z
 
             ["2.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/librdkafka"
+            provenance = "git-tag"
             version = "2.13.0"
         [["2.13.0+0".artifact_metadata.sources]]
         type = "directory"

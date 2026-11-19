@@ -17,6 +17,7 @@ registered = 2021-06-20T23:39:17.000Z
 
             ["1.1.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mtdev"
+            provenance = "repology-url"
             version = "1.1.6"
 
 ["1.1.7+0"]
@@ -38,4 +39,5 @@ registered = 2025-06-09T15:45:59.000Z
 
             ["1.1.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mtdev"
+            provenance = "repology-url"
             version = "1.1.7"

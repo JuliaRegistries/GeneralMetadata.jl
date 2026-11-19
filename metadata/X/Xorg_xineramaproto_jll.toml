@@ -16,6 +16,7 @@ registered = 2019-10-14T20:53:07.000Z
 
             ["1.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xineramaproto"
+            provenance = "repology-url"
             version = "1.2.1"
 
 ["1.2.1+1"]
@@ -37,4 +38,5 @@ registered = 2023-05-20T17:13:19.000Z
 
             ["1.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xineramaproto"
+            provenance = "repology-url"
             version = "1.2.1"

@@ -17,4 +17,5 @@ registered = 2021-06-15T20:23:34.000Z
 
             ["0.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gocloc"
+            provenance = "git-tag"
             version = "0.4.1"

@@ -1345,3 +1345,7 @@ registered = 2026-10-30T17:19:10.000Z
 ["13.5.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+0/CUDA_Driver.v13.5.0.aarch64-linux-gnu-tegra+35.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+0/CUDA_Driver.v13.5.0.aarch64-linux-gnu-tegra+36.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+0/CUDA_Driver.v13.5.0.aarch64-linux-gnu-tegra+none.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+0/CUDA_Driver.v13.5.0.x86_64-linux-gnu-tegra+none.tar.gz"]
 registered = 2026-11-05T08:28:55.000Z
+
+["13.5.0+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+1/CUDA_Driver.v13.5.0.aarch64-linux-gnu-tegra+35.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+1/CUDA_Driver.v13.5.0.aarch64-linux-gnu-tegra+36.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+1/CUDA_Driver.v13.5.0.aarch64-linux-gnu-tegra+none.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl/releases/download/CUDA_Driver-v13.5.0+1/CUDA_Driver.v13.5.0.x86_64-linux-gnu-tegra+none.tar.gz"]
+registered = 2026-11-18T12:19:47.000Z

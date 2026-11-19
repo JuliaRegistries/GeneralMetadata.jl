@@ -17,6 +17,7 @@ registered = 2021-01-30T01:17:45.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/duf"
+            provenance = "git-tag"
             version = "0.5.0"
 
 ["0.8.0+0"]
@@ -38,4 +39,5 @@ registered = 2022-02-07T15:49:09.000Z
 
             ["0.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/duf"
+            provenance = "git-tag"
             version = "0.8.0"

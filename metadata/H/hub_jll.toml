@@ -17,4 +17,5 @@ registered = 2020-02-18T05:39:24.000Z
 
             ["2.14.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hub"
+            provenance = "tag-scheme"
             version = "2.14.1"

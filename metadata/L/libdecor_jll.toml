@@ -17,6 +17,7 @@ registered = 2024-07-09T05:54:16.000Z
 
             ["0.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libdecor"
+            provenance = "repology-url"
             version = "0.2.2"
         [["0.2.2+0".artifact_metadata.sources]]
         package = "Wayland_protocols_jll"

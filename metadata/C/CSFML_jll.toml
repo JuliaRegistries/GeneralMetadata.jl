@@ -21,4 +21,5 @@ registered = 2021-05-11T01:14:06.000Z
 
             ["2.5.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/csfml"
+            provenance = "git-tag"
             version = "2.5"

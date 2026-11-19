@@ -17,6 +17,7 @@ registered = 2025-04-11T23:24:39.000Z
 
             ["1.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/nghttp3"
+            provenance = "git-tag"
             version = "1.8.0"
         [["1.8.0+0".artifact_metadata.sources]]
         package = "LLVMCompilerRT_jll"

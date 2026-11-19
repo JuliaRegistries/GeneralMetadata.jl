@@ -34,3 +34,7 @@ registered = 2026-08-01T18:18:00.000Z
         hash = "ab56a4be6c37fce27b87b7867865f71dba035d55"
         type = "git"
         url = "https://git.renater.fr/anonscm/git/jil/jil.git"
+
+["0.1.2+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-linux-musl.tar.gz"]
+registered = 2026-11-18T12:07:41.000Z

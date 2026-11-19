@@ -16,5 +16,6 @@ registered = 2021-12-03T03:02:02.000Z
         url = "https://github.com/sctplab/usrsctp.git"
 
             ["0.9.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libusrsctp"
+            project = "repology.org/project/usrsctp"
+            provenance = "git-tag"
             version = "0.9.5.0"

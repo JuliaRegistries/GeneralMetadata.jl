@@ -14,3 +14,8 @@ registered = 2023-05-01T12:26:17.000Z
         hash = "9145f963d80d6a02f0f96a47758050a89184a3ed"
         type = "git"
         url = "https://github.com/martinus/robin-hood-hashing"
+
+            ["3.11.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/robin-hood-hashing"
+            provenance = "git-tag"
+            version = "3.11.5"

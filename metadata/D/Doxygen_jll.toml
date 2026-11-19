@@ -17,7 +17,8 @@ registered = 2021-11-09T00:00:01.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/doxygen"
-            version = "9_2"
+            provenance = "tag-scheme"
+            version = "1.9.2"
         [["1.9.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/38dc13f68f5d66932a23952860245ba2255d8418/D/Doxygen/bundled"
@@ -41,7 +42,8 @@ registered = 2024-03-17T21:41:47.000Z
 
             ["1.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/doxygen"
-            version = "10_0"
+            provenance = "tag-scheme"
+            version = "1.10.0"
         [["1.10.0+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"

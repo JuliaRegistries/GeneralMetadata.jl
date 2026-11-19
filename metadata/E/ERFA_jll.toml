@@ -17,6 +17,7 @@ registered = 2020-03-31T22:02:19.000Z
 
             ["1.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/erfa"
+            provenance = "tag-scheme"
             version = "1.7.0"
 
 ["1.7.1+0"]
@@ -42,6 +43,7 @@ registered = 2021-02-21T16:27:15.000Z
 
             ["1.7.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/erfa"
+            provenance = "tag-scheme"
             version = "1.7.2"
 
 ["1.7.3+0"]
@@ -63,6 +65,7 @@ registered = 2021-04-06T09:56:03.000Z
 
             ["1.7.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/erfa"
+            provenance = "tag-scheme"
             version = "1.7.3"
 
 ["2.0.0+0"]
@@ -84,4 +87,5 @@ registered = 2021-05-16T20:35:29.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/erfa"
+            provenance = "repology-url"
             version = "2.0.0"

@@ -17,6 +17,7 @@ registered = 2021-04-01T13:54:45.000Z
 
             ["0.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libbpf"
+            provenance = "tag-scheme"
             version = "0.3"
         [["0.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2021-05-25T14:04:25.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libbpf"
+            provenance = "tag-scheme"
             version = "0.4.0"
         [["0.4.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -65,6 +67,7 @@ registered = 2021-09-29T22:39:04.000Z
 
             ["0.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libbpf"
+            provenance = "repology-url"
             version = "0.5.0"
         [["0.5.0+0".artifact_metadata.sources]]
         type = "directory"

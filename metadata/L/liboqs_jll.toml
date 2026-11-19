@@ -17,4 +17,5 @@ registered = 2025-09-30T09:46:02.000Z
 
             ["0.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/liboqs"
+            provenance = "git-tag"
             version = "0.14.0"

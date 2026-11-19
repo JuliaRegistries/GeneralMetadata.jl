@@ -192,7 +192,8 @@ registered = 2023-12-15T23:30:29.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.19.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.19.4-1"
         [["2.19.4+0".artifact_metadata.sources]]
         package = "CUDA_SDK_jll"
@@ -216,7 +217,8 @@ registered = 2024-01-19T22:39:52.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.19.4+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.19.4-1"
         [["2.19.4+1".artifact_metadata.sources]]
         type = "directory"
@@ -243,7 +245,8 @@ registered = 2025-05-21T22:25:03.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.26.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.26.5-1"
         [["2.26.5+0".artifact_metadata.sources]]
         hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"
@@ -307,7 +310,8 @@ registered = 2025-05-30T11:38:58.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.26.5+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.26.5-1"
         [["2.26.5+1".artifact_metadata.sources]]
         hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"
@@ -379,7 +383,8 @@ registered = 2025-12-17T23:09:15.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.27.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.27.7-1"
         [["2.27.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -450,7 +455,8 @@ registered = 2025-09-16T10:06:48.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.28.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.28.3-1"
         [["2.28.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -513,7 +519,8 @@ registered = 2026-07-02T23:48:15.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.28.9+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.28.9-1"
         [["2.28.9+0".artifact_metadata.sources]]
         type = "directory"
@@ -584,7 +591,8 @@ registered = 2026-07-11T16:09:54.000Z
         url = "https://github.com/NVIDIA/nccl.git"
 
             ["2.30.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nccl4py"
+            project = "repology.org/project/nccl"
+            provenance = "git-tag"
             version = "2.30.7-1"
         [["2.30.7+0".artifact_metadata.sources]]
         type = "directory"

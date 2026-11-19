@@ -17,4 +17,5 @@ registered = 2023-04-07T02:41:46.000Z
 
             ["2.74.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glib-networking"
+            provenance = "heuristic"
             version = "2.74.0"

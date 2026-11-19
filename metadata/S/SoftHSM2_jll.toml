@@ -17,4 +17,5 @@ registered = 2024-04-09T16:41:08.000Z
 
             ["2.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/softhsm"
+            provenance = "git-tag"
             version = "2.6.1"

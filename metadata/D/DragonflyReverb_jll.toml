@@ -17,4 +17,5 @@ registered = 2026-09-22T16:14:03.000Z
 
             ["3.2.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/dragonfly-reverb-plugins"
+            provenance = "repology-url"
             version = "3.2.10"

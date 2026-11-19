@@ -14,6 +14,11 @@ registered = 2026-09-22T16:11:13.000Z
         hash = "64cb54aa983a4caf1526060283fd87201c06ec49"
         type = "git"
         url = "https://github.com/zamaudio/zam-plugins.git"
+
+            ["4.5.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zam-plugins"
+            provenance = "git-tag"
+            version = "4.5"
         [["4.5.0+0".artifact_metadata.sources]]
         hash = "461ea6d45d842d273ae4d53ad5490e43459419cc"
         type = "git"

@@ -16,6 +16,7 @@ registered = 2019-09-18T02:59:09.000Z
 
             ["1.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -40,6 +41,7 @@ registered = 2020-04-04T05:46:10.000Z
 
             ["1.17.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -64,6 +66,7 @@ registered = 2020-08-14T09:55:22.000Z
 
             ["1.17.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -88,6 +91,7 @@ registered = 2020-08-26T18:22:35.000Z
 
             ["1.17.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -112,6 +116,7 @@ registered = 2020-10-17T01:12:45.000Z
 
             ["1.17.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "url-pattern"
             version = "1.17.0"
         [["1.17.0+4".artifact_metadata.sources]]
         type = "directory"
@@ -136,6 +141,7 @@ registered = 2021-06-19T22:21:47.000Z
 
             ["1.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "url-pattern"
             version = "1.19.0"
 
 ["1.21.0+0"]
@@ -157,6 +163,7 @@ registered = 2022-12-28T16:13:25.000Z
 
             ["1.21.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "heuristic"
             version = "1.21.0"
 
 ["1.21.0+1"]
@@ -178,6 +185,7 @@ registered = 2023-09-20T12:07:08.000Z
 
             ["1.21.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "heuristic"
             version = "1.21.0"
 
 ["1.21.0+2"]
@@ -199,6 +207,7 @@ registered = 2024-12-17T21:04:41.000Z
 
             ["1.21.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "heuristic"
             version = "1.21.0"
 
 ["1.23.1+0"]
@@ -220,6 +229,7 @@ registered = 2025-04-03T20:36:29.000Z
 
             ["1.23.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "heuristic"
             version = "1.23.1"
 
 ["1.23.1+1"]
@@ -241,6 +251,7 @@ registered = 2025-06-26T14:33:57.000Z
 
             ["1.23.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "heuristic"
             version = "1.23.1"
 
 ["1.23.1+2"]
@@ -262,6 +273,7 @@ registered = 2025-07-04T11:19:14.000Z
 
             ["1.23.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "heuristic"
             version = "1.23.1"
 
 ["1.24.0+0"]
@@ -283,4 +295,5 @@ registered = 2025-07-09T23:44:35.000Z
 
             ["1.24.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/wayland"
+            provenance = "heuristic"
             version = "1.24.0"

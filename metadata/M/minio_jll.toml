@@ -17,6 +17,7 @@ registered = 2022-07-10T19:34:56.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/minio"
+            provenance = "git-tag"
             version = "2022-07-08T00-05-23Z"
         [["1.0.0+0".artifact_metadata.sources]]
         hash = "6a6710fa637aa4bd95a83ad43dd0e5a2ed223adeb18e45148d339aa8ca59cddc"
@@ -42,6 +43,7 @@ registered = 2022-09-23T10:32:25.000Z
 
             ["1.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/minio"
+            provenance = "git-tag"
             version = "2022-09-22T18-57-27Z"
         [["1.0.0+1".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -67,6 +69,7 @@ registered = 2025-08-04T19:52:41.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/minio"
+            provenance = "git-tag"
             version = "2025-07-23T15-54-02Z"
         [["2.0.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"

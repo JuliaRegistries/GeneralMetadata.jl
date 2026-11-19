@@ -21,6 +21,7 @@ registered = 2025-10-09T22:12:18.000Z
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "11.0.1"
         [["6.8.2+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"

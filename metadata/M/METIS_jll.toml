@@ -80,6 +80,7 @@ registered = 2019-12-15T19:15:22.000Z
 
             ["5.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -103,6 +104,7 @@ registered = 2020-01-09T19:33:52.000Z
 
             ["5.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -127,6 +129,7 @@ registered = 2020-04-03T02:34:32.000Z
 
             ["5.1.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -151,6 +154,7 @@ registered = 2020-04-07T22:17:49.000Z
 
             ["5.1.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -175,6 +179,7 @@ registered = 2020-06-11T03:13:02.000Z
 
             ["5.1.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.0+4".artifact_metadata.sources]]
         type = "directory"
@@ -199,6 +204,7 @@ registered = 2020-11-01T16:30:18.000Z
 
             ["5.1.0+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.0+5".artifact_metadata.sources]]
         type = "directory"
@@ -223,6 +229,7 @@ registered = 2021-12-02T23:09:33.000Z
 
             ["5.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -247,6 +254,7 @@ registered = 2022-11-04T23:22:29.000Z
 
             ["5.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/metis"
+            provenance = "repology-url"
             version = "5.1.0"
         [["5.1.2+0".artifact_metadata.sources]]
         type = "directory"

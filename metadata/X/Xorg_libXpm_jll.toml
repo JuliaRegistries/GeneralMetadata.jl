@@ -17,6 +17,7 @@ yanked = 2020-05-07T22:19:13.000Z
 
             ["3.5.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxpm"
+            provenance = "heuristic"
             version = "3.5.13"
 
 ["3.5.13+1"]
@@ -38,6 +39,7 @@ registered = 2020-02-09T01:37:02.000Z
 
             ["3.5.13+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxpm"
+            provenance = "heuristic"
             version = "3.5.13"
         [["3.5.13+1".artifact_metadata.sources]]
         package = "Xorg_xproto_jll"
@@ -62,6 +64,7 @@ registered = 2020-04-17T19:35:19.000Z
 
             ["3.5.13+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxpm"
+            provenance = "heuristic"
             version = "3.5.13"
         [["3.5.13+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -86,6 +89,7 @@ registered = 2025-08-21T20:44:07.000Z
 
             ["3.5.17+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxpm"
+            provenance = "repology-url"
             version = "3.5.17"
         [["3.5.17+0".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -113,6 +117,7 @@ registered = 2026-03-21T02:31:29.000Z
 
             ["3.5.18+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxpm"
+            provenance = "repology-url"
             version = "3.5.18"
         [["3.5.18+0".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"
@@ -140,6 +145,7 @@ registered = 2026-04-27T14:26:29.000Z
 
             ["3.5.19+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxpm"
+            provenance = "heuristic"
             version = "3.5.19"
         [["3.5.19+0".artifact_metadata.sources]]
         package = "Xorg_util_macros_jll"

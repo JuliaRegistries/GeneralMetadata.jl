@@ -17,4 +17,5 @@ registered = 2021-08-16T10:36:14.000Z
 
             ["2.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/tinyxml"
+            provenance = "repology-url"
             version = "2.6.2"

@@ -17,6 +17,7 @@ registered = 2020-12-30T01:39:45.000Z
 
             ["4.7.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "repository"
 
 ["4.7.1+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+0/gmsh.v4.7.1.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -37,6 +38,7 @@ registered = 2021-01-09T21:19:45.000Z
 
             ["4.7.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "repository"
 
 ["4.7.1+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.7.1+2/gmsh.v4.7.1.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -57,6 +59,7 @@ registered = 2021-02-10T14:46:35.000Z
 
             ["4.7.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "repository"
 
 ["4.8.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/gmsh_jll.jl/releases/download/gmsh-v4.8.1+0/gmsh.v4.8.1.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -77,6 +80,7 @@ registered = 2021-03-23T11:35:26.000Z
 
             ["4.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.8.1"
 
 ["4.8.4+0"]
@@ -98,6 +102,7 @@ registered = 2021-09-03T18:10:20.000Z
 
             ["4.8.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.8.4"
 
 ["4.9.3+0"]
@@ -119,6 +124,7 @@ registered = 2022-01-30T19:50:06.000Z
 
             ["4.9.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.9.3"
 
 ["4.10.2+0"]
@@ -140,6 +146,7 @@ registered = 2022-05-15T16:19:37.000Z
 
             ["4.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.10.2"
         [["4.10.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -164,6 +171,7 @@ registered = 2022-10-14T10:06:08.000Z
 
             ["4.10.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.10.2"
         [["4.10.2+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -188,6 +196,7 @@ registered = 2023-04-24T21:48:57.000Z
 
             ["4.11.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.11.1"
         [["4.11.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -212,6 +221,7 @@ registered = 2024-01-22T14:11:49.000Z
 
             ["4.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.12.2"
         [["4.12.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -236,6 +246,7 @@ registered = 2024-04-18T22:21:17.000Z
 
             ["4.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.13.0"
         [["4.13.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -260,6 +271,7 @@ registered = 2024-05-12T22:50:40.000Z
 
             ["4.13.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.13.0"
         [["4.13.0+1".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -284,6 +296,7 @@ registered = 2024-09-05T22:30:19.000Z
 
             ["4.13.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "repology-url"
             version = "4.13.1"
         [["4.13.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -308,6 +321,7 @@ registered = 2025-11-27T11:43:42.000Z
 
             ["4.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "heuristic"
             version = "4.15.0"
         [["4.15.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -335,6 +349,7 @@ registered = 2026-05-22T17:30:32.000Z
 
             ["4.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gmsh"
+            provenance = "repology-url"
             version = "4.15.2"
         [["4.15.2+0".artifact_metadata.sources]]
         type = "directory"

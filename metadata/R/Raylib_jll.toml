@@ -17,6 +17,7 @@ registered = 2021-11-14T16:17:54.000Z
 
             ["4.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/raylib"
+            provenance = "git-tag"
             version = "4.0.0"
         [["4.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -44,6 +45,7 @@ registered = 2021-11-23T19:13:29.000Z
 
             ["4.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/raylib"
+            provenance = "git-tag"
             version = "4.0.0"
         [["4.0.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -71,6 +73,7 @@ registered = 2022-05-21T18:31:04.000Z
 
             ["4.0.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/raylib"
+            provenance = "git-tag"
             version = "4.0.0"
         [["4.0.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -98,11 +101,17 @@ registered = 2025-12-08T05:29:01.000Z
 
             ["5.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/raylib"
+            provenance = "git-tag"
             version = "5.5"
         [["5.5.0+0".artifact_metadata.sources]]
         hash = "25c8c65a6e5f0f4d4b564a0343861898c6f2778b"
         type = "git"
         url = "https://github.com/raysan5/raygui.git"
+
+            ["5.5.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/raygui"
+            provenance = "git-tag"
+            version = "4.0"
         [["5.5.0+0".artifact_metadata.sources]]
         hash = "4a8e17f263fb8e1150b3fbafc96f880c7d7a4833"
         type = "git"
@@ -133,11 +142,16 @@ registered = 2026-05-23T21:59:58.000Z
 
             ["6.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/raylib"
+            provenance = "git-tag"
             version = "6.0"
         [["6.0.0+0".artifact_metadata.sources]]
         hash = "b256d4552b4105912d0556541a03862bdc5c0777"
         type = "git"
         url = "https://github.com/raysan5/raygui.git"
+
+            ["6.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/raygui"
+            provenance = "repository"
         [["6.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/df2ba3ee4c50b4305585f565484f255f8518ef3f/R/Raylib/bundled"
@@ -164,11 +178,16 @@ registered = 2026-06-10T23:01:07.000Z
 
             ["6.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/raylib"
+            provenance = "git-tag"
             version = "6.0"
         [["6.0.1+0".artifact_metadata.sources]]
         hash = "b256d4552b4105912d0556541a03862bdc5c0777"
         type = "git"
         url = "https://github.com/raysan5/raygui.git"
+
+            ["6.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/raygui"
+            provenance = "repository"
         [["6.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/297e4497bcf40065e7224adc1d1372b719628442/R/Raylib/bundled"

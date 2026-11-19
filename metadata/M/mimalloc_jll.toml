@@ -17,6 +17,7 @@ registered = 2021-04-17T00:24:01.000Z
 
             ["2.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mimalloc"
+            provenance = "git-tag"
             version = "2.0.1"
         [["2.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2022-10-27T21:40:12.000Z
 
             ["2.0.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mimalloc"
+            provenance = "git-tag"
             version = "2.0.6"
 
 ["2.0.7+0"]
@@ -62,6 +64,7 @@ registered = 2022-11-09T22:13:28.000Z
 
             ["2.0.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mimalloc"
+            provenance = "git-tag"
             version = "2.0.7"
 
 ["2.1.2+0"]
@@ -83,6 +86,7 @@ registered = 2024-01-26T09:37:34.000Z
 
             ["2.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mimalloc"
+            provenance = "git-tag"
             version = "2.1.2"
 
 ["2.1.4+0"]
@@ -104,6 +108,7 @@ registered = 2024-05-10T21:41:19.000Z
 
             ["2.1.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mimalloc"
+            provenance = "git-tag"
             version = "2.1.4"
 
 ["3.3.2+0"]
@@ -125,6 +130,7 @@ registered = 2026-06-17T22:12:43.000Z
 
             ["3.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mimalloc"
+            provenance = "git-tag"
             version = "3.3.2"
 
 ["3.5.3+0"]

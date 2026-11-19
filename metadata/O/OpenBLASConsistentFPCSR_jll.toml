@@ -17,6 +17,7 @@ registered = 2023-02-09T00:50:47.000Z
 
             ["0.3.21+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
+            provenance = "tag-scheme"
             version = "0.3.21"
         [["0.3.21+0".artifact_metadata.sources]]
         type = "directory"
@@ -47,6 +48,7 @@ registered = 2025-03-12T12:53:22.000Z
 
             ["0.3.29+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
+            provenance = "repology-url"
             version = "0.3.29"
         [["0.3.29+0".artifact_metadata.sources]]
         type = "directory"
@@ -77,6 +79,7 @@ registered = 2026-01-22T15:27:19.000Z
 
             ["0.3.30+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
+            provenance = "repology-url"
             version = "0.3.30"
         [["0.3.30+0".artifact_metadata.sources]]
         type = "directory"
@@ -107,6 +110,7 @@ registered = 2026-04-26T17:50:52.000Z
 
             ["0.3.32+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
+            provenance = "repology-url"
             version = "0.3.32"
         [["0.3.32+0".artifact_metadata.sources]]
         type = "directory"
@@ -137,6 +141,7 @@ registered = 2026-04-28T00:13:16.000Z
 
             ["0.3.33+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
+            provenance = "repology-url"
             version = "0.3.33"
         [["0.3.33+0".artifact_metadata.sources]]
         type = "directory"
@@ -167,6 +172,7 @@ registered = 2026-07-07T18:14:11.000Z
 
             ["0.3.33+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
+            provenance = "repology-url"
             version = "0.3.33"
         [["0.3.33+1".artifact_metadata.sources]]
         type = "directory"
@@ -197,6 +203,7 @@ registered = 2026-07-23T09:24:59.000Z
 
             ["0.3.34+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openblas"
+            provenance = "repology-url"
             version = "0.3.34"
         [["0.3.34+0".artifact_metadata.sources]]
         type = "directory"

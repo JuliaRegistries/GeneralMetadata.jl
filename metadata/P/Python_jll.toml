@@ -16,6 +16,7 @@ registered = 2019-12-19T21:02:32.000Z
 
             ["3.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python"
+            provenance = "repology-url"
             version = "3.8.1"
         [["3.8.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -39,6 +40,7 @@ registered = 2019-12-20T01:04:54.000Z
 
             ["3.8.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/python"
+            provenance = "repology-url"
             version = "3.8.1"
         [["3.8.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -62,6 +64,7 @@ registered = 2019-12-21T07:55:17.000Z
 
             ["3.8.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/python"
+            provenance = "repology-url"
             version = "3.8.1"
         [["3.8.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -86,6 +89,7 @@ registered = 2020-04-04T05:21:51.000Z
 
             ["3.8.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/python"
+            provenance = "repology-url"
             version = "3.8.1"
         [["3.8.1+3".artifact_metadata.sources]]
         type = "directory"
@@ -110,6 +114,7 @@ registered = 2021-08-08T22:21:29.000Z
 
             ["3.8.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/python"
+            provenance = "repology-url"
             version = "3.8.1"
         [["3.8.1+4".artifact_metadata.sources]]
         type = "directory"
@@ -131,6 +136,11 @@ registered = 2022-07-20T15:08:18.000Z
         hash = "7c664249ff77e443d6ea0e4cf0e587eae918ca3c48d081d1915fe2a1f1bcc5cc"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.8.8/Python-3.8.8.tar.xz"
+
+            ["3.8.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.8.8"
         [["3.8.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/360423b215634786d5af25d81642c3caa0e02d25/P/Python/bundled"
@@ -151,6 +161,11 @@ registered = 2022-07-24T19:52:03.000Z
         hash = "7c664249ff77e443d6ea0e4cf0e587eae918ca3c48d081d1915fe2a1f1bcc5cc"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.8.8/Python-3.8.8.tar.xz"
+
+            ["3.8.8+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.8.8"
         [["3.8.8+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1ef248ba54c27ce271af1e8cfd1ca4a6afdd831f/P/Python/bundled"
@@ -171,6 +186,11 @@ registered = 2022-08-05T19:36:25.000Z
         hash = "7c664249ff77e443d6ea0e4cf0e587eae918ca3c48d081d1915fe2a1f1bcc5cc"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.8.8/Python-3.8.8.tar.xz"
+
+            ["3.8.8+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.8.8"
         [["3.8.8+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/55b3249ae62aafb7d212f4e94da3df0c4f3c568a/P/Python/bundled"
@@ -191,6 +211,11 @@ registered = 2022-09-14T16:25:33.000Z
         hash = "7c664249ff77e443d6ea0e4cf0e587eae918ca3c48d081d1915fe2a1f1bcc5cc"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.8.8/Python-3.8.8.tar.xz"
+
+            ["3.8.8+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.8.8"
         [["3.8.8+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/bfc95b6f23c6f005cd92601cb0ceeb3002a52c3a/P/Python/bundled"
@@ -211,6 +236,11 @@ registered = 2022-10-10T14:24:06.000Z
         hash = "6eed8415b7516fb2f260906db5d48dd4c06acc0cb24a7d6cc15296a604dcdc48"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.10.7/Python-3.10.7.tar.xz"
+
+            ["3.10.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.10.7"
         [["3.10.7+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/51a1e23b487b58633deeac9ecc36b36377b0063d/P/Python/bundled"
@@ -231,6 +261,11 @@ registered = 2022-10-19T13:17:40.000Z
         hash = "6a30ecde59c47048013eb5a658c9b5dec277203d2793667f578df7671f7f03f3"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz"
+
+            ["3.10.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.10.8"
         [["3.10.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6a875bb6bdfbd8c299118fec79f1ce0b85cc6b63/P/Python/bundled"
@@ -251,6 +286,11 @@ registered = 2023-02-08T20:04:33.000Z
         hash = "6a30ecde59c47048013eb5a658c9b5dec277203d2793667f578df7671f7f03f3"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz"
+
+            ["3.10.8+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.10.8"
         [["3.10.8+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/80dc3ae4b567eaf45ecd6297d751e2eceb65bc07/P/Python/bundled"
@@ -271,6 +311,11 @@ registered = 2023-12-21T21:23:30.000Z
         hash = "5c88848668640d3e152b35b4536ef1c23b2ca4bd2c957ef1ecbb053f571dd3f6"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tar.xz"
+
+            ["3.10.13+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.10.13"
         [["3.10.13+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0c9b3673daf9f0b993fe7fc6c8f4320bc0572dd0/P/Python/bundled"
@@ -294,6 +339,7 @@ registered = 2024-03-29T11:30:09.000Z
 
             ["3.10.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python"
+            provenance = "repology-url"
             version = "3.10.14"
         [["3.10.14+0".artifact_metadata.sources]]
         type = "directory"
@@ -315,6 +361,11 @@ registered = 2025-02-11T20:16:00.000Z
         hash = "bfb249609990220491a1b92850a07135ed0831e41738cf681d63cf01b2a8fbd1"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tar.xz"
+
+            ["3.10.16+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.10.16"
         [["3.10.16+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9b8c9263d66369185c0520cbadad0518faf66425/P/Python/bundled"
@@ -338,6 +389,7 @@ registered = 2025-05-16T18:07:57.000Z
 
             ["3.11.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/python:idle"
+            provenance = "repology-url"
             version = "3.11.12"
         [["3.11.12+0".artifact_metadata.sources]]
         hash = "4da8dde69eca0d9bc31420349a204851bfa2a1c87aeb87fe0c05517797edaac4"
@@ -363,6 +415,11 @@ registered = 2026-09-12T14:59:03.000Z
         hash = "5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a"
         type = "archive"
         url = "https://www.python.org/ftp/python/3.12.14/Python-3.12.14.tar.xz"
+
+            ["3.12.14+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python"
+            provenance = "heuristic"
+            version = "3.12.14"
         [["3.12.14+0".artifact_metadata.sources]]
         hash = "96a44849ff17e960eeb8877ecd9055246381c4d4f2d031263b63fa7e2e930af1"
         type = "file"

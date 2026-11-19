@@ -14,3 +14,7 @@ registered = 2021-10-18T00:09:54.000Z
         hash = "d0d14ac774977d0060a351f66e35cb57ba0bf59c"
         type = "git"
         url = "https://github.com/asmjit/asmjit.git"
+
+            ["0.1.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/asmjit"
+            provenance = "repository"

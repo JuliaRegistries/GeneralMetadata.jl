@@ -14,6 +14,10 @@ registered = 2022-02-17T19:21:21.000Z
         hash = "7a3f716bb2ad2df67525db8414ae48f5226dedd6"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.2.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "repository"
         [["1.2.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -34,6 +38,11 @@ registered = 2022-04-22T07:31:47.000Z
         hash = "3f0a74587ff25009f12a73efcfbf5dd8aef45a4a"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.2.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.2.2"
         [["1.2.2+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -54,6 +63,11 @@ registered = 2022-11-22T20:59:29.000Z
         hash = "e5004072be62335eebe96149eabf3879d8d82635"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.3.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.3.0"
         [["1.3.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e33c7c3e9d3632f88c198399be26480eacd35a3d/H/HiGHS/bundled"
@@ -77,6 +91,11 @@ registered = 2022-11-28T11:52:14.000Z
         hash = "b6d4b3dead77132567ccd6fee7c12532e382db08"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.4.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.4.0"
         [["1.4.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -97,6 +116,11 @@ registered = 2022-12-07T15:10:47.000Z
         hash = "bcf6c0b224591adb9ad9a7a904c0066a2dac7580"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.4.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.4.1"
         [["1.4.1+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -117,6 +141,11 @@ registered = 2023-02-02T03:43:45.000Z
         hash = "f797c1ab602004004186d745cbfce83f50d39932"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.4.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.4.2"
         [["1.4.2+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -137,6 +166,11 @@ registered = 2023-03-09T23:25:44.000Z
         hash = "93f1876e453eeec2d16e2a0c95874d0ef12c5b23"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.5.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.5.1"
         [["1.5.1+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -157,6 +191,11 @@ registered = 2023-05-27T22:49:00.000Z
         hash = "45a127b78060942721f75f46a04b274c2bb963d8"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.5.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.5.3"
         [["1.5.3+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -177,6 +216,11 @@ registered = 2023-09-30T20:56:24.000Z
         hash = "21da9b90e0dceeb22ef9e35e5ff2c3ab17dc5232"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.6.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.6.0"
         [["1.6.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -197,6 +241,11 @@ registered = 2024-02-07T20:51:22.000Z
         hash = "21da9b90e0dceeb22ef9e35e5ff2c3ab17dc5232"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.6.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.6.0"
         [["1.6.0+1".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -217,6 +266,11 @@ registered = 2024-03-07T09:49:03.000Z
         hash = "50670fd4c634c3c9e54bf615e84bd4024d129754"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.7.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.7.0"
         [["1.7.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -237,6 +291,11 @@ registered = 2024-04-02T21:56:30.000Z
         hash = "50670fd4c634c3c9e54bf615e84bd4024d129754"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.7.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.7.0"
         [["1.7.0+1".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -257,6 +316,11 @@ registered = 2024-06-22T21:49:28.000Z
         hash = "43329e52883d8c930d9efa897307d6dec5230099"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.7.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.7.1"
         [["1.7.1+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -277,6 +341,11 @@ registered = 2024-07-31T20:37:49.000Z
         hash = "5ce7a27531a7f4166ee5a8343169a1014febb41a"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.7.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.7.2"
         [["1.7.2+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -297,6 +366,11 @@ registered = 2024-10-18T18:26:19.000Z
         hash = "fcfb5341462f8a7db5ef5038613413f97d6cac3d"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.8.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.8.0"
         [["1.8.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -317,6 +391,11 @@ registered = 2024-11-13T21:24:25.000Z
         hash = "4a7f24ac63b3832e30694969e0a69a4b3c1f1674"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.8.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.8.1"
         [["1.8.1+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -337,6 +416,11 @@ registered = 2025-01-02T22:39:48.000Z
         hash = "66f735e60ce4d4835edaa05a35f2bd4048969c54"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.9.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.9.0"
         [["1.9.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -357,6 +441,11 @@ registered = 2025-03-20T22:34:31.000Z
         hash = "fd8665394edfd096c4f847c4a6fbc187364ef474"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.10.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.10.0"
         [["1.10.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -377,6 +466,11 @@ registered = 2025-06-06T01:24:07.000Z
         hash = "364c83a51e44ba6c27def9c8fc1a49b1daf5ad5c"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.11.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.11.0"
         [["1.11.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -397,6 +491,11 @@ registered = 2025-06-08T01:48:19.000Z
         hash = "364c83a51e44ba6c27def9c8fc1a49b1daf5ad5c"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.11.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.11.0"
         [["1.11.0+1".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"
@@ -417,6 +516,11 @@ registered = 2025-10-26T22:50:07.000Z
         hash = "755a8e027a99a8d4ecf153a8dde4b2a767cdf384"
         type = "git"
         url = "https://github.com/ERGO-Code/HiGHS.git"
+
+            ["1.12.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/highs"
+            provenance = "git-tag"
+            version = "1.12.0"
         [["1.12.0+0".artifact_metadata.sources]]
         package = "CompilerSupportLibraries_jll"
         type = "builddependency"

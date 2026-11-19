@@ -17,6 +17,7 @@ registered = 2023-05-06T18:20:29.000Z
 
             ["3.3.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lightgbm"
+            provenance = "git-tag"
             version = "3.3.5"
         [["3.3.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2024-04-23T18:43:24.000Z
 
             ["3.3.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/lightgbm"
+            provenance = "git-tag"
             version = "3.3.5"
         [["3.3.5+1".artifact_metadata.sources]]
         type = "directory"
@@ -65,6 +67,7 @@ registered = 2024-04-21T19:08:17.000Z
 
             ["4.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lightgbm"
+            provenance = "git-tag"
             version = "4.0.0"
 
 ["4.3.0+0"]
@@ -86,6 +89,7 @@ registered = 2024-06-13T17:33:43.000Z
 
             ["4.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lightgbm"
+            provenance = "git-tag"
             version = "4.3.0"
         [["4.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -99,3 +103,7 @@ registered = 2024-06-13T17:33:43.000Z
         [["4.3.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["4.3.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.aarch64-apple-darwin-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.aarch64-linux-gnu-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.aarch64-linux-musl-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.aarch64-unknown-freebsd-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.armv6l-linux-gnueabihf-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.armv6l-linux-musleabihf-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.armv7l-linux-gnueabihf-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.armv7l-linux-musleabihf-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.i686-linux-gnu-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.i686-linux-musl-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.i686-w64-mingw32-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.powerpc64le-linux-gnu-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.x86_64-apple-darwin-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.x86_64-linux-gnu-cxx11-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.x86_64-linux-gnu-cxx11-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.x86_64-linux-gnu-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.x86_64-linux-musl-cxx11-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.x86_64-unknown-freebsd-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/LightGBM_jll.jl/releases/download/LightGBM-v4.3.1+0/LightGBM.v4.3.1.x86_64-w64-mingw32-cxx11-cuda+none.tar.gz"]
+registered = 2026-11-18T17:33:05.000Z

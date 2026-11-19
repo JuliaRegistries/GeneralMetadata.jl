@@ -14,6 +14,11 @@ registered = 2021-03-06T02:22:56.000Z
         hash = "6eaf422f26a81854a230b80fd18aaef7e8d94d661485bd2e97e695b9dce7bf7f"
         type = "archive"
         url = "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9533/ghostscript-9.53.3.tar.gz"
+
+            ["9.53.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/ghostscript"
+            provenance = "url-pattern"
+            version = "9.53.3"
         [["9.53.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6cb40ac6f81781aeb6d6ea1eb2ae759ad0cccab9/G/Ghostscript/bundled"
@@ -37,6 +42,7 @@ registered = 2022-01-19T22:38:55.000Z
 
             ["9.55.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghostscript"
+            provenance = "url-pattern"
             version = "9.55.0"
         [["9.55.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -61,6 +67,7 @@ registered = 2023-02-05T12:54:24.000Z
 
             ["9.55.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghostscript"
+            provenance = "url-pattern"
             version = "9.55.0"
         [["9.55.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -85,6 +92,7 @@ registered = 2023-02-05T16:00:28.000Z
 
             ["9.55.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghostscript"
+            provenance = "url-pattern"
             version = "9.55.0"
         [["9.55.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -109,6 +117,7 @@ registered = 2023-02-06T04:25:03.000Z
 
             ["9.55.0+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghostscript"
+            provenance = "url-pattern"
             version = "9.55.0"
         [["9.55.0+3".artifact_metadata.sources]]
         type = "directory"
@@ -133,6 +142,7 @@ registered = 2023-02-08T03:02:41.000Z
 
             ["9.55.0+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghostscript"
+            provenance = "url-pattern"
             version = "9.55.0"
         [["9.55.0+4".artifact_metadata.sources]]
         type = "directory"
@@ -157,6 +167,7 @@ registered = 2025-08-18T16:15:27.000Z
 
             ["9.55.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ghostscript"
+            provenance = "url-pattern"
             version = "9.55.0"
         [["9.55.1+0".artifact_metadata.sources]]
         type = "directory"

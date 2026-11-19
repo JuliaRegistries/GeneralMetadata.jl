@@ -29,6 +29,7 @@ registered = 2020-08-03T20:44:07.000Z
 
             ["1.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libvpx"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.9.0+1"]
@@ -50,6 +51,7 @@ registered = 2020-10-10T01:37:17.000Z
 
             ["1.9.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libvpx"
+            provenance = "tag-scheme"
             version = "1.9.0"
 
 ["1.10.0+0"]
@@ -71,6 +73,7 @@ registered = 2021-05-28T22:17:41.000Z
 
             ["1.10.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libvpx"
+            provenance = "tag-scheme"
             version = "1.10.0"
 
 ["1.15.2+0"]
@@ -92,4 +95,5 @@ registered = 2025-07-07T23:46:26.000Z
 
             ["1.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libvpx"
+            provenance = "git-tag"
             version = "1.15.2"

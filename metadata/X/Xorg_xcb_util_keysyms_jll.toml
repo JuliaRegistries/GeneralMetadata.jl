@@ -16,6 +16,7 @@ registered = 2019-11-30T23:05:35.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util-keysyms"
+            provenance = "repology-url"
             version = "0.4.0"
 
 ["0.4.0+1"]
@@ -37,6 +38,7 @@ registered = 2020-11-28T02:23:42.000Z
 
             ["0.4.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util-keysyms"
+            provenance = "repology-url"
             version = "0.4.0"
         [["0.4.0+1".artifact_metadata.sources]]
         hash = "ded299aa179dcf0d885bf89274a4db77a530e03f9f5e7cf1c3c4ef1d60e914b9"
@@ -65,6 +67,7 @@ registered = 2025-06-09T19:36:33.000Z
 
             ["0.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xcb-util-keysyms"
+            provenance = "repology-url"
             version = "0.4.1"
         [["0.4.1+0".artifact_metadata.sources]]
         hash = "ded299aa179dcf0d885bf89274a4db77a530e03f9f5e7cf1c3c4ef1d60e914b9"

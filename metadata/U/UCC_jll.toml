@@ -37,3 +37,7 @@ registered = 2026-07-03T09:15:29.000Z
         [["1.8.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_jll"
         type = "builddependency"
+
+["1.8.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.aarch64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+12.4.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+12.5.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+12.9.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/UCC_jll.jl/releases/download/UCC-v1.8.1+0/UCC.v1.8.1.x86_64-linux-gnu-cuda+none.tar.gz"]
+registered = 2026-11-18T19:43:16.000Z

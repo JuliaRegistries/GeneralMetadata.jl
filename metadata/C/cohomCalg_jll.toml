@@ -17,6 +17,7 @@ registered = 2021-11-14T22:32:42.000Z
 
             ["0.32.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cohomcalg"
+            provenance = "git-tag"
             version = "0.32"
         [["0.32.0+0".artifact_metadata.sources]]
         type = "directory"

@@ -37,6 +37,7 @@ registered = 2023-12-06T17:42:50.000Z
 
             ["1.19.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/popt"
+            provenance = "repology-url"
             version = "1.19"
         [["1.19.0+0".artifact_metadata.sources]]
         type = "directory"

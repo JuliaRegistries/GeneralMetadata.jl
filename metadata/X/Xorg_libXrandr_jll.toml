@@ -22,6 +22,7 @@ registered = 2020-02-09T01:33:26.000Z
 
             ["1.5.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxrandr"
+            provenance = "heuristic"
             version = "1.5.2"
         [["1.5.2+1".artifact_metadata.sources]]
         package = "Xorg_randrproto_jll"
@@ -49,6 +50,7 @@ registered = 2020-04-17T19:35:32.000Z
 
             ["1.5.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxrandr"
+            provenance = "heuristic"
             version = "1.5.2"
         [["1.5.2+2".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -76,6 +78,7 @@ registered = 2020-08-26T17:35:22.000Z
 
             ["1.5.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxrandr"
+            provenance = "heuristic"
             version = "1.5.2"
         [["1.5.2+3".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -103,6 +106,7 @@ registered = 2020-10-16T19:31:22.000Z
 
             ["1.5.2+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxrandr"
+            provenance = "heuristic"
             version = "1.5.2"
         [["1.5.2+4".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -130,6 +134,7 @@ registered = 2024-12-13T23:23:43.000Z
 
             ["1.5.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxrandr"
+            provenance = "repology-url"
             version = "1.5.4"
         [["1.5.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -157,6 +162,7 @@ registered = 2025-04-18T20:25:53.000Z
 
             ["1.5.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxrandr"
+            provenance = "repology-url"
             version = "1.5.4"
         [["1.5.5+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -184,6 +190,7 @@ registered = 2026-02-14T20:16:03.000Z
 
             ["1.5.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxrandr"
+            provenance = "repology-url"
             version = "1.5.5"
         [["1.5.6+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

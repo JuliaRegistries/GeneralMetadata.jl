@@ -14,6 +14,11 @@ registered = 2024-05-16T22:01:13.000Z
         hash = "90ffc7524de5b179c82920f3304ec46287b6d210"
         type = "git"
         url = "https://github.com/constantinpape/z5"
+
+            ["2.0.17+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:z5py"
+            provenance = "git-tag"
+            version = "2.0.17"
         [["2.0.17+0".artifact_metadata.sources]]
         package = "nlohmann_json_jll"
         type = "builddependency"
@@ -43,6 +48,11 @@ registered = 2024-09-24T14:00:09.000Z
         hash = "c77f42e222ef91bd8cd4551cf9bb6b07b0adc28a"
         type = "git"
         url = "https://github.com/constantinpape/z5"
+
+            ["2.0.18+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:z5py"
+            provenance = "git-tag"
+            version = "2.0.18"
         [["2.0.18+0".artifact_metadata.sources]]
         package = "nlohmann_json_jll"
         type = "builddependency"

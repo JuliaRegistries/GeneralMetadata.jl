@@ -17,4 +17,5 @@ registered = 2022-03-15T00:35:06.000Z
 
             ["2022.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/shaderc"
+            provenance = "git-tag"
             version = "2022.1"

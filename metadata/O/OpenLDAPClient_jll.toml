@@ -17,6 +17,7 @@ registered = 2020-08-10T14:34:43.000Z
 
             ["2.4.50+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openldap"
+            provenance = "heuristic"
             version = "2.4.50"
 
 ["2.4.50+1"]
@@ -38,6 +39,7 @@ registered = 2020-08-12T22:26:28.000Z
 
             ["2.4.50+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openldap"
+            provenance = "heuristic"
             version = "2.4.50"
 
 ["2.4.50+2"]
@@ -59,6 +61,7 @@ registered = 2020-08-27T21:43:34.000Z
 
             ["2.4.50+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/openldap"
+            provenance = "heuristic"
             version = "2.4.50"
 
 ["2.5.14+0"]
@@ -80,6 +83,7 @@ registered = 2023-04-04T00:37:17.000Z
 
             ["2.5.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openldap"
+            provenance = "heuristic"
             version = "2.5.14"
 
 ["2.5.19+0"]
@@ -101,4 +105,5 @@ registered = 2024-12-25T19:13:11.000Z
 
             ["2.5.19+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openldap"
+            provenance = "heuristic"
             version = "2.5.19"

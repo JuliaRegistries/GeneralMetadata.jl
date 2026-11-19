@@ -17,6 +17,7 @@ registered = 2021-11-30T21:07:37.000Z
 
             ["0.7.17+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/bwa"
+            provenance = "tag-scheme"
             version = "0.7.17"
         [["0.7.17+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2024-04-02T13:21:36.000Z
 
             ["0.7.17+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/bwa"
+            provenance = "tag-scheme"
             version = "0.7.17"
         [["0.7.17+1".artifact_metadata.sources]]
         type = "directory"

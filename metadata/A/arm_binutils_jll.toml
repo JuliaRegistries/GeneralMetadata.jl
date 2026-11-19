@@ -17,4 +17,5 @@ registered = 2023-09-12T13:24:27.000Z
 
             ["2.41.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/binutils-spe"
+            provenance = "repology-url"
             version = "2.41"

@@ -17,4 +17,5 @@ registered = 2026-09-04T08:41:55.000Z
 
             ["1.18.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/lv2"
+            provenance = "repology-url"
             version = "1.18.10"

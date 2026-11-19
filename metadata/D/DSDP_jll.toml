@@ -17,6 +17,7 @@ registered = 2023-09-11T22:52:47.000Z
 
             ["0.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/dsdp"
+            provenance = "repology-url"
             version = "5.8"
         [["0.0.1+0".artifact_metadata.sources]]
         type = "directory"

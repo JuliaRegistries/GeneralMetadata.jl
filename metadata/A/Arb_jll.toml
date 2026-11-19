@@ -68,6 +68,7 @@ registered = 2020-08-01T10:56:59.000Z
 
             ["2.18.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/arb-fp"
+            provenance = "heuristic"
             version = "2.18.1"
 
 ["2.18.1+1"]
@@ -89,6 +90,7 @@ registered = 2020-10-24T21:59:10.000Z
 
             ["2.18.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/arb-fp"
+            provenance = "heuristic"
             version = "2.18.1"
 
 ["200.1900.0+0"]
@@ -110,6 +112,7 @@ registered = 2020-12-19T17:32:16.000Z
 
             ["200.1900.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/arb-fp"
+            provenance = "heuristic"
             version = "2.19.0"
 
 ["200.1900.1+0"]
@@ -131,6 +134,7 @@ registered = 2021-03-11T11:23:43.000Z
 
             ["200.1900.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/arb-fp"
+            provenance = "heuristic"
             version = "2.19.0"
 
 ["200.2000.0+0"]

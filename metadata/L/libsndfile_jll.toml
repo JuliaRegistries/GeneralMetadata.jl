@@ -21,6 +21,7 @@ registered = 2020-04-04T05:45:39.000Z
 
             ["1.0.28+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsndfile"
+            provenance = "repology-url"
             version = "1.0.28"
 
 ["1.0.28+2"]
@@ -46,6 +47,7 @@ registered = 2021-09-29T23:45:27.000Z
 
             ["1.0.31+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsndfile"
+            provenance = "tag-scheme"
             version = "1.0.31"
 
 ["1.0.31+1"]
@@ -67,6 +69,7 @@ registered = 2021-10-26T14:49:48.000Z
 
             ["1.0.31+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsndfile"
+            provenance = "tag-scheme"
             version = "1.0.31"
 
 ["1.0.31+2"]
@@ -88,6 +91,7 @@ registered = 2022-01-07T17:58:58.000Z
 
             ["1.0.31+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsndfile"
+            provenance = "tag-scheme"
             version = "1.0.31"
 
 ["1.1.0+0"]
@@ -109,6 +113,7 @@ registered = 2022-04-16T06:31:03.000Z
 
             ["1.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsndfile"
+            provenance = "tag-scheme"
             version = "1.1.0"
 
 ["1.2.2+0"]
@@ -130,4 +135,5 @@ registered = 2026-01-03T23:32:03.000Z
 
             ["1.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libsndfile"
+            provenance = "repology-url"
             version = "1.2.2"

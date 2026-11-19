@@ -17,6 +17,7 @@ registered = 2020-04-27T01:45:10.000Z
 
             ["0.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glog"
+            provenance = "repology-url"
             version = "0.4.0"
 
 ["0.6.0+0"]
@@ -38,4 +39,5 @@ registered = 2023-03-18T23:10:10.000Z
 
             ["0.6.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glog"
+            provenance = "git-tag"
             version = "0.6.0"

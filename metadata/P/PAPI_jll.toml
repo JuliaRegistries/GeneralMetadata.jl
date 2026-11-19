@@ -189,7 +189,8 @@ registered = 2023-08-19T22:03:58.000Z
 
             ["7.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/papi"
-            version = "0-1-t"
+            provenance = "git-tag"
+            version = "7.0.1-t"
         [["7.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d72819f7115a84ca122203e1b788d35088d63572/P/PAPI/bundled"
@@ -216,7 +217,8 @@ registered = 2024-05-08T07:52:08.000Z
 
             ["7.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/papi"
-            version = "1-0-t"
+            provenance = "git-tag"
+            version = "7.1.0-t"
         [["7.1.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/062ecaf40753bfb0aead85398abdbde15c1a42ff/P/PAPI/bundled"
@@ -243,10 +245,15 @@ registered = 2024-05-25T20:36:39.000Z
 
             ["7.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/papi"
-            version = "1-0-t"
+            provenance = "git-tag"
+            version = "7.1.0-t"
         [["7.1.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1d5e30d7ed0e9195c42bcb900824094eda7641ee/P/PAPI/bundled"
         [["7.1.0+1".artifact_metadata.sources]]
         package = "CUDA_SDK_jll"
         type = "builddependency"
+
+["7.1.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+11.8.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.1.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+11.7.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+11.8.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.1.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.aarch64-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.armv6l-linux-gnueabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.armv6l-linux-musleabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.armv7l-linux-gnueabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.armv7l-linux-musleabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.i686-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.i686-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.powerpc64le-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+11.7.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+11.8.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+12.1.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/PAPI_jll.jl/releases/download/PAPI-v7.1.1+0/PAPI.v7.1.1.x86_64-linux-musl-cuda+none.tar.gz"]
+registered = 2026-11-18T18:14:54.000Z

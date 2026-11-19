@@ -17,6 +17,7 @@ registered = 2021-04-22T17:16:16.000Z
 
             ["3.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.0.1"
 
 ["3.0.1+1"]
@@ -38,6 +39,7 @@ registered = 2021-04-23T20:48:50.000Z
 
             ["3.0.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "tag-scheme"
             version = "3.0.1"
 
 ["3.1.1+0"]
@@ -59,6 +61,7 @@ registered = 2021-08-04T14:22:42.000Z
 
             ["3.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "tag-scheme"
             version = "3.1.1"
 
 ["3.1.4+0"]
@@ -80,6 +83,7 @@ registered = 2023-03-14T00:24:07.000Z
 
             ["3.1.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "repository"
 
 ["3.2.4+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv6l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv6l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.2.4+0/OpenEXR.v3.2.4.x86_64-w64-mingw32-cxx11.tar.gz"]
@@ -100,6 +104,7 @@ registered = 2024-05-01T09:11:37.000Z
 
             ["3.2.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.2.4"
 
 ["3.4.4+0"]
@@ -121,6 +126,7 @@ registered = 2025-12-29T23:48:28.000Z
 
             ["3.4.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.4"
         [["3.4.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -149,6 +155,7 @@ registered = 2026-03-27T00:27:43.000Z
 
             ["3.4.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.8"
         [["3.4.8+0".artifact_metadata.sources]]
         type = "directory"
@@ -177,6 +184,7 @@ registered = 2026-04-15T15:22:27.000Z
 
             ["3.4.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.9"
         [["3.4.9+0".artifact_metadata.sources]]
         type = "directory"
@@ -205,6 +213,7 @@ registered = 2026-06-03T21:18:36.000Z
 
             ["3.4.12+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.12"
         [["3.4.12+0".artifact_metadata.sources]]
         type = "directory"
@@ -233,6 +242,7 @@ registered = 2026-06-21T15:26:34.000Z
 
             ["3.4.13+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.13"
         [["3.4.13+0".artifact_metadata.sources]]
         type = "directory"
@@ -260,7 +270,8 @@ registered = 2026-08-20T23:14:12.000Z
         url = "https://github.com/AcademySoftwareFoundation/openexr.git"
 
             ["3.4.14+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:openexr"
+            project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.14"
         [["3.4.14+0".artifact_metadata.sources]]
         type = "directory"
@@ -288,7 +299,8 @@ registered = 2026-09-08T02:48:45.000Z
         url = "https://github.com/AcademySoftwareFoundation/openexr.git"
 
             ["3.4.15+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:openexr"
+            project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.15"
         [["3.4.15+0".artifact_metadata.sources]]
         type = "directory"
@@ -316,7 +328,8 @@ registered = 2026-10-05T14:10:39.000Z
         url = "https://github.com/AcademySoftwareFoundation/openexr.git"
 
             ["3.4.16+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:openexr"
+            project = "repology.org/project/openexr"
+            provenance = "git-tag"
             version = "3.4.16"
         [["3.4.16+0".artifact_metadata.sources]]
         type = "directory"

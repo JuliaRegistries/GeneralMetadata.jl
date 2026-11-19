@@ -16,6 +16,7 @@ registered = 2019-10-14T18:13:29.000Z
 
             ["1.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/dri3proto"
+            provenance = "repology-url"
             version = "1.0"
 
 ["1.0.0+1"]
@@ -37,4 +38,5 @@ registered = 2023-05-20T17:13:58.000Z
 
             ["1.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/dri3proto"
+            provenance = "repology-url"
             version = "1.0"

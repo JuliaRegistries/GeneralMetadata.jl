@@ -17,4 +17,5 @@ registered = 2024-12-13T17:49:44.000Z
 
             ["4.0.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/flecs"
+            provenance = "git-tag"
             version = "4.0.3"

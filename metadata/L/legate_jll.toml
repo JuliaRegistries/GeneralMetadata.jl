@@ -417,3 +417,7 @@ registered = 2026-07-04T02:24:59.000Z
         [["26.6.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["26.6.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/legate_jll.jl/releases/download/legate-v26.6.1+0/legate.v26.6.1.x86_64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/legate_jll.jl/releases/download/legate-v26.6.1+0/legate.v26.6.1.x86_64-linux-gnu-cxx11-cuda+none.tar.gz"]
+registered = 2026-11-18T21:02:52.000Z

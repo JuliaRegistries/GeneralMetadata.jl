@@ -17,6 +17,7 @@ registered = 2025-01-31T14:50:18.000Z
 
             ["2.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/opam"
+            provenance = "tag-scheme"
             version = "2.3.0"
         [["2.3.0+0".artifact_metadata.sources]]
         package = "OCaml_jll"

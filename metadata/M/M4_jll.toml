@@ -17,6 +17,7 @@ registered = 2023-04-13T21:35:30.000Z
 
             ["1.4.19+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/m4"
+            provenance = "repology-url"
             version = "1.4.19"
 
 ["1.4.20+0"]
@@ -38,6 +39,7 @@ registered = 2025-05-14T23:19:05.000Z
 
             ["1.4.20+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/m4"
+            provenance = "repology-url"
             version = "1.4.20"
 
 ["1.4.21+0"]
@@ -59,4 +61,5 @@ registered = 2026-04-24T14:59:53.000Z
 
             ["1.4.21+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/m4"
+            provenance = "repology-url"
             version = "1.4.21"

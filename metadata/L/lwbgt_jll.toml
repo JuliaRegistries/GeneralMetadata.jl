@@ -14,3 +14,8 @@ registered = 2026-10-04T23:25:35.000Z
         hash = "b6c49eff1d34738ae40f1d6b51a62cc3a5d0e83d"
         type = "git"
         url = "https://github.com/zyf0717/lwbgt.git"
+
+            ["1.1.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:lwbgt"
+            provenance = "git-tag"
+            version = "1.1.0"

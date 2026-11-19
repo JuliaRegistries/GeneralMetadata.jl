@@ -17,6 +17,7 @@ registered = 2021-01-20T13:56:01.000Z
 
             ["2.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/amgx"
+            provenance = "tag-scheme"
             version = "2.1.0"
         [["2.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,6 +43,11 @@ yanked = 2023-02-09T13:49:30.000Z
         hash = "32e1f44fa93af7859490a800f137e75b6513420c"
         type = "git"
         url = "https://github.com/NVIDIA/AMGX.git"
+
+            ["2.3.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/amgx"
+            provenance = "git-tag"
+            version = "2.3.0"
         [["2.3.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/ee7ce8b328f541a4e8ce7cfa8a172ba6eeaf422a/A/AMGX/bundled"
@@ -65,6 +71,11 @@ registered = 2023-02-09T13:49:30.000Z
         hash = "32e1f44fa93af7859490a800f137e75b6513420c"
         type = "git"
         url = "https://github.com/NVIDIA/AMGX.git"
+
+            ["2.3.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/amgx"
+            provenance = "git-tag"
+            version = "2.3.0"
         [["2.3.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4c13e9e85b83b42293a58b9a2219f88261cbd96d/A/AMGX/bundled"
@@ -88,6 +99,11 @@ registered = 2024-10-21T18:22:50.000Z
         hash = "2b4762f02af2ed136134c7f0570646219753ab3e"
         type = "git"
         url = "https://github.com/NVIDIA/AMGX.git"
+
+            ["2.4.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/amgx"
+            provenance = "git-tag"
+            version = "2.4.0"
         [["2.4.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/5b2914dc29d744dbe7c7e4c08eedb338853d907e/A/AMGX/bundled"
@@ -114,6 +130,11 @@ registered = 2026-09-07T13:11:33.000Z
         hash = "cc1cebdbb32b14d33762d4ddabcb2e23c1669f47"
         type = "git"
         url = "https://github.com/NVIDIA/AMGX.git"
+
+            ["2.5.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/amgx"
+            provenance = "git-tag"
+            version = "2.5.0"
         [["2.5.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d29cbfeda50b55a229125b16790f429a780ee9ab/A/AMGX/bundled"
@@ -140,6 +161,11 @@ registered = 2026-09-08T18:23:27.000Z
         hash = "cc1cebdbb32b14d33762d4ddabcb2e23c1669f47"
         type = "git"
         url = "https://github.com/NVIDIA/AMGX.git"
+
+            ["2.5.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/amgx"
+            provenance = "git-tag"
+            version = "2.5.0"
         [["2.5.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/510d866f1ddacb4acec64f1443ad5e55df4ee5ff/A/AMGX/bundled"

@@ -7662,19 +7662,35 @@ registered = 2021-12-22T06:58:56.000Z
 
             ["3.6.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.3.3.2"
         [["3.6.0".artifact_metadata.sources]]
         hash = "79f294c4a7933e5acee5f150145c526d6cd4df16eefb63f2d65df1dbc683cd68"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.3.3.2-archive.tar.xz"
+
+            ["3.6.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.0".artifact_metadata.sources]]
         hash = "3abeacbe7085af7026ca1399a77c681c219c10a1448a062964e97aaac2b05851"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.3.3.2-archive.zip"
+
+            ["3.6.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.0".artifact_metadata.sources]]
         hash = "0b62d5305abfdfca4776290f16a1796c78c1fa83b203680c012f37d44706fcdb"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.3.3.2-archive.tar.xz"
+
+            ["3.6.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
 
 ["3.6.1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.5.50+0/CUDA_compat.v11.5.50.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.5.50+0/CUDA_compat.v11.5.50.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.5.50+0/CUDA_compat.v11.5.50.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-apple-darwin-cuda+10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-apple-darwin-cuda+10.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-apple-darwin-cuda+9.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-apple-darwin-cuda+9.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+10.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+9.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-linux-gnu-cuda+9.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+10.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+9.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_loader_jll.jl/releases/download/CUDA_loader-v0.2.1+2/CUDA_loader.v0.2.1.x86_64-w64-mingw32-cuda+9.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.powerpc64le-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUTENSOR_jll.jl/releases/download/CUTENSOR-v1.3.3+0/CUTENSOR.v1.3.3.x86_64-w64-mingw32-cuda+11.5.tar.gz"]
@@ -7726,19 +7742,35 @@ registered = 2021-12-23T11:53:34.000Z
 
             ["3.6.1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.3.3.2"
         [["3.6.1".artifact_metadata.sources]]
         hash = "79f294c4a7933e5acee5f150145c526d6cd4df16eefb63f2d65df1dbc683cd68"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.3.3.2-archive.tar.xz"
+
+            ["3.6.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.1".artifact_metadata.sources]]
         hash = "3abeacbe7085af7026ca1399a77c681c219c10a1448a062964e97aaac2b05851"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.3.3.2-archive.zip"
+
+            ["3.6.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.1".artifact_metadata.sources]]
         hash = "0b62d5305abfdfca4776290f16a1796c78c1fa83b203680c012f37d44706fcdb"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.3.3.2-archive.tar.xz"
+
+            ["3.6.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
     [["3.6.1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.5.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/94abc5afa716f68bdaf7a5f99f800e5526763d86/C/CUDNN/build_tarballs.jl"
@@ -7826,19 +7858,35 @@ registered = 2021-12-29T09:10:49.000Z
 
             ["3.6.2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.3.3.2"
         [["3.6.2".artifact_metadata.sources]]
         hash = "79f294c4a7933e5acee5f150145c526d6cd4df16eefb63f2d65df1dbc683cd68"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.3.3.2-archive.tar.xz"
+
+            ["3.6.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.2".artifact_metadata.sources]]
         hash = "3abeacbe7085af7026ca1399a77c681c219c10a1448a062964e97aaac2b05851"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.3.3.2-archive.zip"
+
+            ["3.6.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.2".artifact_metadata.sources]]
         hash = "0b62d5305abfdfca4776290f16a1796c78c1fa83b203680c012f37d44706fcdb"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.3.3.2-archive.tar.xz"
+
+            ["3.6.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
     [["3.6.2".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.5.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/94abc5afa716f68bdaf7a5f99f800e5526763d86/C/CUDNN/build_tarballs.jl"
@@ -7926,19 +7974,35 @@ registered = 2022-01-07T07:22:26.000Z
 
             ["3.6.3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.3.3.2"
         [["3.6.3".artifact_metadata.sources]]
         hash = "79f294c4a7933e5acee5f150145c526d6cd4df16eefb63f2d65df1dbc683cd68"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.3.3.2-archive.tar.xz"
+
+            ["3.6.3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.3".artifact_metadata.sources]]
         hash = "3abeacbe7085af7026ca1399a77c681c219c10a1448a062964e97aaac2b05851"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.3.3.2-archive.zip"
+
+            ["3.6.3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.3".artifact_metadata.sources]]
         hash = "0b62d5305abfdfca4776290f16a1796c78c1fa83b203680c012f37d44706fcdb"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.3.3.2-archive.tar.xz"
+
+            ["3.6.3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
     [["3.6.3".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.5.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/94abc5afa716f68bdaf7a5f99f800e5526763d86/C/CUDNN/build_tarballs.jl"
@@ -8026,19 +8090,35 @@ registered = 2022-01-08T21:28:04.000Z
 
             ["3.6.4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.3.3.2"
         [["3.6.4".artifact_metadata.sources]]
         hash = "79f294c4a7933e5acee5f150145c526d6cd4df16eefb63f2d65df1dbc683cd68"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.3.3.2-archive.tar.xz"
+
+            ["3.6.4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.4".artifact_metadata.sources]]
         hash = "3abeacbe7085af7026ca1399a77c681c219c10a1448a062964e97aaac2b05851"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.3.3.2-archive.zip"
+
+            ["3.6.4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
         [["3.6.4".artifact_metadata.sources]]
         hash = "0b62d5305abfdfca4776290f16a1796c78c1fa83b203680c012f37d44706fcdb"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.3.3.2-archive.tar.xz"
+
+            ["3.6.4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.3.3.2"
     [["3.6.4".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.1+1/CUDNN.v8.3.1.x86_64-w64-mingw32-cuda+11.5.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/94abc5afa716f68bdaf7a5f99f800e5526763d86/C/CUDNN/build_tarballs.jl"
@@ -8095,19 +8175,35 @@ registered = 2022-01-21T16:52:40.000Z
 
             ["3.7.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.7.0".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.7.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.7.0".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.7.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.7.0".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.7.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.7.0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8195,19 +8291,35 @@ registered = 2022-01-27T10:57:42.000Z
 
             ["3.7.1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.7.1".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.7.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.7.1".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.7.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.7.1".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.7.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.7.1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8295,19 +8407,35 @@ registered = 2022-01-28T16:29:33.000Z
 
             ["3.8.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.8.0".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.8.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.0".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.8.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.0".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.8.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.8.0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8395,19 +8523,35 @@ registered = 2022-02-15T17:22:04.000Z
 
             ["3.8.1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.8.1".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.8.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.1".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.8.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.1".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.8.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.8.1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8495,19 +8639,35 @@ registered = 2022-02-18T17:12:47.000Z
 
             ["3.8.2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.8.2".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.8.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.2".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.8.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.2".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.8.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.8.2".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8595,19 +8755,35 @@ registered = 2022-02-25T17:56:43.000Z
 
             ["3.8.3".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.8.3".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.8.3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.3".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.8.3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.3".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.8.3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.8.3".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8695,19 +8871,35 @@ registered = 2022-03-11T16:46:59.000Z
 
             ["3.8.4".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.8.4".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.8.4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.4".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.8.4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.4".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.8.4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.8.4".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8795,19 +8987,35 @@ registered = 2022-03-14T20:08:29.000Z
 
             ["3.8.5".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.8.5".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.8.5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.5".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.8.5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.8.5".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.8.5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.8.5".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -8895,19 +9103,35 @@ registered = 2022-04-09T09:55:47.000Z
 
             ["3.9.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.9.0".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.9.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.9.0".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.9.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.9.0".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.9.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.9.0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -9035,19 +9259,35 @@ registered = 2022-05-08T22:06:03.000Z
 
             ["3.9.1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.9.1".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.9.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.9.1".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.9.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.9.1".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.9.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.9.1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.aarch64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.powerpc64le-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-linux-gnu-cuda+11.6.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+10.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.2.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.4.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.5.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v8.3.2+0/CUDNN.v8.3.2.x86_64-w64-mingw32-cuda+11.6.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/25f8a7e45636fbba52bf21c08766b7233457f049/C/CUDNN/build_tarballs.jl"
@@ -9175,19 +9415,35 @@ registered = 2022-05-16T18:55:49.000Z
 
             ["3.10.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.10.0".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.10.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.10.0".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.10.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.10.0".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.10.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.10.0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"
@@ -9335,19 +9591,35 @@ registered = 2022-05-27T20:16:43.000Z
 
             ["3.10.1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.10.1".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.10.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.10.1".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.10.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.10.1".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.10.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.10.1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"
@@ -9495,19 +9767,35 @@ registered = 2022-06-15T10:26:37.000Z
 
             ["3.11.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.11.0".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.11.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.11.0".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.11.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.11.0".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.11.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.11.0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"
@@ -9655,19 +9943,35 @@ registered = 2022-07-16T21:37:45.000Z
 
             ["3.12.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.12.0".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.12.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.12.0".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.12.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.12.0".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.12.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.12.0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"
@@ -9815,19 +10119,35 @@ registered = 2023-01-06T07:30:55.000Z
 
             ["3.12.1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.12.1".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.12.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.12.1".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.12.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.12.1".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.12.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.12.1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"
@@ -9975,19 +10295,35 @@ registered = 2023-01-20T14:33:40.000Z
 
             ["3.12.2".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.12.2".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.12.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.12.2".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.12.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.12.2".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.12.2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.12.2".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"
@@ -10135,19 +10471,35 @@ registered = 2023-01-19T16:54:56.000Z
 
             ["3.13.0".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.13.0".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.13.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.13.0".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.13.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.13.0".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.13.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.13.0".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"
@@ -10295,19 +10647,35 @@ registered = 2023-01-20T15:46:10.000Z
 
             ["3.13.1".artifact_metadata.sources.upstream]
             project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
             version = "1.4.0.6"
         [["3.13.1".artifact_metadata.sources]]
         hash = "5da44ff2562ab7b9286122653e54f28d2222c8aab4bb02e9bdd4cf7e4b7809be"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-ppc64le/libcutensor-linux-ppc64le-1.4.0.6-archive.tar.xz"
+
+            ["3.13.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.13.1".artifact_metadata.sources]]
         hash = "4f01a8aac2c25177e928c63381a80e3342f214ec86ad66965dcbfe81fc5c901d"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/windows-x86_64/libcutensor-windows-x86_64-1.4.0.6-archive.zip"
+
+            ["3.13.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
         [["3.13.1".artifact_metadata.sources]]
         hash = "6b06d63a5bc49c1660be8c307795f8a901c93dcde7b064455a6c81333c7327f4"
         type = "archive"
         url = "https://developer.download.nvidia.com/compute/cutensor/redist/libcutensor/linux-sbsa/libcutensor-linux-sbsa-1.4.0.6-archive.tar.xz"
+
+            ["3.13.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cutensor"
+            provenance = "url-pattern"
+            version = "1.4.0.6"
     [["3.13.1".artifact_metadata]]
     artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_compat_jll.jl/releases/download/CUDA_compat-v11.7.0+0/CUDA_compat.v11.7.0.x86_64-linux-gnu.tar.gz"]
     buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/73a61f038d547a7d8adec0581dc9ae623b787968/C/CUDA/CUDA_compat/build_tarballs.jl"

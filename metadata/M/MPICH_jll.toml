@@ -16,6 +16,7 @@ registered = 2019-12-21T04:11:36.000Z
 
             ["3.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
 
 ["3.3.2+1"]
@@ -36,6 +37,7 @@ registered = 2019-12-21T13:25:14.000Z
 
             ["3.3.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
 
 ["3.3.2+2"]
@@ -56,6 +58,7 @@ registered = 2020-01-16T23:45:30.000Z
 
             ["3.3.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
 
 ["3.3.2+3"]
@@ -76,6 +79,7 @@ registered = 2020-01-20T04:45:35.000Z
 
             ["3.3.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+3".artifact_metadata.sources]]
         type = "directory"
@@ -100,6 +104,7 @@ registered = 2020-02-16T22:11:21.000Z
 
             ["3.3.2+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+4".artifact_metadata.sources]]
         type = "directory"
@@ -124,6 +129,7 @@ registered = 2020-02-25T01:57:35.000Z
 
             ["3.3.2+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+5".artifact_metadata.sources]]
         type = "directory"
@@ -148,6 +154,7 @@ registered = 2020-02-28T00:24:02.000Z
 
             ["3.3.2+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+6".artifact_metadata.sources]]
         type = "directory"
@@ -172,6 +179,7 @@ registered = 2020-03-05T11:57:10.000Z
 
             ["3.3.2+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+7".artifact_metadata.sources]]
         type = "directory"
@@ -196,6 +204,7 @@ registered = 2020-04-04T05:46:24.000Z
 
             ["3.3.2+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+8".artifact_metadata.sources]]
         type = "directory"
@@ -220,6 +229,7 @@ registered = 2020-04-10T17:23:13.000Z
 
             ["3.3.2+9".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+9".artifact_metadata.sources]]
         type = "directory"
@@ -244,6 +254,7 @@ registered = 2020-05-12T23:45:22.000Z
 
             ["3.3.2+10".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.3.2"
         [["3.3.2+10".artifact_metadata.sources]]
         type = "directory"
@@ -268,6 +279,7 @@ registered = 2021-06-19T14:08:04.000Z
 
             ["3.4.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.4.2"
 
 ["3.4.2+1"]
@@ -289,6 +301,7 @@ registered = 2021-10-25T22:13:11.000Z
 
             ["3.4.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.4.2"
         [["3.4.2+1".artifact_metadata.sources]]
         hash = "3437eb7913cf213de80cef4ade7d73f0b3adfe9eadabe993b923dc50a21bd65e"
@@ -314,6 +327,7 @@ registered = 2021-11-27T16:58:16.000Z
 
             ["3.4.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "3.4.2"
         [["3.4.2+2".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -339,6 +353,7 @@ registered = 2021-12-16T19:18:32.000Z
 
             ["3.4.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "3.4.3"
         [["3.4.3+0".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -364,6 +379,7 @@ registered = 2022-01-11T09:18:44.000Z
 
             ["3.4.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "3.4.3"
         [["3.4.3+1".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -389,6 +405,7 @@ registered = 2022-01-23T02:41:09.000Z
 
             ["4.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0"
         [["4.0.0+0".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -417,6 +434,7 @@ registered = 2022-02-23T20:24:26.000Z
 
             ["4.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0.1"
         [["4.0.1+0".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -446,6 +464,7 @@ yanked = 2023-09-26T09:48:10.000Z
 
             ["4.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0.2"
         [["4.0.2+0".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -472,6 +491,7 @@ yanked = 2023-09-26T09:48:10.000Z
 
             ["4.0.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0.2"
         [["4.0.2+1".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -498,6 +518,7 @@ yanked = 2023-09-26T09:48:10.000Z
 
             ["4.0.2+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0.2"
         [["4.0.2+2".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -523,6 +544,7 @@ registered = 2022-06-21T18:17:24.000Z
 
             ["4.0.2+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0.2"
         [["4.0.2+3".artifact_metadata.sources]]
         hash = "610d816c22cd05e16e17371c6384e0b6f9d3a2bdcb311824d0d40790812882fc"
@@ -548,6 +570,7 @@ registered = 2022-06-23T20:42:46.000Z
 
             ["4.0.2+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0.2"
 
 ["4.0.2+5"]
@@ -569,6 +592,7 @@ registered = 2022-10-03T15:33:20.000Z
 
             ["4.0.2+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.0.2"
 
 ["4.1.0+0"]
@@ -590,6 +614,7 @@ registered = 2023-03-04T20:13:29.000Z
 
             ["4.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.1"
 
 ["4.1.0+1"]
@@ -611,6 +636,7 @@ registered = 2023-03-05T18:25:07.000Z
 
             ["4.1.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.1"
 
 ["4.1.1+0"]
@@ -632,6 +658,7 @@ registered = 2023-03-11T19:37:28.000Z
 
             ["4.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "4.1.1"
 
 ["4.1.1+1"]
@@ -653,6 +680,7 @@ registered = 2023-03-20T04:25:50.000Z
 
             ["4.1.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "4.1.1"
 
 ["4.1.2+0"]
@@ -674,6 +702,7 @@ registered = 2023-06-15T19:47:30.000Z
 
             ["4.1.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "4.1.2"
 
 ["4.1.2+1"]
@@ -695,6 +724,7 @@ registered = 2023-12-11T17:59:10.000Z
 
             ["4.1.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "4.1.2"
         [["4.1.2+1".artifact_metadata.sources]]
         type = "directory"
@@ -719,6 +749,7 @@ registered = 2024-02-14T18:20:08.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.2.0"
         [["4.2.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -743,6 +774,7 @@ registered = 2024-04-23T14:56:41.000Z
 
             ["4.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.2.1"
         [["4.2.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -767,6 +799,7 @@ registered = 2024-05-04T15:46:34.000Z
 
             ["4.2.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.2.1"
         [["4.2.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -791,6 +824,7 @@ registered = 2024-07-17T19:26:46.000Z
 
             ["4.2.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.2.2"
         [["4.2.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -815,6 +849,7 @@ registered = 2024-10-02T18:37:50.000Z
 
             ["4.2.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.2.3"
         [["4.2.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -839,6 +874,7 @@ registered = 2025-02-19T20:02:53.000Z
 
             ["4.3.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "4.3.0"
         [["4.3.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -863,6 +899,7 @@ registered = 2025-03-04T16:22:21.000Z
 
             ["4.3.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "4.3.0"
         [["4.3.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -887,6 +924,7 @@ registered = 2025-06-20T22:46:18.000Z
 
             ["4.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.3.1"
         [["4.3.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -911,6 +949,7 @@ registered = 2025-10-18T16:05:16.000Z
 
             ["4.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "4.3.1"
         [["4.3.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -935,6 +974,7 @@ registered = 2026-02-06T17:08:17.000Z
 
             ["5.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "heuristic"
             version = "5.0.0"
         [["5.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -959,6 +999,7 @@ registered = 2026-04-10T18:01:55.000Z
 
             ["5.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "5.0.1"
         [["5.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -983,6 +1024,7 @@ registered = 2026-09-28T21:23:27.000Z
 
             ["5.0.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpich"
+            provenance = "repology-url"
             version = "5.0.2"
         [["5.0.2+0".artifact_metadata.sources]]
         type = "directory"

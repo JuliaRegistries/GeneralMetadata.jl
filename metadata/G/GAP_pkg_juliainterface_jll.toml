@@ -905,6 +905,7 @@ registered = 2026-05-22T07:29:47.000Z
 
             ["0.160000.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
+            provenance = "repology-url"
             version = "4.15.1"
         [["0.160000.1+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -933,6 +934,7 @@ registered = 2026-06-02T19:12:51.000Z
 
             ["0.170000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
+            provenance = "repology-url"
             version = "4.16.0"
         [["0.170000.0+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -961,6 +963,7 @@ registered = 2026-08-10T13:48:53.000Z
 
             ["0.170400.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
+            provenance = "repology-url"
             version = "4.16.0"
         [["0.170400.0+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -989,6 +992,7 @@ registered = 2026-08-24T00:13:54.000Z
 
             ["0.170400.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
+            provenance = "repology-url"
             version = "4.16.1"
         [["0.170400.1+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -1017,6 +1021,7 @@ registered = 2026-09-14T01:28:36.000Z
 
             ["0.170400.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
+            provenance = "repology-url"
             version = "4.16.1"
         [["0.170400.2+0".artifact_metadata.sources]]
         package = "libjulia_jll"
@@ -1045,6 +1050,7 @@ registered = 2026-09-24T09:01:38.000Z
 
             ["0.170400.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap"
+            provenance = "repology-url"
             version = "4.16.1"
         [["0.170400.3+0".artifact_metadata.sources]]
         package = "libjulia_jll"

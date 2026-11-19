@@ -17,4 +17,5 @@ registered = 2025-09-05T16:23:16.000Z
 
             ["5.5.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/fplll"
+            provenance = "repology-url"
             version = "5.5.0"

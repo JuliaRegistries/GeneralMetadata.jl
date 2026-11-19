@@ -17,4 +17,5 @@ registered = 2026-04-27T18:19:59.000Z
 
             ["1.13.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/level-zero"
+            provenance = "git-tag"
             version = "1.24.0"

@@ -17,6 +17,7 @@ registered = 2023-04-14T17:38:02.000Z
 
             ["5.2.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gawk"
+            provenance = "heuristic"
             version = "5.2.1"
 
 ["5.3.1+0"]
@@ -38,6 +39,7 @@ registered = 2024-12-19T18:50:43.000Z
 
             ["5.3.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gawk"
+            provenance = "repology-url"
             version = "5.3.1"
 
 ["5.3.2+0"]
@@ -59,7 +61,7 @@ registered = 2025-12-05T17:39:10.000Z
 
             ["5.3.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gawk"
-            version = "5.3.2"
+            provenance = "repository"
         [["5.3.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/fcb89325d05dc74f0059dc6c35b4b0b8b0814b35/G/gawk/bundled"
@@ -83,7 +85,7 @@ registered = 2026-02-22T23:34:52.000Z
 
             ["5.4.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gawk"
-            version = "5.4.0"
+            provenance = "repository"
         [["5.4.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/599cb3dba0655a296f237d0889e44ff901f25877/G/gawk/bundled"
@@ -107,7 +109,7 @@ registered = 2026-07-23T15:26:20.000Z
 
             ["5.4.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gawk"
-            version = "5.4.1"
+            provenance = "repository"
         [["5.4.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/adede216a68d222b6c1f8ceaad5b9be993447771/G/gawk/bundled"
@@ -131,7 +133,7 @@ registered = 2026-08-26T16:17:06.000Z
 
             ["5.4.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gawk"
-            version = "5.4.1"
+            provenance = "repository"
         [["5.4.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/36ad0d370b94e52be2d97226826b18b2585ac3a0/G/gawk/bundled"

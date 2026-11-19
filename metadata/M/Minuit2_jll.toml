@@ -17,6 +17,7 @@ registered = 2020-02-17T04:10:23.000Z
 
             ["6.18.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/root"
+            provenance = "heuristic"
             version = "6-18-04"
         [["6.18.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2020-12-29T14:57:32.000Z
 
             ["6.22.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/root"
+            provenance = "repology-url"
             version = "v6-22-06"
 
 ["6.34.2+0"]
@@ -62,4 +64,5 @@ registered = 2025-01-15T15:10:56.000Z
 
             ["6.34.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/root"
+            provenance = "heuristic"
             version = "6.34.02"

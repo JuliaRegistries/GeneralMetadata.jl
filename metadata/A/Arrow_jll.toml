@@ -17,6 +17,7 @@ registered = 2022-11-06T20:15:57.000Z
 
             ["10.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/apache-arrow"
+            provenance = "tag-scheme"
             version = "10.0.0"
         [["10.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2022-11-13T04:19:11.000Z
 
             ["10.0.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/apache-arrow"
+            provenance = "tag-scheme"
             version = "10.0.0"
         [["10.0.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -65,6 +67,7 @@ registered = 2024-12-06T19:56:03.000Z
 
             ["10.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/apache-arrow"
+            provenance = "git-tag"
             version = "10.0.1"
         [["10.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -89,6 +92,7 @@ registered = 2024-12-08T20:47:40.000Z
 
             ["18.1.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/apache-arrow"
+            provenance = "git-tag"
             version = "18.1.0"
         [["18.1.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -113,6 +117,7 @@ registered = 2024-12-21T17:42:20.000Z
 
             ["18.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/apache-arrow"
+            provenance = "git-tag"
             version = "18.1.0"
         [["18.1.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -157,6 +162,7 @@ registered = 2025-05-27T22:08:50.000Z
 
             ["19.0.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/apache-arrow"
+            provenance = "tag-scheme"
             version = "19.0.1"
         [["19.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -181,6 +187,7 @@ registered = 2026-06-05T20:36:18.000Z
 
             ["24.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/apache-arrow"
+            provenance = "tag-scheme"
             version = "24.0.0"
         [["24.0.0+0".artifact_metadata.sources]]
         type = "directory"

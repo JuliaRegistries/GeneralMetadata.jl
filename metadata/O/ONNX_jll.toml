@@ -17,6 +17,7 @@ registered = 2021-12-29T20:46:55.000Z
 
             ["1.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/onnx"
+            provenance = "tag-scheme"
             version = "1.10.2"
 
 ["1.10.2+1"]
@@ -38,6 +39,7 @@ registered = 2025-12-06T07:17:45.000Z
 
             ["1.10.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/onnx"
+            provenance = "git-tag"
             version = "1.10.2"
         [["1.10.2+1".artifact_metadata.sources]]
         type = "directory"

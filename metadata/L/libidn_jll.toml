@@ -17,6 +17,7 @@ registered = 2021-10-07T23:54:23.000Z
 
             ["1.38.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libidn"
+            provenance = "heuristic"
             version = "1.38"
 
 ["1.43.0+0"]
@@ -38,6 +39,7 @@ registered = 2026-01-01T19:21:53.000Z
 
             ["1.43.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libidn"
+            provenance = "heuristic"
             version = "1.43"
 
 ["1.44.0+0"]
@@ -59,4 +61,5 @@ registered = 2026-07-13T17:05:22.000Z
 
             ["1.44.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libidn"
+            provenance = "repology-url"
             version = "1.44"

@@ -20,6 +20,7 @@ registered = 2021-09-06T23:08:40.000Z
 
             ["400.700.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.7.1"
 
 ["400.700.200+0"]
@@ -44,6 +45,7 @@ registered = 2021-10-22T09:19:32.000Z
 
             ["400.700.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.7.2"
 
 ["400.700.200+1"]
@@ -68,6 +70,7 @@ registered = 2021-10-23T10:41:43.000Z
 
             ["400.700.200+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.7.2"
 
 ["400.700.201+0"]
@@ -92,6 +95,7 @@ registered = 2022-03-01T00:57:42.000Z
 
             ["400.700.201+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.7.2"
 
 ["400.700.202+0"]
@@ -113,6 +117,7 @@ registered = 2022-09-19T22:33:47.000Z
 
             ["400.700.202+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.7.2"
 
 ["400.700.202+1"]
@@ -134,6 +139,7 @@ registered = 2022-10-01T01:54:20.000Z
 
             ["400.700.202+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.7.2"
 
 ["400.800.0+0"]
@@ -155,6 +161,7 @@ registered = 2022-10-26T22:56:26.000Z
 
             ["400.800.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.8.0"
 
 ["400.800.0+1"]
@@ -176,6 +183,7 @@ registered = 2022-10-31T18:35:57.000Z
 
             ["400.800.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.8.0"
 
 ["400.800.1+0"]
@@ -197,6 +205,7 @@ registered = 2023-01-04T15:42:09.000Z
 
             ["400.800.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.8.0"
 
 ["400.800.200+0"]
@@ -218,6 +227,7 @@ registered = 2024-03-19T23:05:40.000Z
 
             ["400.800.200+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.8.2"
 
 ["400.900.100+0"]
@@ -239,6 +249,7 @@ registered = 2024-12-08T23:08:21.000Z
 
             ["400.900.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "repology-url"
             version = "4.9.1"
 
 ["400.900.100+1"]
@@ -260,6 +271,7 @@ registered = 2024-12-10T07:00:45.000Z
 
             ["400.900.100+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "repology-url"
             version = "4.9.1"
 
 ["400.900.101+0"]
@@ -281,6 +293,7 @@ registered = 2025-06-17T16:05:59.000Z
 
             ["400.900.101+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "repology-url"
             version = "4.9.1"
 
 ["400.900.102+0"]
@@ -302,6 +315,7 @@ registered = 2025-08-15T14:21:50.000Z
 
             ["400.900.102+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "repology-url"
             version = "4.9.1"
 
 ["401.90300.0+0"]
@@ -323,6 +337,7 @@ registered = 2025-09-30T16:08:20.000Z
 
             ["401.90300.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "repology-url"
             version = "4.9.3"
 
 ["401.90300.1+0"]
@@ -344,6 +359,7 @@ registered = 2026-06-02T18:52:09.000Z
 
             ["401.90300.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "repology-url"
             version = "4.9.3"
 
 ["401.100000.0+0"]
@@ -365,4 +381,5 @@ registered = 2026-08-24T00:54:01.000Z
 
             ["401.100000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:io"
+            provenance = "heuristic"
             version = "4.10.0"

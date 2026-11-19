@@ -17,6 +17,7 @@ registered = 2021-05-28T00:29:07.000Z
 
             ["2.5.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpdecimal"
+            provenance = "repology-url"
             version = "2.5.1"
         [["2.5.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -41,6 +42,7 @@ registered = 2025-02-10T12:41:09.000Z
 
             ["2.5.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mpdecimal"
+            provenance = "repology-url"
             version = "2.5.1"
         [["2.5.2+0".artifact_metadata.sources]]
         type = "directory"

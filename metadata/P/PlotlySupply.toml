@@ -105,3 +105,7 @@ registered = 2026-10-23T12:25:32.000Z
 ["1.9.3"]
 artifact_urls = ["https://registry.npmjs.org/plotly.js-dist-min/-/plotly.js-dist-min-2.35.2.tgz"]
 registered = 2026-10-23T15:45:52.000Z
+
+["1.9.4"]
+artifact_urls = ["https://registry.npmjs.org/plotly.js-dist-min/-/plotly.js-dist-min-2.35.2.tgz"]
+registered = 2026-11-18T02:31:41.000Z

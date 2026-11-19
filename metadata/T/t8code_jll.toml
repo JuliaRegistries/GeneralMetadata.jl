@@ -117,6 +117,7 @@ registered = 2023-12-07T23:35:11.000Z
 
             ["1.6.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/t8code"
+            provenance = "url-pattern"
             version = "1.6.1"
         [["1.6.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -141,6 +142,7 @@ registered = 2023-12-12T16:43:29.000Z
 
             ["1.6.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/t8code"
+            provenance = "url-pattern"
             version = "1.6.1"
         [["1.6.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -165,6 +167,7 @@ registered = 2024-04-25T11:48:03.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/t8code"
+            provenance = "url-pattern"
             version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -226,6 +229,11 @@ registered = 2026-01-05T15:22:48.000Z
         hash = "668536f82730a23fc6fd96ff13e64762b6b0890d04e99a7a38d66341332d5770"
         type = "archive"
         url = "https://github.com/DLR-AMR/t8code/releases/download/v4.0.0/T8CODE-4.0.0-Source.tar.gz"
+
+            ["4.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/t8code"
+            provenance = "heuristic"
+            version = "4.0.0"
         [["4.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/85e2709c3ce4307f63a74a32a9eb46efd628c194/T/t8code/bundled"

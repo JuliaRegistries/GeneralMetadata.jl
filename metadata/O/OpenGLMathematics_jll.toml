@@ -17,3 +17,4 @@ registered = 2022-03-15T00:34:52.000Z
 
             ["0.9.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/glm"
+            provenance = "repository"

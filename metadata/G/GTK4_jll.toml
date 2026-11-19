@@ -87,6 +87,7 @@ registered = 2023-04-17T10:05:18.000Z
 
             ["4.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["4.8.3+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -108,6 +109,11 @@ registered = 2023-06-24T21:37:16.000Z
         hash = "7725400482e0685e28265e226c62847f4e73cfca9e9b416ac5838207f5377a24"
         type = "archive"
         url = "https://download.gnome.org/sources/gtk/4.10/gtk-4.10.4.tar.xz"
+
+            ["4.10.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gtk"
+            provenance = "heuristic"
+            version = "4.10.4"
         [["4.10.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b69e2afc02323258cdc873e8b8b1a8fc1a465097/G/GTK4/bundled"
@@ -118,6 +124,7 @@ registered = 2023-06-24T21:37:16.000Z
 
             ["4.10.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["4.10.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -139,6 +146,11 @@ registered = 2023-08-10T14:34:17.000Z
         hash = "9bd5e437e41d48e3d6a224c336b0fd3fd490036dceb8956ed74b956369af609b"
         type = "archive"
         url = "https://download.gnome.org/sources/gtk/4.10/gtk-4.10.5.tar.xz"
+
+            ["4.10.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gtk"
+            provenance = "heuristic"
+            version = "4.10.5"
         [["4.10.5+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/04eab672afee50acad75ec9e8a86be8a8b456c70/G/GTK4/bundled"
@@ -149,6 +161,7 @@ registered = 2023-08-10T14:34:17.000Z
 
             ["4.10.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["4.10.5+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -170,6 +183,11 @@ registered = 2024-01-13T19:58:38.000Z
         hash = "ba67c6498e5599f928edafb9e08a320adfaa50ab2f0da6fc6ab2252fc2d57520"
         type = "archive"
         url = "https://download.gnome.org/sources/gtk/4.12/gtk-4.12.4.tar.xz"
+
+            ["4.12.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gtk"
+            provenance = "heuristic"
+            version = "4.12.4"
         [["4.12.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a8c658fa1f37136ee074000ba4f0582d854769d9/G/GTK4/bundled"
@@ -180,6 +198,7 @@ registered = 2024-01-13T19:58:38.000Z
 
             ["4.12.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["4.12.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -201,6 +220,11 @@ registered = 2024-01-28T19:41:19.000Z
         hash = "28b356d590ee68ef626e2ef9820b2dd21441484a9a042a5a3f0c40e9dfc4f4f8"
         type = "archive"
         url = "https://download.gnome.org/sources/gtk/4.12/gtk-4.12.5.tar.xz"
+
+            ["4.12.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gtk"
+            provenance = "heuristic"
+            version = "4.12.5"
         [["4.12.5+0".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
         type = "archive"
@@ -208,6 +232,7 @@ registered = 2024-01-28T19:41:19.000Z
 
             ["4.12.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["4.12.5+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -229,6 +254,11 @@ registered = 2024-08-22T17:37:17.000Z
         hash = "5547f2b9f006b133993e070b87c17804e051efda3913feaca1108fa2be41e24d"
         type = "archive"
         url = "https://download.gnome.org/sources/gtk/4.14/gtk-4.14.5.tar.xz"
+
+            ["4.14.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gtk"
+            provenance = "heuristic"
+            version = "4.14.5"
         [["4.14.5+0".artifact_metadata.sources]]
         hash = "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
         type = "archive"
@@ -236,6 +266,7 @@ registered = 2024-08-22T17:37:17.000Z
 
             ["4.14.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["4.14.5+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -263,6 +294,7 @@ registered = 2025-07-02T15:00:40.000Z
 
             ["4.18.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gtk"
+            provenance = "repology-url"
             version = "4.18.6"
         [["4.18.6+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -275,6 +307,7 @@ registered = 2025-07-02T15:00:40.000Z
 
             ["4.18.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
             version = "10.0.0"
         [["4.18.6+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

@@ -17,4 +17,5 @@ registered = 2022-10-30T00:42:25.000Z
 
             ["1.15.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hyperfine"
+            provenance = "tag-scheme"
             version = "1.15.0"

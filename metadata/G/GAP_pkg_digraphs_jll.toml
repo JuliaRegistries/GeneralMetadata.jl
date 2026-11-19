@@ -125,6 +125,7 @@ registered = 2023-01-04T15:22:26.000Z
 
             ["100.600.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "heuristic"
             version = "1.6.1"
 
 ["100.700.100+0"]
@@ -146,6 +147,7 @@ registered = 2024-03-19T22:53:32.000Z
 
             ["100.700.100+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "heuristic"
             version = "1.7.1"
 
 ["100.900.0+0"]
@@ -167,6 +169,7 @@ registered = 2024-12-08T23:30:42.000Z
 
             ["100.900.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "heuristic"
             version = "1.9.0"
 
 ["100.900.0+1"]
@@ -188,6 +191,7 @@ registered = 2024-12-10T08:43:53.000Z
 
             ["100.900.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "heuristic"
             version = "1.9.0"
 
 ["100.900.1+0"]
@@ -209,6 +213,7 @@ registered = 2025-06-17T15:59:37.000Z
 
             ["100.900.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "heuristic"
             version = "1.9.0"
 
 ["100.900.2+0"]
@@ -230,6 +235,7 @@ registered = 2025-08-15T14:21:24.000Z
 
             ["100.900.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "heuristic"
             version = "1.9.0"
 
 ["101.130100.0+0"]
@@ -251,6 +257,7 @@ registered = 2025-09-30T17:05:13.000Z
 
             ["101.130100.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "heuristic"
             version = "1.13.1"
 
 ["101.140000.0+0"]
@@ -272,6 +279,7 @@ registered = 2026-06-02T18:25:52.000Z
 
             ["101.140000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "repology-url"
             version = "1.14.0"
 
 ["101.150000.0+0"]
@@ -293,4 +301,5 @@ registered = 2026-08-24T00:54:43.000Z
 
             ["101.150000.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/gap:digraphs"
+            provenance = "repology-url"
             version = "1.15.0"

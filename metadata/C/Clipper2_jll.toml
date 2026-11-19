@@ -14,6 +14,11 @@ registered = 2022-09-16T17:11:45.000Z
         hash = "8916ed19e113e1b84fa44d17ead56baef23fc394"
         type = "git"
         url = "https://github.com/AngusJohnson/Clipper2.git"
+
+            ["1.0.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/clipper2"
+            provenance = "git-tag"
+            version = "1.0.4"
         [["1.0.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/770c0c09f21895ec9cb28473d80834a451401b91/C/Clipper2/bundled"
@@ -34,6 +39,11 @@ registered = 2023-07-30T23:10:00.000Z
         hash = "756c5079aacab5837e812a143c59dc48a09f22e7"
         type = "git"
         url = "https://github.com/AngusJohnson/Clipper2.git"
+
+            ["1.2.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/clipper2"
+            provenance = "git-tag"
+            version = "1.2.2"
         [["1.2.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e219018ec351d83ef2f660e54a603806e982c735/C/Clipper2/bundled"

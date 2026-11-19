@@ -17,6 +17,7 @@ registered = 2021-02-06T18:58:33.000Z
 
             ["4.2.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ccache"
+            provenance = "tag-scheme"
             version = "4.2"
 
 ["4.7.4+0"]
@@ -38,6 +39,7 @@ registered = 2022-11-24T00:12:35.000Z
 
             ["4.7.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ccache"
+            provenance = "tag-scheme"
             version = "4.7.4"
         [["4.7.4+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
@@ -63,6 +65,7 @@ registered = 2024-02-21T15:59:19.000Z
 
             ["4.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ccache"
+            provenance = "tag-scheme"
             version = "4.9.1"
         [["4.9.1+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"

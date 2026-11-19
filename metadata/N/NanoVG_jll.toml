@@ -14,6 +14,10 @@ registered = 2022-09-29T00:19:01.000Z
         hash = "7544c114e83db7cf67bd1c9e012349b70caacc2f"
         type = "git"
         url = "https://github.com/memononen/nanovg"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/nanovg"
+            provenance = "repository"
         [["1.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2044202048f0fa57102ee76cfaf9d73555f57f4b/N/NanoVG/bundled"
