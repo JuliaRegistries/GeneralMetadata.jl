@@ -533,9 +533,11 @@ function metadata_for_jll_release(org, repo, tag)
         !isfile(buildscript) && error("could not find build script for $jllname at Ygg $commit")
         @info "$jllname@$jllversion: $buildscript @ $commit"
         # Now find the version of BinaryBuilder/Julia to run
-        if isfile(".ci/Manifest.toml")
-            manifest = TOML.parsefile(".ci/Manifest.toml")
-            proj = abspath(".ci")
+        # Yggdrasil moved its BinaryBuilder v1 environment to .ci/bb1_project in JuliaPackaging/Yggdrasil#13498
+        ci_proj = isfile(".ci/bb1_project/Manifest.toml") ? ".ci/bb1_project" : ".ci"
+        if isfile(joinpath(ci_proj, "Manifest.toml"))
+            manifest = TOML.parsefile(joinpath(ci_proj, "Manifest.toml"))
+            proj = abspath(ci_proj)
             if haskey(manifest, "julia_version")
                 julia_version = majorminor(VersionNumber(manifest["julia_version"])) # ignore patch versions for these
             elseif isfile(".ci/azp_agent/install_agents.sh")
@@ -579,6 +581,8 @@ function metadata_for_jll_release(org, repo, tag)
         else
             # Prior to https://github.com/JuliaPackaging/Yggdrasil/commit/102b6ec47081ccb932e59bd604b02959ffbbdc16, there was no manifest
             # and Julia lived inside a pre-built docker container... from somewhere...
+            success(`git merge-base --is-ancestor 102b6ec47081ccb932e59bd604b02959ffbbdc16 $commit`) &&
+                error("no BinaryBuilder manifest found in Yggdrasil's .ci at $commit")
             proj = joinpath(@__DIR__, "..", "scripts", "yggdrasil_env_pre_2020_02_07") # This has BB v0.2.2 (Jan 2020); there are older buildscripts that predate this, but start here
             julia_version = "1.3.0"
         end
