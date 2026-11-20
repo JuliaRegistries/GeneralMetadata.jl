@@ -2066,7 +2066,7 @@ registered = 2026-11-06T02:27:20.000Z
 
             ["7.2.3+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "22.1.8"
         [["7.2.3+7".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -2114,7 +2114,7 @@ registered = 2026-11-09T12:42:38.000Z
 
             ["7.2.3+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "22.1.8"
         [["7.2.3+8".artifact_metadata.sources]]
         package = "LLVM_full_jll"
@@ -2162,7 +2162,7 @@ registered = 2026-11-18T12:57:14.000Z
 
             ["7.2.3+9".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "22.1.8"
         [["7.2.3+9".artifact_metadata.sources]]
         package = "LLVM_full_jll"

@@ -715,5 +715,5 @@ registered = 2026-11-19T14:08:31.000Z
 
             ["2.16.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/hwloc"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "2.16.0"

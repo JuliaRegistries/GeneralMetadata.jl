@@ -766,5 +766,5 @@ registered = 2026-09-21T13:12:33.000Z
 
             ["2.15.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libxml2"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "2.15.4"

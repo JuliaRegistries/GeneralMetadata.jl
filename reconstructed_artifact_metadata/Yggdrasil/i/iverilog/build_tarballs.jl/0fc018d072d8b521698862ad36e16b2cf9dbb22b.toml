@@ -1,0 +1,77 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "IVerilog"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd iverilog\n# https://github.com/steveicarus/iverilog/commit/f20865a5ea4ea7f5cdcbb6d19b0751a9390a8978\natomic_patch -p1 ../patches/driver-mach-o-dyld.patch\n# Helper programs run during the build are compiled with the build compiler, so\n# they must not get the target's linker flags (`-Wl,-all_load` on macOS).\nsed -i 's/$(BUILDCC) $(CPPFLAGS) $(CFLAGS) $(LDFLAGS)/$(BUILDCC) $(CPPFLAGS) $(CFLAGS)/' Makefile.in vvp/Makefile.in\nexport CFLAGS=\"-O2\"\nexport CXXFLAGS=\"-O2\"\nsh ./autoconf.sh\n# The generated configure script is replacing a variable incorrectly\nsed -i 's/EXEEXT=$ac_cv_build_exeext/BUILD_EXEEXT=$ac_cv_build_exeext/' configure\n./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target}\nmake -j${nproc}\nmake install\n"""
+toplevel_block = ""
+version = "v13.0.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "Bison_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "gperf_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "8.1.1"
+compat = "8.1.1"
+name = "Readline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.2.12"
+compat = "1.2.12"
+name = "Zlib_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["iverilog"]
+type = "exe"
+variable_name = "iverilog"
+[[products]]
+binnames = ["iverilog-vpi"]
+type = "exe"
+variable_name = "iverilog_vpi"
+[[products]]
+binnames = ["vvp"]
+type = "exe"
+variable_name = "vvp"
+
+[[sources]]
+hash = "dfeee909ed9f20b4870dd93423156c0170c0e1ff"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/steveicarus/iverilog.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

@@ -16,7 +16,7 @@ registered = 2026-06-16T23:38:02.000Z
         url = "https://github.com/ThePhD/sol2.git"
 
             ["3.3.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/lua-sol2"
+            project = "repology.org/project/sol2"
             provenance = "git-tag"
             version = "3.3.1"
         [["3.3.1+0".artifact_metadata.sources]]
@@ -41,7 +41,7 @@ registered = 2026-07-09T18:39:54.000Z
         url = "https://github.com/ThePhD/sol2.git"
 
             ["3.3.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/lua-sol2"
+            project = "repology.org/project/sol2"
             provenance = "git-tag"
             version = "3.3.1"
         [["3.3.1+1".artifact_metadata.sources]]

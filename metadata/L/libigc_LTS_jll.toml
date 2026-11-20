@@ -62,6 +62,11 @@ registered = 2026-05-04T15:32:39.000Z
         hash = "8dfdcc7b7bf66834a761bd8de445840ef68e4d1a"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["2.11.29+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "15.0.7"
         [["2.11.29+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e4ad2559d72b2bb3113607ddcc460f73805ad56b/L/libigc/libigc@LTS/bundled"

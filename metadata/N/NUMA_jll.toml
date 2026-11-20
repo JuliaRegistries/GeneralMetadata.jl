@@ -60,7 +60,7 @@ registered = 2022-01-05T00:23:37.000Z
 
             ["2.0.14+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/numactl"
-            provenance = "tag-scheme"
+            provenance = "repology-url"
             version = "2.0.14"
 
 ["2.0.18+0"]
@@ -107,7 +107,7 @@ registered = 2026-08-20T03:06:49.000Z
 
             ["2.0.19+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/numactl"
-            provenance = "tag-scheme"
+            provenance = "repology-url"
             version = "2.0.19"
         [["2.0.19+0".artifact_metadata.sources]]
         type = "directory"

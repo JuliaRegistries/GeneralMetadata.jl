@@ -39,7 +39,7 @@ registered = 2020-04-18T11:57:00.000Z
 
             ["3.3.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/eigen"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "3.3.7"
 
 ["3.3.9+0"]
@@ -61,7 +61,7 @@ registered = 2021-08-05T11:41:29.000Z
 
             ["3.3.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/eigen"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "3.3.9"
 
 ["3.4.0+0"]
@@ -81,6 +81,11 @@ registered = 2023-03-18T23:46:21.000Z
         type = "git"
         url = "https://gitlab.com/libeigen/eigen.git"
 
+            ["3.4.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/eigen"
+            provenance = "git-tag"
+            version = "3.4.0"
+
 ["3.4.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Eigen_jll.jl/releases/download/Eigen-v3.4.1+0/Eigen.v3.4.1.any.tar.gz"]
 registered = 2025-12-19T18:22:42.000Z
@@ -98,6 +103,10 @@ registered = 2025-12-19T18:22:42.000Z
         type = "git"
         url = "https://gitlab.com/libeigen/eigen.git"
 
+            ["3.4.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/eigen"
+            provenance = "repository"
+
 ["5.0.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Eigen_jll.jl/releases/download/Eigen-v5.0.1+0/Eigen.v5.0.1.any.tar.gz"]
 registered = 2026-05-29T13:06:40.000Z
@@ -114,3 +123,8 @@ registered = 2026-05-29T13:06:40.000Z
         hash = "bc3b39870ecb690a623a3f49149a358b95c5781d"
         type = "git"
         url = "https://gitlab.com/libeigen/eigen.git"
+
+            ["5.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/eigen"
+            provenance = "git-tag"
+            version = "5.0.1"

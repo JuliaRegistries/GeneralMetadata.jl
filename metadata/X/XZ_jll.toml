@@ -16,7 +16,7 @@ registered = 2019-09-17T23:47:14.000Z
 
             ["5.2.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.4"
         [["5.2.4+0".artifact_metadata.sources]]
         hash = "9a5163623f435b6fa0844b6b884babd6bf4f8d876ae2d8134deeb296afd49c61"
@@ -46,7 +46,7 @@ registered = 2020-02-21T11:45:08.000Z
 
             ["5.2.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.4"
 
 ["5.2.4+2"]
@@ -68,7 +68,7 @@ registered = 2020-03-02T01:21:13.000Z
 
             ["5.2.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.4"
 
 ["5.2.4+3"]
@@ -90,7 +90,7 @@ registered = 2020-03-02T15:28:27.000Z
 
             ["5.2.4+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.4"
 
 ["5.2.5+0"]
@@ -112,7 +112,7 @@ registered = 2020-11-04T23:00:32.000Z
 
             ["5.2.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.5"
 
 ["5.2.5+1"]
@@ -134,7 +134,7 @@ registered = 2021-08-11T20:17:35.000Z
 
             ["5.2.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.5"
 
 ["5.2.5+2"]
@@ -156,7 +156,7 @@ registered = 2021-08-12T20:45:13.000Z
 
             ["5.2.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.5"
 
 ["5.2.5+3"]
@@ -238,7 +238,7 @@ registered = 2022-10-27T18:10:55.000Z
 
             ["5.2.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.7"
 
 ["5.2.9+0"]
@@ -260,7 +260,7 @@ registered = 2022-12-11T00:45:08.000Z
 
             ["5.2.9+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.2.9"
 
 ["5.4.3+0"]
@@ -282,7 +282,7 @@ registered = 2023-06-07T19:20:01.000Z
 
             ["5.4.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.4.3"
 
 ["5.4.3+1"]
@@ -304,7 +304,7 @@ registered = 2023-07-12T00:54:02.000Z
 
             ["5.4.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.4.3"
 
 ["5.4.4+0"]
@@ -326,7 +326,7 @@ registered = 2023-08-05T20:47:59.000Z
 
             ["5.4.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.4.4"
 
 ["5.4.5+0"]
@@ -348,7 +348,7 @@ registered = 2023-11-08T11:15:14.000Z
 
             ["5.4.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/xz"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "5.4.5"
 
 ["5.4.6+0"]

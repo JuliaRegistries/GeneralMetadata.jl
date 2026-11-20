@@ -17,7 +17,7 @@ registered = 2023-04-04T00:14:01.000Z
 
             ["2.40.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/binutils"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "2.40"
 
 ["2.40.0+1"]
@@ -39,5 +39,5 @@ registered = 2023-04-17T10:05:03.000Z
 
             ["2.40.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/binutils"
-            provenance = "heuristic"
+            provenance = "url-pattern"
             version = "2.40"

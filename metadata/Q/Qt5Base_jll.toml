@@ -16,7 +16,7 @@ registered = 2021-03-30T17:26:01.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.2/submodules/qtbase-everywhere-src-5.15.2.tar.xz"
 
             ["5.15.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtbase"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "5.15.2"
         [["5.15.2+0".artifact_metadata.sources]]
@@ -48,7 +48,7 @@ registered = 2021-05-31T17:57:46.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.2/submodules/qtbase-everywhere-src-5.15.2.tar.xz"
 
             ["5.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtbase"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "5.15.2"
         [["5.15.3+0".artifact_metadata.sources]]
@@ -80,7 +80,7 @@ registered = 2022-04-21T18:19:55.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.3/submodules/qtbase-everywhere-opensource-src-5.15.3.tar.xz"
 
             ["5.15.3+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtbase"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "5.15.3"
         [["5.15.3+1".artifact_metadata.sources]]
@@ -115,7 +115,7 @@ registered = 2022-11-08T23:20:39.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.3/submodules/qtbase-everywhere-opensource-src-5.15.3.tar.xz"
 
             ["5.15.3+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtbase"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "5.15.3"
         [["5.15.3+2".artifact_metadata.sources]]

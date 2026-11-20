@@ -15,6 +15,11 @@ registered = 2021-02-15T03:31:57.000Z
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
 
+            ["12.12.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "12.12.1"
+
 ["12.12.1+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-musl-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-musl-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-musl-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-musl-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-musl-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.i686-linux-musl-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-unknown-freebsd-libgfortran3.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-unknown-freebsd-libgfortran4.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+1/Trilinos.v12.12.1.x86_64-unknown-freebsd-libgfortran5.tar.gz"]
 registered = 2021-03-02T19:03:25.000Z
@@ -32,6 +37,11 @@ registered = 2021-03-02T19:03:25.000Z
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
 
+            ["12.12.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "12.12.1"
+
 ["12.12.1+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.aarch64-linux-musl-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-gnueabihf-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.armv7l-linux-musleabihf-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-musl-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-musl-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-musl-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-musl-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-musl-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-linux-musl-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-w64-mingw32-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-w64-mingw32-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-w64-mingw32-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-w64-mingw32-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-w64-mingw32-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.i686-w64-mingw32-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.powerpc64le-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-apple-darwin-libgfortran3.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-apple-darwin-libgfortran4.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-apple-darwin-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-gnu-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-linux-musl-libgfortran5-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-unknown-freebsd-libgfortran3.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-unknown-freebsd-libgfortran4.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-unknown-freebsd-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-w64-mingw32-libgfortran3-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-w64-mingw32-libgfortran3-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-w64-mingw32-libgfortran4-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-w64-mingw32-libgfortran4-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-w64-mingw32-libgfortran5-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Trilinos_jll.jl/releases/download/Trilinos-v12.12.1+2/Trilinos.v12.12.1.x86_64-w64-mingw32-libgfortran5-cxx11.tar.gz"]
 registered = 2021-09-01T02:29:52.000Z
@@ -48,6 +58,11 @@ registered = 2021-09-01T02:29:52.000Z
         hash = "512a9e81183c609ab16366a9b09d70d37c6af8d4"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["12.12.1+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "12.12.1"
         [["12.12.1+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/35373fb5e4b51d0d3a0557a174d1a92f69b65103/T/Trilinos/bundled"
@@ -68,6 +83,11 @@ registered = 2022-12-01T22:51:02.000Z
         hash = "512a9e81183c609ab16366a9b09d70d37c6af8d4"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["12.13.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "12.12.1"
         [["12.13.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/765ab590e42d1e5fd3bfed0df175069d2aa22d48/T/Trilinos/bundled"
@@ -88,6 +108,11 @@ registered = 2023-07-14T12:36:21.000Z
         hash = "512a9e81183c609ab16366a9b09d70d37c6af8d4"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["12.13.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "12.12.1"
         [["12.13.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e52ed57e530b4108d21430b769198226b2443e7c/T/Trilinos/bundled"
@@ -108,6 +133,11 @@ registered = 2023-07-18T16:08:32.000Z
         hash = "512a9e81183c609ab16366a9b09d70d37c6af8d4"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["12.13.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "12.12.1"
         [["12.13.3+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a2f0e6b87691a2739fb5e88c034932aa81435c31/T/Trilinos/bundled"
@@ -128,6 +158,11 @@ registered = 2023-09-22T12:14:49.000Z
         hash = "975307431d60d0859ebaa27c9169cbb1d4287513"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["14.4.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "14.4.0"
         [["14.4.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/838e0a8945c46a5bed59491e300faed4dcbf13a6/T/Trilinos/bundled"
@@ -148,6 +183,11 @@ registered = 2023-09-26T11:38:57.000Z
         hash = "975307431d60d0859ebaa27c9169cbb1d4287513"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["14.4.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "14.4.0"
         [["14.4.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/299fc7dcd05363d09e4a9980da5609c19d073f9f/T/Trilinos/bundled"
@@ -175,6 +215,11 @@ registered = 2023-09-26T18:33:34.000Z
         hash = "975307431d60d0859ebaa27c9169cbb1d4287513"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["14.4.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "14.4.0"
         [["14.4.0+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/909226e4e81d88b34a7ec4ccbbbe1f3a7422f800/T/Trilinos/bundled"
@@ -202,6 +247,11 @@ registered = 2023-09-27T11:05:31.000Z
         hash = "975307431d60d0859ebaa27c9169cbb1d4287513"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["14.4.0+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "14.4.0"
         [["14.4.0+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1bb7c4b0e15a3ccca0147e006cb99d933a02252a/T/Trilinos/bundled"
@@ -229,6 +279,11 @@ registered = 2023-09-27T17:44:28.000Z
         hash = "975307431d60d0859ebaa27c9169cbb1d4287513"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["14.4.0+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "14.4.0"
         [["14.4.0+4".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/cd7c4d823ce93098acbc5c2e23de8723e2031f87/T/Trilinos/bundled"
@@ -256,6 +311,11 @@ registered = 2023-10-15T18:38:43.000Z
         hash = "975307431d60d0859ebaa27c9169cbb1d4287513"
         type = "git"
         url = "https://github.com/trilinos/Trilinos.git"
+
+            ["14.4.0+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/trilinos"
+            provenance = "git-tag"
+            version = "14.4.0"
         [["14.4.0+5".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3748a2cfba62b5d63dba0166b5df27e4ac8d2edd/T/Trilinos/bundled"

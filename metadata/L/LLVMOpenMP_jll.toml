@@ -107,6 +107,11 @@ registered = 2022-11-04T12:09:03.000Z
         hash = "9df45bf3a0a46264d5007485592381bbaf50f034b4155290cb0d917539d8facf"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.4/cmake-15.0.4.src.tar.xz"
+
+            ["15.0.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "15.0.4"
         [["15.0.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/636de0ee4034b992ffb5e88de48c7978b44d45b9/L/LLVMOpenMP/bundled"
@@ -139,6 +144,11 @@ registered = 2023-12-21T21:11:52.000Z
         hash = "8986f29b634fdaa9862eedda78513969fe9788301c9f2d938f4c10a3e7a3e7ea"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/cmake-15.0.7.src.tar.xz"
+
+            ["15.0.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "15.0.7"
         [["15.0.7+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/62f1c53b2fd075173c83a7002b287b7975eaf7ce/L/LLVMOpenMP/bundled"
@@ -171,6 +181,11 @@ registered = 2024-08-15T20:09:03.000Z
         hash = "807f069c54dc20cb47b21c1f6acafdd9c649f3ae015609040d6182cab01140f4"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.6/cmake-17.0.6.src.tar.xz"
+
+            ["17.0.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "17.0.6"
         [["17.0.6+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b07c244896832bcb8dffec998250c4c704a930fb/L/LLVMOpenMP/bundled"
@@ -203,6 +218,11 @@ registered = 2024-09-11T19:01:00.000Z
         hash = "f0b67599f51cddcdbe604c35b6de97f2d0a447e18b9c30df300c82bf1ee25bd7"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.7/cmake-18.1.7.src.tar.xz"
+
+            ["18.1.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "18.1.7"
         [["18.1.7+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4d1c7765b5633194240381996061fa17c9b6d200/L/LLVMOpenMP/bundled"
@@ -235,6 +255,11 @@ registered = 2025-04-22T20:26:08.000Z
         hash = "f0b67599f51cddcdbe604c35b6de97f2d0a447e18b9c30df300c82bf1ee25bd7"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.7/cmake-18.1.7.src.tar.xz"
+
+            ["18.1.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "18.1.7"
         [["18.1.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/400934f7fc3b262bb3b422c18a85bb1a6f5c494a/L/LLVMOpenMP/bundled"
@@ -267,6 +292,11 @@ registered = 2026-07-06T13:00:15.000Z
         hash = "11c5a28f90053b0c43d0dec3d0ad579347fc277199c005206b963c19aae514e3"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/cmake-19.1.7.src.tar.xz"
+
+            ["19.1.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "19.1.7"
         [["19.1.7+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4c72ae44867a9cafe4c3571ebaa6d191bf368efa/L/LLVMOpenMP/bundled"
@@ -299,6 +329,11 @@ registered = 2026-07-06T13:22:23.000Z
         hash = "3319203cfd1172bbac50f06fa68e318af84dcb5d65353310c0586354069d6634"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/cmake-20.1.8.src.tar.xz"
+
+            ["20.1.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.8"
         [["20.1.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1b1e627647669e2fdf4fbd367104fcc508bce367/L/LLVMOpenMP/bundled"
@@ -331,6 +366,11 @@ registered = 2026-07-06T13:54:03.000Z
         hash = "85735f20fd8c81ecb0a09abb0c267018475420e93b65050cc5b7634eab744de9"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/cmake-21.1.8.src.tar.xz"
+
+            ["21.1.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "21.1.8"
         [["21.1.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/eaea7b3acb58d81f070f8de5b78a98e26a427a5a/L/LLVMOpenMP/bundled"
@@ -357,7 +397,7 @@ registered = 2026-07-11T11:16:45.000Z
 
             ["22.1.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "22.1.7"
         [["22.1.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -385,7 +425,7 @@ registered = 2026-09-11T05:23:27.000Z
 
             ["23.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+0".artifact_metadata.sources]]
         type = "directory"

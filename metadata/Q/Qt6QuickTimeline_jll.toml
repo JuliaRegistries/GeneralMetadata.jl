@@ -14,6 +14,11 @@ registered = 2025-06-10T17:44:24.000Z
         hash = "c33dbceed9fabb3d7f6731a68aee602bad5a04bb6f0a473792e61858c0bc1aaa"
         type = "archive"
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtquicktimeline-everywhere-src-6.8.2.tar.xz"
+
+            ["6.8.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/qt"
+            provenance = "url-pattern"
+            version = "6.8.2"
         [["6.8.2+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -35,6 +40,11 @@ registered = 2025-06-10T20:27:28.000Z
         hash = "c33dbceed9fabb3d7f6731a68aee602bad5a04bb6f0a473792e61858c0bc1aaa"
         type = "archive"
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtquicktimeline-everywhere-src-6.8.2.tar.xz"
+
+            ["6.8.2+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/qt"
+            provenance = "url-pattern"
+            version = "6.8.2"
         [["6.8.2+1".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
         type = "archive"
@@ -58,8 +68,8 @@ registered = 2026-02-23T15:38:28.000Z
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtquicktimeline-everywhere-src-6.10.2.tar.xz"
 
             ["6.10.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt6quicktimeline"
-            provenance = "heuristic"
+            project = "repology.org/project/qt"
+            provenance = "url-pattern"
             version = "6.10.2"
         [["6.10.2+0".artifact_metadata.sources]]
         hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"

@@ -14,3 +14,8 @@ registered = 2026-10-23T19:14:22.000Z
         hash = "c86c80002e74e7cfc48b7cc9878dd9caa85d4e70"
         type = "git"
         url = "https://github.com/grimme-lab/mctc-lib.git"
+
+            ["0.6.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mctc-lib"
+            provenance = "git-tag"
+            version = "0.6.1"

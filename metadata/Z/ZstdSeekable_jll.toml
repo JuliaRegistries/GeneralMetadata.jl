@@ -39,5 +39,5 @@ registered = 2025-02-22T22:51:29.000Z
 
             ["1.5.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/zstd"
-            provenance = "tag-scheme"
+            provenance = "repology-url"
             version = "1.5.7"

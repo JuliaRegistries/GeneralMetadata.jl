@@ -14,3 +14,8 @@ registered = 2022-03-30T23:58:37.000Z
         hash = "ccd6bf554d922596ce905730d98a77af368bba5c"
         type = "git"
         url = "https://github.com/tree-sitter/tree-sitter/"
+
+            ["0.20.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tree-sitter"
+            provenance = "git-tag"
+            version = "0.20.6"

@@ -28,3 +28,34 @@ registered = 2026-07-15T17:30:04.000Z
         [["100.0.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["100.0.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+11.8.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.4.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.5.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.9.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.2.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.3.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.4.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.5.tar.gz"]
+registered = 2026-11-20T10:29:55.000Z
+
+    [["100.0.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+11.8.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.4.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.5.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+12.9.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.2.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.3.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.4.tar.gz", "https://github.com/JuliaBinaryWrappers/OSQP_CUDA_jll.jl/releases/download/OSQP_CUDA-v100.0.1+0/OSQP_CUDA.v100.0.1.x86_64-linux-gnu-cxx11-cuda+13.5.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/0616fa05aeea74b53c0cf9d2b2ee07e3d06d939f/O/OSQP/OSQP_CUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/osqp/osqp_cuda/build_tarballs.jl/0616fa05aeea74b53c0cf9d2b2ee07e3d06d939f.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["100.0.1+0".artifact_metadata.sources]]
+        hash = "236713ce9a56c182ac3230d52108f952afce1523"
+        type = "git"
+        url = "https://github.com/osqp/osqp.git"
+
+            ["100.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/osqp"
+            provenance = "git-tag"
+            version = "1.0.0"
+        [["100.0.1+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0616fa05aeea74b53c0cf9d2b2ee07e3d06d939f/O/OSQP/OSQP_CUDA/bundled"
+        [["100.0.1+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["100.0.1+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"

@@ -16,6 +16,6 @@ registered = 2025-09-18T12:01:49.000Z
         url = "https://github.com/apache/arrow-nanoarrow.git"
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:nanoarrow"
+            project = "repology.org/project/nanoarrow"
             provenance = "git-tag"
             version = "0.7.0"

@@ -14,6 +14,10 @@ registered = 2022-11-05T13:51:15.000Z
         hash = "84967dd5d3e3062874a03c99a6d51ab375d3fb9d"
         type = "git"
         url = "https://gitlab.mpcdf.mpg.de/mtr/ducc.git"
+
+            ["0.27.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:ducc0"
+            provenance = "repository"
         [["0.27.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -35,6 +39,10 @@ registered = 2023-01-17T18:48:39.000Z
         hash = "4778ffd93c4a347d2fe26e6d1a586565633f29c2"
         type = "git"
         url = "https://gitlab.mpcdf.mpg.de/mtr/ducc.git"
+
+            ["0.27.9+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:ducc0"
+            provenance = "repository"
         [["0.27.9+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -56,6 +64,11 @@ registered = 2023-01-24T18:36:08.000Z
         hash = "d015eee4949dab6a39f41c62de97410db76affd3"
         type = "git"
         url = "https://gitlab.mpcdf.mpg.de/mtr/ducc.git"
+
+            ["0.28.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:ducc0"
+            provenance = "git-tag"
+            version = "0.0.28.0"
         [["0.28.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -77,6 +90,11 @@ registered = 2023-02-16T16:39:36.000Z
         hash = "d29050f2dff2a87dd430ddf2c82d590cc3aa42a4"
         type = "git"
         url = "https://gitlab.mpcdf.mpg.de/mtr/ducc.git"
+
+            ["0.29.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:ducc0"
+            provenance = "git-tag"
+            version = "0.0.29.0"
         [["0.29.0+0".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -98,6 +116,11 @@ registered = 2023-02-25T13:01:42.000Z
         hash = "d29050f2dff2a87dd430ddf2c82d590cc3aa42a4"
         type = "git"
         url = "https://gitlab.mpcdf.mpg.de/mtr/ducc.git"
+
+            ["0.29.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:ducc0"
+            provenance = "git-tag"
+            version = "0.0.29.0"
         [["0.29.0+1".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"
@@ -119,6 +142,11 @@ registered = 2023-02-25T23:02:15.000Z
         hash = "d29050f2dff2a87dd430ddf2c82d590cc3aa42a4"
         type = "git"
         url = "https://gitlab.mpcdf.mpg.de/mtr/ducc.git"
+
+            ["0.29.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:ducc0"
+            provenance = "git-tag"
+            version = "0.0.29.0"
         [["0.29.0+2".artifact_metadata.sources]]
         hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
         type = "archive"

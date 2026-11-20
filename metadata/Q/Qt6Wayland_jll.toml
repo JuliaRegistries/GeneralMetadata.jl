@@ -16,7 +16,7 @@ registered = 2023-06-21T20:38:34.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtwayland-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.4.2"
         [["6.4.2+0".artifact_metadata.sources]]
@@ -45,7 +45,7 @@ registered = 2023-07-02T22:12:48.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtwayland-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.4.2"
         [["6.4.2+1".artifact_metadata.sources]]
@@ -70,7 +70,7 @@ registered = 2023-07-11T14:40:46.000Z
         url = "https://download.qt.io/official_releases/qt/6.4/6.4.2/submodules/qtwayland-everywhere-src-6.4.2.tar.xz"
 
             ["6.4.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.4.2"
         [["6.4.2+2".artifact_metadata.sources]]
@@ -95,7 +95,7 @@ registered = 2023-09-18T08:00:24.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.2/submodules/qtwayland-everywhere-src-6.5.2.tar.xz"
 
             ["6.5.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.5.2"
         [["6.5.2+0".artifact_metadata.sources]]
@@ -123,7 +123,7 @@ registered = 2023-09-18T20:29:48.000Z
         url = "https://download.qt.io/official_releases/qt/6.5/6.5.2/submodules/qtwayland-everywhere-src-6.5.2.tar.xz"
 
             ["6.5.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.5.2"
         [["6.5.2+1".artifact_metadata.sources]]
@@ -151,7 +151,7 @@ registered = 2024-05-30T08:38:55.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qtwayland-everywhere-src-6.7.1.tar.xz"
 
             ["6.7.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.7.1"
         [["6.7.1+0".artifact_metadata.sources]]
@@ -179,7 +179,7 @@ registered = 2024-05-30T18:58:46.000Z
         url = "https://download.qt.io/official_releases/qt/6.7/6.7.1/submodules/qtwayland-everywhere-src-6.7.1.tar.xz"
 
             ["6.7.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.7.1"
         [["6.7.1+1".artifact_metadata.sources]]
@@ -207,7 +207,7 @@ registered = 2025-02-09T11:27:28.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtwayland-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.8.2"
         [["6.8.2+0".artifact_metadata.sources]]
@@ -235,7 +235,7 @@ registered = 2025-06-23T11:49:57.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtwayland-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.8.2"
         [["6.8.2+1".artifact_metadata.sources]]
@@ -263,7 +263,7 @@ registered = 2025-10-09T22:01:35.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtwayland-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.8.2"
         [["6.8.2+2".artifact_metadata.sources]]
@@ -291,7 +291,7 @@ registered = 2026-02-22T13:45:31.000Z
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtwayland-everywhere-src-6.10.2.tar.xz"
 
             ["6.10.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.10.2"
         [["6.10.2+0".artifact_metadata.sources]]
@@ -319,7 +319,7 @@ registered = 2026-02-22T16:08:20.000Z
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtwayland-everywhere-src-6.10.2.tar.xz"
 
             ["6.10.2+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtwayland"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.10.2"
         [["6.10.2+1".artifact_metadata.sources]]

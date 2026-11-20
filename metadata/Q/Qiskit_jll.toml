@@ -14,6 +14,11 @@ registered = 2025-11-04T17:24:46.000Z
         hash = "8f33595f5b9e9c99b7aa81002655d13f48c8ac1b"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.2.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.2.3"
         [["2.2.3+0".artifact_metadata.sources]]
         package = "cbindgen_jll"
         type = "builddependency"
@@ -34,6 +39,11 @@ registered = 2025-11-14T15:38:11.000Z
         hash = "8f33595f5b9e9c99b7aa81002655d13f48c8ac1b"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.2.3+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.2.3"
         [["2.2.3+1".artifact_metadata.sources]]
         package = "cbindgen_jll"
         type = "builddependency"
@@ -54,6 +64,11 @@ registered = 2026-02-03T16:19:41.000Z
         hash = "1619be07b9cc3c14832fe8f946e22fbee400ef38"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.3.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.3.0"
         [["2.3.0+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -78,6 +93,11 @@ registered = 2026-05-24T18:20:41.000Z
         hash = "913f89110309d4c6c1bd42cfa1281e46f86c5a1f"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.3.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.3.1"
         [["2.3.1+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -102,6 +122,11 @@ registered = 2026-05-29T00:35:14.000Z
         hash = "0fd015a22b84c9082173597a5d2304dc0aaec08c"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.4.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.4.1"
         [["2.4.1+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -126,6 +151,11 @@ registered = 2026-06-30T16:39:20.000Z
         hash = "5a1cf3159aedad954767956d6a5c81a06d043d71"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.4.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.4.2"
         [["2.4.2+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -150,6 +180,11 @@ registered = 2026-08-18T13:00:36.000Z
         hash = "bbfa6170e00da694700a83bcd3a01d19588d15ae"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.5.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.5.0"
         [["2.5.0+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -174,6 +209,11 @@ registered = 2026-08-21T21:52:32.000Z
         hash = "c1c01ada399af13e495c27b9b22b4ff942bbad7e"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.5.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.5.2"
         [["2.5.2+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -198,6 +238,11 @@ registered = 2026-10-16T14:40:52.000Z
         hash = "65094a013073e4bda53c2b341056ab9ade0eb1bd"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.6.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.6.0"
         [["2.6.0+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -222,6 +267,11 @@ registered = 2026-10-29T16:07:44.000Z
         hash = "2c4e5090d4eed225c8aab14e015864b0f8e26139"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.6.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.6.1"
         [["2.6.1+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -246,6 +296,11 @@ registered = 2026-11-06T19:31:33.000Z
         hash = "0c26a5a158c4d62b2b303a8c2f3c6eb2b14653b4"
         type = "git"
         url = "https://github.com/Qiskit/qiskit.git"
+
+            ["2.6.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:qiskit"
+            provenance = "git-tag"
+            version = "2.6.2"
         [["2.6.2+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"

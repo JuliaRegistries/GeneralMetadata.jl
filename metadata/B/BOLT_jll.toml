@@ -14,6 +14,11 @@ registered = 2024-04-17T23:00:41.000Z
         hash = "e6c3289804a67ea0bb6a86fadbe454dd93b8d855"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["18.1.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "18.1.4"
         [["18.1.4+0".artifact_metadata.sources]]
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "archive"
@@ -35,6 +40,11 @@ registered = 2026-08-15T07:58:38.000Z
         hash = "ca7933e47d3a3451d81e72ac174dcb5aa28b59d1"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["22.1.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "22.1.8"
         [["22.1.8+0".artifact_metadata.sources]]
         hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
         type = "file"
@@ -57,6 +67,11 @@ registered = 2026-09-14T15:17:36.000Z
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
 
+            ["23.1.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "23.1.1"
+
 ["23.1.2+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+0/BOLT.v23.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+0/BOLT.v23.1.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+0/BOLT.v23.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/BOLT_jll.jl/releases/download/BOLT-v23.1.2+0/BOLT.v23.1.2.x86_64-linux-musl-cxx11.tar.gz"]
 registered = 2026-09-22T20:49:43.000Z
@@ -73,6 +88,11 @@ registered = 2026-09-22T20:49:43.000Z
         hash = "85ac560262434c9ccfc0c183ec22d4138ed647fb"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["23.1.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "23.1.2"
         [["23.1.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a870fc99e552cae93793c14ba06d2357f23819da/B/BOLT/bundled"
@@ -93,6 +113,11 @@ registered = 2026-09-24T09:34:59.000Z
         hash = "85ac560262434c9ccfc0c183ec22d4138ed647fb"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["23.1.2+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "23.1.2"
         [["23.1.2+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/840281d4e0d3fec827e4e1ed24a4b1f3faec45b1/B/BOLT/bundled"

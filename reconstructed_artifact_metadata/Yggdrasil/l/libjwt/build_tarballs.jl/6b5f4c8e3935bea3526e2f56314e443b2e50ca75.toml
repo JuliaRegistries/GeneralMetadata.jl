@@ -1,0 +1,66 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "libjwt"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/libjwt\nmkdir build\ncd build\nif [[ ${target} == *mingw* ]]; then\n    export PKG_CONFIG_PATH=\"${prefix}/bin/pkgconfig:${PKG_CONFIG_PATH}\"\nfi\ncmake .. \\\n    -DCMAKE_INSTALL_PREFIX=\"${prefix}\" \\\n    -DCMAKE_TOOLCHAIN_FILE=\"${CMAKE_TARGET_TOOLCHAIN}\" \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON\nmake -j${nproc}\nmake install\n"""
+toplevel_block = ""
+version = "v3.6.3"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"5.0.0\""
+
+[[dependencies]]
+build_version = "3.0.16"
+compat = "3.0.16"
+name = "OpenSSL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Jansson_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "83cbd138-b029-500a-bd82-26ec0fbaa0df"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libjwt"]
+type = "lib"
+variable_name = "libjwt"
+[[products]]
+binnames = ["jwt-generate"]
+type = "exe"
+variable_name = "jwt_generate"
+[[products]]
+binnames = ["jwt-verify"]
+type = "exe"
+variable_name = "jwt_verify"
+[[products]]
+binnames = ["jwk2key"]
+type = "exe"
+variable_name = "jwk2key"
+[[products]]
+binnames = ["key2jwk"]
+type = "exe"
+variable_name = "key2jwk"
+
+[[sources]]
+hash = "3a5f02b064f40042c19cc8796f10f2784fd16758"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/benmcollins/libjwt.git"

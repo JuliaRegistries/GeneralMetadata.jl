@@ -14,6 +14,11 @@ registered = 2025-03-07T01:35:03.000Z
         hash = "a1748a069d2d5f27ec528cfd89b54b12dcba793e"
         type = "git"
         url = "https://github.com/root-project/root.git"
+
+            ["6.32.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/root"
+            provenance = "git-tag"
+            version = "6.32.08"
         [["6.32.8+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/658ecbe7bb11371aea49e8abbb0090d530612949/R/ROOT/bundled"
@@ -37,6 +42,11 @@ registered = 2025-06-29T23:04:05.000Z
         hash = "a1748a069d2d5f27ec528cfd89b54b12dcba793e"
         type = "git"
         url = "https://github.com/root-project/root.git"
+
+            ["6.32.8+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/root"
+            provenance = "git-tag"
+            version = "6.32.08"
         [["6.32.8+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/709de1757437724a5b293297623fb49522d360d8/R/ROOT/bundled"
@@ -60,6 +70,11 @@ registered = 2026-01-06T11:38:41.000Z
         hash = "a1748a069d2d5f27ec528cfd89b54b12dcba793e"
         type = "git"
         url = "https://github.com/root-project/root.git"
+
+            ["6.32.8+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/root"
+            provenance = "git-tag"
+            version = "6.32.08"
         [["6.32.8+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a6e4c0fe3e70c97526f336a2233841d3c812daa0/R/ROOT/bundled"

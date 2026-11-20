@@ -71,12 +71,17 @@ registered = 2020-07-08T23:14:43.000Z
 
             ["5.30.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.12"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
         type = "archive"
         url = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+
+            ["5.30.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/perl:xml-sax-base"
+            provenance = "repology-url"
+            version = "1.09"
         [["5.30.3+0".artifact_metadata.sources]]
         hash = "ec3d6ddde7a46fa507eaa616b94d217296fdc0d8fbf88741367a9821206f28af"
         type = "archive"
@@ -158,12 +163,17 @@ registered = 2020-10-19T12:53:24.000Z
 
             ["5.30.3+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.12"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
         type = "archive"
         url = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+
+            ["5.30.3+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/perl:xml-sax-base"
+            provenance = "repology-url"
+            version = "1.09"
         [["5.30.3+1".artifact_metadata.sources]]
         hash = "ec3d6ddde7a46fa507eaa616b94d217296fdc0d8fbf88741367a9821206f28af"
         type = "archive"
@@ -245,12 +255,17 @@ registered = 2020-11-25T22:58:34.000Z
 
             ["5.30.3+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.12"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
         type = "archive"
         url = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+
+            ["5.30.3+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/perl:xml-sax-base"
+            provenance = "repology-url"
+            version = "1.09"
         [["5.30.3+2".artifact_metadata.sources]]
         hash = "ec3d6ddde7a46fa507eaa616b94d217296fdc0d8fbf88741367a9821206f28af"
         type = "archive"
@@ -332,12 +347,17 @@ registered = 2021-11-21T17:28:09.000Z
 
             ["5.34.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.12"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
         type = "archive"
         url = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+
+            ["5.34.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/perl:xml-sax-base"
+            provenance = "repology-url"
+            version = "1.09"
         [["5.34.0+0".artifact_metadata.sources]]
         hash = "72c6eb6f86bb2c330280f9f3d342bb2673ad5da22d1f44fba3e04cfb5d30a67b"
         type = "archive"
@@ -419,12 +439,17 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.12"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
         type = "archive"
         url = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+
+            ["5.34.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/perl:xml-sax-base"
+            provenance = "repology-url"
+            version = "1.09"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "72c6eb6f86bb2c330280f9f3d342bb2673ad5da22d1f44fba3e04cfb5d30a67b"
         type = "archive"
@@ -445,7 +470,7 @@ registered = 2021-12-01T13:23:35.000Z
 
             ["5.34.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:file-which"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.27"
         [["5.34.0+1".artifact_metadata.sources]]
         hash = "9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377"
@@ -542,12 +567,17 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.12"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
         type = "archive"
         url = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+
+            ["5.34.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/perl:xml-sax-base"
+            provenance = "repology-url"
+            version = "1.09"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "72c6eb6f86bb2c330280f9f3d342bb2673ad5da22d1f44fba3e04cfb5d30a67b"
         type = "archive"
@@ -568,7 +598,7 @@ registered = 2022-03-22T11:51:02.000Z
 
             ["5.34.0+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:file-which"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.27"
         [["5.34.0+2".artifact_metadata.sources]]
         hash = "9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377"
@@ -665,12 +695,17 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:xml-namespacesupport"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.12"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
         type = "archive"
         url = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+
+            ["5.34.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/perl:xml-sax-base"
+            provenance = "repology-url"
+            version = "1.09"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "72c6eb6f86bb2c330280f9f3d342bb2673ad5da22d1f44fba3e04cfb5d30a67b"
         type = "archive"
@@ -691,7 +726,7 @@ registered = 2023-06-30T15:41:09.000Z
 
             ["5.34.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/perl:file-which"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "1.27"
         [["5.34.1+0".artifact_metadata.sources]]
         hash = "9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377"

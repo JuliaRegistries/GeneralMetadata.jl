@@ -210,8 +210,8 @@ registered = 2023-09-11T21:26:08.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.50.14+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.50.14+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -244,8 +244,8 @@ registered = 2024-03-10T14:26:48.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.52.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.52.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -278,8 +278,8 @@ registered = 2024-04-18T22:10:05.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.52.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.52.2+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -312,8 +312,8 @@ registered = 2024-08-22T17:37:29.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.54.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.54.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -346,8 +346,8 @@ registered = 2024-08-23T22:33:33.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.54.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.54.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -380,8 +380,8 @@ registered = 2024-12-19T15:03:31.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.55.5+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.55.5+0".artifact_metadata.sources]]
         type = "directory"
@@ -417,8 +417,8 @@ registered = 2025-02-13T01:30:43.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.56.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.56.1+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -451,8 +451,8 @@ registered = 2025-05-29T11:04:58.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.56.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.56.3+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -485,8 +485,8 @@ registered = 2025-09-14T17:41:49.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.56.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.56.4+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
@@ -519,8 +519,8 @@ registered = 2025-11-11T14:57:39.000Z
         url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.0.tar.bz2"
 
             ["1.57.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/mingw-w64-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["1.57.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"

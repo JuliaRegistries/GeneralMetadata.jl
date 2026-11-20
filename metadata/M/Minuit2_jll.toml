@@ -17,8 +17,8 @@ registered = 2020-02-17T04:10:23.000Z
 
             ["6.18.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/root"
-            provenance = "heuristic"
-            version = "6-18-04"
+            provenance = "tag-scheme"
+            version = "6.18.04"
         [["6.18.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0d9422e1bf1b439fcee289c49c8ed2d2bf77871a/M/Minuit2/bundled"

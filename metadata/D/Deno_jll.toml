@@ -17,7 +17,7 @@ registered = 2021-05-10T22:27:25.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.9.2"
         [["1.9.2+0".artifact_metadata.sources]]
         hash = "6facc63a33c575a016ec51c911ea0c1f09d51021d42b57d610a2185f26974bae"
@@ -26,7 +26,7 @@ registered = 2021-05-10T22:27:25.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.9.2"
         [["1.9.2+0".artifact_metadata.sources]]
         hash = "2725784bbccbef854b18ff25d4cf5ef6e0e85be783973edabad62d785fa009e3"
@@ -35,7 +35,7 @@ registered = 2021-05-10T22:27:25.000Z
 
             ["1.9.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.9.2"
         [["1.9.2+0".artifact_metadata.sources]]
         hash = "555d928670a147e7048685ab8bcb75bc96237bd2511965d4d897ed4bb52e0373"
@@ -66,7 +66,7 @@ registered = 2021-05-12T16:28:32.000Z
 
             ["1.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.1"
         [["1.10.1+0".artifact_metadata.sources]]
         hash = "214e998a5eb69710440cc9671270869ae89019172a90127c91e146a50c23bb88"
@@ -75,7 +75,7 @@ registered = 2021-05-12T16:28:32.000Z
 
             ["1.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.1"
         [["1.10.1+0".artifact_metadata.sources]]
         hash = "312559f818915a60584863420e4f7f74779fcbbdebae31868335dfa09e094dc0"
@@ -84,7 +84,7 @@ registered = 2021-05-12T16:28:32.000Z
 
             ["1.10.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.1"
         [["1.10.1+0".artifact_metadata.sources]]
         hash = "947fa815f24d85d70bc3196c1180abe846ab104c9213c6b2b1a42c4a065ef5a5"
@@ -115,7 +115,7 @@ registered = 2021-05-17T17:50:26.000Z
 
             ["1.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.2"
         [["1.10.2+0".artifact_metadata.sources]]
         hash = "ae8dde90c83de9b12ca110db324cf29f87b471ddfc06be1df9c18dcbd8a1413c"
@@ -124,7 +124,7 @@ registered = 2021-05-17T17:50:26.000Z
 
             ["1.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.2"
         [["1.10.2+0".artifact_metadata.sources]]
         hash = "03bd14a0e506929769367b0bb604404dc37afad881db8f39d1b24df031856f2a"
@@ -133,7 +133,7 @@ registered = 2021-05-17T17:50:26.000Z
 
             ["1.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.2"
         [["1.10.2+0".artifact_metadata.sources]]
         hash = "16c32ecff8c8e6169bcfd79f4a7ebd8fc3c79bba88cfd970befd4020c2ca1e34"
@@ -164,7 +164,7 @@ registered = 2021-06-01T13:16:36.000Z
 
             ["1.10.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.3"
         [["1.10.3+0".artifact_metadata.sources]]
         hash = "22aafee051291725ac9c02301eaa861f5c3375d0bdc41b2475d6745d94eb7907"
@@ -173,7 +173,7 @@ registered = 2021-06-01T13:16:36.000Z
 
             ["1.10.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.3"
         [["1.10.3+0".artifact_metadata.sources]]
         hash = "0836022ddc35fe931884e182fa72614d927d851629f590c19d58a39f31d6cda7"
@@ -182,7 +182,7 @@ registered = 2021-06-01T13:16:36.000Z
 
             ["1.10.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.3"
         [["1.10.3+0".artifact_metadata.sources]]
         hash = "056c2ad93df0b1a19ef1c6d168f12f48bdf0e58a5c7f11ed7a3bb3646789c7b7"
@@ -213,7 +213,7 @@ registered = 2021-06-14T17:03:19.000Z
 
             ["1.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.11.0"
         [["1.11.0+0".artifact_metadata.sources]]
         hash = "f1f5870af3414bde6b2d6973bb96be40a50a4de60024ef4e5883074b0aa4fc57"
@@ -222,7 +222,7 @@ registered = 2021-06-14T17:03:19.000Z
 
             ["1.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.11.0"
         [["1.11.0+0".artifact_metadata.sources]]
         hash = "b59eb247780c6f1aaf43bfa963fed5ee0c3ac2412341d673ee55ca4ac3825324"
@@ -231,7 +231,7 @@ registered = 2021-06-14T17:03:19.000Z
 
             ["1.11.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.11.0"
         [["1.11.0+0".artifact_metadata.sources]]
         hash = "3ea1b4ac084fdc79fc8bdb0af0e6d2223f719bfeabbe8f2f556a490fee2b7405"
@@ -262,7 +262,7 @@ registered = 2021-07-01T18:48:51.000Z
 
             ["1.11.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.11.4"
         [["1.11.4+0".artifact_metadata.sources]]
         hash = "e46fb730cff11e2adb77e94cf2e83e4c9a491ef49a5396f512327afef99c1217"
@@ -271,7 +271,7 @@ registered = 2021-07-01T18:48:51.000Z
 
             ["1.11.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.11.4"
         [["1.11.4+0".artifact_metadata.sources]]
         hash = "b8bfa173e31ee120e7afb180580f9c80fe20d46cc24eeb3455b8b62f982fd408"
@@ -280,7 +280,7 @@ registered = 2021-07-01T18:48:51.000Z
 
             ["1.11.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.11.4"
         [["1.11.4+0".artifact_metadata.sources]]
         hash = "f760a9fdc61ab2aed904015e8393d625f4d387f04279ae93a3966dbd12f1a8fe"
@@ -311,7 +311,7 @@ registered = 2021-07-13T17:01:45.000Z
 
             ["1.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.12.0"
         [["1.12.0+0".artifact_metadata.sources]]
         hash = "782cdee40d841ab256f11b88dd21943bee20aadc76b90254f870a70d8e9be3fd"
@@ -320,7 +320,7 @@ registered = 2021-07-13T17:01:45.000Z
 
             ["1.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.12.0"
         [["1.12.0+0".artifact_metadata.sources]]
         hash = "f95e414ca6aaafbdf05a45e764e8e833246651bb9795e98785a343dcf4d2be82"
@@ -329,7 +329,7 @@ registered = 2021-07-13T17:01:45.000Z
 
             ["1.12.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.12.0"
         [["1.12.0+0".artifact_metadata.sources]]
         hash = "5208781164573bed2a3f438c72cbbe4c88209a0795d996d07a1984193420535c"
@@ -360,7 +360,7 @@ registered = 2021-08-09T20:13:50.000Z
 
             ["1.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.12.2"
         [["1.12.2+0".artifact_metadata.sources]]
         hash = "854f85a6b3d126eaa30648bc374e2f938d368cf5b5d3607a8ec845630ef62f33"
@@ -369,7 +369,7 @@ registered = 2021-08-09T20:13:50.000Z
 
             ["1.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.12.2"
         [["1.12.2+0".artifact_metadata.sources]]
         hash = "489dbc3a8c9a5f15005faab520ce1c7c326cc93b431734c11cb7b6731beb6c46"
@@ -378,7 +378,7 @@ registered = 2021-08-09T20:13:50.000Z
 
             ["1.12.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.12.2"
         [["1.12.2+0".artifact_metadata.sources]]
         hash = "4ac5a1a29d8490220c5c35eb6eb35675eb01abf3022a1fb88e4620d7ba481734"
@@ -409,7 +409,7 @@ registered = 2021-09-17T15:15:34.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.14.0"
         [["1.14.0+0".artifact_metadata.sources]]
         hash = "9f0f3057041bd20ce398b9e5104cd771e27568787a8db2b33466e6f73ef98375"
@@ -418,7 +418,7 @@ registered = 2021-09-17T15:15:34.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.14.0"
         [["1.14.0+0".artifact_metadata.sources]]
         hash = "0110cbb67ff044e9192239456813e48aa437adb27ffcb5899cdde38e1fc79076"
@@ -427,7 +427,7 @@ registered = 2021-09-17T15:15:34.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.14.0"
         [["1.14.0+0".artifact_metadata.sources]]
         hash = "56f370825f019e4bdb95f354a49576c057f90ef1cc07b7491566763b2147edc6"
@@ -458,7 +458,7 @@ registered = 2021-10-05T15:48:07.000Z
 
             ["1.14.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.14.3"
         [["1.14.3+0".artifact_metadata.sources]]
         hash = "3b1a43def350a723a15f60e03cd532ff1ab340578b7f5694be18d9794bc5c2a6"
@@ -467,7 +467,7 @@ registered = 2021-10-05T15:48:07.000Z
 
             ["1.14.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.14.3"
         [["1.14.3+0".artifact_metadata.sources]]
         hash = "9a1e54cada9f034fc70661d433da13a53d62b3fc100a9d12a283a6cab2beff46"
@@ -476,7 +476,7 @@ registered = 2021-10-05T15:48:07.000Z
 
             ["1.14.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.14.3"
         [["1.14.3+0".artifact_metadata.sources]]
         hash = "996735a88d62bfcabf2dcb4b2f7f6205fac8462f84e60b1c2d9986dd70c7aef2"
@@ -507,7 +507,7 @@ registered = 2021-10-23T10:34:19.000Z
 
             ["1.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.15.2"
         [["1.15.2+0".artifact_metadata.sources]]
         hash = "7eead3d9ecebd08048657805028d744ae87a2d341f18f4c2db76213dead0931d"
@@ -516,7 +516,7 @@ registered = 2021-10-23T10:34:19.000Z
 
             ["1.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.15.2"
         [["1.15.2+0".artifact_metadata.sources]]
         hash = "f28e5fb999aeb48ae18f4d81d08414ad2b6879378c7f2c6a2181db1e40675f64"
@@ -525,7 +525,7 @@ registered = 2021-10-23T10:34:19.000Z
 
             ["1.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.15.2"
         [["1.15.2+0".artifact_metadata.sources]]
         hash = "16862a52a7c359e001b69c1252cb7fc37fdccb956350fb211956f59dab489b3b"
@@ -556,7 +556,7 @@ registered = 2021-10-28T10:47:19.000Z
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "45110e5a48f2c7f381d3d41c5a62c29f49e82090cfb7bece6a9051ad38f0e904"
@@ -565,7 +565,7 @@ registered = 2021-10-28T10:47:19.000Z
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "8f19eb888a4a2a9748cefc4fa0cedc13778f7ad3174fd544bb0a9e85896d31a6"
@@ -574,7 +574,7 @@ registered = 2021-10-28T10:47:19.000Z
 
             ["1.15.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.15.3"
         [["1.15.3+0".artifact_metadata.sources]]
         hash = "680176b8671152ae2d66a32b7814d0a77039038ac59bd893904204ba2155e9f3"
@@ -605,7 +605,7 @@ registered = 2021-11-30T17:49:50.000Z
 
             ["1.16.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.16.3"
         [["1.16.3+0".artifact_metadata.sources]]
         hash = "fa5ff854e5dadee3aadc1007408565b85fd80ab42c6e30d959e51bfee8ee79e5"
@@ -614,7 +614,7 @@ registered = 2021-11-30T17:49:50.000Z
 
             ["1.16.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.16.3"
         [["1.16.3+0".artifact_metadata.sources]]
         hash = "bfa9bdaa41f20ace6a8ad862068874583c0dd8c70ebf4064033372bb17981058"
@@ -623,7 +623,7 @@ registered = 2021-11-30T17:49:50.000Z
 
             ["1.16.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.16.3"
         [["1.16.3+0".artifact_metadata.sources]]
         hash = "f1de6fda3cd30da44a35cbb3548f85ed9f93b0c8d1973b107810d56e6a6f5318"
@@ -632,7 +632,7 @@ registered = 2021-11-30T17:49:50.000Z
 
             ["1.16.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.16.3"
         [["1.16.3+0".artifact_metadata.sources]]
         hash = "dd3f8a2f072530aba3d67bc9cc14eb3ee48418ae263ac9dbe37612c16300bd4b"
@@ -663,7 +663,7 @@ registered = 2022-03-31T20:15:18.000Z
 
             ["1.20.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.20.4"
         [["1.20.4+0".artifact_metadata.sources]]
         hash = "6f7490795e9ef28b65b1a3dbdaacd9e625b4f158ca0bd5f37ea97baf8ec31c13"
@@ -672,7 +672,7 @@ registered = 2022-03-31T20:15:18.000Z
 
             ["1.20.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.20.4"
         [["1.20.4+0".artifact_metadata.sources]]
         hash = "4fce74da80649fe4eac866f14b6ae202bce3a22118b8df3157023800c209b64b"
@@ -681,7 +681,7 @@ registered = 2022-03-31T20:15:18.000Z
 
             ["1.20.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.20.4"
         [["1.20.4+0".artifact_metadata.sources]]
         hash = "bcc5acd083f8991977535c70290ba572bb38474551fc0798016c0c43039e880d"
@@ -690,7 +690,7 @@ registered = 2022-03-31T20:15:18.000Z
 
             ["1.20.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.20.4"
         [["1.20.4+0".artifact_metadata.sources]]
         hash = "921aff769d9e54e30a33fb80dfe6db5b9bfc464cfc041083d9f17a78662bd1ac"
@@ -721,7 +721,7 @@ registered = 2022-11-22T20:26:56.000Z
 
             ["1.28.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.28.1"
         [["1.28.1+0".artifact_metadata.sources]]
         hash = "53431f110aa28e83c46278802cc81661035a640c3e69084c7593fb397277b535"
@@ -730,7 +730,7 @@ registered = 2022-11-22T20:26:56.000Z
 
             ["1.28.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.28.1"
         [["1.28.1+0".artifact_metadata.sources]]
         hash = "a7655ca86abf854bc2230798ae57cf1b13492aa144601f9fb127ccce876dea03"
@@ -739,7 +739,7 @@ registered = 2022-11-22T20:26:56.000Z
 
             ["1.28.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.28.1"
         [["1.28.1+0".artifact_metadata.sources]]
         hash = "779a5a417fa2e5d9cb0e8258b6eeadf9eb04909d8e311e86ff621bcd3deb72c9"
@@ -748,7 +748,7 @@ registered = 2022-11-22T20:26:56.000Z
 
             ["1.28.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.28.1"
         [["1.28.1+0".artifact_metadata.sources]]
         hash = "1f5c0ee6c805508316f065f1540ca95f887d040d531c4bba688c656bd3bd6abd"
@@ -779,7 +779,7 @@ registered = 2023-05-24T23:53:58.000Z
 
             ["1.33.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.33.4"
         [["1.33.4+0".artifact_metadata.sources]]
         hash = "13aa4b3e5f652be2e436798105e5e4a48dbfd398cfc297384e9708a43c9b3337"
@@ -792,7 +792,7 @@ registered = 2023-05-24T23:53:58.000Z
 
             ["1.33.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.33.4"
         [["1.33.4+0".artifact_metadata.sources]]
         hash = "ea504cac8ba53ef583d0f912d7834f4bff88eb647cfb10cb1dd24962b1dc062d"
@@ -801,7 +801,7 @@ registered = 2023-05-24T23:53:58.000Z
 
             ["1.33.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.33.4"
         [["1.33.4+0".artifact_metadata.sources]]
         hash = "f66842f3ed2b906f0db503b2eebd53c87240ade0dd3045919a7a2ba12962c0e4"
@@ -810,7 +810,7 @@ registered = 2023-05-24T23:53:58.000Z
 
             ["1.33.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.33.4"
         [["1.33.4+0".artifact_metadata.sources]]
         hash = "d7d4d525e4f8973a23754654925b14f2a215baff4d3dd183e75047a3dac957ac"
@@ -841,7 +841,7 @@ registered = 2024-10-12T15:51:16.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         hash = "a76ada742b4e7670b1c50783cd01be200a38ae2439be583dd07c8069d387f99e"
@@ -850,7 +850,7 @@ registered = 2024-10-12T15:51:16.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         hash = "b74d019d948e50e3eebde16d9c67d5633f46636af04adbb7fca1b5a37232dd80"
@@ -859,7 +859,7 @@ registered = 2024-10-12T15:51:16.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         hash = "ad122b1c8c823378469fb4972c0cc6dafc01353dfa5c7303d199bdc1dee9d5e9"
@@ -868,7 +868,7 @@ registered = 2024-10-12T15:51:16.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         hash = "34ea525eeaae3ef2eb72e5f7c237fbf844fa900e6b8e666c5db2553f56f9d382"
@@ -877,7 +877,7 @@ registered = 2024-10-12T15:51:16.000Z
 
             ["2.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.0.0"
         [["2.0.0+0".artifact_metadata.sources]]
         hash = "7456e2340d363a50a90cb30695a0c0c930969db0bbd0996eb62fd1dcb9637546"
@@ -908,7 +908,7 @@ registered = 2025-04-02T12:31:09.000Z
 
             ["2.2.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.2.6"
         [["2.2.6+0".artifact_metadata.sources]]
         hash = "6fbb81191c38488de73f4a8612d856d4eeb45165121dd57c6f68a46de82d30aa"
@@ -917,7 +917,7 @@ registered = 2025-04-02T12:31:09.000Z
 
             ["2.2.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.2.6"
         [["2.2.6+0".artifact_metadata.sources]]
         hash = "85eaa0d3f8e76931ca4b03f3d5befcb2ad72942db2a3233e3abf2dab58db52bc"
@@ -926,7 +926,7 @@ registered = 2025-04-02T12:31:09.000Z
 
             ["2.2.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.2.6"
         [["2.2.6+0".artifact_metadata.sources]]
         hash = "4459182bd23c28958c807f06645e371ec8a34cddb70a1d99680e75cca76d6e86"
@@ -935,7 +935,7 @@ registered = 2025-04-02T12:31:09.000Z
 
             ["2.2.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.2.6"
         [["2.2.6+0".artifact_metadata.sources]]
         hash = "e0229e239b4b3ffd356a7731dcab9e277c7750669c27515c4c22cd21b1c0108d"
@@ -944,7 +944,7 @@ registered = 2025-04-02T12:31:09.000Z
 
             ["2.2.6+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.2.6"
         [["2.2.6+0".artifact_metadata.sources]]
         hash = "e3a0763f10d8f0ec511f2617456c7e0eee130c2b7a6787abbbab3baf29bc98e8"
@@ -975,7 +975,7 @@ registered = 2025-12-30T16:38:15.000Z
 
             ["2.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.3"
         [["2.6.3+0".artifact_metadata.sources]]
         hash = "92c9496e8c71e6b18abf1f728d6223bb682749e4946f24589a7ef8972fec423e"
@@ -984,7 +984,7 @@ registered = 2025-12-30T16:38:15.000Z
 
             ["2.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.3"
         [["2.6.3+0".artifact_metadata.sources]]
         hash = "3942e5af4d25588b506f49155278239c9fa09e7683a912ca091a346a1fc40733"
@@ -993,7 +993,7 @@ registered = 2025-12-30T16:38:15.000Z
 
             ["2.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.3"
         [["2.6.3+0".artifact_metadata.sources]]
         hash = "7fdc01002a90a6ac58b8936e5d7a872fa7885db71d51bac7f776b7b790c82085"
@@ -1002,7 +1002,7 @@ registered = 2025-12-30T16:38:15.000Z
 
             ["2.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.3"
         [["2.6.3+0".artifact_metadata.sources]]
         hash = "a011a0c6f1ea120ec60a65969e9d549af894b999cf1d35fe5ee81e694227cce2"
@@ -1011,7 +1011,7 @@ registered = 2025-12-30T16:38:15.000Z
 
             ["2.6.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.3"
         [["2.6.3+0".artifact_metadata.sources]]
         hash = "f1f631687b9949000b91b480982859a5557b398009f0a6a62d05c88fd4def5fb"
@@ -1042,7 +1042,7 @@ registered = 2026-04-13T14:28:03.000Z
 
             ["2.6.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.10"
         [["2.6.10+0".artifact_metadata.sources]]
         hash = "ad4031b16b193997cd40d2bf68c9af8b5148e0f39c1e975cfbb6d60ecec19496"
@@ -1051,7 +1051,7 @@ registered = 2026-04-13T14:28:03.000Z
 
             ["2.6.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.10"
         [["2.6.10+0".artifact_metadata.sources]]
         hash = "549d631ebe2421ee5e16b7a194764ba649ce2d1f4527496c2e607e551b7979b0"
@@ -1060,7 +1060,7 @@ registered = 2026-04-13T14:28:03.000Z
 
             ["2.6.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.10"
         [["2.6.10+0".artifact_metadata.sources]]
         hash = "cdc880f43913f105de02a484005e5a5ed030c905e5a67e288f9ecadde6a86f62"
@@ -1069,7 +1069,7 @@ registered = 2026-04-13T14:28:03.000Z
 
             ["2.6.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.10"
         [["2.6.10+0".artifact_metadata.sources]]
         hash = "6b26d272c2107ca63474c5702c824132a4a3e4469463edf0f327b9b5a5f5f854"
@@ -1078,7 +1078,7 @@ registered = 2026-04-13T14:28:03.000Z
 
             ["2.6.10+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.6.10"
         [["2.6.10+0".artifact_metadata.sources]]
         hash = "9d36d89e11b61626d732d71fd5a2b83afba06d02373f1fa8daffff3a0addf936"
@@ -1109,7 +1109,7 @@ registered = 2026-05-29T12:57:00.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.1"
         [["2.8.1+0".artifact_metadata.sources]]
         hash = "67e9df91870fd0af700df924173e3009ea7ff6956e2c3c3bb86065d6070d0fd6"
@@ -1118,7 +1118,7 @@ registered = 2026-05-29T12:57:00.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.1"
         [["2.8.1+0".artifact_metadata.sources]]
         hash = "47473845e0522ba11dd279e3dd318e2d84ee200c56b8280594e0ae0b0f827460"
@@ -1127,7 +1127,7 @@ registered = 2026-05-29T12:57:00.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.1"
         [["2.8.1+0".artifact_metadata.sources]]
         hash = "8154e2de0ee8c1cae31fa88e078724aaef0295fab9fd2ad6f8520389cee908f6"
@@ -1136,7 +1136,7 @@ registered = 2026-05-29T12:57:00.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.1"
         [["2.8.1+0".artifact_metadata.sources]]
         hash = "5fb5bac71f609fb91ec8960fb290885aadc27eeb22f07a8eca0c3db6be38b11a"
@@ -1145,7 +1145,7 @@ registered = 2026-05-29T12:57:00.000Z
 
             ["2.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.1"
         [["2.8.1+0".artifact_metadata.sources]]
         hash = "062d821f7d8bdb6ccbc79a5b1625b2a3f3378f187fc78018a77eada32d5fcd6c"
@@ -1176,7 +1176,7 @@ registered = 2026-06-15T17:05:52.000Z
 
             ["2.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.3"
         [["2.8.3+0".artifact_metadata.sources]]
         hash = "d4589cc1ffcbf1995c92a0127d932aaf832ac70cfdcc6d5b7bf38043cf303575"
@@ -1185,7 +1185,7 @@ registered = 2026-06-15T17:05:52.000Z
 
             ["2.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.3"
         [["2.8.3+0".artifact_metadata.sources]]
         hash = "4254ec12123cfcf88b87703d7acf092a1ea024bdf9be8dd3cd9d4474761cb74e"
@@ -1194,7 +1194,7 @@ registered = 2026-06-15T17:05:52.000Z
 
             ["2.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.3"
         [["2.8.3+0".artifact_metadata.sources]]
         hash = "88b350be928fdba0e5d8142ff7c101a17133426371e3cf5ed0e0f74e62476f6c"
@@ -1203,7 +1203,7 @@ registered = 2026-06-15T17:05:52.000Z
 
             ["2.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.3"
         [["2.8.3+0".artifact_metadata.sources]]
         hash = "7fdd1f42e6b0855421ecf27bb406e2492ade1087c85e30ebf0deab6280ea743c"
@@ -1212,7 +1212,7 @@ registered = 2026-06-15T17:05:52.000Z
 
             ["2.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.8.3"
         [["2.8.3+0".artifact_metadata.sources]]
         hash = "f5aad48de4230de51a3c4125e325c798d49bc1543a7cd1ad9662eff39dc510e5"
@@ -1243,7 +1243,7 @@ registered = 2026-08-13T11:10:09.000Z
 
             ["2.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.5"
         [["2.9.5+0".artifact_metadata.sources]]
         hash = "6b7cae3a8fc4385a59dea3146fcb8bad7fea4230e0ad36a8c692afacbc254be0"
@@ -1252,7 +1252,7 @@ registered = 2026-08-13T11:10:09.000Z
 
             ["2.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.5"
         [["2.9.5+0".artifact_metadata.sources]]
         hash = "c1b8b89a81e91b2a8b3f96def3195d08cfe3a105651da7908d53061f7140510d"
@@ -1261,7 +1261,7 @@ registered = 2026-08-13T11:10:09.000Z
 
             ["2.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.5"
         [["2.9.5+0".artifact_metadata.sources]]
         hash = "b796aadd131f6930560c1ee040cf0d6f53933fbb987464e9ff46bd7ea4830615"
@@ -1270,7 +1270,7 @@ registered = 2026-08-13T11:10:09.000Z
 
             ["2.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.5"
         [["2.9.5+0".artifact_metadata.sources]]
         hash = "171efab55ac6b9881fd53ee4c20f8bf3bb1340ffc618483746909014db12216a"
@@ -1279,7 +1279,7 @@ registered = 2026-08-13T11:10:09.000Z
 
             ["2.9.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "repology-url"
+            provenance = "url-pattern"
             version = "2.9.5"
         [["2.9.5+0".artifact_metadata.sources]]
         hash = "b3d1d66e47d74f5bda84d5a80282135b7d8f2e336fbcf98c75be32f18130864a"
@@ -1310,7 +1310,7 @@ registered = 2026-09-19T16:29:44.000Z
 
             ["2.9.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.7"
         [["2.9.7+0".artifact_metadata.sources]]
         hash = "c832298b1ad4422481334855f6003e0f54145762c5a134f20a489511d2f65bbf"
@@ -1319,7 +1319,7 @@ registered = 2026-09-19T16:29:44.000Z
 
             ["2.9.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.7"
         [["2.9.7+0".artifact_metadata.sources]]
         hash = "95daaff11c116a52ad54785e7914c8e9c9cdcaba793c5ed929c74ca2d8e6259a"
@@ -1328,7 +1328,7 @@ registered = 2026-09-19T16:29:44.000Z
 
             ["2.9.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.7"
         [["2.9.7+0".artifact_metadata.sources]]
         hash = "5cd46d6268f6f78f5d88bdc7159d20bd44cdaa4b3303474839f87ec6fe7ae25c"
@@ -1337,7 +1337,7 @@ registered = 2026-09-19T16:29:44.000Z
 
             ["2.9.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.7"
         [["2.9.7+0".artifact_metadata.sources]]
         hash = "a0c3101b4158d1dfb7d6a78a7bf0f3de80c96bb423c152beec8beb22786f2238"
@@ -1346,7 +1346,7 @@ registered = 2026-09-19T16:29:44.000Z
 
             ["2.9.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.7"
         [["2.9.7+0".artifact_metadata.sources]]
         hash = "21069d2f4dd65b6832e3f5c373c24a43a8d35cb3d68d3841e15d0582bed39ea8"
@@ -1376,8 +1376,8 @@ registered = 2026-10-22T13:15:38.000Z
         url = "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-unknown-linux-gnu.zip"
 
             ["2.9.8+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/deno-bin"
-            provenance = "repology-url"
+            project = "repology.org/project/deno"
+            provenance = "url-pattern"
             version = "2.9.8"
         [["2.9.8+0".artifact_metadata.sources]]
         hash = "d49596c20b9788cf8f5d8ddf644103d4bde56ed239753f0bdb92ba9361d51905"
@@ -1386,7 +1386,7 @@ registered = 2026-10-22T13:15:38.000Z
 
             ["2.9.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.8"
         [["2.9.8+0".artifact_metadata.sources]]
         hash = "4b2f5edd2639b7470f034238b321d7002d8dfb4726d8558f52c17afac370eb2c"
@@ -1395,7 +1395,7 @@ registered = 2026-10-22T13:15:38.000Z
 
             ["2.9.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.8"
         [["2.9.8+0".artifact_metadata.sources]]
         hash = "9f0bf660393da2eaff044cdc7444cb08c73f235849b61d224d825a194ce7c98e"
@@ -1404,7 +1404,7 @@ registered = 2026-10-22T13:15:38.000Z
 
             ["2.9.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.8"
         [["2.9.8+0".artifact_metadata.sources]]
         hash = "cba84b26e0df5ae7f74fc66b86a95b866872a86292ebd84fa1e959927edd93bf"
@@ -1413,7 +1413,7 @@ registered = 2026-10-22T13:15:38.000Z
 
             ["2.9.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/deno"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "2.9.8"
         [["2.9.8+0".artifact_metadata.sources]]
         hash = "b57d0281c1647effc735f242ba52bc409747fc6ed6ad4946e76f062c67e113eb"

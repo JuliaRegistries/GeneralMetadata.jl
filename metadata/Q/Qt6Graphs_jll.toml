@@ -16,7 +16,7 @@ registered = 2025-06-12T22:39:46.000Z
         url = "https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtgraphs-everywhere-src-6.8.2.tar.xz"
 
             ["6.8.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtgraphs"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.8.2"
         [["6.8.2+0".artifact_metadata.sources]]
@@ -42,7 +42,7 @@ registered = 2026-02-28T19:20:45.000Z
         url = "https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtgraphs-everywhere-src-6.10.2.tar.xz"
 
             ["6.10.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qtgraphs"
+            project = "repology.org/project/qt"
             provenance = "url-pattern"
             version = "6.10.2"
         [["6.10.2+0".artifact_metadata.sources]]

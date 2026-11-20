@@ -15,6 +15,11 @@ registered = 2022-11-23T16:19:22.000Z
         type = "archive"
         url = "https://github.com/jameslittle230/stork/archive/refs/tags/v1.5.0.tar.gz"
 
+            ["1.5.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/stork-search"
+            provenance = "tag-scheme"
+            version = "1.5.0"
+
 ["1.6.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.6.0+0/stork.v1.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.6.0+0/stork.v1.6.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.6.0+0/stork.v1.6.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.6.0+0/stork.v1.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.6.0+0/stork.v1.6.0.x86_64-linux-musl.tar.gz"]
 registered = 2023-04-04T08:28:43.000Z
@@ -31,3 +36,8 @@ registered = 2023-04-04T08:28:43.000Z
         hash = "b946a7837bf13443e6ca0f4887d093a5b398d875"
         type = "git"
         url = "https://github.com/jameslittle230/stork.git"
+
+            ["1.6.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/stork-search"
+            provenance = "git-tag"
+            version = "1.6.0"

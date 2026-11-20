@@ -14,6 +14,10 @@ registered = 2020-02-12T01:27:28.000Z
         hash = "d8c3f472d23ad79f519651d5cf715b56467d35d0"
         type = "git"
         url = "https://github.com/tree-sitter/tree-sitter.git"
+
+            ["0.16.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tree-sitter"
+            provenance = "repository"
         [["0.16.0+0".artifact_metadata.sources]]
         hash = "6002fcd5e86bb1e8670157bb008b97dbaf656d95"
         type = "git"
@@ -39,6 +43,10 @@ registered = 2020-04-03T17:57:52.000Z
         hash = "d8c3f472d23ad79f519651d5cf715b56467d35d0"
         type = "git"
         url = "https://github.com/tree-sitter/tree-sitter.git"
+
+            ["0.16.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tree-sitter"
+            provenance = "repository"
         [["0.16.0+1".artifact_metadata.sources]]
         hash = "6002fcd5e86bb1e8670157bb008b97dbaf656d95"
         type = "git"

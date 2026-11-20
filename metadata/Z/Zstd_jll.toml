@@ -356,7 +356,7 @@ registered = 2025-02-22T17:32:59.000Z
 
             ["1.5.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/zstd"
-            provenance = "tag-scheme"
+            provenance = "repology-url"
             version = "1.5.7"
         [["1.5.7+1".artifact_metadata.sources]]
         type = "directory"

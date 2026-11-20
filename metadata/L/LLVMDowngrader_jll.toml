@@ -500,7 +500,7 @@ registered = 2026-06-04T03:46:45.000Z
 
             ["0.7.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "7.1.0"
         [["0.7.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -565,7 +565,7 @@ registered = 2026-06-09T11:07:28.000Z
 
             ["0.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "7.1.0"
         [["0.8.0+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
@@ -574,7 +574,7 @@ registered = 2026-06-09T11:07:28.000Z
 
             ["0.8.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "14.0.6"
         [["0.8.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -614,7 +614,7 @@ registered = 2026-06-09T13:31:00.000Z
 
             ["0.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "7.1.0"
         [["0.8.1+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
@@ -623,7 +623,7 @@ registered = 2026-06-09T13:31:00.000Z
 
             ["0.8.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "14.0.6"
         [["0.8.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -663,7 +663,7 @@ registered = 2026-07-24T10:48:22.000Z
 
             ["0.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "7.1.0"
         [["0.8.2+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
@@ -672,7 +672,7 @@ registered = 2026-07-24T10:48:22.000Z
 
             ["0.8.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "14.0.6"
         [["0.8.2+0".artifact_metadata.sources]]
         type = "directory"
@@ -712,7 +712,7 @@ registered = 2026-07-24T13:23:29.000Z
 
             ["0.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "7.1.0"
         [["0.8.3+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
@@ -721,7 +721,7 @@ registered = 2026-07-24T13:23:29.000Z
 
             ["0.8.3+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "14.0.6"
         [["0.8.3+0".artifact_metadata.sources]]
         type = "directory"
@@ -761,7 +761,7 @@ registered = 2026-08-15T09:29:57.000Z
 
             ["0.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "7.1.0"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
@@ -770,7 +770,7 @@ registered = 2026-08-15T09:29:57.000Z
 
             ["0.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "14.0.6"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "4ad8b2cc8003c86d0078d15d987d84e3a739f24aae9033865c027abae93ee7a4"
@@ -779,12 +779,17 @@ registered = 2026-08-15T09:29:57.000Z
 
             ["0.9.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "15.0.7"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "8986f29b634fdaa9862eedda78513969fe9788301c9f2d938f4c10a3e7a3e7ea"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/cmake-15.0.7.src.tar.xz"
+
+            ["0.9.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "15.0.7"
         [["0.9.0+0".artifact_metadata.sources]]
         hash = "f68cf90f369bc7d0158ba70d860b0cb34dbc163d6ff0ebc6cfa5e515b9b2e28d"
         type = "archive"
@@ -798,6 +803,11 @@ registered = 2026-08-15T09:29:57.000Z
         hash = "59badef592dd34893cd319d42b323aaa990b452d05c7180ff20f23ab1b41e837"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/cmake-18.1.8.src.tar.xz"
+
+            ["0.9.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "18.1.8"
         [["0.9.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/449561f869dde104f17a617ddd38f9769d52d4f3/L/LLVMDowngrader/bundled"
@@ -836,7 +846,7 @@ registered = 2026-08-20T02:43:52.000Z
 
             ["0.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "7.1.0"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a"
@@ -845,7 +855,7 @@ registered = 2026-08-20T02:43:52.000Z
 
             ["0.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "14.0.6"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "4ad8b2cc8003c86d0078d15d987d84e3a739f24aae9033865c027abae93ee7a4"
@@ -854,12 +864,17 @@ registered = 2026-08-20T02:43:52.000Z
 
             ["0.9.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "15.0.7"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "8986f29b634fdaa9862eedda78513969fe9788301c9f2d938f4c10a3e7a3e7ea"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/cmake-15.0.7.src.tar.xz"
+
+            ["0.9.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "15.0.7"
         [["0.9.1+0".artifact_metadata.sources]]
         hash = "f68cf90f369bc7d0158ba70d860b0cb34dbc163d6ff0ebc6cfa5e515b9b2e28d"
         type = "archive"
@@ -873,6 +888,11 @@ registered = 2026-08-20T02:43:52.000Z
         hash = "59badef592dd34893cd319d42b323aaa990b452d05c7180ff20f23ab1b41e837"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/cmake-18.1.8.src.tar.xz"
+
+            ["0.9.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "18.1.8"
         [["0.9.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b4729d9ee37ac9eac33fc212a1b4731424606b41/L/LLVMDowngrader/bundled"

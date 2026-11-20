@@ -16,7 +16,7 @@ registered = 2021-03-05T01:26:11.000Z
         url = "https://github.com/google/s2geometry.git"
 
             ["0.9.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
+            project = "repology.org/project/s2geometry"
             provenance = "repository"
         [["0.9.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -40,7 +40,7 @@ registered = 2024-09-18T12:17:56.000Z
         url = "https://github.com/google/s2geometry.git"
 
             ["0.11.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
+            project = "repology.org/project/s2geometry"
             provenance = "git-tag"
             version = "0.11.1"
         [["0.11.1+0".artifact_metadata.sources]]
@@ -65,7 +65,7 @@ registered = 2026-08-03T12:26:07.000Z
         url = "https://github.com/google/s2geometry.git"
 
             ["0.13.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
+            project = "repology.org/project/s2geometry"
             provenance = "git-tag"
             version = "0.13.0"
         [["0.13.0+0".artifact_metadata.sources]]
@@ -94,7 +94,7 @@ registered = 2026-08-03T13:05:58.000Z
         url = "https://github.com/google/s2geometry.git"
 
             ["0.13.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
+            project = "repology.org/project/s2geometry"
             provenance = "git-tag"
             version = "0.13.1"
         [["0.13.1+0".artifact_metadata.sources]]
@@ -123,7 +123,7 @@ registered = 2026-08-03T14:12:21.000Z
         url = "https://github.com/google/s2geometry.git"
 
             ["0.14.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
+            project = "repology.org/project/s2geometry"
             provenance = "git-tag"
             version = "0.14.0"
         [["0.14.0+0".artifact_metadata.sources]]
@@ -152,7 +152,7 @@ registered = 2026-08-04T10:29:53.000Z
         url = "https://github.com/google/s2geometry.git"
 
             ["0.14.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/python:s2geometry"
+            project = "repology.org/project/s2geometry"
             provenance = "git-tag"
             version = "0.14.0"
         [["0.14.0+1".artifact_metadata.sources]]

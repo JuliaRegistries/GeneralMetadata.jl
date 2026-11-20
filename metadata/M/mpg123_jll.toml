@@ -20,8 +20,8 @@ registered = 2022-01-22T22:41:17.000Z
         url = "https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.29.3.tar.bz2"
 
             ["1.29.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
+            project = "repology.org/project/mpg123"
+            provenance = "url-pattern"
             version = "1.29.3"
 
 ["1.33.0+0"]
@@ -42,8 +42,8 @@ registered = 2025-06-20T22:24:43.000Z
         url = "https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.33.0.tar.bz2"
 
             ["1.33.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
+            project = "repology.org/project/mpg123"
+            provenance = "url-pattern"
             version = "1.33.0"
 
 ["1.33.2+0"]
@@ -64,8 +64,8 @@ registered = 2025-08-21T19:40:38.000Z
         url = "https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.33.2.tar.bz2"
 
             ["1.33.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
+            project = "repology.org/project/mpg123"
+            provenance = "url-pattern"
             version = "1.33.2"
 
 ["1.33.4+0"]
@@ -86,8 +86,8 @@ registered = 2025-12-21T17:12:05.000Z
         url = "https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.33.4.tar.bz2"
 
             ["1.33.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
+            project = "repology.org/project/mpg123"
+            provenance = "url-pattern"
             version = "1.33.4"
 
 ["1.33.7+0"]
@@ -108,6 +108,6 @@ registered = 2026-08-15T15:34:30.000Z
         url = "https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.33.7.tar.bz2"
 
             ["1.33.7+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libmpg123"
-            provenance = "heuristic"
+            project = "repology.org/project/mpg123"
+            provenance = "url-pattern"
             version = "1.33.7"

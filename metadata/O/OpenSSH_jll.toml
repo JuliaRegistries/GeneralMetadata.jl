@@ -701,7 +701,7 @@ registered = 2026-11-09T14:59:50.000Z
 
             ["10.6.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/openssh"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "10.6p2"
         [["10.6.2+0".artifact_metadata.sources]]
         hash = "4f7218ec8f1df9217ed17fbfaf16057d7d40559a04eeae710ce234feabbd618b"

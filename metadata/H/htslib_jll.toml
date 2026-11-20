@@ -17,7 +17,7 @@ registered = 2020-02-22T18:38:12.000Z
 
             ["1.10.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/htslib"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.2"
 
 ["1.10.2+1"]
@@ -39,7 +39,7 @@ registered = 2020-04-04T05:35:12.000Z
 
             ["1.10.2+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/htslib"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.10.2"
 
 ["1.14.0+0"]
@@ -61,7 +61,7 @@ registered = 2021-11-11T20:14:14.000Z
 
             ["1.14.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/htslib"
-            provenance = "tag-scheme"
+            provenance = "url-pattern"
             version = "1.14"
 
 ["1.19.1+0"]
@@ -83,7 +83,7 @@ registered = 2024-03-29T13:37:20.000Z
 
             ["1.19.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/htslib"
-            provenance = "repology-url"
+            provenance = "url-pattern"
             version = "1.19.1"
 
 ["1.19.1+1"]
@@ -105,5 +105,5 @@ registered = 2024-04-02T20:58:06.000Z
 
             ["1.19.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/htslib"
-            provenance = "repology-url"
+            provenance = "url-pattern"
             version = "1.19.1"

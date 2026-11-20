@@ -17,7 +17,7 @@ registered = 2025-02-13T06:38:46.000Z
 
             ["20.0.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "20.1.0-rc1"
         [["20.0.0+0".artifact_metadata.sources]]
         type = "directory"
@@ -42,16 +42,26 @@ registered = 2025-05-16T16:48:18.000Z
 
             ["20.1.5+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "20.1.5"
         [["20.1.5+0".artifact_metadata.sources]]
         hash = "1b5abaa2686c6c0e1f394113d0b2e026ff3cb9e11b6a2294c4f3883f1b02c89c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/cmake-20.1.5.src.tar.xz"
+
+            ["20.1.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+0".artifact_metadata.sources]]
         hash = "8667f47185bee07f7c7988ead7161b0d9e41a1a01d5d7afd8f325c607641470c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/third-party-20.1.5.src.tar.xz"
+
+            ["20.1.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/f2f735b262c8fb76c8ae3342150ba7ccfccb829b/S/SPIRV_LLVM_Backend/bundled"
@@ -75,16 +85,26 @@ registered = 2025-06-10T10:12:38.000Z
 
             ["20.1.5+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "20.1.5"
         [["20.1.5+1".artifact_metadata.sources]]
         hash = "1b5abaa2686c6c0e1f394113d0b2e026ff3cb9e11b6a2294c4f3883f1b02c89c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/cmake-20.1.5.src.tar.xz"
+
+            ["20.1.5+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+1".artifact_metadata.sources]]
         hash = "8667f47185bee07f7c7988ead7161b0d9e41a1a01d5d7afd8f325c607641470c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/third-party-20.1.5.src.tar.xz"
+
+            ["20.1.5+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/43dc1c1722b6ac3683444ef5ac43b79fab2f9421/S/SPIRV_LLVM_Backend/bundled"
@@ -108,16 +128,26 @@ registered = 2025-08-20T14:10:12.000Z
 
             ["20.1.5+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "20.1.5"
         [["20.1.5+2".artifact_metadata.sources]]
         hash = "1b5abaa2686c6c0e1f394113d0b2e026ff3cb9e11b6a2294c4f3883f1b02c89c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/cmake-20.1.5.src.tar.xz"
+
+            ["20.1.5+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+2".artifact_metadata.sources]]
         hash = "8667f47185bee07f7c7988ead7161b0d9e41a1a01d5d7afd8f325c607641470c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/third-party-20.1.5.src.tar.xz"
+
+            ["20.1.5+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/de6b66409bf7b38965841c3d51f1fdecefeed97e/S/SPIRV_LLVM_Backend/bundled"
@@ -141,16 +171,26 @@ registered = 2025-10-20T19:11:05.000Z
 
             ["20.1.5+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "20.1.5"
         [["20.1.5+3".artifact_metadata.sources]]
         hash = "1b5abaa2686c6c0e1f394113d0b2e026ff3cb9e11b6a2294c4f3883f1b02c89c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/cmake-20.1.5.src.tar.xz"
+
+            ["20.1.5+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+3".artifact_metadata.sources]]
         hash = "8667f47185bee07f7c7988ead7161b0d9e41a1a01d5d7afd8f325c607641470c"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.5/third-party-20.1.5.src.tar.xz"
+
+            ["20.1.5+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "20.1.5"
         [["20.1.5+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6dfb64cfa088062bf540987fbfd3f792481d25e9/S/SPIRV_LLVM_Backend/bundled"
@@ -180,10 +220,20 @@ registered = 2025-10-27T13:19:52.000Z
         hash = "f4316d84a862ba3023ca1d26bd9c6a995516b4fa028b6fb329d22e24cc6d235e"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.4/cmake-21.1.4.src.tar.xz"
+
+            ["21.1.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "21.1.4"
         [["21.1.4+0".artifact_metadata.sources]]
         hash = "ae8658390504e08e464f65ecea838a0584df4734c27cecedfe7eb32780e81564"
         type = "archive"
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.4/third-party-21.1.4.src.tar.xz"
+
+            ["21.1.4+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "21.1.4"
         [["21.1.4+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/416d496218f3e4832ba1b298ebe660224fb8f769/S/SPIRV_LLVM_Backend/bundled"
@@ -207,7 +257,7 @@ registered = 2026-06-03T21:37:09.000Z
 
             ["22.1.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "22.1.7"
         [["22.1.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -232,7 +282,7 @@ registered = 2026-06-04T09:11:47.000Z
 
             ["22.1.7+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "22.1.7"
         [["22.1.7+1".artifact_metadata.sources]]
         type = "directory"
@@ -257,7 +307,7 @@ registered = 2026-06-17T08:48:35.000Z
 
             ["22.1.7+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "22.1.7"
         [["22.1.7+2".artifact_metadata.sources]]
         type = "directory"
@@ -282,7 +332,7 @@ registered = 2026-07-13T15:26:45.000Z
 
             ["22.1.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "22.1.8"
         [["22.1.8+0".artifact_metadata.sources]]
         type = "directory"
@@ -307,7 +357,7 @@ registered = 2026-07-15T14:28:10.000Z
 
             ["22.1.8+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "repology-url"
             version = "22.1.8"
         [["22.1.8+1".artifact_metadata.sources]]
         type = "directory"
@@ -332,7 +382,7 @@ registered = 2026-09-09T18:06:27.000Z
 
             ["23.1.1+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -361,7 +411,7 @@ registered = 2026-09-10T08:28:20.000Z
 
             ["23.1.1+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -390,7 +440,7 @@ registered = 2026-09-30T10:39:17.000Z
 
             ["23.1.1+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+2".artifact_metadata.sources]]
         type = "directory"
@@ -419,7 +469,7 @@ registered = 2026-10-04T07:46:44.000Z
 
             ["23.1.1+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+3".artifact_metadata.sources]]
         type = "directory"
@@ -448,7 +498,7 @@ registered = 2026-10-06T16:28:26.000Z
 
             ["23.1.1+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+4".artifact_metadata.sources]]
         type = "directory"
@@ -477,7 +527,7 @@ registered = 2026-10-08T07:31:22.000Z
 
             ["23.1.1+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+5".artifact_metadata.sources]]
         type = "directory"
@@ -506,7 +556,7 @@ registered = 2026-10-12T13:36:14.000Z
 
             ["23.1.1+6".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+6".artifact_metadata.sources]]
         type = "directory"
@@ -535,7 +585,7 @@ registered = 2026-10-12T19:11:53.000Z
 
             ["23.1.1+7".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+7".artifact_metadata.sources]]
         type = "directory"
@@ -564,7 +614,7 @@ registered = 2026-10-17T08:47:49.000Z
 
             ["23.1.1+8".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.1"
         [["23.1.1+8".artifact_metadata.sources]]
         type = "directory"
@@ -593,7 +643,7 @@ registered = 2026-11-03T15:20:58.000Z
 
             ["23.1.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.4"
         [["23.1.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -622,7 +672,7 @@ registered = 2026-11-05T19:24:53.000Z
 
             ["23.1.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.4"
         [["23.1.4+1".artifact_metadata.sources]]
         type = "directory"
@@ -651,7 +701,7 @@ registered = 2026-11-06T13:13:21.000Z
 
             ["23.1.4+2".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.4"
         [["23.1.4+2".artifact_metadata.sources]]
         type = "directory"
@@ -680,7 +730,7 @@ registered = 2026-11-09T10:40:04.000Z
 
             ["23.1.4+3".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.4"
         [["23.1.4+3".artifact_metadata.sources]]
         type = "directory"
@@ -709,7 +759,7 @@ registered = 2026-11-09T12:57:26.000Z
 
             ["23.1.4+4".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.4"
         [["23.1.4+4".artifact_metadata.sources]]
         type = "directory"
@@ -738,7 +788,7 @@ registered = 2026-11-09T16:36:37.000Z
 
             ["23.1.4+5".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "23.1.4"
         [["23.1.4+5".artifact_metadata.sources]]
         type = "directory"

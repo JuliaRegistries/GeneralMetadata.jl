@@ -15,8 +15,8 @@ registered = 2019-09-01T09:30:55.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+1"]
@@ -36,8 +36,8 @@ registered = 2020-01-29T01:09:51.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+2"]
@@ -58,8 +58,8 @@ registered = 2020-04-02T05:09:46.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+3"]
@@ -80,8 +80,8 @@ registered = 2020-06-18T19:59:25.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+4"]
@@ -102,8 +102,8 @@ registered = 2020-06-22T19:52:53.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+4".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+5"]
@@ -124,8 +124,8 @@ registered = 2020-06-25T20:14:12.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+5".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+6"]
@@ -146,8 +146,8 @@ registered = 2020-08-26T19:53:27.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+6".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+7"]
@@ -168,8 +168,8 @@ registered = 2020-10-16T19:32:32.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+7".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.0+8"]
@@ -190,8 +190,8 @@ registered = 2021-06-20T18:23:41.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.0+8".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.1+0"]
@@ -212,8 +212,8 @@ registered = 2021-05-16T23:42:42.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.1+1"]
@@ -234,8 +234,8 @@ registered = 2021-06-14T22:02:44.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.16.1+2"]
@@ -256,8 +256,8 @@ registered = 2022-12-11T17:33:28.000Z
         url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz"
 
             ["1.16.1+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/iconv"
-            provenance = "repology-url"
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.16"
 
 ["1.17.0+0"]
@@ -279,7 +279,7 @@ registered = 2023-08-31T20:42:31.000Z
 
             ["1.17.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libiconv"
-            provenance = "repology-url"
+            provenance = "url-pattern"
             version = "1.17"
 
 ["1.17.0+1"]
@@ -301,7 +301,7 @@ registered = 2024-10-25T09:38:46.000Z
 
             ["1.17.0+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/libiconv"
-            provenance = "repology-url"
+            provenance = "url-pattern"
             version = "1.17"
 
 ["1.18.0+0"]
@@ -323,5 +323,26 @@ registered = 2025-01-13T13:30:48.000Z
 
             ["1.18.0+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libiconv"
-            provenance = "repology-url"
+            provenance = "url-pattern"
+            version = "1.18"
+
+["1.18.1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-20T05:43:13.000Z
+
+    [["1.18.1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-build_log.v1.18.1.x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv-extract_log.v1.18.1.x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl/releases/download/Libiconv-v1.18.1/Libiconv.v1.18.1.x86_64-w64-mingw32.tar.gz"]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/Libiconv_jll.jl/bbdf9a0b7d8facc7967cd12741089d01527f1cf1/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["1.18.1".artifact_metadata.sources]]
+        treehash = "15d045b5501a35dbb10ca218246c3bdb0344985f"
+        type = "archive"
+        url = "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.18.tar.gz"
+
+            ["1.18.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
             version = "1.18"

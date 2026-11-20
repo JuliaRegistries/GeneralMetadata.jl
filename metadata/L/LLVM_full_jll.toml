@@ -18,6 +18,11 @@ registered = 2020-03-30T04:09:38.000Z
         hash = "19a71f6bdf2dddb10764939e7f0ec2b98dba76c9"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["8.0.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "8.0.1"
         [["8.0.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1106f1c082ca424cf3d5ca7252e56c2e54af40d2/L/LLVM/LLVM_full@8.0.1/bundled"
@@ -38,6 +43,11 @@ registered = 2020-04-06T15:09:34.000Z
         hash = "19a71f6bdf2dddb10764939e7f0ec2b98dba76c9"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["8.0.1+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "8.0.1"
         [["8.0.1+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/70c4dc80a51730dc864cdfffcad91a96cde9c3e2/L/LLVM/LLVM_full@8.0.1/bundled"
@@ -58,6 +68,11 @@ registered = 2020-04-07T22:42:35.000Z
         hash = "19a71f6bdf2dddb10764939e7f0ec2b98dba76c9"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["8.0.1+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "8.0.1"
         [["8.0.1+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/40b71c9995cd0c6c95f20e930d4847c281e804d7/L/LLVM/LLVM_full@8.0.1/bundled"
@@ -82,6 +97,11 @@ registered = 2020-03-26T18:21:13.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/69c112c7ff55da4ab1cd224e9b7241f0983526da/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -102,6 +122,11 @@ registered = 2020-04-02T00:33:19.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3cf9dd55ac28adfb84ffc107d5331441f80c7a4a/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -122,6 +147,11 @@ registered = 2020-04-04T03:21:25.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/166fe38ffbdf5d267af4c8dccf27fe6825c255e3/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -142,6 +172,11 @@ registered = 2020-04-07T22:42:27.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+4".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6d097eed1c8bb811462fc983d785f6472d1c66c1/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -162,6 +197,11 @@ registered = 2020-04-14T00:57:32.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+5".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/de58d31d7c2b7dc9a9c103bf2cf24d242ce52e1a/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -182,6 +222,11 @@ registered = 2020-04-15T16:21:18.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+6".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+6".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/53605926e658f853471a7a0d0876186412b66263/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -202,6 +247,11 @@ registered = 2020-07-18T17:32:50.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+7".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+7".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/47518e6a70c5869c7fadc651b336f8464a94b653/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -222,6 +272,11 @@ registered = 2020-08-07T21:17:27.000Z
         hash = "c1a0a213378a458fbea1a5c77b315c7dce08fd05"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["9.0.1+8".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "9.0.1"
         [["9.0.1+8".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e5239336b054a7ae5ab56dfecb045f03df24a66c/L/LLVM/LLVM_full@9.0.1/bundled"
@@ -242,6 +297,11 @@ registered = 2020-03-31T00:33:12.000Z
         hash = "d32170dbd5b0d54436537b6b75beaf44324e0c28"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["10.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "10.0.0"
         [["10.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/077174bb75a2d777242d5b2f23aecaf1bf286867/L/LLVM/LLVM_full@10.0.0/bundled"
@@ -262,6 +322,11 @@ registered = 2020-04-11T21:09:57.000Z
         hash = "d32170dbd5b0d54436537b6b75beaf44324e0c28"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["10.0.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "10.0.0"
         [["10.0.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/7fb4fec7347e5b45ca1aeafdb15aef2061e7768c/L/LLVM/LLVM_full@10.0.0/bundled"
@@ -282,6 +347,11 @@ registered = 2020-08-23T09:34:20.000Z
         hash = "ef32c611aa214dea855364efd7ba451ec5ec3f74"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["10.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "10.0.1"
         [["10.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/047c700ff217f672beb1b2056e85f45d631e229b/L/LLVM/LLVM_full@10.0.1/bundled"
@@ -326,6 +396,11 @@ registered = 2020-11-06T19:10:18.000Z
         hash = "176249bd6732a8044d457092ed932768724a6f06"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.0+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.0"
         [["11.0.0+4".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a1d33f76950be69df674e4279081a3c88a95086c/L/LLVM/LLVM_full@11.0.0/bundled"
@@ -346,6 +421,11 @@ registered = 2020-11-13T04:31:48.000Z
         hash = "176249bd6732a8044d457092ed932768724a6f06"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.0+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.0"
         [["11.0.0+5".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/b38cdf79e27b06e97f960f9933b348fcdfc9ffbb/L/LLVM/LLVM_full@11.0.0/bundled"
@@ -366,6 +446,11 @@ registered = 2020-11-30T16:40:22.000Z
         hash = "176249bd6732a8044d457092ed932768724a6f06"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.0+6".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.0"
         [["11.0.0+6".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/5a703212f362978269918e6473e0504fbf5e70a3/L/LLVM/LLVM_full@11.0.0/bundled"
@@ -386,6 +471,11 @@ registered = 2020-12-10T00:02:01.000Z
         hash = "176249bd6732a8044d457092ed932768724a6f06"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.0+7".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.0"
         [["11.0.0+7".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c01debf825c935d8f12bd274721b91f24a268fa0/L/LLVM/LLVM_full@11.0.0/bundled"
@@ -406,6 +496,11 @@ registered = 2020-12-11T15:16:34.000Z
         hash = "176249bd6732a8044d457092ed932768724a6f06"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.0+8".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.0"
         [["11.0.0+8".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/da3588fb02640f5e3df2e0e08bd23f092e75848b/L/LLVM/LLVM_full@11.0.0/bundled"
@@ -426,6 +521,11 @@ registered = 2020-12-15T20:03:24.000Z
         hash = "176249bd6732a8044d457092ed932768724a6f06"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.0+9".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.0"
         [["11.0.0+9".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/19767c85345c2f81b7451344b87cc295dc5d8ac3/L/LLVM/LLVM_full@11.0.0/bundled"
@@ -446,6 +546,11 @@ registered = 2021-01-08T20:12:55.000Z
         hash = "176249bd6732a8044d457092ed932768724a6f06"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.0+10".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.0"
         [["11.0.0+10".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4982d77af51a51902836c3b3e956ecc268de4d0f/L/LLVM/LLVM_full@11.0.0/bundled"
@@ -466,6 +571,11 @@ registered = 2021-01-17T03:17:42.000Z
         hash = "43ff75f2c3feef64f9d73328230d34dac8832a91"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.1"
         [["11.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e2cc640fec5b6526f38d5f34d4ff0c00c02ddb20/L/LLVM/LLVM_full@11.0.1/bundled"
@@ -486,6 +596,11 @@ registered = 2021-01-26T14:32:06.000Z
         hash = "43ff75f2c3feef64f9d73328230d34dac8832a91"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.1"
         [["11.0.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/f3ef7a07dec527d4a0d844237e8d6e024bba5f78/L/LLVM/LLVM_full@11.0.1/bundled"
@@ -506,6 +621,11 @@ registered = 2021-02-17T13:34:52.000Z
         hash = "43ff75f2c3feef64f9d73328230d34dac8832a91"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.1+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.1"
         [["11.0.1+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1c96ea350b383bf157e60fe037cd9452a8416fe3/L/LLVM/LLVM_full@11.0.1/bundled"
@@ -526,6 +646,11 @@ registered = 2021-03-02T00:08:56.000Z
         hash = "43ff75f2c3feef64f9d73328230d34dac8832a91"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.1+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.1"
         [["11.0.1+3".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a992a896452132056fe8b494a9ef3fbf40723b43/L/LLVM/LLVM_full@11.0.1/bundled"
@@ -546,6 +671,11 @@ registered = 2021-08-22T00:40:43.000Z
         hash = "43ff75f2c3feef64f9d73328230d34dac8832a91"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["11.0.1+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "11.0.1"
         [["11.0.1+4".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/17bfdeb045918a8f957fcb7b2ac331d678c52b20/L/LLVM/LLVM_full@11.0.1/bundled"
@@ -566,6 +696,11 @@ registered = 2021-05-09T15:55:45.000Z
         hash = "d28af7c654d8db0b68c175db5ce212d74fb5e9bc"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["12.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "12.0.0"
         [["12.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/751eb88d76d5a21c151ce6452f4647a581076f47/L/LLVM/LLVM_full@12.0.0/bundled"
@@ -586,6 +721,11 @@ registered = 2021-06-29T21:12:09.000Z
         hash = "d28af7c654d8db0b68c175db5ce212d74fb5e9bc"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["12.0.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "12.0.0"
         [["12.0.0+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9bbc2492dfa20a4db2ecfa2bf54d2f1b95e1533f/L/LLVM/LLVM_full@12.0.0/bundled"
@@ -606,6 +746,11 @@ registered = 2021-07-17T21:49:42.000Z
         hash = "fed41342a82f5a3a9201819a82bf7a48313e296b"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["12.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "12.0.1"
         [["12.0.1+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3824fe0e796345a11fd1f6d2b0a24e277c9f1f99/L/LLVM/LLVM_full@12.0.1/bundled"
@@ -626,6 +771,11 @@ registered = 2021-08-22T01:06:00.000Z
         hash = "fed41342a82f5a3a9201819a82bf7a48313e296b"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["12.0.1+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "12.0.1"
         [["12.0.1+1".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/17bfdeb045918a8f957fcb7b2ac331d678c52b20/L/LLVM/LLVM_full@12.0.1/bundled"
@@ -646,6 +796,11 @@ registered = 2021-09-07T22:18:51.000Z
         hash = "fed41342a82f5a3a9201819a82bf7a48313e296b"
         type = "git"
         url = "https://github.com/llvm/llvm-project.git"
+
+            ["12.0.1+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "12.0.1"
         [["12.0.1+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/55bf533f6ca50b8185c226df158c5d1708aa3398/L/LLVM/LLVM_full@12.0.1/bundled"

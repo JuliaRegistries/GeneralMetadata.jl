@@ -16,8 +16,8 @@ registered = 2021-03-30T21:49:55.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.2/submodules/qtsvg-everywhere-src-5.15.2.tar.xz"
 
             ["5.15.2+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt6svg"
-            provenance = "heuristic"
+            project = "repology.org/project/qt"
+            provenance = "url-pattern"
             version = "5.15.2"
 
 ["5.15.3+0"]
@@ -38,6 +38,6 @@ registered = 2022-04-21T21:16:31.000Z
         url = "https://download.qt.io/official_releases/qt/5.15/5.15.3/submodules/qtsvg-everywhere-opensource-src-5.15.3.tar.xz"
 
             ["5.15.3+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt5svg"
-            provenance = "heuristic"
+            project = "repology.org/project/qt"
+            provenance = "url-pattern"
             version = "5.15.3"

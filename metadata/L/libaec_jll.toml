@@ -236,4 +236,5 @@ registered = 2026-11-04T20:54:09.000Z
 
             ["1.1.8+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/libaec"
-            provenance = "repository"
+            provenance = "git-tag"
+            version = "1.1.8"

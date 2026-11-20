@@ -16,8 +16,8 @@ registered = 2021-01-06T00:24:03.000Z
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/libunwind-11.0.0.src.tar.xz"
 
             ["11.0.0+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/llvm"
+            provenance = "url-pattern"
             version = "11.0.0"
 
 ["11.0.0+1"]
@@ -38,8 +38,8 @@ registered = 2021-02-16T21:38:41.000Z
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/libunwind-11.0.0.src.tar.xz"
 
             ["11.0.0+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/llvm"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["11.0.0+1".artifact_metadata.sources]]
         type = "directory"
@@ -63,8 +63,8 @@ registered = 2021-02-17T17:34:22.000Z
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/libunwind-11.0.0.src.tar.xz"
 
             ["11.0.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/llvm"
+            provenance = "url-pattern"
             version = "11.0.0"
         [["11.0.0+2".artifact_metadata.sources]]
         type = "directory"
@@ -88,8 +88,8 @@ registered = 2021-02-16T22:25:38.000Z
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/libunwind-11.0.1.src.tar.xz"
 
             ["11.0.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/llvm"
+            provenance = "url-pattern"
             version = "11.0.1"
         [["11.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -113,8 +113,8 @@ registered = 2021-02-17T16:51:36.000Z
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/libunwind-11.0.1.src.tar.xz"
 
             ["11.0.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/llvm"
+            provenance = "url-pattern"
             version = "11.0.1"
         [["11.0.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -138,8 +138,8 @@ registered = 2021-08-21T20:47:34.000Z
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.1/libunwind-12.0.1.src.tar.xz"
 
             ["12.0.1+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/llvm"
+            provenance = "url-pattern"
             version = "12.0.1"
         [["12.0.1+0".artifact_metadata.sources]]
         type = "directory"
@@ -163,8 +163,8 @@ registered = 2026-11-08T00:55:21.000Z
         url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.1/libunwind-12.0.1.src.tar.xz"
 
             ["12.0.1+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/libunwind-headers"
-            provenance = "heuristic"
+            project = "repology.org/project/llvm"
+            provenance = "url-pattern"
             version = "12.0.1"
         [["12.0.1+1".artifact_metadata.sources]]
         type = "directory"
@@ -214,7 +214,7 @@ registered = 2024-11-24T15:10:45.000Z
 
             ["18.1.7+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "18.1.7"
         [["18.1.7+0".artifact_metadata.sources]]
         type = "directory"
@@ -239,7 +239,7 @@ registered = 2024-11-24T18:24:42.000Z
 
             ["19.1.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "19.1.4"
         [["19.1.4+0".artifact_metadata.sources]]
         type = "directory"
@@ -264,7 +264,7 @@ registered = 2026-11-08T00:55:05.000Z
 
             ["19.1.4+1".artifact_metadata.sources.upstream]
             project = "repology.org/project/llvm"
-            provenance = "heuristic"
+            provenance = "tag-scheme"
             version = "19.1.4"
         [["19.1.4+1".artifact_metadata.sources]]
         type = "directory"

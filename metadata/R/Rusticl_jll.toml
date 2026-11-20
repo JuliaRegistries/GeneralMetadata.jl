@@ -90,7 +90,7 @@ registered = 2025-10-12T19:08:41.000Z
         url = "https://github.com/KhronosGroup/MoltenVK"
 
             ["25.2.0+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/molten-vk"
+            project = "repology.org/project/moltenvk"
             provenance = "git-tag"
             version = "1.4.0"
         [["25.2.0+2".artifact_metadata.sources]]
@@ -135,7 +135,7 @@ registered = 2025-11-04T18:42:43.000Z
         url = "https://github.com/KhronosGroup/MoltenVK"
 
             ["25.2.0+3".artifact_metadata.sources.upstream]
-            project = "repology.org/project/molten-vk"
+            project = "repology.org/project/moltenvk"
             provenance = "git-tag"
             version = "1.4.0"
         [["25.2.0+3".artifact_metadata.sources]]

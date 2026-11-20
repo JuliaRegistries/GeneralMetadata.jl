@@ -39,5 +39,5 @@ registered = 2021-01-23T17:23:47.000Z
 
             ["0.15.2+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/check"
-            provenance = "tag-scheme"
+            provenance = "repology-url"
             version = "0.15.2"
