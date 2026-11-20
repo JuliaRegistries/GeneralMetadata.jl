@@ -24,7 +24,7 @@ Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
 URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
 
 [sources]
-Repology = {rev = "6c61dd900b32a3487f373199c27caaed574e7c45", url = "https://github.com/JuliaPackaging/Repology.jl"}
+Repology = {rev = "3edddc2489276681deb64503d9a6837f665e85b5", url = "https://github.com/JuliaPackaging/Repology.jl"}
 
 [compat]
 Artifacts = "1.11.0"
