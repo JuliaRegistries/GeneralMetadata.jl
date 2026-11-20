@@ -70,8 +70,10 @@ end
                     @test all(x->isa(x, String), ainfo["artifact_urls"])
                     @test all(in(verinfo["artifact_urls"]), ainfo["artifact_urls"])
 
-                    @test haskey(ainfo, "buildscript")
-                    @test ainfo["buildscript"] isa String
+                    if get(ainfo, "metadata_type", "") != "JLLGenerator JLL.toml"
+                        @test haskey(ainfo, "buildscript")
+                        @test ainfo["buildscript"] isa String
+                    end
                     @test haskey(ainfo, "metadata_source")
                     @test ainfo["metadata_source"] isa String
                     @test haskey(ainfo, "metadata_type")
@@ -96,14 +98,17 @@ end
                             @test haskey(src, "package")
                             @test src["package"] isa String
                             # TODO: will need to add versioning information
+                        elseif get(src, "type", "") == "directory" && haskey(src, "path")
+                            @test src["path"] isa String
+                            @test src["treehash"] isa String
                         else
                             # all other types have `url`
                             @test haskey(src, "url")
                             @test src["url"] isa String
                             if get(src, "type", "") != "directory"
                                 # and all other types except directory have a hash
-                                @test haskey(src, "hash")
-                                @test src["hash"] isa String
+                                @test haskey(src, "hash") || haskey(src, "treehash")
+                                @test get(src, "hash", get(src, "treehash", nothing)) isa String
                             end
                         end
                         if haskey(src, "upstream")
@@ -121,4 +126,49 @@ end
             end
         end
     end
+end
+
+@testset "JLLGenerator sources" begin
+    contents = """
+    format_version = "1.0"
+    [[builds]]
+    [[builds.artifact.download_sources]]
+    url = "https://example.org/one.tar.gz"
+    [[builds.sources]]
+    url = "https://github.com/example/project.git"
+    treehash = "sha1:$("a"^40)"
+    [[builds.sources]]
+    url = "https://example.org/source.tar.gz"
+    treehash = "sha1:$("b"^40)"
+    [[builds.sources]]
+    url = "/cache/machine-one/yggdrasil/H/HelloWorldCxx/bundled"
+    treehash = "sha1:$("c"^40)"
+    [[builds]]
+    [[builds.artifact.download_sources]]
+    url = "https://example.org/two.tar.gz"
+    [[builds.sources]]
+    url = "/cache/machine-two/yggdrasil/H/HelloWorldCxx/bundled"
+    treehash = "sha1:$("c"^40)"
+    [[builds.sources]]
+    url = "https://example.org/patch.txt"
+    treehash = "sha1:$("d"^40)"
+    """
+    artifactmeta = Dict{String,Any}("metadata_type" => "JLLGenerator JLL.toml",
+        "artifact_urls" => ["https://example.org/one.tar.gz", "https://example.org/two.tar.gz"])
+    sources = GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta)
+    @test sources == [
+        Dict("type" => "git", "url" => "https://github.com/example/project.git", "hash" => "a"^40),
+        Dict("type" => "archive", "url" => "https://example.org/source.tar.gz", "treehash" => "b"^40),
+        Dict("type" => "directory", "path" => "H/HelloWorldCxx/bundled", "treehash" => "c"^40),
+        Dict("type" => "file", "url" => "https://example.org/patch.txt", "treehash" => "d"^40)]
+    for source in sources
+        source["upstream"] = Dict("project" => "repology.org/project/example")
+        delete!(source, "upstream")
+    end
+    artifactmeta["artifact_urls"] = ["https://example.org/one.tar.gz"]
+    @test GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta) == sources[1:3]
+    artifactmeta["artifact_urls"] = String[]
+    @test isempty(GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta))
+    @test isempty(GeneralMetadata.parse_artifact_metadata_sources("", artifactmeta))
+    @test_throws GeneralMetadata.TOML.ParserError GeneralMetadata.parse_artifact_metadata_sources("[", artifactmeta)
 end
