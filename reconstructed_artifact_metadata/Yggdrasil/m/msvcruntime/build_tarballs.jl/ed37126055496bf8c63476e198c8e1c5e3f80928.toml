@@ -1,0 +1,38 @@
+augment_platform_block = ""
+dependencies = []
+init_block = """    for (name, path) in ((\"vcruntime140.dll\", vcruntime140_path),\n                         (\"vcruntime140_1.dll\", vcruntime140_1_path),\n                         (\"msvcp140.dll\", msvcp140_path))\n        if ccall((:GetModuleHandleW, \"kernel32\"), stdcall, Ptr{Cvoid}, (Cwstring,), name) == C_NULL\n            Libdl.dlopen(path)\n        end\n    end\n"""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "MSVCRuntime"
+platforms = ["x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir\napk add zstd\nunzip -q vc14_runtime.conda\nmkdir pkg info\ntar --use-compress-program=unzstd -xf pkg-*.tar.zst -C pkg\ntar --use-compress-program=unzstd -xf info-*.tar.zst -C info\n\ninstall -Dvm 755 pkg/Library/bin/*.dll -t ${libdir}\ninstall_license info/info/licenses/LICENSE.TXT\n"""
+toplevel_block = ""
+version = "v14.51.36247"
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["vcruntime140"]
+type = "lib"
+variable_name = "vcruntime140"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["vcruntime140_1"]
+type = "lib"
+variable_name = "vcruntime140_1"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["msvcp140"]
+type = "lib"
+variable_name = "msvcp140"
+
+[[sources]]
+filename = "vc14_runtime.conda"
+hash = "4e4cb599cdc41bf2109d1464c127b5bcbddf548ce3e322e612afb691338b48f8"
+type = "file"
+url = "https://conda.anaconda.org/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda"

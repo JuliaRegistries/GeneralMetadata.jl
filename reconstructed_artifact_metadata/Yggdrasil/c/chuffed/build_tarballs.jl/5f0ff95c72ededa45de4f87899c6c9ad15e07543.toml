@@ -1,0 +1,30 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Chuffed"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd $WORKSPACE/srcdir/chuffed\n\nsed -i 's/#include <Windows\\.h>/#include <windows.h>/' chuffed/support/misc.h chuffed/globals/blackbox.h\nsed -i 's/operator\\[\\](unsigned int index)/operator[](int index)/' chuffed/support/vec.h\n\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DCP_PROFILER=OFF\ncmake --build build --parallel ${nproc}\ncmake --install build\n"""
+toplevel_block = ""
+version = "v0.14.0"
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["fzn-chuffed"]
+type = "exe"
+variable_name = "fznchuffed"
+
+[[sources]]
+hash = "f698d5623bb0c2bcd497388ba966f0436d62caf4"
+type = "git"
+unpack_target = ""
+url = "https://github.com/chuffed/chuffed.git"

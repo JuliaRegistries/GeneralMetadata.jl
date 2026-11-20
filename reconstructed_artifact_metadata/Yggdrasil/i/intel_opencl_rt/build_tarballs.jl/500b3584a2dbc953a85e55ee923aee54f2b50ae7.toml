@@ -1,0 +1,76 @@
+augment_platform_block = ""
+init_block = """    # Register this driver with OpenCL_jll\n    if OpenCL_jll.is_available()\n        push!(OpenCL_jll.drivers, libintelocl)\n    end\n"""
+julia_compat = "1.6"
+lazy_artifacts = true
+name = "intel_opencl_rt"
+platforms = ["x86_64-linux-gnu", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir\nunzip -q -d intel_opencl_rt intel_opencl_rt-${target}.whl\n\n# The driver locates its builtin libraries (*.rtl, *.o), the SVML variants and cl.cfg next\n# to itself, so everything goes into ${libdir}. Skip the bundled ICD loader (we use\n# OpenCL_jll's), import libraries and the gdb helper script.\nmkdir -p ${libdir}\nif [[ ${target} == *mingw* ]]; then\n    cd intel_opencl_rt/intel_opencl_rt-*.data/data/Library/bin\n    for f in *; do\n        case \"$f\" in\n            OpenCL.dll|*.lib|*-gdb.py) ;;\n            *) install -m 755 \"$f\" ${libdir}/ ;;\n        esac\n    done\n    cd ${WORKSPACE}/srcdir\n\n    cd oneTBB-${target}/oneapi-tbb-*\n    install -m 755 redist/intel64/vc14/tbb12.dll redist/intel64/vc14/tbbmalloc.dll ${libdir}/\n    install -Dm 644 LICENSE.txt ${prefix}/share/licenses/${SRC_NAME}/oneTBB_LICENSE.txt\n    cd ${WORKSPACE}/srcdir\nelse\n    cd intel_opencl_rt/intel_opencl_rt-*.data/data/lib\n    for f in *; do\n        case \"$f\" in\n            libOpenCL.so*|*-gdb.py) ;;\n            # wheels can't hold symlinks, so the unversioned names are full copies\n            libintelocl.so|libcommon_clang.so) ;;\n            *) install -m 755 \"$f\" ${libdir}/ ;;\n        esac\n    done\n    ln -s $(basename ${libdir}/libintelocl.so.*) ${libdir}/libintelocl.so\n    ln -s $(basename ${libdir}/libcommon_clang.so.*) ${libdir}/libcommon_clang.so\n    cd ${WORKSPACE}/srcdir\n\n    unzip -q -d intel_cmplr_lib_rt intel_cmplr_lib_rt-${target}.whl\n    cd intel_cmplr_lib_rt/intel_cmplr_lib_rt-*.data/data/lib\n    install -m 755 libimf.so libsvml.so libirng.so libintlc.so.5 ${libdir}/\n    cd ${WORKSPACE}/srcdir\nfi\n\ninstall_license intel_opencl_rt/intel_opencl_rt-*.data/data/share/doc/opencl/licensing/*.txt\n"""
+toplevel_block = ""
+version = "v2026.1.2"
+
+[[dependencies]]
+compat = ""
+name = "OpenCL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2023.1"
+name = "oneTBB_jll"
+platforms = ["x86_64-linux-gnu"]
+top_level = false
+type = "dependency"
+uuid = "1317d2d5-d96f-522e-a858-c73665f53c3e"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+platforms = ["x86_64-linux-gnu"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "MSVCRuntime_jll"
+platforms = ["x86_64-w64-mingw32"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libintelocl", "intelocl64"]
+type = "lib"
+variable_name = "libintelocl"
+
+[[sources]]
+filename = "intel_opencl_rt-x86_64-linux-gnu.whl"
+hash = "b543a09209fc157a70eb40f72338862a35cf86ad1ef4808d4e89cf0078bf8947"
+type = "file"
+url = "https://files.pythonhosted.org/packages/1d/3d/895a1628ca64752a235a045a649609d6e3b3f42b1588312225bf2fd7dd48/intel_opencl_rt-2026.1.2-py2.py3-none-manylinux_2_28_x86_64.whl"
+[[sources]]
+filename = "intel_opencl_rt-x86_64-w64-mingw32.whl"
+hash = "9b4da9a4e12e56c5eda5c93c22a8eb0579f5811d27a5d8cc1171303208308320"
+type = "file"
+url = "https://files.pythonhosted.org/packages/94/4e/dea179a1beb493fcf5bfc5f4680f5a2660373b8f00be0ce3ec89eeeb3942/intel_opencl_rt-2026.1.2-py2.py3-none-win_amd64.whl"
+[[sources]]
+filename = "intel_cmplr_lib_rt-x86_64-linux-gnu.whl"
+hash = "b4a975deeb97eee26c15e7038f63635c4dacc33151506f2e5c56cc5758cbe462"
+type = "file"
+url = "https://files.pythonhosted.org/packages/0b/2d/94c431fe41bcc56d9834af652f844721798a139c9f0a7b999e6338aebd0a/intel_cmplr_lib_rt-2026.1.2-py2.py3-none-manylinux_2_28_x86_64.whl"
+[[sources]]
+hash = "cf6ee0c600fcb5c3a9b65e3e6e4781669d06f1bb1e37970d145fcde08eed8da9"
+type = "archive"
+unpack_target = "oneTBB-x86_64-w64-mingw32"
+url = "https://github.com/uxlfoundation/oneTBB/releases/download/v2023.1.0/oneapi-tbb-2023.1.0-win.zip"

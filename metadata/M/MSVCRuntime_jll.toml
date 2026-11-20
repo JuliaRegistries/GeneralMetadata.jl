@@ -1,3 +1,16 @@
 ["14.51.36247+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MSVCRuntime_jll.jl/releases/download/MSVCRuntime-v14.51.36247+0/MSVCRuntime.v14.51.36247.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-10-11T10:40:19.000Z
+
+    [["14.51.36247+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/MSVCRuntime_jll.jl/releases/download/MSVCRuntime-v14.51.36247+0/MSVCRuntime.v14.51.36247.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/ed37126055496bf8c63476e198c8e1c5e3f80928/M/MSVCRuntime/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/msvcruntime/build_tarballs.jl/ed37126055496bf8c63476e198c8e1c5e3f80928.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["14.51.36247+0".artifact_metadata.sources]]
+        hash = "4e4cb599cdc41bf2109d1464c127b5bcbddf548ce3e322e612afb691338b48f8"
+        type = "file"
+        url = "https://conda.anaconda.org/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda"

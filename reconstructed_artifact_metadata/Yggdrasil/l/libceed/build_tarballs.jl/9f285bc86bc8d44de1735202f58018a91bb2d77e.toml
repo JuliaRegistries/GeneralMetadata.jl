@@ -1,0 +1,24 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "libCEED"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd"]
+script = """cd $WORKSPACE/srcdir/libCEED*\nmake -j${nproc} OPT='$(MARCHFLAG) $(OPT.$(CC_VENDOR)) $(OMP_SIMD_FLAG) -O3' MEMCHK=0 CC_VENDOR=gcc\nmake install OPT='$(MARCHFLAG) $(OPT.$(CC_VENDOR)) $(OMP_SIMD_FLAG) -O3' MEMCHK=0 CC_VENDOR=gcc\n"""
+toplevel_block = ""
+version = "v1.0.1"
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libceed"]
+type = "lib"
+variable_name = "libceed"
+
+[[sources]]
+hash = "cbcc9c934bce2efc324fbd2edf95032911109353"
+type = "git"
+unpack_target = ""
+url = "https://github.com/CEED/libCEED.git"

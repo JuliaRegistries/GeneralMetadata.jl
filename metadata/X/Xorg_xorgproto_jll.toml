@@ -111,3 +111,21 @@ registered = 2025-12-09T17:12:45.000Z
 ["2026.1.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_xorgproto_jll.jl/releases/download/Xorg_xorgproto-v2026.1.0+0/Xorg_xorgproto.v2026.1.0.any.tar.gz"]
 registered = 2026-10-11T17:36:23.000Z
+
+    [["2026.1.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_xorgproto_jll.jl/releases/download/Xorg_xorgproto-v2026.1.0+0/Xorg_xorgproto.v2026.1.0.any.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/733a2319e98cde9cf4a50de1d37d42d14db8e82b/X/Xorg_xorgproto/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/x/xorg_xorgproto/build_tarballs.jl/733a2319e98cde9cf4a50de1d37d42d14db8e82b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2026.1.0+0".artifact_metadata.sources]]
+        hash = "7fa90e48cbaca6bc4c99d176e88c5c147ab0ed42358e14a0869ee9c8a610ae7e"
+        type = "archive"
+        url = "https://www.x.org/archive/individual/proto/xorgproto-2026.1.tar.gz"
+
+            ["2026.1.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/xorgproto"
+            provenance = "repology-url"
+            version = "2026.1"

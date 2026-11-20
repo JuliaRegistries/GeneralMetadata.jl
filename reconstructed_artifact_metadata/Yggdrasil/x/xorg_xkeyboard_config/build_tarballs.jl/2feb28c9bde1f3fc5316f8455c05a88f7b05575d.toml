@@ -1,0 +1,52 @@
+augment_platform_block = ""
+init_block = """if Sys.islinux() || Sys.isfreebsd()\n    ENV[\"XKB_CONFIG_ROOT\"] = get(ENV, \"XKB_CONFIG_ROOT\", joinpath(artifact_dir, \"share\", \"X11\", \"xkb\"))\nend\n"""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Xorg_xkeyboard_config"
+products = []
+script = """# xkeyboard-config >= 2.48 requires Python >= 3.11 while the rootfs\n# has 3.9, so use Python_jll. Set LD_LIBRARY_PATH to ensure that\n# pyexpat (needed by xml.etree) loads the Python_jll libexpat, not the\n# old rootfs one.\nmkdir -p ${WORKSPACE}/srcdir/pybin\ncat > ${WORKSPACE}/srcdir/pybin/python3 <<EOF\n#!/bin/bash\nexport LD_LIBRARY_PATH=${host_prefix}/lib:\\${LD_LIBRARY_PATH}\nexec ${host_prefix}/bin/python3 \"\\$@\"\nEOF\nchmod +x ${WORKSPACE}/srcdir/pybin/python3\n# The runner appends host_bindir after /usr/bin, so put ours in front explicitly.\nexport PATH=${WORKSPACE}/srcdir/pybin:${PATH}\n\ncd $WORKSPACE/srcdir/xkeyboard-config-*\napk update && apk add libxslt\nmkdir build && cd build\nmeson .. --cross-file=\"${MESON_TARGET_TOOLCHAIN}\"\nninja -j${nproc}\nninja install\ninstall_license ../COPYING\n"""
+toplevel_block = ""
+version = "v2.48.0"
+
+[[dependencies]]
+compat = ""
+name = "Python_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_xproto_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_kbproto_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_xkbcomp_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[sources]]
+hash = "b77041324f0109f77161ee43743fe04baa485866af8460d31e476ad3f7648fd5"
+type = "archive"
+unpack_target = ""
+url = "https://www.x.org/archive/individual/data/xkeyboard-config/xkeyboard-config-2.48.tar.xz"

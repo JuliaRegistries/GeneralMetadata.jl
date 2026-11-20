@@ -267,3 +267,27 @@ registered = 2026-07-10T06:23:42.000Z
 ["2.48.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_xkeyboard_config_jll.jl/releases/download/Xorg_xkeyboard_config-v2.48.0+0/Xorg_xkeyboard_config.v2.48.0.any.tar.gz"]
 registered = 2026-10-11T17:45:01.000Z
+
+    [["2.48.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_xkeyboard_config_jll.jl/releases/download/Xorg_xkeyboard_config-v2.48.0+0/Xorg_xkeyboard_config.v2.48.0.any.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/2feb28c9bde1f3fc5316f8455c05a88f7b05575d/X/Xorg_xkeyboard_config/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/x/xorg_xkeyboard_config/build_tarballs.jl/2feb28c9bde1f3fc5316f8455c05a88f7b05575d.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.48.0+0".artifact_metadata.sources]]
+        hash = "b77041324f0109f77161ee43743fe04baa485866af8460d31e476ad3f7648fd5"
+        type = "archive"
+        url = "https://www.x.org/archive/individual/data/xkeyboard-config/xkeyboard-config-2.48.tar.xz"
+
+            ["2.48.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/xkeyboard-config"
+            provenance = "repology-url"
+            version = "2.48"
+        [["2.48.0+0".artifact_metadata.sources]]
+        package = "Xorg_xproto_jll"
+        type = "builddependency"
+        [["2.48.0+0".artifact_metadata.sources]]
+        package = "Xorg_kbproto_jll"
+        type = "builddependency"

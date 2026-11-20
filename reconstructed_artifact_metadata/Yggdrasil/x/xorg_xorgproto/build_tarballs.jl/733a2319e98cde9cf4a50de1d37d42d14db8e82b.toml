@@ -1,0 +1,16 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Xorg_xorgproto"
+products = []
+script = """cd $WORKSPACE/srcdir/xorgproto-*/\nCPPFLAGS=\"-I${prefix}/include\"\n# When compiling for things like ppc64le, we need newer `config.sub` files\nupdate_configure_scripts\n./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target} --enable-malloc0returnsnull=no\nmake -j${nproc}\nmake install\ninstall_license COPYING-*\n"""
+toplevel_block = ""
+version = "v2026.1.0"
+
+[[sources]]
+hash = "7fa90e48cbaca6bc4c99d176e88c5c147ab0ed42358e14a0869ee9c8a610ae7e"
+type = "archive"
+unpack_target = ""
+url = "https://www.x.org/archive/individual/proto/xorgproto-2026.1.tar.gz"

@@ -216,3 +216,27 @@ registered = 2025-04-19T09:12:25.000Z
 ["1.5.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.x86_64-unknown-freebsd.tar.gz"]
 registered = 2026-10-11T17:55:17.000Z
+
+    [["1.5.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_xkbcomp_jll.jl/releases/download/Xorg_xkbcomp-v1.5.0+0/Xorg_xkbcomp.v1.5.0.x86_64-unknown-freebsd.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/8cc32f99bb10884fd018c33a31a646a952edc25e/X/Xorg_xkbcomp/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/x/xorg_xkbcomp/build_tarballs.jl/8cc32f99bb10884fd018c33a31a646a952edc25e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.5.0+0".artifact_metadata.sources]]
+        hash = "2ac31f26600776db6d9cd79b3fcd272263faebac7eb85fb2f33c7141b8486060"
+        type = "archive"
+        url = "https://www.x.org/archive/individual/app/xkbcomp-1.5.0.tar.xz"
+
+            ["1.5.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/xkbcomp"
+            provenance = "repology-url"
+            version = "1.5.0"
+        [["1.5.0+0".artifact_metadata.sources]]
+        package = "Xorg_xorgproto_jll"
+        type = "builddependency"
+        [["1.5.0+0".artifact_metadata.sources]]
+        package = "Xorg_util_macros_jll"
+        type = "builddependency"
