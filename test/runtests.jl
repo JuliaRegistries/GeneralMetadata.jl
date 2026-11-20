@@ -161,6 +161,10 @@ end
         Dict("type" => "archive", "url" => "https://example.org/source.tar.gz", "treehash" => "b"^40),
         Dict("type" => "directory", "path" => "H/HelloWorldCxx/bundled", "treehash" => "c"^40),
         Dict("type" => "file", "url" => "https://example.org/patch.txt", "treehash" => "d"^40)]
+    for source in sources
+        source["upstream"] = Dict("project" => "repology.org/project/example")
+        delete!(source, "upstream")
+    end
     artifactmeta["artifact_urls"] = ["https://example.org/one.tar.gz"]
     @test GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta) == sources[1:3]
     artifactmeta["artifact_urls"] = String[]

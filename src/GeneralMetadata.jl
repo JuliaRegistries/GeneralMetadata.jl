@@ -494,7 +494,7 @@ function metadata_for_jll_release(org, repo, tag)
     jll_contents = GitHub.get_file(org, repo, tree_sha, ==("JLL.toml"))
     if !isnothing(jll_contents)
         commit = GitHub.commit_from_tagname(org, repo, release["tag_name"])
-        return Dict("metadata" => "https://raw.githubusercontent.com/$org/$repo/$commit/JLL.toml",
+        return Dict{String,Any}("metadata" => "https://raw.githubusercontent.com/$org/$repo/$commit/JLL.toml",
                     "metadata_type" => "JLLGenerator JLL.toml", "metadata_source" => "JLL.toml",
                     "metadata_version" => TOML.parse(jll_contents)["format_version"])
     end
@@ -696,7 +696,7 @@ function parse_artifact_metadata_sources(contents, artifactmeta)
                 treehash = chopprefix(src["treehash"], "sha1:")
                 if startswith(url, "/")
                     path = last(split(url, "/yggdrasil/"; limit=2))
-                    push!(sources, Dict("type" => "directory", "path" => path, "treehash" => treehash))
+                    push!(sources, Dict{String,Any}("type" => "directory", "path" => path, "treehash" => treehash))
                 else
                     path = split(url, r"[?#]"; limit=2)[1]
                     type = if occursin(r"\.(tar\.(gz|bz2|xz|zst|lz|lzma)|tgz|tbz2?|txz|zip|7z)$"i, path)
@@ -706,7 +706,7 @@ function parse_artifact_metadata_sources(contents, artifactmeta)
                     else
                         "file"
                     end
-                    push!(sources, Dict("type" => type, "url" => url, (type == "git" ? "hash" : "treehash") => treehash))
+                    push!(sources, Dict{String,Any}("type" => type, "url" => url, (type == "git" ? "hash" : "treehash") => treehash))
                 end
             end
         end
