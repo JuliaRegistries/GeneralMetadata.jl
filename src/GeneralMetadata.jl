@@ -485,12 +485,19 @@ function metadata_for_jll_release(org, repo, tag)
     contains(tag, "-v") || error("unknown tag $tag for $org/$repo")
     jllname, jllversion = split(tag, "-v", limit=2)
     release = GitHub.get_release(org, repo, tag)
-    # Currently constrain to releases authored by jlbuild; TODO: relax this with BinaryBuilder2 support and log the author instead
+    # Currently constrain to releases authored by jlbuild
     release["author"]["login"] == "jlbuild" || error("release $(release["html_url"]) is not by jlbuild, got $(release["author"]["login"])")
     # This might be wrong, but commit_and_path_from_readme checks to ensure versions match
     # In cases where it's wrong, _there does exist_ a good link to Yggdrasil in its README... somewhere.
     # But I don't know how to reliably get to it... so we fall back to the Yggdrasil timestamps
     tree_sha = GitHub.tree_sha_from_tagname(org, repo, release["tag_name"])
+    jll_contents = GitHub.get_file(org, repo, tree_sha, ==("JLL.toml"))
+    if !isnothing(jll_contents)
+        commit = GitHub.commit_from_tagname(org, repo, release["tag_name"])
+        return Dict{String,Any}("metadata" => "https://raw.githubusercontent.com/$org/$repo/$commit/JLL.toml",
+                    "metadata_type" => "JLLGenerator JLL.toml", "metadata_source" => "JLL.toml",
+                    "metadata_version" => TOML.parse(jll_contents)["format_version"])
+    end
     commit_from_readme, path_from_readme = commit_and_path_from_readme(GitHub.get_readme(org, repo, tree_sha), jllname, jllversion)
     release_published_at = release.published_at
     return cd(yggdrasil_repo()) do
@@ -679,7 +686,32 @@ end
 
 function parse_artifact_metadata_sources(contents, artifactmeta)
     type = get(artifactmeta, "metadata_type", missing)
-    if type == "BinaryBuilder --meta-json"
+    if type == "JLLGenerator JLL.toml"
+        sources = []
+        for build in get(TOML.parse(contents), "builds", [])
+            downloads = get(get(build, "artifact", Dict()), "download_sources", [])
+            any(d -> d["url"] in artifactmeta["artifact_urls"], downloads) || continue
+            for src in get(build, "sources", [])
+                url = src["url"]
+                treehash = chopprefix(src["treehash"], "sha1:")
+                if startswith(url, "/")
+                    path = last(split(url, "/yggdrasil/"; limit=2))
+                    push!(sources, Dict{String,Any}("type" => "directory", "path" => path, "treehash" => treehash))
+                else
+                    path = split(url, r"[?#]"; limit=2)[1]
+                    type = if occursin(r"\.(tar\.(gz|bz2|xz|zst|lz|lzma)|tgz|tbz2?|txz|zip|7z)$"i, path)
+                        "archive"
+                    elseif endswith(path, ".git") || occursin(r"^(https?|git|ssh)://(?:git@)?(?:github\.com|gitlab\.com|bitbucket\.org|codeberg\.org)/[^/]+/[^/]+/?$", path)
+                        "git"
+                    else
+                        "file"
+                    end
+                    push!(sources, Dict{String,Any}("type" => type, "url" => url, (type == "git" ? "hash" : "treehash") => treehash))
+                end
+            end
+        end
+        return unique(sources)
+    elseif type == "BinaryBuilder --meta-json"
         buildscript = get(artifactmeta, "buildscript", missing)
         meta = TOML.parse(contents)
         # The sources field has changed a number of times, but it's always a vector
@@ -745,10 +777,11 @@ function identify_upstream!(meta; regenerate=false)
     cache = Dict{Tuple{String,String},Repology.Identification}()
     for (pkg, pkgentry) in meta, (ver, verinfo) in pkgentry, artifactmeta in get(verinfo, "artifact_metadata", [])
         for source in get(artifactmeta, "sources", [])
-            haskey(source, "url") && haskey(source, "hash") || continue
+            haskey(source, "url") && (haskey(source, "hash") || haskey(source, "treehash")) || continue
             old = get(source, "upstream", nothing)
             isnothing(old) || (regenerate && get(old, "provenance", "") != "manual") || continue
-            id = get!(() -> Repology.identify(source["url"]; commit=source["hash"]), cache, (source["url"], source["hash"]))
+            commit = get(source, "hash", "")
+            id = get!(() -> Repology.identify(source["url"]; commit), cache, (source["url"], commit))
             old = something(old, Dict{String,Any}())
             if id.provenance == "repository" && get(old, "provenance", "") == "git-tag" &&
                     old["project"] == string("repology.org/project/", something(id.project, ""))
