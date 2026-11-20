@@ -1,0 +1,55 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "OrbiFolder"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11"]
+script = """cd $WORKSPACE/srcdir/orbifolder-1.2.1\n\nupdate_configure_scripts\nCPPFLAGS=\"-I${prefix}/include\" LDFLAGS=\"-L${prefix}/lib\" \\\n    ./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target}\nmake -j${nproc}\n\n# `make install` does not put the binary under ${prefix}; install it and\n# Geometry/ together manually so an executable-relative lookup finds both.\ninstall -Dvm 755 src/orbifolder/orbifolder \"${prefix}/bin/orbifolder\"\ncp -r Geometry \"${prefix}/bin/Geometry\"\n\ninstall_license COPYING\n"""
+toplevel_block = ""
+version = "v1.2.1"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "GSL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "1b77fbbe-d8ee-58f0-85f9-836ddc23a7a4"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "boost_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "28df3c45-c428-5900-9ff8-a3135698ca75"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["orbifolder"]
+type = "exe"
+variable_name = "orbifolder"
+
+[[sources]]
+hash = "607c38fc54942e8306abe3919d7928df78c9316b2cb79b7629f8b1dd02b69584"
+type = "archive"
+unpack_target = ""
+url = "https://orbifolder.hepforge.org/source/V1.2.1/orbifolder-1.2.1.tgz"

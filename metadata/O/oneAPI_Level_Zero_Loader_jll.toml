@@ -738,3 +738,27 @@ registered = 2026-06-11T09:10:31.000Z
 ["1.32.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Level_Zero_Loader_jll.jl/releases/download/oneAPI_Level_Zero_Loader-v1.32.0+0/oneAPI_Level_Zero_Loader.v1.32.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/oneAPI_Level_Zero_Loader_jll.jl/releases/download/oneAPI_Level_Zero_Loader-v1.32.0+0/oneAPI_Level_Zero_Loader.v1.32.0.x86_64-linux-musl-cxx11.tar.gz"]
 registered = 2026-10-15T17:24:19.000Z
+
+    [["1.32.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Level_Zero_Loader_jll.jl/releases/download/oneAPI_Level_Zero_Loader-v1.32.0+0/oneAPI_Level_Zero_Loader.v1.32.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/oneAPI_Level_Zero_Loader_jll.jl/releases/download/oneAPI_Level_Zero_Loader-v1.32.0+0/oneAPI_Level_Zero_Loader.v1.32.0.x86_64-linux-musl-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/06d4e4b65187fa6faf52de9e2f1dcc6631704042/O/oneAPI_Level_Zero/oneAPI_Level_Zero_Loader/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/oneapi_level_zero/oneapi_level_zero_loader/build_tarballs.jl/06d4e4b65187fa6faf52de9e2f1dcc6631704042.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.32.0+0".artifact_metadata.sources]]
+        hash = "d3b3efbdaa27a0aef9a9812cc8fa4260557c1e7c"
+        type = "git"
+        url = "https://github.com/oneapi-src/level-zero.git"
+
+            ["1.32.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/level-zero"
+            provenance = "git-tag"
+            version = "1.32.0"
+        [["1.32.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/06d4e4b65187fa6faf52de9e2f1dcc6631704042/O/oneAPI_Level_Zero/oneAPI_Level_Zero_Loader/bundled"
+        [["1.32.0+0".artifact_metadata.sources]]
+        package = "OpenCL_Headers_jll"
+        type = "builddependency"

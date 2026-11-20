@@ -529,3 +529,21 @@ registered = 2026-06-11T08:36:37.000Z
 ["1.17.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Level_Zero_Headers_jll.jl/releases/download/oneAPI_Level_Zero_Headers-v1.17.0+0/oneAPI_Level_Zero_Headers.v1.17.0.any.tar.gz"]
 registered = 2026-10-15T16:45:51.000Z
+
+    [["1.17.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Level_Zero_Headers_jll.jl/releases/download/oneAPI_Level_Zero_Headers-v1.17.0+0/oneAPI_Level_Zero_Headers.v1.17.0.any.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/23441440daff467cd104084a4c800e7f23f7b7fc/O/oneAPI_Level_Zero/oneAPI_Level_Zero_Headers/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/oneapi_level_zero/oneapi_level_zero_headers/build_tarballs.jl/23441440daff467cd104084a4c800e7f23f7b7fc.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.17.0+0".artifact_metadata.sources]]
+        hash = "d3b3efbdaa27a0aef9a9812cc8fa4260557c1e7c"
+        type = "git"
+        url = "https://github.com/oneapi-src/level-zero.git"
+
+            ["1.17.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/level-zero"
+            provenance = "git-tag"
+            version = "1.32.0"

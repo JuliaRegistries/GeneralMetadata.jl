@@ -1,0 +1,38 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "cclipper2"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd ${WORKSPACE}/srcdir/Clipper.jl/deps/cwrapper\ninstall -Dvm 644 cclipper2.h \"${includedir}/cclipper2.h\"\n\n${CXX} -std=c++17 -O2 -fPIC -shared -DUSINGZ -DCLIPPER2_HI_PRECISION \\\n    -fvisibility=hidden -fvisibility-inlines-hidden \\\n    -I${includedir} \\\n    -o \"${libdir}/libcclipper2.${dlext}\" \\\n    cclipper2.cpp \\\n    -L${libdir} -L${prefix}/lib -lClipper2Z\n\ninstall_license ${prefix}/share/licenses/Clipper2/LICENSE\n"""
+toplevel_block = ""
+version = "v0.1.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"10.0.0\""
+
+[[dependencies]]
+compat = "=2.0.1"
+name = "Clipper2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libcclipper2"]
+type = "lib"
+variable_name = "libcclipper2"
+
+[[sources]]
+hash = "70dbd8c78ada6af5cc27f8aae8c3562e2bcc0475"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/JuliaGeometry/Clipper.jl.git"

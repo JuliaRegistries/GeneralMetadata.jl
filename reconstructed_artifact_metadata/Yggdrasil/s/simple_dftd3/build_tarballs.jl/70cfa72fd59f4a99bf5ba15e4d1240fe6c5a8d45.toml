@@ -1,0 +1,68 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "simple_dftd3"
+platforms = ["i686-linux-gnu-libgfortran5", "x86_64-linux-gnu-libgfortran5", "aarch64-linux-gnu-libgfortran5", "armv6l-linux-gnueabihf-libgfortran5", "armv7l-linux-gnueabihf-libgfortran5", "powerpc64le-linux-gnu-libgfortran5", "riscv64-linux-gnu-libgfortran5", "i686-linux-musl-libgfortran5", "x86_64-linux-musl-libgfortran5", "aarch64-linux-musl-libgfortran5", "armv6l-linux-musleabihf-libgfortran5", "armv7l-linux-musleabihf-libgfortran5", "x86_64-apple-darwin-libgfortran5", "aarch64-apple-darwin-libgfortran5", "x86_64-unknown-freebsd-libgfortran5", "aarch64-unknown-freebsd-libgfortran5", "i686-w64-mingw32-libgfortran5", "x86_64-w64-mingw32-libgfortran5"]
+script = """# The rootfs ships meson 1.8.0, which upstream rejects because of a known bug.\n# Install a newer meson into a private directory\npython3 -m pip install --ignore-installed --target=/tmp/meson meson==1.11.2\nexport PYTHONPATH=\"/tmp/meson${PYTHONPATH:+:${PYTHONPATH}}\"\nexport PATH=\"/tmp/meson/bin:${PATH}\"\n\ncd ${WORKSPACE}/srcdir/simple-dftd3\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/optional-mstore.patch\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/no-ieee-arithmetic.patch\n\n# On FreeBSD, meson-built dependencies ship their pkg-config files in libdata/pkgconfig,\n# which is not on the default search path.\nexport PKG_CONFIG_PATH=\"${PKG_CONFIG_PATH:+${PKG_CONFIG_PATH}:}${prefix}/libdata/pkgconfig\"\n\n# GCC is used for C as well so that meson's OpenMP check succeeds for both languages\nmeson setup build \\\n    --cross-file=\"${MESON_TARGET_TOOLCHAIN%.*}_gcc.meson\" \\\n    --prefix=${prefix} \\\n    --buildtype=release \\\n    --wrap-mode=nodownload \\\n    -Ddefault_library=shared\nmeson compile -C build -j${nproc}\nmeson install -C build\ninstall_license COPYING COPYING.LESSER\n"""
+toplevel_block = ""
+version = "v1.6.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.6.1"
+compat = "0.6.1"
+name = "mctc_lib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.5.2"
+compat = "0.5.2"
+name = "toml_f_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libs-dftd3", "libs-dftd3-1"]
+type = "lib"
+variable_name = "libsdftd3"
+[[products]]
+binnames = ["s-dftd3"]
+type = "exe"
+variable_name = "s_dftd3"
+
+[[sources]]
+hash = "6004cfd62ad2a248ad32167392bd08c674da6161"
+tag = "v1.6.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/dftd3/simple-dftd3.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

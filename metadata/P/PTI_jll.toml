@@ -1,3 +1,49 @@
 ["1.2.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/PTI_jll.jl/releases/download/PTI-v1.2.0+0/PTI.v1.2.0.x86_64-linux-gnu-cxx11.tar.gz"]
 registered = 2026-10-21T11:02:55.000Z
+
+    [["1.2.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/PTI_jll.jl/releases/download/PTI-v1.2.0+0/PTI.v1.2.0.x86_64-linux-gnu-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/bdb332868ce3c637ac8edb6543d35c6b92d88890/P/PTI/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pti/build_tarballs.jl/bdb332868ce3c637ac8edb6543d35c6b92d88890.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.2.0+0".artifact_metadata.sources]]
+        hash = "fdc44f65ccfc4c75f951a8f01b1ef9326223aaaf"
+        type = "git"
+        url = "https://github.com/intel/pti-gpu.git"
+        [["1.2.0+0".artifact_metadata.sources]]
+        hash = "407c905e45ad75fc29bf0f9bb7c5c2fd3475976f"
+        type = "git"
+        url = "https://github.com/fmtlib/fmt.git"
+
+            ["1.2.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/fmt"
+            provenance = "git-tag"
+            version = "12.1.0"
+        [["1.2.0+0".artifact_metadata.sources]]
+        hash = "79524ddd08a4ec981b7fea76afd08ee05f83755d"
+        type = "git"
+        url = "https://github.com/gabime/spdlog.git"
+
+            ["1.2.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spdlog"
+            provenance = "git-tag"
+            version = "1.17.0"
+        [["1.2.0+0".artifact_metadata.sources]]
+        hash = "2369c7eb60bbe5db9f0996b0366c68c4c0950100"
+        type = "git"
+        url = "https://github.com/intel/ittapi.git"
+
+            ["1.2.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/ittapi"
+            provenance = "git-tag"
+            version = "3.26.8"
+        [["1.2.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/bdb332868ce3c637ac8edb6543d35c6b92d88890/P/PTI/bundled"
+        [["1.2.0+0".artifact_metadata.sources]]
+        package = "oneAPI_Level_Zero_Headers_jll"
+        type = "builddependency"

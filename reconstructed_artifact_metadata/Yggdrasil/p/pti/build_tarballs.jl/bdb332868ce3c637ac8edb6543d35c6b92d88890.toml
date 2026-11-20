@@ -1,0 +1,95 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "PTI"
+platforms = ["x86_64-linux-gnu-cxx11"]
+script = """cd ${WORKSPACE}/srcdir/pti-gpu/sdk\ncmake -B build \\\n      -DCMAKE_INSTALL_PREFIX=${prefix} \\\n      -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n      -DCMAKE_BUILD_TYPE=Release \\\n      -DPTI_BUILD_SAMPLES=OFF \\\n      -DPTI_BUILD_TESTING=OFF \\\n      -DPTI_BUILD_URGEMM=OFF \\\n      -DFETCHCONTENT_FULLY_DISCONNECTED=ON \\\n      -DFETCHCONTENT_SOURCE_DIR_FMT=${WORKSPACE}/srcdir/fmt \\\n      -DFETCHCONTENT_SOURCE_DIR_SPDLOG=${WORKSPACE}/srcdir/spdlog \\\n      -DFETCHCONTENT_SOURCE_DIR_ITTAPI=${WORKSPACE}/srcdir/ittapi\ncmake --build build --parallel ${nproc}\ncmake --install build\ninstall_license ${WORKSPACE}/srcdir/pti-gpu/LICENSE\ninstall -Dvm 644 ${WORKSPACE}/srcdir/fmt/LICENSE ${prefix}/share/licenses/PTI/LICENSE.fmt\ninstall -Dvm 644 ${WORKSPACE}/srcdir/spdlog/LICENSE ${prefix}/share/licenses/PTI/LICENSE.spdlog\nfor license in ${WORKSPACE}/srcdir/ittapi/LICENSES/*; do\n    install -Dvm 644 ${license} ${prefix}/share/licenses/PTI/ittapi-$(basename ${license})\ndone\n\n# PTI calls the buffer callbacks from its own threads; see the source file\n${CC} -O2 -shared -fPIC -o ${libdir}/libpti_buffers.${dlext} \\\n      ${WORKSPACE}/srcdir/pti_buffers.c -lpthread\n"""
+toplevel_block = ""
+version = "v1.2.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"10.0.0\""
+
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.32.0"
+compat = "1.32"
+name = "oneAPI_Level_Zero_Loader_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "oneAPI_Level_Zero_Headers_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libpti_view"]
+type = "lib"
+variable_name = "libpti_view"
+[[products]]
+dir_paths = ["lib/pti"]
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libpti"]
+type = "lib"
+variable_name = "libpti"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libpti_buffers"]
+type = "lib"
+variable_name = "libpti_buffers"
+
+[[sources]]
+hash = "fdc44f65ccfc4c75f951a8f01b1ef9326223aaaf"
+tag = "pti-1.2.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/intel/pti-gpu.git"
+[[sources]]
+hash = "407c905e45ad75fc29bf0f9bb7c5c2fd3475976f"
+tag = "12.1.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/fmtlib/fmt.git"
+[[sources]]
+hash = "79524ddd08a4ec981b7fea76afd08ee05f83755d"
+tag = "v1.17.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/gabime/spdlog.git"
+[[sources]]
+hash = "2369c7eb60bbe5db9f0996b0366c68c4c0950100"
+tag = "v3.26.8"
+type = "git"
+unpack_target = ""
+url = "https://github.com/intel/ittapi.git"
+[[sources]]
+follow_symlinks = false
+path = "bundled"
+target = ""
+type = "directory"

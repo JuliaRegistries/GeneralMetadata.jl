@@ -1,0 +1,60 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "H5ZbloscC"
+platforms = ["i686-linux-gnu-libgfortran5-cxx11", "x86_64-linux-gnu-libgfortran5-cxx11", "aarch64-linux-gnu-libgfortran5-cxx11", "armv6l-linux-gnueabihf-libgfortran5-cxx11", "armv7l-linux-gnueabihf-libgfortran5-cxx11", "powerpc64le-linux-gnu-libgfortran5-cxx11", "riscv64-linux-gnu-libgfortran5-cxx11", "i686-linux-musl-libgfortran5-cxx11", "x86_64-linux-musl-libgfortran5-cxx11", "aarch64-linux-musl-libgfortran5-cxx11", "armv6l-linux-musleabihf-libgfortran5-cxx11", "armv7l-linux-musleabihf-libgfortran5-cxx11", "x86_64-apple-darwin-libgfortran5", "aarch64-apple-darwin-libgfortran5", "x86_64-unknown-freebsd-libgfortran5", "aarch64-unknown-freebsd-libgfortran5", "i686-w64-mingw32-libgfortran5-cxx11", "x86_64-w64-mingw32-libgfortran5-cxx11"]
+script = """cd ${WORKSPACE}/srcdir/hdf5_plugins\nmkdir -p cfg\ncat > cfg/h5pl_config.h <<'END_CONFIG'\n#define STDC_HEADERS 1\n#define HAVE_MATH_H 1\n#define HAVE_STDINT_H 1\n#define HAVE_INTTYPES_H 1\n#define HAVE_STDLIB_H 1\n#define HAVE_STRING_H 1\n#define HAVE_SYS_TYPES_H 1\n#define HAVE_SYS_STAT_H 1\n#define HAVE_UNISTD_H 1\nEND_CONFIG\nfor h in bitgroom bitround blosc blosc2 bzip bshuf granularbr lz4 lzf; do\n    cp cfg/h5pl_config.h cfg/${h}_config.h\ndone\n\nplugin_flags=(-O2 -fPIC -D_GNU_SOURCE -Icfg -I${includedir})\nif [[ ${target} == *-mingw* ]]; then\n    plugin_flags+=(-DH5_BUILT_AS_DYNAMIC_LIB)\nfi\nmkdir -p ${libdir}/plugin\n${CC} ${plugin_flags[@]} -Wno-error=incompatible-pointer-types -shared -o ${libdir}/plugin/libh5blosc.${dlext} \\\n    BLOSC/src/H5Zblosc.c -lhdf5 -lblosc -lm\ninstall_license COPYING\n"""
+toplevel_block = ""
+version = "v2.2.0"
+
+[[dependencies]]
+compat = "~2.2.3"
+name = "HDF5_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.21.7"
+name = "Blosc_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "MPICH_jll"
+platforms = ["i686-linux-gnu-libgfortran5-cxx11", "x86_64-linux-gnu-libgfortran5-cxx11", "aarch64-linux-gnu-libgfortran5-cxx11", "armv6l-linux-gnueabihf-libgfortran5-cxx11", "armv7l-linux-gnueabihf-libgfortran5-cxx11", "powerpc64le-linux-gnu-libgfortran5-cxx11", "riscv64-linux-gnu-libgfortran5-cxx11", "i686-linux-musl-libgfortran5-cxx11", "x86_64-linux-musl-libgfortran5-cxx11", "aarch64-linux-musl-libgfortran5-cxx11", "armv6l-linux-musleabihf-libgfortran5-cxx11", "armv7l-linux-musleabihf-libgfortran5-cxx11", "x86_64-apple-darwin-libgfortran5", "aarch64-apple-darwin-libgfortran5", "x86_64-unknown-freebsd-libgfortran5", "aarch64-unknown-freebsd-libgfortran5"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "MicrosoftMPI_jll"
+platforms = ["i686-w64-mingw32-libgfortran5-cxx11", "x86_64-w64-mingw32-libgfortran5-cxx11"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = ["lib/plugin", "bin/plugin"]
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libh5blosc"]
+type = "lib"
+variable_name = "libh5blosc"
+
+[[sources]]
+hash = "2b62ec75a6ea848899ef61bee8e034f8bab01f52"
+type = "git"
+unpack_target = ""
+url = "https://github.com/HDFGroup/hdf5_plugins.git"

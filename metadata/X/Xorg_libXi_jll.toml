@@ -219,3 +219,27 @@ registered = 2026-08-02T13:21:52.000Z
 ["1.8.5+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.x86_64-unknown-freebsd.tar.gz"]
 registered = 2026-10-19T16:09:55.000Z
+
+    [["1.8.5+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libXi_jll.jl/releases/download/Xorg_libXi-v1.8.5+0/Xorg_libXi.v1.8.5.x86_64-unknown-freebsd.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/c7f1d58756235389b56ec8d15a69170b5d2cad47/X/Xorg_libXi/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/x/xorg_libxi/build_tarballs.jl/c7f1d58756235389b56ec8d15a69170b5d2cad47.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.8.5+0".artifact_metadata.sources]]
+        hash = "ddd6057b89a91903bc2f884d55c8467440906945e482c36547260dff28661afc"
+        type = "archive"
+        url = "https://www.x.org/archive/individual/lib/libXi-1.8.4.tar.xz"
+
+            ["1.8.5+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libxi"
+            provenance = "heuristic"
+            version = "1.8.4"
+        [["1.8.5+0".artifact_metadata.sources]]
+        package = "Xorg_xorgproto_jll"
+        type = "builddependency"
+        [["1.8.5+0".artifact_metadata.sources]]
+        package = "Xorg_util_macros_jll"
+        type = "builddependency"

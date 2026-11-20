@@ -145,3 +145,31 @@ registered = 2025-08-25T22:12:46.000Z
 ["2.10.2+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-w64-mingw32-cxx11.tar.gz"]
 registered = 2026-10-20T19:49:29.000Z
+
+    [["2.10.2+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/PDAL_jll.jl/releases/download/PDAL-v2.10.2+0/PDAL.v2.10.2.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/de2066845fec11f764443f360cba9cdecc8a996a/P/PDAL/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pdal/build_tarballs.jl/de2066845fec11f764443f360cba9cdecc8a996a.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.10.2+0".artifact_metadata.sources]]
+        hash = "27008f6241be44585c866a29dfc13bb16d678dab"
+        type = "git"
+        url = "https://github.com/PDAL/PDAL.git"
+
+            ["2.10.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pdal"
+            provenance = "git-tag"
+            version = "2.10.2"
+        [["2.10.2+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/de2066845fec11f764443f360cba9cdecc8a996a/P/PDAL/bundled"
+        [["2.10.2+0".artifact_metadata.sources]]
+        hash = "2408d07df7f324d3beea818585a6d990ba99587c218a3969f924dfcc4de93b62"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.15.sdk.tar.xz"
+        [["2.10.2+0".artifact_metadata.sources]]
+        package = "OpenMPI_jll"
+        type = "builddependency"

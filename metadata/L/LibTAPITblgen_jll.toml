@@ -1,3 +1,15 @@
 ["1300.6.0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-build_log.v1300.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-build_log.v1300.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-extract_log.v1300.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-extract_log.v1300.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen.v1300.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen.v1300.6.0.x86_64-linux-gnu.tar.gz"]
 registered = 2026-11-17T04:23:55.000Z
+
+    [["1300.6.0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-build_log.v1300.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-build_log.v1300.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-extract_log.v1300.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-extract_log.v1300.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen.v1300.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen.v1300.6.0.x86_64-linux-gnu.tar.gz"]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/37afba58d80642e024e8b49f1f643b30d81adb3d/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["1300.6.0".artifact_metadata.sources]]
+        hash = "b8c5ac40267aa5f6004dd38cc2b2cd84f2d9d555"
+        type = "git"
+        url = "https://github.com/tpoechtrager/apple-libtapi"

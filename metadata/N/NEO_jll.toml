@@ -1156,10 +1156,73 @@ registered = 2026-06-16T08:50:39.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+0/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+0/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-10-15T20:41:40.000Z
 
+    [["26.35.39758+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+0/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+0/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/0469f7dae66a485353b105c461332487b63f0d57/N/NEO/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/neo/build_tarballs.jl/0469f7dae66a485353b105c461332487b63f0d57.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["26.35.39758+0".artifact_metadata.sources]]
+        hash = "dfa6faf3d866ea6a22b70df5a7bd2a507aa457bd"
+        type = "git"
+        url = "https://github.com/intel/compute-runtime.git"
+
+            ["26.35.39758+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/intel-compute-runtime"
+            provenance = "git-tag"
+            version = "26.35.39758.10"
+        [["26.35.39758+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0469f7dae66a485353b105c461332487b63f0d57/N/NEO/bundled"
+
 ["26.35.39758+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+1/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+1/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-10-16T13:18:02.000Z
 
+    [["26.35.39758+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+1/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+1/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/30e655fae4ea9a66c8f63d088d937a568ed3c414/N/NEO/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/neo/build_tarballs.jl/30e655fae4ea9a66c8f63d088d937a568ed3c414.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["26.35.39758+1".artifact_metadata.sources]]
+        hash = "dfa6faf3d866ea6a22b70df5a7bd2a507aa457bd"
+        type = "git"
+        url = "https://github.com/intel/compute-runtime.git"
+
+            ["26.35.39758+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/intel-compute-runtime"
+            provenance = "git-tag"
+            version = "26.35.39758.10"
+        [["26.35.39758+1".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/30e655fae4ea9a66c8f63d088d937a568ed3c414/N/NEO/bundled"
+
 ["26.35.39758+2"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+2/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+2/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-10-17T08:15:55.000Z
+
+    [["26.35.39758+2".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+2/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v26.35.39758+2/NEO.v26.35.39758.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/4817ec7f6afac96a00ad4787a681857655fb9045/N/NEO/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/neo/build_tarballs.jl/4817ec7f6afac96a00ad4787a681857655fb9045.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["26.35.39758+2".artifact_metadata.sources]]
+        hash = "dfa6faf3d866ea6a22b70df5a7bd2a507aa457bd"
+        type = "git"
+        url = "https://github.com/intel/compute-runtime.git"
+
+            ["26.35.39758+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/intel-compute-runtime"
+            provenance = "git-tag"
+            version = "26.35.39758.10"
+        [["26.35.39758+2".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4817ec7f6afac96a00ad4787a681857655fb9045/N/NEO/bundled"

@@ -1,0 +1,35 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "libfdk_aac"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/fdk-aac-*\n./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target} --disable-static\nmake -j${nproc}\nmake install\ninstall_license NOTICE\ninstall -Dvm 644 xhe-aac/NOTICE ${prefix}/share/licenses/${SRC_NAME}/NOTICE.xhe-aac\n"""
+toplevel_block = ""
+version = "v3.0.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"5.0.0\""
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libfdk-aac"]
+type = "lib"
+variable_name = "libfdk"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libfdk-xhe-aac"]
+type = "lib"
+variable_name = "libfdk_xhe"
+
+[[sources]]
+hash = "70b95857b958fb8f794489307a87845dde4cc1fcea060f3f29f40e4b2fe16c82"
+type = "archive"
+unpack_target = ""
+url = "https://downloads.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-3.0.0.tar.gz"

@@ -1,0 +1,51 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "JasPer"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """\ncd $WORKSPACE/srcdir/jasper*\n\n# Note: the build directory must not be named `build`. The JasPer source tree\n# contains a file `build/build`, which then collides with the generated\n# `${CMAKE_CURRENT_BINARY_DIR}/build/pkgconfig/jasper.pc`.\ncmake -Bjll_build \\\n    -DCMAKE_INSTALL_PREFIX=$prefix \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DJAS_ENABLE_DOC=false \\\n    -DJAS_ENABLE_OPENGL=false \\\n    -DALLOW_IN_SOURCE_BUILD=true \\\n    -DJAS_STDC_VERSION=201112L \\\n    -DCMAKE_BUILD_TYPE=Release\n\ncmake --build jll_build --parallel ${nproc}\ncmake --install jll_build\n"""
+toplevel_block = ""
+version = "v4.2.9"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"5.0.0\""
+
+[[dependencies]]
+build_version = "3.2.0"
+compat = "3.2.0"
+name = "JpegTurbo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libjasper"]
+type = "lib"
+variable_name = "libjasper"
+[[products]]
+binnames = ["imginfo"]
+type = "exe"
+variable_name = "imginfo"
+[[products]]
+binnames = ["jasper"]
+type = "exe"
+variable_name = "jasper"
+[[products]]
+binnames = ["imgcmp"]
+type = "exe"
+variable_name = "imgcmp"
+
+[[sources]]
+hash = "63e106c80eb72af9fd4fa28772499ab0138b9994"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/jasper-software/jasper"

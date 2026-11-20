@@ -1,0 +1,21 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "resvg"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/resvg*\ncargo build --release\ninstall -Dvm 755 \"target/${rust_target}/release/resvg${exeext}\" -t \"${bindir}\"\ninstall_license LICENSE-MIT LICENSE-APACHE\n"""
+toplevel_block = ""
+version = "v0.48.1"
+
+[[products]]
+binnames = ["resvg"]
+type = "exe"
+variable_name = "resvg"
+
+[[sources]]
+hash = "68b14c4c3bccdb60344c777406486b54c36ec1a4"
+type = "git"
+unpack_target = ""
+url = "https://github.com/linebender/resvg.git"

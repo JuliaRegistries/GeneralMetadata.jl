@@ -26,3 +26,24 @@ registered = 2026-03-12T18:18:35.000Z
 ["2.24.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.x86_64-unknown-freebsd.tar.gz"]
 registered = 2026-10-20T18:26:16.000Z
+
+    [["2.24.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libva_jll.jl/releases/download/libva-v2.24.1+0/libva.v2.24.1.x86_64-unknown-freebsd.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/bf0993025dda5c3c1ed42cd141f12c71ed948ab0/L/libva/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libva/build_tarballs.jl/bf0993025dda5c3c1ed42cd141f12c71ed948ab0.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.24.1+0".artifact_metadata.sources]]
+        hash = "710eb465c6277ee2cac3e6948767b01eebe7e77a"
+        type = "git"
+        url = "https://github.com/intel/libva.git"
+
+            ["2.24.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libva"
+            provenance = "git-tag"
+            version = "2.24.1"
+        [["2.24.1+0".artifact_metadata.sources]]
+        package = "Xorg_xorgproto_jll"
+        type = "builddependency"

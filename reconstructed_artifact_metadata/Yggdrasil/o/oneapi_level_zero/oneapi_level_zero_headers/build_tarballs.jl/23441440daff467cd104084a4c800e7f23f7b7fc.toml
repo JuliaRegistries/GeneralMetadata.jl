@@ -1,0 +1,20 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "oneAPI_Level_Zero_Headers"
+script = """cd level-zero\ninstall_license LICENSE\n\nmkdir -p ${includedir}/level_zero\nrsync --archive --exclude=\"*.py\" include/ ${includedir}/level_zero\n"""
+toplevel_block = ""
+version = "v1.17.0"
+
+[[products]]
+paths = ["include/level_zero/ze_api.h"]
+type = "file"
+variable_name = "ze_api"
+
+[[sources]]
+hash = "d3b3efbdaa27a0aef9a9812cc8fa4260557c1e7c"
+type = "git"
+unpack_target = ""
+url = "https://github.com/oneapi-src/level-zero.git"

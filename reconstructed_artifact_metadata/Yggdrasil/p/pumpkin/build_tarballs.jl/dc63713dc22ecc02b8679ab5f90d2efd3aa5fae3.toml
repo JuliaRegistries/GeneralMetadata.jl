@@ -1,0 +1,21 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Pumpkin"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/Pumpkin\n\n# The checkers are only used by upstream's integration tests.  Disabling them\n# avoids building target executables which Cargo would try to run on the host.\nexport NO_CHECKERS=true\ncargo build --release --locked --package pumpkin-solver --bin pumpkin-solver\n\ninstall -Dvm 755 \\\n    \"target/${rust_target}/release/pumpkin-solver${exeext}\" \\\n    \"${bindir}/pumpkin-solver${exeext}\"\ninstall_license LICENSE-MIT LICENSE-APACHE\n"""
+toplevel_block = ""
+version = "v0.5.0"
+
+[[products]]
+binnames = ["pumpkin-solver"]
+type = "exe"
+variable_name = "pumpkin_solver"
+
+[[sources]]
+hash = "b2574d46f8d5b64665f289e7f94e542994a73750"
+type = "git"
+unpack_target = ""
+url = "https://github.com/ConSol-Lab/Pumpkin.git"

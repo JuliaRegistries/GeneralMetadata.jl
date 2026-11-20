@@ -149,6 +149,23 @@ registered = 2026-09-11T06:58:50.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-10-14T10:53:11.000Z
 
+    [["13.4.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.1+0/CUDA_Tile.v13.4.1.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/c825b0baadb8a073e32a91b787a7e916a7f23de1/C/CUDA/CUDA_Tile/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cuda_tile/build_tarballs.jl/c825b0baadb8a073e32a91b787a7e916a7f23de1.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "5b3fa4c0dd04d90edeb935a1887c20bf14a86ebe"
+        type = "git"
+        url = "https://github.com/NVIDIA/cuda-tile"
+        [["13.4.1+0".artifact_metadata.sources]]
+        hash = "c495a9b796c46456e523a5eeb3690415ba99f5db"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"
+
 ["13.4.3+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-05T10:18:46.000Z

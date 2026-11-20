@@ -348,3 +348,27 @@ registered = 2026-02-14T19:53:56.000Z
 ["1.8.14+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.x86_64-unknown-freebsd.tar.gz"]
 registered = 2026-10-19T15:15:23.000Z
+
+    [["1.8.14+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Xorg_libX11_jll.jl/releases/download/Xorg_libX11-v1.8.14+0/Xorg_libX11.v1.8.14.x86_64-unknown-freebsd.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/d95ae492eb644cee4c27a0241def437d02a053b3/X/Xorg_libX11/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/x/xorg_libx11/build_tarballs.jl/d95ae492eb644cee4c27a0241def437d02a053b3.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.8.14+0".artifact_metadata.sources]]
+        hash = "bbc78c46217174655c2b32b138ad119f3ac15f50808b4d0b3a2677a4b1afc950"
+        type = "archive"
+        url = "https://www.x.org/archive/individual/lib/libX11-1.8.14.tar.xz"
+
+            ["1.8.14+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libx11"
+            provenance = "heuristic"
+            version = "1.8.14"
+        [["1.8.14+0".artifact_metadata.sources]]
+        package = "Xorg_xorgproto_jll"
+        type = "builddependency"
+        [["1.8.14+0".artifact_metadata.sources]]
+        package = "Xorg_util_macros_jll"
+        type = "builddependency"

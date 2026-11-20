@@ -567,3 +567,75 @@ registered = 2026-06-04T15:42:09.000Z
 ["1.0.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
 registered = 2026-10-23T12:49:19.000Z
+
+    [["1.0.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDSS_jll.jl/releases/download/CUDSS-v1.0.0+0/CUDSS.v1.0.0.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/0a407472ccfd8152e6bd4a5fd32085ec6b315c70/C/CUDA/CUDSS/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cudss/build_tarballs.jl/0a407472ccfd8152e6bd4a5fd32085ec6b315c70.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "b8c882c3ebc8b319886f5a06e74311c5eea09846925ba5a19892de4921201746"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/linux-x86_64/libcudss-linux-x86_64-1.0.0.35_cuda12-archive.tar.xz"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudss"
+            provenance = "url-pattern"
+            version = "1.0.0.35"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "f56b7bb57be9caf6e10f7d3ca2c31fb512f20810a57579237955cfd13be6deaa"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/linux-aarch64/libcudss-linux-aarch64-1.0.0.35_cuda12-archive.tar.xz"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudss"
+            provenance = "url-pattern"
+            version = "1.0.0.35"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "01e0008823e2980b197fed1102a1fe85b4bf0eef60bdf516c9052745804619e8"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/linux-sbsa/libcudss-linux-sbsa-1.0.0.35_cuda12-archive.tar.xz"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudss"
+            provenance = "url-pattern"
+            version = "1.0.0.35"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "7d3f5c0bbd80a2b425d5780fadd6002f9fa4207e99829565f458b90b897b01a6"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/windows-x86_64/libcudss-windows-x86_64-1.0.0.35_cuda12-archive.zip"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudss"
+            provenance = "url-pattern"
+            version = "1.0.0.35"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "0a155540d7b90d42105d38886fa630f1ec91d7b05580a28bd1fa04fa16e19ffe"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/linux-x86_64/libcudss-linux-x86_64-1.0.0.35_cuda13-archive.tar.xz"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudss"
+            provenance = "url-pattern"
+            version = "1.0.0.35"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "bd40403a984ab25ad7ac96d54d14863645256c7dca449fdf9836309d7b80e308"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/linux-sbsa/libcudss-linux-sbsa-1.0.0.35_cuda13-archive.tar.xz"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudss"
+            provenance = "url-pattern"
+            version = "1.0.0.35"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "be24e7cde2e061dd66fedddac244775b21d0739845b1b39135133bd519e9040f"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudss/redist/libcudss/windows-x86_64/libcudss-windows-x86_64-1.0.0.35_cuda13-archive.zip"
+
+            ["1.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudss"
+            provenance = "url-pattern"
+            version = "1.0.0.35"

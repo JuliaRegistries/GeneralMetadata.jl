@@ -1,0 +1,35 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "PtrHash"
+platforms = ["x86_64-linux-gnu", "aarch64-linux-gnu", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "x86_64-linux-musl", "aarch64-linux-musl", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/ptrhash_c\nif [[ \"${target}\" == *-musl* ]]; then\n    # musl targets link statically by default, which cannot produce a cdylib\n    export RUSTFLAGS=\"-C target-feature=-crt-static\"\nfi\n# Build the wrapper against the dependency versions locked by PtrHash\ncp ../PtrHash/Cargo.lock .\ncargo build --release --verbose\ninstall -Dvm 0755 \"target/${rust_target}/release/\"*ptrhash\".${dlext}\" \"${libdir}/libptrhash.${dlext}\"\ninstall_license ../PtrHash/LICENSE\n"""
+toplevel_block = ""
+version = "v2.1.2"
+
+[build_options]
+compilers = "[:c, :rust]"
+compression_format = "\"gzip\""
+lock_microarchitecture = "false"
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libptrhash"]
+type = "lib"
+variable_name = "libptrhash"
+
+[[sources]]
+hash = "7da31136d1c8952ac6cd4e54dffa27a8453329cb"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/RagnarGrootKoerkamp/PtrHash.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = "ptrhash_c"
+type = "directory"

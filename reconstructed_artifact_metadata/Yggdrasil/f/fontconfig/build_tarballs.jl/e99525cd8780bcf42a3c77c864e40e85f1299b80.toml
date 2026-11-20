@@ -1,0 +1,131 @@
+augment_platform_block = ""
+init_block = """get!(ENV, \"FONTCONFIG_FILE\", fonts_conf)\n    get!(ENV, \"FONTCONFIG_PATH\", dirname(ENV[\"FONTCONFIG_FILE\"]))\n"""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Fontconfig"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/fontconfig-*\n\nFLAGS=()\nif [[ \"${target}\" == *-linux-* ]] || [[ \"${target}\" == *-freebsd* ]]; then\n    FLAGS+=(--with-add-fonts=\"/usr/local/share/fonts\")\n    if [[ \"${target}\" == *-linux-* ]]; then\n        FLAGS+=(--with-cache-dir=\"/var/cache/fontconfig\")\n    elif [[ \"${target}\" == *-freebsd* ]]; then\n        FLAGS+=(--with-cache-dir=\"/var/db/fontconfig\")\n    fi\nelif [[ \"${target}\" == *-apple-* ]]; then\n    FLAGS+=(--with-add-fonts=\"/System/Library/Fonts,/Library/Fonts,~/Library/Fonts,/System/Library/Assets/com_apple_MobileAsset_Font4,/System/Library/Assets/com_apple_MobileAsset_Font5\")\nfi\n\n# Apply MinGW patches: https://github.com/msys2/MINGW-packages/tree/33f847297fe429d145cd9d72cb1fbbc574431cc5/mingw-w64-fontconfig\natomic_patch -p1 \"${WORKSPACE}/srcdir/patches/0002-fix-mkdir.mingw.patch\"\natomic_patch -p1 \"${WORKSPACE}/srcdir/patches/0004-fix-mkdtemp.mingw.patch\"\natomic_patch -p1 \"${WORKSPACE}/srcdir/patches/0005-fix-setenv.mingw.patch\"\n\n# The Autotools build of 2.18.x was not kept in sync with the Meson build:\n# `configure.ac` is missing the `xlocale.h` check that `src/fcint.h` needs for\n# `locale_t` and the `LC_*_MASK` constants on macOS and FreeBSD, it is missing\n# the `_vsnprintf_l` check that keeps Windows out of the `FcLocaleSetCurrent`\n# code path, and the `Makefile.am`s never picked up `fcconffile.c`/`fc-genconf`.\n# Reported as <https://gitlab.freedesktop.org/fontconfig/fontconfig/-/work_items/561>\natomic_patch -p1 \"${WORKSPACE}/srcdir/patches/0006-configure-check-xlocale.patch\"\natomic_patch -p1 \"${WORKSPACE}/srcdir/patches/0007-configure-check-vsnprintf_l.patch\"\natomic_patch -p1 \"${WORKSPACE}/srcdir/patches/0008-build-fcconffile-and-fc-genconf.patch\"\n\nautoreconf\n# The `va_copy` check in `m4/va_copy.m4` uses `AC_RUN_IFELSE` without a\n# cross-compiling fallback, so preseed its cache variable: all our compilers\n# provide the C99 `va_copy` macro.\n./configure --prefix=$prefix --build=${MACHTYPE} --host=$target --disable-docs \"${FLAGS[@]}\" ac_cv_va_copy=C99\n\n# Disable tests\nsed -i 's,all-am: Makefile $(PROGRAMS),all-am:,' test/Makefile\n\nmake -j${nproc}\nmake install\n"""
+toplevel_block = ""
+version = "v2.18.3"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"6.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "gperf_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.13.4"
+name = "FreeType2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.0.9"
+name = "Bzip2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.2.12"
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.41.0"
+name = "Libuuid_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.6.5"
+name = "Expat_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libfontconfig"]
+type = "lib"
+variable_name = "libfontconfig"
+[[products]]
+binnames = ["fc-cache"]
+type = "exe"
+variable_name = "fc_cache"
+[[products]]
+binnames = ["fc-cat"]
+type = "exe"
+variable_name = "fc_cat"
+[[products]]
+binnames = ["fc-conflist"]
+type = "exe"
+variable_name = "fc_conflist"
+[[products]]
+binnames = ["fc-genconf"]
+type = "exe"
+variable_name = "fc_genconf"
+[[products]]
+binnames = ["fc-list"]
+type = "exe"
+variable_name = "fc_list"
+[[products]]
+binnames = ["fc-match"]
+type = "exe"
+variable_name = "fc_match"
+[[products]]
+binnames = ["fc-pattern"]
+type = "exe"
+variable_name = "fc_pattern"
+[[products]]
+binnames = ["fc-query"]
+type = "exe"
+variable_name = "fc_query"
+[[products]]
+binnames = ["fc-scan"]
+type = "exe"
+variable_name = "fc_scan"
+[[products]]
+binnames = ["fc-validate"]
+type = "exe"
+variable_name = "fc_validate"
+[[products]]
+paths = ["etc/fonts/fonts.conf"]
+type = "file"
+variable_name = "fonts_conf"
+
+[[sources]]
+hash = "4f7b554a38cdf78c033f666c8871f3749e14a094f65a07f630c91ed0b43d35e3"
+type = "archive"
+unpack_target = ""
+url = "https://gitlab.freedesktop.org/api/v4/projects/890/packages/generic/fontconfig/2.18.3/fontconfig-2.18.3.tar.xz"
+[[sources]]
+follow_symlinks = false
+path = "bundled"
+target = ""
+type = "directory"

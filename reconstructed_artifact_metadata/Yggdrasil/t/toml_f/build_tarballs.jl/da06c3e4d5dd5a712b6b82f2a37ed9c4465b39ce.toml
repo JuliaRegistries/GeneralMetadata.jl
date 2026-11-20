@@ -1,0 +1,39 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "toml_f"
+platforms = ["i686-linux-gnu-libgfortran5", "x86_64-linux-gnu-libgfortran5", "aarch64-linux-gnu-libgfortran5", "armv6l-linux-gnueabihf-libgfortran5", "armv7l-linux-gnueabihf-libgfortran5", "powerpc64le-linux-gnu-libgfortran5", "riscv64-linux-gnu-libgfortran5", "i686-linux-musl-libgfortran5", "x86_64-linux-musl-libgfortran5", "aarch64-linux-musl-libgfortran5", "armv6l-linux-musleabihf-libgfortran5", "armv7l-linux-musleabihf-libgfortran5", "x86_64-apple-darwin-libgfortran5", "aarch64-apple-darwin-libgfortran5", "x86_64-unknown-freebsd-libgfortran5", "aarch64-unknown-freebsd-libgfortran5", "i686-w64-mingw32-libgfortran5", "x86_64-w64-mingw32-libgfortran5"]
+script = """cd ${WORKSPACE}/srcdir/toml-f\nmeson setup build \\\n    --cross-file=\"${MESON_TARGET_TOOLCHAIN}\" \\\n    --prefix=${prefix} \\\n    --buildtype=release \\\n    -Ddefault_library=shared \\\n    -Dtests=false\nmeson compile -C build -j${nproc}\nmeson install -C build\ninstall_license LICENSE-Apache LICENSE-MIT\n"""
+toplevel_block = ""
+version = "v0.5.2"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libtoml-f", "libtoml-f-0"]
+type = "lib"
+variable_name = "libtoml_f"
+
+[[sources]]
+hash = "28f4601fe0992ed17a6b97e230a61289f56bcd8e"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/toml-f/toml-f.git"

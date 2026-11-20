@@ -5,3 +5,20 @@ registered = 2024-08-05T21:09:28.000Z
 ["11.0.1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-Mingw-v11.0.1-i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-Mingw-v11.0.1-x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-build_log-v11.0.1-i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-build_log-v11.0.1-x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-extract_log-v11.0.1-i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-extract_log-v11.0.1-x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-07T14:30:43.000Z
+
+    [["11.0.1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-Mingw-v11.0.1-i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-Mingw-v11.0.1-x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-build_log-v11.0.1-i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-build_log-v11.0.1-x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-extract_log-v11.0.1-i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Mingw_jll.jl/releases/download/Mingw-v11.0.1/Mingw-extract_log-v11.0.1-x86_64-w64-mingw32.tar.gz"]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/Mingw_jll.jl/24eacaa35a24c20cec3912c47a551f95c1ab3874/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["11.0.1".artifact_metadata.sources]]
+        treehash = "fc05e1af7513b31119bb9cb45f1c4efafc4901b1"
+        type = "archive"
+        url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v11.0.1.tar.bz2"
+
+            ["11.0.1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mingw-w64-headers"
+            provenance = "heuristic"
+            version = "11.0.1"

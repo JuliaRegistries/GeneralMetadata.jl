@@ -5,3 +5,19 @@ registered = 2024-08-21T22:45:06.000Z
 ["11.1.1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-build_log-v11.1.1-aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-build_log-v11.1.1-x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-extract_log-v11.1.1-aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-extract_log-v11.1.1-x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-macOSSDK-v11.1.1-aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-macOSSDK-v11.1.1-x86_64-apple-darwin20.tar.gz"]
 registered = 2026-11-08T04:51:24.000Z
+
+    [["11.1.1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-build_log-v11.1.1-aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-build_log-v11.1.1-x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-extract_log-v11.1.1-aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-extract_log-v11.1.1-x86_64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-macOSSDK-v11.1.1-aarch64-apple-darwin20.tar.gz", "https://github.com/JuliaBinaryWrappers/macOSSDK_jll.jl/releases/download/macOSSDK-v11.1.1/macOSSDK-macOSSDK-v11.1.1-x86_64-apple-darwin20.tar.gz"]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/macOSSDK_jll.jl/b01f1aafb0f5a6ab791e13a146829b5ca5a76e96/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["11.1.1".artifact_metadata.sources]]
+        treehash = "f92bf12b4e8a782173f7ed6bf8c077cc7be8c8fd"
+        type = "archive"
+        url = "https://github.com/joseluisq/macosx-sdks/releases/download/11.1/MacOSX11.1.sdk.tar.xz"
+        [["11.1.1".artifact_metadata.sources]]
+        path = "M/macOSSDK/bundled"
+        treehash = "fb41276b3389df438969cacde1456e590a9dda86"
+        type = "directory"

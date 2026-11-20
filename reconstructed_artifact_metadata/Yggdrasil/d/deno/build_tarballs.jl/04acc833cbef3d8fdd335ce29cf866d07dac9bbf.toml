@@ -1,0 +1,49 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Deno"
+platforms = ["x86_64-linux-gnu", "aarch64-linux-gnu", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/\ninstall_license deno/LICENSE.md\nmkdir \"${bindir}\"\ninstall -m 755 \"${target}/deno${exeext}\" \"${bindir}\"\n"""
+toplevel_block = ""
+version = "v2.9.8"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[products]]
+binnames = ["deno"]
+type = "exe"
+variable_name = "deno"
+
+[[sources]]
+hash = "e890975bc2549807bbcc0b584ffafda72cc7c93349dd99c80483dd784f6c4609"
+type = "archive"
+unpack_target = "x86_64-linux-gnu"
+url = "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-unknown-linux-gnu.zip"
+[[sources]]
+hash = "d49596c20b9788cf8f5d8ddf644103d4bde56ed239753f0bdb92ba9361d51905"
+type = "archive"
+unpack_target = "aarch64-linux-gnu"
+url = "https://github.com/denoland/deno/releases/download/v2.9.8/deno-aarch64-unknown-linux-gnu.zip"
+[[sources]]
+hash = "4b2f5edd2639b7470f034238b321d7002d8dfb4726d8558f52c17afac370eb2c"
+type = "archive"
+unpack_target = "x86_64-apple-darwin14"
+url = "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-apple-darwin.zip"
+[[sources]]
+hash = "9f0bf660393da2eaff044cdc7444cb08c73f235849b61d224d825a194ce7c98e"
+type = "archive"
+unpack_target = "aarch64-apple-darwin20"
+url = "https://github.com/denoland/deno/releases/download/v2.9.8/deno-aarch64-apple-darwin.zip"
+[[sources]]
+hash = "cba84b26e0df5ae7f74fc66b86a95b866872a86292ebd84fa1e959927edd93bf"
+type = "archive"
+unpack_target = "x86_64-w64-mingw32"
+url = "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-pc-windows-msvc.zip"
+[[sources]]
+hash = "b57d0281c1647effc735f242ba52bc409747fc6ed6ad4946e76f062c67e113eb"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/denoland/deno/releases/download/v2.9.8/deno_src.tar.gz"

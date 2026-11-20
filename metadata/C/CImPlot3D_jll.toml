@@ -58,3 +58,27 @@ registered = 2026-08-22T15:56:57.000Z
 ["0.4.2+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-10-21T00:10:29.000Z
+
+    [["0.4.2+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/CImPlot3D_jll.jl/releases/download/CImPlot3D-v0.4.2+0/CImPlot3D.v0.4.2.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/a6ce59b790670fc59e2f079329df8a5c8c3c9170/C/CImPlot3D/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cimplot3d/build_tarballs.jl/a6ce59b790670fc59e2f079329df8a5c8c3c9170.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.4.2+0".artifact_metadata.sources]]
+        hash = "f8b28155c8f164c947c95b8ce600ea091a5a9008"
+        type = "git"
+        url = "https://github.com/cimgui/cimplot3d.git"
+        [["0.4.2+0".artifact_metadata.sources]]
+        hash = "5d7cc7e12de9a868bbecc00ce2ed74e58d266f1c"
+        type = "git"
+        url = "https://github.com/cimgui/cimgui.git"
+
+            ["0.4.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cimgui"
+            provenance = "repository"
+        [["0.4.2+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/a6ce59b790670fc59e2f079329df8a5c8c3c9170/C/CImPlot3D/bundled"

@@ -1,3 +1,24 @@
 ["1.27.0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"]
 registered = 2026-11-09T03:22:30.000Z
+
+    [["1.27.0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-CrosstoolNG-v1.27.0-x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-build_log-v1.27.0-x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/releases/download/CrosstoolNG-v1.27.0/CrosstoolNG-extract_log-v1.27.0-x86_64-linux-gnu.tar.gz"]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/CrosstoolNG_jll.jl/62cce6cde3f2a61e64e4aa470201d74df24bc634/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["1.27.0".artifact_metadata.sources]]
+        treehash = "cc9a6c5a45a71120cfd2bdaaaab47b20896c3b33"
+        type = "archive"
+        url = "https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.27.0/crosstool-ng-1.27.0.tar.xz"
+
+            ["1.27.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/crosstool-ng"
+            provenance = "tag-scheme"
+            version = "1.27.0"
+        [["1.27.0".artifact_metadata.sources]]
+        path = "C/CrosstoolNG/bundled"
+        treehash = "8bd3f02b11dd64aedf4bd3814638fcb8109eecca"
+        type = "directory"

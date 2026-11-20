@@ -2,6 +2,38 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-FreeBSDSysroot-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-FreeBSDSysroot-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-build_log-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-build_log-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-extract_log-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-extract_log-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz"]
 registered = 2026-11-08T04:39:07.000Z
 
+    [["14.1.0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-FreeBSDSysroot-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-FreeBSDSysroot-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-build_log-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-build_log-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-extract_log-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-extract_log-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz"]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/c49301ad426a00139d6671a5ddfe2f4bc34c06eb/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["14.1.0".artifact_metadata.sources]]
+        treehash = "883c05e1c24d459c1a7c4401ec5e5c824cb05006"
+        type = "archive"
+        url = "http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/arm64/14.1-RELEASE/base.txz"
+        [["14.1.0".artifact_metadata.sources]]
+        treehash = "82bf29badee10525460cc55cb6711ddf9cd5286e"
+        type = "archive"
+        url = "http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/amd64/14.1-RELEASE/base.txz"
+
 ["14.1.1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-FreeBSDSysroot-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-FreeBSDSysroot-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-build_log-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-build_log-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-extract_log-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-extract_log-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz"]
 registered = 2026-11-13T03:41:19.000Z
+
+    [["14.1.1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-FreeBSDSysroot-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-FreeBSDSysroot-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-build_log-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-build_log-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-extract_log-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz", "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-extract_log-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz"]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/c1ee4ca6743d8b37a1be700ff6dc03007541eb3a/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["14.1.1".artifact_metadata.sources]]
+        treehash = "883c05e1c24d459c1a7c4401ec5e5c824cb05006"
+        type = "archive"
+        url = "http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/arm64/14.1-RELEASE/base.txz"
+        [["14.1.1".artifact_metadata.sources]]
+        treehash = "82bf29badee10525460cc55cb6711ddf9cd5286e"
+        type = "archive"
+        url = "http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/amd64/14.1-RELEASE/base.txz"

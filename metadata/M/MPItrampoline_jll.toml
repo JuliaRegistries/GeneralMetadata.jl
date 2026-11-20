@@ -1761,3 +1761,45 @@ registered = 2026-04-15T14:06:02.000Z
 ["5.5.7+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.aarch64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.aarch64-unknown-freebsd-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.armv6l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.armv7l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.i686-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.powerpc64le-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.riscv64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.x86_64-unknown-freebsd-libgfortran5-mpi+mpitrampoline.tar.gz"]
 registered = 2026-10-15T01:09:52.000Z
+
+    [["5.5.7+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.aarch64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.aarch64-unknown-freebsd-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.armv6l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.armv7l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.i686-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.powerpc64le-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.riscv64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz", "https://github.com/JuliaBinaryWrappers/MPItrampoline_jll.jl/releases/download/MPItrampoline-v5.5.7+0/MPItrampoline.v5.5.7.x86_64-unknown-freebsd-libgfortran5-mpi+mpitrampoline.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/1d5feb8ea9ee64ef1944a64295ee796a7c9d32cb/M/MPItrampoline/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/mpitrampoline/build_tarballs.jl/1d5feb8ea9ee64ef1944a64295ee796a7c9d32cb.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["5.5.7+0".artifact_metadata.sources]]
+        hash = "1071c390039532d99105093f2042295c3f769915"
+        type = "git"
+        url = "https://github.com/eschnett/MPItrampoline"
+
+            ["5.5.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpitrampoline"
+            provenance = "git-tag"
+            version = "5.5.1"
+        [["5.5.7+0".artifact_metadata.sources]]
+        hash = "d2763908c4d69c03f77f5f9ccc546fe635d068cb"
+        type = "git"
+        url = "https://github.com/eschnett/MPIconstants"
+        [["5.5.7+0".artifact_metadata.sources]]
+        hash = "47d774587a7156a53752218c811c852e70ac44db9c502dc3f399b4cb817e3818"
+        type = "archive"
+        url = "https://www.mpich.org/static/downloads/4.3.2/mpich-4.3.2.tar.gz"
+
+            ["5.5.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpich"
+            provenance = "heuristic"
+            version = "4.3.2"
+        [["5.5.7+0".artifact_metadata.sources]]
+        hash = "070c4e1b8a98fbe63ea8f84d046effb813c9febb"
+        type = "git"
+        url = "https://github.com/eschnett/MPIwrapper"
+
+            ["5.5.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpiwrapper"
+            provenance = "repository"
+        [["5.5.7+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1d5feb8ea9ee64ef1944a64295ee796a7c9d32cb/M/MPItrampoline/bundled"
