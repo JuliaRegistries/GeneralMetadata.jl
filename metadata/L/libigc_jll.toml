@@ -3327,10 +3327,199 @@ registered = 2026-10-22T17:15:29.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+3/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+3/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-11-07T18:21:05.000Z
 
+    [["2.41.5+3".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+3/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+3/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/0f25d53c9ddc9ab9054d17715104ae73570724dc/L/libigc/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libigc/build_tarballs.jl/0f25d53c9ddc9ab9054d17715104ae73570724dc.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.41.5+3".artifact_metadata.sources]]
+        hash = "f05f218e6f0b888823c5678e1f64e91e597ea2dc"
+        type = "git"
+        url = "https://github.com/intel/intel-graphics-compiler.git"
+
+            ["2.41.5+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/intel-graphics-compiler"
+            provenance = "git-tag"
+            version = "2.41.5"
+        [["2.41.5+3".artifact_metadata.sources]]
+        hash = "b953eceebb0abc6ea954a14545420e3f97540a77"
+        type = "git"
+        url = "https://github.com/intel/opencl-clang.git"
+
+            ["2.41.5+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/opencl-clang"
+            provenance = "git-tag"
+            version = "22.1.4"
+        [["2.41.5+3".artifact_metadata.sources]]
+        hash = "27afcfe385cf542197dfde8c658e1f5ff53fc2fc"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator.git"
+
+            ["2.41.5+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-llvm-translator"
+            provenance = "git-tag"
+            version = "22.1.5"
+        [["2.41.5+3".artifact_metadata.sources]]
+        hash = "f80351511e9c4672e284842c7b124315c511078a"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-Tools.git"
+
+            ["2.41.5+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-tools"
+            provenance = "repository"
+        [["2.41.5+3".artifact_metadata.sources]]
+        hash = "575b6512579ebde466ed3dfc04e413439d14d95d"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-Headers.git"
+
+            ["2.41.5+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-headers"
+            provenance = "repository"
+        [["2.41.5+3".artifact_metadata.sources]]
+        hash = "27f7c4f34738f5eaf7a045b77edf8d9e034443d8"
+        type = "git"
+        url = "https://github.com/intel/vc-intrinsics.git"
+        [["2.41.5+3".artifact_metadata.sources]]
+        hash = "ca7933e47d3a3451d81e72ac174dcb5aa28b59d1"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"
+        [["2.41.5+3".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/0f25d53c9ddc9ab9054d17715104ae73570724dc/L/libigc/bundled"
+
 ["2.41.5+4"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+4/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+4/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-11-07T22:23:04.000Z
 
+    [["2.41.5+4".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+4/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+4/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/741a0182245d0c944098d989361cc5ce47f55d57/L/libigc/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libigc/build_tarballs.jl/741a0182245d0c944098d989361cc5ce47f55d57.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.41.5+4".artifact_metadata.sources]]
+        hash = "f05f218e6f0b888823c5678e1f64e91e597ea2dc"
+        type = "git"
+        url = "https://github.com/intel/intel-graphics-compiler.git"
+
+            ["2.41.5+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/intel-graphics-compiler"
+            provenance = "git-tag"
+            version = "2.41.5"
+        [["2.41.5+4".artifact_metadata.sources]]
+        hash = "b953eceebb0abc6ea954a14545420e3f97540a77"
+        type = "git"
+        url = "https://github.com/intel/opencl-clang.git"
+
+            ["2.41.5+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/opencl-clang"
+            provenance = "git-tag"
+            version = "22.1.4"
+        [["2.41.5+4".artifact_metadata.sources]]
+        hash = "27afcfe385cf542197dfde8c658e1f5ff53fc2fc"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator.git"
+
+            ["2.41.5+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-llvm-translator"
+            provenance = "git-tag"
+            version = "22.1.5"
+        [["2.41.5+4".artifact_metadata.sources]]
+        hash = "f80351511e9c4672e284842c7b124315c511078a"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-Tools.git"
+
+            ["2.41.5+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-tools"
+            provenance = "repository"
+        [["2.41.5+4".artifact_metadata.sources]]
+        hash = "575b6512579ebde466ed3dfc04e413439d14d95d"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-Headers.git"
+
+            ["2.41.5+4".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-headers"
+            provenance = "repository"
+        [["2.41.5+4".artifact_metadata.sources]]
+        hash = "27f7c4f34738f5eaf7a045b77edf8d9e034443d8"
+        type = "git"
+        url = "https://github.com/intel/vc-intrinsics.git"
+        [["2.41.5+4".artifact_metadata.sources]]
+        hash = "ca7933e47d3a3451d81e72ac174dcb5aa28b59d1"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"
+        [["2.41.5+4".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/741a0182245d0c944098d989361cc5ce47f55d57/L/libigc/bundled"
+
 ["2.41.5+5"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+5/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+5/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2026-11-09T14:46:27.000Z
+
+    [["2.41.5+5".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+5/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v2.41.5+5/libigc.v2.41.5.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/1a1d81f506d21ffc9425a33b4a815736276b225b/L/libigc/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libigc/build_tarballs.jl/1a1d81f506d21ffc9425a33b4a815736276b225b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.41.5+5".artifact_metadata.sources]]
+        hash = "f05f218e6f0b888823c5678e1f64e91e597ea2dc"
+        type = "git"
+        url = "https://github.com/intel/intel-graphics-compiler.git"
+
+            ["2.41.5+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/intel-graphics-compiler"
+            provenance = "git-tag"
+            version = "2.41.5"
+        [["2.41.5+5".artifact_metadata.sources]]
+        hash = "b953eceebb0abc6ea954a14545420e3f97540a77"
+        type = "git"
+        url = "https://github.com/intel/opencl-clang.git"
+
+            ["2.41.5+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/opencl-clang"
+            provenance = "git-tag"
+            version = "22.1.4"
+        [["2.41.5+5".artifact_metadata.sources]]
+        hash = "c8b2bee8bd90cd2c9045bc140746ffae6a501303"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator.git"
+
+            ["2.41.5+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-llvm-translator"
+            provenance = "git-tag"
+            version = "22.1.6"
+        [["2.41.5+5".artifact_metadata.sources]]
+        hash = "f80351511e9c4672e284842c7b124315c511078a"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-Tools.git"
+
+            ["2.41.5+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-tools"
+            provenance = "repository"
+        [["2.41.5+5".artifact_metadata.sources]]
+        hash = "575b6512579ebde466ed3dfc04e413439d14d95d"
+        type = "git"
+        url = "https://github.com/KhronosGroup/SPIRV-Headers.git"
+
+            ["2.41.5+5".artifact_metadata.sources.upstream]
+            project = "repology.org/project/spirv-headers"
+            provenance = "repository"
+        [["2.41.5+5".artifact_metadata.sources]]
+        hash = "27f7c4f34738f5eaf7a045b77edf8d9e034443d8"
+        type = "git"
+        url = "https://github.com/intel/vc-intrinsics.git"
+        [["2.41.5+5".artifact_metadata.sources]]
+        hash = "ca7933e47d3a3451d81e72ac174dcb5aa28b59d1"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"
+        [["2.41.5+5".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1a1d81f506d21ffc9425a33b4a815736276b225b/L/libigc/bundled"

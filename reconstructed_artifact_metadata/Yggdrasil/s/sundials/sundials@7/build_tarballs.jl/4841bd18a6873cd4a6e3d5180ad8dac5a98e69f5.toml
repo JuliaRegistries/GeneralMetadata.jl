@@ -1,0 +1,226 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "Sundials"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """apk del cmake\n\ncd $WORKSPACE/srcdir/sundials*\nif [[ \"${target}\" == *-mingw* ]]; then\n    LBT=blastrampoline-5\nelse\n    LBT=blastrampoline\nfi\nmkdir build && cd build\n\n# SUNDIALS passes its 64-bit `sunindextype` to LAPACK, so call LBT's ILP64 interface. Julia's\n# OpenBLAS is LP64 on 32-bit platforms, which keep the unsuffixed names.\nif [[ ${nbits} == 64 ]]; then\n    for f in dgbtrf dgbtrs dgetrf dgetrs dgeev; do\n        LAPACK_DEFINES+=\" -D${f}_=${f}_64_\"\n    done\nfi\n\nCMAKE_FLAGS=(\n    -DCMAKE_INSTALL_PREFIX=${prefix}\n    -DCMAKE_BUILD_TYPE=Release\n    -DCMAKE_TOOLCHAIN_FILE=\"${CMAKE_TARGET_TOOLCHAIN}\"\n    -DCMAKE_C_FLAGS=\"${LAPACK_DEFINES}\"\n    -DSUNDIALS_ENABLE_C_EXAMPLES=OFF\n    -DSUNDIALS_ENABLE_KLU=ON\n    -DKLU_INCLUDE_DIR=\"${includedir}/suitesparse\"\n    -DKLU_LIBRARY_DIR=\"${libdir}\"\n    -DSUNDIALS_ENABLE_KLU_CHECKS=OFF\n    -DSUNDIALS_ENABLE_LAPACK=ON\n    -DSUNDIALS_ENABLE_LAPACK_CHECKS=OFF\n    -DSUNDIALS_LAPACK_CASE=lower\n    -DSUNDIALS_LAPACK_UNDERSCORES=one\n    -DBLAS_LIBRARIES=\"${libdir}/lib${LBT}.${dlext}\"\n    -DLAPACK_LIBRARIES=\"${libdir}/lib${LBT}.${dlext}\"\n)\n    cmake \"${CMAKE_FLAGS[@]}\" ..\n    cmake --build . --parallel ${nproc}\n    cmake --install .\n"""
+toplevel_block = ""
+version = "v7.9.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"6.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.11.2"
+compat = "5.8.0"
+name = "libblastrampoline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "7.14.0"
+compat = "7.2.1"
+name = "SuiteSparse_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_arkode"]
+type = "lib"
+variable_name = "libsundials_arkode"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_cvode"]
+type = "lib"
+variable_name = "libsundials_cvode"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_cvodes"]
+type = "lib"
+variable_name = "libsundials_cvodes"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_ida"]
+type = "lib"
+variable_name = "libsundials_ida"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_idas"]
+type = "lib"
+variable_name = "libsundials_idas"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_kinsol"]
+type = "lib"
+variable_name = "libsundials_kinsol"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_nvecmanyvector"]
+type = "lib"
+variable_name = "libsundials_nvecmanyvector"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_nvecserial"]
+type = "lib"
+variable_name = "libsundials_nvecserial"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsolband"]
+type = "lib"
+variable_name = "libsundials_sunlinsolband"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsoldense"]
+type = "lib"
+variable_name = "libsundials_sunlinsoldense"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsolklu"]
+type = "lib"
+variable_name = "libsundials_sunlinsolklu"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsollapackband"]
+type = "lib"
+variable_name = "libsundials_sunlinsollapackband"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsollapackdense"]
+type = "lib"
+variable_name = "libsundials_sunlinsollapackdense"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsolpcg"]
+type = "lib"
+variable_name = "libsundials_sunlinsolpcg"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsolspbcgs"]
+type = "lib"
+variable_name = "libsundials_sunlinsolspbcgs"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsolspfgmr"]
+type = "lib"
+variable_name = "libsundials_sunlinsolspfgmr"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsolspgmr"]
+type = "lib"
+variable_name = "libsundials_sunlinsolspgmr"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunlinsolsptfqmr"]
+type = "lib"
+variable_name = "libsundials_sunlinsolsptfqmr"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunmatrixband"]
+type = "lib"
+variable_name = "libsundials_sunmatrixband"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunmatrixdense"]
+type = "lib"
+variable_name = "libsundials_sunmatrixdense"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunmatrixsparse"]
+type = "lib"
+variable_name = "libsundials_sunmatrixsparse"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunnonlinsolauto"]
+type = "lib"
+variable_name = "libsundials_sunnonlinsolauto"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunnonlinsolfixedpoint"]
+type = "lib"
+variable_name = "libsundials_sunnonlinsolfixedpoint"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_sunnonlinsolnewton"]
+type = "lib"
+variable_name = "libsundials_sunnonlinsolnewton"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsundials_core"]
+type = "lib"
+variable_name = "libsundials_core"
+
+[[sources]]
+hash = "312fc0f3684f27209ca9dc9249d194436eb41a7a"
+tag = "v7.9.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/LLNL/sundials.git"

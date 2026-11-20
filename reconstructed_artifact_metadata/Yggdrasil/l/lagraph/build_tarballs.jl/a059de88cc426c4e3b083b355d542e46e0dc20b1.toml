@@ -1,0 +1,78 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "LAGraph"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """# Use CMake_jll instead of the older CMake bundled in the build image.\napk del cmake\ncd ${WORKSPACE}/srcdir/LAGraph\ninstall_license LICENSE\nCMAKE_FLAGS=()\n# Older x86 glibc exposes clock_gettime through librt.\nif [[ \"${target}\" == *86*-linux-gnu ]]; then\n    CMAKE_FLAGS+=(-DCMAKE_C_STANDARD_LIBRARIES=-lrt)\nfi\ncmake -S . -B build -DCMAKE_INSTALL_PREFIX=${prefix} \\\n      -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n      -DGraphBLAS_ROOT=${prefix} \\\n      -DGRAPHBLAS_INCLUDE_DIR=${includedir} \\\n      -DCMAKE_BUILD_TYPE=Release \\\n      -DBUILD_TESTING=OFF \\\n      -DBUILD_STATIC_LIBS=OFF \"${CMAKE_FLAGS[@]}\"\ncmake --build build --parallel ${nproc}\ncmake --install build\n"""
+toplevel_block = ""
+version = "v1.2.2"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "10.3.1"
+compat = "10.3.1"
+name = "SSGraphBLAS_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "7ed9a814-9cab-54e9-8e9e-d9e95b4d61b1"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1"
+name = "CompilerSupportLibraries_jll"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "19.1.7"
+compat = "19.1.7"
+name = "LLVMOpenMP_jll"
+platforms = ["x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd"]
+top_level = false
+type = "dependency"
+uuid = "1d63c593-3942-5779-bab2-d838dc0a180e"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["liblagraph"]
+type = "lib"
+variable_name = "liblagraph"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["liblagraphx"]
+type = "lib"
+variable_name = "liblagraphx"
+
+[[sources]]
+hash = "7543de1f310371c540c23ff5da82705aa4e94ea0"
+tag = "v1.2.2"
+type = "git"
+unpack_target = ""
+url = "https://github.com/GraphBLAS/LAGraph.git"

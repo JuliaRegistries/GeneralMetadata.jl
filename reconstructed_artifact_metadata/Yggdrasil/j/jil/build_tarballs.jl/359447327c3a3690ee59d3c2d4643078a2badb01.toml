@@ -1,0 +1,42 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "JIL"
+platforms = ["x86_64-linux-gnu", "aarch64-linux-gnu", "x86_64-linux-musl", "aarch64-linux-musl", "x86_64-apple-darwin", "aarch64-apple-darwin"]
+script = """apk add doxygen # TODO: Replace by HostBuildDependency(\"Doxygen_jll\") when the version becomes supported.\ncd ${WORKSPACE}/srcdir/jil/\ncmake -B build -DCMAKE_INSTALL_PREFIX=${prefix} -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} -DCMAKE_BUILD_TYPE=Release\ncmake --build build --parallel ${nproc}\ncmake --install build\ncd doc\ncmake -B build -DCMAKE_INSTALL_PREFIX=${prefix}\ncmake --build build --target function_docs_csv\ncmake --install build\n"""
+toplevel_block = ""
+version = "v0.1.2"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["x86_64-linux-gnu", "aarch64-linux-gnu", "x86_64-linux-musl", "aarch64-linux-musl"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libjil"]
+type = "lib"
+variable_name = "libjil"
+[[products]]
+paths = ["share/jil/jil_function_docs.csv"]
+type = "file"
+variable_name = "jil_function_docs_csv"
+
+[[sources]]
+hash = "9f4f67151891a4bd082b36a73604eb660d83806a"
+tag = "0.1.2"
+type = "git"
+unpack_target = ""
+url = "https://git.renater.fr/anonscm/git/jil/jil.git"

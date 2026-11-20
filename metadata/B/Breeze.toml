@@ -165,3 +165,7 @@ registered = 2026-11-12T18:11:21.000Z
 ["0.15.2"]
 artifact_urls = ["https://github.com/NumericalEarth/Breeze.jl/releases/download/P3_lookup_tables_v1.0/P3_lookup_tables.tar.gz", "https://github.com/NumericalEarth/Breeze.jl/releases/download/P3_parcel_reference_v1.0/P3_parcel_reference.tar.gz", "https://github.com/NumericalEarth/Breeze.jl/releases/download/shen_et_al_2022_les_profiles_v1.0/shen_et_al_2022_les_profiles.tar.gz"]
 registered = 2026-11-16T15:57:32.000Z
+
+["0.15.3"]
+artifact_urls = ["https://github.com/NumericalEarth/Breeze.jl/releases/download/P3_lookup_tables_v1.0/P3_lookup_tables.tar.gz", "https://github.com/NumericalEarth/Breeze.jl/releases/download/P3_parcel_reference_v1.0/P3_parcel_reference.tar.gz", "https://github.com/NumericalEarth/Breeze.jl/releases/download/shen_et_al_2022_les_profiles_v1.0/shen_et_al_2022_les_profiles.tar.gz"]
+registered = 2026-11-19T20:19:55.000Z

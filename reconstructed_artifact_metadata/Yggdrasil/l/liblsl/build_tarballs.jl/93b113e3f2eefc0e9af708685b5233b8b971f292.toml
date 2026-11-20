@@ -1,0 +1,42 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "liblsl"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd $WORKSPACE/srcdir/liblsl\n\n# Remove system CMake to use the jll version\napk del cmake\n\n# Add license file\ninstall_license LICENSE\n\noptions=(\n    -DCMAKE_BUILD_TYPE=Release \n    -DCMAKE_INSTALL_PREFIX=${prefix}\n    # Changing to gcc, because for freebsd and macos it failed to find CMAKE_CXX_COMPILER_AR\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN%.*}_gcc.cmake\n)\nif [[ \"${target}\" == *apple-darwin* ]]; then\n    # We need at least MacOS 10.12 for `shared_mutex`\n    export MACOSX_DEPLOYMENT_TARGET=10.12\n    # LTO doesn't work. Somehow we're compiling with LLVM 18, and libLTO is from LLVM 8, and that mismatch causes a linker error.\n    options+=(-DLSL_OPTIMIZATIONS=OFF)\n    # liblsl >= 1.17 defaults to building an Apple `lsl.framework` bundle, which BinaryBuilder cannot match against the `liblsl` library product. \n    # Force the classic `liblsl.dylib` layout instead.\n    options+=(-DLSL_FRAMEWORK=OFF)\nfi\n\ncmake -Bbuild ${options[@]}\ncmake --build build --parallel ${nproc}\ncmake --install build\n"""
+toplevel_block = ""
+version = "v1.17.7"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"7.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["liblsl"]
+type = "lib"
+variable_name = "liblsl"
+[[products]]
+binnames = ["lslver"]
+type = "exe"
+variable_name = "lslver"
+
+[[sources]]
+hash = "64988c6a14b8dc3b3f270ece58eab4f480bfab43"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/sccn/liblsl"

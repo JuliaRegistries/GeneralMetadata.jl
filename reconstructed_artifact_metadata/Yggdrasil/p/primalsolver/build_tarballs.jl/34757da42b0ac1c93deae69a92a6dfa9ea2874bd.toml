@@ -1,0 +1,28 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "PrimalSolver"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/Primal\nSRCS=\"linalg.c stdform.c simplex.c ipm.c socp.c conic_matrix.c sdp.c expcone.c mpsio.c cbf.c scaling.c presolve.c $(ls primal_*.c)\"\nmkdir -p ${libdir}\n${CC} -std=c99 -O2 -fPIC -I. -shared -o ${libdir}/libprimal.${dlext} ${SRCS} -lm -lpthread\ninstall -Dvm 644 primal.h ${includedir}/primal.h\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v0.1.5"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libprimal"]
+type = "lib"
+variable_name = "libprimal"
+
+[[sources]]
+hash = "bc15e09b42b93e8003b0089c8f2d17b1c6e245c1"
+tag = "v0.1.5"
+type = "git"
+unpack_target = ""
+url = "https://github.com/c-vision/Primal.git"

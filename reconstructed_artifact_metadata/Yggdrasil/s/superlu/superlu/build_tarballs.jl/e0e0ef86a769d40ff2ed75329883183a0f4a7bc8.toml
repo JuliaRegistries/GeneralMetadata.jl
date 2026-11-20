@@ -1,0 +1,40 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.11"
+lazy_artifacts = false
+name = "SuperLU"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/superlu\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -Denable_internal_blaslib=OFF \\\n    -Denable_examples=OFF \\\n    -Denable_tests=OFF \\\n    -DTPL_BLAS_LIBRARIES=\"${libdir}/libopenblas.${dlext}\"\ncmake --build build --parallel ${nproc}\ncmake --install build\ninstall_license License.txt\n"""
+toplevel_block = ""
+version = "v7.0.1"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+build_version = "0.3.29"
+compat = "0.3.29"
+name = "OpenBLAS32_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "656ef2d0-ae68-5445-9ca0-591084a874a2"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsuperlu"]
+type = "lib"
+variable_name = "libsuperlu"
+
+[[sources]]
+hash = "83a3c82b9e44c966ca2bc26991ffdb2bf63e1e2b"
+tag = "v7.0.1"
+type = "git"
+unpack_target = ""
+url = "https://github.com/xiaoyeli/superlu.git"

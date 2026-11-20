@@ -1,0 +1,60 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "~1.10, ~1.11, ~1.12, ~1.13"
+lazy_artifacts = false
+name = "CasADiSWIG"
+platforms = ["i686-linux-gnu-cxx11-julia_version+1.10.0", "x86_64-linux-gnu-cxx11-julia_version+1.10.0", "aarch64-linux-gnu-cxx11-julia_version+1.10.0", "powerpc64le-linux-gnu-cxx11-julia_version+1.10.0", "x86_64-linux-musl-cxx11-julia_version+1.10.0", "aarch64-linux-musl-cxx11-julia_version+1.10.0", "x86_64-apple-darwin-julia_version+1.10.0", "aarch64-apple-darwin-julia_version+1.10.0", "i686-w64-mingw32-cxx11-julia_version+1.10.0", "x86_64-w64-mingw32-cxx11-julia_version+1.10.0", "i686-linux-gnu-cxx11-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-julia_version+1.11.1", "aarch64-linux-gnu-cxx11-julia_version+1.11.1", "powerpc64le-linux-gnu-cxx11-julia_version+1.11.1", "x86_64-linux-musl-cxx11-julia_version+1.11.1", "aarch64-linux-musl-cxx11-julia_version+1.11.1", "x86_64-apple-darwin-julia_version+1.11.1", "aarch64-apple-darwin-julia_version+1.11.1", "i686-w64-mingw32-cxx11-julia_version+1.11.1", "x86_64-w64-mingw32-cxx11-julia_version+1.11.1", "i686-linux-gnu-cxx11-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-julia_version+1.12.0", "aarch64-linux-gnu-cxx11-julia_version+1.12.0", "powerpc64le-linux-gnu-cxx11-julia_version+1.12.0", "x86_64-linux-musl-cxx11-julia_version+1.12.0", "aarch64-linux-musl-cxx11-julia_version+1.12.0", "x86_64-apple-darwin-julia_version+1.12.0", "aarch64-apple-darwin-julia_version+1.12.0", "i686-w64-mingw32-cxx11-julia_version+1.12.0", "x86_64-w64-mingw32-cxx11-julia_version+1.12.0", "i686-linux-gnu-cxx11-julia_version+1.13.0", "x86_64-linux-gnu-cxx11-julia_version+1.13.0", "aarch64-linux-gnu-cxx11-julia_version+1.13.0", "powerpc64le-linux-gnu-cxx11-julia_version+1.13.0", "x86_64-linux-musl-cxx11-julia_version+1.13.0", "aarch64-linux-musl-cxx11-julia_version+1.13.0", "x86_64-apple-darwin-julia_version+1.13.0", "aarch64-apple-darwin-julia_version+1.13.0", "i686-w64-mingw32-cxx11-julia_version+1.13.0", "x86_64-w64-mingw32-cxx11-julia_version+1.13.0"]
+script = """cd ${WORKSPACE}/srcdir\ninstall_license LICENSE.txt\n\natomic_patch -p1 \"${WORKSPACE}/srcdir/patches/casadi_native_body.patch\"\n\npkgdir=\"${prefix}/share/CasADiSWIG\"\nmkdir -pv \"${pkgdir}\"\n\nflags=(\n    -std=c++17\n    -fPIC\n    -shared\n    -DWITH_DEPRECATED_FEATURES\n    -I\"${includedir}\"\n    -I\"${includedir}/julia\"\n    swig/julia/target/source/casadiJULIA_wrap.cxx\n    -L\"${libdir}\"\n    -lcasadi\n    -ljulia\n)\n\n${CXX} \"${flags[@]}\" -o \"${pkgdir}/libcasadi_wrap.${dlext}\"\n\n# Everything else ships verbatim, beside the wrapper, so each module's\n# @__DIR__ lookup resolves inside the artifact.\ninstall -Dvm644 swig/julia/target/source/casadi.jl \"${pkgdir}/casadi.jl\"\ninstall -Dvm644 swig/julia/CasADiNative.jl \"${pkgdir}/casadi_native_body.jl\"\n"""
+toplevel_block = ""
+version = "v3.8.2"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+build_version = "3.8.2"
+compat = "=3.8.2"
+name = "CasADi_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "libjulia_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = ["share/CasADiSWIG"]
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libcasadi_wrap"]
+type = "lib"
+variable_name = "libcasadi_wrap"
+[[products]]
+paths = ["share/CasADiSWIG/casadi.jl"]
+type = "file"
+variable_name = "casadi_jl"
+[[products]]
+paths = ["share/CasADiSWIG/casadi_native_body.jl"]
+type = "file"
+variable_name = "casadi_native_body"
+
+[[sources]]
+hash = "e06ba23a96c9b2659afd5c2cd16d4f0b6f5971bf1c00386d79350525f1a38b48"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/casadi/casadi/releases/download/3.8.2/casadi-source-v3.8.2.zip"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

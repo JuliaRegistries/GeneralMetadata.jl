@@ -1,0 +1,54 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "pandoc"
+platforms = ["x86_64-linux-gnu", "x86_64-apple-darwin", "x86_64-w64-mingw32", "aarch64-linux-gnu", "aarch64-apple-darwin"]
+script = """cd ${WORKSPACE}/srcdir/\nmkdir -p \"${bindir}\"\nif [[ \"${target}\" != *-mingw* ]]; then\n    subdir=\"bin/\"\nfi\ncp ${target}/pandoc-*/${subdir}pandoc${exeext} ${bindir}\nchmod +x ${bindir}/*\ninstall_license COPYRIGHT\ninstall_license COPYING.md\n"""
+toplevel_block = ""
+version = "v3.13.0"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[products]]
+binnames = ["pandoc"]
+type = "exe"
+variable_name = "pandoc"
+
+[[sources]]
+hash = "38aa33b325a2bc96a4c39409631212db55702f564250bcdbead180b3bf646389"
+type = "archive"
+unpack_target = "x86_64-linux-gnu"
+url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-amd64.tar.gz"
+[[sources]]
+hash = "1823278715aa405aaf21b59cde5dc789346aa8d4fc307467f9a9ee84162bedc5"
+type = "archive"
+unpack_target = "x86_64-apple-darwin14"
+url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-x86_64-macOS.zip"
+[[sources]]
+hash = "f436d18bebbfb3ddd326597686dacab9fac5dc23bd060495020f35a28a43a7c3"
+type = "archive"
+unpack_target = "aarch64-apple-darwin20"
+url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-arm64-macOS.zip"
+[[sources]]
+hash = "23e1f2e978a3df80db8bf65c9c59534f41a23140480cfb4f783a882ab7dc6a4e"
+type = "archive"
+unpack_target = "x86_64-w64-mingw32"
+url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-windows-x86_64.zip"
+[[sources]]
+hash = "21e1d4ba09bd0b334590d204580fd4f6629b21be4ab6a32b26cc98982e9e0c68"
+type = "archive"
+unpack_target = "aarch64-linux-gnu"
+url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-arm64.tar.gz"
+[[sources]]
+filename = "COPYRIGHT"
+hash = "842e33ef01625e93f85bebb8bac83aa570186b7aa77a09971257cc29f8f60740"
+type = "file"
+url = "https://raw.githubusercontent.com/jgm/pandoc/3.13/COPYRIGHT"
+[[sources]]
+filename = "COPYING.md"
+hash = "3ebfbf9235b049d384cdba5a66a1a3434bb544391e720b76faa8e1b3ee61a4e5"
+type = "file"
+url = "https://raw.githubusercontent.com/jgm/pandoc/3.13/COPYING.md"

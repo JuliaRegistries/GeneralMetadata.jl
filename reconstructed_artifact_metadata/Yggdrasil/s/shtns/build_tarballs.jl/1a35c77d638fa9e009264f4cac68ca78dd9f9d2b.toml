@@ -1,0 +1,94 @@
+augment_platform_block = """using Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\nend\n\n# every other tag that artifacts are selected on must be set before calling this\nfunction augment_cuda_tag!(platform::Platform)\n    if @isdefined(CUDA_Runtime_jll) && isdefined(CUDA_Runtime_jll, :augment_dependent!)\n        # both Pkg and the JLL module include this file from the JLL's `.pkg` directory\n        artifacts_toml = joinpath(@__DIR__, \"..\", \"Artifacts.toml\")\n        CUDA_Runtime_jll.augment_dependent!(platform, artifacts_toml)\n    elseif !haskey(platform, \"cuda\")\n        # CUDA_Runtime_jll is missing during initial installation, or briefly older than\n        # our compat bound while Pkg changes the environment. select the CPU build, if\n        # any; without the tag, Pkg would select any build.\n        platform[\"cuda\"] = \"none\"\n    end\n    return platform\nend\n\nfunction augment_platform!(platform::Platform)\n    augment_cuda_tag!(platform)\nend"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = true
+name = "SHTns"
+platforms = ["x86_64-linux-gnu-cuda+11.5", "x86_64-linux-gnu-cuda+12.0", "x86_64-linux-gnu-cuda+13.0", "i686-linux-gnu-cuda+none", "x86_64-linux-gnu-cuda+none", "aarch64-linux-gnu-cuda+none", "armv6l-linux-gnueabihf-cuda+none", "armv7l-linux-gnueabihf-cuda+none", "powerpc64le-linux-gnu-cuda+none", "riscv64-linux-gnu-cuda+none", "i686-linux-musl-cuda+none", "x86_64-linux-musl-cuda+none", "aarch64-linux-musl-cuda+none", "armv6l-linux-musleabihf-cuda+none", "armv7l-linux-musleabihf-cuda+none", "x86_64-apple-darwin-cuda+none", "aarch64-apple-darwin-cuda+none", "x86_64-unknown-freebsd-cuda+none", "aarch64-unknown-freebsd-cuda+none", "i686-w64-mingw32-cuda+none", "x86_64-w64-mingw32-cuda+none"]
+script = """cd $WORKSPACE/srcdir/shtns*/\nexport CFLAGS=\"-fPIC -O3\" #only -fPIC produces slow code on linux x86 and MacOS x86 (maybe others)\nexport LDFLAGS=\"\"\n\n#remove lfftw3_omp library references, as FFTW_jll does not provide it\nsed -i -e 's/lfftw3_omp/lfftw3/g' configure\n\n#remove mtune and gencode flags, replace by nvcc -arch=all (good?)\nsed -i -e '/-mtune=skylake/d' configure\nsed -i -e 's/nvcc -std=c++11 \\$nvcc_gencode_flags/nvcc -Xcompiler -fPIC -std=c++11 -arch=all/' configure\n\nsed -i -e 's/lib64/lib/g' configure\n\nconfigure_args=\"--prefix=${prefix} --host=${target} --enable-openmp --enable-kernel-compiler=cc \"\nlink_flags=\"-lfftw3 -lm \"\n\nif [[ -d \"${prefix}/cuda\" ]]; then\n    export CUDA_PATH=\"$prefix/cuda\"\n    export PATH=$CUDA_PATH/bin:$PATH\n    LDFLAGS+=\"-L$CUDA_PATH/lib -L$CUDA_PATH/lib/stubs\"\n    configure_args+=\"--enable-cuda\"\n    link_flags+=\"-lcuda -lnvrtc -lcudart\"\nfi\n\n./configure $configure_args\nmake -j${nproc} \nrm *.a\nmkdir -p ${libdir}\ncc -fopenmp -shared $CFLAGS $LDFLAGS -o \"${libdir}/libshtns.${dlext}\" *.o $link_flags\n\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v3.7.1"
+
+[build_options]
+compression_format = "\"gzip\""
+dont_dlopen = "true"
+preferred_gcc_version = "v\"10.0.0\""
+skip_audit = "true"
+
+[[dependencies]]
+compat = ""
+name = "FFTW_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["x86_64-linux-gnu-cuda+11.5", "x86_64-linux-gnu-cuda+12.0", "x86_64-linux-gnu-cuda+13.0", "i686-linux-gnu-cuda+none", "x86_64-linux-gnu-cuda+none", "aarch64-linux-gnu-cuda+none", "armv6l-linux-gnueabihf-cuda+none", "armv7l-linux-gnueabihf-cuda+none", "powerpc64le-linux-gnu-cuda+none", "riscv64-linux-gnu-cuda+none", "i686-linux-musl-cuda+none", "x86_64-linux-musl-cuda+none", "aarch64-linux-musl-cuda+none", "armv6l-linux-musleabihf-cuda+none", "armv7l-linux-musleabihf-cuda+none", "i686-w64-mingw32-cuda+none", "x86_64-w64-mingw32-cuda+none"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "LLVMOpenMP_jll"
+platforms = ["x86_64-apple-darwin-cuda+none", "aarch64-apple-darwin-cuda+none", "x86_64-unknown-freebsd-cuda+none", "aarch64-unknown-freebsd-cuda+none"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["x86_64-linux-gnu-cuda+11.5"]
+top_level = false
+type = "builddependency"
+version-major = 11
+version-minor = 5
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 0
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["x86_64-linux-gnu-cuda+13.0"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = "0.26.1 - 0"
+name = "CUDA_Runtime_jll"
+platforms = ["x86_64-linux-gnu-cuda+11.5", "x86_64-linux-gnu-cuda+12.0", "x86_64-linux-gnu-cuda+13.0"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libshtns"]
+type = "lib"
+variable_name = "LibSHTns"
+
+[[sources]]
+hash = "4e04fba84ea156974df5edaf4ee856c0f4f86e77"
+tag = "v3.7"
+type = "git"
+unpack_target = ""
+url = "https://gricad-gitlab.univ-grenoble-alpes.fr/schaeffn/shtns.git"

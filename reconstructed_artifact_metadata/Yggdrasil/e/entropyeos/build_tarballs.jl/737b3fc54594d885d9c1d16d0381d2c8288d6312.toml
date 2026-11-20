@@ -1,0 +1,80 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "EntropyEOS"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd ${WORKSPACE}/srcdir/EntropyEOS\n# We use `-ffp-contract=off` to forbid re-arranging floating-point\n# expressions. This way we can get bitwise identical results here in\n# C++ and in a Julia code that implements the same algorithm.\nmake_options=(\n    CXXFLAGS=\"-O2 -std=c++17 -ffp-contract=off\"\n    OPENMP=-fopenmp\n    HDF5_INC=\"-I${includedir}\"\n    HDF5_LIB=\"-L${libdir} -lhdf5\"\n    PREFIX=${prefix}\n)\nmake -j${nproc} \"${make_options[@]}\" lib tools\nmake \"${make_options[@]}\" install\nfor tool in eos_crop eos_repair eos_test; do\n    install -Dvm 755 tools/${tool}${exeext} ${bindir}/${tool}${exeext}\ndone\ninstall_license LICENSE.md\n"""
+toplevel_block = ""
+version = "v1.3.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.2.3"
+compat = "2.2.3"
+name = "HDF5_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "LLVMOpenMP_jll"
+platforms = ["x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "OpenMPI_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd"]
+top_level = false
+type = "builddependency"
+version-major = 4
+version-minor = 1
+version-patch = 11
+[[dependencies]]
+compat = ""
+name = "MicrosoftMPI_jll"
+platforms = ["i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["eos_crop"]
+type = "exe"
+variable_name = "eos_crop"
+[[products]]
+binnames = ["eos_repair"]
+type = "exe"
+variable_name = "eos_repair"
+[[products]]
+binnames = ["eos_test"]
+type = "exe"
+variable_name = "eos_test"
+
+[[sources]]
+hash = "db2189cfa5b0e685ddc195efe21a810305091154"
+tag = "v1.3.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/eschnett/EntropyEOS.git"

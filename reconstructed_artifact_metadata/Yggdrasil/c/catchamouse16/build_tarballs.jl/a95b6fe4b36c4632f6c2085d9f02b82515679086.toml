@@ -1,0 +1,49 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "catchaMouse16"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/catchaMouse16/C\nif [[ ${target} == aarch64-apple-* ]]; then\n    extra_ldflags=\"-L${libdir}/darwin -lclang_rt.osx\"\nfi\nmake -j${nproc} \\\n    CC=\"${CC}\" \\\n    CFLAGS=\"-std=c99 -O2 -fPIC\" \\\n    LDFLAGS=\"-shared ${extra_ldflags}\" \\\n    TARGET_EXEC=\"libcatchaMouse16.${dlext}\"\ninstall -Dvm 755 \"libcatchaMouse16.${dlext}\" -t \"${libdir}\"\ninstall_license ../LICENSE\n"""
+toplevel_block = ""
+version = "v0.2.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_llvm_version = "v\"17.0.6\""
+
+[[dependencies]]
+build_version = "2.7.3"
+compat = "~2.7.3"
+name = "GSL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "LLVMCompilerRT_jll"
+platforms = ["aarch64-apple-darwin"]
+top_level = false
+type = "builddependency"
+uuid = "4e17d02c-6bf5-513e-be62-445f41c75a11"
+version-major = 17
+version-minor = 0
+version-patch = 6
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libcatchaMouse16"]
+type = "lib"
+variable_name = "libcatchaMouse16"
+
+[[sources]]
+hash = "2ad18283e0f2856e520794602f2f3748857e320d"
+tag = "v0.2.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/DynamicsAndNeuralSystems/catchaMouse16.git"

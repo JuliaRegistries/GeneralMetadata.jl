@@ -2,6 +2,106 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz"]
 registered = 2026-11-09T05:57:11.000Z
 
+    [["4.14.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+0/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/01d54610df4ee9ac5b1d3036c1f386944722ce3b/O/OpenCV/OpenCV_CUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/opencv/opencv_cuda/build_tarballs.jl/01d54610df4ee9ac5b1d3036c1f386944722ce3b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["4.14.0+0".artifact_metadata.sources]]
+        hash = "0654a42e19215ef25b1d367d822f3c630447e7c7"
+        type = "git"
+        url = "https://github.com/opencv/opencv.git"
+
+            ["4.14.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/opencv"
+            provenance = "git-tag"
+            version = "4.14.0"
+        [["4.14.0+0".artifact_metadata.sources]]
+        hash = "a8e9acd62cabd30419dba83007f2ac0d07de5e2c"
+        type = "git"
+        url = "https://github.com/opencv/opencv_contrib.git"
+        [["4.14.0+0".artifact_metadata.sources]]
+        hash = "244e22cb06b1d890ce4beb9fec3a5f7993957fac"
+        type = "git"
+        url = "https://github.com/JuliaImages/OpenCV.jl.git"
+        [["4.14.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/01d54610df4ee9ac5b1d3036c1f386944722ce3b//O/OpenCV/bundled"
+        [["4.14.0+0".artifact_metadata.sources]]
+        hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
+        type = "file"
+        url = "https://github.com/roblabla/MacOSX-SDKs/releases/download/macosx14.0/MacOSX14.0.sdk.tar.xz"
+        [["4.14.0+0".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["4.14.0+0".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["4.14.0+0".artifact_metadata.sources]]
+        package = "libjulia_jll"
+        type = "builddependency"
+        [["4.14.0+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["4.14.0+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"
+
 ["4.14.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz"]
 registered = 2026-11-10T18:26:55.000Z
+
+    [["4.14.0+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenCV_CUDA_jll.jl/releases/download/OpenCV_CUDA-v4.14.0+1/OpenCV_CUDA.v4.14.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/e42cb44a4d42c31b2d7b5b4917e95bcc3468c120/O/OpenCV/OpenCV_CUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/opencv/opencv_cuda/build_tarballs.jl/e42cb44a4d42c31b2d7b5b4917e95bcc3468c120.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["4.14.0+1".artifact_metadata.sources]]
+        hash = "0654a42e19215ef25b1d367d822f3c630447e7c7"
+        type = "git"
+        url = "https://github.com/opencv/opencv.git"
+
+            ["4.14.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/opencv"
+            provenance = "git-tag"
+            version = "4.14.0"
+        [["4.14.0+1".artifact_metadata.sources]]
+        hash = "a8e9acd62cabd30419dba83007f2ac0d07de5e2c"
+        type = "git"
+        url = "https://github.com/opencv/opencv_contrib.git"
+        [["4.14.0+1".artifact_metadata.sources]]
+        hash = "244e22cb06b1d890ce4beb9fec3a5f7993957fac"
+        type = "git"
+        url = "https://github.com/JuliaImages/OpenCV.jl.git"
+        [["4.14.0+1".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e42cb44a4d42c31b2d7b5b4917e95bcc3468c120//O/OpenCV/bundled"
+        [["4.14.0+1".artifact_metadata.sources]]
+        hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
+        type = "file"
+        url = "https://github.com/roblabla/MacOSX-SDKs/releases/download/macosx14.0/MacOSX14.0.sdk.tar.xz"
+        [["4.14.0+1".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["4.14.0+1".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["4.14.0+1".artifact_metadata.sources]]
+        package = "libjulia_jll"
+        type = "builddependency"
+        [["4.14.0+1".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["4.14.0+1".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"

@@ -350,3 +350,24 @@ registered = 2026-02-04T16:52:00.000Z
 ["1.20.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.aarch64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.4.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.5.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.9.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+none.tar.gz"]
 registered = 2026-11-18T17:32:31.000Z
+
+    [["1.20.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.aarch64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.2.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.3.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.4.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.5.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.6.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+12.9.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/UCX_jll.jl/releases/download/UCX-v1.20.1+0/UCX.v1.20.1.x86_64-linux-gnu-cuda+none.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/d2922fa0e9fe7548b5eb81c40f9de9b96c5ef5e2/U/UCX/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/u/ucx/build_tarballs.jl/d2922fa0e9fe7548b5eb81c40f9de9b96c5ef5e2.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.20.1+0".artifact_metadata.sources]]
+        hash = "d8e50df6651b9ea5b76f23aee0aefbf053a4137a"
+        type = "git"
+        url = "https://github.com/openucx/ucx.git"
+
+            ["1.20.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/openucx"
+            provenance = "git-tag"
+            version = "1.20.1"
+        [["1.20.1+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"

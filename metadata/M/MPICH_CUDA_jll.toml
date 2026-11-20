@@ -373,3 +373,46 @@ registered = 2026-09-28T22:59:05.000Z
 ["5.0.3+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+11.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+11.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+11.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz"]
 registered = 2026-11-03T23:05:55.000Z
+
+    [["5.0.3+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+11.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+11.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+11.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/dbcea180a9367fc3c3e0118b9379a6649dce4469/M/MPICH_CUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/mpich_cuda/build_tarballs.jl/dbcea180a9367fc3c3e0118b9379a6649dce4469.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["5.0.3+0".artifact_metadata.sources]]
+        hash = "928c2f18d350a91443fe8024ad01ce2c6009e9c551e0a73e797fc567f119137d"
+        type = "archive"
+        url = "https://www.mpich.org/static/downloads/5.0.2/mpich-5.0.2.tar.gz"
+
+            ["5.0.3+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpich"
+            provenance = "repology-url"
+            version = "5.0.2"
+        [["5.0.3+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/dbcea180a9367fc3c3e0118b9379a6649dce4469/M/MPICH_CUDA/bundled"
+        [["5.0.3+0".artifact_metadata.sources]]
+        hash = "7ee8450dbcc16e9fe5d2a7b567d6dec220c5894a94ac6640459e06231e3b39a5"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-11.8.89-archive.tar.xz"
+        [["5.0.3+0".artifact_metadata.sources]]
+        hash = "906b894dffd853acefe6ab3d2a6cd74a0aa99b34bb8ca1e848174bddf55bfa3b"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.0.140-archive.tar.xz"
+        [["5.0.3+0".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["5.0.3+0".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["5.0.3+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["5.0.3+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"

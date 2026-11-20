@@ -1,0 +1,98 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "tectonic"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "x86_64-w64-mingw32-cxx11"]
+script = """macos_sdk_version=11.1\nmacosx_deployment_target=10.15\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir/tectonic\n\nif [[ \"${target}\" == *-mingw* ]]; then\n    export RUSTFLAGS=\"-Clink-args=-L${libdir}\"\nfi\n\n# On FreeBSD, HarfBuzz_jll ships its pkg-config files in libdata/pkgconfig\nexport PKG_CONFIG_PATH=\"${PKG_CONFIG_PATH:+${PKG_CONFIG_PATH}:}${prefix}/libdata/pkgconfig\"\n\nif [[ \"${target}\" == powerpc64le-* ]]; then\n    # `aws-lc-sys` (rustls' crypto provider) reads AT_HWCAP2 in cpu_ppc64le.c.\n    # The glibc headers of our powerpc64le toolchain predate that constant\n    # (it has been 26 since Linux 3.10), so define it ourselves.\n    export CFLAGS_powerpc64le_unknown_linux_gnu=\"-DAT_HWCAP2=26\"\nfi\n\ncargo build --release --locked --features external-harfbuzz\ninstall -Dvm 755 \"target/${rust_target}/release/tectonic${exeext}\" \"${bindir}/tectonic${exeext}\"\n"""
+toplevel_block = ""
+version = "v0.17.0"
+
+[[dependencies]]
+compat = "2.17.1"
+name = "Fontconfig_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "2.13.4"
+name = "FreeType2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "1.3.15"
+name = "Graphite2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "100.14003"
+name = "HarfBuzz_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "100.14003"
+name = "HarfBuzz_ICU_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "76.2"
+name = "ICU_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "libpng_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["tectonic"]
+type = "exe"
+variable_name = "tectonic"
+
+[[sources]]
+hash = "8c0126a9653239a2e6e0a5274af9b8510f643030"
+type = "git"
+unpack_target = ""
+url = "https://github.com/tectonic-typesetting/tectonic.git"
+[[sources]]
+filename = "MacOSX11.1.sdk.tar.xz"
+hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.1.sdk.tar.xz"

@@ -1,0 +1,79 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "X13as"
+platforms = ["i686-linux-gnu-libgfortran5", "x86_64-linux-gnu-libgfortran5", "aarch64-linux-gnu-libgfortran5", "armv6l-linux-gnueabihf-libgfortran5", "armv7l-linux-gnueabihf-libgfortran5", "powerpc64le-linux-gnu-libgfortran5", "riscv64-linux-gnu-libgfortran5", "i686-linux-musl-libgfortran5", "x86_64-linux-musl-libgfortran5", "aarch64-linux-musl-libgfortran5", "armv6l-linux-musleabihf-libgfortran5", "armv7l-linux-musleabihf-libgfortran5", "x86_64-apple-darwin-libgfortran5", "aarch64-apple-darwin-libgfortran5", "x86_64-unknown-freebsd-libgfortran5", "aarch64-unknown-freebsd-libgfortran5", "i686-w64-mingw32-libgfortran5", "x86_64-w64-mingw32-libgfortran5"]
+script = """cd $WORKSPACE/srcdir\n########## First, build and install the ascii version\npushd x13as_asciisrc-*\n###  Remove the stray T argument in the CRLF source.\nsed -i -e \"s|'\\,T|'|\" adpdrg.f\nif [[ \"${target}\" == *-apple-* ]]\nthen\n    # the -static flag doesn't work in macos; also disable -s linker flag\n    sed -e \"s/\\-static//\" -i makefile.gf\n    make -j${nproc} -f makefile.gf PROGRAM=\"x13as_ascii${exeext}\" LDFLAGS=\nelse\n    make -j${nproc} -f makefile.gf PROGRAM=\"x13as_ascii${exeext}\"\nfi\nmkdir -p ${bindir}\ninstall -Dvm 755 \"x13as_ascii${exeext}\" \"${bindir}/x13as_ascii${exeext}\"\npopd\n########## Second, build and install the html version\npushd x13as_htmlsrc-*\n###  They left the debug flags here for some reason\nsed -e \"s/FFLAGS.*/FFLAGS=-O2/\" -i makefile.gf\nif [[ \"${target}\" == *-apple-* ]]\nthen\n    # the -static flag doesn't work in macos; also disable -s linker flag\n    sed -e \"s/\\-static//\" -i makefile.gf\n    make -j${nproc} -f makefile.gf PROGRAM=\"x13as_html${exeext}\" LDFLAGS=\nelse\n    make -j${nproc} -f makefile.gf PROGRAM=\"x13as_html${exeext}\"\nfi\ninstall -Dvm 755 \"x13as_html${exeext}\" \"${bindir}/x13as_html${exeext}\"\npopd\n########## Third, install the docs and the test examples\ndocsdir=\"${prefix}/docs\"\nmkdir -p \"${docsdir}\"\ninstall -Dvm 644 \"x13as/testairline.spc\" \"${docsdir}/testairline.spc\"\ninstall -Dvm 644 \"x13as/docs/docX13AS.pdf\" \"${docsdir}/docx13as.pdf\"\ninstall -Dvm 644 \"x13as/docs/qrefX13ASunix.pdf\" \"${docsdir}/qrefX13ASunix.pdf\"\ninstall -Dvm 644 \"x13as/docs/docX13ASHTML.pdf\" \"${docsdir}/docX13ASHTML.pdf\"\ninstall -Dvm 644 \"x13as/docs/qrefX13ASHTMLunix.pdf\" \"${docsdir}/qrefX13ASHTMLunix.pdf\"\n########## Fourth, install license files\ninstall_license x13as_license.md\n"""
+toplevel_block = ""
+version = "v1.1.62"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[dependencies]]
+build_version = "0.5.0"
+compat = "0.5, 1"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["x13as_ascii"]
+type = "exe"
+variable_name = "x13as_ascii"
+[[products]]
+binnames = ["x13as_html"]
+type = "exe"
+variable_name = "x13as_html"
+[[products]]
+paths = ["docs/testairline.spc"]
+type = "file"
+variable_name = "testairline_spc"
+[[products]]
+paths = ["docs/docx13as.pdf"]
+type = "file"
+variable_name = "docx13as_pdf"
+[[products]]
+paths = ["docs/qrefX13ASunix.pdf"]
+type = "file"
+variable_name = "qrefX13ASunix_pdf"
+[[products]]
+paths = ["docs/docX13ASHTML.pdf"]
+type = "file"
+variable_name = "docX13ASHTML_pdf"
+[[products]]
+paths = ["docs/qrefX13ASHTMLunix.pdf"]
+type = "file"
+variable_name = "qrefX13ASHTMLunix_pdf"
+
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
+[[sources]]
+hash = "82796c84b54891474df1a6ffb16be7bf7bd4a992e3679158645c888e6cddda12"
+type = "archive"
+unpack_target = ""
+url = "https://www2.census.gov/software/x-13arima-seats/x13as/unix-linux/program-archives/x13as_asciisrc-v1-1-b62.tar.gz"
+[[sources]]
+hash = "b033b05a00f3b0af9e866ce261f437f348967ccea34bc3003fd59c477f663859"
+type = "archive"
+unpack_target = ""
+url = "https://www2.census.gov/software/x-13arima-seats/x13as/unix-linux/program-archives/x13as_htmlsrc-v1-1-b62.tar.gz"
+[[sources]]
+hash = "a91d37bb2fef46237e1eadd7d9b4f1c00a422d58f6b286c9bfe485289e8ac6f5"
+type = "archive"
+unpack_target = ""
+url = "https://www2.census.gov/software/x-13arima-seats/x13as/unix-linux/program-archives/x13as_ascii-v1-1-b62.tar.gz"
+[[sources]]
+hash = "96a82b100270f5b4645b3d6b5806e4446f79402ae73adc15beb39a93b7ac9170"
+type = "archive"
+unpack_target = ""
+url = "https://www2.census.gov/software/x-13arima-seats/x13as/unix-linux/program-archives/x13as_html-v1-1-b62.tar.gz"

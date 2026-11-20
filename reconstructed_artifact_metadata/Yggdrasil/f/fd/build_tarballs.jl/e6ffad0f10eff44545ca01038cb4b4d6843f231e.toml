@@ -1,0 +1,27 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "fd"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/fd\ncargo build --release --locked\ninstall -Dvm 755 \"target/${rust_target}/release/fd${exeext}\" -t \"${bindir}\"\ninstall_license LICENSE-APACHE LICENSE-MIT\n"""
+toplevel_block = ""
+version = "v10.3.0"
+
+[build_options]
+compilers = "[:c, :rust]"
+compression_format = "\"gzip\""
+lock_microarchitecture = "false"
+
+[[products]]
+binnames = ["fd"]
+type = "exe"
+variable_name = "fd_executable"
+
+[[sources]]
+hash = "d38148f0aabdd073b4080cde770f679f3197b920"
+tag = "v10.3.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/sharkdp/fd"

@@ -1,0 +1,28 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "CRlibm"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/crlibm*/\n\nautoreconf -fi\nupdate_configure_scripts\nexport CFLAGS=\"-fPIC -ffp-contract=off\"\n# The double-extended `log` sets the x87 control word to 53-bit precision and\n# does not restore the caller's value, which changes the results of other x87 code.\n./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target} --disable-double-extended\nmake -C scs_lib\nmake -j${nproc} libcrlibm.a\nmkdir -p ${libdir}\ncc -L. -shared -o ${libdir}/libcrlibm.${dlext} *.o scs_lib/*.o\n"""
+toplevel_block = ""
+version = "v1.0.3"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libcrlibm"]
+type = "lib"
+variable_name = "libcrlibm"
+
+[[sources]]
+hash = "074c45a6103fa79868c8981f28f767f339531184"
+tag = "v1.0beta6"
+type = "git"
+unpack_target = ""
+url = "https://github.com/JuliaIntervals/crlibm.git"

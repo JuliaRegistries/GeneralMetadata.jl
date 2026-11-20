@@ -1,0 +1,99 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.9"
+lazy_artifacts = false
+name = "ulmBLAS"
+platforms = ["x86_64-linux-gnu", "aarch64-apple-darwin", "x86_64-w64-mingw32"]
+script = ["""variants=\"x86_64 haswell skylakex zen4\"\ncd ${WORKSPACE}/srcdir/ulmBLAS\n\nflags() {\n    case $1 in\n    neon)     echo \"-DULMBLAS_NO_SME\";;\n    sme)      echo \"-mcpu=apple-m4\";;\n    x86_64)   echo \"-msse3\";;\n    haswell)  echo \"-mavx -mavx2 -mfma\" \\\n                   \"-DULMBLAS_DGEMM_UKERNEL_openblas_haswell_4x8\" \\\n                   \"-DULMBLAS_SGEMM_UKERNEL_openblas_haswell_8x4\" \\\n                   \"-DULMBLAS_CGEMM_UKERNEL_openblas_haswell_8x2\" \\\n                   \"-DULMBLAS_ZGEMM_UKERNEL_openblas_haswell_4x2\";;\n    skylakex) echo \"-mavx -mavx2 -mfma -mavx512f -mavx512dq\" \\\n                   \"-DULMBLAS_DGEMM_UKERNEL_openblas_skylakex_16x12\" \\\n                   \"-DULMBLAS_SGEMM_UKERNEL_openblas_skylakex_16x4\" \\\n                   \"-DULMBLAS_CGEMM_UKERNEL_openblas_skylakex_8x2\" \\\n                   \"-DULMBLAS_ZGEMM_UKERNEL_blis_zen4_12x4\";;\n    zen4)     echo \"-mavx -mavx2 -mfma -mavx512f -mavx512dq\" \\\n                   \"-DULMBLAS_DGEMM_UKERNEL_blis_zen4_32x6\" \\\n                   \"-DULMBLAS_SGEMM_UKERNEL_openblas_skylakex_16x4\" \\\n                   \"-DULMBLAS_CGEMM_UKERNEL_openblas_skylakex_8x2\" \\\n                   \"-DULMBLAS_ZGEMM_UKERNEL_blis_zen4_12x4\";;\n    esac\n}\n\nfor v in ${variants}; do\n    build=${WORKSPACE}/build/${v}\n    # The makefile picks these with `uname`, i.e. for the build host.\n    if [[ ${target} == *-apple-* ]]; then\n        link=\"-dynamiclib -Wl,-force_load,${build}/liblbtblas.a\"\n        link+=\" -Wl,-force_load,${build}/liblbtlapack.a\"\n        if [[ ${v} == sme ]]; then\n            # the SME support routines (`__arm_tpidr2_save`, ...), linked statically\n            link+=\" -L${libdir}/darwin -lclang_rt.osx\"\n        fi\n        # libomp of LLVMOpenMP_jll\n        omp=\"OMPFLAGS=-fopenmp -I${includedir}\"\n        omplibs=\"OMPLIBS=-L${libdir} -lomp\"\n    else\n        link=\"-shared -Wl,--whole-archive ${build}/liblbtblas.a ${build}/liblbtlapack.a -Wl,--no-whole-archive\"\n        link+=\" -static-libstdc++ -static-libgcc -Wl,--no-undefined -Wl,--strip-debug\"\n        # don't export the static libstdc++ (MinGW exports all global symbols)\n        link+=\" -Wl,--exclude-libs,libstdc++.a:libgcc.a:libgcc_eh.a\"\n        # libgomp of CompilerSupportLibraries_jll\n        omp=\"OMPFLAGS=-fopenmp\"\n        omplibs=\"OMPLIBS=-fopenmp\"\n    fi\n    make -j${nproc} lbt CXX=\"${CXX}\" CC=\"${CC}\" ARCHFLAGS=\"$(flags ${v})\" \\\n         OPENMP=1 LAPACK=1 \"${omp}\" \"${omplibs}\" \\\n         BUILD_DIR=${build} LBT_LIB=${build}/libulmblas_${v}.${dlext} LBT_LINK=\"${link}\"\n    install -Dvm 755 ${build}/libulmblas_${v}.${dlext} ${libdir}/libulmblas_${v}.${dlext}\ndone\n\n# includes the licenses of the micro kernels from BLIS, AOCL-BLAS and OpenBLAS\ninstall_license LICENSE\nif [[ ${target} == *-apple-* ]]; then\n    # compiler-rt is linked statically into libulmblas_sme\n    install_license ${prefix}/share/licenses/LLVMCompilerRT/LICENSE.TXT\nfi\n""", """variants=\"neon sme\"\ncd ${WORKSPACE}/srcdir/ulmBLAS\n\nflags() {\n    case $1 in\n    neon)     echo \"-DULMBLAS_NO_SME\";;\n    sme)      echo \"-mcpu=apple-m4\";;\n    x86_64)   echo \"-msse3\";;\n    haswell)  echo \"-mavx -mavx2 -mfma\" \\\n                   \"-DULMBLAS_DGEMM_UKERNEL_openblas_haswell_4x8\" \\\n                   \"-DULMBLAS_SGEMM_UKERNEL_openblas_haswell_8x4\" \\\n                   \"-DULMBLAS_CGEMM_UKERNEL_openblas_haswell_8x2\" \\\n                   \"-DULMBLAS_ZGEMM_UKERNEL_openblas_haswell_4x2\";;\n    skylakex) echo \"-mavx -mavx2 -mfma -mavx512f -mavx512dq\" \\\n                   \"-DULMBLAS_DGEMM_UKERNEL_openblas_skylakex_16x12\" \\\n                   \"-DULMBLAS_SGEMM_UKERNEL_openblas_skylakex_16x4\" \\\n                   \"-DULMBLAS_CGEMM_UKERNEL_openblas_skylakex_8x2\" \\\n                   \"-DULMBLAS_ZGEMM_UKERNEL_blis_zen4_12x4\";;\n    zen4)     echo \"-mavx -mavx2 -mfma -mavx512f -mavx512dq\" \\\n                   \"-DULMBLAS_DGEMM_UKERNEL_blis_zen4_32x6\" \\\n                   \"-DULMBLAS_SGEMM_UKERNEL_openblas_skylakex_16x4\" \\\n                   \"-DULMBLAS_CGEMM_UKERNEL_openblas_skylakex_8x2\" \\\n                   \"-DULMBLAS_ZGEMM_UKERNEL_blis_zen4_12x4\";;\n    esac\n}\n\nfor v in ${variants}; do\n    build=${WORKSPACE}/build/${v}\n    # The makefile picks these with `uname`, i.e. for the build host.\n    if [[ ${target} == *-apple-* ]]; then\n        link=\"-dynamiclib -Wl,-force_load,${build}/liblbtblas.a\"\n        link+=\" -Wl,-force_load,${build}/liblbtlapack.a\"\n        if [[ ${v} == sme ]]; then\n            # the SME support routines (`__arm_tpidr2_save`, ...), linked statically\n            link+=\" -L${libdir}/darwin -lclang_rt.osx\"\n        fi\n        # libomp of LLVMOpenMP_jll\n        omp=\"OMPFLAGS=-fopenmp -I${includedir}\"\n        omplibs=\"OMPLIBS=-L${libdir} -lomp\"\n    else\n        link=\"-shared -Wl,--whole-archive ${build}/liblbtblas.a ${build}/liblbtlapack.a -Wl,--no-whole-archive\"\n        link+=\" -static-libstdc++ -static-libgcc -Wl,--no-undefined -Wl,--strip-debug\"\n        # don't export the static libstdc++ (MinGW exports all global symbols)\n        link+=\" -Wl,--exclude-libs,libstdc++.a:libgcc.a:libgcc_eh.a\"\n        # libgomp of CompilerSupportLibraries_jll\n        omp=\"OMPFLAGS=-fopenmp\"\n        omplibs=\"OMPLIBS=-fopenmp\"\n    fi\n    make -j${nproc} lbt CXX=\"${CXX}\" CC=\"${CC}\" ARCHFLAGS=\"$(flags ${v})\" \\\n         OPENMP=1 LAPACK=1 \"${omp}\" \"${omplibs}\" \\\n         BUILD_DIR=${build} LBT_LIB=${build}/libulmblas_${v}.${dlext} LBT_LINK=\"${link}\"\n    install -Dvm 755 ${build}/libulmblas_${v}.${dlext} ${libdir}/libulmblas_${v}.${dlext}\ndone\n\n# includes the licenses of the micro kernels from BLIS, AOCL-BLAS and OpenBLAS\ninstall_license LICENSE\nif [[ ${target} == *-apple-* ]]; then\n    # compiler-rt is linked statically into libulmblas_sme\n    install_license ${prefix}/share/licenses/LLVMCompilerRT/LICENSE.TXT\nfi\n"""]
+toplevel_block = ""
+version = "v0.3.0"
+
+[[build_options]]
+compression_format = "\"gzip\""
+lock_microarchitecture = "false"
+preferred_gcc_version = "v\"11.0.0\""
+[[build_options]]
+compression_format = "\"gzip\""
+lock_microarchitecture = "false"
+
+[[dependencies]]
+build_version = "1.0.5"
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["x86_64-linux-gnu", "x86_64-w64-mingw32"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "15.0.7"
+compat = "15.0.7 - 23"
+name = "LLVMOpenMP_jll"
+platforms = ["aarch64-apple-darwin"]
+top_level = false
+type = "dependency"
+uuid = "1d63c593-3942-5779-bab2-d838dc0a180e"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "LLVMCompilerRT_jll"
+platforms = ["aarch64-apple-darwin"]
+top_level = false
+type = "builddependency"
+version-major = 20
+version-minor = 1
+version-patch = 8
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libulmblas_x86_64"]
+type = "lib"
+variable_name = "libulmblas_x86_64"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libulmblas_haswell"]
+type = "lib"
+variable_name = "libulmblas_haswell"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libulmblas_skylakex"]
+type = "lib"
+variable_name = "libulmblas_skylakex"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libulmblas_zen4"]
+type = "lib"
+variable_name = "libulmblas_zen4"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libulmblas_neon"]
+type = "lib"
+variable_name = "libulmblas_neon"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libulmblas_sme"]
+type = "lib"
+variable_name = "libulmblas_sme"
+
+[[sources]]
+hash = "58e67dc8a19b385b33935750e58792db3e9de5e5"
+tag = "v0.3.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/michael-lehn/ulmBLAS.git"

@@ -38,3 +38,16 @@ registered = 2026-08-01T18:18:00.000Z
 ["0.1.2+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-linux-musl.tar.gz"]
 registered = 2026-11-18T12:07:41.000Z
+
+    [["0.1.2+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/JIL_jll.jl/releases/download/JIL-v0.1.2+0/JIL.v0.1.2.x86_64-linux-musl.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/359447327c3a3690ee59d3c2d4643078a2badb01/J/JIL/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/j/jil/build_tarballs.jl/359447327c3a3690ee59d3c2d4643078a2badb01.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.1.2+0".artifact_metadata.sources]]
+        hash = "9f4f67151891a4bd082b36a73604eb660d83806a"
+        type = "git"
+        url = "https://git.renater.fr/anonscm/git/jil/jil.git"

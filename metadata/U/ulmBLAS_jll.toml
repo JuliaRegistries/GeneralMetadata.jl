@@ -2,6 +2,38 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.x86_64-linux-gnu.tar.gz"]
 registered = 2026-11-09T15:40:23.000Z
 
+    [["0.2.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.2.0+0/ulmBLAS.v0.2.0.x86_64-linux-gnu.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/ee39ca4c7c3f85700b481c60bb916b8b04a8315b/U/ulmBLAS/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/u/ulmblas/build_tarballs.jl/ee39ca4c7c3f85700b481c60bb916b8b04a8315b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.2.0+0".artifact_metadata.sources]]
+        hash = "6a7d7dc6f951a8d1e648b759016a20806d527d6d"
+        type = "git"
+        url = "https://github.com/michael-lehn/ulmBLAS.git"
+        [["0.2.0+0".artifact_metadata.sources]]
+        package = "LLVMCompilerRT_jll"
+        type = "builddependency"
+
 ["0.3.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-09T22:16:41.000Z
+
+    [["0.3.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ulmBLAS_jll.jl/releases/download/ulmBLAS-v0.3.0+0/ulmBLAS.v0.3.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/8a01900876f08f00414bbb01414e3809b0297443/U/ulmBLAS/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/u/ulmblas/build_tarballs.jl/8a01900876f08f00414bbb01414e3809b0297443.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.3.0+0".artifact_metadata.sources]]
+        hash = "58e67dc8a19b385b33935750e58792db3e9de5e5"
+        type = "git"
+        url = "https://github.com/michael-lehn/ulmBLAS.git"
+        [["0.3.0+0".artifact_metadata.sources]]
+        package = "LLVMCompilerRT_jll"
+        type = "builddependency"

@@ -1,0 +1,62 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "~1.11, ~1.12, ~1.13, ~1.14, ~1.15"
+lazy_artifacts = false
+name = "VTK_julia"
+platforms = ["x86_64-linux-gnu-cxx11-julia_version+1.11.1", "aarch64-linux-gnu-cxx11-julia_version+1.11.1", "powerpc64le-linux-gnu-cxx11-julia_version+1.11.1", "x86_64-linux-musl-cxx11-julia_version+1.11.1", "aarch64-linux-musl-cxx11-julia_version+1.11.1", "x86_64-apple-darwin-julia_version+1.11.1", "aarch64-apple-darwin-julia_version+1.11.1", "x86_64-unknown-freebsd-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-julia_version+1.12.0", "aarch64-linux-gnu-cxx11-julia_version+1.12.0", "powerpc64le-linux-gnu-cxx11-julia_version+1.12.0", "x86_64-linux-musl-cxx11-julia_version+1.12.0", "aarch64-linux-musl-cxx11-julia_version+1.12.0", "x86_64-apple-darwin-julia_version+1.12.0", "aarch64-apple-darwin-julia_version+1.12.0", "x86_64-unknown-freebsd-julia_version+1.12.0", "aarch64-unknown-freebsd-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-julia_version+1.13.0", "aarch64-linux-gnu-cxx11-julia_version+1.13.0", "powerpc64le-linux-gnu-cxx11-julia_version+1.13.0", "riscv64-linux-gnu-cxx11-julia_version+1.13.0", "x86_64-linux-musl-cxx11-julia_version+1.13.0", "aarch64-linux-musl-cxx11-julia_version+1.13.0", "x86_64-apple-darwin-julia_version+1.13.0", "aarch64-apple-darwin-julia_version+1.13.0", "x86_64-unknown-freebsd-julia_version+1.13.0", "aarch64-unknown-freebsd-julia_version+1.13.0", "x86_64-linux-gnu-cxx11-julia_version+1.14.0", "aarch64-linux-gnu-cxx11-julia_version+1.14.0", "powerpc64le-linux-gnu-cxx11-julia_version+1.14.0", "riscv64-linux-gnu-cxx11-julia_version+1.14.0", "x86_64-linux-musl-cxx11-julia_version+1.14.0", "aarch64-linux-musl-cxx11-julia_version+1.14.0", "x86_64-apple-darwin-julia_version+1.14.0", "aarch64-apple-darwin-julia_version+1.14.0", "x86_64-unknown-freebsd-julia_version+1.14.0", "aarch64-unknown-freebsd-julia_version+1.14.0", "x86_64-linux-gnu-cxx11-julia_version+1.15.0", "aarch64-linux-gnu-cxx11-julia_version+1.15.0", "powerpc64le-linux-gnu-cxx11-julia_version+1.15.0", "riscv64-linux-gnu-cxx11-julia_version+1.15.0", "x86_64-linux-musl-cxx11-julia_version+1.15.0", "aarch64-linux-musl-cxx11-julia_version+1.15.0", "x86_64-apple-darwin-julia_version+1.15.0", "aarch64-apple-darwin-julia_version+1.15.0", "x86_64-unknown-freebsd-julia_version+1.15.0", "aarch64-unknown-freebsd-julia_version+1.15.0"]
+script = """cd ${WORKSPACE}/srcdir/VTK_cxxwrap\n\ncmake -B build -DCMAKE_INSTALL_PREFIX=${prefix} -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} -DCMAKE_BUILD_TYPE=Release -DJulia_PREFIX=${prefix}\n\ncmake --build build --parallel ${nproc}\ncmake --install build\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v0.1.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"10.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "libjulia_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.14.12"
+compat = "0.14.12"
+name = "libcxxwrap_julia_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "9.7.1"
+compat = "9.7.1"
+name = "VTK_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libvtk_julia"]
+type = "lib"
+variable_name = "libvtk_julia"
+[[products]]
+paths = ["VTKGen.jl"]
+type = "file"
+variable_name = "VTKGen_exports"
+
+[[sources]]
+hash = "c4e77590ee854480821233058304bf30fbfb5f21"
+tag = "v0.1.0+vtk9.7"
+type = "git"
+unpack_target = ""
+url = "https://github.com/ffrancesco94/VTK_cxxwrap.git"

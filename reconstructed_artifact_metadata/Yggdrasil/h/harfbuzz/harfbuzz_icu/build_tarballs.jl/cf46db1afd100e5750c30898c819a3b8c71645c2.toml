@@ -1,0 +1,123 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "HarfBuzz_ICU"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """ICU=true\ncd $WORKSPACE/srcdir/harfbuzz-*/\n\n# On MacOS, bypass broken check for CoreText\nif [[ \"${target}\" == *-apple-darwin* ]]; then\n    atomic_patch -p1 ../patches/coretext-check-bypass.patch\n    # MacOS must not define a macro `verify` that clashes with HarfBuzz\n    cpp_args='-D__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0'\nfi\n\n# We need C++20 for the `auto` in template parameters.\n# This is required when building the ICU bindings.\nmkdir build && cd build\nmeson .. \\\n    --cross-file=\"${MESON_TARGET_TOOLCHAIN}\" \\\n    --buildtype=release \\\n    -Dcpp_std=c++20 \\\n    -Dcpp_args=\"${cpp_args}\" \\\n    -Dcairo=enabled \\\n    -Dfreetype=enabled \\\n    -Dglib=enabled \\\n    -Dgobject=enabled \\\n    -Dgraphite=enabled \\\n    -Dintrospection=disabled \\\n    -Ddocs=disabled \\\n    -Dtests=disabled \\\n    -Dicu=auto \\\n    -Dicu_builtin=false \\\n    -Dcoretext=enabled \\\n    -Dgdi=enabled \\\n    -Ddirectwrite=enabled \\\n    -Dutilities=disabled\nninja -j${nproc}\nif [[ \"${ICU}\" == true ]]; then\n    # Remove directories with symbol files (they confuse the `cp` command below)\n    rm -rf src/libharfbuzz-icu*${dlext}*.p\n    # Manually install only ICU-related files\n    cp src/libharfbuzz-icu*${dlext}* ${libdir}/.\n    cp meson-private/harfbuzz-icu.pc ${prefix}/lib/pkgconfig/.\n    cp ../src/hb-icu.h ${includedir}/harfbuzz/.\nelse\n    ninja install\nfi\n"""
+toplevel_block = ""
+version = "v100.15001.0"
+
+[build_options]
+clang_use_lld = "false"
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+build_version = "1.18.5"
+compat = "1.18.5"
+name = "Cairo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.16.0"
+compat = "2.16.0"
+name = "Fontconfig_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.13.4"
+compat = "2.13.4"
+name = "FreeType2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.84.0"
+compat = "2.84.0"
+name = "Glib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.3.15"
+compat = "1.3.15"
+name = "Graphite2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "3.4.7"
+compat = "~3.4.7"
+name = "Libffi_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_xorgproto_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "100.15001.0"
+compat = "100.15001.0"
+name = "HarfBuzz_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "79.1.0"
+compat = "79.1"
+name = "ICU_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libharfbuzz-icu"]
+type = "lib"
+variable_name = "libharfbuzz_icu"
+
+[[sources]]
+hash = "0fc7c565443a5f4be7da65ac5ee5bd737d9b158dc908708b7689a0a5796b0c8d"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/harfbuzz/harfbuzz/releases/download/15.1.0/harfbuzz-15.1.0.tar.xz"
+[[sources]]
+follow_symlinks = false
+path = "../bundled"
+target = ""
+type = "directory"

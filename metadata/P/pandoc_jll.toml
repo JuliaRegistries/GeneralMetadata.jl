@@ -1034,6 +1034,130 @@ registered = 2026-08-31T22:47:57.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-06T13:03:13.000Z
 
+    [["3.13.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.13.0+0/pandoc.v3.13.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/c3da974cdf56c15cada90c9b883e4f5395f0db31/P/pandoc/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pandoc/build_tarballs.jl/c3da974cdf56c15cada90c9b883e4f5395f0db31.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.13.0+0".artifact_metadata.sources]]
+        hash = "38aa33b325a2bc96a4c39409631212db55702f564250bcdbead180b3bf646389"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-amd64.tar.gz"
+
+            ["3.13.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "repology-url"
+            version = "3.13"
+        [["3.13.0+0".artifact_metadata.sources]]
+        hash = "1823278715aa405aaf21b59cde5dc789346aa8d4fc307467f9a9ee84162bedc5"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-x86_64-macOS.zip"
+
+            ["3.13.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.13"
+        [["3.13.0+0".artifact_metadata.sources]]
+        hash = "f436d18bebbfb3ddd326597686dacab9fac5dc23bd060495020f35a28a43a7c3"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-arm64-macOS.zip"
+
+            ["3.13.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.13"
+        [["3.13.0+0".artifact_metadata.sources]]
+        hash = "23e1f2e978a3df80db8bf65c9c59534f41a23140480cfb4f783a882ab7dc6a4e"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-windows-x86_64.zip"
+
+            ["3.13.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.13"
+        [["3.13.0+0".artifact_metadata.sources]]
+        hash = "21e1d4ba09bd0b334590d204580fd4f6629b21be4ab6a32b26cc98982e9e0c68"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-arm64.tar.gz"
+
+            ["3.13.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.13"
+        [["3.13.0+0".artifact_metadata.sources]]
+        hash = "842e33ef01625e93f85bebb8bac83aa570186b7aa77a09971257cc29f8f60740"
+        type = "file"
+        url = "https://raw.githubusercontent.com/jgm/pandoc/3.13/COPYRIGHT"
+        [["3.13.0+0".artifact_metadata.sources]]
+        hash = "3ebfbf9235b049d384cdba5a66a1a3434bb544391e720b76faa8e1b3ee61a4e5"
+        type = "file"
+        url = "https://raw.githubusercontent.com/jgm/pandoc/3.13/COPYING.md"
+
 ["3.14.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-12T13:59:49.000Z
+
+    [["3.14.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v3.14.0+0/pandoc.v3.14.0.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/4b51b7370d3314839d120a6cbd75497f79e1bfc4/P/pandoc/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pandoc/build_tarballs.jl/4b51b7370d3314839d120a6cbd75497f79e1bfc4.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.14.0+0".artifact_metadata.sources]]
+        hash = "c5f4720cdefb3f7bdc5d07202ef579feef0d1370773c873804dd8fdaa8c4f1b8"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-linux-amd64.tar.gz"
+
+            ["3.14.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.14"
+        [["3.14.0+0".artifact_metadata.sources]]
+        hash = "891708579061e7b1c1a6ce0df30ebb3cb2b6d0ca045ed3c8554ab830c1e0c270"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-x86_64-macOS.zip"
+
+            ["3.14.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.14"
+        [["3.14.0+0".artifact_metadata.sources]]
+        hash = "58d6593884fec9d4424b641b92503c316d9c36decb2891ff8d73ae74dd3b6304"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-arm64-macOS.zip"
+
+            ["3.14.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.14"
+        [["3.14.0+0".artifact_metadata.sources]]
+        hash = "0144b96e8c7b023fd382ec5ef5bdc475e873f1019d6fa72502492df2c9a94a3b"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-windows-x86_64.zip"
+
+            ["3.14.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "repology-url"
+            version = "3.14"
+        [["3.14.0+0".artifact_metadata.sources]]
+        hash = "c692f3d78a415741bbbac4cdbbbe26fa7edca1f43d2301b982fbf4009cc8cf7f"
+        type = "archive"
+        url = "https://github.com/jgm/pandoc/releases/download/3.14/pandoc-3.14-linux-arm64.tar.gz"
+
+            ["3.14.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pandoc"
+            provenance = "tag-scheme"
+            version = "3.14"
+        [["3.14.0+0".artifact_metadata.sources]]
+        hash = "842e33ef01625e93f85bebb8bac83aa570186b7aa77a09971257cc29f8f60740"
+        type = "file"
+        url = "https://raw.githubusercontent.com/jgm/pandoc/3.14/COPYRIGHT"
+        [["3.14.0+0".artifact_metadata.sources]]
+        hash = "3ebfbf9235b049d384cdba5a66a1a3434bb544391e720b76faa8e1b3ee61a4e5"
+        type = "file"
+        url = "https://raw.githubusercontent.com/jgm/pandoc/3.14/COPYING.md"

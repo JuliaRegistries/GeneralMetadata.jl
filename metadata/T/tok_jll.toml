@@ -2,6 +2,32 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-05T18:05:00.000Z
 
+    [["1.0.3+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.3+0/tok.v1.0.3.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/859e6d5613d605fa2ce0376d3f4294528fa1963e/T/tok/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/t/tok/build_tarballs.jl/859e6d5613d605fa2ce0376d3f4294528fa1963e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.0.3+0".artifact_metadata.sources]]
+        hash = "464f1b73b5b2aed5444a93cd26c165752f521a62"
+        type = "git"
+        url = "https://github.com/tok-lang-bpm/tok.git"
+
 ["1.0.4+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-08T17:19:35.000Z
+
+    [["1.0.4+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/tok_jll.jl/releases/download/tok-v1.0.4+0/tok.v1.0.4.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/59405085b3a7ebfd854bbdd6d60ee9501bbe7a17/T/tok/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/t/tok/build_tarballs.jl/59405085b3a7ebfd854bbdd6d60ee9501bbe7a17.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.0.4+0".artifact_metadata.sources]]
+        hash = "154ad9d2bdeacd6401407ac3291b247c8b801b22"
+        type = "git"
+        url = "https://github.com/tok-lang-bpm/tok.git"

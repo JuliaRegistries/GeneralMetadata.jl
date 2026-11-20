@@ -182,6 +182,50 @@ registered = 2026-06-26T18:05:52.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-w64-mingw32-cxx11.tar.gz"]
 registered = 2026-11-05T16:17:27.000Z
 
+    [["0.17.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+0/tectonic.v0.17.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/761a8dbf8b408bfcafdcc54eb7db18faebce1545/T/tectonic/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/t/tectonic/build_tarballs.jl/761a8dbf8b408bfcafdcc54eb7db18faebce1545.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.17.0+0".artifact_metadata.sources]]
+        hash = "8c0126a9653239a2e6e0a5274af9b8510f643030"
+        type = "git"
+        url = "https://github.com/tectonic-typesetting/tectonic.git"
+
+            ["0.17.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tectonic"
+            provenance = "git-tag"
+            version = "0.17.0"
+        [["0.17.0+0".artifact_metadata.sources]]
+        hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.1.sdk.tar.xz"
+
 ["0.17.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-w64-mingw32-cxx11.tar.gz"]
 registered = 2026-11-05T19:43:04.000Z
+
+    [["0.17.0+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/tectonic_jll.jl/releases/download/tectonic-v0.17.0+1/tectonic.v0.17.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/761a8dbf8b408bfcafdcc54eb7db18faebce1545/T/tectonic/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/t/tectonic/build_tarballs.jl/761a8dbf8b408bfcafdcc54eb7db18faebce1545.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.17.0+1".artifact_metadata.sources]]
+        hash = "8c0126a9653239a2e6e0a5274af9b8510f643030"
+        type = "git"
+        url = "https://github.com/tectonic-typesetting/tectonic.git"
+
+            ["0.17.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/tectonic"
+            provenance = "git-tag"
+            version = "0.17.0"
+        [["0.17.0+1".artifact_metadata.sources]]
+        hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.1.sdk.tar.xz"

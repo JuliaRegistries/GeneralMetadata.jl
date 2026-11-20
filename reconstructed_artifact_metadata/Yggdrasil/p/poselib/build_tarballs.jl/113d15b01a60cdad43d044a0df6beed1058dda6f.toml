@@ -1,0 +1,52 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.12"
+lazy_artifacts = false
+name = "PoseLib"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """cd ${WORKSPACE}/srcdir/PoseLib\n\n# Upstream compiles with -Werror; warnings differ across the cross compilers.\nsed -i 's/ -Werror / /' CMakeLists.txt\n\n# Static PoseLib into a private staging prefix: neither libPoseLib.a nor its\n# headers are shipped, only the wrapper library that links it.\ncmake -B build -S . \\\n    -DCMAKE_INSTALL_PREFIX=${WORKSPACE}/poselib \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_PREFIX_PATH=${prefix} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=OFF \\\n    -DCMAKE_POSITION_INDEPENDENT_CODE=ON\ncmake --build build --parallel ${nproc}\ncmake --install build\n\n# The wrapper, with the flags PoseLib.jl's former from-source build used.\nmkdir -p ${libdir}\n${CXX} -std=c++17 -O3 -fPIC -shared \\\n    -I${WORKSPACE}/poselib/include \\\n    -I${includedir}/eigen3 \\\n    ${WORKSPACE}/srcdir/PoseLib.jl/wrapper/julia_wrapper.cpp \\\n    -o ${libdir}/libposelib_jl.${dlext} \\\n    -L${WORKSPACE}/poselib/lib -lPoseLib\n\n# Licenses of everything compiled in: PoseLib's (BSD-3-Clause) and the wrapper's (MIT).\ninstall_license ${WORKSPACE}/srcdir/PoseLib/LICENSE /usr/share/licenses/MIT\n# Eigen's dense headers: MPL-2.0, with a few files under BSD (Half.h) and\n# Apache-2.0 (BFloat16.h). Its GPL/LGPL/MINPACK texts cover only unsupported/.\nfor f in MPL2 BSD APACHE README; do\n    install_license ${prefix}/share/licenses/Eigen/COPYING.${f}\ndone\n"""
+toplevel_block = ""
+version = "v2.0.6"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"14.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "Eigen_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 3
+version-minor = 4
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libposelib_jl"]
+type = "lib"
+variable_name = "libposelib_jl"
+
+[[sources]]
+hash = "a69263d5d824b5de11e48756f33f6e8ebb231f0c"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/PoseLib/PoseLib.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = "PoseLib.jl"
+type = "directory"

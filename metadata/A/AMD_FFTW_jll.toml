@@ -2,6 +2,32 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMD_FFTW_jll.jl/releases/download/AMD_FFTW-v5.3.0+0/AMD_FFTW.v5.3.0.x86_64-linux-gnu.tar.gz"]
 registered = 2026-10-29T16:07:32.000Z
 
+    [["5.3.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMD_FFTW_jll.jl/releases/download/AMD_FFTW-v5.3.0+0/AMD_FFTW.v5.3.0.x86_64-linux-gnu.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/399b5f1c8f939f2cf697d83fab1d4a84906375a4/A/AMD_FFTW/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/amd_fftw/build_tarballs.jl/399b5f1c8f939f2cf697d83fab1d4a84906375a4.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["5.3.0+0".artifact_metadata.sources]]
+        hash = "5b72699a06c3cbde5413c117dc1deaa6a071bb8c"
+        type = "git"
+        url = "https://github.com/amd/amd-fftw.git"
+
 ["5.3.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMD_FFTW_jll.jl/releases/download/AMD_FFTW-v5.3.0+0/AMD_FFTW.v5.3.0.x86_64-linux-gnu.tar.gz"]
 registered = 2026-11-03T12:11:06.000Z
+
+    [["5.3.0+1".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/AMD_FFTW_jll.jl/releases/download/AMD_FFTW-v5.3.0+0/AMD_FFTW.v5.3.0.x86_64-linux-gnu.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/399b5f1c8f939f2cf697d83fab1d4a84906375a4/A/AMD_FFTW/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/amd_fftw/build_tarballs.jl/399b5f1c8f939f2cf697d83fab1d4a84906375a4.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["5.3.0+1".artifact_metadata.sources]]
+        hash = "5b72699a06c3cbde5413c117dc1deaa6a071bb8c"
+        type = "git"
+        url = "https://github.com/amd/amd-fftw.git"

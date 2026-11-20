@@ -1,0 +1,37 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "libNVVM"
+platforms = ["x86_64-linux-gnu-cuda+13", "aarch64-linux-gnu-cuda+13", "x86_64-w64-mingw32-cuda+13"]
+script = """cd ${WORKSPACE}/srcdir/libnvvm-*\ninstall_license LICENSE\n\nmkdir -p ${bindir} ${libdir} ${prefix}/include ${prefix}/share\nif [[ ${target} == *-linux-gnu ]]; then\n    mv nvvm/lib64/libnvvm.so* ${libdir}\nelif [[ ${target} == x86_64-w64-mingw32 ]]; then\n    mv nvvm/bin/x64/nvvm64_*.dll ${bindir}\n    chmod +x ${bindir}/*.dll\nfi\nmv nvvm/include/* ${prefix}/include/\nmv nvvm/libdevice ${prefix}/share/\n"""
+toplevel_block = ""
+version = "v4.0.9"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libnvvm", "nvvm64_40_0"]
+type = "lib"
+variable_name = "libnvvm"
+
+[[sources]]
+hash = "8dd4866e387f0ce2259e8dcc91bebdbb59f84c6d4505b3bba46ae91b9a11dd16"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.5.37-archive.tar.xz"
+[[sources]]
+hash = "6c79308860d5eb47c6dd3693652a4d7cd430050438d31d5f036aa0b19583f2ea"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-sbsa/libnvvm-linux-sbsa-13.5.37-archive.tar.xz"
+[[sources]]
+hash = "0cb16fa041acd156b3654b66f182f65373a4ebfd4c2353ce7303f4d1b1eb88b2"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/windows-x86_64/libnvvm-windows-x86_64-13.5.37-archive.zip"

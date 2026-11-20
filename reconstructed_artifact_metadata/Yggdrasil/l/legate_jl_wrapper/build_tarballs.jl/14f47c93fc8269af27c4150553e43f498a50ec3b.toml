@@ -1,0 +1,104 @@
+augment_platform_block = """using Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\nend\n\n# every other tag that artifacts are selected on must be set before calling this\nfunction augment_cuda_tag!(platform::Platform)\n    if @isdefined(CUDA_Runtime_jll) && isdefined(CUDA_Runtime_jll, :augment_dependent!)\n        # both Pkg and the JLL module include this file from the JLL's `.pkg` directory\n        artifacts_toml = joinpath(@__DIR__, \"..\", \"Artifacts.toml\")\n        CUDA_Runtime_jll.augment_dependent!(platform, artifacts_toml)\n    elseif !haskey(platform, \"cuda\")\n        # CUDA_Runtime_jll is missing during initial installation, or briefly older than\n        # our compat bound while Pkg changes the environment. select the CPU build, if\n        # any; without the tag, Pkg would select any build.\n        platform[\"cuda\"] = \"none\"\n    end\n    return platform\nend\n\nfunction augment_platform!(platform::Platform)\n    augment_cuda_tag!(platform)\nend"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = true
+name = "legate_jl_wrapper"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.10.0", "x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.13.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0"]
+script = ["""\n    # Put new CMake first on path\n    export PATH=${host_bindir}:$PATH\n\n    cd ${WORKSPACE}/srcdir/\n\n    mkdir build\n    cd build\n    cmake \\\n        -DCMAKE_BUILD_TYPE=Release \\\n        -DCMAKE_FIND_ROOT_PATH=${prefix} \\\n        -DCMAKE_INSTALL_PREFIX=${prefix} \\\n        -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n        -DJulia_PREFIX=${prefix} \\\n        -DLEGATE_WRAPPER_ENABLE_CUDA=OFF \\\n        ../Legate.jl/lib/legate_jl_wrapper/\n\n    VERBOSE=ON cmake --build . --config Release --target install -- -j${nproc}\n    install_license $WORKSPACE/srcdir/Legate.jl/lib/legate_jl_wrapper*/LICENSE  \n""", """\n    # Put new CMake first on path\n    export PATH=${host_bindir}:$PATH\n\n    cd ${WORKSPACE}/srcdir/\n\n    # Necessary operations to cross compile CUDA from x86_64 to aarch64\n    if [[ \"${target}\" == aarch64-linux-* ]]; then\n\n        # Add /usr/lib/csl-musl-x86_64 to LD_LIBRARY_PATH to be able to use host nvcc\n        export LD_LIBRARY_PATH=\"/usr/lib/csl-musl-x86_64:/usr/lib/csl-glibc-x86_64:${LD_LIBRARY_PATH}\"\n        \n        # Make sure we use host CUDA executable by copying from the x86_64 CUDA redist\n        NVCC_DIR=(/workspace/srcdir/cuda_nvcc-*-archive)\n        rm -rf ${prefix}/cuda/bin\n        cp -r ${NVCC_DIR}/bin ${prefix}/cuda/bin\n        \n        rm -rf ${prefix}/cuda/nvvm/bin\n        cp -r ${NVCC_DIR}/nvvm/bin ${prefix}/cuda/nvvm/bin\n\n        export NVCC_PREPEND_FLAGS=\"-ccbin='${CXX}'\"\n    fi\n\n    export CUDA_HOME=${prefix}/cuda;\n    export PATH=$PATH:$CUDA_HOME/bin\n    export CUDACXX=$CUDA_HOME/bin/nvcc\n    export CUDA_LIB=${CUDA_HOME}/lib\n\n    ln -s ${CUDA_HOME}/lib ${CUDA_HOME}/lib64\n\n    mkdir build\n    cd build\n    cmake \\\n        -DCMAKE_BUILD_TYPE=Release \\\n        -DCMAKE_FIND_ROOT_PATH=${prefix} \\\n        -DCMAKE_INSTALL_PREFIX=${prefix} \\\n        -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n        -DJulia_PREFIX=${prefix} \\\n        -DLEGATE_WRAPPER_ENABLE_CUDA=ON \\\n        ../Legate.jl/lib/legate_jl_wrapper/\n\n    VERBOSE=ON cmake --build . --config Release --target install -- -j${nproc}\n    install_license $WORKSPACE/srcdir/Legate.jl/lib/legate_jl_wrapper*/LICENSE\n"""]
+toplevel_block = ""
+version = "v26.6.3"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"11.0.0\""
+
+[[dependencies]]
+build_version = "26.6.1"
+compat = "~26.6.1"
+name = "legate_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.14.12"
+compat = "0.14.12"
+name = "libcxxwrap_julia_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "libjulia_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 3
+version-minor = 31
+version-patch = 9
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = "0.26.1 - 0"
+name = "CUDA_Runtime_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["liblegate_jl_wrapper"]
+type = "lib"
+variable_name = "liblegate_jl_wrapper"
+
+[[sources]]
+hash = "5f296668308e7ff3dc3663c62a0f7780d8bc521c"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/JuliaLegate/Legate.jl"

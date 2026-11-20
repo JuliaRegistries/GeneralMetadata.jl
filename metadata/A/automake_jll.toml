@@ -71,3 +71,21 @@ registered = 2026-10-19T19:40:05.000Z
 ["1.20.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/automake_jll.jl/releases/download/automake-v1.20.0+0/automake.v1.20.0.any.tar.gz"]
 registered = 2026-11-07T19:47:43.000Z
+
+    [["1.20.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/automake_jll.jl/releases/download/automake-v1.20.0+0/automake.v1.20.0.any.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/b8fa1389c19d35c4857e9b105079c015cca4f820/A/automake/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/automake/build_tarballs.jl/b8fa1389c19d35c4857e9b105079c015cca4f820.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.20.0+0".artifact_metadata.sources]]
+        hash = "f6f34dad4cbe395715762b0710f7c511e39bd5cf777e6b95818ccbecf7714248"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/gnu/automake/automake-1.20.tar.xz"
+
+            ["1.20.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/automake"
+            provenance = "repology-url"
+            version = "1.20"

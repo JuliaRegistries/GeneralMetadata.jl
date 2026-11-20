@@ -1,0 +1,143 @@
+augment_platform_block = """    using Base.BinaryPlatforms\n    # Can't use Preferences since we might be running this very early with a non-existing Manifest\nMPIPreferences_UUID = Base.UUID(\"3da0fdf6-3ccc-4f1b-acd9-58baa6c99267\")\nconst preferences = Base.get_preferences(MPIPreferences_UUID)\n\nconst binary_to_abi = Dict(\n    \"MPIABI_jll\" => \"MPIABI\",\n    \"MPICH_jll\" => \"MPICH\",\n    \"MPICH_CUDA_jll\" => \"MPICH\",\n    \"MPItrampoline_jll\" => \"MPItrampoline\",\n    \"MicrosoftMPI_jll\" => \"MicrosoftMPI\",\n    \"OpenMPI_jll\" => \"OpenMPI\",\n)\n\n# Keep logic in sync with MPIPreferences.jl\nfunction augment_mpi!(platform)\n    # Doesn't need to be `const` since we depend on MPIPreferences so we\n    # invalidate the cache when it changes.\n\n    # Determine which jll binary provides our MPI implementation.\n    # Use MPIPreferences if set, otherwise use either MPICH or MicrosoftMPI (on Windows).\n    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.\n    binary = get(preferences, \"binary\", Sys.iswindows(platform) ? \"MicrosoftMPI_jll\" : \"MPICH_jll\")\n\n    # Convert the jll binary to an ABI\n    if binary == \"system\"\n        abi = get(preferences, \"abi\", nothing)\n        abi === nothing && error(\"MPIPreferences: Inconsistent state detected, `binary` is set to system, but `abi` is not set.\")\n    else\n        abi = get(binary_to_abi, binary, nothing)\n        abi == nothing && error(\"Unknown MPI binary: $binary\")\n    end\n\n    # Add an `mpi` entry to the platform if it's missing\n    if !haskey(platform, \"mpi\")\n        platform[\"mpi\"] = abi\n    end\n\n    return platform\nend\n\n    augment_platform!(platform::Platform) = augment_mpi!(platform)\n"""
+init_block = ""
+julia_compat = "1.12"
+lazy_artifacts = false
+name = "GetDP"
+platforms = ["x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "x86_64-linux-musl-libgfortran5-cxx11-mpi+mpiabi", "aarch64-linux-musl-libgfortran5-cxx11-mpi+mpiabi", "x86_64-apple-darwin-libgfortran5-mpi+mpiabi", "aarch64-apple-darwin-libgfortran5-mpi+mpiabi", "x86_64-unknown-freebsd-libgfortran5-mpi+mpiabi", "aarch64-unknown-freebsd-libgfortran5-mpi+mpiabi", "x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpich", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpich", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+mpich", "x86_64-linux-musl-libgfortran5-cxx11-mpi+mpich", "aarch64-linux-musl-libgfortran5-cxx11-mpi+mpich", "x86_64-apple-darwin-libgfortran5-mpi+mpich", "aarch64-apple-darwin-libgfortran5-mpi+mpich", "x86_64-unknown-freebsd-libgfortran5-mpi+mpich", "aarch64-unknown-freebsd-libgfortran5-mpi+mpich", "x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline", "aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline", "x86_64-unknown-freebsd-libgfortran5-mpi+mpitrampoline", "aarch64-unknown-freebsd-libgfortran5-mpi+mpitrampoline", "x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi", "x86_64-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "x86_64-linux-musl-libgfortran5-cxx11-mpi+openmpi", "aarch64-linux-musl-libgfortran5-cxx11-mpi+openmpi", "x86_64-apple-darwin-libgfortran5-mpi+openmpi", "aarch64-apple-darwin-libgfortran5-mpi+openmpi", "x86_64-unknown-freebsd-libgfortran5-mpi+openmpi", "aarch64-unknown-freebsd-libgfortran5-mpi+openmpi"]
+script = """cd ${WORKSPACE}/srcdir/getdp\nmpi_options=(-DMPI_HOME=${prefix})\n# GetDP's PETSc code calls MPI even when FindMPI cannot validate the cross-built libraries.\nmpi_lib=${libdir}/libmpi.${dlext}\nLBT=blastrampoline\ngmsh_lib=${libdir}/libgmsh.${dlext}\nif [[ ${target} == *-mingw* ]]; then\n    # Upstream forces -static, which prevents linking the JLL DLLs.\n    atomic_patch -p1 ${WORKSPACE}/srcdir/patches/mingw-dynamic-dependencies.patch\n    LBT=blastrampoline-5\n    gmsh_lib=${libdir}/gmsh.${dlext}\n    # With the bare name msmpi64, GetDP's own link left MPI_Init unresolved; its path links the DLL.\n    mpi_lib=${libdir}/msmpi.${dlext}\n    mpi_options+=(-DMPI_GUESS_LIBRARY_NAME=MSMPI -DMPI_C_LIBRARIES=${mpi_lib} -DMPI_CXX_LIBRARIES=${mpi_lib})\nfi\nif [[ ${bb_full_target} == *mpiabi* ]]; then\n    mpi_lib=${libdir}/libmpi_abi.${dlext}\nelif [[ ${bb_full_target} == *mpitrampoline* ]]; then\n    mpi_lib=${libdir}/libmpitrampoline.${dlext}\n    export MPITRAMPOLINE_CC=${CC} MPITRAMPOLINE_CXX=${CXX} MPITRAMPOLINE_FC=${FC}\nelif [[ ${target} == x86_64-*-freebsd* && ${bb_full_target} == *mpi+openmpi* ]]; then\n    # FindMPI otherwise selects FreeBSD's base libz.so.6 from OpenMPI's -lz flag.\n    mpi_options+=(-DMPI_z_LIBRARY=${libdir}/libz.${dlext})\nfi\n\n# Explicit installed paths bypass petscvariables, whose flags belong to PETSc's build.\nunset PETSC_DIR PETSC_ARCH\npetsc_prefix=${libdir}/petsc/double_complex_Int32\n# GetDP master and Gmsh 4.15 have different ONELAB class layouts; keep their inline symbols local.\ncmake -B build \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DCMAKE_CXX_FLAGS=\"${CXXFLAGS} -fvisibility=hidden -fvisibility-inlines-hidden\" \\\n    -DDEFAULT=0 \\\n    -DENABLE_KERNEL=1 \\\n    -DENABLE_PETSC=1 \\\n    -DEXTERNAL_LIBRARIES=${mpi_lib} \\\n    -DPETSC_LIBS=${petsc_prefix}/lib/libpetsc_double_complex_Int32.${dlext} \\\n    -DPETSC_INC=${petsc_prefix}/include \\\n    -DENABLE_GMSH=1 \\\n    -DGMSH_LIB=${gmsh_lib} \\\n    -DGMSH_INC=${includedir} \\\n    -DENABLE_BLAS_LAPACK=1 \\\n    -DBLAS_LAPACK_LIBRARIES=${libdir}/lib${LBT}.${dlext} \\\n    -DENABLE_NR=1 \\\n    -DENABLE_GSL=0 \\\n    -DENABLE_PYTHON=0 \\\n    -DENABLE_SLEPC=0 \\\n    -DENABLE_ARPACK=0 \\\n    -DENABLE_SPARSKIT=0 \\\n    -DENABLE_PEWE=0 \\\n    -DENABLE_MMA=0 \\\n    -DENABLE_MPI=1 \\\n    \"${mpi_options[@]}\" \\\n    -DENABLE_FORTRAN=0 \\\n    -DENABLE_OPENMP=0\ncmake --build build --parallel ${nproc}\ninstall -Dvm 755 build/getdp${exeext} ${bindir}/getdp${exeext}\ninstall_license LICENSE.txt\n"""
+toplevel_block = ""
+version = "v3.5.1"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+build_version = "3.25.6"
+compat = "3.25.6"
+name = "PETSc_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.15.4"
+compat = "4.15.4"
+name = "gmsh_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.3.1"
+compat = "1.3.1"
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.11.2"
+compat = "5.11.2"
+name = "libblastrampoline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.3.0"
+compat = "1.3.0"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+mpiabi", "x86_64-linux-musl-libgfortran5-cxx11-mpi+mpiabi", "aarch64-linux-musl-libgfortran5-cxx11-mpi+mpiabi", "x86_64-apple-darwin-libgfortran5-mpi+mpiabi", "aarch64-apple-darwin-libgfortran5-mpi+mpiabi", "x86_64-unknown-freebsd-libgfortran5-mpi+mpiabi", "aarch64-unknown-freebsd-libgfortran5-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.0.3"
+compat = "5.0.3"
+name = "MPICH_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpich", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpich", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+mpich", "x86_64-linux-musl-libgfortran5-cxx11-mpi+mpich", "aarch64-linux-musl-libgfortran5-cxx11-mpi+mpich", "x86_64-apple-darwin-libgfortran5-mpi+mpich", "aarch64-apple-darwin-libgfortran5-mpi+mpich", "x86_64-unknown-freebsd-libgfortran5-mpi+mpich", "aarch64-unknown-freebsd-libgfortran5-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.5.7"
+compat = "5.5.7"
+name = "MPItrampoline_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline", "x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline", "aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline", "x86_64-unknown-freebsd-libgfortran5-mpi+mpitrampoline", "aarch64-unknown-freebsd-libgfortran5-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "10.1.5"
+compat = "10.1.5"
+name = "MicrosoftMPI_jll"
+platforms = ["x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.1.11"
+compat = "4.1.11, 5.0.14"
+name = "OpenMPI_jll"
+platforms = ["x86_64-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "aarch64-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "riscv64-linux-gnu-libgfortran5-cxx11-mpi+openmpi", "x86_64-linux-musl-libgfortran5-cxx11-mpi+openmpi", "aarch64-linux-musl-libgfortran5-cxx11-mpi+openmpi", "x86_64-apple-darwin-libgfortran5-mpi+openmpi", "aarch64-apple-darwin-libgfortran5-mpi+openmpi", "x86_64-unknown-freebsd-libgfortran5-mpi+openmpi", "aarch64-unknown-freebsd-libgfortran5-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.1.0"
+compat = "0.1"
+name = "MPIPreferences"
+platforms = ["any"]
+top_level = true
+type = "dependency"
+uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["getdp"]
+type = "exe"
+variable_name = "getdp"
+
+[[sources]]
+hash = "c6c73876b2746c44176c875b4aca942d614dc8e6"
+tag = "getdp_4_0_0_rc2"
+type = "git"
+unpack_target = ""
+url = "https://gitlab.onelab.info/getdp/getdp.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

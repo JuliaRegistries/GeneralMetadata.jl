@@ -1,0 +1,165 @@
+augment_platform_block = """    using Base.BinaryPlatforms\n\n    module __CUDA\n        using Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\n    # in that case, we just won't select an artifact.\nend\n\n# can't use Preferences for the same reason\nconst CUDA_Runtime_jll_uuid = Base.UUID(\"76a88914-d11a-5bdc-97e0-2f5a05c973a2\")\nconst preferences = Base.get_preferences(CUDA_Runtime_jll_uuid)\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"version\")\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"local\")\n# the `local` preference is a boolean, but CUDA.jl's `set_runtime_version!` writes it\n# as a string, and hand-written LocalPreferences.toml files use either spelling.\nconst local_toolkit = let pref = get(preferences, \"local\", false)\n    pref isa Bool ? pref : something(tryparse(Bool, pref), false)\nend\n\nfunction cuda_comparison_strategy(_a::String, _b::String, a_requested::Bool, b_requested::Bool)\n    # if we're using a local toolkit, we can't use artifacts\n    if local_toolkit\n        return false\n    end\n\n    # if either isn't a version number (e.g. \"none\"), perform a simple equality check\n    a = tryparse(VersionNumber, _a)\n    b = tryparse(VersionNumber, _b)\n    if a === nothing || b === nothing\n        return _a == _b\n    end\n\n    # if both b and a requested, then we fall back to equality\n    if a_requested && b_requested\n        return Base.thisminor(a) == Base.thisminor(b)\n    end\n\n    # otherwise, do the comparison between the the single version cap and the single version:\n    function is_compatible(artifact::VersionNumber, host::VersionNumber)\n        if host >= v\"11.0\"\n            # enhanced compatibility, semver-style\n            artifact.major == host.major &&\n            Base.thisminor(artifact) <= Base.thisminor(host)\n        else\n            Base.thisminor(artifact) == Base.thisminor(host)\n        end\n    end\n    if a_requested\n        is_compatible(b, a)\n    else\n        is_compatible(a, b)\n    end\nend\n\nfunction augment_platform!(platform::Platform)\n    if !@isdefined(CUDA_Runtime_jll)\n        # don't set to nothing or Pkg will download any artifact\n        platform[\"cuda\"] = \"none\"\n    end\n\n    if !haskey(platform, \"cuda\")\n        CUDA_Runtime_jll.augment_platform!(platform)\n    end\n    BinaryPlatforms.set_compare_strategy!(platform, \"cuda\", cuda_comparison_strategy)\n\n    return platform\nend\n    end\n\n    # Can't use Preferences since we might be running this very early with a non-existing Manifest\nMPIPreferences_UUID = Base.UUID(\"3da0fdf6-3ccc-4f1b-acd9-58baa6c99267\")\nconst preferences = Base.get_preferences(MPIPreferences_UUID)\n\nconst binary_to_abi = Dict(\n    \"MPIABI_jll\" => \"MPIABI\",\n    \"MPICH_jll\" => \"MPICH\",\n    \"MPICH_CUDA_jll\" => \"MPICH\",\n    \"MPItrampoline_jll\" => \"MPItrampoline\",\n    \"MicrosoftMPI_jll\" => \"MicrosoftMPI\",\n    \"OpenMPI_jll\" => \"OpenMPI\",\n)\n\n# Keep logic in sync with MPIPreferences.jl\nfunction augment_mpi!(platform)\n    # Doesn't need to be `const` since we depend on MPIPreferences so we\n    # invalidate the cache when it changes.\n\n    # Determine which jll binary provides our MPI implementation.\n    # Use MPIPreferences if set, otherwise use either MPICH or MicrosoftMPI (on Windows).\n    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.\n    binary = get(preferences, \"binary\", Sys.iswindows(platform) ? \"MicrosoftMPI_jll\" : \"MPICH_jll\")\n\n    # Convert the jll binary to an ABI\n    if binary == \"system\"\n        abi = get(preferences, \"abi\", nothing)\n        abi === nothing && error(\"MPIPreferences: Inconsistent state detected, `binary` is set to system, but `abi` is not set.\")\n    else\n        abi = get(binary_to_abi, binary, nothing)\n        abi == nothing && error(\"Unknown MPI binary: $binary\")\n    end\n\n    # Add an `mpi` entry to the platform if it's missing\n    if !haskey(platform, \"mpi\")\n        platform[\"mpi\"] = abi\n    end\n\n    return platform\nend\n\n\n    function augment_platform!(platform::Platform)\n        augment_mpi!(platform)\n        __CUDA.augment_platform!(platform)\n    end\n"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = true
+name = "AMGX_MPI"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpiabi", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpiabi", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cuda+13.0-mpi+mpiabi", "aarch64-linux-gnu-cuda+13.0-mpi+mpiabi", "x86_64-linux-gnu-cuda+12.0-mpi+mpich", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpich", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cuda+13.0-mpi+mpich", "aarch64-linux-gnu-cuda+13.0-mpi+mpich", "x86_64-linux-gnu-cuda+12.0-mpi+mpitrampoline", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpitrampoline", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpitrampoline", "x86_64-linux-gnu-cuda+13.0-mpi+mpitrampoline", "aarch64-linux-gnu-cuda+13.0-mpi+mpitrampoline", "x86_64-linux-gnu-cuda+12.0-mpi+openmpi", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+openmpi", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+openmpi", "x86_64-linux-gnu-cuda+13.0-mpi+openmpi", "aarch64-linux-gnu-cuda+13.0-mpi+openmpi"]
+script = ["""CUDA_ARCHS=\"75;80;86;89;90\"\n# nvcc writes to /tmp, which is a small tmpfs in the sandbox.\nexport TMPDIR=${WORKSPACE}/tmpdir\nmkdir -v ${TMPDIR}\n\n# BinaryBuilder's x86_64 host needs x86_64 CUDA tools, paired with the target C++ compiler.\n# nvvm is inside the nvcc archive before CUDA 13, and in its own archive after.\nif [[ \"${target}\" == aarch64-linux-* ]]; then\n    export LD_LIBRARY_PATH=\"/usr/lib/csl-musl-x86_64:/usr/lib/csl-glibc-x86_64:${LD_LIBRARY_PATH}\"\n    export NVCC_PREPEND_FLAGS=\"-ccbin=${CXX}\"\n    rm -rfv ${prefix}/cuda/bin ${prefix}/cuda/nvvm/bin ${prefix}/cuda/nvvm/lib64\n    cp -a ${WORKSPACE}/srcdir/cuda_nvcc-linux-x86_64-*-archive/bin ${prefix}/cuda/bin\n    cp -a ${WORKSPACE}/srcdir/*-linux-x86_64-*-archive/nvvm/{bin,lib64} ${prefix}/cuda/nvvm/\nfi\n\ncd ${WORKSPACE}/srcdir/AMGX*\n\nfor f in ${WORKSPACE}/srcdir/patches/*.patch; do\n    atomic_patch -p1 ${f}\ndone\n\ninstall_license LICENSES/BSD-3-Clause.txt\n\n# AMGX enables MPI whenever `find_package(MPI)` succeeds, defining AMGX_WITH_MPI\n# and linking MPI::MPI_CXX. Point it at the MPI from the JLL explicitly so it\n# cannot pick up anything else.\nmpi_args=()\nif [[ ${bb_full_target} == *mpi* ]]; then\n    export MPITRAMPOLINE_CC=${CC} MPITRAMPOLINE_CXX=${CXX}\n    mpi_args=(-DMPI_C_COMPILER=${bindir}/mpicc -DMPI_CXX_COMPILER=${bindir}/mpicxx)\nfi\n\ncmake -B build \\\n      -DCMAKE_TOOLCHAIN_FILE=\"${CMAKE_TARGET_TOOLCHAIN}\" \\\n      -DCMAKE_INSTALL_PREFIX=${prefix} \\\n      -DCMAKE_BUILD_TYPE=Release \\\n      -DCMAKE_CUDA_COMPILER=$prefix/cuda/bin/nvcc \\\n      -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\" \\\n      -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\" \\\n      \"${mpi_args[@]}\" \\\n      -Wno-dev \\\n      > cmake.log 2>&1 || { cat cmake.log; exit 1; }\ncat cmake.log\n\n# AMGX prints this once `find_package(MPI)` has succeeded and AMGX_WITH_MPI is\n# set. Fail loudly rather than silently shipping a non-MPI build under this name.\nif [[ ${bb_full_target} == *mpi* ]]; then\n    grep -q \"This is a MPI build:TRUE\" cmake.log || \\\n      { echo \"ERROR: MPI was not detected; refusing to build AMGX_MPI without MPI\"; exit 1; }\nfi\n\ncmake --build build --parallel ${nproc}\ncmake --install build\n\nrm -v ${libdir}/*.a\n\n# Modified SDK files would otherwise be packaged.\nif [[ \"${target}\" == aarch64-linux-* ]]; then\n    rm -rfv ${prefix}/cuda\nfi\n""", """CUDA_ARCHS=\"75;80;86;89;90;100;120\"\n# nvcc writes to /tmp, which is a small tmpfs in the sandbox.\nexport TMPDIR=${WORKSPACE}/tmpdir\nmkdir -v ${TMPDIR}\n\n# BinaryBuilder's x86_64 host needs x86_64 CUDA tools, paired with the target C++ compiler.\n# nvvm is inside the nvcc archive before CUDA 13, and in its own archive after.\nif [[ \"${target}\" == aarch64-linux-* ]]; then\n    export LD_LIBRARY_PATH=\"/usr/lib/csl-musl-x86_64:/usr/lib/csl-glibc-x86_64:${LD_LIBRARY_PATH}\"\n    export NVCC_PREPEND_FLAGS=\"-ccbin=${CXX}\"\n    rm -rfv ${prefix}/cuda/bin ${prefix}/cuda/nvvm/bin ${prefix}/cuda/nvvm/lib64\n    cp -a ${WORKSPACE}/srcdir/cuda_nvcc-linux-x86_64-*-archive/bin ${prefix}/cuda/bin\n    cp -a ${WORKSPACE}/srcdir/*-linux-x86_64-*-archive/nvvm/{bin,lib64} ${prefix}/cuda/nvvm/\nfi\n\ncd ${WORKSPACE}/srcdir/AMGX*\n\nfor f in ${WORKSPACE}/srcdir/patches/*.patch; do\n    atomic_patch -p1 ${f}\ndone\n\ninstall_license LICENSES/BSD-3-Clause.txt\n\n# AMGX enables MPI whenever `find_package(MPI)` succeeds, defining AMGX_WITH_MPI\n# and linking MPI::MPI_CXX. Point it at the MPI from the JLL explicitly so it\n# cannot pick up anything else.\nmpi_args=()\nif [[ ${bb_full_target} == *mpi* ]]; then\n    export MPITRAMPOLINE_CC=${CC} MPITRAMPOLINE_CXX=${CXX}\n    mpi_args=(-DMPI_C_COMPILER=${bindir}/mpicc -DMPI_CXX_COMPILER=${bindir}/mpicxx)\nfi\n\ncmake -B build \\\n      -DCMAKE_TOOLCHAIN_FILE=\"${CMAKE_TARGET_TOOLCHAIN}\" \\\n      -DCMAKE_INSTALL_PREFIX=${prefix} \\\n      -DCMAKE_BUILD_TYPE=Release \\\n      -DCMAKE_CUDA_COMPILER=$prefix/cuda/bin/nvcc \\\n      -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\" \\\n      -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\" \\\n      \"${mpi_args[@]}\" \\\n      -Wno-dev \\\n      > cmake.log 2>&1 || { cat cmake.log; exit 1; }\ncat cmake.log\n\n# AMGX prints this once `find_package(MPI)` has succeeded and AMGX_WITH_MPI is\n# set. Fail loudly rather than silently shipping a non-MPI build under this name.\nif [[ ${bb_full_target} == *mpi* ]]; then\n    grep -q \"This is a MPI build:TRUE\" cmake.log || \\\n      { echo \"ERROR: MPI was not detected; refusing to build AMGX_MPI without MPI\"; exit 1; }\nfi\n\ncmake --build build --parallel ${nproc}\ncmake --install build\n\nrm -v ${libdir}/*.a\n\n# Modified SDK files would otherwise be packaged.\nif [[ \"${target}\" == aarch64-linux-* ]]; then\n    rm -rfv ${prefix}/cuda\nfi\n"""]
+toplevel_block = ""
+version = "v2.5.1"
+
+[build_options]
+compression_format = "\"gzip\""
+dont_dlopen = "true"
+preferred_gcc_version = "v\"11.0.0\""
+
+[[dependencies]]
+build_version = "1.0.5"
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpiabi", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpiabi", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cuda+13.0-mpi+mpiabi", "aarch64-linux-gnu-cuda+13.0-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.0.3"
+compat = "5.0.3"
+name = "MPICH_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpich", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpich", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cuda+13.0-mpi+mpich", "aarch64-linux-gnu-cuda+13.0-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.5.7"
+compat = "5.5.7"
+name = "MPItrampoline_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpitrampoline", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+mpitrampoline", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+mpitrampoline", "x86_64-linux-gnu-cuda+13.0-mpi+mpitrampoline", "aarch64-linux-gnu-cuda+13.0-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "10.1.5"
+compat = "10.1.5"
+name = "MicrosoftMPI_jll"
+platforms = []
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.1.11"
+compat = "4.1.11, 5.0.14"
+name = "OpenMPI_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+openmpi", "aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0-mpi+openmpi", "aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0-mpi+openmpi", "x86_64-linux-gnu-cuda+13.0-mpi+openmpi", "aarch64-linux-gnu-cuda+13.0-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1"
+name = "MPIPreferences"
+platforms = ["any"]
+top_level = true
+type = "runtimedependency"
+uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 0
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_Runtime_jll"
+platforms = ["any"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 0
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = true
+libnames = ["libamgxsh"]
+type = "lib"
+variable_name = "libamgxsh"
+
+[[sources]]
+hash = "cc1cebdbb32b14d33762d4ddabcb2e23c1669f47"
+tag = "v2.5.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/NVIDIA/AMGX.git"
+[[sources]]
+follow_symlinks = false
+path = "../bundled"
+target = ""
+type = "directory"
+[[sources]]
+hash = "906b894dffd853acefe6ab3d2a6cd74a0aa99b34bb8ca1e848174bddf55bfa3b"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.0.140-archive.tar.xz"
+[[sources]]
+hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+[[sources]]
+hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"

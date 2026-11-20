@@ -1,0 +1,257 @@
+augment_platform_block = """using Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\n    # in that case, we just won't select an artifact.\nend\n\n# can't use Preferences for the same reason\nconst CUDA_Runtime_jll_uuid = Base.UUID(\"76a88914-d11a-5bdc-97e0-2f5a05c973a2\")\nconst preferences = Base.get_preferences(CUDA_Runtime_jll_uuid)\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"version\")\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"local\")\n# the `local` preference is a boolean, but CUDA.jl's `set_runtime_version!` writes it\n# as a string, and hand-written LocalPreferences.toml files use either spelling.\nconst local_toolkit = let pref = get(preferences, \"local\", false)\n    pref isa Bool ? pref : something(tryparse(Bool, pref), false)\nend\n\nfunction cuda_comparison_strategy(_a::String, _b::String, a_requested::Bool, b_requested::Bool)\n    # if we're using a local toolkit, we can't use artifacts\n    if local_toolkit\n        return false\n    end\n\n    # if either isn't a version number (e.g. \"none\"), perform a simple equality check\n    a = tryparse(VersionNumber, _a)\n    b = tryparse(VersionNumber, _b)\n    if a === nothing || b === nothing\n        return _a == _b\n    end\n\n    # if both b and a requested, then we fall back to equality\n    if a_requested && b_requested\n        return Base.thisminor(a) == Base.thisminor(b)\n    end\n\n    # otherwise, do the comparison between the the single version cap and the single version:\n    function is_compatible(artifact::VersionNumber, host::VersionNumber)\n        if host >= v\"11.0\"\n            # enhanced compatibility, semver-style\n            artifact.major == host.major &&\n            Base.thisminor(artifact) <= Base.thisminor(host)\n        else\n            Base.thisminor(artifact) == Base.thisminor(host)\n        end\n    end\n    if a_requested\n        is_compatible(b, a)\n    else\n        is_compatible(a, b)\n    end\nend\n\nfunction augment_platform!(platform::Platform)\n    if !@isdefined(CUDA_Runtime_jll)\n        # don't set to nothing or Pkg will download any artifact\n        platform[\"cuda\"] = \"none\"\n    end\n\n    if !haskey(platform, \"cuda\")\n        CUDA_Runtime_jll.augment_platform!(platform)\n    end\n    BinaryPlatforms.set_compare_strategy!(platform, \"cuda\", cuda_comparison_strategy)\n\n    return platform\nend"""
+init_block = ""
+julia_compat = "~1.10, ~1.11, ~1.12, ~1.13"
+lazy_artifacts = true
+name = "OpenCV_CUDA"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0", "x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0", "aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0", "aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1", "aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0", "aarch64-linux-gnu-cxx11-cuda+13.0-julia_version+1.13.0"]
+script = """macos_sdk_version=14.0\nmacosx_deployment_target=12\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == *-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir\n\nrm -rv opencv_contrib/modules/julia/gen\ncp -rv OpenCV.jl/gen opencv_contrib/modules/julia/gen\ncp -v OpenCV.jl/gen/CMakeLists.txt opencv_contrib/modules/julia/CMakeLists.txt\n\n# Qt 6.10 requires CMake >= 3.22; use CMake_jll from the host prefix\napk del cmake\n\nif [[ \"${target}\" == *-apple-* ]] || [[ \"${target}\" == *-freebsd* ]]; then\n    atomic_patch -p1 -d opencv patches/atomic_fix.patch\nfi\n\nif [[ \"${target}\" == *-w64-* ]]; then\n    export CXXFLAGS=\"-Wa,-mbig-obj\"\nfi\n\nbuild_list=core,imgproc,imgcodecs,highgui,videoio,dnn,features2d,objdetect,calib3d,video,gapi,stitching,julia\ncmake_args=()\n\nif [[ \"${target}\" == *-freebsd* ]]; then\n    # IPP's bundled safestring redeclares memset_s incompatibly with FreeBSD's string.h.\n    cmake_args+=(-DWITH_IPP=OFF)\nfi\n\nif [[ \"${bb_full_target}\" == *cuda+* ]]; then\n    # BinaryBuilder's x86_64 host needs x86_64 CUDA tools, paired with the target C++ compiler.\n    if [[ \"${target}\" == aarch64-* ]]; then\n        export LD_LIBRARY_PATH=\"/usr/lib/csl-musl-x86_64:/usr/lib/csl-glibc-x86_64:${LD_LIBRARY_PATH}\"\n        export NVCC_PREPEND_FLAGS=\"-ccbin=${CXX}\"\n        rm -rfv ${prefix}/cuda/bin ${prefix}/cuda/nvvm/bin ${prefix}/cuda/nvvm/lib64\n        cp -a cuda_nvcc-linux-x86_64-*-archive/bin ${prefix}/cuda/bin\n        cp -a libnvvm-linux-x86_64-*-archive/nvvm/{bin,lib64} ${prefix}/cuda/nvvm/\n    fi\n\n    mkdir -pv ${WORKSPACE}/tmpdir\n    export TMPDIR=${WORKSPACE}/tmpdir\n\n    # core refuses to configure with CUDA unless opencv_contrib's cudev is built.\n    build_list+=,cudev\n    # nvcc searches lib64; the SDK uses lib. Vendor libraries require newer glibc symbols.\n    # Keep PTX for the newest architecture so newer GPUs can JIT.\n    cmake_args+=(\n        -DWITH_CUDA=ON\n        -DWITH_CUDNN=ON\n        -DOPENCV_DNN_CUDA=ON\n        -DENABLE_CUDA_FIRST_CLASS_LANGUAGE=ON\n        -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc\n        -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\"\n        -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\"\n        -DCUDAToolkit_ROOT=${prefix}/cuda\n        -DCMAKE_CUDA_ARCHITECTURES=\"75-real;80-real;86-real;89-real;90-real;100-real;120\"\n        # OpenCV_jll's libraries have the same sonames, so when both JLLs are loaded in one\n        # process the dynamic linker would resolve this build's dependencies to them.\n        -DOPENCV_DLLVERSION=_cuda\n    )\nfi\n\ncmake -B build \\\n    -DCMAKE_FIND_ROOT_PATH=${prefix} \\\n    -DJulia_PREFIX=${prefix} \\\n    -DWITH_JULIA=ON \\\n    -DJulia_FOUND=ON \\\n    -DHAVE_JULIA=ON \\\n    -DJulia_WORD_SIZE=${nbits} \\\n    -DJulia_INCLUDE_DIRS=${includedir}/julia \\\n    -DJulia_LIBRARY_DIR=${libdir} \\\n    -DJulia_LIBRARY=${libdir}/libjulia.${dlext} \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_TESTS=OFF \\\n    -DBUILD_PERF_TESTS=OFF \\\n    -DBUILD_EXAMPLES=OFF \\\n    -DHAVE_CXX_FVISIBILITY_HIDDEN=OFF \\\n    -DHAVE_CXX_FVISIBILITY_INLINES_HIDDEN=OFF \\\n    -DWITH_KLEIDICV=OFF \\\n    -DWITH_QT=ON \\\n    -DOPENCV_EXTRA_MODULES_PATH=${WORKSPACE}/srcdir/opencv_contrib/modules \\\n    -DBUILD_LIST=${build_list} \\\n    \"${cmake_args[@]}\" \\\n    opencv\ncmake --build build --parallel ${nproc}\ncmake --install build\n\ncp -v build/lib/libopencv_julia.* ${libdir}\n\n# Modified SDK files would otherwise be packaged.\nif [[ \"${bb_full_target}\" == *cuda+* ]] && [[ \"${target}\" == aarch64-* ]]; then\n    rm -rfv ${prefix}/cuda\nfi\n\ninstall_license opencv/{LICENSE,COPYRIGHT}\n"""
+toplevel_block = ""
+version = "v4.14.0"
+
+[build_options]
+compression_format = "\"gzip\""
+dont_dlopen = "true"
+preferred_gcc_version = "v\"10.0.0\""
+
+[[dependencies]]
+build_version = "6.10.2"
+compat = "~6.10.2"
+name = "Qt6Base_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Qt6Base_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.7.0"
+compat = "1.7.0"
+name = "Libglvnd_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "libjulia_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.14.7"
+compat = "0.14.7"
+name = "libcxxwrap_julia_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.3.24"
+compat = "0.3.24"
+name = "OpenBLAS32_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_Runtime_jll"
+platforms = ["any"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+build_version = "9.28.0"
+compat = "9.28"
+name = "CUDNN_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_calib3d_cuda"]
+type = "lib"
+variable_name = "libopencv_calib3d"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_objdetect_cuda"]
+type = "lib"
+variable_name = "libopencv_objdetect"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_core_cuda"]
+type = "lib"
+variable_name = "libopencv_core"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_dnn_cuda"]
+type = "lib"
+variable_name = "libopencv_dnn"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_imgcodecs_cuda"]
+type = "lib"
+variable_name = "libopencv_imgcodecs"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_highgui_cuda"]
+type = "lib"
+variable_name = "libopencv_highgui"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_flann_cuda"]
+type = "lib"
+variable_name = "libopencv_flann"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_gapi_cuda"]
+type = "lib"
+variable_name = "libopencv_gapi"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_imgproc_cuda"]
+type = "lib"
+variable_name = "libopencv_imgproc"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_features2d_cuda"]
+type = "lib"
+variable_name = "libopencv_features2d"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_stitching_cuda"]
+type = "lib"
+variable_name = "libopencv_stitching"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_video_cuda"]
+type = "lib"
+variable_name = "libopencv_video"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_videoio_cuda"]
+type = "lib"
+variable_name = "libopencv_videoio"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libopencv_julia"]
+type = "lib"
+variable_name = "libopencv_julia"
+
+[[sources]]
+hash = "0654a42e19215ef25b1d367d822f3c630447e7c7"
+tag = "4.14.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/opencv/opencv.git"
+[[sources]]
+hash = "a8e9acd62cabd30419dba83007f2ac0d07de5e2c"
+tag = "4.14.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/opencv/opencv_contrib.git"
+[[sources]]
+hash = "244e22cb06b1d890ce4beb9fec3a5f7993957fac"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/JuliaImages/OpenCV.jl.git"
+[[sources]]
+follow_symlinks = false
+path = "/tmp/jl_xuvk4a/O/OpenCV/bundled"
+target = ""
+type = "directory"
+[[sources]]
+filename = "MacOSX14.0.sdk.tar.xz"
+hash = "4a31565fd2644d1aec23da3829977f83632a20985561a2038e198681e7e7bf49"
+type = "file"
+url = "https://github.com/roblabla/MacOSX-SDKs/releases/download/macosx14.0/MacOSX14.0.sdk.tar.xz"
+[[sources]]
+hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+[[sources]]
+hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"

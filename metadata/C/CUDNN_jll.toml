@@ -1684,3 +1684,45 @@ registered = 2026-10-14T09:21:55.000Z
 ["9.28.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
 registered = 2026-11-05T08:54:07.000Z
+
+    [["9.28.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-linux-gnu-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-w64-mingw32-cuda+12.0.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDNN_jll.jl/releases/download/CUDNN-v9.28.0+0/CUDNN.v9.28.0.x86_64-w64-mingw32-cuda+13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/ba23725f74c4a5754692bea90e80dab4ce46a48e/C/CUDA/CUDNN@9/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cudnn@9/build_tarballs.jl/ba23725f74c4a5754692bea90e80dab4ce46a48e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["9.28.0+0".artifact_metadata.sources]]
+        hash = "af24da1f7953160a45bd0ada395eb79a1d344734bd9387f92ef7b62f875f384f"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/linux-x86_64/cudnn-linux-x86_64-9.28.0.42_cuda12-archive.tar.xz"
+
+            ["9.28.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/cudnn"
+            provenance = "heuristic"
+            version = "9.28.0.42"
+        [["9.28.0+0".artifact_metadata.sources]]
+        hash = "33dff88222aba226c5154ff1167a79e03c4e7feadd7e7195c51d580ff9567dce"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/linux-sbsa/cudnn-linux-sbsa-9.28.0.42_cuda12-archive.tar.xz"
+        [["9.28.0+0".artifact_metadata.sources]]
+        hash = "25cd17e34474bfe269a88b5a77e340e7a679752c9b548f4a4df98f28a255636a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/windows-x86_64/cudnn-windows-x86_64-9.28.0.42_cuda12-archive.zip"
+        [["9.28.0+0".artifact_metadata.sources]]
+        hash = "fd324c6923aa4f45a60413665e0b68bb34a7779d0861849e02d2711ff8efb9a4"
+        type = "archive"
+        url = "http://www.winimage.com/zLibDll/zlib123dllx64.zip"
+        [["9.28.0+0".artifact_metadata.sources]]
+        hash = "06409e4ab0a78664dc313c5a71d4444e1f8a8cd3eceee74c11c6eef1c9178e1e"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/linux-x86_64/cudnn-linux-x86_64-9.28.0.42_cuda13-archive.tar.xz"
+        [["9.28.0+0".artifact_metadata.sources]]
+        hash = "2e29e0258e573f22f8a692a4ab621a6775dd24bae92f48d238e0bcb57a744de4"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/linux-sbsa/cudnn-linux-sbsa-9.28.0.42_cuda13-archive.tar.xz"
+        [["9.28.0+0".artifact_metadata.sources]]
+        hash = "b1da81fc9b1e6196205a13ca59cba7b3a321d907c03e90a19d9665867d762137"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/windows-x86_64/cudnn-windows-x86_64-9.28.0.42_cuda13-archive.zip"

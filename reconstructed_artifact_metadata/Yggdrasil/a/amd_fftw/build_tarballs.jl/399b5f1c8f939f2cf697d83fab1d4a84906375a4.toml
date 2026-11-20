@@ -1,0 +1,45 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.9"
+lazy_artifacts = false
+name = "AMD_FFTW"
+platforms = ["x86_64-linux-gnu"]
+script = """cd ${WORKSPACE}/srcdir/amd-fftw\n\nFLAGS=(\n    --disable-doc\n    --enable-sse2\n    --enable-avx\n    --enable-avx2\n    --enable-avx512\n    --enable-openmp\n    --enable-shared\n    --enable-amd-opt\n    --enable-dynamic-dispatcher\n    --host=\"${target}\"\n    --prefix=${prefix}\n)\n\nbuild_amd_fftw()\n{\n    mkdir \"${WORKSPACE}/srcdir/build_${1}\"\n    cd \"${WORKSPACE}/srcdir/build_${1}\"\n\n    bash ${WORKSPACE}/srcdir/amd-fftw/configure \"${FLAGS[@]}\" $2\n    make -j${nproc}\n    make install\n}\n\nbuild_amd_fftw double\nbuild_amd_fftw float --enable-float\n\ncd ${WORKSPACE}/srcdir/amd-fftw\ninstall_license COPYING COPYRIGHT NOTICES LICENSE\n"""
+toplevel_block = ""
+version = "v5.3.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"10.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libfftw3"]
+type = "lib"
+variable_name = "libfftw3"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libfftw3f"]
+type = "lib"
+variable_name = "libfftw3f"
+
+[[sources]]
+hash = "5b72699a06c3cbde5413c117dc1deaa6a071bb8c"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/amd/amd-fftw.git"

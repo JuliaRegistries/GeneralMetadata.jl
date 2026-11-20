@@ -1,0 +1,104 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "BART"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "x86_64-apple-darwin", "aarch64-apple-darwin"]
+script = """macos_sdk_version=10.13\nmacosx_deployment_target=10.13\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir/bart\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/pthread-fallback.patch # Support sysroots without C11 threads.\n\noptions=(\n    AR=\"${target}-ar\"\n    AR_LOCK_NEEDED=0\n    CUDA=0\n    FFTW_BASE=\"${prefix}\"\n    BLAS_BASE=\"${prefix}\"\n    BLAS_L=\"-lopenblas\"\n    # FFTW_jll includes the threads API in libfftw3f.\n    FFTW_L=\"-lfftw3f\"\n    LDFLAGS=\"-L${libdir} -fopenmp\"\n    # NUFFT interpolation relies on separately rounded products before index subtraction.\n    OPT=\"-O2 -ffp-contract=off\"\n)\nif [[ ${target} == *-apple-* ]]; then\n    # BART detects Clang by name; its STL reader uses GCC's name for IEEE binary32.\n    options+=(UNAME=Darwin MACPORTS=0 CC=\"${target}-clang -D_Float32=float\")\nfi\nif [[ ${target} == aarch64-apple-* ]]; then\n    # Complex division on Apple Silicon needs compiler-rt builtins.\n    options+=(LIBS=\"-L${libdir}/darwin -lclang_rt.osx\")\nfi\n\n${host_bindir}/make -j${nproc} \"${options[@]}\" bart\ngit diff --check\ninstall -Dvm755 bart \"${bindir}/bart\"\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v1.0.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"12.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "GNUMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 4
+version-minor = 4
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "LLVMCompilerRT_jll"
+platforms = ["aarch64-apple-darwin"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "3.3.11"
+compat = "3.3.11"
+name = "FFTW_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.3.23"
+compat = "0.3.23"
+name = "OpenBLAS32_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.6.43"
+compat = "1.6.43"
+name = "libpng_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.5"
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "15.0.7"
+compat = "15.0.7 - 23"
+name = "LLVMOpenMP_jll"
+platforms = ["x86_64-apple-darwin", "aarch64-apple-darwin"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["bart"]
+type = "exe"
+variable_name = "bart"
+
+[[sources]]
+hash = "37f3c5f0feaf0a19a7fca85c926ad74101f4a034"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://codeberg.org/mrirecon/bart.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
+[[sources]]
+filename = "MacOSX10.13.sdk.tar.xz"
+hash = "a3a077385205039a7c6f9e2c98ecdf2a720b2a819da715e03e0630c75782c1e4"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.13.sdk.tar.xz"

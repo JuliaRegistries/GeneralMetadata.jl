@@ -1,0 +1,30 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "tok"
+platforms = ["x86_64-linux-gnu", "aarch64-linux-gnu", "x86_64-linux-musl", "aarch64-linux-musl", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/tok/rust\n# Build with the Rust toolchain of BinaryBuilder: rust-toolchain.toml would ask rustup for\n# the toolchain the engine is developed with, and the workspace declares that version as its\n# rust-version, while the engine compiles with Rust 1.88 or newer.\nrm -f rust-toolchain.toml\nif [[ \"${target}\" == *-musl* ]]; then\n    # a shared library needs the C runtime linked dynamically on musl\n    export RUSTFLAGS=\"-C target-feature=-crt-static\"\nfi\ncargo build --release --locked --ignore-rust-version -p tok-capi\nif [[ \"${target}\" == *-mingw* ]]; then\n    lib=tokengine.${dlext}\nelse\n    lib=libtokengine.${dlext}\nfi\ninstall -Dvm 755 \"target/${rust_target}/release/${lib}\" \"${libdir}/${lib}\"\ninstall -Dvm 644 tok-capi/include/tok.h \"${includedir}/tok.h\"\ninstall_license ../LICENSE\n"""
+toplevel_block = ""
+version = "v1.0.3"
+
+[build_options]
+compilers = "[:c, :rust]"
+compression_format = "\"gzip\""
+preferred_rust_version = "v\"1.94.0\""
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libtokengine", "tokengine"]
+type = "lib"
+variable_name = "libtokengine"
+
+[[sources]]
+hash = "464f1b73b5b2aed5444a93cd26c165752f521a62"
+tag = "v1.0.3"
+type = "git"
+unpack_target = ""
+url = "https://github.com/tok-lang-bpm/tok.git"

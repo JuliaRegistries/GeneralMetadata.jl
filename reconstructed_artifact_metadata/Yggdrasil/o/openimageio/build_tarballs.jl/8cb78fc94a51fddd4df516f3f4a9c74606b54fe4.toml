@@ -1,0 +1,208 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "OpenImageIO"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """macos_sdk_version=11.0\nmacosx_deployment_target=11.0\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd $WORKSPACE/srcdir/OpenImageIO\n\napk del cmake\n\ncmake_args=(\n    -DCMAKE_INSTALL_PREFIX=${prefix}\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN}\n    -DCMAKE_BUILD_TYPE=Release\n    -DOIIO_BUILD_TESTS=0\n    -DUSE_EXTERNAL_PUGIXML=1\n    -DUSE_PYTHON=0\n)\nif [[ ${target} == i686-linux-musl ]]; then\n    # `__stack_chk_fail_local` is not available\n    cmake_args+=(-DOIIO_HARDENING=0)\nfi\n\ncmake -B build-dir -G Ninja \"${cmake_args[@]}\"\ncmake --build build-dir --parallel ${nproc}\ncmake --install build-dir\ninstall_license LICENSE.md RELICENSING.md\n"""
+toplevel_block = ""
+version = "v3.2.200"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "9.0.2"
+compat = "9.0.2"
+name = "FFMPEG_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.13.4"
+compat = "2.13.4"
+name = "FreeType2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "6.1.3"
+compat = "6.1.3"
+name = "Giflib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "3.2.0"
+compat = "3.2.0"
+name = "JpegTurbo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.7.3"
+compat = "4.7.3"
+name = "Libtiff_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.6.0"
+compat = "~2.6.0"
+name = "OpenColorIO_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "3.5.2"
+compat = "~3.5.2"
+name = "OpenEXR_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.5.5"
+compat = "2.5.5"
+name = "OpenJpeg_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.2.12"
+compat = "1.2.12"
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.87.0"
+compat = "=1.87.0"
+name = "boost_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.6.59"
+compat = "1.6.59"
+name = "libpng_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.6.1"
+compat = "1.6.1"
+name = "libwebp_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.16.0"
+compat = "1.16.0"
+name = "pugixml_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["iconvert"]
+type = "exe"
+variable_name = "iconvert"
+[[products]]
+binnames = ["idiff"]
+type = "exe"
+variable_name = "idiff"
+[[products]]
+binnames = ["igrep"]
+type = "exe"
+variable_name = "igrep"
+[[products]]
+binnames = ["iinfo"]
+type = "exe"
+variable_name = "iinfo"
+[[products]]
+binnames = ["maketx"]
+type = "exe"
+variable_name = "maketx"
+[[products]]
+binnames = ["oiiotool"]
+type = "exe"
+variable_name = "oiiotool"
+[[products]]
+binnames = ["testtex"]
+type = "exe"
+variable_name = "testtex"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libOpenImageIO"]
+type = "lib"
+variable_name = "libOpenImageIO"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libOpenImageIO_Util"]
+type = "lib"
+variable_name = "libOpenImageIO_Util"
+
+[[sources]]
+hash = "96377f681cc9e6650c8534671f4fc36b3c8acbc1"
+tag = "v3.2.2.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/AcademySoftwareFoundation/OpenImageIO"
+[[sources]]
+filename = "MacOSX11.0.sdk.tar.xz"
+hash = "c8a9ff16196be43c35b699dd293f0c0563f1239c99caa6b3d53882e556a209bd"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.0.sdk.tar.xz"

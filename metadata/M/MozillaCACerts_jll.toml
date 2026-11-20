@@ -485,3 +485,16 @@ registered = 2026-10-20T19:15:29.000Z
 ["2026.11.5+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MozillaCACerts_jll.jl/releases/download/MozillaCACerts-v2026.11.5+0/MozillaCACerts.v2026.11.5.any.tar.gz"]
 registered = 2026-11-05T12:59:41.000Z
+
+    [["2026.11.5+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/MozillaCACerts_jll.jl/releases/download/MozillaCACerts-v2026.11.5+0/MozillaCACerts.v2026.11.5.any.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/59d27f0eec0708488fda21e10b246e141b3c5cf9/M/MozillaCACerts/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/mozillacacerts/build_tarballs.jl/59d27f0eec0708488fda21e10b246e141b3c5cf9.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2026.11.5+0".artifact_metadata.sources]]
+        hash = "427c064216761a1e72a8b30f0d954d08cb6e4435a82091fb865afd20c8497285"
+        type = "file"
+        url = "https://curl.haxx.se/ca/cacert-2026-11-05.pem"

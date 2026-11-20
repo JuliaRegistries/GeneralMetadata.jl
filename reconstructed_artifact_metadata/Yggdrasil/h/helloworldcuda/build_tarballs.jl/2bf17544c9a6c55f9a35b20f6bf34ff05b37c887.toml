@@ -1,0 +1,89 @@
+augment_platform_block = """using Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\n    # in that case, we just won't select an artifact.\nend\n\n# can't use Preferences for the same reason\nconst CUDA_Runtime_jll_uuid = Base.UUID(\"76a88914-d11a-5bdc-97e0-2f5a05c973a2\")\nconst preferences = Base.get_preferences(CUDA_Runtime_jll_uuid)\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"version\")\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"local\")\n# the `local` preference is a boolean, but CUDA.jl's `set_runtime_version!` writes it\n# as a string, and hand-written LocalPreferences.toml files use either spelling.\nconst local_toolkit = let pref = get(preferences, \"local\", false)\n    pref isa Bool ? pref : something(tryparse(Bool, pref), false)\nend\n\nfunction cuda_comparison_strategy(_a::String, _b::String, a_requested::Bool, b_requested::Bool)\n    # if we're using a local toolkit, we can't use artifacts\n    if local_toolkit\n        return false\n    end\n\n    # if either isn't a version number (e.g. \"none\"), perform a simple equality check\n    a = tryparse(VersionNumber, _a)\n    b = tryparse(VersionNumber, _b)\n    if a === nothing || b === nothing\n        return _a == _b\n    end\n\n    # if both b and a requested, then we fall back to equality\n    if a_requested && b_requested\n        return Base.thisminor(a) == Base.thisminor(b)\n    end\n\n    # otherwise, do the comparison between the the single version cap and the single version:\n    function is_compatible(artifact::VersionNumber, host::VersionNumber)\n        if host >= v\"11.0\"\n            # enhanced compatibility, semver-style\n            artifact.major == host.major &&\n            Base.thisminor(artifact) <= Base.thisminor(host)\n        else\n            Base.thisminor(artifact) == Base.thisminor(host)\n        end\n    end\n    if a_requested\n        is_compatible(b, a)\n    else\n        is_compatible(a, b)\n    end\nend\n\nfunction augment_platform!(platform::Platform)\n    if !@isdefined(CUDA_Runtime_jll)\n        # don't set to nothing or Pkg will download any artifact\n        platform[\"cuda\"] = \"none\"\n    end\n\n    if !haskey(platform, \"cuda\")\n        CUDA_Runtime_jll.augment_platform!(platform)\n    end\n    BinaryPlatforms.set_compare_strategy!(platform, \"cuda\", cuda_comparison_strategy)\n\n    return platform\nend"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = true
+name = "HelloWorldCUDA"
+platforms = ["x86_64-linux-gnu-cuda+13.0", "aarch64-linux-gnu-cuda+13.0"]
+script = """cd ${WORKSPACE}/srcdir\n\n# BinaryBuilder's x86_64 host needs x86_64 CUDA tools, paired with the target C++ compiler.\nif [[ \"${target}\" == aarch64-* ]]; then\n    export LD_LIBRARY_PATH=\"/usr/lib/csl-musl-x86_64:/usr/lib/csl-glibc-x86_64:${LD_LIBRARY_PATH}\"\n    export NVCC_PREPEND_FLAGS=\"-ccbin=${CXX}\"\n    rm -rfv ${prefix}/cuda/bin ${prefix}/cuda/nvvm/bin ${prefix}/cuda/nvvm/lib64\n    cp -a cuda_nvcc-linux-x86_64-*-archive/bin ${prefix}/cuda/bin\n    cp -a libnvvm-linux-x86_64-*-archive/nvvm/{bin,lib64} ${prefix}/cuda/nvvm/\nfi\n\n# nvcc searches lib64; the SDK uses lib. Vendor libraries require newer glibc symbols.\n# Keep PTX (75, not 75-real) so newer GPUs can run the kernel.\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc \\\n    -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\" \\\n    -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\" \\\n    -DCUDAToolkit_ROOT=${prefix}/cuda \\\n    -DCMAKE_CUDA_ARCHITECTURES=75\ncmake --build build --parallel ${nproc}\ncmake --install build\n\n# Modified SDK files would otherwise be packaged.\nif [[ \"${target}\" == aarch64-* ]]; then\n    rm -rfv ${prefix}/cuda\nfi\n\ninstall_license /usr/share/licenses/MIT\n"""
+toplevel_block = ""
+version = "v1.0.0"
+
+[build_options]
+compression_format = "\"gzip\""
+dont_dlopen = "true"
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_Runtime_jll"
+platforms = ["any"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+build_version = "1.0.5"
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "13.3.6 - 13"
+name = "CUDA_Driver_jll"
+platforms = ["any"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libhello_cuda"]
+type = "lib"
+variable_name = "libhello_cuda"
+[[products]]
+binnames = ["hello_world_cuda"]
+type = "exe"
+variable_name = "hello_world_cuda"
+
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
+[[sources]]
+hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+[[sources]]
+hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+type = "archive"
+unpack_target = ""
+url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"

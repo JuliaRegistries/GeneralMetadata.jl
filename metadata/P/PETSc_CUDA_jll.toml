@@ -2,6 +2,158 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"]
 registered = 2026-11-06T17:34:41.000Z
 
+    [["3.25.6+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/e4f0f691834dfd661417a9a506c4aab24d82ac9b/P/PETSc/PETSc_CUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/petsc/petsc_cuda/build_tarballs.jl/e4f0f691834dfd661417a9a506c4aab24d82ac9b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.25.6+0".artifact_metadata.sources]]
+        hash = "00ac91c7ae96eae6a39d7380c7e869c1c7ddbc0c64a23a0b5fd3442227c7cdb9"
+        type = "archive"
+        url = "https://web.cels.anl.gov/projects/petsc/download/release-snapshots/petsc-3.25.6.tar.gz"
+
+            ["3.25.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/petsc"
+            provenance = "heuristic"
+            version = "3.25.6"
+        [["3.25.6+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/e4f0f691834dfd661417a9a506c4aab24d82ac9b/P/PETSc/bundled"
+        [["3.25.6+0".artifact_metadata.sources]]
+        hash = "4f37e799ccc6b70c39979b53a4c24488ee3fe0ae"
+        type = "git"
+        url = "https://github.com/NVIDIA/NVTX"
+
+            ["3.25.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/nvtx"
+            provenance = "git-tag"
+            version = "3.2.2"
+        [["3.25.6+0".artifact_metadata.sources]]
+        package = "LLVMCompilerRT_jll"
+        type = "builddependency"
+        [["3.25.6+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+
 ["3.25.7+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"]
 registered = 2026-11-17T17:08:23.000Z
+
+    [["3.25.7+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/3812571405e34c5c48a6f2761660056d3b5c179e/P/PETSc/PETSc_CUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/petsc/petsc_cuda/build_tarballs.jl/3812571405e34c5c48a6f2761660056d3b5c179e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.25.7+0".artifact_metadata.sources]]
+        hash = "00ac91c7ae96eae6a39d7380c7e869c1c7ddbc0c64a23a0b5fd3442227c7cdb9"
+        type = "archive"
+        url = "https://web.cels.anl.gov/projects/petsc/download/release-snapshots/petsc-3.25.6.tar.gz"
+
+            ["3.25.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/petsc"
+            provenance = "heuristic"
+            version = "3.25.6"
+        [["3.25.7+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3812571405e34c5c48a6f2761660056d3b5c179e/P/PETSc/bundled"
+        [["3.25.7+0".artifact_metadata.sources]]
+        hash = "4f37e799ccc6b70c39979b53a4c24488ee3fe0ae"
+        type = "git"
+        url = "https://github.com/NVIDIA/NVTX"
+
+            ["3.25.7+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/nvtx"
+            provenance = "git-tag"
+            version = "3.2.2"
+        [["3.25.7+0".artifact_metadata.sources]]
+        hash = "906b894dffd853acefe6ab3d2a6cd74a0aa99b34bb8ca1e848174bddf55bfa3b"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.0.140-archive.tar.xz"
+        [["3.25.7+0".artifact_metadata.sources]]
+        hash = "9961b3484b6b71314063709a4f9529654f96782ad39e72bf1e00f070db8210d3"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.8.93-archive.tar.xz"
+        [["3.25.7+0".artifact_metadata.sources]]
+        hash = "7a1a5b652e5ef85c82b721d10672fc9a2dbaab44e9bd3c65a69517bf53998c35"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.9.86-archive.tar.xz"
+        [["3.25.7+0".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["3.25.7+0".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["3.25.7+0".artifact_metadata.sources]]
+        package = "LLVMCompilerRT_jll"
+        type = "builddependency"
+        [["3.25.7+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+
+["3.25.8+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"]
+registered = 2026-11-19T01:54:07.000Z
+
+    [["3.25.8+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.8+0/PETSc_CUDA.v3.25.8.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/d6bbd42ef319588c1e5fe659c7a5b827c98e4b2c/P/PETSc/PETSc_CUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/petsc/petsc_cuda/build_tarballs.jl/d6bbd42ef319588c1e5fe659c7a5b827c98e4b2c.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.25.8+0".artifact_metadata.sources]]
+        hash = "00ac91c7ae96eae6a39d7380c7e869c1c7ddbc0c64a23a0b5fd3442227c7cdb9"
+        type = "archive"
+        url = "https://web.cels.anl.gov/projects/petsc/download/release-snapshots/petsc-3.25.6.tar.gz"
+
+            ["3.25.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/petsc"
+            provenance = "heuristic"
+            version = "3.25.6"
+        [["3.25.8+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d6bbd42ef319588c1e5fe659c7a5b827c98e4b2c/P/PETSc/bundled"
+        [["3.25.8+0".artifact_metadata.sources]]
+        hash = "4f37e799ccc6b70c39979b53a4c24488ee3fe0ae"
+        type = "git"
+        url = "https://github.com/NVIDIA/NVTX"
+
+            ["3.25.8+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/nvtx"
+            provenance = "git-tag"
+            version = "3.2.2"
+        [["3.25.8+0".artifact_metadata.sources]]
+        hash = "906b894dffd853acefe6ab3d2a6cd74a0aa99b34bb8ca1e848174bddf55bfa3b"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.0.140-archive.tar.xz"
+        [["3.25.8+0".artifact_metadata.sources]]
+        hash = "9961b3484b6b71314063709a4f9529654f96782ad39e72bf1e00f070db8210d3"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.8.93-archive.tar.xz"
+        [["3.25.8+0".artifact_metadata.sources]]
+        hash = "7a1a5b652e5ef85c82b721d10672fc9a2dbaab44e9bd3c65a69517bf53998c35"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.9.86-archive.tar.xz"
+        [["3.25.8+0".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["3.25.8+0".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["3.25.8+0".artifact_metadata.sources]]
+        package = "LLVMCompilerRT_jll"
+        type = "builddependency"
+        [["3.25.8+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"

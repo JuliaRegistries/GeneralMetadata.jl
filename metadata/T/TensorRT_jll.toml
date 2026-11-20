@@ -214,3 +214,36 @@ registered = 2025-02-10T11:22:55.000Z
 ["10.13.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+11.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+12.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+11.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+12.0.tar.xz"]
 registered = 2026-11-18T11:32:03.000Z
+
+    [["10.13.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+11.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+12.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+11.0.tar.xz", "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+12.0.tar.xz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/5745169e1ed830ed534cbb04aeb4252ada52fde2/T/TensorRT/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/t/tensorrt/build_tarballs.jl/5745169e1ed830ed534cbb04aeb4252ada52fde2.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["10.13.0+0".artifact_metadata.sources]]
+        hash = "c786d9300dd6fbc5bae1891aee3648366cba20fb4f3982116c309e88f9797f54"
+        type = "archive"
+        url = "https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.13.0/zip/TensorRT-10.13.0.35.Windows.win10.cuda-11.8.zip"
+        [["10.13.0+0".artifact_metadata.sources]]
+        hash = "4128dd4f40433b957c90f9d04d53311d1636ee046b66a241ab60492f4861de74"
+        type = "archive"
+        url = "https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.13.0/tars/TensorRT-10.13.0.35.Linux.x86_64-gnu.cuda-11.8.tar.gz"
+        [["10.13.0+0".artifact_metadata.sources]]
+        hash = "b2f7c7ae6da3588729b7a64825246cc59b643adbe373684fb9c5713262ed46c2"
+        type = "archive"
+        url = "https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.13.0/tars/TensorRT-10.13.0.35.Linux.aarch64-gnu.cuda-12.9.tar.gz"
+        [["10.13.0+0".artifact_metadata.sources]]
+        hash = "8b280dcdb9ce0bebed512ecb4cf8feaf5bd61dea9c981d5fc1fabfae7d06614f"
+        type = "archive"
+        url = "https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.13.0/zip/TensorRT-10.13.0.35.Windows.win10.cuda-12.9.zip"
+        [["10.13.0+0".artifact_metadata.sources]]
+        hash = "b3028a82818a9daf6296f43d0cdecfa51eaea4552ffb6fe6fad5e6e1aea44da6"
+        type = "archive"
+        url = "https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.7.0/tars/TensorRT-10.7.0.23.l4t.aarch64-gnu.cuda-12.6.tar.gz"
+        [["10.13.0+0".artifact_metadata.sources]]
+        hash = "899ff39e237f1351fccac7f6891617f68cbab71c13a7d7c703184424bdbbf621"
+        type = "archive"
+        url = "https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.13.0/tars/TensorRT-10.13.0.35.Linux.x86_64-gnu.cuda-12.9.tar.gz"

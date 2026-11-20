@@ -1,0 +1,245 @@
+augment_platform_block = """    using Base.BinaryPlatforms\n\n    module __CUDA\n        using Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\n    # in that case, we just won't select an artifact.\nend\n\n# can't use Preferences for the same reason\nconst CUDA_Runtime_jll_uuid = Base.UUID(\"76a88914-d11a-5bdc-97e0-2f5a05c973a2\")\nconst preferences = Base.get_preferences(CUDA_Runtime_jll_uuid)\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"version\")\nBase.record_compiletime_preference(CUDA_Runtime_jll_uuid, \"local\")\n# the `local` preference is a boolean, but CUDA.jl's `set_runtime_version!` writes it\n# as a string, and hand-written LocalPreferences.toml files use either spelling.\nconst local_toolkit = let pref = get(preferences, \"local\", false)\n    pref isa Bool ? pref : something(tryparse(Bool, pref), false)\nend\n\nfunction cuda_comparison_strategy(_a::String, _b::String, a_requested::Bool, b_requested::Bool)\n    # if we're using a local toolkit, we can't use artifacts\n    if local_toolkit\n        return false\n    end\n\n    # if either isn't a version number (e.g. \"none\"), perform a simple equality check\n    a = tryparse(VersionNumber, _a)\n    b = tryparse(VersionNumber, _b)\n    if a === nothing || b === nothing\n        return _a == _b\n    end\n\n    # if both b and a requested, then we fall back to equality\n    if a_requested && b_requested\n        return Base.thisminor(a) == Base.thisminor(b)\n    end\n\n    # otherwise, do the comparison between the the single version cap and the single version:\n    function is_compatible(artifact::VersionNumber, host::VersionNumber)\n        if host >= v\"11.0\"\n            # enhanced compatibility, semver-style\n            artifact.major == host.major &&\n            Base.thisminor(artifact) <= Base.thisminor(host)\n        else\n            Base.thisminor(artifact) == Base.thisminor(host)\n        end\n    end\n    if a_requested\n        is_compatible(b, a)\n    else\n        is_compatible(a, b)\n    end\nend\n\nfunction augment_platform!(platform::Platform)\n    if !@isdefined(CUDA_Runtime_jll)\n        # don't set to nothing or Pkg will download any artifact\n        platform[\"cuda\"] = \"none\"\n    end\n\n    if !haskey(platform, \"cuda\")\n        CUDA_Runtime_jll.augment_platform!(platform)\n    end\n    BinaryPlatforms.set_compare_strategy!(platform, \"cuda\", cuda_comparison_strategy)\n\n    return platform\nend\n    end\n\n    # Can't use Preferences since we might be running this very early with a non-existing Manifest\nMPIPreferences_UUID = Base.UUID(\"3da0fdf6-3ccc-4f1b-acd9-58baa6c99267\")\nconst preferences = Base.get_preferences(MPIPreferences_UUID)\n\nconst binary_to_abi = Dict(\n    \"MPIABI_jll\" => \"MPIABI\",\n    \"MPICH_jll\" => \"MPICH\",\n    \"MPICH_CUDA_jll\" => \"MPICH\",\n    \"MPItrampoline_jll\" => \"MPItrampoline\",\n    \"MicrosoftMPI_jll\" => \"MicrosoftMPI\",\n    \"OpenMPI_jll\" => \"OpenMPI\",\n)\n\n# Keep logic in sync with MPIPreferences.jl\nfunction augment_mpi!(platform)\n    # Doesn't need to be `const` since we depend on MPIPreferences so we\n    # invalidate the cache when it changes.\n\n    # Determine which jll binary provides our MPI implementation.\n    # Use MPIPreferences if set, otherwise use either MPICH or MicrosoftMPI (on Windows).\n    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.\n    binary = get(preferences, \"binary\", Sys.iswindows(platform) ? \"MicrosoftMPI_jll\" : \"MPICH_jll\")\n\n    # Convert the jll binary to an ABI\n    if binary == \"system\"\n        abi = get(preferences, \"abi\", nothing)\n        abi === nothing && error(\"MPIPreferences: Inconsistent state detected, `binary` is set to system, but `abi` is not set.\")\n    else\n        abi = get(binary_to_abi, binary, nothing)\n        abi == nothing && error(\"Unknown MPI binary: $binary\")\n    end\n\n    # Add an `mpi` entry to the platform if it's missing\n    if !haskey(platform, \"mpi\")\n        platform[\"mpi\"] = abi\n    end\n\n    return platform\nend\n\n\n    function augment_platform!(platform::Platform)\n        augment_mpi!(platform)\n        __CUDA.augment_platform!(platform)\n    end\n"""
+init_block = ""
+julia_compat = "1.11"
+lazy_artifacts = true
+name = "SuperLU_DIST_CUDA"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cuda+12.8-mpi+mpiabi", "x86_64-linux-gnu-cuda+12.9-mpi+mpiabi", "x86_64-linux-gnu-cuda+13.0-mpi+mpiabi", "x86_64-linux-gnu-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cuda+12.8-mpi+mpich", "x86_64-linux-gnu-cuda+12.9-mpi+mpich", "x86_64-linux-gnu-cuda+13.0-mpi+mpich"]
+script = ["""CUDA_ARCHS=\"75;80;86;89;90\"\ncd $WORKSPACE/srcdir/superlu_dist*\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/output-name.patch\n\nEXTRA_CMAKE_ARGS=()\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/findcudatoolkit.patch\n\n# nvcc writes to /tmp, which is a small tmpfs in the sandbox.\nexport TMPDIR=${WORKSPACE}/tmpdir\nmkdir -v ${TMPDIR}\n\nEXTRA_CMAKE_ARGS+=(\n    -DTPL_ENABLE_CUDALIB=ON\n    -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc\n    -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\"\n    -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\"\n    # CUDA 13's cuBLASLt and cuSOLVER need a newer glibc than the sysroot's, which\n    # only breaks linking the pdtest executables.\n    -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\"\n)\n\n# Pick libblastrampoline.so / libblastrampoline-5.dll / libblastrampoline.dylib\n# without an explicit Windows check.\nBLAS_LIB=$(ls \"${libdir}\"/libblastrampoline*.\"${dlext}\" | head -1)\n\nbuild_superlu_dist()\n{\n    if [[ \"${1}\" == \"Int64\" ]]; then\n        INT=64\n        # METIS_jll installs this variant under its own prefix, so the DLL is in bin/ on Windows.\n        METIS_PATH=\"${libdir}/metis/metis_Int64_Real32/$(basename ${libdir})/libmetis_Int64_Real32.${dlext}\"\n        PARMETIS_PATH=\"${libdir}/libparmetis_Int64_Real32.${dlext}\"\n    else\n        INT=32\n        METIS_PATH=\"${libdir}/libmetis.${dlext}\"\n        PARMETIS_PATH=\"${libdir}/libparmetis.${dlext}\"\n    fi\n\n    cmake -B build-${INT} \\\n        -DCMAKE_INSTALL_PREFIX=${prefix} \\\n        -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n        -DCMAKE_BUILD_TYPE=Release \\\n        -DBUILD_SHARED_LIBS=ON \\\n        -DBUILD_STATIC_LIBS=OFF \\\n        -DTPL_ENABLE_INTERNAL_BLASLIB=OFF \\\n        -Denable_tests=ON \\\n        -Denable_doc=OFF \\\n        -Denable_single=ON \\\n        -Denable_double=ON \\\n        -Denable_complex16=ON \\\n        -DTPL_BLAS_LIBRARIES=\"${BLAS_LIB}\" \\\n        -DTPL_ENABLE_LAPACKLIB=ON \\\n        -DTPL_LAPACK_LIBRARIES=\"${BLAS_LIB}\" \\\n        -DTPL_ENABLE_PARMETISLIB=ON \\\n        -DTPL_PARMETIS_INCLUDE_DIRS=\"${includedir}\" \\\n        -DTPL_PARMETIS_LIBRARIES=\"${PARMETIS_PATH};${METIS_PATH}\" \\\n        -DCMAKE_C_FLAGS=\"-std=c99 -Wno-implicit-function-declaration -Wno-incompatible-pointer-types\" \\\n        -DXSDK_INDEX_SIZE=${INT} \\\n        -DXSDK_ENABLE_Fortran=OFF \\\n        -DSUPERLU_OUTPUT_NAME=\"superlu_dist_Int${INT}\" \\\n        -Denable_examples=OFF \\\n        -Denable_python=OFF \\\n        \"${EXTRA_CMAKE_ARGS[@]}\"\n    cmake --build build-${INT} --parallel ${nproc}\n    cmake --install build-${INT}\n\n    install -Dvm 755 build-${INT}/TEST/pdtest${exeext} \"${bindir}/pdtest_${INT}${exeext}\"\n    install -vm 644 EXAMPLE/g20.rua \"${includedir}\"\n\n    # Both widths install into ${includedir}, so the second build overwrites\n    # the first's superlu_dist_config.h (XSDK_INDEX_SIZE). Keep a per-width\n    # copy right after each install for consumers such as PETSc.\n    mkdir -pv ${includedir}/superlu_dist_Int${INT}\n    cp -v ${includedir}/superlu*.h* ${includedir}/superlu_dist_Int${INT}/\n}\nbuild_superlu_dist Int32\nbuild_superlu_dist Int64\n""", """CUDA_ARCHS=\"75;80;86;89;90;100;120\"\ncd $WORKSPACE/srcdir/superlu_dist*\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/output-name.patch\n\nEXTRA_CMAKE_ARGS=()\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/findcudatoolkit.patch\n\n# nvcc writes to /tmp, which is a small tmpfs in the sandbox.\nexport TMPDIR=${WORKSPACE}/tmpdir\nmkdir -v ${TMPDIR}\n\nEXTRA_CMAKE_ARGS+=(\n    -DTPL_ENABLE_CUDALIB=ON\n    -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc\n    -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\"\n    -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\"\n    # CUDA 13's cuBLASLt and cuSOLVER need a newer glibc than the sysroot's, which\n    # only breaks linking the pdtest executables.\n    -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\"\n)\n\n# Pick libblastrampoline.so / libblastrampoline-5.dll / libblastrampoline.dylib\n# without an explicit Windows check.\nBLAS_LIB=$(ls \"${libdir}\"/libblastrampoline*.\"${dlext}\" | head -1)\n\nbuild_superlu_dist()\n{\n    if [[ \"${1}\" == \"Int64\" ]]; then\n        INT=64\n        # METIS_jll installs this variant under its own prefix, so the DLL is in bin/ on Windows.\n        METIS_PATH=\"${libdir}/metis/metis_Int64_Real32/$(basename ${libdir})/libmetis_Int64_Real32.${dlext}\"\n        PARMETIS_PATH=\"${libdir}/libparmetis_Int64_Real32.${dlext}\"\n    else\n        INT=32\n        METIS_PATH=\"${libdir}/libmetis.${dlext}\"\n        PARMETIS_PATH=\"${libdir}/libparmetis.${dlext}\"\n    fi\n\n    cmake -B build-${INT} \\\n        -DCMAKE_INSTALL_PREFIX=${prefix} \\\n        -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n        -DCMAKE_BUILD_TYPE=Release \\\n        -DBUILD_SHARED_LIBS=ON \\\n        -DBUILD_STATIC_LIBS=OFF \\\n        -DTPL_ENABLE_INTERNAL_BLASLIB=OFF \\\n        -Denable_tests=ON \\\n        -Denable_doc=OFF \\\n        -Denable_single=ON \\\n        -Denable_double=ON \\\n        -Denable_complex16=ON \\\n        -DTPL_BLAS_LIBRARIES=\"${BLAS_LIB}\" \\\n        -DTPL_ENABLE_LAPACKLIB=ON \\\n        -DTPL_LAPACK_LIBRARIES=\"${BLAS_LIB}\" \\\n        -DTPL_ENABLE_PARMETISLIB=ON \\\n        -DTPL_PARMETIS_INCLUDE_DIRS=\"${includedir}\" \\\n        -DTPL_PARMETIS_LIBRARIES=\"${PARMETIS_PATH};${METIS_PATH}\" \\\n        -DCMAKE_C_FLAGS=\"-std=c99 -Wno-implicit-function-declaration -Wno-incompatible-pointer-types\" \\\n        -DXSDK_INDEX_SIZE=${INT} \\\n        -DXSDK_ENABLE_Fortran=OFF \\\n        -DSUPERLU_OUTPUT_NAME=\"superlu_dist_Int${INT}\" \\\n        -Denable_examples=OFF \\\n        -Denable_python=OFF \\\n        \"${EXTRA_CMAKE_ARGS[@]}\"\n    cmake --build build-${INT} --parallel ${nproc}\n    cmake --install build-${INT}\n\n    install -Dvm 755 build-${INT}/TEST/pdtest${exeext} \"${bindir}/pdtest_${INT}${exeext}\"\n    install -vm 644 EXAMPLE/g20.rua \"${includedir}\"\n\n    # Both widths install into ${includedir}, so the second build overwrites\n    # the first's superlu_dist_config.h (XSDK_INDEX_SIZE). Keep a per-width\n    # copy right after each install for consumers such as PETSc.\n    mkdir -pv ${includedir}/superlu_dist_Int${INT}\n    cp -v ${includedir}/superlu*.h* ${includedir}/superlu_dist_Int${INT}/\n}\nbuild_superlu_dist Int32\nbuild_superlu_dist Int64\n""", """CUDA_ARCHS=\"75;80;86;89;90;100;120;103;121\"\ncd $WORKSPACE/srcdir/superlu_dist*\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/output-name.patch\n\nEXTRA_CMAKE_ARGS=()\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/findcudatoolkit.patch\n\n# nvcc writes to /tmp, which is a small tmpfs in the sandbox.\nexport TMPDIR=${WORKSPACE}/tmpdir\nmkdir -v ${TMPDIR}\n\nEXTRA_CMAKE_ARGS+=(\n    -DTPL_ENABLE_CUDALIB=ON\n    -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc\n    -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\"\n    -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\"\n    # CUDA 13's cuBLASLt and cuSOLVER need a newer glibc than the sysroot's, which\n    # only breaks linking the pdtest executables.\n    -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\"\n)\n\n# Pick libblastrampoline.so / libblastrampoline-5.dll / libblastrampoline.dylib\n# without an explicit Windows check.\nBLAS_LIB=$(ls \"${libdir}\"/libblastrampoline*.\"${dlext}\" | head -1)\n\nbuild_superlu_dist()\n{\n    if [[ \"${1}\" == \"Int64\" ]]; then\n        INT=64\n        # METIS_jll installs this variant under its own prefix, so the DLL is in bin/ on Windows.\n        METIS_PATH=\"${libdir}/metis/metis_Int64_Real32/$(basename ${libdir})/libmetis_Int64_Real32.${dlext}\"\n        PARMETIS_PATH=\"${libdir}/libparmetis_Int64_Real32.${dlext}\"\n    else\n        INT=32\n        METIS_PATH=\"${libdir}/libmetis.${dlext}\"\n        PARMETIS_PATH=\"${libdir}/libparmetis.${dlext}\"\n    fi\n\n    cmake -B build-${INT} \\\n        -DCMAKE_INSTALL_PREFIX=${prefix} \\\n        -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n        -DCMAKE_BUILD_TYPE=Release \\\n        -DBUILD_SHARED_LIBS=ON \\\n        -DBUILD_STATIC_LIBS=OFF \\\n        -DTPL_ENABLE_INTERNAL_BLASLIB=OFF \\\n        -Denable_tests=ON \\\n        -Denable_doc=OFF \\\n        -Denable_single=ON \\\n        -Denable_double=ON \\\n        -Denable_complex16=ON \\\n        -DTPL_BLAS_LIBRARIES=\"${BLAS_LIB}\" \\\n        -DTPL_ENABLE_LAPACKLIB=ON \\\n        -DTPL_LAPACK_LIBRARIES=\"${BLAS_LIB}\" \\\n        -DTPL_ENABLE_PARMETISLIB=ON \\\n        -DTPL_PARMETIS_INCLUDE_DIRS=\"${includedir}\" \\\n        -DTPL_PARMETIS_LIBRARIES=\"${PARMETIS_PATH};${METIS_PATH}\" \\\n        -DCMAKE_C_FLAGS=\"-std=c99 -Wno-implicit-function-declaration -Wno-incompatible-pointer-types\" \\\n        -DXSDK_INDEX_SIZE=${INT} \\\n        -DXSDK_ENABLE_Fortran=OFF \\\n        -DSUPERLU_OUTPUT_NAME=\"superlu_dist_Int${INT}\" \\\n        -Denable_examples=OFF \\\n        -Denable_python=OFF \\\n        \"${EXTRA_CMAKE_ARGS[@]}\"\n    cmake --build build-${INT} --parallel ${nproc}\n    cmake --install build-${INT}\n\n    install -Dvm 755 build-${INT}/TEST/pdtest${exeext} \"${bindir}/pdtest_${INT}${exeext}\"\n    install -vm 644 EXAMPLE/g20.rua \"${includedir}\"\n\n    # Both widths install into ${includedir}, so the second build overwrites\n    # the first's superlu_dist_config.h (XSDK_INDEX_SIZE). Keep a per-width\n    # copy right after each install for consumers such as PETSc.\n    mkdir -pv ${includedir}/superlu_dist_Int${INT}\n    cp -v ${includedir}/superlu*.h* ${includedir}/superlu_dist_Int${INT}/\n}\nbuild_superlu_dist Int32\nbuild_superlu_dist Int64\n"""]
+toplevel_block = ""
+version = "v9.3.2"
+
+[build_options]
+compression_format = "\"gzip\""
+dont_dlopen = "true"
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+build_version = "5.4.0"
+compat = "5.4.0"
+name = "libblastrampoline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.3.32"
+compat = "0.3.32"
+name = "OpenBLAS32_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "656ef2d0-ae68-5445-9ca0-591084a874a2"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.0.9"
+compat = "4.0.9"
+name = "PARMETIS_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "b247a4be-ddc1-5759-8008-7e02fe3dbdaa"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.1.4"
+compat = "5.1.4"
+name = "METIS_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.5"
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cuda+12.8-mpi+mpiabi", "x86_64-linux-gnu-cuda+12.9-mpi+mpiabi", "x86_64-linux-gnu-cuda+13.0-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.0.3"
+compat = "5.0.3"
+name = "MPICH_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cuda+12.8-mpi+mpich", "x86_64-linux-gnu-cuda+12.9-mpi+mpich", "x86_64-linux-gnu-cuda+13.0-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.5.7"
+compat = "5.5.7"
+name = "MPItrampoline_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+mpitrampoline", "x86_64-linux-gnu-cuda+12.8-mpi+mpitrampoline", "x86_64-linux-gnu-cuda+12.9-mpi+mpitrampoline", "x86_64-linux-gnu-cuda+13.0-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "10.1.5"
+compat = "10.1.5"
+name = "MicrosoftMPI_jll"
+platforms = []
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.1.11"
+compat = "4.1.11, 5.0.14"
+name = "OpenMPI_jll"
+platforms = ["x86_64-linux-gnu-cuda+12.0-mpi+openmpi", "x86_64-linux-gnu-cuda+12.8-mpi+openmpi", "x86_64-linux-gnu-cuda+12.9-mpi+openmpi", "x86_64-linux-gnu-cuda+13.0-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1"
+name = "MPIPreferences"
+platforms = ["any"]
+top_level = true
+type = "runtimedependency"
+uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 0
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_Runtime_jll"
+platforms = ["any"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 0
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 8
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 8
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 9
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 9
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+
+[[products]]
+binnames = ["pdtest_32"]
+type = "exe"
+variable_name = "pdtest_32"
+[[products]]
+binnames = ["pdtest_64"]
+type = "exe"
+variable_name = "pdtest_64"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsuperlu_dist_Int32"]
+type = "lib"
+variable_name = "libsuperlu_dist_Int32"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libsuperlu_dist_Int64"]
+type = "lib"
+variable_name = "libsuperlu_dist_Int64"
+
+[[sources]]
+hash = "6a70d6f6abcf1ad945748856c35d5612f20065ba"
+tag = "v9.3.2"
+type = "git"
+unpack_target = ""
+url = "https://github.com/xiaoyeli/superlu_dist.git"
+[[sources]]
+follow_symlinks = false
+path = "../bundled"
+target = ""
+type = "directory"

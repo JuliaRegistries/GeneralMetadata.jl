@@ -1,0 +1,32 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "automake"
+script = """cd $WORKSPACE/srcdir/automake*/\n./configure --prefix=${prefix} --build=${MACHTYPE} --host=${target} PERL=\"/usr/bin/env perl\"\nmake -j${nproc}\nmake install\n"""
+toplevel_block = ""
+version = "v1.20.0"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[dependencies]]
+compat = ""
+name = "autoconf_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+paths = ["bin/aclocal"]
+type = "file"
+variable_name = "aclocal"
+
+[[sources]]
+hash = "f6f34dad4cbe395715762b0710f7c511e39bd5cf777e6b95818ccbecf7714248"
+type = "archive"
+unpack_target = ""
+url = "https://ftpmirror.gnu.org/gnu/automake/automake-1.20.tar.xz"

@@ -2,6 +2,58 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.0+0/HelloWorldCUDA.v1.0.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.0+0/HelloWorldCUDA.v1.0.0.x86_64-linux-gnu-cuda+13.0.tar.gz"]
 registered = 2026-10-30T18:24:13.000Z
 
+    [["1.0.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.0+0/HelloWorldCUDA.v1.0.0.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.0+0/HelloWorldCUDA.v1.0.0.x86_64-linux-gnu-cuda+13.0.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/2bf17544c9a6c55f9a35b20f6bf34ff05b37c887/H/HelloWorldCUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/h/helloworldcuda/build_tarballs.jl/2bf17544c9a6c55f9a35b20f6bf34ff05b37c887.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.0.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2bf17544c9a6c55f9a35b20f6bf34ff05b37c887/H/HelloWorldCUDA/bundled"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["1.0.0+0".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["1.0.0+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["1.0.0+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"
+
 ["1.0.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-apple-darwin-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-unknown-freebsd-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv6l-linux-gnueabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv6l-linux-musleabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv7l-linux-gnueabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv7l-linux-musleabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-w64-mingw32-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.powerpc64le-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.riscv64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-apple-darwin-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-unknown-freebsd-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-w64-mingw32-cuda+none.tar.gz"]
 registered = 2026-11-18T14:10:28.000Z
+
+    [["1.0.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-apple-darwin-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-unknown-freebsd-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv6l-linux-gnueabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv6l-linux-musleabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv7l-linux-gnueabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv7l-linux-musleabihf-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-w64-mingw32-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.powerpc64le-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.riscv64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-apple-darwin-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-gnu-cuda+13.0.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-gnu-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-musl-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-unknown-freebsd-cuda+none.tar.gz", "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-w64-mingw32-cuda+none.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/ad13b1af645956d4abe2d357607be491fe08b59c/H/HelloWorldCUDA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/h/helloworldcuda/build_tarballs.jl/ad13b1af645956d4abe2d357607be491fe08b59c.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.0.1+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/ad13b1af645956d4abe2d357607be491fe08b59c/H/HelloWorldCUDA/bundled"
+        [["1.0.1+0".artifact_metadata.sources]]
+        hash = "48e35be3cfbf4b4fbc16828eaec8a7048ee789403049dc409f7b643d6259cf7a"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-13.0.88-archive.tar.xz"
+        [["1.0.1+0".artifact_metadata.sources]]
+        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
+        [["1.0.1+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["1.0.1+0".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"

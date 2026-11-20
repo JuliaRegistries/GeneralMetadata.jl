@@ -152,3 +152,20 @@ registered = 2026-10-14T10:53:11.000Z
 ["13.4.3+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.x86_64-w64-mingw32.tar.gz"]
 registered = 2026-11-05T10:18:46.000Z
+
+    [["13.4.3+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/CUDA_Tile_jll.jl/releases/download/CUDA_Tile-v13.4.3+0/CUDA_Tile.v13.4.3.x86_64-w64-mingw32.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/a5d2647f4ae2e5429c3d783b319f8cae6bbd359b/C/CUDA/CUDA_Tile/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/cuda_tile/build_tarballs.jl/a5d2647f4ae2e5429c3d783b319f8cae6bbd359b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["13.4.3+0".artifact_metadata.sources]]
+        hash = "0192668c0315a21013846641dfaa369aa53ed8a3"
+        type = "git"
+        url = "https://github.com/NVIDIA/cuda-tile"
+        [["13.4.3+0".artifact_metadata.sources]]
+        hash = "d6a4b2ad0b90fad43565a25f1cbcbac6e6857dde"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"

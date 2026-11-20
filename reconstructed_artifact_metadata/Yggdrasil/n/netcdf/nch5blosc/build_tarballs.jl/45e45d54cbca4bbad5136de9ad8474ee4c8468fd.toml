@@ -1,0 +1,116 @@
+augment_platform_block = """    using Base.BinaryPlatforms\n    # Can't use Preferences since we might be running this very early with a non-existing Manifest\nMPIPreferences_UUID = Base.UUID(\"3da0fdf6-3ccc-4f1b-acd9-58baa6c99267\")\nconst preferences = Base.get_preferences(MPIPreferences_UUID)\n\nconst binary_to_abi = Dict(\n    \"MPIABI_jll\" => \"MPIABI\",\n    \"MPICH_jll\" => \"MPICH\",\n    \"MPICH_CUDA_jll\" => \"MPICH\",\n    \"MPItrampoline_jll\" => \"MPItrampoline\",\n    \"MicrosoftMPI_jll\" => \"MicrosoftMPI\",\n    \"OpenMPI_jll\" => \"OpenMPI\",\n)\n\n# Keep logic in sync with MPIPreferences.jl\nfunction augment_mpi!(platform)\n    # Doesn't need to be `const` since we depend on MPIPreferences so we\n    # invalidate the cache when it changes.\n\n    # Determine which jll binary provides our MPI implementation.\n    # Use MPIPreferences if set, otherwise use either MPICH or MicrosoftMPI (on Windows).\n    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.\n    binary = get(preferences, \"binary\", Sys.iswindows(platform) ? \"MicrosoftMPI_jll\" : \"MPICH_jll\")\n\n    # Convert the jll binary to an ABI\n    if binary == \"system\"\n        abi = get(preferences, \"abi\", nothing)\n        abi === nothing && error(\"MPIPreferences: Inconsistent state detected, `binary` is set to system, but `abi` is not set.\")\n    else\n        abi = get(binary_to_abi, binary, nothing)\n        abi == nothing && error(\"Unknown MPI binary: $binary\")\n    end\n\n    # Add an `mpi` entry to the platform if it's missing\n    if !haskey(platform, \"mpi\")\n        platform[\"mpi\"] = abi\n    end\n\n    return platform\nend\n\n    augment_platform!(platform::Platform) = augment_mpi!(platform)\n"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "NCH5blosc"
+platforms = ["i686-linux-gnu-mpi+mpiabi", "x86_64-linux-gnu-mpi+mpiabi", "aarch64-linux-gnu-mpi+mpiabi", "armv6l-linux-gnueabihf-mpi+mpiabi", "armv7l-linux-gnueabihf-mpi+mpiabi", "powerpc64le-linux-gnu-mpi+mpiabi", "riscv64-linux-gnu-mpi+mpiabi", "i686-linux-musl-mpi+mpiabi", "x86_64-linux-musl-mpi+mpiabi", "aarch64-linux-musl-mpi+mpiabi", "armv6l-linux-musleabihf-mpi+mpiabi", "armv7l-linux-musleabihf-mpi+mpiabi", "x86_64-apple-darwin-mpi+mpiabi", "aarch64-apple-darwin-mpi+mpiabi", "x86_64-unknown-freebsd-mpi+mpiabi", "aarch64-unknown-freebsd-mpi+mpiabi", "i686-linux-gnu-mpi+mpich", "x86_64-linux-gnu-mpi+mpich", "aarch64-linux-gnu-mpi+mpich", "armv6l-linux-gnueabihf-mpi+mpich", "armv7l-linux-gnueabihf-mpi+mpich", "powerpc64le-linux-gnu-mpi+mpich", "riscv64-linux-gnu-mpi+mpich", "i686-linux-musl-mpi+mpich", "x86_64-linux-musl-mpi+mpich", "aarch64-linux-musl-mpi+mpich", "armv6l-linux-musleabihf-mpi+mpich", "armv7l-linux-musleabihf-mpi+mpich", "x86_64-apple-darwin-mpi+mpich", "aarch64-apple-darwin-mpi+mpich", "x86_64-unknown-freebsd-mpi+mpich", "aarch64-unknown-freebsd-mpi+mpich", "i686-linux-gnu-mpi+mpitrampoline", "x86_64-linux-gnu-mpi+mpitrampoline", "aarch64-linux-gnu-mpi+mpitrampoline", "armv6l-linux-gnueabihf-mpi+mpitrampoline", "armv7l-linux-gnueabihf-mpi+mpitrampoline", "powerpc64le-linux-gnu-mpi+mpitrampoline", "riscv64-linux-gnu-mpi+mpitrampoline", "x86_64-apple-darwin-mpi+mpitrampoline", "aarch64-apple-darwin-mpi+mpitrampoline", "x86_64-unknown-freebsd-mpi+mpitrampoline", "aarch64-unknown-freebsd-mpi+mpitrampoline", "i686-w64-mingw32-mpi+microsoftmpi", "x86_64-w64-mingw32-mpi+microsoftmpi", "i686-linux-gnu-mpi+openmpi", "x86_64-linux-gnu-mpi+openmpi", "aarch64-linux-gnu-mpi+openmpi", "armv7l-linux-gnueabihf-mpi+openmpi", "powerpc64le-linux-gnu-mpi+openmpi", "riscv64-linux-gnu-mpi+openmpi", "i686-linux-musl-mpi+openmpi", "x86_64-linux-musl-mpi+openmpi", "aarch64-linux-musl-mpi+openmpi", "armv6l-linux-musleabihf-mpi+openmpi", "armv7l-linux-musleabihf-mpi+openmpi", "x86_64-apple-darwin-mpi+openmpi", "aarch64-apple-darwin-mpi+openmpi", "x86_64-unknown-freebsd-mpi+openmpi", "aarch64-unknown-freebsd-mpi+openmpi"]
+script = """PLUGIN=lib__nch5blosc\nSOURCES=\"H5Zblosc.c\"\nDEFINES=\"-DHAVE_BLOSC\"\nLIBS=\"-lhdf5 -lblosc\"\nPLUGIN_DIR=hdf5/lib/plugin\nCONFIG_DIR=share/netcdf/plugin-build\ncd ${WORKSPACE}/srcdir/netcdf-c*/plugins\n\n# `config.h` is provided by NetCDF_jll. Remove the settings for the optional\n# filters: whether they are available depends on this plugin, not on how the\n# NetCDF library was configured.\nmkdir -p ${WORKSPACE}/plugin-config\nsed -E '/^#[[:space:]]*define[[:space:]]+HAVE_(BLOSC|ZSTD|SZ|BZ2|LOCAL_BZ2)([[:space:]]|$)/d' \\\n    ${prefix}/${CONFIG_DIR}/config.h > ${WORKSPACE}/plugin-config/config.h\n# `config.h` includes `ncconfigure.h`, which includes `config.h` again. Keep it\n# next to the filtered `config.h`: quoted includes search the including file's\n# directory first, so it would otherwise find the unfiltered one.\ncp ${prefix}/${CONFIG_DIR}/ncconfigure.h ${WORKSPACE}/plugin-config/ncconfigure.h\n\nCFLAGS=\"-O2 -fPIC -Wno-implicit-function-declaration\"\nCPPFLAGS=\"-DHAVE_CONFIG_H ${DEFINES} -I${WORKSPACE}/plugin-config -I. -I${includedir}\"\n\nOBJECTS=\"\"\nfor src in ${SOURCES}; do\n    ${CC} ${CFLAGS} ${CPPFLAGS} -c ${src} -o ${src%.c}.o\n    OBJECTS=\"${OBJECTS} ${src%.c}.o\"\ndone\n\nif [[ ${target} == *-apple-* ]]; then\n    SHARED_FLAG=\"-dynamiclib\"\nelse\n    SHARED_FLAG=\"-shared\"\nfi\n\nmkdir -p ${prefix}/${PLUGIN_DIR}\n${CC} ${SHARED_FLAG} ${CFLAGS} -o ${prefix}/${PLUGIN_DIR}/${PLUGIN}.${dlext} \\\n    ${OBJECTS} -L${libdir} ${LIBS}\n\ninstall_license ../COPYRIGHT\n"""
+toplevel_block = ""
+version = "v401.1000.100"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "NetCDF_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 401
+version-minor = 1000
+version-patch = 102
+[[dependencies]]
+build_version = "2.2.1"
+compat = "2.2.1"
+name = "HDF5_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["i686-linux-gnu-mpi+mpiabi", "x86_64-linux-gnu-mpi+mpiabi", "aarch64-linux-gnu-mpi+mpiabi", "armv6l-linux-gnueabihf-mpi+mpiabi", "armv7l-linux-gnueabihf-mpi+mpiabi", "powerpc64le-linux-gnu-mpi+mpiabi", "riscv64-linux-gnu-mpi+mpiabi", "i686-linux-musl-mpi+mpiabi", "x86_64-linux-musl-mpi+mpiabi", "aarch64-linux-musl-mpi+mpiabi", "armv6l-linux-musleabihf-mpi+mpiabi", "armv7l-linux-musleabihf-mpi+mpiabi", "x86_64-apple-darwin-mpi+mpiabi", "aarch64-apple-darwin-mpi+mpiabi", "x86_64-unknown-freebsd-mpi+mpiabi", "aarch64-unknown-freebsd-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.0.3"
+compat = "5.0.3"
+name = "MPICH_jll"
+platforms = ["i686-linux-gnu-mpi+mpich", "x86_64-linux-gnu-mpi+mpich", "aarch64-linux-gnu-mpi+mpich", "armv6l-linux-gnueabihf-mpi+mpich", "armv7l-linux-gnueabihf-mpi+mpich", "powerpc64le-linux-gnu-mpi+mpich", "riscv64-linux-gnu-mpi+mpich", "i686-linux-musl-mpi+mpich", "x86_64-linux-musl-mpi+mpich", "aarch64-linux-musl-mpi+mpich", "armv6l-linux-musleabihf-mpi+mpich", "armv7l-linux-musleabihf-mpi+mpich", "x86_64-apple-darwin-mpi+mpich", "aarch64-apple-darwin-mpi+mpich", "x86_64-unknown-freebsd-mpi+mpich", "aarch64-unknown-freebsd-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.5.7"
+compat = "5.5.7"
+name = "MPItrampoline_jll"
+platforms = ["i686-linux-gnu-mpi+mpitrampoline", "x86_64-linux-gnu-mpi+mpitrampoline", "aarch64-linux-gnu-mpi+mpitrampoline", "armv6l-linux-gnueabihf-mpi+mpitrampoline", "armv7l-linux-gnueabihf-mpi+mpitrampoline", "powerpc64le-linux-gnu-mpi+mpitrampoline", "riscv64-linux-gnu-mpi+mpitrampoline", "x86_64-apple-darwin-mpi+mpitrampoline", "aarch64-apple-darwin-mpi+mpitrampoline", "x86_64-unknown-freebsd-mpi+mpitrampoline", "aarch64-unknown-freebsd-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "MicrosoftMPI_jll"
+platforms = ["i686-w64-mingw32-mpi+microsoftmpi", "x86_64-w64-mingw32-mpi+microsoftmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.1.11"
+compat = "4.1.11, 5.0.14"
+name = "OpenMPI_jll"
+platforms = ["i686-linux-gnu-mpi+openmpi", "x86_64-linux-gnu-mpi+openmpi", "aarch64-linux-gnu-mpi+openmpi", "armv7l-linux-gnueabihf-mpi+openmpi", "powerpc64le-linux-gnu-mpi+openmpi", "riscv64-linux-gnu-mpi+openmpi", "i686-linux-musl-mpi+openmpi", "x86_64-linux-musl-mpi+openmpi", "aarch64-linux-musl-mpi+openmpi", "armv6l-linux-musleabihf-mpi+openmpi", "armv7l-linux-musleabihf-mpi+openmpi", "x86_64-apple-darwin-mpi+openmpi", "aarch64-apple-darwin-mpi+openmpi", "x86_64-unknown-freebsd-mpi+openmpi", "aarch64-unknown-freebsd-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1"
+name = "MPIPreferences"
+platforms = ["any"]
+top_level = true
+type = "runtimedependency"
+uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.21.7"
+compat = "1.21.7"
+name = "Blosc_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = ["hdf5/lib/plugin"]
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["lib__nch5blosc"]
+type = "lib"
+variable_name = "lib__nch5blosc"
+
+[[sources]]
+hash = "db3b69ff4a5ee1a7d79a5c36664d2128b752c266e966369fcf7311ec5f927564"
+type = "archive"
+unpack_target = ""
+url = "https://downloads.unidata.ucar.edu/netcdf-c/4.10.1/netcdf-c-4.10.1.tar.gz"
