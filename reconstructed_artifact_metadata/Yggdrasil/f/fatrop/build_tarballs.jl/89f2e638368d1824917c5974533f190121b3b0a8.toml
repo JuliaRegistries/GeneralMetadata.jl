@@ -1,0 +1,47 @@
+augment_platform_block = """using Base.BinaryPlatforms: arch, arch_march_isa_mapping, CPUID, HostPlatform, Platform\n\nfunction augment_microarchitecture!(platform::Platform)\n    haskey(platform, \"march\") && return platform\n\n    host_arch = arch(HostPlatform())\n    host_isas = arch_march_isa_mapping[host_arch]\n    idx = findlast(((name, isa),) -> isa <= CPUID.cpu_isa(), host_isas)\n    platform[\"march\"] = first(host_isas[idx])\n    return platform\nend\n\n\nfunction augment_platform!(platform::Platform)\n    augment_microarchitecture!(platform)\nend\n"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "Fatrop"
+platforms = ["x86_64-linux-gnu-cxx11-march+x86_64", "x86_64-linux-gnu-cxx11-march+avx", "x86_64-linux-gnu-cxx11-march+avx2", "x86_64-linux-gnu-cxx11-march+avx512", "x86_64-linux-musl-cxx11-march+x86_64", "x86_64-linux-musl-cxx11-march+avx", "x86_64-linux-musl-cxx11-march+avx2", "x86_64-linux-musl-cxx11-march+avx512", "x86_64-w64-mingw32-cxx11-march+x86_64", "x86_64-w64-mingw32-cxx11-march+avx", "x86_64-w64-mingw32-cxx11-march+avx2", "x86_64-w64-mingw32-cxx11-march+avx512", "x86_64-apple-darwin-march+x86_64", "x86_64-apple-darwin-march+avx", "x86_64-apple-darwin-march+avx2", "aarch64-apple-darwin-march+apple_m1"]
+script = """macos_sdk_version=10.14\nmacosx_deployment_target=10.14\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir/fatrop\n\nmkdir -pv ${WORKSPACE}/srcdir/blasfeo-cmake\ncat > ${WORKSPACE}/srcdir/blasfeo-cmake/blasfeoConfig.cmake <<EOF\nadd_library(blasfeo SHARED IMPORTED GLOBAL)\nset_target_properties(blasfeo PROPERTIES\n    IMPORTED_LOCATION \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    IMPORTED_IMPLIB \"${prefix}/blasfeo/lib/libblasfeo.${dlext}\"\n    INTERFACE_INCLUDE_DIRECTORIES \"${prefix}/blasfeo/include\")\nEOF\n\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DBUILD_WITH_C_INTERFACE=ON \\\n    -DBUILD_TESTS=OFF \\\n    -DBUILD_EXAMPLES=OFF \\\n    -Dblasfeo_DIR=${WORKSPACE}/srcdir/blasfeo-cmake\ncmake --build build --parallel ${nproc}\ncmake --install build\n\ninstall_license LICENSE.txt LICENSE-EPL-2.0.txt\n"""
+toplevel_block = ""
+version = "v1.2.0"
+
+[[build_options]]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"7.0.0\""
+[[build_options]]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"10.0.0\""
+
+[[dependencies]]
+build_version = "0.1.4"
+compat = "0.1.4"
+name = "blasfeo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libfatrop"]
+type = "lib"
+variable_name = "libfatrop"
+
+[[sources]]
+hash = "8f7dbfc719e350e0b8b99ac58b9bf5ff2aeee9a4"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/meco-group/fatrop.git"
+[[sources]]
+filename = "MacOSX10.14.sdk.tar.xz"
+hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.14.sdk.tar.xz"
