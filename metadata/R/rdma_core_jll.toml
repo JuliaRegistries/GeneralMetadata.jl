@@ -66,3 +66,28 @@ registered = 2025-06-25T23:18:06.000Z
         [["58.0.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/5ed03c1114c4e8e8a6cbb06e6952c490245478ae/R/rdma_core/bundled"
+
+["58.0.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.x86_64-linux-musl.tar.gz"]
+registered = 2026-11-21T01:33:53.000Z
+
+    [["58.0.1+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/rdma_core_jll.jl/releases/download/rdma_core-v58.0.1+0/rdma_core.v58.0.1.x86_64-linux-musl.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/4f6c884a87af62d22606af7b3b0c249a80fb981d/R/rdma_core/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/r/rdma_core/build_tarballs.jl/4f6c884a87af62d22606af7b3b0c249a80fb981d.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["58.0.1+0".artifact_metadata.sources]]
+        hash = "88d67897b793f42d2004eec2629ab8464e425e058f22afabd29faac0a2f54ce4"
+        type = "archive"
+        url = "https://github.com/linux-rdma/rdma-core/releases/download/v58.0/rdma-core-58.0.tar.gz"
+
+            ["58.0.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/rdma-core"
+            provenance = "repology-url"
+            version = "58.0"
+        [["58.0.1+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/4f6c884a87af62d22606af7b3b0c249a80fb981d/R/rdma_core/bundled"

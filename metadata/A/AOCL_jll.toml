@@ -95,3 +95,56 @@ registered = 2026-08-30T04:22:01.000Z
         hash = "fe36da707e6f25e8b3e2b742dfa5957d4484fca5"
         type = "git"
         url = "https://github.com/amd/aocl-dlp.git"
+
+["6.0.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/AOCL_jll.jl/releases/download/AOCL-v6.0.0+0/AOCL.v6.0.0.x86_64-linux-gnu-cxx11.tar.gz"]
+registered = 2026-11-21T05:27:34.000Z
+
+    [["6.0.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/AOCL_jll.jl/releases/download/AOCL-v6.0.0+0/AOCL.v6.0.0.x86_64-linux-gnu-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/2a2cc7904508a85a6129e02dca6dd7d5bf709bdb/A/AOCL/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/a/aocl/build_tarballs.jl/2a2cc7904508a85a6129e02dca6dd7d5bf709bdb.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "9f36290abb78846f2697d97c5d3001b52092cdf2"
+        type = "git"
+        url = "https://github.com/amd/aocl.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "059f9a41719c6586507ad6f0bd9095565a1bbbf1"
+        type = "git"
+        url = "https://github.com/amd/aocl-utils.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "e5f75c24bdb8670ff648da7e483eb7e51b28a1db"
+        type = "git"
+        url = "https://github.com/amd/blis.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "698c6f8070c5dbf551eb2dc801908db4ac0f5916"
+        type = "git"
+        url = "https://github.com/amd/libflame.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "47238ec3c4848e8509def31dac3aaec93e84abd5"
+        type = "git"
+        url = "https://github.com/amd/aocl-sparse.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "155b5ab00879dd0d4fcf89aa602415ced5546218"
+        type = "git"
+        url = "https://github.com/amd/aocl-libm-ose.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "bf3bc76d8cbd63609ca65ebb1427daa28337cd4e"
+        type = "git"
+        url = "https://github.com/amd/aocl-compression.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "5c05f2eeb6effc696b0df6ce8be1fcbe855b631b"
+        type = "git"
+        url = "https://github.com/amd/openrng.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "88da98aa1f08409df7d6dea62509cc6a550cce6a"
+        type = "git"
+        url = "https://github.com/amd/aocl-fftz.git"
+        [["6.0.0+0".artifact_metadata.sources]]
+        hash = "57f3dfcd532e3ccd8a51eeaa018625c8fd36d8c5"
+        type = "git"
+        url = "https://github.com/amd/aocl-dlp.git"

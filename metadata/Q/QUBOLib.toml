@@ -49,3 +49,7 @@ registered = 2026-11-05T10:02:48.000Z
 ["0.2.8"]
 artifact_urls = ["https://github.com/JuliaQUBO/QUBOLib.jl/releases/download/v0.2.7-data+10/qubolib.tar.gz"]
 registered = 2026-11-11T20:10:55.000Z
+
+["0.2.9"]
+artifact_urls = ["https://github.com/JuliaQUBO/QUBOLib.jl/releases/download/v0.2.7-data+10/qubolib.tar.gz", "https://github.com/JuliaQUBO/QUBOLib.jl/releases/download/v0.2.9-data%2B12-qoblib-toqubo/qoblib_toqubo.tar.gz", "https://github.com/JuliaQUBO/QUBOLib.jl/releases/download/v0.2.9-data%2B12-qoblib-toqubo/qoblib_toqubo_domain_restricted.tar.gz", "https://github.com/JuliaQUBO/QUBOLib.jl/releases/download/v0.2.9-data%2B12-qoblib-toqubo/qoblib_toqubo_large.tar.gz", "https://zenodo.org/records/24417375/files/qoblib_toqubo.tar.gz", "https://zenodo.org/records/24417375/files/qoblib_toqubo_domain_restricted.tar.gz", "https://zenodo.org/records/24417375/files/qoblib_toqubo_large.tar.gz"]
+registered = 2026-11-21T12:13:02.000Z

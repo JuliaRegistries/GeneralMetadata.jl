@@ -1,0 +1,63 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "multicharge"
+platforms = ["i686-linux-gnu-libgfortran5", "x86_64-linux-gnu-libgfortran5", "aarch64-linux-gnu-libgfortran5", "armv6l-linux-gnueabihf-libgfortran5", "armv7l-linux-gnueabihf-libgfortran5", "powerpc64le-linux-gnu-libgfortran5", "riscv64-linux-gnu-libgfortran5", "i686-linux-musl-libgfortran5", "x86_64-linux-musl-libgfortran5", "aarch64-linux-musl-libgfortran5", "armv6l-linux-musleabihf-libgfortran5", "armv7l-linux-musleabihf-libgfortran5", "x86_64-apple-darwin-libgfortran5", "aarch64-apple-darwin-libgfortran5", "x86_64-unknown-freebsd-libgfortran5", "aarch64-unknown-freebsd-libgfortran5", "i686-w64-mingw32-libgfortran5", "x86_64-w64-mingw32-libgfortran5"]
+script = """# The rootfs ships meson 1.8.0, which upstream rejects because of a known bug.\n# Install a newer meson into a private directory.\npython3 -m pip install --ignore-installed --target=/tmp/meson meson==1.11.2\nexport PYTHONPATH=\"/tmp/meson${PYTHONPATH:+:${PYTHONPATH}}\"\nexport PATH=\"/tmp/meson/bin:${PATH}\"\n\ncd ${WORKSPACE}/srcdir/multicharge-*\n\n# On FreeBSD, meson-built dependencies ship their pkg-config files in libdata/pkgconfig,\n# which is not on the default search path.\nexport PKG_CONFIG_PATH=\"${PKG_CONFIG_PATH:+${PKG_CONFIG_PATH}:}${prefix}/libdata/pkgconfig\"\n\nif [[ \"${target}\" == *mingw* ]]; then\n    LBT=\"blastrampoline-5\"\nelse\n    LBT=\"blastrampoline\"\nfi\n\n# GCC is used for C as well so that meson's OpenMP check succeeds for both languages\nmeson setup build \\\n    --cross-file=\"${MESON_TARGET_TOOLCHAIN%.*}_gcc.meson\" \\\n    --prefix=${prefix} \\\n    --buildtype=release \\\n    --wrap-mode=nodownload \\\n    -Ddefault_library=shared \\\n    -Dlapack=custom \\\n    -Dcustom_libraries=\"-L${libdir},${LBT}\"\nmeson compile -C build -j${nproc}\nmeson install -C build\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v0.5.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.4.0"
+compat = "5.4.0"
+name = "libblastrampoline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.6.1"
+compat = "0.6.1"
+name = "mctc_lib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libmulticharge", "libmulticharge-0"]
+type = "lib"
+variable_name = "libmulticharge"
+[[products]]
+binnames = ["multicharge"]
+type = "exe"
+variable_name = "multicharge"
+
+[[sources]]
+hash = "fc6dee93fd6957a516137205f5a6754b218904bc38bf60f5a509f2a1b14735be"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/grimme-lab/multicharge/releases/download/v0.5.0/multicharge-0.5.0-source.tar.xz"

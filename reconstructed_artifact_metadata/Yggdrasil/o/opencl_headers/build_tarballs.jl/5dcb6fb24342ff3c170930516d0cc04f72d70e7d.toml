@@ -1,0 +1,25 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.0"
+lazy_artifacts = false
+name = "OpenCL_Headers"
+script = """cd $WORKSPACE/srcdir\n\ninstall_license ./OpenCL-Headers/LICENSE\n\ncmake -DCMAKE_INSTALL_PREFIX=${prefix} \\\n      -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n      -DCMAKE_BUILD_TYPE=Release \\\n      -S ./OpenCL-Headers -B ./OpenCL-Headers/build\ncmake --build ./OpenCL-Headers/build --target install -j${nproc}\n"""
+toplevel_block = ""
+version = "v2026.5.29"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"6.1.0\""
+
+[[products]]
+paths = ["include/CL/cl.h"]
+type = "file"
+variable_name = "cl_h"
+
+[[sources]]
+hash = "6fe718c31a45fe25151362a72ef041c3a1047cbd"
+tag = "v2026.05.29"
+type = "git"
+unpack_target = ""
+url = "https://github.com/KhronosGroup/OpenCL-Headers.git"

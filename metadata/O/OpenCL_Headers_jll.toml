@@ -194,3 +194,25 @@ registered = 2025-06-19T06:51:55.000Z
             project = "repology.org/project/opencl-headers"
             provenance = "git-tag"
             version = "2025.06.13"
+
+["2026.5.29+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2026.5.29+0/OpenCL_Headers.v2026.5.29.any.tar.gz"]
+registered = 2026-11-21T05:10:22.000Z
+
+    [["2026.5.29+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenCL_Headers_jll.jl/releases/download/OpenCL_Headers-v2026.5.29+0/OpenCL_Headers.v2026.5.29.any.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/5dcb6fb24342ff3c170930516d0cc04f72d70e7d/O/OpenCL_Headers/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/opencl_headers/build_tarballs.jl/5dcb6fb24342ff3c170930516d0cc04f72d70e7d.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2026.5.29+0".artifact_metadata.sources]]
+        hash = "6fe718c31a45fe25151362a72ef041c3a1047cbd"
+        type = "git"
+        url = "https://github.com/KhronosGroup/OpenCL-Headers.git"
+
+            ["2026.5.29+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/opencl-headers"
+            provenance = "git-tag"
+            version = "2026.05.29"
