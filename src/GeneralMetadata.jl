@@ -46,14 +46,27 @@ function uuid_from_name(pkg_name)
     return only(Pkg.Registry.uuids_from_name(registry, pkg_name))
 end
 
+artifact_metadata_urls(verinfo, artifactmeta) = get(artifactmeta, "artifact_urls", get(verinfo, "artifact_urls", String[]))
+
+function expand_artifact_urls!(pkgmeta)
+    for verinfo in values(pkgmeta)
+        haskey(verinfo, "artifact_urls") || continue
+        for artifactmeta in get(verinfo, "artifact_metadata", [])
+            get!(() -> copy(verinfo["artifact_urls"]), artifactmeta, "artifact_urls")
+        end
+    end
+    return pkgmeta
+end
+
 # The main entry point:
-function metadata()
+function metadata(; expand_artifact_urls=true)
     meta = Dict{String,Any}()
     for (root, _, files) in walkdir(joinpath(@__DIR__, "..", "metadata")), file in files
             path = joinpath(root, file)
             if endswith(path, ".toml")
             pkg = splitext(basename(path))[1]
-            meta[pkg] = TOML.parsefile(path)
+            pkgmeta = TOML.parsefile(path)
+            meta[pkg] = expand_artifact_urls ? expand_artifact_urls!(pkgmeta) : pkgmeta
         end
     end
     return meta
@@ -107,7 +120,7 @@ function yggdrasil_repo()
     return YGGDRASIL[] = dir
 end
 
-function update_registration_dates!(meta = metadata(); after=maximum(Iterators.map(v->get(v, "registered", Dates.DateTime(0)), Iterators.flatmap(values, values(meta))), init=DateTime("2018-08-08T17:02:39")), before=after + Dates.Year(1))
+function update_registration_dates!(meta = metadata(; expand_artifact_urls=false); after=maximum(Iterators.map(v->get(v, "registered", Dates.DateTime(0)), Iterators.flatmap(values, values(meta))), init=DateTime("2018-08-08T17:02:39")), before=after + Dates.Year(1))
     # This uses --first-parent to get the _availability_ date on master
     cd(general_repo()) do
         commits = split(readchomp(`git rev-list --first-parent --reverse --after=$(after)Z --before=$(before)Z master`), "\n")
@@ -362,7 +375,7 @@ function untar_file(filter, io)
     return result[]
 end
 
-function update_artifact_urls!(meta = metadata(); max_downloads=10000)
+function update_artifact_urls!(meta = metadata(; expand_artifact_urls=false); max_downloads=10000)
     download_count = 0
     http_errors = 0
     for (pkg_name, pkg_info) in meta
@@ -471,10 +484,10 @@ function add_jll_artifact_metadata!(meta_version_entry)
         isnothing(m) && continue
         push!(get!(releases, Tuple(m), String[]), url)
     end
-    for ((org, repo, tag), urls) in releases
+    for ((org, repo, tag), release_urls) in releases
         org == "JuliaBinaryWrappers" || continue
         jllmeta = metadata_for_jll_release(org, repo, tag)
-        jllmeta["artifact_urls"] = urls
+        release_urls == urls || (jllmeta["artifact_urls"] = release_urls)
         separate_reconstructed_artifact_metadata!(jllmeta)
         push!(get!(meta_version_entry, "artifact_metadata", []), jllmeta)
     end
@@ -674,7 +687,7 @@ function extract_jll_sources!(meta)
                 else
                     read(joinpath(@__DIR__, "..", artifactmeta["metadata"]), String)
                 end
-                srcs = parse_artifact_metadata_sources(meta_contents, artifactmeta)
+                srcs = parse_artifact_metadata_sources(meta_contents, artifactmeta, verinfo)
                 if !isnothing(srcs)
                    artifactmeta["sources"] = srcs
                 end
@@ -684,13 +697,14 @@ function extract_jll_sources!(meta)
     return meta
 end
 
-function parse_artifact_metadata_sources(contents, artifactmeta)
+function parse_artifact_metadata_sources(contents, artifactmeta, verinfo=Dict())
     type = get(artifactmeta, "metadata_type", missing)
     if type == "JLLGenerator JLL.toml"
+        urls = artifact_metadata_urls(verinfo, artifactmeta)
         sources = []
         for build in get(TOML.parse(contents), "builds", [])
             downloads = get(get(build, "artifact", Dict()), "download_sources", [])
-            any(d -> d["url"] in artifactmeta["artifact_urls"], downloads) || continue
+            any(d -> d["url"] in urls, downloads) || continue
             for src in get(build, "sources", [])
                 url = src["url"]
                 treehash = chopprefix(src["treehash"], "sha1:")

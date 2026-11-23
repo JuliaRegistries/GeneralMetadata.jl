@@ -13,7 +13,7 @@ versions as its top-level keys. Each version entry has the following fields:
 * `yanked::DateTime`. Optional. If yanked, set to the timestamp of the yanking commit landing on General's `master` branch.
 * `artifact_urls::Vector{String}`. Optional (but nearly always set). Every download URL within that version's `Artifacts.toml`.
 * `artifact_metadata::Vector{<:Dict}`. Optional. A collection of tables, each with the fields:
-    * `artifact_urls::Vector{String}`. Required. The artifact_urls for which this entry pertains. Must be a (non-strict) subset of the package's `artifact_urls`.
+    * `artifact_urls::Vector{String}`. Optional. When present, must be a subset of the version's `artifact_urls`; an empty list applies to no artifacts. When omitted, this entry applies to all of the version's artifacts.
     * `buildscript::String`. Optional. The URL of the buildscript
     * `metadata::String`. Optional. Either a URL or a path in this repository that points to the build metadata
     * `metadata_type::String`. Optional. An identifier for the type of `metadata`, currently only `"BinaryBuilder --meta-json"`
@@ -32,6 +32,9 @@ versions as its top-level keys. Each version entry has the following fields:
               `"override"` (hand-verified source), `"url-pattern"` (curated URL pattern), `"repology-url"` (exact match in Repology's data),
               `"tag-scheme"` (parsed from a forge release/tag URL), `"git-tag"` (the git commit's tag), `"repository"` (project known from
               the repository, but no version), `"heuristic"` (a guess from the URL) or `"manual"` (entered or corrected by hand)
+
+`GeneralMetadata.metadata()` fills in omitted per-entry lists when the version's `artifact_urls` is known.
+Use `GeneralMetadata.metadata(; expand_artifact_urls=false)` to read the stored form without expanding it.
 
 ## The web API
 

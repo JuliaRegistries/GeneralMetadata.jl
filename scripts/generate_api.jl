@@ -5,7 +5,7 @@ using Pkg: Pkg, Registry
 using GeneralMetadata: GeneralMetadata
 
 function main()
-    allversions = GeneralMetadata.metadata()
+    allversions = GeneralMetadata.metadata(; expand_artifact_urls=false)
     registry = GeneralMetadata.general_registry()
     root = mkpath(joinpath(@__DIR__, "..", "webroot", "api"))
     for (pkg, versions) in allversions
@@ -34,7 +34,7 @@ function main()
                                 all_tracked = false
                             end
                         end
-                        all_tracked && setdiff!(tracked_urls, m["artifact_urls"])
+                        all_tracked && setdiff!(tracked_urls, GeneralMetadata.artifact_metadata_urls(info, m))
                     end
                     versioninfo[ver]["artifacts_tracked"] = isempty(tracked_urls)
                     versioninfo[ver]["artifact_upstreams"] = components
