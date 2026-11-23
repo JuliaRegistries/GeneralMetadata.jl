@@ -335,22 +335,21 @@ artifact_urls = ["https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/
 registered = 2023-07-31T15:23:19.000Z
 
     [["4.4.4+0".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_jll.jl/releases/download/FFMPEG-v4.4.4+0/FFMPEG.v4.4.4.x86_64-w64-mingw32.tar.gz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/7c4875e19a6fa83568abe763fd4b2ba28ef05bef/F/FFMPEG/FFMPEG/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/f/ffmpeg/ffmpeg/build_tarballs.jl/7c4875e19a6fa83568abe763fd4b2ba28ef05bef.toml"
-    metadata_source = "retrospective (by README link)"
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/b7cee019331e4acd37e49e0c64b489a122ab7e58/F/FFMPEG/FFMPEG/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/f/ffmpeg/ffmpeg/build_tarballs.jl/b7cee019331e4acd37e49e0c64b489a122ab7e58.toml"
+    metadata_source = "retrospective (by General-registered package README link)"
     metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.5.5"
+    metadata_version = "0.5.6"
 
         [["4.4.4+0".artifact_metadata.sources]]
-        hash = "af419a7f88adbc56c758ab19b4c708afbcae15ef09606b82b855291f6a6faa93"
+        hash = "e80b380d595c809060f66f96a5d849511ef4a76a26b76eacf5778b94c3570309"
         type = "archive"
-        url = "https://ffmpeg.org/releases/ffmpeg-4.4.2.tar.xz"
+        url = "https://ffmpeg.org/releases/ffmpeg-4.4.4.tar.xz"
 
             ["4.4.4+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/ffmpeg"
-            provenance = "url-pattern"
-            version = "4.4.2"
+            provenance = "manual"
+            version = "4.4.4"
         [["4.4.4+0".artifact_metadata.sources]]
         package = "nv_codec_headers_jll"
         type = "builddependency"
