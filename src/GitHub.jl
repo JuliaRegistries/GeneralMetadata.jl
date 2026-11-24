@@ -58,14 +58,39 @@ function commit_from_tagname(owner, repo, tag_name)
     return tagsinfo["object"]["sha"]
 end
 
-function tree_sha_from_tagname(owner, repo, tag_name)
-    commit_sha = commit_from_tagname(owner, repo, tag_name)
+function tree_sha_from_commit(owner, repo, commit_sha)
     response = HTTP.get(string(API_BASE, "/repos/", owner, "/", repo, "/git/commits/", commit_sha), build_headers())
     if response.status != 200
         error("Failed to fetch commit info for $commit_sha: HTTP $(response.status)")
     end
     commitinfo = JSON.parse(response.body)
     return commitinfo["tree"]["sha"]
+end
+
+function find_commit_for_tree(repo_url, tree_sha)
+    mktempdir() do dir
+        run(`git clone --quiet --bare --filter=tree:0 $repo_url $dir`)
+        for line in readlines(`git -C $dir log --all --format=%H%x20%T`)
+            commit, tree = split(line)
+            tree == tree_sha && return commit
+        end
+        return nothing
+    end
+end
+
+function registered_jll_commit(owner, repo, tag, tree_sha)
+    tagged_commit = try
+        commit_from_tagname(owner, repo, tag)
+    catch ex
+        ex isa HTTP.Exceptions.StatusError && ex.status == 404 || rethrow()
+        nothing
+    end
+    if !isnothing(tagged_commit) && tree_sha_from_commit(owner, repo, tagged_commit) == tree_sha
+        return tagged_commit, true
+    end
+    commit = find_commit_for_tree("https://github.com/$owner/$repo.git", tree_sha)
+    isnothing(commit) && error("no commit in $owner/$repo for $tag matches General's tree $tree_sha")
+    return commit, false
 end
 
 get_readme(owner, repo, tree_sha) = get_file(owner, repo, tree_sha, ==("README.md"))
