@@ -49,10 +49,14 @@ end
 artifact_metadata_urls(verinfo, artifactmeta) = get(artifactmeta, "artifact_urls", get(verinfo, "artifact_urls", String[]))
 
 function expand_artifact_urls!(pkgmeta)
-    for verinfo in values(pkgmeta)
-        haskey(verinfo, "artifact_urls") || continue
-        for artifactmeta in get(verinfo, "artifact_metadata", [])
-            get!(() -> copy(verinfo["artifact_urls"]), artifactmeta, "artifact_urls")
+    for (ver, verinfo) in pkgmeta
+        entries = get(verinfo, "artifact_metadata", [])
+        for artifactmeta in entries
+            haskey(artifactmeta, "artifact_urls") && continue
+            length(entries) == 1 || throw(ArgumentError("an artifact metadata entry without artifact_urls must be the only entry for version $ver"))
+            if haskey(verinfo, "artifact_urls")
+                artifactmeta["artifact_urls"] = copy(verinfo["artifact_urls"])
+            end
         end
     end
     return pkgmeta
@@ -476,6 +480,18 @@ function separate_reconstructed_artifact_metadata!(jllmeta)
     return jllmeta
 end
 
+function append_artifact_metadata!(verinfo, artifactmeta, release_urls)
+    urls = verinfo["artifact_urls"]
+    entries = get!(verinfo, "artifact_metadata", [])
+    if length(entries) == 1
+        get!(() -> copy(urls), only(entries), "artifact_urls")
+    end
+    if !isempty(entries) || release_urls != urls
+        artifactmeta["artifact_urls"] = release_urls
+    end
+    push!(entries, artifactmeta)
+end
+
 function add_jll_artifact_metadata!(meta_version_entry)
     urls = meta_version_entry["artifact_urls"]
     releases = Dict{Tuple{String,String,String}, Vector{String}}()
@@ -487,9 +503,8 @@ function add_jll_artifact_metadata!(meta_version_entry)
     for ((org, repo, tag), release_urls) in releases
         org == "JuliaBinaryWrappers" || continue
         jllmeta = metadata_for_jll_release(org, repo, tag)
-        release_urls == urls || (jllmeta["artifact_urls"] = release_urls)
         separate_reconstructed_artifact_metadata!(jllmeta)
-        push!(get!(meta_version_entry, "artifact_metadata", []), jllmeta)
+        append_artifact_metadata!(meta_version_entry, jllmeta, release_urls)
     end
     return meta_version_entry
 end

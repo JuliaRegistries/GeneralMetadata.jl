@@ -69,6 +69,8 @@ end
                         @test ainfo["artifact_urls"] isa Vector
                         @test all(x->isa(x, String), ainfo["artifact_urls"])
                         @test all(in(get(verinfo, "artifact_urls", String[])), ainfo["artifact_urls"])
+                    else
+                        @test length(verinfo["artifact_metadata"]) == 1
                     end
 
                     if get(ainfo, "metadata_type", "") != "JLLGenerator JLL.toml"
@@ -186,8 +188,9 @@ end
     empty = Dict("artifact_urls" => String[])
     unknown = Dict{String,Any}()
     pkgmeta = Dict(
-        "1.0.0" => Dict("artifact_urls" => urls, "artifact_metadata" => [inherited, subset, empty]),
+        "1.0.0" => Dict("artifact_urls" => urls, "artifact_metadata" => [inherited]),
         "2.0.0" => Dict("artifact_metadata" => [unknown]),
+        "3.0.0" => Dict("artifact_urls" => urls, "artifact_metadata" => [subset, empty]),
     )
     GeneralMetadata.expand_artifact_urls!(pkgmeta)
     @test inherited["artifact_urls"] == urls
@@ -195,4 +198,21 @@ end
     @test subset["artifact_urls"] == urls[1:1]
     @test isempty(empty["artifact_urls"])
     @test !haskey(unknown, "artifact_urls")
+    push!(pkgmeta["1.0.0"]["artifact_metadata"], Dict{String,Any}())
+    @test_throws ArgumentError GeneralMetadata.expand_artifact_urls!(pkgmeta)
+end
+
+@testset "Append artifact metadata URLs" begin
+    urls = ["https://example.org/one.tar.gz", "https://example.org/two.tar.gz"]
+    verinfo = Dict{String,Any}("artifact_urls" => urls)
+    full = Dict{String,Any}()
+    subset = Dict{String,Any}()
+    GeneralMetadata.append_artifact_metadata!(verinfo, full, urls)
+    @test !haskey(full, "artifact_urls")
+    GeneralMetadata.append_artifact_metadata!(verinfo, subset, urls[1:1])
+    @test full["artifact_urls"] == urls
+    @test subset["artifact_urls"] == urls[1:1]
+    second_full = Dict{String,Any}()
+    GeneralMetadata.append_artifact_metadata!(verinfo, second_full, urls)
+    @test second_full["artifact_urls"] == urls
 end
