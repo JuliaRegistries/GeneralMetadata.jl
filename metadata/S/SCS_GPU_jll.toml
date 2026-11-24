@@ -22,6 +22,20 @@ registered = 2020-09-04T16:47:50.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v2.1.3+0/SCS_GPU.v2.1.3.x86_64-linux-gnu.tar.gz"]
 registered = 2021-04-13T10:48:55.000Z
 
+    [["2.1.3+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/cb9a26ad8f668efb9fc488abd392aa59f60f012c/S/SCS_GPU/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/s/scs_gpu/build_tarballs.jl/cb9a26ad8f668efb9fc488abd392aa59f60f012c.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.3.1"
+
+        [["2.1.3+0".artifact_metadata.sources]]
+        hash = "07ca69c296312c260027c755f545f05bf45156eb"
+        type = "git"
+        url = "https://github.com/cvxgrp/scs.git"
+        [["2.1.3+0".artifact_metadata.sources]]
+        package = "CUDA_full_jll"
+        type = "builddependency"
 
 ["2.1.4+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/SCS_GPU_jll.jl/releases/download/SCS_GPU-v2.1.4+0/SCS_GPU.v2.1.4.x86_64-linux-gnu.tar.gz"]

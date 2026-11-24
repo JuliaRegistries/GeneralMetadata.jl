@@ -86,3 +86,15 @@ registered = 2026-08-15T19:13:02.000Z
 ["1.0.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.aarch64-apple-darwin-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.aarch64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.aarch64-linux-musl-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.aarch64-unknown-freebsd-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.armv6l-linux-gnueabihf-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.armv6l-linux-musleabihf-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.armv7l-linux-gnueabihf-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.armv7l-linux-musleabihf-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.i686-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.i686-linux-musl-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.powerpc64le-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.riscv64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.x86_64-apple-darwin-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.x86_64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.x86_64-linux-musl-libgfortran5-mpi+mpiabi.tar.gz", "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v1.0.1+0/mpif.v1.0.1.x86_64-unknown-freebsd-libgfortran5-mpi+mpiabi.tar.gz"]
 registered = 2026-10-20T19:23:01.000Z
+
+    [["1.0.1+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/74566ee863c50923aa492c50485dc5e2a9dc51ba/M/mpif/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/mpif/build_tarballs.jl/74566ee863c50923aa492c50485dc5e2a9dc51ba.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.0.1+0".artifact_metadata.sources]]
+        hash = "f0b44d125a2225b4ef6588a54fb1d7f63d8d9468"
+        type = "git"
+        url = "https://github.com/eschnett/mpif"

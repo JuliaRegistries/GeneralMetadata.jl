@@ -61,3 +61,7 @@ registered = 2026-05-19T19:47:44.000Z
 ["100.0.0"]
 artifact_urls = ["https://github.com/m3g/MolSimTestFiles/releases/download/packmol-v3/packmol.tar.gz"]
 registered = 2026-11-17T14:38:51.000Z
+
+["100.1.0"]
+artifact_urls = ["https://github.com/m3g/MolSimTestFiles/releases/download/packmol-v3/packmol.tar.gz"]
+registered = 2026-11-24T12:07:19.000Z

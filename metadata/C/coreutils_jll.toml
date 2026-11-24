@@ -24,6 +24,22 @@ registered = 2020-07-29T10:57:48.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.0.0+0/coreutils.v9.0.0.x86_64-unknown-freebsd.tar.gz"]
 registered = 2022-02-07T16:00:59.000Z
 
+    [["9.0.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/e77cba151599cede62969b714bd53cfd958493c0/C/coreutils/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/coreutils/build_tarballs.jl/e77cba151599cede62969b714bd53cfd958493c0.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.5.1"
+
+        [["9.0.0+0".artifact_metadata.sources]]
+        hash = "ce30acdf4a41bc5bb30dd955e9eaa75fa216b4e3deb08889ed32433c7b3b97ce"
+        type = "archive"
+        url = "https://ftp.gnu.org/gnu/coreutils/coreutils-9.0.tar.xz"
+
+            ["9.0.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/coreutils"
+            provenance = "heuristic"
+            version = "9.0"
 
 ["9.1.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/coreutils_jll.jl/releases/download/coreutils-v9.1.0+0/coreutils.v9.1.0.x86_64-unknown-freebsd.tar.gz"]

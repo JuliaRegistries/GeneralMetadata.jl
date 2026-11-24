@@ -79,6 +79,77 @@ registered = 2022-09-12T15:06:51.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Support_jll.jl/releases/download/oneAPI_Support-v0.1.0+1/oneAPI_Support.v0.1.0.x86_64-linux-gnu.tar.gz"]
 registered = 2022-10-25T16:33:26.000Z
 
+    [["0.1.0+1".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/510bdaf36faa3757b97fca4e7e3376e1442e3853/O/oneAPI_Support/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/oneapi_support/build_tarballs.jl/510bdaf36faa3757b97fca4e7e3376e1442e3853.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.5.6"
+
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "c9f21108139d0b186e83f183aacc4df9a65b895a"
+        type = "git"
+        url = "https://github.com/JuliaGPU/oneAPI.jl"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "1472da83f109dbead10835e49d204035272b9727eb71863e5a64688e13e6bacf"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/dpcpp-cpp-rt-2022.1.0-intel_3768.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "4ff8f0a0c482aa6ffeb419fe9d0d38a697d2db8d86e65ca499f47d5d68747436"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/dpcpp_impl_linux-64-2022.1.0-intel_3768.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "96a13c1fb673bcb0b6b0ddb6c436312113292d7ea21a55395a7efa34e70af0b1"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/dpcpp_linux-64-2022.1.0-intel_3768.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "b81f4838a930d08edec2aab4d3eebd89ce3b321ca602792bcc9433926836da07"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/icc_rt-2022.1.0-intel_3768.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "8c86ea88d46cb13b3b537203e15fc6e6ec2d803b7bd0bde8561d347b18ba426e"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/intel-cmplr-lib-rt-2022.1.0-intel_3768.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "fd3b6a0e75f06b1bf22b070a7b61b09d2a3e9d9e01a64b60b746b35f45681acb"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/intel-cmplr-lic-rt-2022.1.0-intel_3768.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "f4086002b4d5699dea78659777e412ef6c6ea2fa1d3984d135848f0b75144b81"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/intel-opencl-rt-2022.1.0-intel_3768.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "498dc37ce1bd513f591b633565151c4de8f11a12914814f2bf85afebbd35ee23"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/intel-openmp-2022.1.0-intel_3768.tar.bz2"
+
+            ["0.1.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/intel-openmp"
+            provenance = "url-pattern"
+            version = "2022.1.0"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "31c225ce08d3dc129f0881e5d36a1ef0ba8dc9fdc0e168397c2ac144d5f0bf54"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/mkl-2022.1.0-intel_223.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "4e014e6ac31e8961f09c937b66f53d2c0d75f074f39abfa9f378f4659ed2ecbb"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/mkl-devel-2022.1.0-intel_223.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "25e38a5466245ce289c77a4bb1c38d26d3a4ec762b0207f6f03af361a3529322"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/mkl-devel-dpcpp-2022.1.0-intel_223.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "79af3aa775168128054d8e2cb04717fea55b1779885d3472286106e1f24d0fc4"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/mkl-dpcpp-2022.1.0-intel_223.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        hash = "704e658a9b25a200f8035f3d0a8f2e094736496a2169f87609f1cfed2e2eb0a9"
+        type = "archive"
+        url = "https://conda.anaconda.org/intel/linux-64/mkl-include-2022.1.0-intel_223.tar.bz2"
+        [["0.1.0+1".artifact_metadata.sources]]
+        package = "oneAPI_Level_Zero_Headers_jll"
+        type = "builddependency"
 
 ["0.1.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/oneAPI_Support_jll.jl/releases/download/oneAPI_Support-v0.1.1+0/oneAPI_Support.v0.1.1.x86_64-linux-gnu.tar.gz"]

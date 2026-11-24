@@ -1,0 +1,39 @@
+dependencies = []
+init_block = ""
+julia_compat = "1.0"
+lazy_artifacts = false
+name = "pandoc"
+platforms = ["x86_64-linux-gnu", "x86_64-apple-darwin", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/\nmkdir -p \"${bindir}\"\nif [[ \"${target}\" != *-mingw* ]]; then\n    subdir=\"bin/\"\nfi\ncp ${target}/pandoc-*/${subdir}pandoc${exeext} ${bindir}\nchmod +x ${bindir}/*\ninstall_license COPYRIGHT\ninstall_license COPYING.md\n"""
+version = "v2.11.4"
+
+[[products]]
+binnames = ["pandoc"]
+type = "exe"
+variable_name = "pandoc"
+
+[[sources]]
+hash = "b15ce6009ab833fb51fc472bf8bb9683cd2bd7f8ac948f3ddeb6b8f9a366d69a"
+type = "archive"
+unpack_target = "x86_64-linux-gnu"
+url = "https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-linux-amd64.tar.gz"
+[[sources]]
+hash = "13b8597860afa6ab802993a684b340be3f31f4d2a06c50b6601f9e726cf76f71"
+type = "archive"
+unpack_target = "x86_64-apple-darwin14"
+url = "https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-macOS.zip"
+[[sources]]
+hash = "ee1b0c4d0f539ee8316d6cebb29f6aa709aa3a72be2b2b4ab6e9e4a77a01a50b"
+type = "archive"
+unpack_target = "x86_64-w64-mingw32"
+url = "https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-windows-x86_64.zip"
+[[sources]]
+filename = "COPYING.md"
+hash = "2b0d4dda4bf8034e1506507a67f80f982131137afe62bf144d248f9faea31da4"
+type = "file"
+url = "https://raw.githubusercontent.com/jgm/pandoc/54d8c6959cc53e78cfea2093b33504672f81ed74/COPYING.md"
+[[sources]]
+filename = "COPYRIGHT"
+hash = "7087ebeaa4c3131b7a989ea4310da1442610e9e2874c3bc9d3e8a52d618fd97a"
+type = "file"
+url = "https://raw.githubusercontent.com/jgm/pandoc/54d8c6959cc53e78cfea2093b33504672f81ed74/COPYRIGHT"

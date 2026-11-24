@@ -2,6 +2,25 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+0/crun.v1.7.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+0/crun.v1.7.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+0/crun.v1.7.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+0/crun.v1.7.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+0/crun.v1.7.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+0/crun.v1.7.1.x86_64-linux-gnu.tar.gz"]
 registered = 2022-12-09T21:25:37.000Z
 
+    [["1.7.1+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/9df4a4dac810303cbdafb4457286fe14ebd75867/C/crun/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/crun/build_tarballs.jl/9df4a4dac810303cbdafb4457286fe14ebd75867.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.5.6"
+
+        [["1.7.1+0".artifact_metadata.sources]]
+        hash = "0356bf4aff9a133d655dc13b1d9ac9424706cac4"
+        type = "git"
+        url = "https://github.com/containers/crun"
+
+            ["1.7.1+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/crun"
+            provenance = "git-tag"
+            version = "1.7.2"
+        [["1.7.1+0".artifact_metadata.sources]]
+        package = "Glibc_jll"
+        type = "builddependency"
 
 ["1.7.1+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+1/crun.v1.7.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+1/crun.v1.7.1.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+1/crun.v1.7.1.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+1/crun.v1.7.1.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+1/crun.v1.7.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/crun_jll.jl/releases/download/crun-v1.7.1+1/crun.v1.7.1.x86_64-linux-gnu.tar.gz"]

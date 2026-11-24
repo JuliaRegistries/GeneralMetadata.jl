@@ -1,0 +1,55 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = true
+name = "pixi"
+platforms = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-w64-mingw32", "aarch64-linux-gnu", "x86_64-linux-gnu"]
+script = """cd $WORKSPACE/srcdir\n\n# unpack and install the binary\nif [[ $target = *-w64-* ]]; then\n    unzip pixi-$target.zip\nelse\n    tar -xzf pixi-$target.tar.gz\nfi\ninstall -Dvm 755 \"pixi${exeext}\" -t \"${bindir}\"\n\n# install the license\ninstall_license repo/pixi/LICENSE\n"""
+toplevel_block = ""
+version = "v0.84.2"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[products]]
+binnames = ["pixi"]
+type = "exe"
+variable_name = "pixi"
+
+[[sources]]
+hash = "98cc736a9ba6e7e15f19abd59ff45ba805f712bd"
+tag = "v0.84.2"
+type = "git"
+unpack_target = "repo"
+url = "https://github.com/prefix-dev/pixi.git"
+[[sources]]
+filename = "pixi-aarch64-apple-darwin20.tar.gz"
+hash = "039d4b48c7e17bc62a36faa2af1b13d0d187f5dd6e8fea17e0587302438df6e6"
+type = "file"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-aarch64-apple-darwin.tar.gz"
+[[sources]]
+filename = "pixi-x86_64-apple-darwin14.tar.gz"
+hash = "a633a4f8276955b73248397c17ce77380eb7133dc96c54bc271239b7dc9b8837"
+type = "file"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-x86_64-apple-darwin.tar.gz"
+[[sources]]
+filename = "pixi-aarch64-w64-mingw32.zip"
+hash = "2c8d16e4f1a3600e587c0157ddb25f9a046b41da275e2125f0384e94841a45e6"
+type = "file"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-aarch64-pc-windows-msvc.zip"
+[[sources]]
+filename = "pixi-x86_64-w64-mingw32.zip"
+hash = "aa4f02efac31566176d639007e65a36740aa7b56c22673c44ecfd2611e7a6b2c"
+type = "file"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-x86_64-pc-windows-msvc.zip"
+[[sources]]
+filename = "pixi-aarch64-linux-gnu.tar.gz"
+hash = "0957b6352d077bb3ffcce913f90b1e6cfbc6b98888a45d59ee2910e8c4811110"
+type = "file"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-aarch64-unknown-linux-musl.tar.gz"
+[[sources]]
+filename = "pixi-x86_64-linux-gnu.tar.gz"
+hash = "6d2a576bde0a7b26533a068fec0aea6e4ee21c36668efc1dc73fce90110906ae"
+type = "file"
+url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-x86_64-unknown-linux-musl.tar.gz"

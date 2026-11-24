@@ -2,6 +2,28 @@
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+0/MAGMA.v2.7.0.x86_64-linux-gnu-cxx03-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+0/MAGMA.v2.7.0.x86_64-linux-gnu-cxx11-cuda+11.3.tar.gz"]
 registered = 2023-01-24T20:37:06.000Z
 
+    [["2.7.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/40e7e8e480452267768d464a4093ed1e7c2ef8c7/M/MAGMA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/magma/build_tarballs.jl/40e7e8e480452267768d464a4093ed1e7c2ef8c7.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.5.6"
+
+        [["2.7.0+0".artifact_metadata.sources]]
+        hash = "fda1cbc4607e77cacd8feb1c0f633c5826ba200a018f647f1c5436975b39fd18"
+        type = "archive"
+        url = "http://icl.utk.edu/projectsfiles/magma/downloads/magma-2.7.0.tar.gz"
+
+            ["2.7.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/magma"
+            provenance = "heuristic"
+            version = "2.7.0"
+        [["2.7.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/40e7e8e480452267768d464a4093ed1e7c2ef8c7/M/MAGMA/bundled"
+        [["2.7.0+0".artifact_metadata.sources]]
+        package = "CUDA_full_jll"
+        type = "builddependency"
 
 ["2.7.0+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+1/MAGMA.v2.7.0.x86_64-linux-gnu-cxx03-cuda+11.3.tar.gz", "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+1/MAGMA.v2.7.0.x86_64-linux-gnu-cxx11-cuda+11.3.tar.gz"]

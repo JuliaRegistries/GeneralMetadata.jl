@@ -386,3 +386,24 @@ registered = 2026-11-21T18:10:25.000Z
         [["1.5.7+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1a71c986056d9622a5c32f177985371567e72b3d/Z/Zstd/bundled"
+
+["1.6.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Zstd_jll.jl/releases/download/Zstd-v1.6.0+0/Zstd.v1.6.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-24T16:24:55.000Z
+
+    [["1.6.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/84d3cdbfc9225b5b26ea33103067c388f7414cb2/Z/Zstd/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/z/zstd/build_tarballs.jl/84d3cdbfc9225b5b26ea33103067c388f7414cb2.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.6.0+0".artifact_metadata.sources]]
+        hash = "2ba599ae2a257976278e7e71e998433a387bfd18aa7b78678229fd5d84f5e9b8"
+        type = "archive"
+        url = "https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz"
+
+            ["1.6.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zstd"
+            provenance = "tag-scheme"
+            version = "1.6.0"

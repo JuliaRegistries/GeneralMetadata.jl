@@ -1,0 +1,37 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Zstd"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/zstd-*\n\nmkdir build-zstd && cd build-zstd\n\nif [[ \"${target}\" == *86*-linux-gnu ]]; then\n    # Using `clock_gettime` on old Glibc requires linking to `librt`.\n    sed -ri \"s/^c_link_args = \\[(.*)\\]/c_link_args = [\\1, '-lrt']/\" ${MESON_TARGET_TOOLCHAIN}\nelif [[ \"${target}\" == *musl* ]]; then\n    # zstd uses `qsort_r` which is not available from our (old) musl\n    # <https://github.com/facebook/zstd/issues/4311>. Use the plain C90 `qsort` instead.\n    sed -ri \"s/^c_args = \\[(.*)\\]/c_args = [\\1, '-DZDICT_QSORT=ZDICT_QSORT_C90']/\" ${MESON_TARGET_TOOLCHAIN}\nelif [[ \"${target}\" == i686-*-mingw* ]]; then\n    # Using `WakeConditionVariable`/`InitializeConditionVariable`/`SleepConditionVariableCS`\n    # require Windows Vista:\n    # <https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-wakeconditionvariable>.\n    sed -ri \"s/^c_args = \\[(.*)\\]/c_args = [\\1, '-D_WIN32_WINNT=_WIN32_WINNT_VISTA']/\" ${MESON_TARGET_TOOLCHAIN}\nfi\n\nmeson --cross-file=\"${MESON_TARGET_TOOLCHAIN}\" ../build/meson\n\n# Meson beautifully forces thin archives, without checking whether the dynamic linker\n# actually supports them: <https://github.com/mesonbuild/meson/issues/10823>.  Let's remove\n# the (deprecated...) `T` option to `ar`, until they fix it in Meson.\nsed -i.bak 's/csrDT/csrD/' build.ninja\n\nninja -j${nproc}\nninja install\n"""
+toplevel_block = ""
+version = "v1.6.0"
+
+[build_options]
+clang_use_lld = "false"
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"11.0.0\""
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libzstd"]
+type = "lib"
+variable_name = "libzstd"
+[[products]]
+binnames = ["zstd"]
+type = "exe"
+variable_name = "zstd"
+[[products]]
+binnames = ["zstdmt"]
+type = "exe"
+variable_name = "zstdmt"
+
+[[sources]]
+hash = "2ba599ae2a257976278e7e71e998433a387bfd18aa7b78678229fd5d84f5e9b8"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz"

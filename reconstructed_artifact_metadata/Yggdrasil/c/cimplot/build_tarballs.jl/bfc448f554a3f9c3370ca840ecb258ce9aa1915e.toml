@@ -1,0 +1,42 @@
+init_block = ""
+julia_compat = "1.0"
+lazy_artifacts = false
+name = "CImPlot"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "x86_64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir\nmv cmake/CMakeLists.txt ./cimplot/\nmv implot cimplot/\ncd cimplot/\nmkdir build && cd build\ncmake .. -DCMAKE_INSTALL_PREFIX=${prefix} -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} -DCMAKE_BUILD_TYPE=Release\nmake -j${nproc}\nmake install\nmkdir -p ${prefix}/share/licenses/${SRC_NAME}\nmv ../LICENSE ${prefix}/share/licenses/${SRC_NAME}/LICENSE_cimplot\nmv ../implot/LICENSE ${prefix}/share/licenses/${SRC_NAME}/LICENSE_implot\n"""
+version = "v0.8.0"
+
+[[dependencies]]
+name = "CImGui_jll"
+type = "dependency"
+version-major = 1
+version-minor = 79
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libcimplot"]
+type = "lib"
+variable_name = "libcimplot"
+[[products]]
+paths = ["share/compile_commands.json"]
+type = "file"
+variable_name = "compile_commands"
+
+[[sources]]
+hash = "5672fa2a16dcd6cd93a4faa8a72f3f14f986bb48"
+type = "git"
+unpack_target = ""
+url = "https://github.com/cimgui/cimplot.git"
+[[sources]]
+hash = "a9d334791563cdaf9bd0bf7f9899a67bcd03179b"
+type = "git"
+unpack_target = ""
+url = "https://github.com/epezent/implot.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

@@ -1,0 +1,56 @@
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "OpenSpiel"
+platforms = ["x86_64-linux-gnu-cxx03", "x86_64-linux-gnu-cxx11"]
+script = """\nmv open_spiel-0.3.1 open_spiel\nmv abseil-cpp-20200923.1 open_spiel/open_spiel/abseil-cpp\nmv dds-0.1.1 open_spiel/open_spiel/games/bridge/double_dummy_solver\nmv hanabi-learning-environment-0.1.0 open_spiel/open_spiel/games/hanabi/hanabi-learning-environment\nmv project_acpc_server-0.1.0 open_spiel/open_spiel/games/universal_poker/acpc\n\nmkdir open_spiel/build\ncd open_spiel/build\nexport BUILD_WITH_PYTHON=OFF BUILD_WITH_JULIA=ON BUILD_WITH_HANABI=ON BUILD_WITH_ACPC=OFF\ncmake \\\n    -DCMAKE_FIND_ROOT_PATH=${prefix} \\\n    -DCMAKE_INSTALL_PREFIX=$prefix \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DJulia_PREFIX=${prefix} \\\n    ../open_spiel/\nmake -j${nproc}\nmake install\ninstall_license ${WORKSPACE}/srcdir/open_spiel/LICENSE\n"""
+version = "v0.3.6"
+
+[[dependencies]]
+compat = ""
+name = "libjulia_jll"
+type = "builddependency"
+version-major = 1
+version-minor = 6
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "libcxxwrap_julia_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libspieljl"]
+type = "lib"
+variable_name = "libspieljl"
+
+[[sources]]
+hash = "3d2a7d1c2fb29e3d0df6f70c8692cb6b922a840bd58a86a3e7ef25e509cdbccb"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/deepmind/open_spiel/archive/v0.3.1.tar.gz"
+[[sources]]
+hash = "fd13ee77feb5b5c3dfcc3333a0523266beb2a3d27715703cf508313af25306e5"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/findmyway/dds/archive/v0.1.1.tar.gz"
+[[sources]]
+hash = "808350c4d7238315717749bab0067a1acd208023d41eaf0c7360f29cc8bc8f21"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/abseil/abseil-cpp/archive/20200923.1.tar.gz"
+[[sources]]
+hash = "6126936fd13a95f8cadeacaa69dfb38a960eaf3bd588aacc8893a6e07e4791a3"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/findmyway/hanabi-learning-environment/archive/v0.1.0.tar.gz"
+[[sources]]
+hash = "e29f969dd62ba354b7019cae3f7f1dbfbd9a744687ea4a8f7494c2bb1ee87382"
+type = "archive"
+unpack_target = ""
+url = "https://github.com/findmyway/project_acpc_server/archive/v0.1.0.tar.gz"

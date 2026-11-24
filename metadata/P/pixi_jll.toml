@@ -171,3 +171,78 @@ registered = 2026-08-13T08:41:03.000Z
             project = "repology.org/project/pixi"
             provenance = "tag-scheme"
             version = "0.76.2"
+
+["0.84.2+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/pixi_jll.jl/releases/download/pixi-v0.84.2+0/pixi.v0.84.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pixi_jll.jl/releases/download/pixi-v0.84.2+0/pixi.v0.84.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pixi_jll.jl/releases/download/pixi-v0.84.2+0/pixi.v0.84.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pixi_jll.jl/releases/download/pixi-v0.84.2+0/pixi.v0.84.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pixi_jll.jl/releases/download/pixi-v0.84.2+0/pixi.v0.84.2.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-24T13:47:48.000Z
+
+    [["0.84.2+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/4afae21db5a61670b1a3476a68f8161c822954f3/P/pixi/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pixi/build_tarballs.jl/4afae21db5a61670b1a3476a68f8161c822954f3.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.84.2+0".artifact_metadata.sources]]
+        hash = "98cc736a9ba6e7e15f19abd59ff45ba805f712bd"
+        type = "git"
+        url = "https://github.com/prefix-dev/pixi.git"
+
+            ["0.84.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pixi"
+            provenance = "git-tag"
+            version = "0.84.2"
+        [["0.84.2+0".artifact_metadata.sources]]
+        hash = "039d4b48c7e17bc62a36faa2af1b13d0d187f5dd6e8fea17e0587302438df6e6"
+        type = "file"
+        url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-aarch64-apple-darwin.tar.gz"
+
+            ["0.84.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pixi"
+            provenance = "tag-scheme"
+            version = "0.84.2"
+        [["0.84.2+0".artifact_metadata.sources]]
+        hash = "a633a4f8276955b73248397c17ce77380eb7133dc96c54bc271239b7dc9b8837"
+        type = "file"
+        url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-x86_64-apple-darwin.tar.gz"
+
+            ["0.84.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pixi"
+            provenance = "tag-scheme"
+            version = "0.84.2"
+        [["0.84.2+0".artifact_metadata.sources]]
+        hash = "2c8d16e4f1a3600e587c0157ddb25f9a046b41da275e2125f0384e94841a45e6"
+        type = "file"
+        url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-aarch64-pc-windows-msvc.zip"
+
+            ["0.84.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pixi"
+            provenance = "tag-scheme"
+            version = "0.84.2"
+        [["0.84.2+0".artifact_metadata.sources]]
+        hash = "aa4f02efac31566176d639007e65a36740aa7b56c22673c44ecfd2611e7a6b2c"
+        type = "file"
+        url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-x86_64-pc-windows-msvc.zip"
+
+            ["0.84.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pixi"
+            provenance = "tag-scheme"
+            version = "0.84.2"
+        [["0.84.2+0".artifact_metadata.sources]]
+        hash = "0957b6352d077bb3ffcce913f90b1e6cfbc6b98888a45d59ee2910e8c4811110"
+        type = "file"
+        url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-aarch64-unknown-linux-musl.tar.gz"
+
+            ["0.84.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pixi"
+            provenance = "tag-scheme"
+            version = "0.84.2"
+        [["0.84.2+0".artifact_metadata.sources]]
+        hash = "6d2a576bde0a7b26533a068fec0aea6e4ee21c36668efc1dc73fce90110906ae"
+        type = "file"
+        url = "https://github.com/prefix-dev/pixi/releases/download/v0.84.2/pixi-x86_64-unknown-linux-musl.tar.gz"
+
+            ["0.84.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pixi"
+            provenance = "tag-scheme"
+            version = "0.84.2"

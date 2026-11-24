@@ -76,6 +76,22 @@ registered = 2020-10-17T01:58:17.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Wayland_protocols_jll.jl/releases/download/Wayland_protocols-v1.23.0+0/Wayland_protocols.v1.23.0.any.tar.gz"]
 registered = 2021-11-21T19:56:22.000Z
 
+    [["1.23.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/510bc4bb8878c2e0da3d3660dcd60bb80d54129b/W/Wayland_protocols/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/w/wayland_protocols/build_tarballs.jl/510bc4bb8878c2e0da3d3660dcd60bb80d54129b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.4.2"
+
+        [["1.23.0+0".artifact_metadata.sources]]
+        hash = "6c0af1915f96f615927a6270d025bd973ff1c58e521e4ca1fc9abfc914633f76"
+        type = "archive"
+        url = "https://wayland.freedesktop.org/releases/wayland-protocols-1.23.tar.xz"
+
+            ["1.23.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/wayland-protocols"
+            provenance = "url-pattern"
+            version = "1.23"
 
 ["1.24.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Wayland_protocols_jll.jl/releases/download/Wayland_protocols-v1.24.0+0/Wayland_protocols.v1.24.0.any.tar.gz"]

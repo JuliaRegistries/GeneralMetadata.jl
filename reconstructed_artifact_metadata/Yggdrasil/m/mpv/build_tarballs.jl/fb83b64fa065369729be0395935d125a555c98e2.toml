@@ -1,0 +1,171 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "mpv"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """macos_sdk_version=11.3\nmacosx_deployment_target=11.3\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == *-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd $WORKSPACE/srcdir/mpv\n\n# Some libc headers define `strcspn` as a macro; the comma in the compound\n# literal then splits the macro arguments. Parenthesize the literal.\natomic_patch -p1 $WORKSPACE/srcdir/patches/screenshot-strcspn-macro.patch\n\n# Clone libplacebo as a meson subproject (needs --recursive for 3rdparty deps)\nmkdir -p subprojects\ngit clone https://code.videolan.org/videolan/libplacebo.git \\\n    --branch v7.387.0 --depth=1 --recursive subprojects/libplacebo\n\n# Remove host cmake so meson doesn't pick it up for cross-compilation\napk del cmake\n\n# FFMPEG_jll installs pkgconfig files in ${libdir}/pkgconfig on Windows\nif [[ \"${target}\" == *-mingw* ]]; then\n    export PKG_CONFIG_PATH=\"${PKG_CONFIG_PATH:+${PKG_CONFIG_PATH}:}${libdir}/pkgconfig\"\nfi\n\n# On FreeBSD, HarfBuzz_jll and FriBidi_jll (needed by libass) ship their\n# pkg-config files in libdata/pkgconfig\nif [[ \"${target}\" == *-freebsd* ]]; then\n    export PKG_CONFIG_PATH=\"${PKG_CONFIG_PATH:+${PKG_CONFIG_PATH}:}${prefix}/libdata/pkgconfig\"\nfi\n\nFLAGS=()\n\nif [[ \"${target}\" == *-apple-* ]]; then\n    # Cocoa requires Swift (no Swift compiler in BinaryBuilder), so disable it\n    # and all features that depend on it. CoreAudio/AVFoundation are independent.\n    FLAGS+=(\n        -Dcocoa=disabled\n        -Dswift-build=disabled\n        -Dgl-cocoa=disabled\n        -Dmacos-cocoa-cb=disabled\n        -Dmacos-media-player=disabled\n        -Dmacos-touchbar=disabled\n    )\nfi\n\nif [[ \"${target}\" == *-mingw* ]]; then\n    # The d3d11 video output needs spirv-cross, which we don't provide, so\n    # mpv's d3d11_helpers.c is not compiled. But the (auto-enabled) D3D11VA\n    # hwaccel filter vf_d3d11vpp.c still uses it, which fails at link time\n    # (undefined reference to `mp_params_to_dxgi_colorspace`). Disable it;\n    # this also disables the dependent d3d9-hwaccel.\n    FLAGS+=(-Dd3d-hwaccel=disabled)\nfi\n\nif [[ \"${target}\" == i686-*-mingw* ]]; then\n    # The i686 mingw-w64 ole32 import library lacks CoIncrementMTAUsage@4 and\n    # CoDecrementMTAUsage@4, which ao_wasapi.c needs (undefined reference at\n    # link time). Disable WASAPI there; SDL2 audio remains available.\n    FLAGS+=(-Dwasapi=disabled)\nfi\n\n# SDL2 video/audio are disabled by default in mpv 0.41; enable them explicitly\n# Vulkan is disabled: not native on macOS, stdcall ABI issues on 32-bit Windows,\n# and SDL2+OpenGL provide sufficient video output for a JLL package\nFLAGS+=(-Dsdl2-video=enabled -Dsdl2-audio=enabled -Dvulkan=disabled)\n\nmeson setup build --cross-file=${MESON_TARGET_TOOLCHAIN} --buildtype=release \"${FLAGS[@]}\"\nmeson compile -C build\nmeson install -C build\n\ninstall_license Copyright LICENSE.GPL\n"""
+toplevel_block = ""
+version = "v0.42.0"
+
+[build_options]
+clang_use_lld = "false"
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"8.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CMake_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_xorgproto_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "9.0.0"
+compat = "9.0.0"
+name = "FFMPEG_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "JpegTurbo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Libglvnd_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Libiconv_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Lua_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "SDL2_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Shaderc_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_libX11_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_libXinerama_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Xorg_libXrandr_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "libass_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["mpv"]
+type = "exe"
+variable_name = "mpv"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libmpv"]
+type = "lib"
+variable_name = "libmpv"
+
+[[sources]]
+hash = "b0841e8c4d156b8403dc1876c4cbd9011eb583f3"
+tag = "v0.42.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/mpv-player/mpv.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
+[[sources]]
+filename = "MacOSX11.3.sdk.tar.xz"
+hash = "cd4f08a75577145b8f05245a2975f7c81401d75e9535dcffbb879ee1deefcbf4"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.3/MacOSX11.3.sdk.tar.xz"

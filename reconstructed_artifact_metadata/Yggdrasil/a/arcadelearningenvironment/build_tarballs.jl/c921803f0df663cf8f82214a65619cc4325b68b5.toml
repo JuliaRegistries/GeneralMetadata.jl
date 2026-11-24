@@ -1,0 +1,38 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "ArcadeLearningEnvironment"
+platforms = ["i686-linux-gnu-cxx03", "i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx03", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx03", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx03", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx03", "armv7l-linux-gnueabihf-cxx11", "powerpc64le-linux-gnu-cxx03", "powerpc64le-linux-gnu-cxx11", "i686-linux-musl-cxx03", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx03", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx03", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx03", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx03", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "i686-w64-mingw32-cxx03", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx03", "x86_64-w64-mingw32-cxx11"]
+script = """cd $WORKSPACE/srcdir/Arcade-Learning-Environment/\natomic_patch -p1 ../patches/fix-dlext-macos.patch\natomic_patch -p1 ../patches/cmake-install-for-windows.patch\nmkdir build && cd build\ncmake -DCMAKE_INSTALL_PREFIX=$prefix \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DUSE_SDL=OFF \\\n    -DBUILD_EXAMPLES=OFF \\\n    -DBUILD_CPP_LIB=OFF \\\n    -DBUILD_CLI=OFF \\\n    -DCMAKE_CXX_FLAGS=\"-I${includedir}\" \\\n    -DCMAKE_SHARED_LINKER_FLAGS_INIT=\"-L${libdir}\" \\\n    ..\nmake -j${nproc}\nmake install\n"""
+version = "v0.6.2"
+
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libale_c"]
+type = "lib"
+variable_name = "libale_c"
+
+[[sources]]
+hash = "5e3c3c17be85c427802e529b432b8aad2e7fa82c"
+type = "git"
+unpack_target = ""
+url = "https://github.com/mgbellemare/Arcade-Learning-Environment.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

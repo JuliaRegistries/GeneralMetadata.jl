@@ -138,6 +138,46 @@ registered = 2020-06-22T18:45:19.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenSpiel_jll.jl/releases/download/OpenSpiel-v0.3.6+0/OpenSpiel.v0.3.6.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSpiel_jll.jl/releases/download/OpenSpiel-v0.3.6+0/OpenSpiel.v0.3.6.x86_64-linux-gnu-cxx11.tar.gz"]
 registered = 2021-04-18T17:44:48.000Z
 
+    [["0.3.6+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/0063d7f62a447270bf31614d6490e4afe3743e9a/O/OpenSpiel/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/o/openspiel/build_tarballs.jl/0063d7f62a447270bf31614d6490e4afe3743e9a.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.3.1"
+
+        [["0.3.6+0".artifact_metadata.sources]]
+        hash = "3d2a7d1c2fb29e3d0df6f70c8692cb6b922a840bd58a86a3e7ef25e509cdbccb"
+        type = "archive"
+        url = "https://github.com/deepmind/open_spiel/archive/v0.3.1.tar.gz"
+
+            ["0.3.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:open-spiel"
+            provenance = "tag-scheme"
+            version = "0.3.1"
+        [["0.3.6+0".artifact_metadata.sources]]
+        hash = "fd13ee77feb5b5c3dfcc3333a0523266beb2a3d27715703cf508313af25306e5"
+        type = "archive"
+        url = "https://github.com/findmyway/dds/archive/v0.1.1.tar.gz"
+        [["0.3.6+0".artifact_metadata.sources]]
+        hash = "808350c4d7238315717749bab0067a1acd208023d41eaf0c7360f29cc8bc8f21"
+        type = "archive"
+        url = "https://github.com/abseil/abseil-cpp/archive/20200923.1.tar.gz"
+
+            ["0.3.6+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/abseil-cpp"
+            provenance = "tag-scheme"
+            version = "20200923.1"
+        [["0.3.6+0".artifact_metadata.sources]]
+        hash = "6126936fd13a95f8cadeacaa69dfb38a960eaf3bd588aacc8893a6e07e4791a3"
+        type = "archive"
+        url = "https://github.com/findmyway/hanabi-learning-environment/archive/v0.1.0.tar.gz"
+        [["0.3.6+0".artifact_metadata.sources]]
+        hash = "e29f969dd62ba354b7019cae3f7f1dbfbd9a744687ea4a8f7494c2bb1ee87382"
+        type = "archive"
+        url = "https://github.com/findmyway/project_acpc_server/archive/v0.1.0.tar.gz"
+        [["0.3.6+0".artifact_metadata.sources]]
+        package = "libjulia_jll"
+        type = "builddependency"
 
 ["1.1.1+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/OpenSpiel_jll.jl/releases/download/OpenSpiel-v1.1.1+0/OpenSpiel.v1.1.1.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/OpenSpiel_jll.jl/releases/download/OpenSpiel-v1.1.1+0/OpenSpiel.v1.1.1.x86_64-linux-gnu-cxx11.tar.gz"]

@@ -1,0 +1,104 @@
+init_block = ""
+julia_compat = "1.0"
+lazy_artifacts = false
+name = "LibArchive"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "x86_64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd $WORKSPACE/srcdir/libarchive-*/\nexport CPPFLAGS=\"-I${includedir}\"\n./configure --prefix=${prefix} \\\n    --build=${MACHTYPE} \\\n    --host=${target} \\\n    --with-expat \\\n    --with-openssl \\\n    --without-xml2 \\\n    --without-nettle \\\n    --disable-static\nmake -j${nproc}\nmake install\n"""
+version = "v3.5.1"
+
+[[dependencies]]
+compat = ""
+name = "acl_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Attr_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Bzip2_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Expat_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Libiconv_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Lz4_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "OpenSSL_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "XZ_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zstd_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libarchive"]
+type = "lib"
+variable_name = "libarchive"
+[[products]]
+binnames = ["bsdcpio"]
+type = "exe"
+variable_name = "bsdcpio"
+[[products]]
+binnames = ["bsdtar"]
+type = "exe"
+variable_name = "bsdtar"
+[[products]]
+binnames = ["bsdcat"]
+type = "exe"
+variable_name = "bsdcat"
+
+[[sources]]
+hash = "0e17d3a8d0b206018693b27f08029b598f6ef03600c2b5d10c94ce58692e299b"
+type = "archive"
+unpack_target = ""
+url = "https://www.libarchive.org/downloads/libarchive-3.5.1.tar.xz"

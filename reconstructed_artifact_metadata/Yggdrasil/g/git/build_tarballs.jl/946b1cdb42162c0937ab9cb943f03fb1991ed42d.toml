@@ -1,0 +1,78 @@
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Git"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "x86_64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """install_license ${WORKSPACE}/srcdir/git-*/COPYING\n\nif [[ \"${target}\" == *-ming* ]]; then\n    # Fast path for Windows: just copy the content of the tarball to the prefix\n    cp -r ${WORKSPACE}/srcdir/${target}/mingw${nbits}/* ${prefix}\n    exit\nfi\n\ncd $WORKSPACE/srcdir/git-*/\n\n# We need a native \"msgfmt\" to cross-compile\napk add tcl gettext\n\n# Git doesn't want to be cross-compiled, but we swear that we're not going to\n# cross-compile\nsed -i 's/cross_compiling=yes/cross_compiling=no/' configure\n\nif [[ \"${target}\" == *-apple-* ]]; then\n    LDFLAGS=\"-lgettextlib\"\nelif [[ ${target} == *-freebsd* ]]; then\n    LDFLAGS=\"-L${prefix}/lib -lcharset\"\nfi\n\n./configure --prefix=$prefix --host=$target \\\n    --with-curl \\\n    --with-expat \\\n    --with-openssl \\\n    --with-iconv=${prefix} \\\n    --with-libpcre2 \\\n    --with-zlib=${prefix} \\\n    CPPFLAGS=\"-I${prefix}/include\" \\\n    LDFLAGS=\"${LDFLAGS}\"\nmake -j${nproc}\nmake install INSTALL_SYMLINKS=\"yes, please\"\n"""
+version = "v2.31.0"
+
+[[dependencies]]
+compat = ""
+name = "LibCURL_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Expat_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "OpenSSL_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Gettext_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Libiconv_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "PCRE2_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["git"]
+type = "exe"
+variable_name = "git"
+
+[[sources]]
+hash = "e8f162cbdb3283e13cd7388d864ed23485f1b046a19e969f12ed2685fb789a40"
+type = "archive"
+unpack_target = ""
+url = "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.31.0.tar.xz"
+[[sources]]
+hash = "faff066b2bb4d7640c6a873c87208514218741c201b67b96eacf11be59d9ae1c"
+type = "archive"
+unpack_target = "i686-w64-mingw32"
+url = "https://github.com/git-for-windows/git/releases/download/v2.31.0.windows.1/Git-2.31.0-32-bit.tar.bz2"
+[[sources]]
+hash = "a5723d9307e044ab9f20f3d43fd014bc6506378da869c98370d3a98b3de7017f"
+type = "archive"
+unpack_target = "x86_64-w64-mingw32"
+url = "https://github.com/git-for-windows/git/releases/download/v2.31.0.windows.1/Git-2.31.0-64-bit.tar.bz2"

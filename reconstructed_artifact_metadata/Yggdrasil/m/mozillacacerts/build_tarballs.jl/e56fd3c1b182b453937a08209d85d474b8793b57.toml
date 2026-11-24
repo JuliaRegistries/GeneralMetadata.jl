@@ -1,0 +1,23 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "MozillaCACerts"
+script = """install -Dvm 0644 \"${WORKSPACE}/srcdir/cacert.pem\" \"${prefix}/share/cacert.pem\"\ninstall_license /usr/share/licenses/MPL2\n"""
+toplevel_block = ""
+version = "v2026.10.20"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[products]]
+paths = ["share/cacert.pem"]
+type = "file"
+variable_name = "cacert"
+
+[[sources]]
+filename = "cacert.pem"
+hash = "796f1389bfea13c0ed78f663b765baaff54a508e5483786bd6ece73c5e3e3cbe"
+type = "file"
+url = "https://curl.haxx.se/ca/cacert-2026-10-20.pem"

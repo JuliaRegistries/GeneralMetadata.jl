@@ -24,6 +24,22 @@ registered = 2020-08-17T18:20:39.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+0/Musl.v1.2.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+0/Musl.v1.2.2.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+0/Musl.v1.2.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+0/Musl.v1.2.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+0/Musl.v1.2.2.x86_64-linux-musl.tar.gz"]
 registered = 2022-02-05T20:04:06.000Z
 
+    [["1.2.2+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/e23a8ea4f57f10b4c060a0a69f638e96d27cae65/M/Musl/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/musl/build_tarballs.jl/e23a8ea4f57f10b4c060a0a69f638e96d27cae65.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.5.0"
+
+        [["1.2.2+0".artifact_metadata.sources]]
+        hash = "9b969322012d796dc23dda27a35866034fa67d8fb67e0e2c45c913c3d43219dd"
+        type = "archive"
+        url = "https://www.musl-libc.org/releases/musl-1.2.2.tar.gz"
+
+            ["1.2.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/musl"
+            provenance = "heuristic"
+            version = "1.2.2"
 
 ["1.2.2+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+1/Musl.v1.2.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+1/Musl.v1.2.2.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+1/Musl.v1.2.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+1/Musl.v1.2.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Musl_jll.jl/releases/download/Musl-v1.2.2+1/Musl.v1.2.2.x86_64-linux-musl.tar.gz"]

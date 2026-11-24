@@ -155,6 +155,28 @@ registered = 2022-09-24T23:22:32.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+0/SDL2.v2.24.2.x86_64-w64-mingw32.tar.gz"]
 registered = 2022-11-07T00:28:53.000Z
 
+    [["2.24.2+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/6534b360e9c7508ec1b09af96685c22ab26572f4/S/SDL2/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/s/sdl2/build_tarballs.jl/6534b360e9c7508ec1b09af96685c22ab26572f4.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.5.6"
+
+        [["2.24.2+0".artifact_metadata.sources]]
+        hash = "55b03c7493a7abed33cf803d1380a40fa8af903f"
+        type = "git"
+        url = "https://github.com/libsdl-org/SDL.git"
+
+            ["2.24.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/sdl2"
+            provenance = "git-tag"
+            version = "2.24.2"
+        [["2.24.2+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6534b360e9c7508ec1b09af96685c22ab26572f4/S/SDL2/bundled"
+        [["2.24.2+0".artifact_metadata.sources]]
+        package = "Xorg_xorgproto_jll"
+        type = "builddependency"
 
 ["2.24.2+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/SDL2_jll.jl/releases/download/SDL2-v2.24.2+1/SDL2.v2.24.2.x86_64-w64-mingw32.tar.gz"]
