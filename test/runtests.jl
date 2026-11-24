@@ -244,6 +244,13 @@ function GeneralMetadata.GitHub.get_readme(org, repo::JLLReleaseFixture, tree_sh
     return repo.readme
 end
 
+function GeneralMetadata.GitHub.get_commit(org, repo::JLLReleaseFixture, commit_sha)
+    @test commit_sha == "b"^40
+    isnothing(repo.readme) || error("fixture reached the verified wrapper commit lookup")
+    return Dict("author" => Dict("date" => "2021-02-18T23:00:00Z"),
+                "committer" => Dict("date" => "2021-02-19T00:00:00Z"))
+end
+
 @testset "Missing JLL releases use General's tree" begin
     tree = "a"^40
     versions = Dict(v"1.2.3+0" => (git_tree_sha1=tree,))
@@ -262,4 +269,8 @@ end
     """
     @test_throws "no pinned Yggdrasil recipe link" lookup(JLLReleaseFixture(404, tree, nothing, readme))
     @test_throws GeneralMetadata.HTTP.Exceptions.StatusError lookup(JLLReleaseFixture(403, tree, repo.jll_contents, nothing))
+
+    @test GeneralMetadata.GitHub.commit_timestamp("JuliaBinaryWrappers", repo, "b"^40) == "2021-02-19T00:00:00Z"
+    pinned_readme = replace(readme, "/blob/master/" => "/blob/$("c"^40)/")
+    @test_throws "fixture reached the verified wrapper commit lookup" lookup(JLLReleaseFixture(404, tree, nothing, pinned_readme))
 end
