@@ -1,0 +1,39 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "Datamonger"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/datamonger/crates/datamonger-ffi\n\n# Rust defaults to a static C runtime on musl, which prevents cdylib builds.\nif [[ \"${target}\" == *-musl* ]]; then\n    export RUSTFLAGS=\"${RUSTFLAGS} -C target-feature=-crt-static\"\nfi\n\ncargo build --release --locked --target=${rust_target} --target-dir target\ninstall -Dvm755 target/${rust_target}/release/*datamonger_ffi.${dlext} ${libdir}/datamonger_ffi.${dlext}\ninstall -Dvm644 include/datamonger.h ${includedir}/datamonger.h\ninstall_license ../../LICENSE\n"""
+toplevel_block = ""
+version = "v0.3.1"
+
+[build_options]
+compilers = "[:c, :rust]"
+compression_format = "\"gzip\""
+
+[[dependencies]]
+build_version = "1.0.5"
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["datamonger_ffi"]
+type = "lib"
+variable_name = "libdatamonger_ffi"
+
+[[sources]]
+hash = "8c5aa5bad6b4efae540542312ef33fd4f7e99c98"
+tag = "datamonger-ffi-v0.3.1"
+type = "git"
+unpack_target = ""
+url = "https://github.com/jolars/datamonger.git"

@@ -1,0 +1,107 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.9"
+lazy_artifacts = false
+name = "Kiwi"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "i686-w64-mingw32-cxx11", "x86_64-w64-mingw32-cxx11"]
+script = """macos_sdk_version=10.14\nmacosx_deployment_target=10.14\n# Move the SDK tarball out of `srcdir` on all platforms: any extra entry\n# in there defeats the automatic installation of license files, which\n# expects `srcdir` to contain a single top-level source directory.\nmv ${WORKSPACE}/srcdir/MacOSX${macos_sdk_version}.sdk.tar.xz ${WORKSPACE}/\nif [[ \"${target}\" == x86_64-apple-darwin* ]]; then\n    # Extract SDK. Also outside of `srcdir`, for the same reason.\n    echo \"Extracting MacOSX${macos_sdk_version}.sdk.tar.xz (this may take a while)\"\n    tar \\\n        --extract \\\n        --file=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk.tar.xz \\\n        --directory=${WORKSPACE} \\\n        --warning=no-unknown-keyword\n    old_sdkroot=${SDKROOT}\n    new_sdkroot=${WORKSPACE}/MacOSX${macos_sdk_version}.sdk\n    # Make sure libc++ header files are available at `usr/include/c++/v1`.\n    # Some SDKs ship their own (e.g. 15.0), which we leave alone; for those\n    # that don't, symlink the ones from the default SDK. Note we symlink\n    # the `v1` subdirectory rather than the whole `c++` directory: some\n    # SDKs (e.g. 10.13) contain `usr/include/c++/4.2.1` (but no `v1`), and\n    # symlinking `c++` onto that existing directory would silently create\n    # a nested `c++/c++` link, so libc++ headers like <new> are not found.\n    if [[ ! -d ${new_sdkroot}/usr/include/c++/v1 ]]; then\n        mkdir -p ${new_sdkroot}/usr/include/c++\n        ln -sT ${old_sdkroot}/usr/include/c++/v1 ${new_sdkroot}/usr/include/c++/v1\n    fi\n    # In the build environment `usr/local` of the default sys-root is a\n    # symlink to the destdir prefix, which puts the header files of the\n    # dependencies on the compilers' default search path. No SDK ships a\n    # `usr/local`, so replicate that symlink in the new SDK. `-T` makes\n    # this fail loudly should some SDK ship a `usr/local` after all,\n    # instead of silently creating a nested `usr/local/local` link.\n    ln -sT ${old_sdkroot}/usr/local ${new_sdkroot}/usr/local\n    # Fix toolchain files\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" ${MESON_TARGET_TOOLCHAIN} ${CMAKE_TARGET_TOOLCHAIN}\n    # Fix compiler wrappers\n    sed -i -e \"s+${old_sdkroot}+${new_sdkroot}+\" $(find /opt/bin/${target}* -type f -print)\n    SDKROOT=${new_sdkroot}\n    export MACOSX_DEPLOYMENT_TARGET=${macosx_deployment_target}\nfi\ncd ${WORKSPACE}/srcdir/Kiwi\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/kiwi-build-static-option.patch\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/kiwi-system-deps.patch\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/kiwi-mingw-windows-h.patch\nrm -rvf third_party/cpp-btree\ncp -rv ../cpp-btree third_party/cpp-btree\n\n# neon.cpp forces -march=armv8-a, the AArch64 baseline\nsed -i 's/-march=armv8-a//' CMakeLists.txt\n\ncmake_args=()\nif [[ \"${nbits}\" == 32 ]]; then\n    # Kiwi's SIMD kernels are for x86_64 and AArch64 only, but on 32-bit targets upstream still\n    # selects them: CMake's `^(arm|aarch64)` match and cpuinfo's CPUINFO_ARCH_ARM enable the\n    # AArch64-only NEON code on armv6l/armv7l, and the cpuinfo-based dispatch lists the sse2\n    # kernel, which is not built, on i686. Use the portable code there instead.\n    cmake_args+=(-DKIWI_CPU_ARCH=other -DKIWI_USE_CPUINFO=OFF)\nfi\njobs=${nproc}\nif [[ \"${target}\" == *-mingw32 ]]; then\n    # Equivalent of MSVC /bigobj, which upstream uses: the templated SIMD kernels exceed the\n    # default COFF section count. Their long section names also need binutils >= 2.41, which\n    # encodes string table offsets above 9999999 in base64 (\"string table overflow\" otherwise).\n    export CXXFLAGS=\"-Wa,-mbig-obj\"\nfi\nif [[ \"${target}\" == x86_64-w64-mingw32 ]]; then\n    # Compiling CoNgramModel.cpp, Knlm.cpp and SkipBigramModel.cpp here takes up to 9.5, 5.3\n    # and 3.0 GB; with ${nproc} jobs CI killed cc1plus for lack of memory.\n    jobs=1\nfi\n\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DKIWI_USE_SYSTEM_DEPS=ON \\\n    -DKIWI_BUILD_STATIC=OFF \\\n    -DKIWI_BUILD_CLI=OFF \\\n    -DKIWI_BUILD_EVALUATOR=OFF \\\n    -DKIWI_BUILD_MODEL_BUILDER=OFF \\\n    -DKIWI_BUILD_TEST=OFF \\\n    \"${cmake_args[@]}\"\ncmake --build build --parallel ${jobs}\ncmake --install build\n\ninstall_license LICENSE NOTICE\n# Compiled into libkiwi: cpp-btree from source, Eigen and nlohmann_json from their headers\ninstall -Dvm 644 ../cpp-btree/LICENSE ${prefix}/share/licenses/${SRC_NAME}/LICENSE.cpp-btree\ninstall_license ${prefix}/share/licenses/Eigen/COPYING.MPL2\ninstall_license ${prefix}/share/licenses/nlohmann_json/LICENSE.MIT\n"""
+toplevel_block = ""
+version = "v0.25.0"
+
+[[build_options]]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"11.0.0\""
+[[build_options]]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"13.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "Eigen_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 3
+version-minor = 4
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "nlohmann_json_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 3
+version-minor = 12
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.2"
+compat = "1.0.2"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.0.0"
+compat = "2.0.0"
+name = "StreamVByte_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "0.0.20260415"
+compat = "0.0.20260415"
+name = "CPUInfo_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "3.5.3"
+compat = "3.5.3"
+name = "mimalloc_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libkiwi"]
+type = "lib"
+variable_name = "libkiwi"
+
+[[sources]]
+hash = "6ffacb7c59da6fabf3cc7a6e6ee3652126fc6004"
+tag = "v0.25.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/bab2min/Kiwi.git"
+[[sources]]
+hash = "226ce3aed24702bef1b03dba4b3cb55bc0bf31dd"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/bab2min/cpp-btree.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"
+[[sources]]
+filename = "MacOSX10.14.sdk.tar.xz"
+hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
+type = "file"
+url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.14.sdk.tar.xz"

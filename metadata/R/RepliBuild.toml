@@ -158,6 +158,10 @@ registered = 2026-11-14T20:44:55.000Z
 artifact_urls = []
 registered = 2026-11-18T01:24:47.000Z
 
+["4.5.2"]
+artifact_urls = []
+registered = 2026-11-23T12:36:22.000Z
+
 ["4.6.0"]
 artifact_urls = ["https://github.com/obsidianjulua/RepliBuild.jl/releases/download/jlcs-v3.0.0/JLCS.v3.0.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/obsidianjulua/RepliBuild.jl/releases/download/jlcs-v3.0.0/JLCS.v3.0.0.x86_64-linux-gnu-cxx11.tar.gz"]
 registered = 2026-11-22T17:02:16.000Z

@@ -229,3 +229,11 @@ registered = 2026-10-02T09:40:30.000Z
 ["0.10.0"]
 artifact_urls = ["https://github.com/sglyon/PlotlyBase.jl/releases/download/plotly-base-artifacts-4.1.1/plotly-base-artifacts-4.1.1.tar.gz"]
 registered = 2026-10-02T10:19:44.000Z
+
+["0.10.1"]
+artifact_urls = ["https://github.com/sglyon/PlotlyBase.jl/releases/download/plotly-base-artifacts-4.1.1/plotly-base-artifacts-4.1.1.tar.gz"]
+registered = 2026-11-23T23:33:17.000Z
+
+["0.11.0"]
+artifact_urls = ["https://github.com/sglyon/PlotlyBase.jl/releases/download/plotly-base-artifacts-4.1.1/plotly-base-artifacts-4.1.1.tar.gz"]
+registered = 2026-11-23T21:26:44.000Z

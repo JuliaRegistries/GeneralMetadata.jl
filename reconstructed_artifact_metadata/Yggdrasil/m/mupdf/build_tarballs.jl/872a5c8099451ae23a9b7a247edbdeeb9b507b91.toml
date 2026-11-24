@@ -1,0 +1,30 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "MuPDF"
+platforms = ["i686-linux-gnu", "x86_64-linux-gnu", "aarch64-linux-gnu", "armv6l-linux-gnueabihf", "armv7l-linux-gnueabihf", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "i686-linux-musl", "x86_64-linux-musl", "aarch64-linux-musl", "armv6l-linux-musleabihf", "armv7l-linux-musleabihf", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "i686-w64-mingw32", "x86_64-w64-mingw32"]
+script = """cd ${WORKSPACE}/srcdir/mupdf-*-source\n# The C libraries Linux builds target may have no getentropy().\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/getentropy.patch\n\n# mutool alone, from the third-party libraries MuPDF bundles: it carries its own forks of some\n# (lcms2, mujs), and builds the rest with the configuration it expects. No viewers, OCR or barcodes.\nargs=(\n    build=release verbose=yes\n    CC=${CC} CXX=${CXX} AR=ar LD=ld RANLIB=ranlib\n    USE_SYSTEM_LIBS=no HAVE_GLUT=no HAVE_X11=no HAVE_LIBCRYPTO=no HAVE_CURL=no\n    tesseract=no barcode=no\n)\nif [[ \"${target}\" == *-apple-* ]]; then\n    # ld64 needs Darwin's -dead_strip in place of --gc-sections; the arguments above override\n    # the xcrun compilers Darwin's rules would otherwise call.\n    args+=(OS=Darwin)\nelif [[ \"${target}\" == *-linux-* ]]; then\n    # Linux's rules embed the fonts with `ld -r -b binary`.\n    args+=(OS=Linux)\nelse\n    # Elsewhere the fonts are embedded as C sources.\n    args+=(OS=Other HAVE_OBJCOPY=no)\nfi\nif [[ \"${target}\" == *-mingw* ]]; then\n    # MuPDF takes SSE4.1 for granted where the compiler defines MSVC's architecture macros, as\n    # MinGW's does, without the flags that enable it.\n    args+=(XCFLAGS=-DARCH_HAS_SSE=0)\nfi\n\nmake -j${nproc} \"${args[@]}\" tools\ninstall -Dvm 755 build/release/mutool \"${bindir}/mutool${exeext}\"\ninstall_license COPYING\n# The notices of the bundled libraries mutool links, and of the fonts it embeds.\nfor f in thirdparty/{brotli/LICENSE,cmark-gfm/COPYING,extract/COPYING,freetype/LICENSE.TXT,freetype/docs/FTL.TXT} \\\n         thirdparty/{gumbo-parser/COPYING,harfbuzz/COPYING,jbig2dec/LICENSE,lcms2/LICENSE,libjpeg/README} \\\n         thirdparty/{mujs/COPYING,openjpeg/LICENSE,zlib/LICENSE} \\\n         resources/fonts/{droid/NOTICE,han/LICENSE.txt,noto/COPYING,sil/OFL.txt,urw/OFL.txt}; do\n    n=\"${f#thirdparty/}\"; n=\"${n#resources/fonts/}\"\n    install -Dvm 644 \"${f}\" \"${prefix}/share/licenses/${SRC_NAME}/${n//\\//-}\"\ndone\n"""
+toplevel_block = ""
+version = "v1.28.6"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"5.0.0\""
+
+[[products]]
+binnames = ["mutool"]
+type = "exe"
+variable_name = "mutool"
+
+[[sources]]
+hash = "dc85000640a45d90ca9b77b061f6ca67cce0c4d4fbecf8819647baf573eef101"
+type = "archive"
+unpack_target = ""
+url = "https://mupdf.com/downloads/archive/mupdf-1.28.6-source.tar.gz"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

@@ -1,0 +1,33 @@
+["0.25.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-11-23T06:33:31.000Z
+
+    [["0.25.0+0".artifact_metadata]]
+    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Kiwi_jll.jl/releases/download/Kiwi-v0.25.0+0/Kiwi.v0.25.0.x86_64-w64-mingw32-cxx11.tar.gz"]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/aa5409fc3771f25a0bef193ac5bea9b594e77dda/K/Kiwi/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/k/kiwi/build_tarballs.jl/aa5409fc3771f25a0bef193ac5bea9b594e77dda.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.25.0+0".artifact_metadata.sources]]
+        hash = "6ffacb7c59da6fabf3cc7a6e6ee3652126fc6004"
+        type = "git"
+        url = "https://github.com/bab2min/Kiwi.git"
+        [["0.25.0+0".artifact_metadata.sources]]
+        hash = "226ce3aed24702bef1b03dba4b3cb55bc0bf31dd"
+        type = "git"
+        url = "https://github.com/bab2min/cpp-btree.git"
+        [["0.25.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/aa5409fc3771f25a0bef193ac5bea9b594e77dda/K/Kiwi/bundled"
+        [["0.25.0+0".artifact_metadata.sources]]
+        hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.14.sdk.tar.xz"
+        [["0.25.0+0".artifact_metadata.sources]]
+        package = "Eigen_jll"
+        type = "builddependency"
+        [["0.25.0+0".artifact_metadata.sources]]
+        package = "nlohmann_json_jll"
+        type = "builddependency"
