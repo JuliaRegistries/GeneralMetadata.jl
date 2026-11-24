@@ -43,45 +43,6 @@ registered = 2021-04-15T23:10:32.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-w64-mingw32-cxx11.tar.gz"]
 registered = 2021-05-02T23:31:45.000Z
 
-    [["6.0.3+1".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-gnueabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-musleabihf-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.powerpc64le-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-musl-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-w64-mingw32-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.0.3+1/Qt6Base.v6.0.3.x86_64-w64-mingw32-cxx11.tar.gz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/34c11e705d7a014090e99680dac4c2e136db249c/Q/Qt6Base/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/q/qt6base/build_tarballs.jl/34c11e705d7a014090e99680dac4c2e136db249c.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.3.1"
-
-        [["6.0.3+1".artifact_metadata.sources]]
-        hash = "1a45b61c2a349964625c50e3ea40cbb309e269762dd0786397e0e18e7e10d394"
-        type = "archive"
-        url = "https://download.qt.io/official_releases/qt/6.0/6.0.3/submodules/qtbase-everywhere-src-6.0.3.tar.xz"
-
-            ["6.0.3+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/qt"
-            provenance = "url-pattern"
-            version = "6.0.3"
-        [["6.0.3+1".artifact_metadata.sources]]
-        hash = "9b86eab03176c56bb526de30daa50fa819937c54b280364784ce431885341bf6"
-        type = "archive"
-        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/11.0-11.1/MacOSX11.1.sdk.tar.xz"
-        [["6.0.3+1".artifact_metadata.sources]]
-        package = "Xorg_libX11_jll"
-        type = "builddependency"
-        [["6.0.3+1".artifact_metadata.sources]]
-        package = "Xorg_xproto_jll"
-        type = "builddependency"
-        [["6.0.3+1".artifact_metadata.sources]]
-        package = "Xorg_glproto_jll"
-        type = "builddependency"
-        [["6.0.3+1".artifact_metadata.sources]]
-        package = "Xorg_kbproto_jll"
-        type = "builddependency"
-        [["6.0.3+1".artifact_metadata.sources]]
-        package = "Xorg_renderproto_jll"
-        type = "builddependency"
-        [["6.0.3+1".artifact_metadata.sources]]
-        package = "LLVM_full_jll"
-        type = "builddependency"
 
 ["6.3.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Qt6Base_jll.jl/releases/download/Qt6Base-v6.3.0+0/Qt6Base.v6.3.0.x86_64-linux-musl-cxx11.tar.gz"]

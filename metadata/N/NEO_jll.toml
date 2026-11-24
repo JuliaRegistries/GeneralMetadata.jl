@@ -720,23 +720,6 @@ registered = 2023-04-18T14:22:39.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx03-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx03-debug+true.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
 registered = 2023-04-21T07:03:05.000Z
 
-    [["22.53.25593+1".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx03-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx03-debug+true.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v22.53.25593+1/NEO.v22.53.25593.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/2b529e44fbbaee6597388b136210135ef402b090/N/NEO/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/neo/build_tarballs.jl/2b529e44fbbaee6597388b136210135ef402b090.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.5.6"
-
-        [["22.53.25593+1".artifact_metadata.sources]]
-        hash = "4adb15f14975b10138939acbe17e05f2f010fc36"
-        type = "git"
-        url = "https://github.com/intel/compute-runtime.git"
-
-            ["22.53.25593+1".artifact_metadata.sources.upstream]
-            project = "repology.org/project/intel-compute-runtime"
-            provenance = "git-tag"
-            version = "23.05.25593.11"
 
 ["23.17.26241+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v23.17.26241+0/NEO.v23.17.26241.x86_64-linux-gnu-cxx03-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v23.17.26241+0/NEO.v23.17.26241.x86_64-linux-gnu-cxx03-debug+true.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v23.17.26241+0/NEO.v23.17.26241.x86_64-linux-gnu-cxx11-debug+false.tar.gz", "https://github.com/JuliaBinaryWrappers/NEO_jll.jl/releases/download/NEO-v23.17.26241+0/NEO.v23.17.26241.x86_64-linux-gnu-cxx11-debug+true.tar.gz"]

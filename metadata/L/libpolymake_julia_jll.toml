@@ -330,27 +330,6 @@ registered = 2021-05-25T11:21:44.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.116+0/libpolymake_julia.v0.4.116.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.116+0/libpolymake_julia.v0.4.116.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.116+0/libpolymake_julia.v0.4.116.x86_64-linux-gnu-cxx11.tar.gz"]
 registered = 2021-05-25T13:18:54.000Z
 
-    [["0.4.116+0".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.116+0/libpolymake_julia.v0.4.116.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.116+0/libpolymake_julia.v0.4.116.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.116+0/libpolymake_julia.v0.4.116.x86_64-linux-gnu-cxx11.tar.gz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/d59a19f03acb57df741e04e7761751ff9dab275d/L/libpolymake_julia/libpolymake_julia@1.6/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libpolymake_julia/libpolymake_julia@1.6/build_tarballs.jl/d59a19f03acb57df741e04e7761751ff9dab275d.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.3.5"
-
-        [["0.4.116+0".artifact_metadata.sources]]
-        hash = "f7733a8eb2b2e75d63db6cb6b035b9fae24ce7f6c2992253a3df0529a914ad37"
-        type = "archive"
-        url = "https://github.com/oscar-system/libpolymake-julia/archive/v0.4.1.tar.gz"
-        [["0.4.116+0".artifact_metadata.sources]]
-        package = "libjulia_jll"
-        type = "builddependency"
-        [["0.4.116+0".artifact_metadata.sources]]
-        package = "GMP_jll"
-        type = "builddependency"
-        [["0.4.116+0".artifact_metadata.sources]]
-        package = "MPFR_jll"
-        type = "builddependency"
 
 ["0.4.117+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.117+0/libpolymake_julia.v0.4.117.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.117+0/libpolymake_julia.v0.4.117.x86_64-linux-gnu-cxx03.tar.gz", "https://github.com/JuliaBinaryWrappers/libpolymake_julia_jll.jl/releases/download/libpolymake_julia-v0.4.117+0/libpolymake_julia.v0.4.117.x86_64-linux-gnu-cxx11.tar.gz"]
