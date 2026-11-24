@@ -547,40 +547,6 @@ registered = 2024-07-18T23:19:14.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.aarch64-apple-darwin-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.aarch64-apple-darwin-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-apple-darwin-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-apple-darwin-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-linux-gnu-cxx03-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-linux-gnu-cxx11-mode+opt.tar.gz"]
 registered = 2024-07-22T11:58:42.000Z
 
-    [["0.0.12+2".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.aarch64-apple-darwin-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.aarch64-apple-darwin-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-apple-darwin-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-apple-darwin-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-linux-gnu-cxx03-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.12+2/Reactant.v0.0.12.x86_64-linux-gnu-cxx11-mode+opt.tar.gz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/e3b5baf5c84aa18ba7c5c40d0889b010d96ece15/R/Reactant/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/r/reactant/build_tarballs.jl/e3b5baf5c84aa18ba7c5c40d0889b010d96ece15.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.5.8"
-
-        [["0.0.12+2".artifact_metadata.sources]]
-        hash = "606e3495dc672de67a26fa25f975b4e3528c951e"
-        type = "git"
-        url = "https://github.com/EnzymeAD/Reactant.jl.git"
-        [["0.0.12+2".artifact_metadata.sources]]
-        hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
-        type = "archive"
-        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.14.sdk.tar.xz"
-        [["0.0.12+2".artifact_metadata.sources]]
-        hash = "2c01b2fbb06819a12a92056a7fd4edcdc385837942b5e5260b9c2c0baff5116b"
-        type = "archive"
-        url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.4/llvm-project-18.1.4.src.tar.xz"
-
-            ["0.0.12+2".artifact_metadata.sources.upstream]
-            project = "repology.org/project/llvm"
-            provenance = "tag-scheme"
-            version = "18.1.4"
-        [["0.0.12+2".artifact_metadata.sources]]
-        package = "CUDNN_jll"
-        type = "builddependency"
-        [["0.0.12+2".artifact_metadata.sources]]
-        package = "TensorRT_jll"
-        type = "builddependency"
-        [["0.0.12+2".artifact_metadata.sources]]
-        package = "CUDA_full_jll"
-        type = "builddependency"
 
 ["0.0.13+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.13+0/Reactant.v0.0.13.aarch64-apple-darwin-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.13+0/Reactant.v0.0.13.aarch64-apple-darwin-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.13+0/Reactant.v0.0.13.x86_64-apple-darwin-mode+dbg.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.13+0/Reactant.v0.0.13.x86_64-apple-darwin-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.13+0/Reactant.v0.0.13.x86_64-linux-gnu-cxx03-mode+opt.tar.gz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.13+0/Reactant.v0.0.13.x86_64-linux-gnu-cxx11-mode+opt.tar.gz"]
@@ -10044,105 +10010,11 @@ registered = 2025-11-04T07:32:47.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+7.1-gpu+rocm-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-w64-mingw32-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"]
 registered = 2025-11-09T18:22:15.000Z
 
-    [["0.0.258+0".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+7.1-gpu+rocm-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-w64-mingw32-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/5bbde76908a57fe8e4bb89dbffe2ac21c03c50b1/R/Reactant/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/r/reactant/build_tarballs.jl/5bbde76908a57fe8e4bb89dbffe2ac21c03c50b1.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.6.5"
-
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "e2f5c8c8c77f0f936d856486e4dd207161f81bf7"
-        type = "git"
-        url = "https://github.com/EnzymeAD/Reactant.jl.git"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "79ecc4b213d21ae5c389bea13c6ed23ca4804a45b7b076983356c28105580013"
-        type = "file"
-        url = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.7_6.tar.gz"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "3ec8875de9a99ffdb239b6b4cde3239f58e5fadcbc261da0173769f42420a43d"
-        type = "file"
-        url = "https://github.com/JuliaBinaryWrappers/Bazel_jll.jl/releases/download/Bazel-v7.7.0%2B0/Bazel.v7.7.0.x86_64-linux-musl-cxx11.tar.gz"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "a511c1cf1ebfe6fe3b8ec005374b9c05e89ac28b3d4eb468873f59800c02b030"
-        type = "file"
-        url = "https://github.com/realjf/MacOSX-SDKs/releases/download/v0.0.1/MacOSX12.3.sdk.tar.xz"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "0aa1fce92dbae76c059c27eefb9d0ffb58e1291151e44ff7c7f1fc2dd9376c0d"
-        type = "file"
-        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-sbsa/cuda_nvcc-linux-sbsa-12.9.86-archive.tar.xz"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
-        type = "file"
-        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "01b01e10aa2662ad1b3aeab3317151d7d6d4a650eeade55ded504f6b7fced18e"
-        type = "file"
-        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-sbsa/cuda_nvcc-linux-sbsa-13.0.88-archive.tar.xz"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "4da8dde69eca0d9bc31420349a204851bfa2a1c87aeb87fe0c05517797edaac4"
-        type = "file"
-        url = "https://repo.anaconda.com/miniconda/Miniconda3-py311_24.3.0-0-Linux-x86_64.sh"
-        [["0.0.258+0".artifact_metadata.sources]]
-        hash = "3cffe4ced6ba1defa526cb7b9d3cbad48791842d585eae48e614835355d9fd8b"
-        type = "file"
-        url = "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx120X-all-7.10.0a20251103.tar.gz"
-        [["0.0.258+0".artifact_metadata.sources]]
-        package = "LLVMLibcxx_jll"
-        type = "builddependency"
 
 ["0.0.258+1"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+7.1-gpu+rocm-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-w64-mingw32-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"]
 registered = 2025-11-09T19:40:03.000Z
 
-    [["0.0.258+1".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.aarch64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+7.1-gpu+rocm-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.258+0/Reactant.v0.0.258.x86_64-w64-mingw32-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/5bbde76908a57fe8e4bb89dbffe2ac21c03c50b1/R/Reactant/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/r/reactant/build_tarballs.jl/5bbde76908a57fe8e4bb89dbffe2ac21c03c50b1.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.6.5"
-
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "e2f5c8c8c77f0f936d856486e4dd207161f81bf7"
-        type = "git"
-        url = "https://github.com/EnzymeAD/Reactant.jl.git"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "79ecc4b213d21ae5c389bea13c6ed23ca4804a45b7b076983356c28105580013"
-        type = "file"
-        url = "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_alpine-linux_hotspot_21.0.7_6.tar.gz"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "3ec8875de9a99ffdb239b6b4cde3239f58e5fadcbc261da0173769f42420a43d"
-        type = "file"
-        url = "https://github.com/JuliaBinaryWrappers/Bazel_jll.jl/releases/download/Bazel-v7.7.0%2B0/Bazel.v7.7.0.x86_64-linux-musl-cxx11.tar.gz"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "a511c1cf1ebfe6fe3b8ec005374b9c05e89ac28b3d4eb468873f59800c02b030"
-        type = "file"
-        url = "https://github.com/realjf/MacOSX-SDKs/releases/download/v0.0.1/MacOSX12.3.sdk.tar.xz"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "0aa1fce92dbae76c059c27eefb9d0ffb58e1291151e44ff7c7f1fc2dd9376c0d"
-        type = "file"
-        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-sbsa/cuda_nvcc-linux-sbsa-12.9.86-archive.tar.xz"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "17ef1665b63670887eeba7d908da5669fa8c66bb73b5b4c1367f49929c086353"
-        type = "file"
-        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvvm/linux-x86_64/libnvvm-linux-x86_64-13.0.88-archive.tar.xz"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "01b01e10aa2662ad1b3aeab3317151d7d6d4a650eeade55ded504f6b7fced18e"
-        type = "file"
-        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-sbsa/cuda_nvcc-linux-sbsa-13.0.88-archive.tar.xz"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "4da8dde69eca0d9bc31420349a204851bfa2a1c87aeb87fe0c05517797edaac4"
-        type = "file"
-        url = "https://repo.anaconda.com/miniconda/Miniconda3-py311_24.3.0-0-Linux-x86_64.sh"
-        [["0.0.258+1".artifact_metadata.sources]]
-        hash = "3cffe4ced6ba1defa526cb7b9d3cbad48791842d585eae48e614835355d9fd8b"
-        type = "file"
-        url = "https://therock-nightly-tarball.s3.amazonaws.com/therock-dist-linux-gfx120X-all-7.10.0a20251103.tar.gz"
-        [["0.0.258+1".artifact_metadata.sources]]
-        package = "LLVMLibcxx_jll"
-        type = "builddependency"
 
 ["0.0.259+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.aarch64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.aarch64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.aarch64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.x86_64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.x86_64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.x86_64-linux-gnu-cxx11-gpu_version+7.1-gpu+rocm-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz", "https://github.com/JuliaBinaryWrappers/Reactant_jll.jl/releases/download/Reactant-v0.0.259+0/Reactant.v0.0.259.x86_64-w64-mingw32-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"]

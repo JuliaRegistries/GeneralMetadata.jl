@@ -68,23 +68,6 @@ registered = 2021-01-26T22:19:36.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-w64-mingw32.tar.gz"]
 registered = 2021-01-26T23:03:17.000Z
 
-    [["400.702.400+0".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-w64-mingw32.tar.gz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/4c65079b3ce6250aca9de3fc584c874dee424f6f/N/NetCDF/NetCDF@julia-1.6/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/n/netcdf/netcdf@julia-1.6/build_tarballs.jl/4c65079b3ce6250aca9de3fc584c874dee424f6f.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.3.0"
-
-        [["400.702.400+0".artifact_metadata.sources]]
-        hash = "170c9c9020f8909811b06e1034d5ea9288b3d5bd90793e3dd27490191faa7566"
-        type = "archive"
-        url = "https://github.com/Unidata/netcdf-c/archive/v4.7.4.zip"
-
-            ["400.702.400+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/netcdf"
-            provenance = "tag-scheme"
-            version = "4.7.4"
 
 ["400.702.402+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.402+0/NetCDF.v400.702.402.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.402+0/NetCDF.v400.702.402.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.402+0/NetCDF.v400.702.402.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.402+0/NetCDF.v400.702.402.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.402+0/NetCDF.v400.702.402.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.402+0/NetCDF.v400.702.402.x86_64-w64-mingw32.tar.gz"]

@@ -173,58 +173,6 @@ registered = 2020-06-14T15:33:09.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.11.4+0/pandoc.v2.11.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.11.4+0/pandoc.v2.11.4.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.11.4+0/pandoc.v2.11.4.x86_64-w64-mingw32.tar.gz"]
 registered = 2021-03-16T16:31:07.000Z
 
-    [["2.11.4+0".artifact_metadata]]
-    artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.11.4+0/pandoc.v2.11.4.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.11.4+0/pandoc.v2.11.4.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.11.4+0/pandoc.v2.11.4.x86_64-w64-mingw32.tar.gz"]
-    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/fa87e7b548cddc79ff86104b70b8f1f615f7c91c/P/pandoc/build_tarballs.jl"
-    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pandoc/build_tarballs.jl/fa87e7b548cddc79ff86104b70b8f1f615f7c91c.toml"
-    metadata_source = "retrospective (by README link)"
-    metadata_type = "BinaryBuilder --meta-json"
-    metadata_version = "0.2.4"
-
-        [["2.11.4+0".artifact_metadata.sources]]
-        hash = "5b61a981bd2b7d48c1b4ba5788f1386631f97e2b46d0d1f1a08787091b4b0cf8"
-        type = "archive"
-        url = "https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-linux-amd64.tar.gz"
-
-            ["2.11.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pandoc"
-            provenance = "tag-scheme"
-            version = "2.9.2.1"
-        [["2.11.4+0".artifact_metadata.sources]]
-        hash = "c4847f7a6e6a02a7d1b8dc17505896d8a6e4c2ee9e8b325e47a0468036675307"
-        type = "archive"
-        url = "https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-macOS.zip"
-
-            ["2.11.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pandoc"
-            provenance = "tag-scheme"
-            version = "2.9.2.1"
-        [["2.11.4+0".artifact_metadata.sources]]
-        hash = "db5a8533b7e2ef38114e9788e56530bb6be330c326731692f236218682017d4d"
-        type = "archive"
-        url = "https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-windows-i386.zip"
-
-            ["2.11.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pandoc"
-            provenance = "tag-scheme"
-            version = "2.9.2.1"
-        [["2.11.4+0".artifact_metadata.sources]]
-        hash = "223f7ef1dd926394ee57b6b5893484e51100be8527bd96eec26e284774863084"
-        type = "archive"
-        url = "https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-windows-x86_64.zip"
-
-            ["2.11.4+0".artifact_metadata.sources.upstream]
-            project = "repology.org/project/pandoc"
-            provenance = "tag-scheme"
-            version = "2.9.2.1"
-        [["2.11.4+0".artifact_metadata.sources]]
-        hash = "2b0d4dda4bf8034e1506507a67f80f982131137afe62bf144d248f9faea31da4"
-        type = "file"
-        url = "https://raw.githubusercontent.com/jgm/pandoc/16889a01b95a1b897abdfa2da191c1338f0333b2/COPYING.md"
-        [["2.11.4+0".artifact_metadata.sources]]
-        hash = "39be98cc4d2906dd44abf8573ab91557e0b6d51f503d3a889dab0e8bcca1c43f"
-        type = "file"
-        url = "https://raw.githubusercontent.com/jgm/pandoc/16889a01b95a1b897abdfa2da191c1338f0333b2/COPYRIGHT"
 
 ["2.14.0+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.14.0+0/pandoc.v2.14.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.14.0+0/pandoc.v2.14.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.14.0+0/pandoc.v2.14.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/pandoc_jll.jl/releases/download/pandoc-v2.14.0+0/pandoc.v2.14.0.x86_64-w64-mingw32.tar.gz"]
