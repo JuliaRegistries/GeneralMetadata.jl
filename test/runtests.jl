@@ -216,3 +216,47 @@ end
     GeneralMetadata.append_artifact_metadata!(verinfo, second_full, urls)
     @test second_full["artifact_urls"] == urls
 end
+
+struct JLLReleaseFixture
+    status::Int
+    jll_contents::Union{String,Nothing}
+    readme::Union{String,Nothing}
+end
+const FIXTURE_TREE = "a"^40
+const FIXTURE_COMMIT = "b"^40
+
+GeneralMetadata.GitHub.get_release(org, repo::JLLReleaseFixture, tag) =
+    throw(GeneralMetadata.HTTP.Exceptions.StatusError(repo.status, "GET", "/releases/tags/$tag", nothing))
+function GeneralMetadata.GitHub.registered_jll_commit(org, repo::JLLReleaseFixture, tag, tree_sha)
+    @test tree_sha == FIXTURE_TREE
+    return FIXTURE_COMMIT, false
+end
+function GeneralMetadata.GitHub.get_file(org, repo::JLLReleaseFixture, tree_sha, path_filter)
+    @test tree_sha == FIXTURE_TREE
+    return path_filter("JLL.toml") ? repo.jll_contents : repo.readme
+end
+# Reaching this means the README passed validation; stop before cloning Yggdrasil
+GeneralMetadata.GitHub.commit_timestamp(org, repo::JLLReleaseFixture, commit) = error("reached wrapper commit timestamp")
+
+@testset "Missing JLL releases use General's tree" begin
+    versions = Dict(v"1.2.3+0" => (git_tree_sha1=FIXTURE_TREE,))
+    lookup(args...) = GeneralMetadata.metadata_for_jll_release("JuliaBinaryWrappers", JLLReleaseFixture(args...), "Example-v1.2.3+0", versions)
+
+    # BB2: JLL.toml in the registered tree
+    meta = lookup(404, "format_version = \"1.0\"", nothing)
+    @test endswith(meta["metadata"], "/$FIXTURE_COMMIT/JLL.toml")
+    @test meta["metadata_type"] == "JLLGenerator JLL.toml"
+    @test meta["metadata_version"] == "1.0"
+
+    # BB1: requires a README link pinned to a Yggdrasil commit
+    readme(ref) = """
+    # `Example_jll.jl` (v1.2.3+0)
+    originating [`build_tarballs.jl`](https://github.com/JuliaPackaging/Yggdrasil/blob/$ref/E/Example/build_tarballs.jl)
+    """
+    @test_throws "no pinned Yggdrasil recipe link" lookup(404, nothing, nothing)
+    @test_throws "no pinned Yggdrasil recipe link" lookup(404, nothing, readme("master"))
+    @test_throws "reached wrapper commit timestamp" lookup(404, nothing, readme("c"^40))
+
+    # Only 404s fall back
+    @test_throws GeneralMetadata.HTTP.Exceptions.StatusError lookup(403, "format_version = \"1.0\"", nothing)
+end

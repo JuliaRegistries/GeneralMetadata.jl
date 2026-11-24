@@ -513,9 +513,16 @@ end
 function metadata_for_jll_release(org, repo, tag, registered_versions; registered = nothing)
     contains(tag, "-v") || error("unknown tag $tag for $org/$repo")
     jllname, jllversion = split(tag, "-v", limit=2)
-    release = GitHub.get_release(org, repo, tag)
+    release = try
+        GitHub.get_release(org, repo, tag)
+    catch ex
+        # Some registered versions have no GitHub release; fall back to the tree registered in General
+        ex isa HTTP.Exceptions.StatusError && ex.status == 404 || rethrow()
+        nothing
+    end
     # Currently constrain to releases authored by jlbuild
-    release["author"]["login"] == "jlbuild" || error("release $(release["html_url"]) is not by jlbuild, got $(release["author"]["login"])")
+    isnothing(release) || release["author"]["login"] == "jlbuild" ||
+        error("release $(release["html_url"]) is not by jlbuild, got $(release["author"]["login"])")
     # A registered version can reuse artifacts from an older release.
     reginfo = get(registered_versions, VersionNumber(jllversion), nothing)
     isnothing(reginfo) && error("release $tag for $org/$repo is not registered in General")
@@ -528,9 +535,16 @@ function metadata_for_jll_release(org, repo, tag, registered_versions; registere
                     "metadata_version" => TOML.parse(jll_contents)["format_version"])
     end
     commit_from_readme, path_from_readme = commit_and_path_from_readme(GitHub.get_readme(org, repo, tree_sha), jllname, jllversion)
-    !tag_matches && isnothing(commit_from_readme) &&
-        error("no Yggdrasil recipe link in the General-registered README at $org/$repo@$wrapper_commit for $tag")
-    release_published_at = release.published_at
+    if isnothing(release)
+        # Without a release date to search Yggdrasil by, require a recipe pinned to a commit
+        GitHub.is_sha(something(commit_from_readme, "")) ||
+            error("no pinned Yggdrasil recipe link in the General-registered README at $org/$repo@$wrapper_commit for $tag")
+        release_published_at = GitHub.commit_timestamp(org, repo, wrapper_commit)
+    else
+        !tag_matches && isnothing(commit_from_readme) &&
+            error("no Yggdrasil recipe link in the General-registered README at $org/$repo@$wrapper_commit for $tag")
+        release_published_at = release.published_at
+    end
     return cd(yggdrasil_repo()) do
         if !isnothing(commit_from_readme)
             commit = commit_from_readme
@@ -539,6 +553,9 @@ function metadata_for_jll_release(org, repo, tag, registered_versions; registere
             commit = strip(read(`git rev-list --first-parent -n 1 --before=$(release_published_at) master`, String))
             method = "timestamp"
         end
+        # Without a jlbuild release vouching for this build, only run recipes from Yggdrasil's own history
+        !isnothing(release) || success(`git merge-base --is-ancestor $commit origin/master`) ||
+            error("pinned recipe commit $commit is not in Yggdrasil's master history")
         try
             run(pipeline(`git checkout $commit`, stdout=Base.devnull, stderr=Base.devnull))
         catch _

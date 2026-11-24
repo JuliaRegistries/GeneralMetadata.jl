@@ -58,14 +58,16 @@ function commit_from_tagname(owner, repo, tag_name)
     return tagsinfo["object"]["sha"]
 end
 
-function tree_sha_from_commit(owner, repo, commit_sha)
+function get_commit(owner, repo, commit_sha)
     response = HTTP.get(string(API_BASE, "/repos/", owner, "/", repo, "/git/commits/", commit_sha), build_headers())
     if response.status != 200
         error("Failed to fetch commit info for $commit_sha: HTTP $(response.status)")
     end
-    commitinfo = JSON.parse(response.body)
-    return commitinfo["tree"]["sha"]
+    return JSON.parse(response.body)
 end
+
+tree_sha_from_commit(owner, repo, commit_sha) = get_commit(owner, repo, commit_sha)["tree"]["sha"]
+commit_timestamp(owner, repo, commit_sha) = get_commit(owner, repo, commit_sha)["committer"]["date"]
 
 function find_commit_for_tree(repo_url, tree_sha)
     mktempdir() do dir
