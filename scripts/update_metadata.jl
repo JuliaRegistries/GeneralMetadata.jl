@@ -1,7 +1,7 @@
 using GeneralMetadata
 
 function main()
-    meta = GeneralMetadata.metadata()
+    meta = GeneralMetadata.metadata(; expand_artifact_urls=false)
     GeneralMetadata.update_registration_dates!(meta)
     GeneralMetadata.update_artifact_urls!(meta)
     GeneralMetadata.update_jll_metadata!(meta)

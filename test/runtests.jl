@@ -45,7 +45,7 @@ using Dates: Dates, DateTime
 end
 
 @testset "package TOML schema" begin
-    meta = GeneralMetadata.metadata()
+    meta = GeneralMetadata.metadata(; expand_artifact_urls=false)
     for (pkg, pkginfo) in meta
         @test !isempty(pkginfo)
         for (ver, verinfo) in pkginfo
@@ -61,14 +61,17 @@ end
                 @test verinfo["artifact_urls"] isa Vector
                 @test all(x->isa(x, String), verinfo["artifact_urls"])
             end
-            # The metadata is either a key to describe all URLs or a mapping for each artifact_url
             if haskey(verinfo, "artifact_metadata")
                 @test verinfo["artifact_metadata"] isa Vector
                 for ainfo in verinfo["artifact_metadata"]
                     @test ainfo isa Dict
-                    @test haskey(ainfo, "artifact_urls") && ainfo["artifact_urls"] isa Vector
-                    @test all(x->isa(x, String), ainfo["artifact_urls"])
-                    @test all(in(verinfo["artifact_urls"]), ainfo["artifact_urls"])
+                    if haskey(ainfo, "artifact_urls")
+                        @test ainfo["artifact_urls"] isa Vector
+                        @test all(x->isa(x, String), ainfo["artifact_urls"])
+                        @test all(in(get(verinfo, "artifact_urls", String[])), ainfo["artifact_urls"])
+                    else
+                        @test length(verinfo["artifact_metadata"]) == 1
+                    end
 
                     if get(ainfo, "metadata_type", "") != "JLLGenerator JLL.toml"
                         @test haskey(ainfo, "buildscript")
@@ -165,10 +168,51 @@ end
         source["upstream"] = Dict("project" => "repology.org/project/example")
         delete!(source, "upstream")
     end
+    verinfo = Dict("artifact_urls" => copy(artifactmeta["artifact_urls"]))
+    delete!(artifactmeta, "artifact_urls")
+    @test GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta, verinfo) == sources
     artifactmeta["artifact_urls"] = ["https://example.org/one.tar.gz"]
+    @test GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta, verinfo) == sources[1:3]
     @test GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta) == sources[1:3]
     artifactmeta["artifact_urls"] = String[]
+    @test isempty(GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta, verinfo))
     @test isempty(GeneralMetadata.parse_artifact_metadata_sources(contents, artifactmeta))
     @test isempty(GeneralMetadata.parse_artifact_metadata_sources("", artifactmeta))
     @test_throws GeneralMetadata.TOML.ParserError GeneralMetadata.parse_artifact_metadata_sources("[", artifactmeta)
+end
+
+@testset "Expand artifact metadata URLs" begin
+    urls = ["https://example.org/one.tar.gz", "https://example.org/two.tar.gz"]
+    inherited = Dict{String,Any}()
+    subset = Dict("artifact_urls" => urls[1:1])
+    empty = Dict("artifact_urls" => String[])
+    unknown = Dict{String,Any}()
+    pkgmeta = Dict(
+        "1.0.0" => Dict("artifact_urls" => urls, "artifact_metadata" => [inherited]),
+        "2.0.0" => Dict("artifact_metadata" => [unknown]),
+        "3.0.0" => Dict("artifact_urls" => urls, "artifact_metadata" => [subset, empty]),
+    )
+    GeneralMetadata.expand_artifact_urls!(pkgmeta)
+    @test inherited["artifact_urls"] == urls
+    @test inherited["artifact_urls"] !== urls
+    @test subset["artifact_urls"] == urls[1:1]
+    @test isempty(empty["artifact_urls"])
+    @test !haskey(unknown, "artifact_urls")
+    push!(pkgmeta["1.0.0"]["artifact_metadata"], Dict{String,Any}())
+    @test_throws ArgumentError GeneralMetadata.expand_artifact_urls!(pkgmeta)
+end
+
+@testset "Append artifact metadata URLs" begin
+    urls = ["https://example.org/one.tar.gz", "https://example.org/two.tar.gz"]
+    verinfo = Dict{String,Any}("artifact_urls" => urls)
+    full = Dict{String,Any}()
+    subset = Dict{String,Any}()
+    GeneralMetadata.append_artifact_metadata!(verinfo, full, urls)
+    @test !haskey(full, "artifact_urls")
+    GeneralMetadata.append_artifact_metadata!(verinfo, subset, urls[1:1])
+    @test full["artifact_urls"] == urls
+    @test subset["artifact_urls"] == urls[1:1]
+    second_full = Dict{String,Any}()
+    GeneralMetadata.append_artifact_metadata!(verinfo, second_full, urls)
+    @test second_full["artifact_urls"] == urls
 end
