@@ -502,14 +502,15 @@ function add_jll_artifact_metadata!(meta_version_entry, registered_versions)
     end
     for ((org, repo, tag), release_urls) in releases
         org == "JuliaBinaryWrappers" || continue
-        jllmeta = metadata_for_jll_release(org, repo, tag, registered_versions)
+        jllmeta = metadata_for_jll_release(org, repo, tag, registered_versions; registered = get(meta_version_entry, "registered", nothing))
+        isnothing(jllmeta) && continue
         separate_reconstructed_artifact_metadata!(jllmeta)
         append_artifact_metadata!(meta_version_entry, jllmeta, release_urls)
     end
     return meta_version_entry
 end
 
-function metadata_for_jll_release(org, repo, tag, registered_versions)
+function metadata_for_jll_release(org, repo, tag, registered_versions; registered = nothing)
     contains(tag, "-v") || error("unknown tag $tag for $org/$repo")
     jllname, jllversion = split(tag, "-v", limit=2)
     release = GitHub.get_release(org, repo, tag)
@@ -592,6 +593,10 @@ function metadata_for_jll_release(org, repo, tag, registered_versions)
                     if julia_match[1] == "1.6.0-rc1"
                         "1.6.0"
                     elseif julia_match[1] == "latest"
+                        # These recipes still need a historical nightly; Julia 1.5 and 1.6-beta1 don't work here.
+                        if !isnothing(registered) && DateTime(2020, 9, 9) < registered < DateTime(2020, 10, 19)
+                            return nothing
+                        end
                         # ugh. https://github.com/JuliaPackaging/Yggdrasil/blob/e0c5ee45cb0b6aea8006ad25f388ad116da22a01/.ci/azp_agent/install_agents.sh#L54-L57
                         # We have to guess based on the behaviors here; we don't have easy access to every nightly. Fortunately this only
                         # happened during the 1.6-DEV period, but there are periods where neither release 1.6 nor 1.5 work
@@ -671,11 +676,6 @@ function update_jll_metadata!(meta; force = false, timelimit=Dates.Minute(90), r
             continue
         end
         if haskey(entry, "artifact_metadata") && !force
-            continue
-        end
-        if DateTime(2020, 9, 9) < entry["registered"] < DateTime(2020, 10, 19)
-            # Skip versions registered during the dark ages when Yggdrasil was pulling some -latest that doesn't work with v1.5 or v1.6-beta1
-            # TODO: find a good version here!
             continue
         end
         (Dates.now() - start_time) > timelimit && ( @info "timelimit of $timelimit reached, stopping here"; break)
