@@ -216,3 +216,50 @@ end
     GeneralMetadata.append_artifact_metadata!(verinfo, second_full, urls)
     @test second_full["artifact_urls"] == urls
 end
+
+struct JLLReleaseFixture
+    status::Int
+    tree::String
+    jll_contents::Union{String,Nothing}
+    readme::Union{String,Nothing}
+end
+
+function GeneralMetadata.GitHub.get_release(org, repo::JLLReleaseFixture, tag)
+    throw(GeneralMetadata.HTTP.Exceptions.StatusError(repo.status, "GET", "/releases/tags/$tag", nothing))
+end
+
+function GeneralMetadata.GitHub.registered_jll_commit(org, repo::JLLReleaseFixture, tag, tree_sha)
+    @test tree_sha == repo.tree
+    return "b"^40, false
+end
+
+function GeneralMetadata.GitHub.get_file(org, repo::JLLReleaseFixture, tree_sha, path_filter)
+    @test tree_sha == repo.tree
+    @test path_filter("JLL.toml")
+    return repo.jll_contents
+end
+
+function GeneralMetadata.GitHub.get_readme(org, repo::JLLReleaseFixture, tree_sha)
+    @test tree_sha == repo.tree
+    return repo.readme
+end
+
+@testset "Missing JLL releases use General's tree" begin
+    tree = "a"^40
+    versions = Dict(v"1.2.3+0" => (git_tree_sha1=tree,))
+    lookup(repo) = GeneralMetadata.metadata_for_jll_release("JuliaBinaryWrappers", repo, "Example-v1.2.3+0", versions)
+
+    repo = JLLReleaseFixture(404, tree, "format_version = \"1.0\"", nothing)
+    meta = lookup(repo)
+    @test meta["metadata"] == "https://raw.githubusercontent.com/JuliaBinaryWrappers/$repo/$("b"^40)/JLL.toml"
+    @test meta["metadata_type"] == "JLLGenerator JLL.toml"
+    @test meta["metadata_version"] == "1.0"
+
+    @test_throws "no pinned Yggdrasil recipe link" lookup(JLLReleaseFixture(404, tree, nothing, nothing))
+    readme = """
+    # `Example_jll.jl` (v1.2.3+0)
+    originating [`build_tarballs.jl`](https://github.com/JuliaPackaging/Yggdrasil/blob/master/E/Example/build_tarballs.jl)
+    """
+    @test_throws "no pinned Yggdrasil recipe link" lookup(JLLReleaseFixture(404, tree, nothing, readme))
+    @test_throws GeneralMetadata.HTTP.Exceptions.StatusError lookup(JLLReleaseFixture(403, tree, repo.jll_contents, nothing))
+end

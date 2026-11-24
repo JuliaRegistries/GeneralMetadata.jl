@@ -512,24 +512,43 @@ end
 function metadata_for_jll_release(org, repo, tag, registered_versions)
     contains(tag, "-v") || error("unknown tag $tag for $org/$repo")
     jllname, jllversion = split(tag, "-v", limit=2)
-    release = GitHub.get_release(org, repo, tag)
+    release = try
+        GitHub.get_release(org, repo, tag)
+    catch ex
+        ex isa HTTP.Exceptions.StatusError && ex.status == 404 || rethrow()
+        nothing
+    end
     # Currently constrain to releases authored by jlbuild
-    release["author"]["login"] == "jlbuild" || error("release $(release["html_url"]) is not by jlbuild, got $(release["author"]["login"])")
+    if !isnothing(release)
+        release["author"]["login"] == "jlbuild" || error("release $(release["html_url"]) is not by jlbuild, got $(release["author"]["login"])")
+    end
     # A registered version can reuse artifacts from an older release.
     reginfo = get(registered_versions, VersionNumber(jllversion), nothing)
     isnothing(reginfo) && error("release $tag for $org/$repo is not registered in General")
     tree_sha = string(reginfo.git_tree_sha1)
-    wrapper_commit, tag_matches = GitHub.registered_jll_commit(org, repo, tag, tree_sha)
+    wrapper_commit, tag_matches = if isnothing(release)
+        nothing, false
+    else
+        GitHub.registered_jll_commit(org, repo, tag, tree_sha)
+    end
     jll_contents = GitHub.get_file(org, repo, tree_sha, ==("JLL.toml"))
     if !isnothing(jll_contents)
+        if isnothing(wrapper_commit)
+            wrapper_commit, _ = GitHub.registered_jll_commit(org, repo, tag, tree_sha)
+        end
         return Dict{String,Any}("metadata" => "https://raw.githubusercontent.com/$org/$repo/$wrapper_commit/JLL.toml",
                     "metadata_type" => "JLLGenerator JLL.toml", "metadata_source" => "JLL.toml",
                     "metadata_version" => TOML.parse(jll_contents)["format_version"])
     end
     commit_from_readme, path_from_readme = commit_and_path_from_readme(GitHub.get_readme(org, repo, tree_sha), jllname, jllversion)
-    !tag_matches && isnothing(commit_from_readme) &&
+    if isnothing(release)
+        if isnothing(commit_from_readme) || !occursin(r"^[a-f0-9]{40}$", commit_from_readme)
+            error("no pinned Yggdrasil recipe link in the General-registered README at $org/$repo@$tree_sha for $tag")
+        end
+    elseif !tag_matches && isnothing(commit_from_readme)
         error("no Yggdrasil recipe link in the General-registered README at $org/$repo@$wrapper_commit for $tag")
-    release_published_at = release.published_at
+    end
+    release_published_at = isnothing(release) ? nothing : release.published_at
     return cd(yggdrasil_repo()) do
         if !isnothing(commit_from_readme)
             commit = commit_from_readme
@@ -537,6 +556,12 @@ function metadata_for_jll_release(org, repo, tag, registered_versions)
         else
             commit = strip(read(`git rev-list --first-parent -n 1 --before=$(release_published_at) master`, String))
             method = "timestamp"
+        end
+        if isnothing(release)
+            success(`git merge-base --is-ancestor $commit origin/master`) ||
+                error("pinned recipe commit $commit is not in Yggdrasil's master history")
+            mode = readchomp(`git --literal-pathspecs ls-tree '--format=%(objectmode)' $commit -- $path_from_readme`)
+            mode in ("100644", "100755") || error("pinned recipe $path_from_readme is not a regular file at Yggdrasil commit $commit")
         end
         try
             run(pipeline(`git checkout $commit`, stdout=Base.devnull, stderr=Base.devnull))
@@ -546,7 +571,7 @@ function metadata_for_jll_release(org, repo, tag, registered_versions)
             run(pipeline(`git checkout $commit`, stdout=Base.devnull, stderr=Base.devnull))
         end
         buildscript = @something path_from_readme joinpath(uppercase(jllname[1:1]), jllname, "build_tarballs.jl")
-        if !isfile(buildscript)
+        if !isnothing(release) && !isfile(buildscript)
             # First look for a potentially-deeper nested path, without worrying about case, then consider version numbers
             for searchpath in ("./$(jllname[1])/$jllname/build_tarballs.jl",
                                 "*/$jllname/build_tarballs.jl",
@@ -595,7 +620,12 @@ function metadata_for_jll_release(org, repo, tag, registered_versions)
                         # ugh. https://github.com/JuliaPackaging/Yggdrasil/blob/e0c5ee45cb0b6aea8006ad25f388ad116da22a01/.ci/azp_agent/install_agents.sh#L54-L57
                         # We have to guess based on the behaviors here; we don't have easy access to every nightly. Fortunately this only
                         # happened during the 1.6-DEV period, but there are periods where neither release 1.6 nor 1.5 work
-                        if DateTime(chopsuffix(release_published_at, "Z")) > DateTime(2021, 2, 18, 23, 18, 14)
+                        build_date = if isnothing(release_published_at)
+                            Dates.unix2datetime(parse(Int, readchomp(`git show -s --format=%ct $commit`)))
+                        else
+                            DateTime(chopsuffix(release_published_at, "Z"))
+                        end
+                        if build_date > DateTime(2021, 2, 18, 23, 18, 14)
                             # 1.6.0 begins working after https://github.com/JuliaPackaging/Yggdrasil/pull/2593 (ARGS not defined error)
                             "1.6.0"
                         else
