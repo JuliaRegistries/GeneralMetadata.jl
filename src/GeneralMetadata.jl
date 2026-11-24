@@ -492,7 +492,7 @@ function append_artifact_metadata!(verinfo, artifactmeta, release_urls)
     push!(entries, artifactmeta)
 end
 
-function add_jll_artifact_metadata!(meta_version_entry)
+function add_jll_artifact_metadata!(meta_version_entry, registered_versions)
     urls = meta_version_entry["artifact_urls"]
     releases = Dict{Tuple{String,String,String}, Vector{String}}()
     for url in urls
@@ -502,31 +502,33 @@ function add_jll_artifact_metadata!(meta_version_entry)
     end
     for ((org, repo, tag), release_urls) in releases
         org == "JuliaBinaryWrappers" || continue
-        jllmeta = metadata_for_jll_release(org, repo, tag)
+        jllmeta = metadata_for_jll_release(org, repo, tag, registered_versions)
         separate_reconstructed_artifact_metadata!(jllmeta)
         append_artifact_metadata!(meta_version_entry, jllmeta, release_urls)
     end
     return meta_version_entry
 end
 
-function metadata_for_jll_release(org, repo, tag)
+function metadata_for_jll_release(org, repo, tag, registered_versions)
     contains(tag, "-v") || error("unknown tag $tag for $org/$repo")
     jllname, jllversion = split(tag, "-v", limit=2)
     release = GitHub.get_release(org, repo, tag)
     # Currently constrain to releases authored by jlbuild
     release["author"]["login"] == "jlbuild" || error("release $(release["html_url"]) is not by jlbuild, got $(release["author"]["login"])")
-    # This might be wrong, but commit_and_path_from_readme checks to ensure versions match
-    # In cases where it's wrong, _there does exist_ a good link to Yggdrasil in its README... somewhere.
-    # But I don't know how to reliably get to it... so we fall back to the Yggdrasil timestamps
-    tree_sha = GitHub.tree_sha_from_tagname(org, repo, release["tag_name"])
+    # A registered version can reuse artifacts from an older release.
+    reginfo = get(registered_versions, VersionNumber(jllversion), nothing)
+    isnothing(reginfo) && error("release $tag for $org/$repo is not registered in General")
+    tree_sha = string(reginfo.git_tree_sha1)
+    wrapper_commit, tag_matches = GitHub.registered_jll_commit(org, repo, tag, tree_sha)
     jll_contents = GitHub.get_file(org, repo, tree_sha, ==("JLL.toml"))
     if !isnothing(jll_contents)
-        commit = GitHub.commit_from_tagname(org, repo, release["tag_name"])
-        return Dict{String,Any}("metadata" => "https://raw.githubusercontent.com/$org/$repo/$commit/JLL.toml",
+        return Dict{String,Any}("metadata" => "https://raw.githubusercontent.com/$org/$repo/$wrapper_commit/JLL.toml",
                     "metadata_type" => "JLLGenerator JLL.toml", "metadata_source" => "JLL.toml",
                     "metadata_version" => TOML.parse(jll_contents)["format_version"])
     end
     commit_from_readme, path_from_readme = commit_and_path_from_readme(GitHub.get_readme(org, repo, tree_sha), jllname, jllversion)
+    !tag_matches && isnothing(commit_from_readme) &&
+        error("no Yggdrasil recipe link in the General-registered README at $org/$repo@$wrapper_commit for $tag")
     release_published_at = release.published_at
     return cd(yggdrasil_repo()) do
         if !isnothing(commit_from_readme)
@@ -654,17 +656,17 @@ function metadata_for_jll_release(org, repo, tag)
     end
 end
 
-function update_jll_metadata!(meta; force = false, timelimit=Dates.Minute(90))
+function update_jll_metadata!(meta; force = false, timelimit=Dates.Minute(90), registry=general_registry())
     start_time = Dates.now()
     entries = []
     for (pkg, pkgentry) in meta
         for (ver, verinfo) in pkgentry
-            haskey(verinfo, "artifact_urls") && push!(entries, verinfo)
+            haskey(verinfo, "artifact_urls") && push!(entries, (pkg, verinfo))
         end
     end
-    sort!(entries, by=x->x["registered"], rev=true)
+    sort!(entries, by=x->x[2]["registered"], rev=true)
     failures = 0
-    for entry in entries
+    for (pkg, entry) in entries
         if !haskey(entry, "artifact_urls") || isempty(entry["artifact_urls"])
             continue
         end
@@ -678,7 +680,8 @@ function update_jll_metadata!(meta; force = false, timelimit=Dates.Minute(90))
         end
         (Dates.now() - start_time) > timelimit && ( @info "timelimit of $timelimit reached, stopping here"; break)
         try
-            add_jll_artifact_metadata!(entry)
+            uuid = only(Pkg.Registry.uuids_from_name(registry, pkg))
+            add_jll_artifact_metadata!(entry, registered_package_versions(uuid; registry))
         catch ex
             @error "error getting metadata for $(entry["artifact_urls"][1:begin])..." ex
             failures += 1
