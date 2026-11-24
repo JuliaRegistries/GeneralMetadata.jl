@@ -101,3 +101,26 @@ registered = 2026-11-24T15:49:24.000Z
         [["0.16.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2ce55713d74f2b19b889f32dec58239e699d2a8d/F/fmusim/bundled"
+
+["0.16.0+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/fmusim_jll.jl/releases/download/fmusim-v0.16.0+1/fmusim.v0.16.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/fmusim_jll.jl/releases/download/fmusim-v0.16.0+1/fmusim.v0.16.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/fmusim_jll.jl/releases/download/fmusim-v0.16.0+1/fmusim.v0.16.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/fmusim_jll.jl/releases/download/fmusim-v0.16.0+1/fmusim.v0.16.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/fmusim_jll.jl/releases/download/fmusim-v0.16.0+1/fmusim.v0.16.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-24T17:46:58.000Z
+
+    [["0.16.0+1".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/3ec42dce3c04020982574ce4c617c0d3bc334138/F/fmusim/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/f/fmusim/build_tarballs.jl/3ec42dce3c04020982574ce4c617c0d3bc334138.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.16.0+1".artifact_metadata.sources]]
+        hash = "07608726bd0dc871eca33d3448ac9e0616c0912d"
+        type = "git"
+        url = "https://github.com/modelica/fmusim.git"
+        [["0.16.0+1".artifact_metadata.sources]]
+        hash = "99b9a6011abae49a6e191918cde9fe49e100562d"
+        type = "git"
+        url = "https://github.com/CATIA-Systems/fmi-rs.git"
+        [["0.16.0+1".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3ec42dce3c04020982574ce4c617c0d3bc334138/F/fmusim/bundled"

@@ -1,0 +1,197 @@
+augment_platform_block = """using Base.BinaryPlatforms\n\n# Can't use Preferences since we might be running this very early with a non-existing Manifest\nMPIPreferences_UUID = Base.UUID(\"3da0fdf6-3ccc-4f1b-acd9-58baa6c99267\")\nconst preferences = Base.get_preferences(MPIPreferences_UUID)\n\nconst binary_to_abi = Dict(\n    \"MPIABI_jll\" => \"MPIABI\",\n    \"MPICH_jll\" => \"MPICH\",\n    \"MPICH_CUDA_jll\" => \"MPICH\",\n    \"MPItrampoline_jll\" => \"MPItrampoline\",\n    \"MicrosoftMPI_jll\" => \"MicrosoftMPI\",\n    \"OpenMPI_jll\" => \"OpenMPI\",\n)\n\n# Keep logic in sync with MPIPreferences.jl\nfunction augment_mpi!(platform)\n    # Doesn't need to be `const` since we depend on MPIPreferences so we\n    # invalidate the cache when it changes.\n\n    # Determine which jll binary provides our MPI implementation.\n    # Use MPIPreferences if set, otherwise use either MPICH or MicrosoftMPI (on Windows).\n    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.\n    binary = get(preferences, \"binary\", Sys.iswindows(platform) ? \"MicrosoftMPI_jll\" : \"MPICH_jll\")\n\n    # Convert the jll binary to an ABI\n    if binary == \"system\"\n        abi = get(preferences, \"abi\", nothing)\n        abi === nothing && error(\"MPIPreferences: Inconsistent state detected, `binary` is set to system, but `abi` is not set.\")\n    else\n        abi = get(binary_to_abi, binary, nothing)\n        abi == nothing && error(\"Unknown MPI binary: $binary\")\n    end\n\n    # Add an `mpi` entry to the platform if it's missing\n    if !haskey(platform, \"mpi\")\n        platform[\"mpi\"] = abi\n    end\n\n    return platform\nend\n\n\nusing Base.BinaryPlatforms\n\ntry\n    using CUDA_Runtime_jll\ncatch\n    # during initial package installation, CUDA_Runtime_jll may not be available.\nend\n\n# every other tag that artifacts are selected on must be set before calling this\nfunction augment_cuda_tag!(platform::Platform)\n    if @isdefined(CUDA_Runtime_jll) && isdefined(CUDA_Runtime_jll, :augment_dependent!)\n        # both Pkg and the JLL module include this file from the JLL's `.pkg` directory\n        artifacts_toml = joinpath(@__DIR__, \"..\", \"Artifacts.toml\")\n        CUDA_Runtime_jll.augment_dependent!(platform, artifacts_toml)\n    elseif !haskey(platform, \"cuda\")\n        # CUDA_Runtime_jll is missing during initial installation, or briefly older than\n        # our compat bound while Pkg changes the environment. select the CPU build, if\n        # any; without the tag, Pkg would select any build.\n        platform[\"cuda\"] = \"none\"\n    end\n    return platform\nend\n\nfunction augment_platform!(platform::Platform)\n    augment_mpi!(platform)\n    augment_cuda_tag!(platform)\nend"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = true
+name = "HeFFTe"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpiabi-cuda+none", "aarch64-linux-gnu-cxx11-mpi+mpiabi-cuda+none", "x86_64-linux-musl-cxx11-mpi+mpiabi-cuda+none", "aarch64-linux-musl-cxx11-mpi+mpiabi-cuda+none", "x86_64-apple-darwin-mpi+mpiabi", "aarch64-apple-darwin-mpi+mpiabi", "x86_64-linux-gnu-cxx11-mpi+mpich-cuda+none", "aarch64-linux-gnu-cxx11-mpi+mpich-cuda+none", "x86_64-linux-musl-cxx11-mpi+mpich-cuda+none", "aarch64-linux-musl-cxx11-mpi+mpich-cuda+none", "x86_64-apple-darwin-mpi+mpich", "aarch64-apple-darwin-mpi+mpich", "x86_64-linux-gnu-cxx11-mpi+mpitrampoline-cuda+none", "aarch64-linux-gnu-cxx11-mpi+mpitrampoline-cuda+none", "x86_64-apple-darwin-mpi+mpitrampoline", "aarch64-apple-darwin-mpi+mpitrampoline", "x86_64-linux-gnu-cxx11-mpi+openmpi-cuda+none", "aarch64-linux-gnu-cxx11-mpi+openmpi-cuda+none", "x86_64-linux-musl-cxx11-mpi+openmpi-cuda+none", "aarch64-linux-musl-cxx11-mpi+openmpi-cuda+none", "x86_64-apple-darwin-mpi+openmpi", "aarch64-apple-darwin-mpi+openmpi", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpitrampoline", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpitrampoline"]
+script = ["""cd $WORKSPACE/srcdir/heffte\n\n# The MPItrampoline compiler wrappers otherwise use the compilers MPItrampoline was built with.\nexport MPITRAMPOLINE_CC=${CC} MPITRAMPOLINE_CXX=${CXX} MPITRAMPOLINE_FC=${FC}\n\nif [[ \"${bb_full_target}\" != *-cuda+[0-9]* ]]; then\n    CMAKE_FLAGS=(-DHeffte_ENABLE_CUDA=OFF)\nelse\n    # nvcc searches lib64; the SDK uses lib. Vendor libraries require newer glibc symbols.\n    CMAKE_FLAGS=(\n        -DHeffte_ENABLE_CUDA=ON\n        -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc\n        -DCMAKE_CUDA_HOST_COMPILER=${CXX}\n        -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\"\n        -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\"\n        -DCUDAToolkit_ROOT=${prefix}/cuda\n        -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\"\n    )\nfi\n\ncmake -B build \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_INSTALL_PREFIX=$prefix \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DMPI_HOME=${prefix} \\\n    -DHeffte_ENABLE_FFTW=ON \\\n    -DHeffte_ENABLE_TESTING=OFF \\\n    \"${CMAKE_FLAGS[@]}\"\n\ncmake --build build -j${nproc}\ncmake --install build\n""", """CUDA_ARCHS=\"70-real;75-real;80-real;86-real;89-real;90\"\ncd $WORKSPACE/srcdir/heffte\n\n# The MPItrampoline compiler wrappers otherwise use the compilers MPItrampoline was built with.\nexport MPITRAMPOLINE_CC=${CC} MPITRAMPOLINE_CXX=${CXX} MPITRAMPOLINE_FC=${FC}\n\nif [[ \"${bb_full_target}\" != *-cuda+[0-9]* ]]; then\n    CMAKE_FLAGS=(-DHeffte_ENABLE_CUDA=OFF)\nelse\n    # nvcc searches lib64; the SDK uses lib. Vendor libraries require newer glibc symbols.\n    CMAKE_FLAGS=(\n        -DHeffte_ENABLE_CUDA=ON\n        -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc\n        -DCMAKE_CUDA_HOST_COMPILER=${CXX}\n        -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\"\n        -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\"\n        -DCUDAToolkit_ROOT=${prefix}/cuda\n        -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\"\n    )\nfi\n\ncmake -B build \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_INSTALL_PREFIX=$prefix \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DMPI_HOME=${prefix} \\\n    -DHeffte_ENABLE_FFTW=ON \\\n    -DHeffte_ENABLE_TESTING=OFF \\\n    \"${CMAKE_FLAGS[@]}\"\n\ncmake --build build -j${nproc}\ncmake --install build\n""", """CUDA_ARCHS=\"75-real;80-real;86-real;89-real;90-real;100-real;103-real;120-real;121\"\ncd $WORKSPACE/srcdir/heffte\n\n# The MPItrampoline compiler wrappers otherwise use the compilers MPItrampoline was built with.\nexport MPITRAMPOLINE_CC=${CC} MPITRAMPOLINE_CXX=${CXX} MPITRAMPOLINE_FC=${FC}\n\nif [[ \"${bb_full_target}\" != *-cuda+[0-9]* ]]; then\n    CMAKE_FLAGS=(-DHeffte_ENABLE_CUDA=OFF)\nelse\n    # nvcc searches lib64; the SDK uses lib. Vendor libraries require newer glibc symbols.\n    CMAKE_FLAGS=(\n        -DHeffte_ENABLE_CUDA=ON\n        -DCMAKE_CUDA_COMPILER=${prefix}/cuda/bin/nvcc\n        -DCMAKE_CUDA_HOST_COMPILER=${CXX}\n        -DCMAKE_CUDA_FLAGS=\"-L${prefix}/cuda/lib\"\n        -DCMAKE_EXE_LINKER_FLAGS=\"-Wl,--allow-shlib-undefined\"\n        -DCUDAToolkit_ROOT=${prefix}/cuda\n        -DCMAKE_CUDA_ARCHITECTURES=\"${CUDA_ARCHS}\"\n    )\nfi\n\ncmake -B build \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_INSTALL_PREFIX=$prefix \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    -DMPI_HOME=${prefix} \\\n    -DHeffte_ENABLE_FFTW=ON \\\n    -DHeffte_ENABLE_TESTING=OFF \\\n    \"${CMAKE_FLAGS[@]}\"\n\ncmake --build build -j${nproc}\ncmake --install build\n"""]
+toplevel_block = ""
+version = "v2.4.3"
+
+[build_options]
+compression_format = "\"gzip\""
+dont_dlopen = "true"
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+build_version = "1.0.5"
+compat = "1.0.5"
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "3.3.10"
+compat = "3.3.10"
+name = "FFTW_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+uuid = "f5851436-0d7a-5f13-b9de-f02708fd171a"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpitrampoline"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 0
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpitrampoline"]
+top_level = false
+type = "builddependency"
+version-major = 12
+version-minor = 0
+version-patch = 1
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpitrampoline"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = ""
+name = "CUDA_SDK_static_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpitrampoline"]
+top_level = false
+type = "builddependency"
+version-major = 13
+version-minor = 0
+version-patch = 2
+[[dependencies]]
+compat = "0.26.1 - 0"
+name = "CUDA_Runtime_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpitrampoline", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpitrampoline"]
+top_level = false
+type = "runtimedependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpiabi-cuda+none", "aarch64-linux-gnu-cxx11-mpi+mpiabi-cuda+none", "x86_64-linux-musl-cxx11-mpi+mpiabi-cuda+none", "aarch64-linux-musl-cxx11-mpi+mpiabi-cuda+none", "x86_64-apple-darwin-mpi+mpiabi", "aarch64-apple-darwin-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.0.3"
+compat = "5.0.3"
+name = "MPICH_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpich-cuda+none", "aarch64-linux-gnu-cxx11-mpi+mpich-cuda+none", "x86_64-linux-musl-cxx11-mpi+mpich-cuda+none", "aarch64-linux-musl-cxx11-mpi+mpich-cuda+none", "x86_64-apple-darwin-mpi+mpich", "aarch64-apple-darwin-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.5.7"
+compat = "5.5.7"
+name = "MPItrampoline_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpitrampoline-cuda+none", "aarch64-linux-gnu-cxx11-mpi+mpitrampoline-cuda+none", "x86_64-apple-darwin-mpi+mpitrampoline", "aarch64-apple-darwin-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "10.1.5"
+compat = "10.1.5"
+name = "MicrosoftMPI_jll"
+platforms = []
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.1.11"
+compat = "4.1.11, 5.0.14"
+name = "OpenMPI_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+openmpi-cuda+none", "aarch64-linux-gnu-cxx11-mpi+openmpi-cuda+none", "x86_64-linux-musl-cxx11-mpi+openmpi-cuda+none", "aarch64-linux-musl-cxx11-mpi+openmpi-cuda+none", "x86_64-apple-darwin-mpi+openmpi", "aarch64-apple-darwin-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1"
+name = "MPIPreferences"
+platforms = ["any"]
+top_level = true
+type = "runtimedependency"
+uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpiabi", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.0.3"
+compat = "5.0.3"
+name = "MPICH_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpich", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.5.7"
+compat = "5.5.7"
+name = "MPItrampoline_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+12.0-mpi+mpitrampoline", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.1.11"
+compat = "4.1.11, 5.0.14"
+name = "OpenMPI_jll"
+platforms = ["x86_64-linux-gnu-cxx11-cuda+12.0-mpi+openmpi", "x86_64-linux-gnu-cxx11-cuda+13.0-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libheffte"]
+type = "lib"
+variable_name = "libheffte"
+
+[[sources]]
+hash = "6e16996e5a3eb65c60fd62fd4d93c4b2df833033"
+tag = "v2.4.1"
+type = "git"
+unpack_target = ""
+url = "https://github.com/icl-utk-edu/heffte.git"

@@ -734,3 +734,27 @@ registered = 2026-07-27T13:24:01.000Z
         [["7.1.2029+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3acbaf1bbcb249d8c896a452073823354691b210/I/ImageMagick/ImageMagick@7/bundled"
+
+["7.1.2038+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/ImageMagick_jll.jl/releases/download/ImageMagick-v7.1.2038+0/ImageMagick.v7.1.2038.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-11-24T16:42:57.000Z
+
+    [["7.1.2038+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/1fd7c2ec3e7628ffa6ea01a49df7a5d2039c87ee/I/ImageMagick/ImageMagick@7/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/i/imagemagick/imagemagick@7/build_tarballs.jl/1fd7c2ec3e7628ffa6ea01a49df7a5d2039c87ee.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["7.1.2038+0".artifact_metadata.sources]]
+        hash = "dcec873ede2912a1b045a50fd54cd138ee5f3fa4"
+        type = "git"
+        url = "https://github.com/ImageMagick/ImageMagick"
+
+            ["7.1.2038+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/imagemagick"
+            provenance = "git-tag"
+            version = "7.1.2-36"
+        [["7.1.2038+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/1fd7c2ec3e7628ffa6ea01a49df7a5d2039c87ee/I/ImageMagick/ImageMagick@7/bundled"

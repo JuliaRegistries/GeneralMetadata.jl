@@ -611,3 +611,24 @@ registered = 2026-11-02T13:12:31.000Z
             project = "repology.org/project/expat"
             provenance = "url-pattern"
             version = "2.10.0"
+
+["2.11.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Expat_jll.jl/releases/download/Expat-v2.11.0+0/Expat.v2.11.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-24T16:35:02.000Z
+
+    [["2.11.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/ff5e6f4ea40d4a06b4824785e77b0ea7becd776b/E/Expat/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/e/expat/build_tarballs.jl/ff5e6f4ea40d4a06b4824785e77b0ea7becd776b.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.11.0+0".artifact_metadata.sources]]
+        hash = "61e7614b602201c28a189dafee78f5bceaee192bbde46a930752ff09cf5542fa"
+        type = "archive"
+        url = "https://github.com/libexpat/libexpat/releases/download/R_2_11_0/expat-2.11.0.tar.xz"
+
+            ["2.11.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/expat"
+            provenance = "url-pattern"
+            version = "2.11.0"

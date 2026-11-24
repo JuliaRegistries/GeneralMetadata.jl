@@ -1273,3 +1273,27 @@ registered = 2026-11-19T16:21:41.000Z
         [["302.700.0+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3bc0eeb84a65356c7c044e56ae61b48fc1045eab/B/Blosc2/bundled"
+
+["302.800.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Blosc2_jll.jl/releases/download/Blosc2-v302.800.0+0/Blosc2.v302.800.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-24T16:35:19.000Z
+
+    [["302.800.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/3caf7144bc9783e315bb503cb7b435ed5e94b638/B/Blosc2/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/b/blosc2/build_tarballs.jl/3caf7144bc9783e315bb503cb7b435ed5e94b638.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["302.800.0+0".artifact_metadata.sources]]
+        hash = "f38adbc9aeec6368198964bd90e824b6eb32fd45"
+        type = "git"
+        url = "https://github.com/Blosc/c-blosc2.git"
+
+            ["302.800.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/c-blosc2"
+            provenance = "git-tag"
+            version = "3.8.0"
+        [["302.800.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/3caf7144bc9783e315bb503cb7b435ed5e94b638/B/Blosc2/bundled"

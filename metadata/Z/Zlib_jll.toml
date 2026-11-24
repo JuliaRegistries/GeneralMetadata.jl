@@ -223,9 +223,43 @@ registered = 2020-08-26T19:58:58.000Z
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-10-10T01:36:27.000Z
 
+    [["1.2.11+17".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/3ffc559c0f5a40f4267ce48ea95ceadadade496e/Z/Zlib/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/z/zlib/build_tarballs.jl/3ffc559c0f5a40f4267ce48ea95ceadadade496e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.2.4"
+
+        [["1.2.11+17".artifact_metadata.sources]]
+        hash = "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1"
+        type = "archive"
+        url = "https://zlib.net/zlib-1.2.11.tar.gz"
+
+            ["1.2.11+17".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zlib"
+            provenance = "url-pattern"
+            version = "1.2.11"
+
 ["1.2.11+18"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-apple-darwin14.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-unknown-freebsd11.1.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.11+13/Zlib.v1.2.11.x86_64-w64-mingw32.tar.gz"]
 registered = 2020-10-16T19:59:46.000Z
+
+    [["1.2.11+18".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/3ffc559c0f5a40f4267ce48ea95ceadadade496e/Z/Zlib/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/z/zlib/build_tarballs.jl/3ffc559c0f5a40f4267ce48ea95ceadadade496e.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.2.4"
+
+        [["1.2.11+18".artifact_metadata.sources]]
+        hash = "c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1"
+        type = "archive"
+        url = "https://zlib.net/zlib-1.2.11.tar.gz"
+
+            ["1.2.11+18".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zlib"
+            provenance = "url-pattern"
+            version = "1.2.11"
 
 ["1.2.12+0"]
 artifact_urls = ["https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Zlib_jll.jl/releases/download/Zlib-v1.2.12+0/Zlib.v1.2.12.x86_64-w64-mingw32.tar.gz"]
