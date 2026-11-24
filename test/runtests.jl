@@ -219,58 +219,44 @@ end
 
 struct JLLReleaseFixture
     status::Int
-    tree::String
     jll_contents::Union{String,Nothing}
     readme::Union{String,Nothing}
 end
+const FIXTURE_TREE = "a"^40
+const FIXTURE_COMMIT = "b"^40
 
-function GeneralMetadata.GitHub.get_release(org, repo::JLLReleaseFixture, tag)
+GeneralMetadata.GitHub.get_release(org, repo::JLLReleaseFixture, tag) =
     throw(GeneralMetadata.HTTP.Exceptions.StatusError(repo.status, "GET", "/releases/tags/$tag", nothing))
-end
-
 function GeneralMetadata.GitHub.registered_jll_commit(org, repo::JLLReleaseFixture, tag, tree_sha)
-    @test tree_sha == repo.tree
-    return "b"^40, false
+    @test tree_sha == FIXTURE_TREE
+    return FIXTURE_COMMIT, false
 end
-
 function GeneralMetadata.GitHub.get_file(org, repo::JLLReleaseFixture, tree_sha, path_filter)
-    @test tree_sha == repo.tree
-    @test path_filter("JLL.toml")
-    return repo.jll_contents
+    @test tree_sha == FIXTURE_TREE
+    return path_filter("JLL.toml") ? repo.jll_contents : repo.readme
 end
-
-function GeneralMetadata.GitHub.get_readme(org, repo::JLLReleaseFixture, tree_sha)
-    @test tree_sha == repo.tree
-    return repo.readme
-end
-
-function GeneralMetadata.GitHub.get_commit(org, repo::JLLReleaseFixture, commit_sha)
-    @test commit_sha == "b"^40
-    isnothing(repo.readme) || error("fixture reached the verified wrapper commit lookup")
-    return Dict("author" => Dict("date" => "2021-02-18T23:00:00Z"),
-                "committer" => Dict("date" => "2021-02-19T00:00:00Z"))
-end
+# Reaching this means the README passed validation; stop before cloning Yggdrasil
+GeneralMetadata.GitHub.commit_timestamp(org, repo::JLLReleaseFixture, commit) = error("reached wrapper commit timestamp")
 
 @testset "Missing JLL releases use General's tree" begin
-    tree = "a"^40
-    versions = Dict(v"1.2.3+0" => (git_tree_sha1=tree,))
-    lookup(repo) = GeneralMetadata.metadata_for_jll_release("JuliaBinaryWrappers", repo, "Example-v1.2.3+0", versions)
+    versions = Dict(v"1.2.3+0" => (git_tree_sha1=FIXTURE_TREE,))
+    lookup(args...) = GeneralMetadata.metadata_for_jll_release("JuliaBinaryWrappers", JLLReleaseFixture(args...), "Example-v1.2.3+0", versions)
 
-    repo = JLLReleaseFixture(404, tree, "format_version = \"1.0\"", nothing)
-    meta = lookup(repo)
-    @test meta["metadata"] == "https://raw.githubusercontent.com/JuliaBinaryWrappers/$repo/$("b"^40)/JLL.toml"
+    # BB2: JLL.toml in the registered tree
+    meta = lookup(404, "format_version = \"1.0\"", nothing)
+    @test endswith(meta["metadata"], "/$FIXTURE_COMMIT/JLL.toml")
     @test meta["metadata_type"] == "JLLGenerator JLL.toml"
     @test meta["metadata_version"] == "1.0"
 
-    @test_throws "no pinned Yggdrasil recipe link" lookup(JLLReleaseFixture(404, tree, nothing, nothing))
-    readme = """
+    # BB1: requires a README link pinned to a Yggdrasil commit
+    readme(ref) = """
     # `Example_jll.jl` (v1.2.3+0)
-    originating [`build_tarballs.jl`](https://github.com/JuliaPackaging/Yggdrasil/blob/master/E/Example/build_tarballs.jl)
+    originating [`build_tarballs.jl`](https://github.com/JuliaPackaging/Yggdrasil/blob/$ref/E/Example/build_tarballs.jl)
     """
-    @test_throws "no pinned Yggdrasil recipe link" lookup(JLLReleaseFixture(404, tree, nothing, readme))
-    @test_throws GeneralMetadata.HTTP.Exceptions.StatusError lookup(JLLReleaseFixture(403, tree, repo.jll_contents, nothing))
+    @test_throws "no pinned Yggdrasil recipe link" lookup(404, nothing, nothing)
+    @test_throws "no pinned Yggdrasil recipe link" lookup(404, nothing, readme("master"))
+    @test_throws "reached wrapper commit timestamp" lookup(404, nothing, readme("c"^40))
 
-    @test GeneralMetadata.GitHub.commit_timestamp("JuliaBinaryWrappers", repo, "b"^40) == "2021-02-19T00:00:00Z"
-    pinned_readme = replace(readme, "/blob/master/" => "/blob/$("c"^40)/")
-    @test_throws "fixture reached the verified wrapper commit lookup" lookup(JLLReleaseFixture(404, tree, nothing, pinned_readme))
+    # Only 404s fall back
+    @test_throws GeneralMetadata.HTTP.Exceptions.StatusError lookup(403, "format_version = \"1.0\"", nothing)
 end
