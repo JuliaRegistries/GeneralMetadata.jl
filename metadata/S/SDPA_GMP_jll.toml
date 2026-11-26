@@ -1,0 +1,18 @@
+["7.1.3+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/SDPA_GMP_jll.jl/releases/download/SDPA_GMP-v7.1.3+0/SDPA_GMP.v7.1.3.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-11-25T19:47:56.000Z
+
+    [["7.1.3+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/6a43b2fa3fbe92cce5509b1a1e9d70a36a87469d/S/SDPA_GMP/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/s/sdpa_gmp/build_tarballs.jl/6a43b2fa3fbe92cce5509b1a1e9d70a36a87469d.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["7.1.3+0".artifact_metadata.sources]]
+        hash = "ca110db5ea1cc46e811b70dfea9cbb25db74448d"
+        type = "git"
+        url = "https://github.com/nakatamaho/sdpa-gmp.git"
+        [["7.1.3+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/6a43b2fa3fbe92cce5509b1a1e9d70a36a87469d/S/SDPA_GMP/bundled"

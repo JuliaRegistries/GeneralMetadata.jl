@@ -1,0 +1,19 @@
+["4.1.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/ModelicaExternalC_jll.jl/releases/download/ModelicaExternalC-v4.1.0+0/ModelicaExternalC.v4.1.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-25T04:14:49.000Z
+
+    [["4.1.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/faa7d1bd814ad30862ef33f32dbc79338a181bcf/M/ModelicaExternalC/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/m/modelicaexternalc/build_tarballs.jl/faa7d1bd814ad30862ef33f32dbc79338a181bcf.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["4.1.0+0".artifact_metadata.sources]]
+        hash = "8ae3d35c24e519cb2996cab20f3b13daf2b0c50a"
+        type = "git"
+        url = "https://github.com/modelica/ModelicaStandardLibrary.git"
+        [["4.1.0+0".artifact_metadata.sources]]
+        hash = "fff32815408fcfb9ff3f578c35a8891964555674"
+        type = "git"
+        url = "https://github.com/OpenModelica/OMRuntimeExternalC.jl.git"

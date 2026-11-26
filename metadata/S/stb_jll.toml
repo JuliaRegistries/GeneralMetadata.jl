@@ -18,3 +18,23 @@ registered = 2022-10-25T20:00:38.000Z
             ["0.0.20221025+0".artifact_metadata.sources.upstream]
             project = "repology.org/project/stb"
             provenance = "repository"
+
+["0.0.20261119+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/stb_jll.jl/releases/download/stb-v0.0.20261119+0/stb.v0.0.20261119.any.tar.gz"]
+registered = 2026-11-25T04:06:52.000Z
+
+    [["0.0.20261119+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/234e3997bda85c9a2c9539cdade5c8b39cc86793/S/stb/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/s/stb/build_tarballs.jl/234e3997bda85c9a2c9539cdade5c8b39cc86793.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.0.20261119+0".artifact_metadata.sources]]
+        hash = "6b5799bae8a1fe3792691ef4b72ae26434c3e799"
+        type = "git"
+        url = "https://github.com/nothings/stb.git"
+
+            ["0.0.20261119+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/stb"
+            provenance = "repository"

@@ -1,3 +1,7 @@
 ["1.0.0"]
 artifact_urls = ["https://github.com/f1tenth/f1tenth_racetracks/archive/b95c4eff766f6367d66b310ea20cd2c9563712c0.tar.gz"]
 registered = 2026-11-16T15:34:29.000Z
+
+["2.0.0"]
+artifact_urls = ["https://github.com/f1tenth/f1tenth_racetracks/archive/b95c4eff766f6367d66b310ea20cd2c9563712c0.tar.gz"]
+registered = 2026-11-25T11:25:17.000Z

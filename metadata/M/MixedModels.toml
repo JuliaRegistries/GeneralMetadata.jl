@@ -557,3 +557,7 @@ registered = 2026-10-02T20:57:43.000Z
 ["5.9.2"]
 artifact_urls = ["https://osf.io/djaqb/download?version=9"]
 registered = 2026-11-23T23:00:31.000Z
+
+["5.10.0"]
+artifact_urls = ["https://osf.io/djaqb/download?version=9"]
+registered = 2026-11-25T22:12:15.000Z

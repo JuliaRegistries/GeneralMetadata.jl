@@ -1,0 +1,20 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "stb"
+products = []
+script = """cd ${WORKSPACE}/srcdir/stb*/\nmkdir -p \"${includedir}\"\ncp -vr *.h \"${includedir}/.\"\ninstall_license LICENSE\n"""
+toplevel_block = ""
+version = "v0.0.20261119"
+
+[build_options]
+compression_format = "\"gzip\""
+
+[[sources]]
+hash = "6b5799bae8a1fe3792691ef4b72ae26434c3e799"
+tag = ""
+type = "git"
+unpack_target = ""
+url = "https://github.com/nothings/stb.git"

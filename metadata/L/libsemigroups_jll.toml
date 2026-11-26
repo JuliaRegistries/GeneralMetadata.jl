@@ -170,3 +170,23 @@ registered = 2026-11-14T22:49:43.000Z
         hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
         type = "file"
         url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.14.sdk.tar.xz"
+
+["3.6.3+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libsemigroups_jll.jl/releases/download/libsemigroups-v3.6.3+0/libsemigroups.v3.6.3.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-11-25T04:06:20.000Z
+
+    [["3.6.3+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/1addb1b4dac638908c00ea8152e60cbf1456548f/L/libsemigroups/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libsemigroups/build_tarballs.jl/1addb1b4dac638908c00ea8152e60cbf1456548f.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.6.3+0".artifact_metadata.sources]]
+        hash = "83c382054571e53f997eb8cdf8f90d1d41acdbc6"
+        type = "git"
+        url = "https://github.com/libsemigroups/libsemigroups.git"
+        [["3.6.3+0".artifact_metadata.sources]]
+        hash = "0f03869f72df8705b832910517b47dd5b79eb4e160512602f593ed243b28715f"
+        type = "file"
+        url = "https://github.com/phracker/MacOSX-SDKs/releases/download/10.15/MacOSX10.14.sdk.tar.xz"
