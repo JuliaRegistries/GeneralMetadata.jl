@@ -162,3 +162,30 @@ registered = 2026-11-05T01:18:48.000Z
         [["100.15001.0+0".artifact_metadata.sources]]
         package = "Xorg_xorgproto_jll"
         type = "builddependency"
+
+["100.15002.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v100.15002.0+0/HarfBuzz_ICU.v100.15002.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-26T18:02:11.000Z
+
+    [["100.15002.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/491b337dc540b7e415b0ef557f2763edda6537bc/H/HarfBuzz/HarfBuzz_ICU/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/h/harfbuzz/harfbuzz_icu/build_tarballs.jl/491b337dc540b7e415b0ef557f2763edda6537bc.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["100.15002.0+0".artifact_metadata.sources]]
+        hash = "e2ec49090744383cdbe7df808c1cedaafba06a97be8dc4211fe546ba585f12cb"
+        type = "archive"
+        url = "https://github.com/harfbuzz/harfbuzz/releases/download/15.2.0/harfbuzz-15.2.0.tar.xz"
+
+            ["100.15002.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/harfbuzz"
+            provenance = "tag-scheme"
+            version = "15.2.0"
+        [["100.15002.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/491b337dc540b7e415b0ef557f2763edda6537bc/H/HarfBuzz/bundled"
+        [["100.15002.0+0".artifact_metadata.sources]]
+        package = "Xorg_xorgproto_jll"
+        type = "builddependency"

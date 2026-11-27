@@ -385,3 +385,7 @@ registered = 2026-09-04T21:53:26.000Z
 ["1.3.1"]
 artifact_urls = ["https://korg-data.s3.amazonaws.com/Heiter_el_al_2021_2024_06_17.tar.gz", "https://korg-data.s3.amazonaws.com/MARCS_metal_poor_atmospheres.tar.gz", "https://korg-data.s3.amazonaws.com/SDSS_MARCS_atmospheres_v2.tar.gz", "https://korg-data.s3.amazonaws.com/resampled_cool_dwarf_atmospheres.tar.gz"]
 registered = 2026-09-19T17:52:12.000Z
+
+["1.3.2"]
+artifact_urls = ["https://f001.backblazeb2.com/file/Korg-data/Heiter_el_al_2021_2024_06_17.tar.gz", "https://f001.backblazeb2.com/file/Korg-data/MARCS_metal_poor_atmospheres.tar.gz", "https://f001.backblazeb2.com/file/Korg-data/SDSS_MARCS_atmospheres_v2.tar.gz", "https://f001.backblazeb2.com/file/Korg-data/resampled_cool_dwarf_atmospheres.tar.gz"]
+registered = 2026-11-26T20:24:41.000Z

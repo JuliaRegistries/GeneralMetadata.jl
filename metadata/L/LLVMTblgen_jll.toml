@@ -1,0 +1,23 @@
+["17.0.0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/LLVMTblgen_jll.jl/releases/download/LLVMTblgen-v17.0.0/LLVMTblgen-build_log.v17.0.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LLVMTblgen_jll.jl/releases/download/LLVMTblgen-v17.0.0/LLVMTblgen-extract_log.v17.0.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LLVMTblgen_jll.jl/releases/download/LLVMTblgen-v17.0.0/LLVMTblgen.v17.0.0.x86_64-linux-gnu.tar.gz"]
+registered = 2026-11-26T11:41:17.000Z
+
+    [["17.0.0".artifact_metadata]]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/LLVMTblgen_jll.jl/56cb44e3383ddd87be932c36da4056147b3c0db7/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["17.0.0".artifact_metadata.sources]]
+        hash = "6009708b4367171ccdbf4b5905cb6a803753fe18"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"
+
+            ["17.0.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "17.0.6"
+        [["17.0.0".artifact_metadata.sources]]
+        path = "L/LLVM/LLVMTblgen@17/bundled"
+        treehash = "7d89e851019fa486c5121f192cc5a6dcde7c80b9"
+        type = "directory"

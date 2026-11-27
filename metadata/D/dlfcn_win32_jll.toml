@@ -63,3 +63,23 @@ registered = 2025-09-06T21:46:23.000Z
             project = "repology.org/project/dlfcn"
             provenance = "git-tag"
             version = "1.4.2"
+
+["1.4.3"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/dlfcn_win32_jll.jl/releases/download/dlfcn_win32-v1.4.3/dlfcn_win32-build_log.v1.4.3.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/dlfcn_win32_jll.jl/releases/download/dlfcn_win32-v1.4.3/dlfcn_win32-build_log.v1.4.3.x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/dlfcn_win32_jll.jl/releases/download/dlfcn_win32-v1.4.3/dlfcn_win32-extract_log.v1.4.3.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/dlfcn_win32_jll.jl/releases/download/dlfcn_win32-v1.4.3/dlfcn_win32-extract_log.v1.4.3.x86_64-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/dlfcn_win32_jll.jl/releases/download/dlfcn_win32-v1.4.3/dlfcn_win32.v1.4.3.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/dlfcn_win32_jll.jl/releases/download/dlfcn_win32-v1.4.3/dlfcn_win32.v1.4.3.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-26T13:03:14.000Z
+
+    [["1.4.3".artifact_metadata]]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/dlfcn_win32_jll.jl/ea7ef8620700996a9d1987470e567c5634277f90/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["1.4.3".artifact_metadata.sources]]
+        hash = "3b52e651f385df00045dd8966407fd9de57fc94b"
+        type = "git"
+        url = "https://github.com/dlfcn-win32/dlfcn-win32.git"
+
+            ["1.4.3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/dlfcn"
+            provenance = "git-tag"
+            version = "1.4.2"

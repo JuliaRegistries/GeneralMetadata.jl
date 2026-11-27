@@ -220,3 +220,24 @@ registered = 2026-11-09T17:53:07.000Z
             project = "repology.org/project/libceed"
             provenance = "git-tag"
             version = "1.1.0"
+
+["1.1.2+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/libCEED_jll.jl/releases/download/libCEED-v1.1.2+0/libCEED.v1.1.2.x86_64-unknown-freebsd.tar.gz"]
+registered = 2026-11-26T03:13:56.000Z
+
+    [["1.1.2+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/4657121cf92d85b53a67f517ee73f9d13ef416f7/L/libCEED/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libceed/build_tarballs.jl/4657121cf92d85b53a67f517ee73f9d13ef416f7.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["1.1.2+0".artifact_metadata.sources]]
+        hash = "3e4923a9e20c2077457664cae137ca59c1438064"
+        type = "git"
+        url = "https://github.com/CEED/libCEED.git"
+
+            ["1.1.2+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libceed"
+            provenance = "git-tag"
+            version = "1.1.2"

@@ -1,0 +1,59 @@
+["14.2.0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-build_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_os+freebsd-target_os_version+14.1.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-build_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_os+macos-target_os_version+20.0.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-build_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_os+freebsd-target_os_version+14.1.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-build_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_os+macos-target_os_version+20.0.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_os+freebsd-target_os_version+14.1.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_os+macos-target_os_version+20.0.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_os+freebsd-target_os_version+14.1.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_os+macos-target_os_version+20.0.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_os+freebsd-target_os_version+14.1.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_os+macos-target_os_version+20.0.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_os+freebsd-target_os_version+14.1.0.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/releases/download/GCCBootstrapManual-v14.2.0/GCCBootstrapManual.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_os+macos-target_os_version+20.0.0.tar.gz"]
+registered = 2026-11-26T08:41:14.000Z
+
+    [["14.2.0".artifact_metadata]]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/GCCBootstrapManual_jll.jl/5effa8306c82cb7869c816c5eff321cd8aef8f64/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "718f71ed32f37f63ae8504f17e495234947db7e9"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/gcc/gcc-14.2.0/gcc-14.2.0.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gcc"
+            provenance = "heuristic"
+            version = "14.2.0"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "c09ac7c1ace239f0eed385db2dd1d64a18b6736c"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpfr"
+            provenance = "heuristic"
+            version = "4.1.0"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "0368784a00a0b6be2f3a6443059158097d3b6b7d"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gnumpc"
+            provenance = "heuristic"
+            version = "1.2.1"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "a1684fcd774f877bac6f8694f712180e19eca5b0"
+        type = "archive"
+        url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/isl"
+            provenance = "heuristic"
+            version = "0.24"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "b22c1e4e2413d9a0ec828a92c0b6efd29ecdafa5"
+        type = "archive"
+        url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gmp"
+            provenance = "repology-url"
+            version = "6.2.1"
+        [["14.2.0".artifact_metadata.sources]]
+        path = "G/GCCBootstrapManual/bundled/patches"
+        treehash = "439924a22046c39af298c1e18770338efc597578"
+        type = "directory"

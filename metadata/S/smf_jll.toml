@@ -1,0 +1,19 @@
+["0.2.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.aarch64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.armv6l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.armv6l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.armv7l-linux-gnueabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.armv7l-linux-musleabihf-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.i686-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.i686-w64-mingw32-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.powerpc64le-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.riscv64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.x86_64-linux-musl-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/smf_jll.jl/releases/download/smf-v0.2.1+0/smf.v0.2.1.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-11-26T03:25:16.000Z
+
+    [["0.2.1+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/c38ad1acdd2461ba8c1056339d16438f775c0eda/S/smf/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/s/smf/build_tarballs.jl/c38ad1acdd2461ba8c1056339d16438f775c0eda.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.2.1+0".artifact_metadata.sources]]
+        hash = "8ffa88d29b6ef82cd613ca3c2486e113f98da895"
+        type = "git"
+        url = "https://github.com/danlil240/opt_solver.git"
+        [["0.2.1+0".artifact_metadata.sources]]
+        hash = "9df0293776fdc8a2060281faef929bf2fe1874c1f9368993e7a4ef87b1207f98"
+        type = "file"
+        url = "https://github.com/joseluisq/MacOSX-SDKs/releases/download/15.0/MacOSX15.0.sdk.tar.xz"

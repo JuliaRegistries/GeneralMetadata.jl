@@ -233,3 +233,33 @@ registered = 2026-09-30T19:24:26.000Z
         [["9.0.2+0".artifact_metadata.sources]]
         package = "LibVPX_jll"
         type = "builddependency"
+
+["9.1.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/FFMPEG_nogpl_jll.jl/releases/download/FFMPEG_nogpl-v9.1.0+0/FFMPEG_nogpl.v9.1.0.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-26T22:24:44.000Z
+
+    [["9.1.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/7be09c16fd0d56fa10e6d93c05b7647697a68fa1/F/FFMPEG/FFMPEG_nogpl/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/f/ffmpeg/ffmpeg_nogpl/build_tarballs.jl/7be09c16fd0d56fa10e6d93c05b7647697a68fa1.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["9.1.0+0".artifact_metadata.sources]]
+        hash = "1a4d394ae63d190a526cd052eb4415c156b5c5e2df37efab41a7de0b8fde2433"
+        type = "archive"
+        url = "https://ffmpeg.org/releases/ffmpeg-9.1.tar.xz"
+
+            ["9.1.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/ffmpeg"
+            provenance = "url-pattern"
+            version = "9.1"
+        [["9.1.0+0".artifact_metadata.sources]]
+        package = "nv_codec_headers_jll"
+        type = "builddependency"
+        [["9.1.0+0".artifact_metadata.sources]]
+        package = "LLVMCompilerRT_jll"
+        type = "builddependency"
+        [["9.1.0+0".artifact_metadata.sources]]
+        package = "LibVPX_jll"
+        type = "builddependency"

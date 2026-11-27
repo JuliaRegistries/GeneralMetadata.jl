@@ -147,3 +147,175 @@ registered = 2022-04-16T00:55:11.000Z
             project = "repology.org/project/binutils"
             provenance = "heuristic"
             version = "2.38"
+
+["14.2.0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+armv6l-target_call_abi+eabihf-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+armv6l-target_call_abi+eabihf-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+armv7l-target_call_abi+eabihf-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+armv7l-target_call_abi+eabihf-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+msvcrt-target_os+windows.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+powerpc64le-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+riscv64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+msvcrt-target_os+windows.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-build_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+armv6l-target_call_abi+eabihf-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+armv6l-target_call_abi+eabihf-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+armv7l-target_call_abi+eabihf-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+armv7l-target_call_abi+eabihf-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+msvcrt-target_os+windows.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+powerpc64le-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+riscv64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+msvcrt-target_os+windows.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap-extract_log.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+aarch64-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+armv6l-target_call_abi+eabihf-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+armv6l-target_call_abi+eabihf-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+armv7l-target_call_abi+eabihf-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+armv7l-target_call_abi+eabihf-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+msvcrt-target_os+windows.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+i686-target_libc+musl-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+powerpc64le-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+riscv64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+glibc-target_os+linux.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+msvcrt-target_os+windows.tar.gz", "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v14.2.0/GCCBootstrap.v14.2.0.x86_64-linux-gnu-target_arch+x86_64-target_libc+musl-target_os+linux.tar.gz"]
+registered = 2026-11-26T07:50:00.000Z
+
+    [["14.2.0".artifact_metadata]]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/7f829b9ce6968e893ec830ebc6275654733969d8/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "97ed2ad91801278cb7d89c720ee1dce6fa3e2a5d"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/gcc/gcc-14.2.0/gcc-14.2.0.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gcc"
+            provenance = "heuristic"
+            version = "14.2.0"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "62fb991131420c31d94e7e992c9ba798e8de866f"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/mpfr/mpfr-4.2.1.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mpfr"
+            provenance = "heuristic"
+            version = "4.2.1"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "afd933ab8b5246004dc0767bcd3d51333d5ca720"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/mpc/mpc-1.3.1.tar.gz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gnumpc"
+            provenance = "url-pattern"
+            version = "1.3.1"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "e37d9585caf6bcded5e741442fdb1fa5b0b2c9bd"
+        type = "archive"
+        url = "https://libisl.sourceforge.io/isl-0.26.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/isl"
+            provenance = "repology-url"
+            version = "0.26"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "eed1334cca024677702c3a4de194758cb1b15c36"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/gmp/gmp-6.3.0.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gmp"
+            provenance = "repology-url"
+            version = "6.3.0"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "ea29a9bd2b861c05eb2b28b3ef785373686a0dd5"
+        type = "archive"
+        url = "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.289.tar.xz"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "1a1e061943a1d90ee93a107872d0c2459363af00"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/glibc/glibc-2.17.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/glibc"
+            provenance = "repology-url"
+            version = "2.17"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "3f9625da23e93e58273ff0a70e1886b69ef59149"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/glibc/glibc-2.19.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/glibc"
+            provenance = "heuristic"
+            version = "2.19"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "9e7dee93c248113d37d533ab7dc62acda7d82012"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/glibc/glibc-2.35.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/glibc"
+            provenance = "heuristic"
+            version = "2.35"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "7af3adce49a6481ed829f29a0f5e452a4da14eba"
+        type = "archive"
+        url = "https://musl.libc.org/releases/musl-1.2.5.tar.gz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/musl"
+            provenance = "repology-url"
+            version = "1.2.5"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "814bb6f283dd1fd69834f8d8dc717c7388d176e7"
+        type = "archive"
+        url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v12.0.0.tar.bz2"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/mingw-w64"
+            provenance = "url-pattern"
+            version = "12.0.0"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "53fa48bf97f0ee0f42c62743b018507a6583ec3e"
+        type = "archive"
+        url = "https://github.com/madler/zlib/releases/download/v1.3.1/zlib-1.3.1.tar.gz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zlib"
+            provenance = "tag-scheme"
+            version = "1.3.1"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "7e63317f3b63704dfb552934f9e542ab2c9e272f"
+        type = "archive"
+        url = "https://github.com/facebook/zstd/releases/download/v1.5.6/zstd-1.5.6.tar.gz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/zstd"
+            provenance = "repology-url"
+            version = "1.5.6"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "7c228a06a0c332a4c540bd7aa23d2384da6166cb"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/ncurses/ncurses-6.4.tar.gz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/ncurses"
+            provenance = "heuristic"
+            version = "6.4"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "e8509616bf01a9399edf16924ca83fbf2c9b89ef"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/libiconv/libiconv-1.16.tar.gz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libiconv"
+            provenance = "url-pattern"
+            version = "1.16"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "8725eb37829f0219ecbf3707f02053bdea7d98fd"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/gettext/gettext-0.23.1.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/gettext"
+            provenance = "heuristic"
+            version = "0.23.1"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "71da3d4f918be291a3ad12b9596d3274d9faf55d"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/binutils/binutils-2.29.1.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/binutils"
+            provenance = "url-pattern"
+            version = "2.29.1"
+        [["14.2.0".artifact_metadata.sources]]
+        treehash = "a17278773eb61f1f17466b7dc85ec940019f0754"
+        type = "archive"
+        url = "https://ftpmirror.gnu.org/binutils/binutils-2.43.1.tar.xz"
+
+            ["14.2.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/binutils"
+            provenance = "url-pattern"
+            version = "2.43.1"
+        [["14.2.0".artifact_metadata.sources]]
+        path = "G/GCCBootstrap/bundled"
+        treehash = "85a82e3031a1acc9ab20567c9cbfdd470a8ca4c8"
+        type = "directory"

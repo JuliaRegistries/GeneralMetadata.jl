@@ -1,0 +1,218 @@
+augment_platform_block = """    using Base.BinaryPlatforms\n    # Can't use Preferences since we might be running this very early with a non-existing Manifest\nMPIPreferences_UUID = Base.UUID(\"3da0fdf6-3ccc-4f1b-acd9-58baa6c99267\")\nconst preferences = Base.get_preferences(MPIPreferences_UUID)\n\nconst binary_to_abi = Dict(\n    \"MPIABI_jll\" => \"MPIABI\",\n    \"MPICH_jll\" => \"MPICH\",\n    \"MPICH_CUDA_jll\" => \"MPICH\",\n    \"MPItrampoline_jll\" => \"MPItrampoline\",\n    \"MicrosoftMPI_jll\" => \"MicrosoftMPI\",\n    \"OpenMPI_jll\" => \"OpenMPI\",\n)\n\n# Keep logic in sync with MPIPreferences.jl\nfunction augment_mpi!(platform)\n    # Doesn't need to be `const` since we depend on MPIPreferences so we\n    # invalidate the cache when it changes.\n\n    # Determine which jll binary provides our MPI implementation.\n    # Use MPIPreferences if set, otherwise use either MPICH or MicrosoftMPI (on Windows).\n    # Note: MPIPreferences uses `Sys.iswindows()` without the `platform` argument.\n    binary = get(preferences, \"binary\", Sys.iswindows(platform) ? \"MicrosoftMPI_jll\" : \"MPICH_jll\")\n\n    # Convert the jll binary to an ABI\n    if binary == \"system\"\n        abi = get(preferences, \"abi\", nothing)\n        abi === nothing && error(\"MPIPreferences: Inconsistent state detected, `binary` is set to system, but `abi` is not set.\")\n    else\n        abi = get(binary_to_abi, binary, nothing)\n        abi == nothing && error(\"Unknown MPI binary: $binary\")\n    end\n\n    # Add an `mpi` entry to the platform if it's missing\n    if !haskey(platform, \"mpi\")\n        platform[\"mpi\"] = abi\n    end\n\n    return platform\nend\n\n    augment_platform!(platform::Platform) = augment_mpi!(platform)\n"""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "FUKA"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpiabi", "aarch64-linux-gnu-cxx11-mpi+mpiabi", "powerpc64le-linux-gnu-cxx11-mpi+mpiabi", "riscv64-linux-gnu-cxx11-mpi+mpiabi", "x86_64-linux-musl-cxx11-mpi+mpiabi", "aarch64-linux-musl-cxx11-mpi+mpiabi", "x86_64-apple-darwin-mpi+mpiabi", "aarch64-apple-darwin-mpi+mpiabi", "x86_64-unknown-freebsd-mpi+mpiabi", "aarch64-unknown-freebsd-mpi+mpiabi", "x86_64-linux-gnu-cxx11-mpi+mpich", "aarch64-linux-gnu-cxx11-mpi+mpich", "powerpc64le-linux-gnu-cxx11-mpi+mpich", "riscv64-linux-gnu-cxx11-mpi+mpich", "x86_64-linux-musl-cxx11-mpi+mpich", "aarch64-linux-musl-cxx11-mpi+mpich", "x86_64-apple-darwin-mpi+mpich", "aarch64-apple-darwin-mpi+mpich", "x86_64-unknown-freebsd-mpi+mpich", "aarch64-unknown-freebsd-mpi+mpich", "x86_64-linux-gnu-cxx11-mpi+mpitrampoline", "aarch64-linux-gnu-cxx11-mpi+mpitrampoline", "powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline", "riscv64-linux-gnu-cxx11-mpi+mpitrampoline", "x86_64-apple-darwin-mpi+mpitrampoline", "aarch64-apple-darwin-mpi+mpitrampoline", "x86_64-unknown-freebsd-mpi+mpitrampoline", "aarch64-unknown-freebsd-mpi+mpitrampoline", "x86_64-w64-mingw32-cxx11-mpi+microsoftmpi", "x86_64-linux-gnu-cxx11-mpi+openmpi", "aarch64-linux-gnu-cxx11-mpi+openmpi", "powerpc64le-linux-gnu-cxx11-mpi+openmpi", "riscv64-linux-gnu-cxx11-mpi+openmpi", "x86_64-linux-musl-cxx11-mpi+openmpi", "aarch64-linux-musl-cxx11-mpi+openmpi", "x86_64-apple-darwin-mpi+openmpi", "aarch64-apple-darwin-mpi+openmpi", "x86_64-unknown-freebsd-mpi+openmpi", "aarch64-unknown-freebsd-mpi+openmpi"]
+script = """cd ${WORKSPACE}/srcdir/fuka\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/shell_factor-not-constexpr.patch\n# Our CMakeLists.txt (see the comment at its top for why we don't use\n# upstream's build system) and C interface\ncp -rv ${WORKSPACE}/srcdir/files/. .\n\nexport MPITRAMPOLINE_CC=${CC} MPITRAMPOLINE_CXX=${CXX} MPITRAMPOLINE_FC=${FC}\n\nif [[ ${target} == *-mingw* ]]; then\n    LBT=blastrampoline-5\nelse\n    LBT=blastrampoline\nfi\n\ncmake_args=(\n    -DCMAKE_INSTALL_PREFIX=${prefix}\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN}\n    -DCMAKE_BUILD_TYPE=Release\n    -DMPI_HOME=${prefix}\n    -DLAPACK_LIBRARIES=${LBT}\n)\nif [[ ${target} == *-mingw* ]]; then\n    # SCALAPACK32_jll installs only its DLL, in ${libdir}\n    export LDFLAGS=\"-L${libdir}\"\n    cmake_args+=(-DMPI_GUESS_LIBRARY_NAME=MSMPI)\n    if [[ ${target} == x86_64-* ]]; then\n        cmake_args+=(-DMPI_C_LIBRARIES=msmpi64)\n    fi\nfi\n\ncmake -B build \"${cmake_args[@]}\"\ncmake --build build --parallel ${nproc}\ncmake --install build\n\ninstall_license COPYING\n# Bundled: include/implementation/flat_hash_map.hpp under the Boost Software\n# License, whose text comes with boost_jll, and include/EOS/standalone/brent.hh\n# under the \"GNU LGPL\", version unstated\ninstall_license ${prefix}/share/licenses/boost/LICENSE_1_0.txt\ninstall_license /usr/share/licenses/LGPL-3.0+\n"""
+toplevel_block = ""
+version = "v2.3.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"9.0.0\""
+
+[[dependencies]]
+build_version = "3.3.11"
+compat = "3.3.11"
+name = "FFTW_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.8.1"
+compat = "~2.8.1"
+name = "GSL_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "2.2.302"
+compat = "2.2.302"
+name = "SCALAPACK32_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.4.0"
+compat = "5.4.0"
+name = "libblastrampoline_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "boost_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.0.0"
+compat = "1.0.0"
+name = "MPIABI_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpiabi", "aarch64-linux-gnu-cxx11-mpi+mpiabi", "powerpc64le-linux-gnu-cxx11-mpi+mpiabi", "riscv64-linux-gnu-cxx11-mpi+mpiabi", "x86_64-linux-musl-cxx11-mpi+mpiabi", "aarch64-linux-musl-cxx11-mpi+mpiabi", "x86_64-apple-darwin-mpi+mpiabi", "aarch64-apple-darwin-mpi+mpiabi", "x86_64-unknown-freebsd-mpi+mpiabi", "aarch64-unknown-freebsd-mpi+mpiabi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.0.3"
+compat = "5.0.3"
+name = "MPICH_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpich", "aarch64-linux-gnu-cxx11-mpi+mpich", "powerpc64le-linux-gnu-cxx11-mpi+mpich", "riscv64-linux-gnu-cxx11-mpi+mpich", "x86_64-linux-musl-cxx11-mpi+mpich", "aarch64-linux-musl-cxx11-mpi+mpich", "x86_64-apple-darwin-mpi+mpich", "aarch64-apple-darwin-mpi+mpich", "x86_64-unknown-freebsd-mpi+mpich", "aarch64-unknown-freebsd-mpi+mpich"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "5.5.7"
+compat = "5.5.7"
+name = "MPItrampoline_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+mpitrampoline", "aarch64-linux-gnu-cxx11-mpi+mpitrampoline", "powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline", "riscv64-linux-gnu-cxx11-mpi+mpitrampoline", "x86_64-apple-darwin-mpi+mpitrampoline", "aarch64-apple-darwin-mpi+mpitrampoline", "x86_64-unknown-freebsd-mpi+mpitrampoline", "aarch64-unknown-freebsd-mpi+mpitrampoline"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "10.1.5"
+compat = "10.1.5"
+name = "MicrosoftMPI_jll"
+platforms = ["x86_64-w64-mingw32-cxx11-mpi+microsoftmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "4.1.11"
+compat = "4.1.11, 5.0.14"
+name = "OpenMPI_jll"
+platforms = ["x86_64-linux-gnu-cxx11-mpi+openmpi", "aarch64-linux-gnu-cxx11-mpi+openmpi", "powerpc64le-linux-gnu-cxx11-mpi+openmpi", "riscv64-linux-gnu-cxx11-mpi+openmpi", "x86_64-linux-musl-cxx11-mpi+openmpi", "aarch64-linux-musl-cxx11-mpi+openmpi", "x86_64-apple-darwin-mpi+openmpi", "aarch64-apple-darwin-mpi+openmpi", "x86_64-unknown-freebsd-mpi+openmpi", "aarch64-unknown-freebsd-mpi+openmpi"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = "0.1"
+name = "MPIPreferences"
+platforms = ["any"]
+top_level = true
+type = "runtimedependency"
+uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libkadath"]
+type = "lib"
+variable_name = "libkadath"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libfuka"]
+type = "lib"
+variable_name = "libfuka"
+[[products]]
+binnames = ["fuka_bbh_solve"]
+type = "exe"
+variable_name = "fuka_bbh_solve"
+[[products]]
+binnames = ["fuka_bbh_reader"]
+type = "exe"
+variable_name = "fuka_bbh_reader"
+[[products]]
+binnames = ["fuka_bh_solve"]
+type = "exe"
+variable_name = "fuka_bh_solve"
+[[products]]
+binnames = ["fuka_bh_reader"]
+type = "exe"
+variable_name = "fuka_bh_reader"
+[[products]]
+binnames = ["fuka_bhns_solve"]
+type = "exe"
+variable_name = "fuka_bhns_solve"
+[[products]]
+binnames = ["fuka_bhns_reader"]
+type = "exe"
+variable_name = "fuka_bhns_reader"
+[[products]]
+binnames = ["fuka_bns_solve"]
+type = "exe"
+variable_name = "fuka_bns_solve"
+[[products]]
+binnames = ["fuka_bns_reader"]
+type = "exe"
+variable_name = "fuka_bns_reader"
+[[products]]
+binnames = ["fuka_bns_headon_solve"]
+type = "exe"
+variable_name = "fuka_bns_headon_solve"
+[[products]]
+binnames = ["fuka_bns_headon_reader"]
+type = "exe"
+variable_name = "fuka_bns_headon_reader"
+[[products]]
+binnames = ["fuka_ns_solve"]
+type = "exe"
+variable_name = "fuka_ns_solve"
+[[products]]
+binnames = ["fuka_ns_reader"]
+type = "exe"
+variable_name = "fuka_ns_reader"
+[[products]]
+binnames = ["fuka_ns_diffrot_solve"]
+type = "exe"
+variable_name = "fuka_ns_diffrot_solve"
+[[products]]
+binnames = ["fuka_ns_diffrot_reader"]
+type = "exe"
+variable_name = "fuka_ns_diffrot_reader"
+[[products]]
+binnames = ["fuka_ns_isotropic_solve"]
+type = "exe"
+variable_name = "fuka_ns_isotropic_solve"
+[[products]]
+binnames = ["fuka_ns_isotropic_reader"]
+type = "exe"
+variable_name = "fuka_ns_isotropic_reader"
+[[products]]
+binnames = ["fuka_ns_diffrot_setup_from_iso"]
+type = "exe"
+variable_name = "fuka_ns_diffrot_setup_from_iso"
+
+[[sources]]
+hash = "f8ee3c7795911e1363358bf155c70f649c100fb5"
+tag = "v2.3"
+type = "git"
+unpack_target = ""
+url = "https://bitbucket.org/fukaws/fuka.git"
+[[sources]]
+follow_symlinks = false
+path = "bundled"
+target = ""
+type = "directory"

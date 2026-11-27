@@ -1,0 +1,20 @@
+["4.3.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.aarch64-apple-darwin-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.aarch64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.armv6l-linux-gnueabihf-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.armv7l-linux-gnueabihf-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.i686-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.i686-linux-musl-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.i686-w64-mingw32-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.powerpc64le-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.riscv64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.x86_64-apple-darwin-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.x86_64-linux-gnu-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.x86_64-linux-musl-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.x86_64-unknown-freebsd-libgfortran5.tar.gz", "https://github.com/JuliaBinaryWrappers/dftd4_jll.jl/releases/download/dftd4-v4.3.0+0/dftd4.v4.3.0.x86_64-w64-mingw32-libgfortran5.tar.gz"]
+registered = 2026-11-26T04:08:45.000Z
+
+    [["4.3.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/af76e4821539bd3296349fe2f6c3a857ccc87bf2/D/dftd4/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/d/dftd4/build_tarballs.jl/af76e4821539bd3296349fe2f6c3a857ccc87bf2.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["4.3.0+0".artifact_metadata.sources]]
+        hash = "e94c5d021c0a4b4aa9b5587e36fda2f398271dc2dc1abfbe097fdb04022bef35"
+        type = "archive"
+        url = "https://github.com/dftd4/dftd4/releases/download/v4.3.0/dftd4-4.3.0.tar.xz"
+
+            ["4.3.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/dftd4"
+            provenance = "tag-scheme"
+            version = "4.3.0"

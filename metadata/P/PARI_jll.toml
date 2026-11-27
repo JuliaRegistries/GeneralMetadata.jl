@@ -19,3 +19,24 @@ registered = 2026-06-03T21:10:49.000Z
             project = "repology.org/project/pari"
             provenance = "repology-url"
             version = "2.17.3"
+
+["200.1900.100+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v200.1900.100+0/PARI.v200.1900.100.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-26T17:05:00.000Z
+
+    [["200.1900.100+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/9d09757c4b112f50e634774fca56642fec77df12/P/PARI/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/p/pari/build_tarballs.jl/9d09757c4b112f50e634774fca56642fec77df12.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["200.1900.100+0".artifact_metadata.sources]]
+        hash = "419553b11ff8c3ecb8e9031b7d91d7cee003a5d721e685fcb499565c96fe2943"
+        type = "archive"
+        url = "https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.19.1.tar.gz"
+
+            ["200.1900.100+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/pari"
+            provenance = "repology-url"
+            version = "2.19.1"
