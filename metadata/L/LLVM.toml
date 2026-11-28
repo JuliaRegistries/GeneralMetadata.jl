@@ -584,3 +584,11 @@ registered = 2026-11-20T15:18:43.000Z
 ["10.7.0"]
 artifact_urls = []
 registered = 2026-11-21T07:18:41.000Z
+
+["10.8.0"]
+artifact_urls = []
+registered = 2026-11-27T07:59:31.000Z
+
+["10.8.1"]
+artifact_urls = []
+registered = 2026-11-27T09:23:43.000Z

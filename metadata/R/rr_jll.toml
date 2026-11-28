@@ -791,3 +791,30 @@ registered = 2025-08-11T00:38:41.000Z
         [["5.9.0+1".artifact_metadata.sources]]
         package = "capnproto_jll"
         type = "builddependency"
+
+["5.10.0+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.10.0+0/rr.v5.10.0.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.10.0+0/rr.v5.10.0.i686-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/rr_jll.jl/releases/download/rr-v5.10.0+0/rr.v5.10.0.x86_64-linux-gnu-cxx11.tar.gz"]
+registered = 2026-11-27T06:31:19.000Z
+
+    [["5.10.0+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/2af84e31d945ab3eda356ba6d2820614754e9430/R/rr/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/r/rr/build_tarballs.jl/2af84e31d945ab3eda356ba6d2820614754e9430.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["5.10.0+0".artifact_metadata.sources]]
+        hash = "7c5a08e538e7999bf996f60a8c206e122f4b8050"
+        type = "git"
+        url = "https://github.com/rr-debugger/rr.git"
+
+            ["5.10.0+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/rr-record-replay"
+            provenance = "git-tag"
+            version = "5.10.0"
+        [["5.10.0+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2af84e31d945ab3eda356ba6d2820614754e9430/R/rr/bundled"
+        [["5.10.0+0".artifact_metadata.sources]]
+        package = "capnproto_jll"
+        type = "builddependency"

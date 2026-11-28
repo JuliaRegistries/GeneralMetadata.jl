@@ -37,3 +37,22 @@ registered = 2023-06-21T13:44:06.000Z
         [["0.1.2+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/2c320e93b306272fbeb19d5d7c57700ce62bf191/L/LSODA/bundled"
+
+["0.1.3+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/LSODA_jll.jl/releases/download/LSODA-v0.1.3+0/LSODA.v0.1.3.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-27T13:35:20.000Z
+
+    [["0.1.3+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/c2bfb2079a0e2cf841a680e4782ebf8e5c560caf/L/LSODA/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/lsoda/build_tarballs.jl/c2bfb2079a0e2cf841a680e4782ebf8e5c560caf.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["0.1.3+0".artifact_metadata.sources]]
+        hash = "014a16bfa199eaffcf641eafdce8dcc487bfe9d9"
+        type = "git"
+        url = "https://github.com/sdwfrost/liblsoda.git"
+        [["0.1.3+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/c2bfb2079a0e2cf841a680e4782ebf8e5c560caf/L/LSODA/bundled"

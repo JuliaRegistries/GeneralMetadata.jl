@@ -1,0 +1,52 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.10"
+lazy_artifacts = false
+name = "MiniZinc"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11", "armv6l-linux-gnueabihf-cxx11", "armv7l-linux-gnueabihf-cxx11", "riscv64-linux-gnu-cxx11", "i686-linux-musl-cxx11", "x86_64-linux-musl-cxx11", "aarch64-linux-musl-cxx11", "armv6l-linux-musleabihf-cxx11", "armv7l-linux-musleabihf-cxx11", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-w64-mingw32-cxx11"]
+script = """cd $WORKSPACE/srcdir/libminizinc\n\nCMAKE_FLAGS=()\n# mimalloc adds -march=armv8.1-a by default on arm64, which BinaryBuilder forbids.\nCMAKE_FLAGS+=(-DMI_OPT_ARCH=OFF)\n# libmzn is dlopen'ed into Julia, so mimalloc must not replace the\n# process-wide malloc (it segfaults on load). MiniZinc still uses mimalloc\n# for its own AST allocations.\nCMAKE_FLAGS+=(-DMZN_MIMALLOC_OVERRIDE=OFF)\nif [[ \"${target}\" == *-mingw* ]]; then\n    # The tree-sitter grammars mark two symbols __declspec(dllexport), which\n    # disables MinGW's automatic export of every other symbol in libmzn.\n    CMAKE_FLAGS+=(-DCMAKE_SHARED_LINKER_FLAGS=\"-Wl,--export-all-symbols\")\nfi\n\ncmake -B build \\\n    -DCMAKE_INSTALL_PREFIX=${prefix} \\\n    -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n    -DCMAKE_BUILD_TYPE=Release \\\n    -DBUILD_SHARED_LIBS=ON \\\n    \"${CMAKE_FLAGS[@]}\"\ncmake --build build --parallel ${nproc}\ncmake --install build\n"""
+toplevel_block = ""
+version = "v2.11.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"12.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+build_version = "1.16.0"
+compat = "=1.16.0"
+name = "HiGHS_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["minizinc"]
+type = "exe"
+variable_name = "minizinc"
+[[products]]
+dir_paths = []
+dlopen_flags = []
+dont_dlopen = false
+libnames = ["libmzn"]
+type = "lib"
+variable_name = "libmzn"
+
+[[sources]]
+hash = "aac81d56847356090a4d915576e8719d196a1395"
+tag = "2.11.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/MiniZinc/libminizinc.git"

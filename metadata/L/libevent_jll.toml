@@ -140,3 +140,27 @@ registered = 2025-02-10T18:14:52.000Z
         [["2.1.15+0".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/d0298176a7c9d6af659ecb18fd534da14442654c/L/libevent/bundled"
+
+["2.1.16+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.armv6l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.armv6l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.armv7l-linux-gnueabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.armv7l-linux-musleabihf.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.i686-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.i686-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.i686-w64-mingw32.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/libevent_jll.jl/releases/download/libevent-v2.1.16+0/libevent.v2.1.16.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-27T15:42:59.000Z
+
+    [["2.1.16+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/54429d78e8480e6cf3035e1151379a9d5e6191fd/L/libevent/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/l/libevent/build_tarballs.jl/54429d78e8480e6cf3035e1151379a9d5e6191fd.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["2.1.16+0".artifact_metadata.sources]]
+        hash = "f7e9383b8c0baa81b687e5b5eecc01beefaf1b19b64151d95ed61647fe7a315c"
+        type = "archive"
+        url = "https://github.com/libevent/libevent/releases/download/release-2.1.13-stable/libevent-2.1.13-stable.tar.gz"
+
+            ["2.1.16+0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/libevent"
+            provenance = "repology-url"
+            version = "2.1.13"
+        [["2.1.16+0".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/54429d78e8480e6cf3035e1151379a9d5e6191fd/L/libevent/bundled"

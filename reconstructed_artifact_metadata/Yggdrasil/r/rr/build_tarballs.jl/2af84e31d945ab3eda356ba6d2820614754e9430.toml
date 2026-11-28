@@ -1,0 +1,76 @@
+augment_platform_block = ""
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "rr"
+platforms = ["i686-linux-gnu-cxx11", "x86_64-linux-gnu-cxx11", "aarch64-linux-gnu-cxx11"]
+script = """cd ${WORKSPACE}/srcdir/rr/\n\n# Don't require ARMv8.3 of the host running rr\nsed -i 's/-march=armv8.3-a //' CMakeLists.txt\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/aarch64-xpac-without-armv8.3.patch\natomic_patch -p1 ${WORKSPACE}/srcdir/patches/x86_64-syscall-cancel-arch-hook.patch\n\nmkdir build && cd build\nPKG_CONFIG_LIBDIR=/workspace/destdir/lib/pkgconfig \\\ncmake -GNinja -DCMAKE_BUILD_TYPE=Release \\\n      -DCMAKE_INSTALL_PREFIX=${prefix} -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \\\n      -Ddisable32bit=ON -DBUILD_TESTS=OFF -DWILL_RUN_TESTS=OFF -Dstaticlibs=ON ..\nninja -j${nproc}\nninja install\n"""
+toplevel_block = ""
+version = "v5.10.0"
+
+[build_options]
+compression_format = "\"gzip\""
+preferred_gcc_version = "v\"10.0.0\""
+
+[[dependencies]]
+compat = ""
+name = "capnproto_jll"
+platforms = ["any"]
+top_level = false
+type = "hostdependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "capnproto_jll"
+platforms = ["any"]
+top_level = false
+type = "builddependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zlib_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "Zstd_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+[[dependencies]]
+compat = ""
+name = "CompilerSupportLibraries_jll"
+platforms = ["any"]
+top_level = false
+type = "dependency"
+version-major = 0
+version-minor = 0
+version-patch = 0
+
+[[products]]
+binnames = ["rr"]
+type = "exe"
+variable_name = "rr"
+
+[[sources]]
+hash = "7c5a08e538e7999bf996f60a8c206e122f4b8050"
+tag = "5.10.0"
+type = "git"
+unpack_target = ""
+url = "https://github.com/rr-debugger/rr.git"
+[[sources]]
+follow_symlinks = false
+path = "./bundled"
+target = ""
+type = "directory"

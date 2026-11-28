@@ -1,0 +1,23 @@
+["17.0.0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/LLVMBootstrap_Clang_jll.jl/releases/download/LLVMBootstrap_Clang-v17.0.0/LLVMBootstrap_Clang-build_log.v17.0.0.aarch64-linux-gnu-target+any.tar.gz", "https://github.com/JuliaBinaryWrappers/LLVMBootstrap_Clang_jll.jl/releases/download/LLVMBootstrap_Clang-v17.0.0/LLVMBootstrap_Clang-build_log.v17.0.0.x86_64-linux-gnu-target+any.tar.gz", "https://github.com/JuliaBinaryWrappers/LLVMBootstrap_Clang_jll.jl/releases/download/LLVMBootstrap_Clang-v17.0.0/LLVMBootstrap_Clang-extract_log.v17.0.0.aarch64-linux-gnu-target+any.tar.gz", "https://github.com/JuliaBinaryWrappers/LLVMBootstrap_Clang_jll.jl/releases/download/LLVMBootstrap_Clang-v17.0.0/LLVMBootstrap_Clang-extract_log.v17.0.0.x86_64-linux-gnu-target+any.tar.gz", "https://github.com/JuliaBinaryWrappers/LLVMBootstrap_Clang_jll.jl/releases/download/LLVMBootstrap_Clang-v17.0.0/LLVMBootstrap_Clang.v17.0.0.aarch64-linux-gnu-target+any.tar.gz", "https://github.com/JuliaBinaryWrappers/LLVMBootstrap_Clang_jll.jl/releases/download/LLVMBootstrap_Clang-v17.0.0/LLVMBootstrap_Clang.v17.0.0.x86_64-linux-gnu-target+any.tar.gz"]
+registered = 2026-11-27T00:47:09.000Z
+
+    [["17.0.0".artifact_metadata]]
+    metadata = "https://raw.githubusercontent.com/JuliaBinaryWrappers/LLVMBootstrap_Clang_jll.jl/28791974d140746d761e0aa6e1b498b28cecce3b/JLL.toml"
+    metadata_source = "JLL.toml"
+    metadata_type = "JLLGenerator JLL.toml"
+    metadata_version = "1.0"
+
+        [["17.0.0".artifact_metadata.sources]]
+        hash = "6009708b4367171ccdbf4b5905cb6a803753fe18"
+        type = "git"
+        url = "https://github.com/llvm/llvm-project.git"
+
+            ["17.0.0".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "git-tag"
+            version = "17.0.6"
+        [["17.0.0".artifact_metadata.sources]]
+        path = "L/LLVM/ClangBootstrap@17/bundled"
+        treehash = "4a8fe71bd032a8ed92aa1ff8c89da0494aba6ebd"
+        type = "directory"

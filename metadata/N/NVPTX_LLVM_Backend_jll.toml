@@ -241,3 +241,27 @@ registered = 2026-10-24T16:55:57.000Z
         [["23.1.2+2".artifact_metadata.sources]]
         type = "directory"
         url = "https://github.com/JuliaPackaging/Yggdrasil/tree/8548641975121e882f69c377e5efd0ca63db2146/C/CUDA/NVPTX_LLVM_Backend/bundled"
+
+["23.1.2+3"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+3/NVPTX_LLVM_Backend.v23.1.2.aarch64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+3/NVPTX_LLVM_Backend.v23.1.2.x86_64-linux-gnu-cxx11.tar.gz", "https://github.com/JuliaBinaryWrappers/NVPTX_LLVM_Backend_jll.jl/releases/download/NVPTX_LLVM_Backend-v23.1.2+3/NVPTX_LLVM_Backend.v23.1.2.x86_64-w64-mingw32-cxx11.tar.gz"]
+registered = 2026-11-27T13:35:54.000Z
+
+    [["23.1.2+3".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/9d9497c85d2cf21de695dd058b296fe8dc84dc80/C/CUDA/NVPTX_LLVM_Backend/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cuda/nvptx_llvm_backend/build_tarballs.jl/9d9497c85d2cf21de695dd058b296fe8dc84dc80.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["23.1.2+3".artifact_metadata.sources]]
+        hash = "c98bbef08a2b4c2613cd50e9aa9ae7b69b1fe6c16b2c40373bc0ab6116fdf78a"
+        type = "archive"
+        url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.2/llvm-project-23.1.2.src.tar.xz"
+
+            ["23.1.2+3".artifact_metadata.sources.upstream]
+            project = "repology.org/project/llvm"
+            provenance = "tag-scheme"
+            version = "23.1.2"
+        [["23.1.2+3".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/9d9497c85d2cf21de695dd058b296fe8dc84dc80/C/CUDA/NVPTX_LLVM_Backend/bundled"

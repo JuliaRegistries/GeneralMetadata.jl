@@ -134,3 +134,101 @@ registered = 2026-11-18T16:22:39.000Z
         [["3.6.0+0".artifact_metadata.sources]]
         package = "CUDA_SDK_static_jll"
         type = "builddependency"
+
+["3.6.0+1"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CCCL_C_jll.jl/releases/download/CCCL_C-v3.6.0+1/CCCL_C.v3.6.0.x86_64-linux-gnu-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/CCCL_C_jll.jl/releases/download/CCCL_C-v3.6.0+1/CCCL_C.v3.6.0.x86_64-linux-gnu-cuda+13.0.tar.gz"]
+registered = 2026-11-27T10:09:40.000Z
+
+    [["3.6.0+1".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/487eb085e70e4bf767f965c18e5b444c7fe36e8d/C/CCCL_C/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cccl_c/build_tarballs.jl/487eb085e70e4bf767f965c18e5b444c7fe36e8d.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.6.0+1".artifact_metadata.sources]]
+        hash = "62b7ac2454d3baf893f51037d3e5b19c32c4b724"
+        type = "git"
+        url = "https://github.com/NVIDIA/cccl.git"
+
+            ["3.6.0+1".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:cuda-cccl"
+            provenance = "git-tag"
+            version = "1.3.0"
+        [["3.6.0+1".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/487eb085e70e4bf767f965c18e5b444c7fe36e8d/C/CCCL_C/bundled"
+        [["3.6.0+1".artifact_metadata.sources]]
+        hash = "3a8d0609961af2034c7c7c209f5efcfb25c39095435dd23a827b7ca0e48b0f3d"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvfatbin/linux-x86_64/libnvfatbin-linux-x86_64-12.8.90-archive.tar.xz"
+        [["3.6.0+1".artifact_metadata.sources]]
+        hash = "9961b3484b6b71314063709a4f9529654f96782ad39e72bf1e00f070db8210d3"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.8.93-archive.tar.xz"
+        [["3.6.0+1".artifact_metadata.sources]]
+        hash = "2f23e25c90517aefd0417304a6b428760373bac78a57d0137645b1bd326f754d"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvfatbin/linux-x86_64/libnvfatbin-linux-x86_64-13.0.85-archive.tar.xz"
+        [["3.6.0+1".artifact_metadata.sources]]
+        hash = "3d2a51c6816278b90167550a7e0e9adfff9c8c919d87ef980565c0eb7fc23830"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvptxcompiler/linux-x86_64/libnvptxcompiler-linux-x86_64-13.0.88-archive.tar.xz"
+        [["3.6.0+1".artifact_metadata.sources]]
+        package = "LLVM_full_jll"
+        type = "builddependency"
+        [["3.6.0+1".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["3.6.0+1".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"
+
+["3.6.0+2"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/CCCL_C_jll.jl/releases/download/CCCL_C-v3.6.0+2/CCCL_C.v3.6.0.x86_64-linux-gnu-cuda+12.8.tar.gz", "https://github.com/JuliaBinaryWrappers/CCCL_C_jll.jl/releases/download/CCCL_C-v3.6.0+2/CCCL_C.v3.6.0.x86_64-linux-gnu-cuda+13.0.tar.gz"]
+registered = 2026-11-27T12:58:09.000Z
+
+    [["3.6.0+2".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/107ab6f0da8de3a9e953eeb012d97334e9ee7d21/C/CCCL_C/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/c/cccl_c/build_tarballs.jl/107ab6f0da8de3a9e953eeb012d97334e9ee7d21.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["3.6.0+2".artifact_metadata.sources]]
+        hash = "62b7ac2454d3baf893f51037d3e5b19c32c4b724"
+        type = "git"
+        url = "https://github.com/NVIDIA/cccl.git"
+
+            ["3.6.0+2".artifact_metadata.sources.upstream]
+            project = "repology.org/project/python:cuda-cccl"
+            provenance = "git-tag"
+            version = "1.3.0"
+        [["3.6.0+2".artifact_metadata.sources]]
+        type = "directory"
+        url = "https://github.com/JuliaPackaging/Yggdrasil/tree/107ab6f0da8de3a9e953eeb012d97334e9ee7d21/C/CCCL_C/bundled"
+        [["3.6.0+2".artifact_metadata.sources]]
+        hash = "3a8d0609961af2034c7c7c209f5efcfb25c39095435dd23a827b7ca0e48b0f3d"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvfatbin/linux-x86_64/libnvfatbin-linux-x86_64-12.8.90-archive.tar.xz"
+        [["3.6.0+2".artifact_metadata.sources]]
+        hash = "9961b3484b6b71314063709a4f9529654f96782ad39e72bf1e00f070db8210d3"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/cuda_nvcc/linux-x86_64/cuda_nvcc-linux-x86_64-12.8.93-archive.tar.xz"
+        [["3.6.0+2".artifact_metadata.sources]]
+        hash = "2f23e25c90517aefd0417304a6b428760373bac78a57d0137645b1bd326f754d"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvfatbin/linux-x86_64/libnvfatbin-linux-x86_64-13.0.85-archive.tar.xz"
+        [["3.6.0+2".artifact_metadata.sources]]
+        hash = "3d2a51c6816278b90167550a7e0e9adfff9c8c919d87ef980565c0eb7fc23830"
+        type = "archive"
+        url = "https://developer.download.nvidia.com/compute/cuda/redist/libnvptxcompiler/linux-x86_64/libnvptxcompiler-linux-x86_64-13.0.88-archive.tar.xz"
+        [["3.6.0+2".artifact_metadata.sources]]
+        package = "LLVM_full_jll"
+        type = "builddependency"
+        [["3.6.0+2".artifact_metadata.sources]]
+        package = "CUDA_SDK_jll"
+        type = "builddependency"
+        [["3.6.0+2".artifact_metadata.sources]]
+        package = "CUDA_SDK_static_jll"
+        type = "builddependency"

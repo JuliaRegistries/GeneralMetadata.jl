@@ -1,0 +1,26 @@
+augment_platform_block = ""
+dependencies = []
+init_block = ""
+julia_compat = "1.6"
+lazy_artifacts = false
+name = "Dgraph"
+platforms = ["x86_64-linux-gnu", "aarch64-linux-gnu", "powerpc64le-linux-gnu", "riscv64-linux-gnu", "x86_64-linux-musl", "aarch64-linux-musl", "x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-freebsd", "aarch64-unknown-freebsd", "x86_64-w64-mingw32"]
+script = """DGRAPH_VERSION=v25.5.1\nDGRAPH_MAJOR=v25\ncd ${WORKSPACE}/srcdir/dgraph\ninstall_license LICENSE.txt\n\n# Keep Go's scratch dir out of the sandbox's small /tmp so the linker does not hit ENOSPC.\nexport GOTMPDIR=${WORKSPACE}/gotmp\nmkdir -vp ${GOTMPDIR}\n\nBUILD_SHA=$(git rev-parse --short HEAD)\nBUILD_DATE=$(git log -1 --format=%ci)\nPKG=\"github.com/dgraph-io/dgraph/${DGRAPH_MAJOR}/x\"\n\n# Invoke go build directly instead of dgraph/Makefile, which runs `go mod tidy`\n# and downloads/compiles jemalloc with curl. `-s` strips the OS symbol table\n# (keeping .gopclntab), preventing riscv64-linux-gnu-objdump from stalling during audit.\ncd dgraph\nCGO_ENABLED=0 go build \\\n    -trimpath \\\n    -ldflags \"-s -w -X ${PKG}.dgraphVersion=${DGRAPH_VERSION} -X ${PKG}.dgraphCodename=dgraph -X ${PKG}.lastCommitSHA=${BUILD_SHA} -X '${PKG}.lastCommitTime=${BUILD_DATE}' -X ${PKG}.gitBranch=release\" \\\n    -o \"dgraph${exeext}\"\ninstall -Dvm 755 \"dgraph${exeext}\" \"${bindir}/dgraph${exeext}\"\n"""
+toplevel_block = ""
+version = "v25.5.1"
+
+[build_options]
+compilers = "[:go, :c]"
+compression_format = "\"gzip\""
+
+[[products]]
+binnames = ["dgraph"]
+type = "exe"
+variable_name = "dgraph"
+
+[[sources]]
+hash = "7f7a7e3c533d2ca047bd74af2273ff65aded37f1"
+tag = "v25.5.1"
+type = "git"
+unpack_target = ""
+url = "https://github.com/dgraph-io/dgraph.git"

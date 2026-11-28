@@ -1,0 +1,15 @@
+["25.5.1+0"]
+artifact_urls = ["https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.aarch64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.aarch64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.aarch64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.aarch64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.powerpc64le-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.riscv64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.x86_64-apple-darwin.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.x86_64-linux-gnu.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.x86_64-linux-musl.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.x86_64-unknown-freebsd.tar.gz", "https://github.com/JuliaBinaryWrappers/Dgraph_jll.jl/releases/download/Dgraph-v25.5.1+0/Dgraph.v25.5.1.x86_64-w64-mingw32.tar.gz"]
+registered = 2026-11-27T13:17:42.000Z
+
+    [["25.5.1+0".artifact_metadata]]
+    buildscript = "https://github.com/JuliaPackaging/Yggdrasil/tree/249564e2b33cff9cbcd150372351b1604eaab8a6/D/Dgraph/build_tarballs.jl"
+    metadata = "reconstructed_artifact_metadata/Yggdrasil/d/dgraph/build_tarballs.jl/249564e2b33cff9cbcd150372351b1604eaab8a6.toml"
+    metadata_source = "retrospective (by README link)"
+    metadata_type = "BinaryBuilder --meta-json"
+    metadata_version = "0.6.6"
+
+        [["25.5.1+0".artifact_metadata.sources]]
+        hash = "7f7a7e3c533d2ca047bd74af2273ff65aded37f1"
+        type = "git"
+        url = "https://github.com/dgraph-io/dgraph.git"
